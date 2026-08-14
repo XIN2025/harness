@@ -1,0 +1,2 @@
+FROM yi-coder:1.5b-chat
+PARAMETER num_ctx 20480
