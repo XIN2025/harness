@@ -1,0 +1,4 @@
+.next/
+node_modules/
+data/oracle-eval.json
+pnpm-lock.yaml
