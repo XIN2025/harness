@@ -1,0 +1,1069 @@
+{
+  "repo": "remeda",
+  "rule": {
+    "src_prefix": "src/",
+    "min_lines": 30,
+    "max_lines": 600,
+    "min_edges": 1,
+    "dev_fraction": 0.75,
+    "order": "sha256(relative_path)"
+  },
+  "counts": {
+    "dev": 112,
+    "test": 38,
+    "total": 150
+  },
+  "digest": "8a26bfbc5f4ba0a3c61018544189a37257d919ef30f42e0c0b528dbc64e40e5f",
+  "files": [
+    {
+      "path": "src/hasSubObject.ts",
+      "sha256": "1b72616051eac1c3c6e25ca98670de6d7345b60d2425f38dbbe6d15552baa4d2",
+      "lines": 125,
+      "edges": 5,
+      "split": "dev"
+    },
+    {
+      "path": "src/groupByProp.ts",
+      "sha256": "5f0da02b37ae76c403ad1575ea5524a5106e98628fd687d924f7a61638c7c031",
+      "lines": 229,
+      "edges": 5,
+      "split": "dev"
+    },
+    {
+      "path": "src/take.ts",
+      "sha256": "662c763ede812036fe84f36492e5a631b53506898a8a7fe8b2115b936e1aa247",
+      "lines": 70,
+      "edges": 5,
+      "split": "dev"
+    },
+    {
+      "path": "src/toKebabCase.ts",
+      "sha256": "9b395a3550f12b8aa98c52253b743655e709e4b02485f2006b7816ce73d419ab",
+      "lines": 74,
+      "edges": 5,
+      "split": "dev"
+    },
+    {
+      "path": "src/findLast.ts",
+      "sha256": "3a6473cc51ade6e5c787e5ab09a4cccbeeed67e742a1d1772d413aa5a78befc8",
+      "lines": 92,
+      "edges": 3,
+      "split": "dev"
+    },
+    {
+      "path": "src/ceil.ts",
+      "sha256": "78abc81dd0a0401a76bb96d4fda26bdbcf236cab026e630834cb42548a5eb2e5",
+      "lines": 44,
+      "edges": 2,
+      "split": "dev"
+    },
+    {
+      "path": "src/sortBy.ts",
+      "sha256": "fecd72658f4c7524672f71a01897bb83174ae4d8a5102f7ea8c8d22d94e678e5",
+      "lines": 102,
+      "edges": 4,
+      "split": "dev"
+    },
+    {
+      "path": "src/partialLastBind.ts",
+      "sha256": "7a5d018c4c93a58167f972cb6ce4333a6355f3925795c629265b2391b13c28e6",
+      "lines": 85,
+      "edges": 1,
+      "split": "dev"
+    },
+    {
+      "path": "src/length.ts",
+      "sha256": "1fc8de33753b26e4a4d9da863b75195dc89c157083c2425c009e7968a9320922",
+      "lines": 36,
+      "edges": 2,
+      "split": "dev"
+    },
+    {
+      "path": "src/drop.ts",
+      "sha256": "797a16edf044fd2a8a9199547e51e4f1c1cf80195d4e14e60d088b25860fbc7c",
+      "lines": 165,
+      "edges": 5,
+      "split": "dev"
+    },
+    {
+      "path": "src/takeFirstBy.ts",
+      "sha256": "bcb75d76351156b7d96f6c439606a936a13a8caebd4480053526c9cf83475424",
+      "lines": 78,
+      "edges": 6,
+      "split": "dev"
+    },
+    {
+      "path": "src/indexBy.ts",
+      "sha256": "a6bc07b1774728d78bb3d77d796c439da66144e7c97a87aea86c541e1614563d",
+      "lines": 72,
+      "edges": 4,
+      "split": "dev"
+    },
+    {
+      "path": "src/median.ts",
+      "sha256": "73b328010f636bd43b1d94099d3446278cca26be5e7ce692fbdbf0ebef3b0f75",
+      "lines": 79,
+      "edges": 4,
+      "split": "dev"
+    },
+    {
+      "path": "src/zipWith.ts",
+      "sha256": "54473bf270fed786995f78e7d4b4200c16f5dadeffc8a208f9d668264f58a3cc",
+      "lines": 120,
+      "edges": 8,
+      "split": "dev"
+    },
+    {
+      "path": "src/fromKeys.ts",
+      "sha256": "6dfcf1256f8bce158862d4f3d51878fad821c1c88b91f0e90c4b1a4b9dfff713",
+      "lines": 92,
+      "edges": 4,
+      "split": "dev"
+    },
+    {
+      "path": "src/when.ts",
+      "sha256": "dca4844f1391cb5f3ee13fbe61836923ce01c5e06469614207bf8ca610f980aa",
+      "lines": 169,
+      "edges": 5,
+      "split": "dev"
+    },
+    {
+      "path": "src/stringToPath.ts",
+      "sha256": "29ec3ae67ae4776fb7c08b4367985531ba05076c12c17173c71d893c9456cc23",
+      "lines": 141,
+      "edges": 5,
+      "split": "dev"
+    },
+    {
+      "path": "src/omit.ts",
+      "sha256": "5ad35fb348f291d04557027dc4c39358fd3957b7cebad193c9c0d27057e60c15",
+      "lines": 164,
+      "edges": 3,
+      "split": "dev"
+    },
+    {
+      "path": "src/internal/purryFromLazy.ts",
+      "sha256": "7e3ae89c322adb419d4a078d5e6f8f9ccbf52a3ca027529e0cc88a4d3c9c9989",
+      "lines": 47,
+      "edges": 5,
+      "split": "dev"
+    },
+    {
+      "path": "src/last.ts",
+      "sha256": "c8df1e430f20827f530687299733030199d555daa932847ad404e1a99b85eaf0",
+      "lines": 51,
+      "edges": 3,
+      "split": "dev"
+    },
+    {
+      "path": "src/difference.ts",
+      "sha256": "be3323e0ad630e95e76340cd0f695dbb36ce391ebebf652da11334e99e46c4b3",
+      "lines": 72,
+      "edges": 6,
+      "split": "dev"
+    },
+    {
+      "path": "src/isIncludedIn.ts",
+      "sha256": "0f5ebe146a8ce7f262bdad9a9576b2d6b925c628c292e142177b640d25d1f64c",
+      "lines": 154,
+      "edges": 3,
+      "split": "dev"
+    },
+    {
+      "path": "src/findLastIndex.ts",
+      "sha256": "383924399a85fb1dbafc071b0441223e8250a5d5e105d33503c34c76ea0e3a3c",
+      "lines": 74,
+      "edges": 3,
+      "split": "dev"
+    },
+    {
+      "path": "src/internal/quickSelect.ts",
+      "sha256": "86c0d829f15ed379f0d1067772f3ab4bf8be4b42ae64abfee6b2dea326eace86",
+      "lines": 93,
+      "edges": 7,
+      "split": "dev"
+    },
+    {
+      "path": "src/omitBy.ts",
+      "sha256": "1c9f23f0bc34aa7420a85e4f8b9ada4f26a1986a6d487694b5f3123565239007",
+      "lines": 184,
+      "edges": 4,
+      "split": "dev"
+    },
+    {
+      "path": "src/piped.ts",
+      "sha256": "65fda71d34456bd7e0b482ae6844a00103e4cbef2357ce26d4628a7d85000319",
+      "lines": 199,
+      "edges": 1,
+      "split": "dev"
+    },
+    {
+      "path": "src/reduce.ts",
+      "sha256": "26f8d9f51eb99635435316672c699f43d854d59f3edd71ff7be1e16894a484cb",
+      "lines": 87,
+      "edges": 4,
+      "split": "dev"
+    },
+    {
+      "path": "src/invert.ts",
+      "sha256": "902fd581b378cf637ef1e48b907c4ceda148b509d226d017ece64ed62682ff56",
+      "lines": 55,
+      "edges": 3,
+      "split": "dev"
+    },
+    {
+      "path": "src/isDeepEqual.ts",
+      "sha256": "7e98f0acc415cae52d9f451e6034da44904d61582649328e0f244a80cf40e980",
+      "lines": 251,
+      "edges": 23,
+      "split": "dev"
+    },
+    {
+      "path": "src/mapKeys.ts",
+      "sha256": "47a74f0a70b6494dd3cbf092b5ff3e34a0d9c696c9957631fa36c7c4458d75ab",
+      "lines": 106,
+      "edges": 4,
+      "split": "dev"
+    },
+    {
+      "path": "src/partition.ts",
+      "sha256": "4e86542f46208f217177928fc6443fde8214f3d5e8bd7c21432999baed773e53",
+      "lines": 80,
+      "edges": 5,
+      "split": "dev"
+    },
+    {
+      "path": "src/unique.ts",
+      "sha256": "0c2d09882888e50f7207d8d63467f6a3bfeea976f303bce09d5b2f313a2ab706",
+      "lines": 54,
+      "edges": 5,
+      "split": "dev"
+    },
+    {
+      "path": "src/sortedIndexWith.ts",
+      "sha256": "c6c2df6c4952f0dbf536ce43a2ddefeb2e8d8bea734ae2b77ea7b458226afedc",
+      "lines": 82,
+      "edges": 2,
+      "split": "dev"
+    },
+    {
+      "path": "src/first.ts",
+      "sha256": "367f0e2dd1c4624a9143902d1e25b5927735bb684e16884e9806cd799ba225a4",
+      "lines": 59,
+      "edges": 5,
+      "split": "dev"
+    },
+    {
+      "path": "src/divide.ts",
+      "sha256": "c0cb203f156052f700038dd0eef746a0b6000792aae6d7891763d64f4c7ae2d3",
+      "lines": 43,
+      "edges": 2,
+      "split": "dev"
+    },
+    {
+      "path": "src/purry.ts",
+      "sha256": "0fcaa31bd2a34bf850409c3e65142f4b6a0ed535ecba87acedebd8983989a78c",
+      "lines": 66,
+      "edges": 3,
+      "split": "dev"
+    },
+    {
+      "path": "src/internal/purryOrderRules.ts",
+      "sha256": "58adb932c593ca4f02ef9e1062a00e5406fe6781d9578cef22feb5f648693219",
+      "lines": 178,
+      "edges": 14,
+      "split": "dev"
+    },
+    {
+      "path": "src/set.ts",
+      "sha256": "e15967fe87fd22ea338b1bea050b2f037caac0c638d016da73d9e3d0b0fab554",
+      "lines": 57,
+      "edges": 2,
+      "split": "dev"
+    },
+    {
+      "path": "src/map.ts",
+      "sha256": "6c2c4219621a7ef1885287463dd1d43d27c4bf116778079d8b3b7fad760db848",
+      "lines": 70,
+      "edges": 6,
+      "split": "dev"
+    },
+    {
+      "path": "src/swapProps.ts",
+      "sha256": "ee62c2433ee2c3c8dc3c4a1f35715611dea9656efbd46e3155d21299a8275f80",
+      "lines": 62,
+      "edges": 2,
+      "split": "dev"
+    },
+    {
+      "path": "src/sample.ts",
+      "sha256": "715287f17d5f1438df2975a186e07da208ebdc6510c1d1af77210d8023fdf91f",
+      "lines": 217,
+      "edges": 11,
+      "split": "dev"
+    },
+    {
+      "path": "src/isEmpty.ts",
+      "sha256": "3c8bfd5405faabff54a47a6aa9fd1dba3ab1cb644c8d9814066c80b8916a9c49",
+      "lines": 66,
+      "edges": 2,
+      "split": "dev"
+    },
+    {
+      "path": "src/floor.ts",
+      "sha256": "148faa0e5fc3967f9a36f5bff2b8e664ed445afa6beae5fd61d006a003746582",
+      "lines": 44,
+      "edges": 2,
+      "split": "dev"
+    },
+    {
+      "path": "src/meanBy.ts",
+      "sha256": "35158cd641e179c161aacc02d91cb72a59570ff02776862f469db0cece272d55",
+      "lines": 63,
+      "edges": 4,
+      "split": "dev"
+    },
+    {
+      "path": "src/groupBy.ts",
+      "sha256": "81b1e8438c284ebad6364f1d149ffb2d545def691e224e388aa77a7a13e59cdb",
+      "lines": 112,
+      "edges": 6,
+      "split": "dev"
+    },
+    {
+      "path": "src/times.ts",
+      "sha256": "b7d2300155642471c1e50273792670c26a717dccf0fcc0b2584735289ccb8d62",
+      "lines": 101,
+      "edges": 6,
+      "split": "dev"
+    },
+    {
+      "path": "src/range.ts",
+      "sha256": "072cf96695319baa69730ece1e6c254c937416003ab0817bdaf043a39e8fda8d",
+      "lines": 101,
+      "edges": 8,
+      "split": "dev"
+    },
+    {
+      "path": "src/mapValues.ts",
+      "sha256": "a436427ed54a69e9310b5855a5332d59f9e4af01677b5e645d2bf68237b7047b",
+      "lines": 75,
+      "edges": 4,
+      "split": "dev"
+    },
+    {
+      "path": "src/sortedIndex.ts",
+      "sha256": "f97b07502cf9e290cde1c373b52d66279b3bc836a4d75fe5abccb5795c350026",
+      "lines": 53,
+      "edges": 3,
+      "split": "dev"
+    },
+    {
+      "path": "src/splitWhen.ts",
+      "sha256": "3bc0f57b69d88322a3f3b914bddb02b6af2830607c73b11fe7bd0fc315722307",
+      "lines": 48,
+      "edges": 5,
+      "split": "dev"
+    },
+    {
+      "path": "src/dropFirstBy.ts",
+      "sha256": "7bafff714c3541b8dce19c4579f7f80b753e64c6077a911cce10e78979eb7bae",
+      "lines": 81,
+      "edges": 7,
+      "split": "dev"
+    },
+    {
+      "path": "src/forEach.ts",
+      "sha256": "c17c00842721c8afaa489f89573e6f05c3f5367d87204b1854ae3322bef6a19a",
+      "lines": 81,
+      "edges": 6,
+      "split": "dev"
+    },
+    {
+      "path": "src/findIndex.ts",
+      "sha256": "39a6e4c9e37b1123a72eb3d0507724c218f6bd0ee1571c775c89c41300005e52",
+      "lines": 64,
+      "edges": 4,
+      "split": "dev"
+    },
+    {
+      "path": "src/funnel.ts",
+      "sha256": "c59582fe2c11fdf31393cff4fbd74fd6e67eddab651e5a636141425462824bea",
+      "lines": 314,
+      "edges": 11,
+      "split": "dev"
+    },
+    {
+      "path": "src/product.ts",
+      "sha256": "e5a9c8abf6191c6292f80144f4afb58bb85b34b084029bfbf33531436802d069",
+      "lines": 85,
+      "edges": 2,
+      "split": "dev"
+    },
+    {
+      "path": "src/isPlainObject.ts",
+      "sha256": "cb9aa4755f228d3b9df2086a67fa44b083b4e125a281fe6f55fbf2f5c7674a01",
+      "lines": 39,
+      "edges": 1,
+      "split": "dev"
+    },
+    {
+      "path": "src/sortedLastIndex.ts",
+      "sha256": "68a9aeeb59ef8a8dc0d4e4d5761bb0f7528c15f172e5807d7e4fd2c57d305c7a",
+      "lines": 62,
+      "edges": 3,
+      "split": "dev"
+    },
+    {
+      "path": "src/only.ts",
+      "sha256": "49d50fbc79b021f2572a4dc671f9947a54e1a82349b65b9b4a24fc18e1b83359",
+      "lines": 49,
+      "edges": 2,
+      "split": "dev"
+    },
+    {
+      "path": "src/takeWhile.ts",
+      "sha256": "2e7a2f9c951b691ea686f1bf22cb08464355e45131b3b7227caf35f588bc61b7",
+      "lines": 60,
+      "edges": 5,
+      "split": "dev"
+    },
+    {
+      "path": "src/takeLastWhile.ts",
+      "sha256": "1f300215c84cf6ca1bff9c5378ef89a180b9ed194b3581987e885a1d44344f2c",
+      "lines": 60,
+      "edges": 4,
+      "split": "dev"
+    },
+    {
+      "path": "src/randomInteger.ts",
+      "sha256": "7061b28b56dfd28c2f5efb1486fc29de6c96382e12558c64d2b4a6119c19b2d0",
+      "lines": 64,
+      "edges": 5,
+      "split": "dev"
+    },
+    {
+      "path": "src/endsWith.ts",
+      "sha256": "20196f149238c6b0ea7b78a28c95b57dfd64a7427eae66197fcdf419d52f4559",
+      "lines": 55,
+      "edges": 3,
+      "split": "dev"
+    },
+    {
+      "path": "src/capitalize.ts",
+      "sha256": "3c4ff73103d1171a167cf341b2bd4a519978fe96611f0be82a01ddf4488f99ef",
+      "lines": 60,
+      "edges": 4,
+      "split": "dev"
+    },
+    {
+      "path": "src/internal/binarySearchCutoffIndex.ts",
+      "sha256": "9e551c3662e1955fa97e9fbecf18bbe86fce21526fba42d5d811df49ebe01180",
+      "lines": 36,
+      "edges": 1,
+      "split": "dev"
+    },
+    {
+      "path": "src/concat.ts",
+      "sha256": "dc59bf0d237410cf0e1aff16da87d6f78f66580f9f03f85322c465c093cba13c",
+      "lines": 56,
+      "edges": 2,
+      "split": "dev"
+    },
+    {
+      "path": "src/pathOr.ts",
+      "sha256": "44de67873e4e7b13f8ace48c521d487cc8808a4cad425fe6604217f54dd9f4fa",
+      "lines": 196,
+      "edges": 2,
+      "split": "dev"
+    },
+    {
+      "path": "src/toUpperCase.ts",
+      "sha256": "eaf4d156f8d82fa1140a313b16376cc147eed1c35f6252b5296e378f19595d21",
+      "lines": 59,
+      "edges": 3,
+      "split": "dev"
+    },
+    {
+      "path": "src/zip.ts",
+      "sha256": "1aae0ad2b1ea0477434da5ab1084ec663f38a0ade5e8d3e12453aa604b637044",
+      "lines": 87,
+      "edges": 4,
+      "split": "dev"
+    },
+    {
+      "path": "src/sortedLastIndexBy.ts",
+      "sha256": "158c6eed386a374a3aaaeed7b6c40fe542940bebad0d6f07cff794277345e6e7",
+      "lines": 111,
+      "edges": 4,
+      "split": "dev"
+    },
+    {
+      "path": "src/prop.ts",
+      "sha256": "d62623c67d20039235ca704fa5ccbde090fcd7a2d2a320bfbef3d42a5e7154d6",
+      "lines": 470,
+      "edges": 1,
+      "split": "dev"
+    },
+    {
+      "path": "src/countBy.ts",
+      "sha256": "5536c462e40c6ab9e0e1c07c947889ca26b896b99d232aa269ed929f75e28b10",
+      "lines": 82,
+      "edges": 8,
+      "split": "dev"
+    },
+    {
+      "path": "src/sortedIndexBy.ts",
+      "sha256": "618597e2ebce7e307cdb48dada9d21201c6dd690f13b2682764688d443e70a4d",
+      "lines": 106,
+      "edges": 4,
+      "split": "dev"
+    },
+    {
+      "path": "src/split.ts",
+      "sha256": "e51653f72ff630ab4a58c8a96ed9d95d3b3fa7b22e88b6aa710ab0bdde984276",
+      "lines": 113,
+      "edges": 1,
+      "split": "dev"
+    },
+    {
+      "path": "src/defaultTo.ts",
+      "sha256": "e59a5d47057e85033680a642a067bd2937f0966940092f4049482986dc041588",
+      "lines": 69,
+      "edges": 2,
+      "split": "dev"
+    },
+    {
+      "path": "src/sum.ts",
+      "sha256": "6335375ec43ab5ffc4d9124d9b970a54c8058b707dd3d4f3178535d2f50a3490",
+      "lines": 84,
+      "edges": 2,
+      "split": "dev"
+    },
+    {
+      "path": "src/fromEntries.ts",
+      "sha256": "105ae59a1f20fd8def989531da0a68635e4f18be52904655255051e5a9f70f92",
+      "lines": 147,
+      "edges": 1,
+      "split": "dev"
+    },
+    {
+      "path": "src/add.ts",
+      "sha256": "a40ece21f136eb23109c51514a89c70ebef347bf2d72b34f358915bcfb274617",
+      "lines": 43,
+      "edges": 2,
+      "split": "dev"
+    },
+    {
+      "path": "src/intersection.ts",
+      "sha256": "be519e078dea29bc1410d9f629eb7c2629f1e21a0c3e7b2ee1e9e2158e50ebdf",
+      "lines": 91,
+      "edges": 7,
+      "split": "dev"
+    },
+    {
+      "path": "src/filter.ts",
+      "sha256": "025f9dac9b5c2a7be6e826de4afecb0716668e4b44bfb3633fe7974f8d27e35e",
+      "lines": 117,
+      "edges": 6,
+      "split": "dev"
+    },
+    {
+      "path": "src/dropLastWhile.ts",
+      "sha256": "7b09cbc083fdb6ae73fe013b645624ab8c37d26b367ed64567d6f1cdbdab279e",
+      "lines": 55,
+      "edges": 4,
+      "split": "dev"
+    },
+    {
+      "path": "src/dropLast.ts",
+      "sha256": "103267e4538b85b4342e9d0b782cdb7a1905d765d4d9a5e6ece2149e08b28e9e",
+      "lines": 55,
+      "edges": 4,
+      "split": "dev"
+    },
+    {
+      "path": "src/evolve.ts",
+      "sha256": "338296079ba09bc18b676384852c8d2a4eedf7116f407ae1d670a235631a6eb1",
+      "lines": 155,
+      "edges": 5,
+      "split": "dev"
+    },
+    {
+      "path": "src/differenceWith.ts",
+      "sha256": "750ed29b2f7ca1b824afe39411bc8f299d4f38ca7b8a48556ed06a4a47e613cc",
+      "lines": 67,
+      "edges": 4,
+      "split": "dev"
+    },
+    {
+      "path": "src/swapIndices.ts",
+      "sha256": "59890bbbe28762e2f42ad2344de58deda440fad7f9c5520fd3d947abf3cd162c",
+      "lines": 188,
+      "edges": 5,
+      "split": "dev"
+    },
+    {
+      "path": "src/toTitleCase.ts",
+      "sha256": "ef69523594bdbd8dd9d5c3daebd418856db2fe91d4fcc16283c5522824078097",
+      "lines": 155,
+      "edges": 8,
+      "split": "dev"
+    },
+    {
+      "path": "src/internal/withPrecision.ts",
+      "sha256": "89bfa962dc86544b014b67fa0e542c0e7c34e5569b80ae3e6f5aa90af791fec4",
+      "lines": 54,
+      "edges": 12,
+      "split": "dev"
+    },
+    {
+      "path": "src/sort.ts",
+      "sha256": "b5b040887b1668ac8e8f6bd838a9b321913e1b0e1777f398ca4522b6b61c91b6",
+      "lines": 55,
+      "edges": 4,
+      "split": "dev"
+    },
+    {
+      "path": "src/dropWhile.ts",
+      "sha256": "32f120b5ff86b42f44d0b05b06488f376ea1df9eb43a70576c45df1931b09c44",
+      "lines": 55,
+      "edges": 5,
+      "split": "dev"
+    },
+    {
+      "path": "src/keys.ts",
+      "sha256": "611680dfae8659b8d1d80dc3447cb2f2dfc6fe1c568116d2f32b257557e77258",
+      "lines": 86,
+      "edges": 1,
+      "split": "dev"
+    },
+    {
+      "path": "src/debounce.ts",
+      "sha256": "4392703e7d4196cb731d8653d4978a5f3e92938e0868620b8348fb43d61822e6",
+      "lines": 289,
+      "edges": 8,
+      "split": "dev"
+    },
+    {
+      "path": "src/hasProp.ts",
+      "sha256": "90177693fd890d54e8a171f69eedb19bc0e4460c2fc745195cff5274fcba097d",
+      "lines": 95,
+      "edges": 3,
+      "split": "dev"
+    },
+    {
+      "path": "src/randomString.ts",
+      "sha256": "39294110c2d89cbe5a94fd4752b0d6fc590d11f5386beae1d94a3d020023d14f",
+      "lines": 51,
+      "edges": 6,
+      "split": "dev"
+    },
+    {
+      "path": "src/uncapitalize.ts",
+      "sha256": "afcc96daefa55f4d53e1a7cb0c9b8f785b917365068cb745a0b78518a909bb48",
+      "lines": 60,
+      "edges": 4,
+      "split": "dev"
+    },
+    {
+      "path": "src/internal/words.ts",
+      "sha256": "2088617adbf29c12e440220b243cb79e58a1fa80c5c6d2629b72c7e7128186af",
+      "lines": 86,
+      "edges": 5,
+      "split": "dev"
+    },
+    {
+      "path": "src/merge.ts",
+      "sha256": "304894e6fbcafa2d7b5a130d2aeec158a0e5b9f889de317303a1a1a789cad62f",
+      "lines": 65,
+      "edges": 2,
+      "split": "dev"
+    },
+    {
+      "path": "src/pullObject.ts",
+      "sha256": "a56b5293865f5f3f65101424842349e72631f917289ea22998f4427acd035c73",
+      "lines": 105,
+      "edges": 5,
+      "split": "dev"
+    },
+    {
+      "path": "src/sumBy.ts",
+      "sha256": "6480c7bc51197097348e4e8e1ddaba378084a73f0946ab839dc4c77c3fbacbb5",
+      "lines": 111,
+      "edges": 5,
+      "split": "dev"
+    },
+    {
+      "path": "src/pick.ts",
+      "sha256": "8e84cf51923b49c97f8229a5414602cbd70043c9bb9c2e35eb00a24896f335f8",
+      "lines": 131,
+      "edges": 2,
+      "split": "dev"
+    },
+    {
+      "path": "src/setPath.ts",
+      "sha256": "5067f80f9912442e66ffd02817afd24430ed8d75692492e510a37af30751562a",
+      "lines": 118,
+      "edges": 4,
+      "split": "dev"
+    },
+    {
+      "path": "src/join.ts",
+      "sha256": "bba2f69bf022da542f0e21043df8e88ac6f0ad11dbde6c57bd7dd5b980537788",
+      "lines": 60,
+      "edges": 3,
+      "split": "dev"
+    },
+    {
+      "path": "src/takeLast.ts",
+      "sha256": "53b08953331d51e0d305d10d952180ef26473377287ead8bed4b1d8387063c8b",
+      "lines": 54,
+      "edges": 4,
+      "split": "dev"
+    },
+    {
+      "path": "src/uniqueBy.ts",
+      "sha256": "153d60c5d841f9babe9545799cc9ec576718e0437e4adbab9acd642fe1e577f1",
+      "lines": 72,
+      "edges": 6,
+      "split": "dev"
+    },
+    {
+      "path": "src/flatMap.ts",
+      "sha256": "0627c01458c40feb01d342a5841846268ed9752f2c63d8bfc1d8c4c446afa517",
+      "lines": 78,
+      "edges": 7,
+      "split": "dev"
+    },
+    {
+      "path": "src/rankBy.ts",
+      "sha256": "813d721b6bed7fb64e5f0de2c8fde8ca1895f2ef0913b056d78b149c8e242554",
+      "lines": 73,
+      "edges": 3,
+      "split": "dev"
+    },
+    {
+      "path": "src/hasAtLeast.ts",
+      "sha256": "6189c8b92ee11b1a0434c570aecdeb3c5fe78a949ba1d25f4744f6869221c236",
+      "lines": 75,
+      "edges": 2,
+      "split": "dev"
+    },
+    {
+      "path": "src/nthBy.ts",
+      "sha256": "d73685e307e0d64cf57d8a941a9965578bcabddb978f2965f94a61fb8c19bda5",
+      "lines": 67,
+      "edges": 4,
+      "split": "dev"
+    },
+    {
+      "path": "src/sliceString.ts",
+      "sha256": "5aefa9f87740e4e6be5daec9148097f1beb94244e73bfb833eb42d6420c272f4",
+      "lines": 60,
+      "edges": 1,
+      "split": "dev"
+    },
+    {
+      "path": "src/objOf.ts",
+      "sha256": "34f873d171af864871c42c5fc30154b22d2a8a3aea90bf657977dba1e07faf19",
+      "lines": 38,
+      "edges": 2,
+      "split": "dev"
+    },
+    {
+      "path": "src/pipe.ts",
+      "sha256": "1f15bc55b132dd53f04540ac10c9def5bad94590cfa20bb02a34264fdea77d47",
+      "lines": 404,
+      "edges": 18,
+      "split": "dev"
+    },
+    {
+      "path": "src/round.ts",
+      "sha256": "f3d0ec095f51681fe6d2b6a4a8ad5a427bf1141566a212818734352401a621c8",
+      "lines": 44,
+      "edges": 2,
+      "split": "dev"
+    },
+    {
+      "path": "src/values.ts",
+      "sha256": "30c9e61082911af43816a41fb9c274b14243a883ad5640c778cff32803877557",
+      "lines": 44,
+      "edges": 1,
+      "split": "dev"
+    },
+    {
+      "path": "src/clone.ts",
+      "sha256": "bce8be3102532c25ede791c13241f0d251554f9eb82039e333fd1e8cdb3379b2",
+      "lines": 127,
+      "edges": 15,
+      "split": "dev"
+    },
+    {
+      "path": "src/partialBind.ts",
+      "sha256": "a359a749516f1d8062f69d5e176491266928eef3f5ed1258d14c69f9b19d109f",
+      "lines": 76,
+      "edges": 1,
+      "split": "test"
+    },
+    {
+      "path": "src/allPass.ts",
+      "sha256": "a6fd87a5a6ab6e5f2fee4137765d94ed86ecec7e4d35246d4e791c0f8fd37e94",
+      "lines": 51,
+      "edges": 4,
+      "split": "test"
+    },
+    {
+      "path": "src/addProp.ts",
+      "sha256": "fa124b3563887f3daed77a757c535e03ef489ed9c88200f07e17dc4a294e4608",
+      "lines": 63,
+      "edges": 2,
+      "split": "test"
+    },
+    {
+      "path": "src/splice.ts",
+      "sha256": "153f78127eec64b775b3a271efc0dd49e92f045fd03f370c1b7ddaa11f6f610d",
+      "lines": 81,
+      "edges": 3,
+      "split": "test"
+    },
+    {
+      "path": "src/subtract.ts",
+      "sha256": "58114bc372f47e9e3341a1c60a7f9ddde6ab1aadeacbc1dfcac4224c2cb81335",
+      "lines": 45,
+      "edges": 2,
+      "split": "test"
+    },
+    {
+      "path": "src/randomBigInt.ts",
+      "sha256": "650c5fe962a1765b3d91bf4ab52655bc8afbf4591406f9d5beec4766ef4eaa33",
+      "lines": 95,
+      "edges": 11,
+      "split": "test"
+    },
+    {
+      "path": "src/shuffle.ts",
+      "sha256": "e714a8248093a1a0f704aa0cd73b9ab7f15b0e3fb526c642306300774da2379d",
+      "lines": 48,
+      "edges": 4,
+      "split": "test"
+    },
+    {
+      "path": "src/tap.ts",
+      "sha256": "3c2065c719ae34d47fa47eb180eb6e95bacbf7d132b8871d4cc1d413c1102f01",
+      "lines": 55,
+      "edges": 3,
+      "split": "test"
+    },
+    {
+      "path": "src/truncate.ts",
+      "sha256": "0c85fd5f7768a59c18655d44a8be24c6de8f61466b0ea473825843b867068f21",
+      "lines": 286,
+      "edges": 6,
+      "split": "test"
+    },
+    {
+      "path": "src/isEmptyish.ts",
+      "sha256": "8aaa5e1451911b66c8645be52dcb67c132cb62c2c340b4c443bc7c0d63f308e9",
+      "lines": 226,
+      "edges": 1,
+      "split": "test"
+    },
+    {
+      "path": "src/flat.ts",
+      "sha256": "f56e3120dcc7c96effc991e00b975351f6a8d345da5c80103134ea8e82b21074",
+      "lines": 148,
+      "edges": 9,
+      "split": "test"
+    },
+    {
+      "path": "src/intersectionWith.ts",
+      "sha256": "58b9f4a48dfeea5ad2dc1adbfaff72b03b4af78716d0179909bfcf9d2ca22cf9",
+      "lines": 77,
+      "edges": 4,
+      "split": "test"
+    },
+    {
+      "path": "src/groupBy.test-prop.ts",
+      "sha256": "2c959f9eee33789e8c7d8cb69cc6784ed2bda378a41954439002737c5e3b53ba",
+      "lines": 115,
+      "edges": 1,
+      "split": "test"
+    },
+    {
+      "path": "src/doNothing.ts",
+      "sha256": "a153316326ebb0e726aea088a77e05c5d3ee44958b938ba7f8f7d610e06a8d2e",
+      "lines": 35,
+      "edges": 1,
+      "split": "test"
+    },
+    {
+      "path": "src/firstBy.ts",
+      "sha256": "ee6eaaf5ff0da61de13ed5a54edc43fc58956e8d6339d57273ff026258dab755",
+      "lines": 99,
+      "edges": 4,
+      "split": "test"
+    },
+    {
+      "path": "src/uniqueWith.ts",
+      "sha256": "953dff36ff5d61887253c11c43aa4f8ff2e350716602276b4e38baf1fb813da8",
+      "lines": 71,
+      "edges": 4,
+      "split": "test"
+    },
+    {
+      "path": "src/isStrictEqual.ts",
+      "sha256": "11538d8cc0667b2654b4d718f9c4907615a82cf93f1c99c6ea48a71fa9b6bef2",
+      "lines": 79,
+      "edges": 3,
+      "split": "test"
+    },
+    {
+      "path": "src/pickBy.ts",
+      "sha256": "15e28089690c4816b427a0dd3f69ba410d10798a60f2a748f7a3bb4662e9fbf2",
+      "lines": 208,
+      "edges": 4,
+      "split": "test"
+    },
+    {
+      "path": "src/toLowerCase.ts",
+      "sha256": "e68a09f6d493d98d6be36fa9fcaf5c0c64f35d9d2db2cb0fc6aa8fd123383ebe",
+      "lines": 59,
+      "edges": 3,
+      "split": "test"
+    },
+    {
+      "path": "src/clamp.ts",
+      "sha256": "2fb303c23ca88ef13a0ce0d937b455b63a6fd11a097677dbe188a3f2260dda7d",
+      "lines": 49,
+      "edges": 2,
+      "split": "test"
+    },
+    {
+      "path": "src/forEachObj.ts",
+      "sha256": "092428d5fac2dca297964641e446cfe8e1052b48eea53d2686ccacac24558a90",
+      "lines": 72,
+      "edges": 4,
+      "split": "test"
+    },
+    {
+      "path": "src/chunk.ts",
+      "sha256": "794ad2fdf9d28f7fa78463686772069f09957182db4719ac26bf9132fc7f20c7",
+      "lines": 266,
+      "edges": 8,
+      "split": "test"
+    },
+    {
+      "path": "src/mean.ts",
+      "sha256": "0e3b29caeacbbc1e54a853f88f08451ac9f0710e46448a3261869a1eef40cf3e",
+      "lines": 67,
+      "edges": 3,
+      "split": "test"
+    },
+    {
+      "path": "src/identity.ts",
+      "sha256": "77d182850eeeb98fc83737ab4ca7e964be3a973f75164d0f26298751163cecc4",
+      "lines": 30,
+      "edges": 1,
+      "split": "test"
+    },
+    {
+      "path": "src/startsWith.ts",
+      "sha256": "c96c4edd567d0eb85795c43ea61fea9bbc71e3c17472c2b72677fd89d22f0004",
+      "lines": 57,
+      "edges": 3,
+      "split": "test"
+    },
+    {
+      "path": "src/entries.ts",
+      "sha256": "0623e5bed572d2093b58b4c1a107b472c74a7ac9798ffd79a7b1c8b1927d5ddc",
+      "lines": 51,
+      "edges": 1,
+      "split": "test"
+    },
+    {
+      "path": "src/mergeDeep.ts",
+      "sha256": "56ae45d2f83bb80cb6550b51fd3d9ce6faa35cbe0f71617474c4b1527239710f",
+      "lines": 90,
+      "edges": 4,
+      "split": "test"
+    },
+    {
+      "path": "src/reverse.ts",
+      "sha256": "7d49f1c6b9b8c8fabccd0e7a8ce6ad5411d0d1cfcb17d407fe86417b0698fc80",
+      "lines": 52,
+      "edges": 3,
+      "split": "test"
+    },
+    {
+      "path": "src/multiply.ts",
+      "sha256": "7c85b85c36d8786700b74bc586e7aa8765e178ef25aee1875d76465fb7d79d94",
+      "lines": 43,
+      "edges": 2,
+      "split": "test"
+    },
+    {
+      "path": "src/isShallowEqual.ts",
+      "sha256": "933eb71cb3a853aad128916a71827fd9a069d9344c39f68092950e6fc87263ce",
+      "lines": 166,
+      "edges": 10,
+      "split": "test"
+    },
+    {
+      "path": "src/find.ts",
+      "sha256": "71d9628f29569bb846f9bc42f64d02e2c3433cf4887653bc324707e819101af0",
+      "lines": 95,
+      "edges": 7,
+      "split": "test"
+    },
+    {
+      "path": "src/anyPass.ts",
+      "sha256": "9215cadf55d02d811582711e053ba475584c04214bb4fa480ae8f04493ae01e0",
+      "lines": 51,
+      "edges": 4,
+      "split": "test"
+    },
+    {
+      "path": "src/mapWithFeedback.ts",
+      "sha256": "6f50d9389122af09982c8ec11d84fc5c6441a16934150746a429d3fb255f16fb",
+      "lines": 90,
+      "edges": 3,
+      "split": "test"
+    },
+    {
+      "path": "src/toCamelCase.ts",
+      "sha256": "6402c010d7991443ed4a3c5e32e8e5cd435f984ea6b7f29a5cee29640b6a652e",
+      "lines": 138,
+      "edges": 8,
+      "split": "test"
+    },
+    {
+      "path": "src/toSnakeCase.ts",
+      "sha256": "e040f3107549cc0e03a5e0aec0dcf7277c24ab320845430cd2e8e0d7eaeefd4c",
+      "lines": 74,
+      "edges": 5,
+      "split": "test"
+    },
+    {
+      "path": "src/splitAt.ts",
+      "sha256": "053760e030f735153d3ba8811534fe2cee489a0bb61b6b5e39e31b3e11cf2475",
+      "lines": 46,
+      "edges": 5,
+      "split": "test"
+    },
+    {
+      "path": "src/mapToObj.ts",
+      "sha256": "912f75ede12d5579de9d15556f5d2e5d8420d6d23aff0f3cec9adb7cf3252a45",
+      "lines": 97,
+      "edges": 4,
+      "split": "test"
+    },
+    {
+      "path": "src/internal/heap.ts",
+      "sha256": "43738a3f91ee60d61eadd244c9b9ed97ac32b58d8fcb83ef84c289bc60cde7a2",
+      "lines": 104,
+      "edges": 8,
+      "split": "test"
+    }
+  ]
+}

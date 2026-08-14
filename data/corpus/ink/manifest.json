@@ -1,0 +1,257 @@
+{
+  "repo": "ink",
+  "rule": {
+    "src_prefix": "src/",
+    "min_lines": 30,
+    "max_lines": 600,
+    "min_edges": 1,
+    "dev_fraction": 0.75,
+    "order": "sha256(relative_path)"
+  },
+  "counts": {
+    "dev": 26,
+    "test": 8,
+    "total": 34
+  },
+  "digest": "cdccbb1c59d74aecd367bac5da41201fc5d18b72143b1594f5fc7664972676ee",
+  "files": [
+    {
+      "path": "src/input-parser.ts",
+      "sha256": "01dc6027da6d8cd78e7a317fa0dd8c89f46606d41bc4bd173044c4a1909c5ad1",
+      "lines": 288,
+      "edges": 25,
+      "split": "dev"
+    },
+    {
+      "path": "src/measure-element.ts",
+      "sha256": "6194705435b276618ee992e98103015b2c7d65d52ad578be6847c3ff5bba6b2b",
+      "lines": 64,
+      "edges": 4,
+      "split": "dev"
+    },
+    {
+      "path": "src/render-background.ts",
+      "sha256": "e2c6e1ac5907d01f96bc9667ef59e4ad862587bfddd14f60bd747114f5154795",
+      "lines": 53,
+      "edges": 5,
+      "split": "dev"
+    },
+    {
+      "path": "src/hooks/use-paste.ts",
+      "sha256": "a07fcae9bdd519519b5467ce54e7112b20ec6686ade0be39c1a5605420012b52",
+      "lines": 84,
+      "edges": 9,
+      "split": "dev"
+    },
+    {
+      "path": "src/hooks/use-focus.ts",
+      "sha256": "2e42d63cd91e72cef82e336b58eb3e93e2da2e01ecc3a9641c3daeb23827904f",
+      "lines": 86,
+      "edges": 13,
+      "split": "dev"
+    },
+    {
+      "path": "src/components/ErrorOverview.tsx",
+      "sha256": "06ccdd669d7033dbd3f5f7e5a23d53b02b0d50ca45122ba9f1884f23f1243d06",
+      "lines": 144,
+      "edges": 16,
+      "split": "dev"
+    },
+    {
+      "path": "src/render-node-to-output.ts",
+      "sha256": "426153747579edfb7aedf9c09b04b048ff7e99cf4d04ae638aafa13e242bcf8f",
+      "lines": 215,
+      "edges": 30,
+      "split": "dev"
+    },
+    {
+      "path": "src/dom.ts",
+      "sha256": "c5124585924d7ac5bbfaae7068a62d95b4ae76e0d0da7700d5841932db99e8c6",
+      "lines": 319,
+      "edges": 37,
+      "split": "dev"
+    },
+    {
+      "path": "src/ansi-tokenizer.ts",
+      "sha256": "5950fef5584acd6090e2b45978ff75c65df787effa16d2bd5eb9235fdeddddba",
+      "lines": 510,
+      "edges": 28,
+      "split": "dev"
+    },
+    {
+      "path": "src/render-border.ts",
+      "sha256": "2c2d62d837eecbdca053c88e3810fe65f7f1d52f589fecd750f9050f0685792f",
+      "lines": 156,
+      "edges": 7,
+      "split": "dev"
+    },
+    {
+      "path": "src/cursor-helpers.ts",
+      "sha256": "adb313392fa215e78492a2a0f0f94481a1455c7e405acbec99724a59f0c2730f",
+      "lines": 117,
+      "edges": 7,
+      "split": "dev"
+    },
+    {
+      "path": "src/hooks/use-focus-manager.ts",
+      "sha256": "78a67ab83f6e253926211e98bd81c3bd3df025b289b065d7d2b9c6218581f129",
+      "lines": 64,
+      "edges": 1,
+      "split": "dev"
+    },
+    {
+      "path": "src/components/ErrorBoundary.tsx",
+      "sha256": "64b8bd9aeaa4fe54fe5ad8812774798ff0059cb5fe8ad2f5c128a03e83fcb775",
+      "lines": 38,
+      "edges": 1,
+      "split": "dev"
+    },
+    {
+      "path": "src/measure-text.ts",
+      "sha256": "3ab3cc8d17472e5864d5b8ecf136158e019aa85f08fa2ae6ed4adbaa8efde3ad",
+      "lines": 33,
+      "edges": 4,
+      "split": "dev"
+    },
+    {
+      "path": "src/hooks/use-input.ts",
+      "sha256": "8ab84d056a5c516d9b4496c6f9562bb487430baae46183cc407a0f04aa27dab2",
+      "lines": 272,
+      "edges": 13,
+      "split": "dev"
+    },
+    {
+      "path": "src/squash-text-nodes.ts",
+      "sha256": "b7ce17362890e3e338a656772d43b336903f858d95d13fa755dd879f208fabc8",
+      "lines": 49,
+      "edges": 3,
+      "split": "dev"
+    },
+    {
+      "path": "src/hooks/use-cursor.ts",
+      "sha256": "7f864b03be1814558c7cfaec68d413985bada2b5a297671b5b6930beebef8f00",
+      "lines": 38,
+      "edges": 5,
+      "split": "dev"
+    },
+    {
+      "path": "src/render-to-string.ts",
+      "sha256": "1525b652345bbd9b6d4478b442876594a6b979abab1b49eed10f5a470061b263",
+      "lines": 159,
+      "edges": 13,
+      "split": "dev"
+    },
+    {
+      "path": "src/colorize.ts",
+      "sha256": "a5f87642b7c2b11cf67ca4224f033be28bc231c083796114c99296c1269113a4",
+      "lines": 73,
+      "edges": 12,
+      "split": "dev"
+    },
+    {
+      "path": "src/reconciler.ts",
+      "sha256": "fd71eb685679e1954f6fe5fc91d6ddd6e44bd4ef66f88606059d2f8e02b6c3cc",
+      "lines": 461,
+      "edges": 37,
+      "split": "dev"
+    },
+    {
+      "path": "src/components/Text.tsx",
+      "sha256": "45e15c5a104f2ca670f533ae8d20ae406f023645c791e50ac203e6ea5450ea12",
+      "lines": 146,
+      "edges": 8,
+      "split": "dev"
+    },
+    {
+      "path": "src/render.ts",
+      "sha256": "c49ba133c10c6784c71cc69f2b3398bee2c83c78a4ada2a87aa23de2fdd1dc7d",
+      "lines": 275,
+      "edges": 9,
+      "split": "dev"
+    },
+    {
+      "path": "src/devtools.ts",
+      "sha256": "09fd830e802a7d1e6a7f1838045ae3eeeb7989f19568bc13b62bde22cfb4fa1a",
+      "lines": 46,
+      "edges": 8,
+      "split": "dev"
+    },
+    {
+      "path": "src/hooks/use-animation.ts",
+      "sha256": "14dafe0b08dfc4f695b7b4a86dd93ab01de417fb022a68f13c214c71eb3cf76b",
+      "lines": 152,
+      "edges": 13,
+      "split": "dev"
+    },
+    {
+      "path": "src/wrap-text.ts",
+      "sha256": "dce4532b9a1a050bad8fa36048642f5660b202fd8abf973fbe83129f37c5bfe7",
+      "lines": 56,
+      "edges": 4,
+      "split": "dev"
+    },
+    {
+      "path": "src/hooks/use-window-size.ts",
+      "sha256": "30d239a255f6acb8671ecd1f7235c585c9d5faf4bfb16a2df0e0a28d242bf43f",
+      "lines": 43,
+      "edges": 8,
+      "split": "dev"
+    },
+    {
+      "path": "src/output.ts",
+      "sha256": "478226ba399ee17c07fc0b448d755d13d910e8fe5d2339edeb3f9ed915758cac",
+      "lines": 320,
+      "edges": 32,
+      "split": "test"
+    },
+    {
+      "path": "src/parse-keypress.ts",
+      "sha256": "57cc06c1ec2c6bdf8ce426c1e0842ff86ac4217f918a47989f0f461c807fe7ce",
+      "lines": 548,
+      "edges": 36,
+      "split": "test"
+    },
+    {
+      "path": "src/components/Static.tsx",
+      "sha256": "c2cc98ef22396f2b882577c0af0da5a84702d24571b32beb412cc60a7ea55ccc",
+      "lines": 59,
+      "edges": 7,
+      "split": "test"
+    },
+    {
+      "path": "src/log-update.ts",
+      "sha256": "42d1a855ff52cabbc028454868606cbb38949c6fc8fff95c2dbef8f414de5b7b",
+      "lines": 386,
+      "edges": 33,
+      "split": "test"
+    },
+    {
+      "path": "src/hooks/use-box-metrics.ts",
+      "sha256": "f9435657bde90bbbb7c3a8a3849d68eae356ef9330a89158d2bdb5f63cd302e5",
+      "lines": 136,
+      "edges": 11,
+      "split": "test"
+    },
+    {
+      "path": "src/components/Transform.tsx",
+      "sha256": "c90df261b7ecaf233e803511c17d5b40869f69c1406decee982f8119264bf14e",
+      "lines": 43,
+      "edges": 1,
+      "split": "test"
+    },
+    {
+      "path": "src/sanitize-ansi.ts",
+      "sha256": "25fe01d6c026b112428db2612dcdbc36fb77ffb8b7d29a9f056fc0ff4b3d84d7",
+      "lines": 36,
+      "edges": 3,
+      "split": "test"
+    },
+    {
+      "path": "src/renderer.ts",
+      "sha256": "619f01ebf5a7e68f410d56e4ac473b8ede11c9bff0316fe820d78eece5eb4361",
+      "lines": 78,
+      "edges": 7,
+      "split": "test"
+    }
+  ]
+}

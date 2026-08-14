@@ -1,0 +1,82 @@
+{
+  "repo": "tus",
+  "rule": {
+    "src_prefix": "src/",
+    "min_lines": 30,
+    "max_lines": 600,
+    "min_edges": 1,
+    "dev_fraction": 0.75,
+    "order": "sha256(relative_path)"
+  },
+  "counts": {
+    "dev": 7,
+    "test": 2,
+    "total": 9
+  },
+  "digest": "4ac6196b7f0e88aae94948a40abcf6794904bf6cf1cdabad2dfcaeac1702d11d",
+  "files": [
+    {
+      "path": "src/handlers/HeadHandler.ts",
+      "sha256": "e9c0c7ed0faa4a669df02ad927211c67fdff30765fda30f6f25ec140d3fd9b43",
+      "lines": 69,
+      "edges": 14,
+      "split": "dev"
+    },
+    {
+      "path": "src/server.ts",
+      "sha256": "577f215afb223bf3cc29bd79ecf1309b2bea42e5f6c957ed62143a1142b51522",
+      "lines": 340,
+      "edges": 51,
+      "split": "dev"
+    },
+    {
+      "path": "src/handlers/PostHandler.ts",
+      "sha256": "7c3aa359b159d0ee26777fe989719aee6b77dabea5ef37ff4a31d303d9899376",
+      "lines": 196,
+      "edges": 33,
+      "split": "dev"
+    },
+    {
+      "path": "src/validators/HeaderValidator.ts",
+      "sha256": "ee3f127c537d60361bced31569933d4bd5e2b9f7b1f56dff5693ba65e6f24f26",
+      "lines": 100,
+      "edges": 3,
+      "split": "dev"
+    },
+    {
+      "path": "src/handlers/GetHandler.ts",
+      "sha256": "cc7ab45cef15ab12895fb451a64a931181c8c436071274c7f3734f77a84ccbc2",
+      "lines": 159,
+      "edges": 20,
+      "split": "dev"
+    },
+    {
+      "path": "src/lockers/MemoryLocker.ts",
+      "sha256": "0a7ace1b14da62e62fe0fb848aa4788d3e81a8a06652be7a73addfb914cac301",
+      "lines": 130,
+      "edges": 29,
+      "split": "dev"
+    },
+    {
+      "path": "src/handlers/BaseHandler.ts",
+      "sha256": "e965339b59b07753729b0d22938b883299d46a07df6043f479b7bbca98c38d1b",
+      "lines": 271,
+      "edges": 46,
+      "split": "dev"
+    },
+    {
+      "path": "src/handlers/DeleteHandler.ts",
+      "sha256": "c1da759af68a0d093a8d9420630dc4433e34fb33a1e19ce8baaeb76d08ffbe01",
+      "lines": 33,
+      "edges": 9,
+      "split": "test"
+    },
+    {
+      "path": "src/handlers/PatchHandler.ts",
+      "sha256": "3e6dd9312c7d404d65f2e77b40f057107cd857e1ae19fbd6619135ddacceca66",
+      "lines": 166,
+      "edges": 27,
+      "split": "test"
+    }
+  ]
+}

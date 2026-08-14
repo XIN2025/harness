@@ -1,0 +1,516 @@
+{
+  "repo": "hexo",
+  "rule": {
+    "src_prefix": "lib/",
+    "min_lines": 30,
+    "max_lines": 600,
+    "min_edges": 1,
+    "dev_fraction": 0.75,
+    "order": "sha256(relative_path)"
+  },
+  "counts": {
+    "dev": 53,
+    "test": 18,
+    "total": 71
+  },
+  "digest": "3e404b737cea18d5341d3472b05dbb9eb5838e245e9ab17d33f099f9d57c9aad",
+  "files": [
+    {
+      "path": "lib/hexo/load_theme_config.ts",
+      "sha256": "6b551e809eea986145b505a8aace0e26e3dbec06f94096ab2860c6d9e2b313b6",
+      "lines": 43,
+      "edges": 7,
+      "split": "dev"
+    },
+    {
+      "path": "lib/plugins/console/config.ts",
+      "sha256": "f5b3e5608fa4a94fff33afb7f1bd36914da75e2d5232550857b1bcacb3d1fd92",
+      "lines": 91,
+      "edges": 17,
+      "split": "dev"
+    },
+    {
+      "path": "lib/plugins/console/list/page.ts",
+      "sha256": "9033adc39d665c9ab89a5a3b76f253c719a59d9e2a01a28747f3964681231ebf",
+      "lines": 31,
+      "edges": 11,
+      "split": "dev"
+    },
+    {
+      "path": "lib/plugins/filter/before_post_render/backtick_code_block.ts",
+      "sha256": "d3b2f57dfd4511fb75d182c09052c03e254da0f434f8b3c228fec89df735682a",
+      "lines": 175,
+      "edges": 9,
+      "split": "dev"
+    },
+    {
+      "path": "lib/plugins/console/render.ts",
+      "sha256": "202b0c729a37261a0a403e1837bad222a66d71e88401c4cab61a057abbf6e4df",
+      "lines": 53,
+      "edges": 13,
+      "split": "dev"
+    },
+    {
+      "path": "lib/hexo/load_plugins.ts",
+      "sha256": "cee3a7cbe51a3dc83d4f93af2e90ea903c79798eee71f34accde551777f33dff",
+      "lines": 83,
+      "edges": 36,
+      "split": "dev"
+    },
+    {
+      "path": "lib/extend/injector.ts",
+      "sha256": "01d489ae58b688d684dd47629fb0e5ff7cba2944fc552a7acb5f50834fed4899",
+      "lines": 117,
+      "edges": 17,
+      "split": "dev"
+    },
+    {
+      "path": "lib/theme/index.ts",
+      "sha256": "e2e79c7ca0697d2e84006fd9b8ae28286d75439ad8ba7e49917a31c04de45c3d",
+      "lines": 88,
+      "edges": 16,
+      "split": "dev"
+    },
+    {
+      "path": "lib/plugins/filter/after_render/external_link.ts",
+      "sha256": "08ffa6f307878c24d17fe178064bf008a6f553bb603d4f763a542da517a223c4",
+      "lines": 51,
+      "edges": 7,
+      "split": "dev"
+    },
+    {
+      "path": "lib/plugins/console/deploy.ts",
+      "sha256": "2a080482b9f3855d1e401f2a98ae945ffae2d04710289aa8fe16c7b5e5578b55",
+      "lines": 65,
+      "edges": 15,
+      "split": "dev"
+    },
+    {
+      "path": "lib/plugins/helper/list_tags.ts",
+      "sha256": "3c9f464f3350721aec7f99b29cd5ec96f612d3d0381f552a0a40d7cc06dc7608",
+      "lines": 125,
+      "edges": 11,
+      "split": "dev"
+    },
+    {
+      "path": "lib/plugins/filter/template_locals/i18n.ts",
+      "sha256": "f9edc881eb4183bf8205f10aaed7010583864ae9f0ef258b39927b5f0cb0192f",
+      "lines": 37,
+      "edges": 10,
+      "split": "dev"
+    },
+    {
+      "path": "lib/plugins/tag/code.ts",
+      "sha256": "b1ca9ce4debc3b38995439f364c095986fa3ae55de182ba565cac97936398cb0",
+      "lines": 148,
+      "edges": 9,
+      "split": "dev"
+    },
+    {
+      "path": "lib/plugins/processor/post.ts",
+      "sha256": "0546445614511d5b4f8d64c468d5da3bf04c7ae881d9f66bc811827f7a89126e",
+      "lines": 347,
+      "edges": 69,
+      "split": "dev"
+    },
+    {
+      "path": "lib/plugins/helper/list_categories.ts",
+      "sha256": "69d251876775084b6d602ecb93526d03fdcd4890509da0d5fef47690ca175f97",
+      "lines": 127,
+      "edges": 11,
+      "split": "dev"
+    },
+    {
+      "path": "lib/extend/deployer.ts",
+      "sha256": "52faa9f35db03cdf433222fb5c729fe67cc082979c180ad200a77ee2f0d33711",
+      "lines": 55,
+      "edges": 4,
+      "split": "dev"
+    },
+    {
+      "path": "lib/plugins/helper/link_to.ts",
+      "sha256": "416a257f774884788178a5658279467a1a3d3642f4f350a6e9ff58f416c55940",
+      "lines": 48,
+      "edges": 6,
+      "split": "dev"
+    },
+    {
+      "path": "lib/extend/renderer.ts",
+      "sha256": "ac49046f9d636e74032324c8e5559d56b0c766237e9205a013e13f7e173653be",
+      "lines": 125,
+      "edges": 15,
+      "split": "dev"
+    },
+    {
+      "path": "lib/plugins/tag/index.ts",
+      "sha256": "ae6c908c7671569a6ee033b051f76a693650ed04a55c1050480ac70f2b1a6b37",
+      "lines": 73,
+      "edges": 7,
+      "split": "dev"
+    },
+    {
+      "path": "lib/plugins/processor/asset.ts",
+      "sha256": "e4de56a339388d30671ab3a2b0fba168571728bf299d3a9ea59f1a9a62eb3c04",
+      "lines": 132,
+      "edges": 24,
+      "split": "dev"
+    },
+    {
+      "path": "lib/plugins/console/list/route.ts",
+      "sha256": "0807b838a3c1898cc71836ff9f26865dc19ac9235d12c18e010a4c041af97581",
+      "lines": 53,
+      "edges": 11,
+      "split": "dev"
+    },
+    {
+      "path": "lib/plugins/generator/post.ts",
+      "sha256": "6de3016fa5eabee759e67aa26ddd0c77b5127174c5425c31a9c6020098d00a34",
+      "lines": 42,
+      "edges": 4,
+      "split": "dev"
+    },
+    {
+      "path": "lib/extend/generator.ts",
+      "sha256": "bb2fae4944319e1ef386c38d9f233d078f85c1540dc47e670a67113b82e22c18",
+      "lines": 59,
+      "edges": 4,
+      "split": "dev"
+    },
+    {
+      "path": "lib/hexo/router.ts",
+      "sha256": "edf36f9fe6fdc5b7738a786867d546edfcb7b622988c8f1a91c7e2ecca0efa55",
+      "lines": 181,
+      "edges": 30,
+      "split": "dev"
+    },
+    {
+      "path": "lib/models/binary_relation_index.ts",
+      "sha256": "ed28353e078ccfd50cd745f87f1b66ae9db6935bfbc3bc99838f9272a197b959",
+      "lines": 102,
+      "edges": 18,
+      "split": "dev"
+    },
+    {
+      "path": "lib/plugins/filter/new_post_path.ts",
+      "sha256": "a141ad022c17dbbcc08353ad1bca8a233c66579b63c7eb26dd557ed58c1104d0",
+      "lines": 102,
+      "edges": 18,
+      "split": "dev"
+    },
+    {
+      "path": "lib/plugins/helper/open_graph.ts",
+      "sha256": "4d31be8e169e5dbf728e3f7e6cb15fe9825f06fba432f294ecdee201f1ed2d83",
+      "lines": 203,
+      "edges": 31,
+      "split": "dev"
+    },
+    {
+      "path": "lib/plugins/helper/list_posts.ts",
+      "sha256": "dabde201648bb8755d66ebe8118e034dc106792904b6344f05c6a168eeef1660",
+      "lines": 71,
+      "edges": 5,
+      "split": "dev"
+    },
+    {
+      "path": "lib/box/file.ts",
+      "sha256": "701629b185d8904ae3921bab85bf541c599ad5473ecdef22b024a4aa21021b54",
+      "lines": 66,
+      "edges": 4,
+      "split": "dev"
+    },
+    {
+      "path": "lib/box/index.ts",
+      "sha256": "2e3eecd29a6bd04e9edc294d5950213367123a89e85ef9a84b42cc6bad90ede1",
+      "lines": 313,
+      "edges": 95,
+      "split": "dev"
+    },
+    {
+      "path": "lib/models/post.ts",
+      "sha256": "726fdb0864dbce6d82b4cb9d95dff773bf8aa7f27f09b9a70f39c749d9999f11",
+      "lines": 226,
+      "edges": 2,
+      "split": "dev"
+    },
+    {
+      "path": "lib/plugins/helper/paginator.ts",
+      "sha256": "e623be4e56fe8dd2faab7275e7c6428c754007aeacd3c26afae14c6efe8f6acb",
+      "lines": 175,
+      "edges": 24,
+      "split": "dev"
+    },
+    {
+      "path": "lib/plugins/helper/tagcloud.ts",
+      "sha256": "53bc9be796fd227a1a171188a51ca68dab7db42752ceafda3f0722012a8ee214",
+      "lines": 118,
+      "edges": 22,
+      "split": "dev"
+    },
+    {
+      "path": "lib/plugins/helper/css.ts",
+      "sha256": "c92db5bb9e213427c10c96eb4dcda125dbabe631aaad63f92d8a1c9038f0b76e",
+      "lines": 39,
+      "edges": 5,
+      "split": "dev"
+    },
+    {
+      "path": "lib/hexo/load_config.ts",
+      "sha256": "7de62a2bb5445c149e106495c7bd849aa30900f16dba84042b65ca920ed90899",
+      "lines": 75,
+      "edges": 6,
+      "split": "dev"
+    },
+    {
+      "path": "lib/extend/syntax_highlight.ts",
+      "sha256": "ba08bff38a708abfee430efaf32be9c21f0c3844e1c846a4e801fd0e65d0a81b",
+      "lines": 64,
+      "edges": 4,
+      "split": "dev"
+    },
+    {
+      "path": "lib/hexo/update_package.ts",
+      "sha256": "d809f78770e64bcef04bc62b31c3106e6c04ce5625cdf3b011eaa88c529db871",
+      "lines": 35,
+      "edges": 4,
+      "split": "dev"
+    },
+    {
+      "path": "lib/plugins/helper/js.ts",
+      "sha256": "36c1537ccde85b5e4dc4a245a3c13a8bdf6e90ba683d81cfc4e36a3d5702051b",
+      "lines": 36,
+      "edges": 5,
+      "split": "dev"
+    },
+    {
+      "path": "lib/plugins/helper/is.ts",
+      "sha256": "f43ea70f0f80bfef480f5b9c8247303364989666e132039daec9ba99d8f20045",
+      "lines": 94,
+      "edges": 12,
+      "split": "dev"
+    },
+    {
+      "path": "lib/plugins/generator/page.ts",
+      "sha256": "fe904bee8542c254571602af87a6aa777363f4e3b4d217a8378ab17866d9db2a",
+      "lines": 36,
+      "edges": 2,
+      "split": "dev"
+    },
+    {
+      "path": "lib/extend/console.ts",
+      "sha256": "e2525a2a8a7f81300b2915a2eb9faaddaff1861a9115e917caf8456b2f4149e6",
+      "lines": 120,
+      "edges": 8,
+      "split": "dev"
+    },
+    {
+      "path": "lib/hexo/scaffold.ts",
+      "sha256": "7fd88a425ae7cf079c702bfe3b82f176cbbbb9f0a137e8e8bbc32edfc38bdbc3",
+      "lines": 85,
+      "edges": 25,
+      "split": "dev"
+    },
+    {
+      "path": "lib/theme/view.ts",
+      "sha256": "7a59ae066302f3e267b24dec1c68f2d54461c7be94945b2ae909f5109c07cd1c",
+      "lines": 165,
+      "edges": 34,
+      "split": "dev"
+    },
+    {
+      "path": "lib/plugins/generator/asset.ts",
+      "sha256": "c134af44312f6b5c4008bb4b52e8242515852b27616f0c2978a696cc2b84dfd5",
+      "lines": 59,
+      "edges": 20,
+      "split": "dev"
+    },
+    {
+      "path": "lib/extend/processor.ts",
+      "sha256": "e3dbbcc4c08b3ceec6a47eb3032e166eba19f57196e7ef904b38ebc2444d0494",
+      "lines": 56,
+      "edges": 5,
+      "split": "dev"
+    },
+    {
+      "path": "lib/plugins/helper/date.ts",
+      "sha256": "42ff2b523937ef3e8b5067491559a35c3012dca2b309ea29b446f436bec14a4f",
+      "lines": 96,
+      "edges": 30,
+      "split": "dev"
+    },
+    {
+      "path": "lib/plugins/helper/list_archives.ts",
+      "sha256": "56425eb159eefd68100c9ea01cfc1bb19e2d77c75819cf28ce178c9731f7889f",
+      "lines": 129,
+      "edges": 15,
+      "split": "dev"
+    },
+    {
+      "path": "lib/hexo/render.ts",
+      "sha256": "ef8900e9267da36c4315b06dbb9c5329c113239ceedd67a8bd81c48bc5cd2676",
+      "lines": 142,
+      "edges": 37,
+      "split": "dev"
+    },
+    {
+      "path": "lib/extend/helper.ts",
+      "sha256": "dc4c6ff9854b7b3e3539aa8e442c7e51053acd80c21b09b17e63cfd9388be80d",
+      "lines": 87,
+      "edges": 1,
+      "split": "dev"
+    },
+    {
+      "path": "lib/plugins/tag/link.ts",
+      "sha256": "0858f1be6f85d733aa34723039ab96fd0f9a72c5eecebe99c96840a597db204e",
+      "lines": 58,
+      "edges": 6,
+      "split": "dev"
+    },
+    {
+      "path": "lib/theme/processors/source.ts",
+      "sha256": "5e10ceb116bd66640d6de0d7df50721ee182237d794e848f3a7dfc001c9917d8",
+      "lines": 39,
+      "edges": 6,
+      "split": "dev"
+    },
+    {
+      "path": "lib/plugins/helper/feed_tag.ts",
+      "sha256": "bac900489d087bb6b2fb81c36dc5c876adb066e1fbd97bcbdca0bb4da9559eda",
+      "lines": 56,
+      "edges": 7,
+      "split": "dev"
+    },
+    {
+      "path": "lib/plugins/helper/mail_to.ts",
+      "sha256": "3917510826d4120bbd80d900349c486afc3ce3cf1538ca06a9d71b9b1ac1da59",
+      "lines": 61,
+      "edges": 7,
+      "split": "dev"
+    },
+    {
+      "path": "lib/plugins/console/new.ts",
+      "sha256": "cfb44676864ac41ca853af986b9147d56c3e6027e1347c921d6f0783144a906b",
+      "lines": 68,
+      "edges": 9,
+      "split": "test"
+    },
+    {
+      "path": "lib/extend/tag.ts",
+      "sha256": "7d604f10b48de0f3964ad4f9f6479ede0c0c3281fae217752e4a1700bbd94656",
+      "lines": 290,
+      "edges": 76,
+      "split": "test"
+    },
+    {
+      "path": "lib/plugins/processor/common.ts",
+      "sha256": "e63e03b251c7a2b48cda6209a067b24647028d84ff30be527f0bdee98612e892",
+      "lines": 55,
+      "edges": 17,
+      "split": "test"
+    },
+    {
+      "path": "lib/models/types/moment.ts",
+      "sha256": "4d79f8c552434722de854cd2de8b834f10e515eab494263ebab20bbaf0b79049",
+      "lines": 93,
+      "edges": 17,
+      "split": "test"
+    },
+    {
+      "path": "lib/extend/filter.ts",
+      "sha256": "66c08b893611b56add27fda4508f0bdda9f85f86994c383f8b6d7dc9e44bf9bc",
+      "lines": 113,
+      "edges": 19,
+      "split": "test"
+    },
+    {
+      "path": "lib/plugins/console/list/index.ts",
+      "sha256": "fbf54e7e8e5b3c47cc37ba3062ae48af15b66ca203a0576e20c049a6a5004f3b",
+      "lines": 32,
+      "edges": 5,
+      "split": "test"
+    },
+    {
+      "path": "lib/plugins/console/migrate.ts",
+      "sha256": "e4fa19578b0b93c03a7e79cbe88e371583e293406c7b64304f9f71988ae2748c",
+      "lines": 34,
+      "edges": 9,
+      "split": "test"
+    },
+    {
+      "path": "lib/plugins/console/generate.ts",
+      "sha256": "d4da57a71563c38a3574548eed49535f0925447d82adf38c8210cb66d8e327f1",
+      "lines": 224,
+      "edges": 82,
+      "split": "test"
+    },
+    {
+      "path": "lib/plugins/renderer/nunjucks.ts",
+      "sha256": "bafd54630c19361fb8837a195f4907058015d2d5da29507ab4c804be5aa90030",
+      "lines": 69,
+      "edges": 17,
+      "split": "test"
+    },
+    {
+      "path": "lib/plugins/filter/after_post_render/external_link.ts",
+      "sha256": "18133b4a6203eab4495cdb55432007c188f59ce18a16ffe76bf55b7de026438a",
+      "lines": 36,
+      "edges": 4,
+      "split": "test"
+    },
+    {
+      "path": "lib/plugins/console/list/post.ts",
+      "sha256": "054b1d758d9750e4dd688c1d867ddb67393cb44cf012a7732e4d69713771340f",
+      "lines": 44,
+      "edges": 13,
+      "split": "test"
+    },
+    {
+      "path": "lib/plugins/tag/blockquote.ts",
+      "sha256": "0a885b2443a04988072d123a2013dcedfc642ac7ca54dea57fed27678dfd8d48",
+      "lines": 69,
+      "edges": 4,
+      "split": "test"
+    },
+    {
+      "path": "lib/plugins/helper/toc.ts",
+      "sha256": "6f05f747d03221c5affd806b813f3de7f93b08641db7bd99351ffd30f7fa4c30",
+      "lines": 142,
+      "edges": 21,
+      "split": "test"
+    },
+    {
+      "path": "lib/hexo/locals.ts",
+      "sha256": "83ed797c6a6ad6a9b181233d90450753daee0fb731548c5995d638c812c8f513",
+      "lines": 66,
+      "edges": 11,
+      "split": "test"
+    },
+    {
+      "path": "lib/extend/migrator.ts",
+      "sha256": "7518840ea5f5e971ef84a2af537afe86b9d7581e1d0ba6b5499b06016cd229f5",
+      "lines": 46,
+      "edges": 4,
+      "split": "test"
+    },
+    {
+      "path": "lib/plugins/helper/number_format.ts",
+      "sha256": "f583b6bd0577db7f6cc06e020bc6bacb38fe42c492d1c634d6bdd5542452cf38",
+      "lines": 54,
+      "edges": 9,
+      "split": "test"
+    },
+    {
+      "path": "lib/plugins/filter/post_permalink.ts",
+      "sha256": "31e971cbe8689c802a5290dd65ac55bfc75047dc4b5b934f89909f011c4e3a73",
+      "lines": 81,
+      "edges": 18,
+      "split": "test"
+    },
+    {
+      "path": "lib/plugins/console/clean.ts",
+      "sha256": "47fa65e5acd0e791f1b0c17018e9b2edc03a7e5e3c4c49fadd761b4f6764e8bb",
+      "lines": 38,
+      "edges": 12,
+      "split": "test"
+    }
+  ]
+}

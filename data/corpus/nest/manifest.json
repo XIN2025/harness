@@ -1,0 +1,418 @@
+{
+  "repo": "nest",
+  "rule": {
+    "src_prefix": "",
+    "min_lines": 30,
+    "max_lines": 600,
+    "min_edges": 1,
+    "dev_fraction": 0.75,
+    "order": "sha256(relative_path)"
+  },
+  "counts": {
+    "dev": 43,
+    "test": 14,
+    "total": 57
+  },
+  "digest": "172de0a694349c2dff3dd5d21b8a50c63dd94c31c224b09518c2e30443ee36d0",
+  "files": [
+    {
+      "path": "decorators/core/use-interceptors.decorator.ts",
+      "sha256": "474b9e883b1fbb0d6a279248e787f6f8ac421830d28abae8044b62e339a2d394",
+      "lines": 68,
+      "edges": 4,
+      "split": "dev"
+    },
+    {
+      "path": "services/logger.service.ts",
+      "sha256": "1292fce5c47d289b176fcbbba62508e507f910755c75ecc888a7b1fa9cf091fe",
+      "lines": 345,
+      "edges": 29,
+      "split": "dev"
+    },
+    {
+      "path": "exceptions/http.exception.ts",
+      "sha256": "827a554cb1adcc6adc8d7134193d30420d211beb32796e3500abe5750f624963",
+      "lines": 187,
+      "edges": 14,
+      "split": "dev"
+    },
+    {
+      "path": "pipes/parse-int.pipe.ts",
+      "sha256": "b8c3f838c400037879f1df7241d77fb53bf802a0f3df2a1ee38ac3063f72bcb8",
+      "lines": 88,
+      "edges": 8,
+      "split": "dev"
+    },
+    {
+      "path": "exceptions/misdirected.exception.ts",
+      "sha256": "e66f8f993ea95a46b5a9c2f9482151e028e7622096f09e0ce1c657fa98dafda4",
+      "lines": 54,
+      "edges": 3,
+      "split": "dev"
+    },
+    {
+      "path": "utils/validate-each.util.ts",
+      "sha256": "531ef6c902f6a9f9ce398c534ebb271f923fc249eacf8aebb9eb8605b1fd3b86",
+      "lines": 32,
+      "edges": 4,
+      "split": "dev"
+    },
+    {
+      "path": "pipes/parse-float.pipe.ts",
+      "sha256": "7e5cff474794bc31fbe71fb4e0fec1638c885d63e51cc04cc19c39a729701fea",
+      "lines": 84,
+      "edges": 9,
+      "split": "dev"
+    },
+    {
+      "path": "pipes/validation.pipe.ts",
+      "sha256": "de8f7f741ad78bdef79eb28b4627c9bc0cb650ea525204f6675c2f4e89ab8e71",
+      "lines": 353,
+      "edges": 47,
+      "split": "dev"
+    },
+    {
+      "path": "exceptions/not-found.exception.ts",
+      "sha256": "8d93e962c20b8f51a8e532979b1c4ee8e683be7247cdf05910790c1185af0e4a",
+      "lines": 54,
+      "edges": 3,
+      "split": "dev"
+    },
+    {
+      "path": "decorators/http/request-mapping.decorator.ts",
+      "sha256": "5cab57207f5a4cce5ac1d52c9767ee2a8acb5c971909c16aed536d4ea69dbd0a",
+      "lines": 184,
+      "edges": 2,
+      "split": "dev"
+    },
+    {
+      "path": "exceptions/not-implemented.exception.ts",
+      "sha256": "b17f77e750fb3cfbe050037955d387d1df6ad4ebcaae1530591b23f2068bae12",
+      "lines": 54,
+      "edges": 3,
+      "split": "dev"
+    },
+    {
+      "path": "pipes/parse-array.pipe.ts",
+      "sha256": "36ca6eabe87852fd0083427ee824f35fbbd364aafe787e33157bb198117f28ed",
+      "lines": 191,
+      "edges": 25,
+      "split": "dev"
+    },
+    {
+      "path": "exceptions/unsupported-media-type.exception.ts",
+      "sha256": "dcf4afff52da2b1bcd53437ca7ad8b966047c93597812695c028877c1807b4e3",
+      "lines": 56,
+      "edges": 3,
+      "split": "dev"
+    },
+    {
+      "path": "exceptions/service-unavailable.exception.ts",
+      "sha256": "7eaa46ecbc54ea6cf4e6a7a5c9d747c39fc1fa4655b3585bf235b8d90247ade0",
+      "lines": 54,
+      "edges": 3,
+      "split": "dev"
+    },
+    {
+      "path": "exceptions/precondition-failed.exception.ts",
+      "sha256": "d527dc484ac4a9ea9cb28784c64df28726c464a44ff9d6e0b44aa291d352c45e",
+      "lines": 54,
+      "edges": 3,
+      "split": "dev"
+    },
+    {
+      "path": "exceptions/gateway-timeout.exception.ts",
+      "sha256": "cd5cc9b23e8b1d74388495f4faae6c55d100cf6a0b56a0080a0220e678438fd4",
+      "lines": 54,
+      "edges": 3,
+      "split": "dev"
+    },
+    {
+      "path": "exceptions/unauthorized.exception.ts",
+      "sha256": "9884a045e93d19b6e4537b6c9f6bda40bff05ee6131581a5c30c1430fbb0a7d6",
+      "lines": 54,
+      "edges": 3,
+      "split": "dev"
+    },
+    {
+      "path": "exceptions/payload-too-large.exception.ts",
+      "sha256": "d83be2968363cce12f79c5a43215f5a4f7acc16ebd8e5e706749d3e25022a95d",
+      "lines": 54,
+      "edges": 3,
+      "split": "dev"
+    },
+    {
+      "path": "serializer/class-serializer.interceptor.ts",
+      "sha256": "921572a37a27453c64208629956a7240cfd0e770909fe9d4381f88b223e0228e",
+      "lines": 113,
+      "edges": 18,
+      "split": "dev"
+    },
+    {
+      "path": "module-utils/utils/get-injection-providers.util.ts",
+      "sha256": "fad1b0ccf59e5da052e11574a565c14d4bf4ce09b38f6c0735e2c8d5a9aeb0f3",
+      "lines": 53,
+      "edges": 8,
+      "split": "dev"
+    },
+    {
+      "path": "decorators/core/controller.decorator.ts",
+      "sha256": "2fc0b916dcf333fc9005b792aa37dcf612e336ecff98b972ae901e2c37ff4f04",
+      "lines": 179,
+      "edges": 6,
+      "split": "dev"
+    },
+    {
+      "path": "exceptions/conflict.exception.ts",
+      "sha256": "43610bab7cc8cefb5d83c06d3aca97620e85bd07aa3eed239f761804f6b02e57",
+      "lines": 54,
+      "edges": 3,
+      "split": "dev"
+    },
+    {
+      "path": "pipes/default-value.pipe.ts",
+      "sha256": "2993debce35361014b8e39f8c88a770e8d5f7b062c35289c9db1f6a5fb64ebd7",
+      "lines": 32,
+      "edges": 3,
+      "split": "dev"
+    },
+    {
+      "path": "pipes/parse-uuid.pipe.ts",
+      "sha256": "49f11a29a676be70f8c5d432ddd1431b1e2cb7dc8f11e97b2d7502c1c9e89ddc",
+      "lines": 95,
+      "edges": 7,
+      "split": "dev"
+    },
+    {
+      "path": "utils/shared.utils.ts",
+      "sha256": "d2cdddb11a48b9b9231742049f582c7e9828a0bb66926a561eb3046a54e16e5d",
+      "lines": 52,
+      "edges": 11,
+      "split": "dev"
+    },
+    {
+      "path": "exceptions/not-acceptable.exception.ts",
+      "sha256": "65972b71a23c16f00c8bfcb99e3ced57f8f43acd8c8854ebc3bcf85d3c870516",
+      "lines": 54,
+      "edges": 3,
+      "split": "dev"
+    },
+    {
+      "path": "exceptions/http-version-not-supported.exception.ts",
+      "sha256": "97478c12e0c732b9c87754eeb886d92b6103d40587ee9013ad3f04e8ff21c47f",
+      "lines": 56,
+      "edges": 3,
+      "split": "dev"
+    },
+    {
+      "path": "decorators/core/optional.decorator.ts",
+      "sha256": "3770fd7f94db90d6ad8ee4d9a9c9e88317254d2168c012478f616b224ee847b9",
+      "lines": 39,
+      "edges": 3,
+      "split": "dev"
+    },
+    {
+      "path": "exceptions/method-not-allowed.exception.ts",
+      "sha256": "30470e80d5b6490c2614512f7e49493429c46a35fa89e96600c1fa63e431482c",
+      "lines": 54,
+      "edges": 3,
+      "split": "dev"
+    },
+    {
+      "path": "exceptions/request-timeout.exception.ts",
+      "sha256": "74317aa9d9d3fd753ede40387468078513ed2235ae6ba020de8e925cb991c690",
+      "lines": 54,
+      "edges": 3,
+      "split": "dev"
+    },
+    {
+      "path": "decorators/core/inject.decorator.ts",
+      "sha256": "177c8b0d765ec8c19f34507e18175c3c31b9be2ffbdfdac0d56ca9351cd3e89c",
+      "lines": 69,
+      "edges": 3,
+      "split": "dev"
+    },
+    {
+      "path": "decorators/core/use-pipes.decorator.ts",
+      "sha256": "e908962358d8c838dda9dcb20c3283550fda262b7841a88c8004bcc5ea52b889",
+      "lines": 50,
+      "edges": 4,
+      "split": "dev"
+    },
+    {
+      "path": "pipes/parse-date.pipe.ts",
+      "sha256": "681ba73ade1d3925cd6f45168d51e77ce3e12c56e27756602a04def616eef81d",
+      "lines": 81,
+      "edges": 6,
+      "split": "dev"
+    },
+    {
+      "path": "module-utils/configurable-module.builder.ts",
+      "sha256": "4d35d1685410dd146fd089c81f1ffc0e1d0c5eb969d332f17ccc16347d9250c6",
+      "lines": 373,
+      "edges": 25,
+      "split": "dev"
+    },
+    {
+      "path": "exceptions/bad-gateway.exception.ts",
+      "sha256": "18ae020581d2ff081e2ffc004ceac2c417191295b07df2dc1885e03767684b6b",
+      "lines": 54,
+      "edges": 3,
+      "split": "dev"
+    },
+    {
+      "path": "exceptions/unprocessable-entity.exception.ts",
+      "sha256": "3a5fc1a25de56a40a12d1d52069e75fa9b7e901b75563aaa75a8b80ebbd42936",
+      "lines": 56,
+      "edges": 3,
+      "split": "dev"
+    },
+    {
+      "path": "exceptions/forbidden.exception.ts",
+      "sha256": "7853802931587c36f209d11c8d7aad8e91471ea9b8d71560e1bc84cdec108ad8",
+      "lines": 54,
+      "edges": 3,
+      "split": "dev"
+    },
+    {
+      "path": "file-stream/streamable-file.ts",
+      "sha256": "d43a0a6aac6a78777b9088e83b22a8eca6bfdb8719666cc75f5a0fa938ee761e",
+      "lines": 93,
+      "edges": 7,
+      "split": "dev"
+    },
+    {
+      "path": "decorators/core/exception-filters.decorator.ts",
+      "sha256": "4bb82c3962696bd4492773b8f0cadb27b3223aef897f0b6aa3b913de87578b4e",
+      "lines": 64,
+      "edges": 5,
+      "split": "dev"
+    },
+    {
+      "path": "decorators/core/injectable.decorator.ts",
+      "sha256": "e5b2e5d86a75014dc36d9602dcdf40e1aad80dcf432947cdf5d99381960083c4",
+      "lines": 60,
+      "edges": 4,
+      "split": "dev"
+    },
+    {
+      "path": "pipes/parse-bool.pipe.ts",
+      "sha256": "e9c8333d64c4581ba05910127783d3230fa3204caa1f44614479de233f0317cc",
+      "lines": 102,
+      "edges": 5,
+      "split": "dev"
+    },
+    {
+      "path": "decorators/http/sse.decorator.ts",
+      "sha256": "92b2259df15cf6066268f1f7db89c8c35e97929a11380a02e7523c4cf64ee824",
+      "lines": 32,
+      "edges": 1,
+      "split": "dev"
+    },
+    {
+      "path": "exceptions/bad-request.exception.ts",
+      "sha256": "d898fe8d2b03bfb583bf1f33cfb0a3b519ff9ddd239f22f938747e04eb9ddaa7",
+      "lines": 54,
+      "edges": 3,
+      "split": "dev"
+    },
+    {
+      "path": "services/utils/is-log-level-enabled.util.ts",
+      "sha256": "e973dd0813ae1aa8929f9f3e1b2495e1ca694d7e39fc7049672e59617781ec59",
+      "lines": 37,
+      "edges": 2,
+      "split": "test"
+    },
+    {
+      "path": "pipes/file/parse-file-pipe.builder.ts",
+      "sha256": "274dc0923037e17c675affac4acc737692091e7514fcc44aaf4793041536b6cd",
+      "lines": 44,
+      "edges": 6,
+      "split": "test"
+    },
+    {
+      "path": "decorators/modules/module.decorator.ts",
+      "sha256": "44d1e034acc4f72071fcb2a8ab6878c9b265c67d897ddc23ff80a3286996da4b",
+      "lines": 30,
+      "edges": 4,
+      "split": "test"
+    },
+    {
+      "path": "pipes/parse-enum.pipe.ts",
+      "sha256": "e47cf95d134598c7b31e950cc816ccfb32f898331dbce7c66997c40707537b03",
+      "lines": 86,
+      "edges": 8,
+      "split": "test"
+    },
+    {
+      "path": "exceptions/internal-server-error.exception.ts",
+      "sha256": "23f340f3c498af53e0d918dfd66ba1e7c25dda962f994214307fb61804d4df4b",
+      "lines": 56,
+      "edges": 3,
+      "split": "test"
+    },
+    {
+      "path": "exceptions/im-a-teapot.exception.ts",
+      "sha256": "fda12bfa7109563679608e1f2ead44248ef77f00a1a755dfa808272c08e451a4",
+      "lines": 57,
+      "edges": 3,
+      "split": "test"
+    },
+    {
+      "path": "exceptions/gone.exception.ts",
+      "sha256": "9c4329f5f9508b25f09fcf5f0f5cbb5f0e6cbf36de5382cb6d70b554eef3278e",
+      "lines": 50,
+      "edges": 3,
+      "split": "test"
+    },
+    {
+      "path": "decorators/core/use-guards.decorator.ts",
+      "sha256": "f8e7248b752dd4018a212050d6676f22aa67e45cc3891ff5d08fddbdd2154e3b",
+      "lines": 55,
+      "edges": 4,
+      "split": "test"
+    },
+    {
+      "path": "decorators/http/header.decorator.ts",
+      "sha256": "733bd03806e135473a8475e4bf902902dd03f3a96c04fbd57b1e47b6e579a55e",
+      "lines": 31,
+      "edges": 1,
+      "split": "test"
+    },
+    {
+      "path": "pipes/file/file-type.validator.ts",
+      "sha256": "8af303251652db2208ad46864933118953cad84fd4799d5dd8ac2ff18eff7226",
+      "lines": 203,
+      "edges": 9,
+      "split": "test"
+    },
+    {
+      "path": "decorators/core/set-metadata.decorator.ts",
+      "sha256": "be618ed1d6db541448e7a26aeffd8b2eeff77c38ce988c76a1c7647a82304158",
+      "lines": 37,
+      "edges": 2,
+      "split": "test"
+    },
+    {
+      "path": "pipes/file/max-file-size.validator.ts",
+      "sha256": "4db9237723b071f9affab88cc9b5d008b7d1bc4232d40254a660143b49a11c0f",
+      "lines": 80,
+      "edges": 2,
+      "split": "test"
+    },
+    {
+      "path": "pipes/file/parse-file.pipe.ts",
+      "sha256": "f34ee7b5cc7b6fc36bd7800372250d06cf2254cd4265a0d962ea9a7b00ee5248",
+      "lines": 91,
+      "edges": 17,
+      "split": "test"
+    },
+    {
+      "path": "decorators/http/create-route-param-metadata.decorator.ts",
+      "sha256": "e125468b3c463bd22103d92d62df0d2de2c82e61701cdb6f3f44a84659ab12c0",
+      "lines": 62,
+      "edges": 10,
+      "split": "test"
+    }
+  ]
+}
