@@ -1,0 +1,77 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  harness:
+    name: harness (python)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -e ".[arms,dev]"
+
+      - name: ruff check
+        run: ruff check .
+
+      - name: ruff format
+        run: ruff format --check .
+
+      - name: mypy --strict
+        run: mypy --strict
+
+      - name: pytest
+        run: pytest -q
+
+  web:
+    name: web (next)
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: web
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 11
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+          cache-dependency-path: web/pnpm-lock.yaml
+
+      - run: pnpm install --frozen-lockfile
+
+      - name: typecheck
+        run: pnpm typecheck
+
+      - name: eslint
+        run: pnpm lint
+
+      - name: prettier
+        run: pnpm format:check
+
+      - name: build
+        run: pnpm build
+
+      - name: no em or en dashes in rendered output
+        run: |
+          found=$(grep -rlP '\xe2\x80\x94|\xe2\x80\x93' .next/server/app --include='*.html' || true)
+          if [ -n "$found" ]; then
+            echo "em or en dash found in rendered HTML:"; echo "$found"; exit 1
+          fi
+          echo "clean across $(find .next/server/app -name '*.html' | wc -l) pages"
