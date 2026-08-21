@@ -1,0 +1,13 @@
+{
+  "key": "14ae38385f7c0016d7c0e7de050559edef0a98aa66a8a8940ab24d1c67437d1c",
+  "model": "harness-qwen15b",
+  "prompt_version": "ours-v1-5c74cf9a927a",
+  "file_sha": "750ed29b2f7ca1b824afe39411bc8f299d4f38ca7b8a48556ed06a4a47e613cc",
+  "relative_path": "src/differenceWith.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"differenceWith\",\n    \"lazyImplementation\"\n  ],\n  \"references\": [],\n  \"calls\": [],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"differenceWith\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"data\",\n          \"type\": \"readonly T[]\"\n        },\n        {\n          \"name\": \"other\",\n          \"type\": \"readonly Other[]\"\n        },\n        {\n          \"name\": \"isEqual\",\n          \"type\": \"IsEqual<T, Other>\"\n        }\n      ],\n      \"returns\": \"T[]\"\n    },\n    {\n      \"name\": \"lazyImplementation\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"other\",\n          \"type\": \"readonly Other[]\"\n        },\n        {\n          \"name\": \"isEqual\",\n          \"type\": \"IsEqual<T, Other>\"\n        }\n      ],\n      \"returns\": \"LazyEvaluator<T>\"\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:31:54+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 834,
+  "completion_tokens": 249
+}

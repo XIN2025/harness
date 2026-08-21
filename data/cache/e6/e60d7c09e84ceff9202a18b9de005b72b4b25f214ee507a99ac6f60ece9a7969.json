@@ -1,0 +1,13 @@
+{
+  "key": "e60d7c09e84ceff9202a18b9de005b72b4b25f214ee507a99ac6f60ece9a7969",
+  "model": "harness-qwen15b",
+  "prompt_version": "ours-v1-5c74cf9a927a",
+  "file_sha": "68a9aeeb59ef8a8dc0d4e4d5761bb0f7528c15f172e5807d7e4fd2c57d305c7a",
+  "relative_path": "src/sortedLastIndex.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    {\n      \"name\": \"sortedLastIndex\",\n      \"kind\": \"function\"\n    },\n    {\n      \"name\": \"purry\",\n      \"kind\": \"function\"\n    },\n    {\n      \"name\": \"binarySearchCutoffIndex\",\n      \"kind\": \"function\"\n    }\n  ],\n  \"references\": [\n    {\n      \"name\": \"sortedLastIndexImplementation\",\n      \"source\": \"./sortedLastIndex.ts\",\n      \"alias\": null\n    }\n  ],\n  \"calls\": [],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"sortedLastIndex\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"data\",\n          \"type\": \"readonly T[]\"\n        },\n        {\n          \"name\": \"item\",\n          \"type\": \"T\"\n        }\n      ],\n      \"returns\": \"number\",\n      \"line\": 1\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:46:09+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 858,
+  "completion_tokens": 225
+}

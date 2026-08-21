@@ -1,0 +1,13 @@
+{
+  "key": "44f3f454bbdea49ac953e30b062aff0d657493390c00b837404679b6da44e42d",
+  "model": "harness-llama32b",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "0627c01458c40feb01d342a5841846268ed9752f2c63d8bfc1d8c4c446afa517",
+  "relative_path": "src/flatMap.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"flatMap\", \"callee_text\": \"purry\"},\n  {\"caller\": \"flatMap\", \"callee_text\": \"flatMapImplementation\"},\n  {\"caller\": \"lazyImplementation\", \"callee_text\": \"callbackfn\"},\n  {\"caller\": \"lazyImplementation\", \"callee_text\": \"callbackfn\"},\n  {\"caller\": \"lazyImplementation\", \"callee_text\": \"callbackfn\"}\n]}",
+  "created": "2026-08-08T22:37:47+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1239,
+  "completion_tokens": 85
+}

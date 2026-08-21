@@ -1,0 +1,13 @@
+{
+  "key": "0d0376e8a549474b933b34db8a6b6e1041579c23fc0456e51896568e15ae909a",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "0f5ebe146a8ce7f262bdad9a9576b2d6b925c628c292e142177b640d25d1f64c",
+  "relative_path": "src/isIncludedIn.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"isIncludedIn\", \"callee_text\": \"includes\"},\n  {\"caller\": \"isIncludedIn\", \"callee_text\": \"has\"},\n  {\"caller\": \"pipe\", \"callee_text\": \"includes\"},\n  {\"caller\": \"pipe\", \"callee_text\": \"has\"}\n]}",
+  "created": "2026-08-08T23:02:38+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 2151,
+  "completion_tokens": 66
+}

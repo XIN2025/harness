@@ -1,0 +1,15 @@
+```json
+{
+  "definitions": ["purryFromLazy"],
+  "references": [
+    {"name": "pipe", "source": "../pipe"},
+    {"name": "LazyDefinition", "source": "./types/LazyDefinition"},
+    {"name": "LazyEvaluator", "source": "./types/LazyEvaluator"}
+  ],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": [
+    {"name": "purryFromLazy", "kind": "function", "parent": null, "bases": [], "params": [{"name":"lazy","type":null},{"name":"args","type":null}], "returns": null, "line": 1}
+  ]
+}
+```

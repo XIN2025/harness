@@ -1,0 +1,73 @@
+```json
+{
+  "definitions": [
+    "take",
+    "takeImplementation",
+    "lazyImplementation"
+  ],
+  "references": [],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "take",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "array",
+          "type": "IterableContainer"
+        },
+        {
+          "name": "n",
+          "type": "number"
+        }
+      ],
+      "returns": [
+        {
+          "type": "T[number][]"
+        }
+      ]
+    },
+    {
+      "name": "takeImplementation",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "array",
+          "type": "IterableContainer"
+        },
+        {
+          "name": "n",
+          "type": "number"
+        }
+      ],
+      "returns": [
+        {
+          "type": "T[number][]"
+        }
+      ]
+    },
+    {
+      "name": "lazyImplementation",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "n",
+          "type": "number"
+        }
+      ],
+      "returns": [
+        {
+          "type": "LazyEvaluator<T>"
+        }
+      ]
+    }
+  ]
+}
+```

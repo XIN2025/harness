@@ -1,0 +1,1 @@
+{"calls": [], "callable_refs": [{"caller": "product", "callee_text": "productImplementation"}, {"caller": "productImplementation", "callee_text": "data[0]"}, {"caller": "productImplementation", "callee_text": "value"}]}

@@ -1,0 +1,66 @@
+```json
+{
+  "definitions": [
+    {
+      "name": "concat",
+      "kind": "function"
+    },
+    {
+      "name": "IterableContainer",
+      "kind": "type_alias"
+    },
+    {
+      "name": "purry",
+      "kind": "function"
+    }
+  ],
+  "references": [],
+  "calls": [
+    {
+      "caller": "__module__",
+      "callee_text": "concat",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "src/concat.ts",
+      "line": 1
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "concat",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "src/concat.ts",
+      "line": 2
+    }
+  ],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "concat",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "kind": "param"
+        },
+        {
+          "name": "other",
+          "kind": "param"
+        }
+      ],
+      "returns": [
+        {
+          "type": "unknown[]",
+          "type_module": null,
+          "from_call": false
+        }
+      ],
+      "line": 1
+    }
+  ]
+}
+```

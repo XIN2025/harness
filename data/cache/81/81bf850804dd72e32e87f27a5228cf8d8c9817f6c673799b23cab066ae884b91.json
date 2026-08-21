@@ -1,0 +1,13 @@
+{
+  "key": "81bf850804dd72e32e87f27a5228cf8d8c9817f6c673799b23cab066ae884b91",
+  "model": "harness-qwen15b",
+  "prompt_version": "ours-v1-5c74cf9a927a",
+  "file_sha": "35158cd641e179c161aacc02d91cb72a59570ff02776862f469db0cece272d55",
+  "relative_path": "src/meanBy.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"meanBy\",\n    \"purry\"\n  ],\n  \"references\": [],\n  \"calls\": [\n    {\n      \"caller\": \"__module__\",\n      \"callee_text\": \"meanBy\",\n      \"kind\": \"method\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": \"src/meanBy.ts\",\n      \"line\": 1\n    },\n    {\n      \"caller\": \"__module__\",\n      \"callee_text\": \"meanBy\",\n      \"kind\": \"method\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": \"src/meanBy.ts\",\n      \"line\": 2\n    }\n  ],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"meanBy\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"fn\",\n          \"type\": \"Function\"\n        }\n      ],\n      \"returns\": {\n        \"type\": \"number\"\n      },\n      \"line\": 1\n    },\n    {\n      \"name\": \"purry\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"fn\",\n          \"type\": \"Function\"\n        }\n      ],\n      \"returns\": {\n        \"type\": \"Function\"\n      },\n      \"line\": 1\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:39:01+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 682,
+  "completion_tokens": 332
+}

@@ -1,0 +1,214 @@
+{
+  "relative_path": "lib/plugins/console/deploy.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "deployConsole",
+      "callee_text": "list",
+      "kind": "this",
+      "receiver": "this.extend.deployer",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 15
+    },
+    {
+      "caller": "deployConsole",
+      "callee_text": "join",
+      "kind": "method",
+      "receiver": "Object.keys(deployers)",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 22
+    },
+    {
+      "caller": "deployConsole",
+      "callee_text": "keys",
+      "kind": "static",
+      "receiver": "Object",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 22
+    },
+    {
+      "caller": "deployConsole",
+      "callee_text": "underline",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "picocolors",
+      "line": 23
+    },
+    {
+      "caller": "deployConsole",
+      "callee_text": "log",
+      "kind": "method",
+      "receiver": "console",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 25
+    },
+    {
+      "caller": "deployConsole",
+      "callee_text": "call",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 32
+    },
+    {
+      "caller": "deployConsole",
+      "callee_text": "then",
+      "kind": "method",
+      "receiver": "exists(this.public_dir)",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 34
+    },
+    {
+      "caller": "deployConsole",
+      "callee_text": "exists",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-fs",
+      "line": 34
+    },
+    {
+      "caller": "deployConsole",
+      "callee_text": "call",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 35
+    },
+    {
+      "caller": "deployConsole",
+      "callee_text": "then",
+      "kind": "method",
+      "receiver": "promise.then(() => {\n    this.emit('deployBefore');\n\n    if (!Array.isArray(config)) config = [config];\n    return config;\n  }).each(item => {\n    if (!item.type) return;\n\n    const { type } = item;\n\n    if (!deployers[type]) {\n      this.log.error('Deployer not found: %s', magenta(type));\n      return;\n    }\n\n    this.log.info('Deploying: %s', magenta(type));\n\n    return (Reflect.apply(deployers[type], this, [{ ...item, ...args }]) as any).then(() => {\n      this.log.info('Deploy done: %s', magenta(type));\n    });\n  })",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 39
+    },
+    {
+      "caller": "deployConsole",
+      "callee_text": "each",
+      "kind": "method",
+      "receiver": "promise.then(() => {\n    this.emit('deployBefore');\n\n    if (!Array.isArray(config)) config = [config];\n    return config;\n  })",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 39
+    },
+    {
+      "caller": "deployConsole",
+      "callee_text": "then",
+      "kind": "method",
+      "receiver": "promise",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 39
+    },
+    {
+      "caller": "deployConsole",
+      "callee_text": "emit",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 40
+    },
+    {
+      "caller": "deployConsole",
+      "callee_text": "isArray",
+      "kind": "static",
+      "receiver": "Array",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 42
+    },
+    {
+      "caller": "deployConsole",
+      "callee_text": "error",
+      "kind": "this",
+      "receiver": "this.log",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 50
+    },
+    {
+      "caller": "deployConsole",
+      "callee_text": "magenta",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "picocolors",
+      "line": 50
+    },
+    {
+      "caller": "deployConsole",
+      "callee_text": "info",
+      "kind": "this",
+      "receiver": "this.log",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 54
+    },
+    {
+      "caller": "deployConsole",
+      "callee_text": "magenta",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "picocolors",
+      "line": 54
+    },
+    {
+      "caller": "deployConsole",
+      "callee_text": "then",
+      "kind": "method",
+      "receiver": "(Reflect.apply(deployers[type], this, [{ ...item, ...args }]) as any)",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 56
+    },
+    {
+      "caller": "deployConsole",
+      "callee_text": "apply",
+      "kind": "static",
+      "receiver": "Reflect",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 56
+    },
+    {
+      "caller": "deployConsole",
+      "callee_text": "info",
+      "kind": "this",
+      "receiver": "this.log",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 57
+    },
+    {
+      "caller": "deployConsole",
+      "callee_text": "magenta",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "picocolors",
+      "line": 57
+    },
+    {
+      "caller": "deployConsole",
+      "callee_text": "emit",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 60
+    }
+  ],
+  "callable_refs": []
+}

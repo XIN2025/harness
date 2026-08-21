@@ -1,0 +1,37 @@
+```json
+{
+  "definitions": [
+    "setPath",
+    "Paths",
+    "ProperKeyOf",
+    "ValueAtPath",
+    "setPathImplementation"
+  ],
+  "references": [
+    {"name": "setPath", "source": "./src/setPath.ts"},
+    {"name": "Paths", "source": "./src/setPath.ts"},
+    {"name": "ProperKeyOf", "source": "./src/setPath.ts"},
+    {"name": "ValueAtPath", "source": "./src/setPath.ts"},
+    {"name": "setPathImplementation", "source": "./src/setPath.ts"}
+  ],
+  "calls": [
+    {
+      "caller": "setPath",
+      "callee_text": "setPathImplementation",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./src/setPath.ts",
+      "line": 1
+    }
+  ],
+  "type_assignments": [],
+  "definitions_rich": [
+    {"name": "setPath", "kind": "function", "parent": null, "bases": [], "params": [{"name": "data", "type": "unknown"}, {"name": "path", "type": "readonly PropertyKey[]"}, {"name": "value", "type": "unknown"}], "returns": "unknown", "line": 1},
+    {"name": "Paths", "kind": "interface", "parent": null, "bases": [], "params": [], "returns": null, "line": 3},
+    {"name": "ProperKeyOf", "kind": "function", "parent": null, "bases": [], "params": [], "returns": "PropertyKey", "line": 5},
+    {"name": "ValueAtPath", "kind": "function", "parent": null, "bases": [], "params": [], "returns": "unknown", "line": 7},
+    {"name": "setPathImplementation", "kind": "function", "parent": null, "bases": [], "params": [{"name": "data", "type": "unknown"}, {"name": "path", "type": "readonly PropertyKey[]"}, {"name": "value", "type": "unknown"}], "returns": "unknown", "line": 10}
+  ]
+}
+```

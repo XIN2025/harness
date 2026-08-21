@@ -1,0 +1,4 @@
+{"callable_refs": [
+  {"caller": "uncapitalize", "callee_text": "uncapitalizeImplementation"},
+  {"caller": "uncapitalize", "callee_text": "uncapitalize"}
+], "calls": []}

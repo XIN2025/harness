@@ -1,0 +1,13 @@
+{
+  "key": "cd8809be3d432a5e2d1bffb29f76e847655e730aa44de6ad68b990521df43959",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "5aefa9f87740e4e6be5daec9148097f1beb94244e73bfb833eb42d6420c272f4",
+  "relative_path": "src/sliceString.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"sliceString\", \"callee_text\": \"slice\"},\n  {\"caller\": \"sliceString\", \"callee_text\": \"toString\"},\n  {\"caller\": \"sliceString\", \"callee_text\": \"slice\"},\n  {\"caller\": \"sliceString\", \"callee_text\": \"slice\"},\n  {\"caller\": \"sliceString\", \"callee_text\": \"slice\"},\n  {\"caller\": \"sliceString\", \"callee_text\": \"slice\"},\n  {\"caller\": \"sliceString\", \"callee_text\": \"slice\"},\n  {\"caller\": \"sliceString\", \"callee_text\": \"slice\"},\n  {\"caller\": \"sliceString\", \"callee_text\": \"slice\"},\n  {\"caller\": \"sliceString\", \"callee_text\": \"slice\"},\n  {\"caller\": \"sliceString\", \"callee_text\": \"slice\"},\n  {\"caller\": \"sliceString\", \"callee_text\": \"slice\"},\n  {\"caller\": \"sliceString\", \"callee_text\": \"slice\"}\n]}",
+  "created": "2026-08-08T23:10:53+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 944,
+  "completion_tokens": 201
+}

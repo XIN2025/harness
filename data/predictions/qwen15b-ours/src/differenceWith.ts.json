@@ -1,0 +1,51 @@
+```json
+{
+  "definitions": [
+    "differenceWith",
+    "lazyImplementation"
+  ],
+  "references": [],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "differenceWith",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "readonly T[]"
+        },
+        {
+          "name": "other",
+          "type": "readonly Other[]"
+        },
+        {
+          "name": "isEqual",
+          "type": "IsEqual<T, Other>"
+        }
+      ],
+      "returns": "T[]"
+    },
+    {
+      "name": "lazyImplementation",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "other",
+          "type": "readonly Other[]"
+        },
+        {
+          "name": "isEqual",
+          "type": "IsEqual<T, Other>"
+        }
+      ],
+      "returns": "LazyEvaluator<T>"
+    }
+  ]
+}
+```

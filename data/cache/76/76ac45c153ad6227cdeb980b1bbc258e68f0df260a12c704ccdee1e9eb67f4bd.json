@@ -1,0 +1,13 @@
+{
+  "key": "76ac45c153ad6227cdeb980b1bbc258e68f0df260a12c704ccdee1e9eb67f4bd",
+  "model": "harness-qwen15b",
+  "prompt_version": "ours-v1-5c74cf9a927a",
+  "file_sha": "a40ece21f136eb23109c51514a89c70ebef347bf2d72b34f358915bcfb274617",
+  "relative_path": "src/add.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    {\n      \"name\": \"add\",\n      \"kind\": \"function\"\n    },\n    {\n      \"name\": \"addImplementation\",\n      \"kind\": \"function\"\n    }\n  ],\n  \"references\": [],\n  \"calls\": [],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"add\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [],\n      \"returns\": null,\n      \"line\": 1\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T19:45:09+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 636,
+  "completion_tokens": 126
+}

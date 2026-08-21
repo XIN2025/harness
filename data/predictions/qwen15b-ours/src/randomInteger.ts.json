@@ -1,0 +1,177 @@
+```json
+{
+  "definitions": [
+    {
+      "name": "GreaterThan",
+      "kind": "type_alias"
+    },
+    {
+      "name": "GreaterThanOrEqual",
+      "kind": "type_alias"
+    },
+    {
+      "name": "IsEqual",
+      "kind": "type_alias"
+    },
+    {
+      "name": "IsNever",
+      "kind": "type_alias"
+    },
+    {
+      "name": "NonNegativeInteger",
+      "kind": "type_alias"
+    },
+    {
+      "name": "MaxLiteral",
+      "kind": "type_alias"
+    },
+    {
+      "name": "IntRangeInclusive",
+      "kind": "type_alias"
+    },
+    {
+      "name": "RandomInteger",
+      "kind": "function"
+    }
+  ],
+  "references": [
+    {
+      "name": "type-fest",
+      "source": "node_modules/type-fest/index.d.ts",
+      "alias": null
+    },
+    {
+      "name": "./internal/types/IntRangeInclusive",
+      "source": "src/internal/types/IntRangeInclusive.ts",
+      "alias": null
+    }
+  ],
+  "calls": [
+    {
+      "caller": "__module__",
+      "callee_text": "randomInteger",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "src/randomInteger.ts",
+      "line": 15
+    }
+  ],
+  "type_assignments": [
+    {
+      "scope": "__module__",
+      "var": "GreaterThan",
+      "type": "number",
+      "type_module": null,
+      "from_call": false
+    },
+    {
+      "scope": "__module__",
+      "var": "GreaterThanOrEqual",
+      "type": "number",
+      "type_module": null,
+      "from_call": false
+    },
+    {
+      "scope": "__module__",
+      "var": "IsEqual",
+      "type": "boolean",
+      "type_module": null,
+      "from_call": false
+    },
+    {
+      "scope": "__module__",
+      "var": "IsNever",
+      "type": "boolean",
+      "type_module": null,
+      "from_call": false
+    },
+    {
+      "scope": "__module__",
+      "var": "NonNegativeInteger",
+      "type": "number",
+      "type_module": null,
+      "from_call": false
+    },
+    {
+      "scope": "__module__",
+      "var": "MaxLiteral",
+      "type": "number",
+      "type_module": null,
+      "from_call": false
+    },
+    {
+      "scope": "__module__",
+      "var": "IntRangeInclusive",
+      "type": "number",
+      "type_module": null,
+      "from_call": false
+    }
+  ],
+  "definitions_rich": [
+    {
+      "name": "GreaterThan",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [],
+      "returns": "number",
+      "line": 15
+    },
+    {
+      "name": "GreaterThanOrEqual",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [],
+      "returns": "number",
+      "line": 15
+    },
+    {
+      "name": "IsEqual",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [],
+      "returns": "boolean",
+      "line": 15
+    },
+    {
+      "name": "IsNever",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [],
+      "returns": "boolean",
+      "line": 15
+    },
+    {
+      "name": "NonNegativeInteger",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [],
+      "returns": "number",
+      "line": 15
+    },
+    {
+      "name": "MaxLiteral",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [],
+      "returns": "number",
+      "line": 15
+    },
+    {
+      "name": "IntRangeInclusive",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [],
+      "returns": "number",
+      "line": 15
+    }
+  ]
+}
+```

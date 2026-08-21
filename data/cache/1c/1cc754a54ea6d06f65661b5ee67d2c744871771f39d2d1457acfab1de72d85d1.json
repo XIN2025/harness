@@ -1,0 +1,13 @@
+{
+  "key": "1cc754a54ea6d06f65661b5ee67d2c744871771f39d2d1457acfab1de72d85d1",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "54473bf270fed786995f78e7d4b4200c16f5dadeffc8a208f9d668264f58a3cc",
+  "relative_path": "src/zipWith.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"zipWith\", \"callee_text\": \"lazyDataLastImpl\"},\n  {\"caller\": \"zipWithImplementation\", \"callee_text\": \"map\"},\n  {\"caller\": \"zipWithImplementation\", \"callee_text\": \"fn\"},\n  {\"caller\": \"zipWithImplementation\", \"callee_text\": \"index\"},\n  {\"caller\": \"zipWithImplementation\", \"callee_text\": \"datum\"},\n  {\"caller\": \"lazyDataLastImpl\", \"callee_text\": \"next\"},\n  {\"caller\": \"lazyDataLastImpl\", \"callee_text\": \"hasNext\"},\n  {\"caller\": \"lazyDataLastImpl\", \"callee_text\": \"done\"},\n  {\"caller\": \"zipWithImplementation\", \"callee_text\": \"map\"},\n  {\"caller\": \"zipWithImplementation\", \"callee_text\": \"fn\"},\n  {\"caller\": \"zipWithImplementation\", \"callee_text\": \"index\"},\n  {\"caller\": \"zipWithImplementation\", \"callee_text\": \"datum\"}\n]}",
+  "created": "2026-08-08T23:17:37+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1502,
+  "completion_tokens": 204
+}

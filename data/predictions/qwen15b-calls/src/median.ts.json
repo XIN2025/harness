@@ -1,0 +1,6 @@
+{"calls": [
+  {"caller": "median", "callee_text": "purry"},
+  {"caller": "medianImplementation", "callee_text": "Array.prototype.sort"},
+  {"caller": "medianImplementation", "callee_text": "Math.floor"},
+  {"caller": "medianImplementation", "callee_text": "Math.ceil"}
+]}

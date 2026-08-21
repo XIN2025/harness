@@ -1,0 +1,1 @@
+{"calls": [], "callable_refs": [{"caller": "values", "callee_text": "Object.values"}, {"caller": "values", "callee_text": "purry"}, {"caller": "values", "callee_text": "args[0]"}, {"caller": "values", "callee_text": "args[1]"}]}

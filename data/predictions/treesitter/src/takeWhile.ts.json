@@ -1,0 +1,43 @@
+{
+  "relative_path": "src/takeWhile.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "takeWhile",
+      "callee_text": "purry",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./purry",
+      "line": 44
+    },
+    {
+      "caller": "takeWhileImplementation",
+      "callee_text": "entries",
+      "kind": "method",
+      "receiver": "data",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 52
+    },
+    {
+      "caller": "takeWhileImplementation",
+      "callee_text": "predicate",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 53
+    },
+    {
+      "caller": "takeWhileImplementation",
+      "callee_text": "push",
+      "kind": "method",
+      "receiver": "ret",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 56
+    }
+  ],
+  "callable_refs": []
+}

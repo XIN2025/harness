@@ -1,0 +1,13 @@
+{
+  "key": "e8b698e86855ac14a1cc3de43c3fce7b32afdb823bca898df075275da7ef063f",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "refs-strict-v1-ca2cfcfbecef+json",
+  "file_sha": "35158cd641e179c161aacc02d91cb72a59570ff02776862f469db0cece272d55",
+  "relative_path": "src/meanBy.ts",
+  "response": "{\"calls\": [], \"callable_refs\": [{\"caller\": \"meanBy\", \"callee_text\": \"meanByImplementation\"}]}",
+  "created": "2026-08-09T06:03:44+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 922,
+  "completion_tokens": 26
+}

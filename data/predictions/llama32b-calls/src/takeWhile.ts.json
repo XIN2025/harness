@@ -1,0 +1,7 @@
+{"calls": [
+  {"caller": "takeWhile", "callee_text": "purry"},
+  {"caller": "takeWhileImplementation", "callee_text": "entries"},
+  {"caller": "takeWhileImplementation", "callee_text": "for"},
+  {"caller": "takeWhileImplementation", "callee_text": "push"},
+  {"caller": "takeWhileImplementation", "callee_text": "break"}
+]}

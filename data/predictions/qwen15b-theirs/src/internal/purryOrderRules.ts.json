@@ -1,0 +1,20 @@
+```json
+{
+  "definitions": [
+    "OrderRule",
+    "Projection",
+    "Comparable",
+    "CompareFunction",
+    "NonEmptyArray"
+  ],
+  "references": [
+    {
+      "name": "purryOrderRules",
+      "source": "./src/internal/purryOrderRules.ts"
+    }
+  ],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": []
+}
+```

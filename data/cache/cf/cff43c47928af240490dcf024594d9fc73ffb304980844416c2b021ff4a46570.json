@@ -1,0 +1,13 @@
+{
+  "key": "cff43c47928af240490dcf024594d9fc73ffb304980844416c2b021ff4a46570",
+  "model": "harness-qwen15b",
+  "prompt_version": "ours-v1-5c74cf9a927a",
+  "file_sha": "158c6eed386a374a3aaaeed7b6c40fe542940bebad0d6f07cff794277345e6e7",
+  "relative_path": "src/sortedLastIndexBy.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"sortedLastIndexBy\",\n    \"purry\",\n    \"binarySearchCutoffIndex\"\n  ],\n  \"references\": [],\n  \"calls\": [],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"sortedLastIndexBy\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"data\",\n          \"type\": \"readonly T[]\"\n        },\n        {\n          \"name\": \"item\",\n          \"type\": \"T\"\n        },\n        {\n          \"name\": \"valueFunction\",\n          \"type\": \"(item: T, index?: number | undefined, data: readonly T[]) => NonNullable<unknown>\"\n        }\n      ],\n      \"returns\": \"number\"\n    },\n    {\n      \"name\": \"purry\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"fn\",\n          \"type\": \"(arg1: any, arg2: any, ...args: any[]) => any\"\n        },\n        {\n          \"name\": \"arity\",\n          \"type\": \"number\"\n        }\n      ],\n      \"returns\": \"(...args: any[]) => any\"\n    },\n    {\n      \"name\": \"binarySearchCutoffIndex\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"array\",\n          \"type\": \"readonly T[]\"\n        },\n        {\n          \"name\": \"predicate\",\n          \"type\": \"(pivot: T, index?: number | undefined, array: readonly T[]) => boolean\"\n        }\n      ],\n      \"returns\": \"number\"\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:46:16+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1422,
+  "completion_tokens": 385
+}

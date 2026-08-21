@@ -1,0 +1,71 @@
+```json
+{
+  "definitions": [
+    "values",
+    "EnumerableStringKeyedValueOf",
+    "IterableContainer",
+    "purry"
+  ],
+  "references": [],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "Values",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [],
+      "returns": {
+        "scope": "local",
+        "var": "values",
+        "type": "unknown[]",
+        "type_module": null,
+        "from_call": false
+      }
+    },
+    {
+      "name": "EnumerableStringKeyedValueOf",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [],
+      "returns": {
+        "scope": "local",
+        "var": "EnumerableStringKeyedValueOf",
+        "type": "unknown[]",
+        "type_module": null,
+        "from_call": false
+      }
+    },
+    {
+      "name": "IterableContainer",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [],
+      "returns": {
+        "scope": "local",
+        "var": "IterableContainer",
+        "type": "unknown[]",
+        "type_module": null,
+        "from_call": false
+      }
+    },
+    {
+      "name": "purry",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [],
+      "returns": {
+        "scope": "local",
+        "var": "purry",
+        "type": "unknown[]",
+        "type_module": null,
+        "from_call": false
+      }
+    }
+  ]
+}
+```

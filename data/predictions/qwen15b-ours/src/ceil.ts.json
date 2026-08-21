@@ -1,0 +1,94 @@
+```json
+{
+  "definitions": [
+    "ceil",
+    "withPrecision",
+    "purry"
+  ],
+  "references": [],
+  "calls": [
+    {
+      "caller": "__module__",
+      "callee_text": "ceil",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "src/ceil.ts",
+      "line": 1
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "withPrecision",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "src/ceil.ts",
+      "line": 2
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "purry",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "src/ceil.ts",
+      "line": 3
+    }
+  ],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "ceil",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "value",
+          "type": "number"
+        },
+        {
+          "name": "precision",
+          "type": "number"
+        }
+      ],
+      "returns": {
+        "type": "number"
+      },
+      "line": 1
+    },
+    {
+      "name": "withPrecision",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "function"
+        }
+      ],
+      "returns": {
+        "type": "number"
+      },
+      "line": 2
+    },
+    {
+      "name": "purry",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "function"
+        }
+      ],
+      "returns": {
+        "type": "number"
+      },
+      "line": 3
+    }
+  ]
+}
+```

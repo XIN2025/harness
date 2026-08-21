@@ -1,0 +1,70 @@
+{
+  "relative_path": "lib/plugins/tag/link.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "linkTag",
+      "callee_text": "test",
+      "kind": "method",
+      "receiver": "rUrl",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 24
+    },
+    {
+      "caller": "linkTag",
+      "callee_text": "push",
+      "kind": "method",
+      "receiver": "text",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 28
+    },
+    {
+      "caller": "linkTag",
+      "callee_text": "slice",
+      "kind": "method",
+      "receiver": "args",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 33
+    },
+    {
+      "caller": "linkTag",
+      "callee_text": "shift",
+      "kind": "method",
+      "receiver": "args",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 42
+    },
+    {
+      "caller": "linkTag",
+      "callee_text": "join",
+      "kind": "method",
+      "receiver": "args",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 45
+    },
+    {
+      "caller": "linkTag",
+      "callee_text": "htmlTag",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-util",
+      "line": 54
+    },
+    {
+      "caller": "linkTag",
+      "callee_text": "join",
+      "kind": "method",
+      "receiver": "text",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 54
+    }
+  ],
+  "callable_refs": []
+}

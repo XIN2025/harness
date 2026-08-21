@@ -1,0 +1,43 @@
+{
+  "relative_path": "src/toKebabCase.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "toKebabCase",
+      "callee_text": "purry",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./purry",
+      "line": 65
+    },
+    {
+      "caller": "toKebabCaseImplementation",
+      "callee_text": "toLowerCase",
+      "kind": "method",
+      "receiver": "words(data).join(\"-\")",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 73
+    },
+    {
+      "caller": "toKebabCaseImplementation",
+      "callee_text": "join",
+      "kind": "method",
+      "receiver": "words(data)",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 73
+    },
+    {
+      "caller": "toKebabCaseImplementation",
+      "callee_text": "words",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./internal/words",
+      "line": 73
+    }
+  ],
+  "callable_refs": []
+}

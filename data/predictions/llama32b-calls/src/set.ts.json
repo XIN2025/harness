@@ -1,0 +1,4 @@
+{"calls": [
+  {"caller": "set", "callee_text": "purry"},
+  {"caller": "setImplementation", "callee_text": "Object.assign"}
+  ]}

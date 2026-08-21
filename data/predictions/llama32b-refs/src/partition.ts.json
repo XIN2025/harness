@@ -1,0 +1,5 @@
+{"callable_refs": [
+  {"caller": "partition", "callee_text": "partitionImplementation"},
+  {"caller": "partitionImplementation", "callee_text": "defaultCompare"},
+  {"caller": "partitionImplementation", "callee_text": "identity"}
+]}

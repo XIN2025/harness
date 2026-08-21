@@ -1,0 +1,10 @@
+{
+  "key": "7f3547bf82ef5de63d7b12b6e01fad43fc17809d2c3c7146327603788564c71e",
+  "model": "gemini-3.5-flash",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "e59a5d47057e85033680a642a067bd2937f0966940092f4049482986dc041588",
+  "relative_path": "src/defaultTo.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"FallbackOf\",\n    \"defaultTo\",\n    \"defaultToImplementation\"\n  ],\n  \"references\": [\n    {\n      \"name\": \"purry\",\n      \"source\": \"./purry\",\n      \"alias\": null\n    },\n    {\n      \"name\": \"RemedaTypeError\",\n      \"source\": \"./internal/types/RemedaTypeError\",\n      \"alias\": null\n    }\n  ],\n  \"calls\": [\n    {\n      \"caller\": \"defaultTo\",\n      \"callee_text\": \"purry\",\n      \"kind\": \"free\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": \"./purry\",\n      \"line\": 58\n    }\n  ],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"FallbackOf\",\n      \"kind\": \"type_alias\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [],\n      \"returns\": null,\n      \"line\": 5\n    },\n    {\n      \"name\": \"defaultTo\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"args\",\n          \"type\": \"readonly unknown[]\"\n        }\n      ],\n      \"returns\": \"unknown\",\n      \"line\": 57\n    },\n    {\n      \"name\": \"defaultToImplementation\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"data\",\n          \"type\": \"T\"\n        },\n        {\n          \"name\": \"fallback\",\n          \"type\": \"Fallback\"\n        }\n      ],\n      \"returns\": \"NonNullable\",\n      \"line\": 61\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T16:20:48+00:00",
+  "finish_reason": "stop"
+}

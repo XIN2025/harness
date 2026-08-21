@@ -1,0 +1,13 @@
+{
+  "key": "58a78b7a9f2be0328083cf33844e8faa23bb520cc4722c8a1b3602e62709ae94",
+  "model": "harness-qwen15b",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "d62623c67d20039235ca704fa5ccbde090fcd7a2d2a320bfbef3d42a5e7154d6",
+  "relative_path": "src/prop.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"prop\",\n    \"NonPropertyKey\",\n    \"KeysOfUnion\",\n    \"ArrayAt\",\n    \"PropDeep\",\n    \"Prop\",\n    \"pipe\",\n    \"NoInfer\"\n  ],\n  \"references\": [\n    {\n      \"name\": \"prop\",\n      \"source\": \"./src/prop.ts\",\n      \"alias\": null\n    }\n  ],\n  \"calls\": [],\n  \"type_assignments\": [],\n  \"definitions_rich\": []\n}\n```",
+  "created": "2026-08-08T20:24:42+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 13031,
+  "completion_tokens": 107
+}

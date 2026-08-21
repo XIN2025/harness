@@ -1,0 +1,9 @@
+{"calls": [
+  {"caller": "uniqueBy", "callee_text": "purryFromLazy"},
+  {"caller": "uniqueBy", "callee_text": "lazyImplementation"},
+  {"caller": "lazyImplementation", "callee_text": "brandedKeyFunction"},
+  {"caller": "lazyImplementation", "callee_text": "set"},
+  {"caller": "lazyImplementation", "callee_text": "SKIP_ITEM"},
+  {"caller": "uniqueBy", "callee_text": "purryFromLazy"},
+  {"caller": "uniqueBy", "callee_text": "__module__"}
+]}

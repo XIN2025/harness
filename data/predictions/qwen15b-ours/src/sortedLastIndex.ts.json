@@ -1,0 +1,47 @@
+```json
+{
+  "definitions": [
+    {
+      "name": "sortedLastIndex",
+      "kind": "function"
+    },
+    {
+      "name": "purry",
+      "kind": "function"
+    },
+    {
+      "name": "binarySearchCutoffIndex",
+      "kind": "function"
+    }
+  ],
+  "references": [
+    {
+      "name": "sortedLastIndexImplementation",
+      "source": "./sortedLastIndex.ts",
+      "alias": null
+    }
+  ],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "sortedLastIndex",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "readonly T[]"
+        },
+        {
+          "name": "item",
+          "type": "T"
+        }
+      ],
+      "returns": "number",
+      "line": 1
+    }
+  ]
+}
+```

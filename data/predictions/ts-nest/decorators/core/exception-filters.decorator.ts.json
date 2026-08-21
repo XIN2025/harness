@@ -1,0 +1,70 @@
+{
+  "relative_path": "decorators/core/exception-filters.decorator.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "UseFilters",
+      "callee_text": "addExceptionFiltersMetadata",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 30
+    },
+    {
+      "caller": "addExceptionFiltersMetadata",
+      "callee_text": "isFunction",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../../utils/shared.utils",
+      "line": 42
+    },
+    {
+      "caller": "addExceptionFiltersMetadata",
+      "callee_text": "isFunction",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../../utils/shared.utils",
+      "line": 42
+    },
+    {
+      "caller": "addExceptionFiltersMetadata",
+      "callee_text": "validateEach",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../../utils/validate-each.util",
+      "line": 45
+    },
+    {
+      "caller": "addExceptionFiltersMetadata",
+      "callee_text": "extendArrayMetadata",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../../utils/extend-metadata.util",
+      "line": 52
+    },
+    {
+      "caller": "addExceptionFiltersMetadata",
+      "callee_text": "validateEach",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../../utils/validate-each.util",
+      "line": 59
+    },
+    {
+      "caller": "addExceptionFiltersMetadata",
+      "callee_text": "extendArrayMetadata",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../../utils/extend-metadata.util",
+      "line": 60
+    }
+  ],
+  "callable_refs": []
+}

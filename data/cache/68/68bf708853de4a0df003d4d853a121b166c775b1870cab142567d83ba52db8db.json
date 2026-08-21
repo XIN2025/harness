@@ -1,0 +1,10 @@
+{
+  "key": "68bf708853de4a0df003d4d853a121b166c775b1870cab142567d83ba52db8db",
+  "model": "gemini-3.5-flash",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "4392703e7d4196cb731d8653d4978a5f3e92938e0868620b8348fb43d61822e6",
+  "relative_path": "src/debounce.ts",
+  "response": "`\n    Line 165: `coolDownTimeoutId = undefined;`\n    Line 166: `clearTimeout(timeoutId);`\n    Yes, line 166.\n\n    Let's check `handleInvoke()` in `handleCoolDownEnd`:\n    Line 172: `handleInvoke();`\n    Yes, line 172.\n\n    Let's check `setTimeout` in `handleDebouncedCall`:\n    Line 176: `const handleDebouncedCall = (args: Parameters<F>): void => {`\n    ...\n    Line 184: `maxWaitTimeoutId = setTimeout(handleInvoke, maxWaitMs);`\n    Yes, line 184.\n\n    Let's check `handleDebouncedCall(args)` in `call`:\n    Line 189: `call: (...args) => {`\n    ...\n    Line 195: `handleDebouncedCall(args);`\n    Yes, line 195.\n\n    Let's check `func(...args)` in `call`:\n    Line 202: `result = func(...args);`\n    Yes, line 202.\n\n    Let's check `handleDebouncedCall(args)` in `call` (second one):\n    Line 210: `handleDebouncedCall(args);`\n    Yes, line 210.\n\n    Let's check",
+  "created": "2026-08-08T16:20:32+00:00",
+  "finish_reason": "length"
+}

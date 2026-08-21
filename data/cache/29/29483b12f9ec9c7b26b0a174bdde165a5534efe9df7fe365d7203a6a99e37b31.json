@@ -1,0 +1,13 @@
+{
+  "key": "29483b12f9ec9c7b26b0a174bdde165a5534efe9df7fe365d7203a6a99e37b31",
+  "model": "harness-qwen15b",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "c17c00842721c8afaa489f89573e6f05c3f5367d87204b1854ae3322bef6a19a",
+  "relative_path": "src/forEach.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"forEach\", \"callee_text\": \"Array.prototype.forEach\"},\n  {\"caller\": \"forEachImplementation\", \"callee_text\": \"callbackfn\"}\n]}",
+  "created": "2026-08-08T22:16:41+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1143,
+  "completion_tokens": 38
+}

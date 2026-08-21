@@ -1,0 +1,13 @@
+{
+  "key": "a24d858a14c512d0a6912538a28027357794f6fc1464fb904f47285ada4b315a",
+  "model": "harness-qwen15b",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "e5a9c8abf6191c6292f80144f4afb58bb85b34b084029bfbf33531436802d069",
+  "relative_path": "src/product.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"product\", \"callee_text\": \"purry\"},\n  {\"caller\": \"productImplementation\", \"callee_text\": \"typeof\"},\n  {\"caller\": \"productImplementation\", \"callee_text\": \"for...of\"},\n  {\"caller\": \"productImplementation\", \"callee_text\": \"*\"}\n]}",
+  "created": "2026-08-08T22:20:59+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1161,
+  "completion_tokens": 67
+}

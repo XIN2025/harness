@@ -1,0 +1,87 @@
+```json
+{
+  "definitions": [
+    "rankBy",
+    "purryOrderRulesWithArgument",
+    "type",
+    "OrderRule",
+    "CompareFunction",
+    "NonEmptyArray"
+  ],
+  "references": [
+    {"name": "rankBy", "source": "./src/rankBy.ts"},
+    {"name": "purryOrderRulesWithArgument", "source": "./src/internal/purryOrderRules.ts"},
+    {"name": "type", "source": "./src/internal/types/index.ts"},
+    {"name": "OrderRule", "source": "./src/internal/types/OrderRule.ts"},
+    {"name": "CompareFunction", "source": "./src/internal/types/CompareFunction.ts"},
+    {"name": "NonEmptyArray", "source": "./src/internal/types/NonEmptyArray.ts"}
+  ],
+  "calls": [
+    {
+      "caller": "rankBy",
+      "callee_text": "purryOrderRulesWithArgument",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./src/internal/purryOrderRules.ts",
+      "line": 1
+    }
+  ],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "rankBy",
+      "kind": "function",
+      "parent": null,
+      "bases": ["purryOrderRulesWithArgument"],
+      "params": [{"name": "data", "type": "readonly T[]"}, {"name": "item", "type": "T"}, {"name": "...rules", "type": "Readonly<NonEmptyArray<OrderRule<T>>"}],
+      "returns": "number",
+      "line": 1
+    },
+    {
+      "name": "purryOrderRulesWithArgument",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "fn", "type": "Function"}, {"name": "...args", "type": "unknown"}],
+      "returns": "Function",
+      "line": 1
+    },
+    {
+      "name": "type",
+      "kind": "interface",
+      "parent": null,
+      "bases": [],
+      "params": [],
+      "returns": null,
+      "line": 1
+    },
+    {
+      "name": "OrderRule",
+      "kind": "interface",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "projection", "type": "Function"}, {"name": "direction", "type": "string"}],
+      "returns": null,
+      "line": 1
+    },
+    {
+      "name": "CompareFunction",
+      "kind": "interface",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "a", "type": "T"}, {"name": "b", "type": "T"}],
+      "returns": "number",
+      "line": 1
+    },
+    {
+      "name": "NonEmptyArray",
+      "kind": "interface",
+      "parent": null,
+      "bases": [],
+      "params": [],
+      "returns": "Readonly<never>"
+    }
+  ]
+}
+```

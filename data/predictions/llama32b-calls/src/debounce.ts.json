@@ -1,0 +1,16 @@
+{"calls": [
+  {"caller": "debounce", "callee_text": "setTimeout"},
+  {"caller": "debounce", "callee_text": "clearTimeout"},
+  {"caller": "debounce", "callee_text": "setTimeout"},
+  {"caller": "debounce", "callee_text": "clearTimeout"},
+  {"caller": "debounce", "callee_text": "setTimeout"},
+  {"caller": "debounce", "callee_text": "clearTimeout"},
+  {"caller": "debounce", "callee_text": "setTimeout"},
+  {"caller": "debounce", "callee_text": "clearTimeout"},
+  {"caller": "debounce", "callee_text": "setTimeout"},
+  {"caller": "debounce", "callee_text": "clearTimeout"},
+  {"caller": "debounce", "callee_text": "setTimeout"},
+  {"caller": "debounce", "callee_text": "clearTimeout"},
+  {"caller": "debounce", "callee_text": "setTimeout"},
+  {"caller": "debounce", "callee_text": "__module__"}
+]}

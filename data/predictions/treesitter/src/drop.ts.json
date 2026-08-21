@@ -1,0 +1,25 @@
+{
+  "relative_path": "src/drop.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "drop",
+      "callee_text": "purry",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./purry",
+      "line": 143
+    },
+    {
+      "caller": "dropImplementation",
+      "callee_text": "slice",
+      "kind": "method",
+      "receiver": "array",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 149
+    }
+  ],
+  "callable_refs": []
+}

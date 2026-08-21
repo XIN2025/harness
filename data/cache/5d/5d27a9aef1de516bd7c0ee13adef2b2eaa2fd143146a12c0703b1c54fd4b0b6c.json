@@ -1,0 +1,13 @@
+{
+  "key": "5d27a9aef1de516bd7c0ee13adef2b2eaa2fd143146a12c0703b1c54fd4b0b6c",
+  "model": "harness-qwen15b",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "338296079ba09bc18b676384852c8d2a4eedf7116f407ae1d670a235631a6eb1",
+  "relative_path": "src/evolve.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"evolve\",\n    \"GenericEvolver\",\n    \"Evolver\",\n    \"Evolved\",\n    \"pipe\"\n  ],\n  \"references\": [\n    {\"name\": \"evolve\", \"source\": \"./src/evolve.ts\"},\n    {\"name\": \"GenericEvolver\", \"source\": \"./src/evolve.ts\"},\n    {\"name\": \"Evolver\", \"source\": \"./src/evolve.ts\"},\n    {\"name\": \"Evolved\", \"source\": \"./src/evolve.ts\"},\n    {\"name\": \"pipe\", \"source\": \"./src/evolve.ts\"}\n  ],\n  \"calls\": [\n    {\n      \"caller\": \"evolve\",\n      \"callee_text\": \"add\",\n      \"kind\": \"method\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": \"./src/evolve.ts\",\n      \"line\": 10\n    }\n  ],\n  \"type_assignments\": [\n    {\"scope\": \"module\", \"var\": \"pipe\", \"type\": \"Function\", \"type_module\": \"external\"}\n  ],\n  \"definitions_rich\": [\n    {\n      \"name\": \"evolve\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [{\"name\": \"object\", \"type\": \"T\"}, {\"name\": \"evolver\", \"type\": \"E\"}],\n      \"returns\": \"Evolved<T, E>\",\n      \"line\": 1\n    },\n    {\n      \"name\": \"GenericEvolver\",\n      \"kind\": \"interface\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [],\n      \"returns\": null,\n      \"line\": 2\n    },\n    {\n      \"name\": \"Evolver\",\n      \"kind\": \"interface\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [],\n      \"returns\": null,\n      \"line\": 3\n    },\n    {\n      \"name\": \"Evolved\",\n      \"kind\": \"type_alias\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [{\"name\": \"T\", \"type\": \"object\"}, {\"name\": \"E\", \"type\": \"Evolver<T>\"}],\n      \"returns\": \"T\",\n      \"line\": 4\n    },\n    {\n      \"name\": \"pipe\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [{\"name\": \"evolver\", \"type\": \"E\"}],\n      \"returns\": \"(object: T) => Evolved<T, E>\",\n      \"line\": 5\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:18:34+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 9280,
+  "completion_tokens": 571
+}

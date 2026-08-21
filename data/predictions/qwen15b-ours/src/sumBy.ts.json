@@ -1,0 +1,45 @@
+```json
+{
+  "definitions": [
+    {
+      "name": "SumBy",
+      "kind": "function"
+    },
+    {
+      "name": "sumBy",
+      "kind": "function"
+    },
+    {
+      "name": "sumByImplementation",
+      "kind": "function"
+    }
+  ],
+  "references": [
+    {
+      "name": "purry",
+      "source": "./purry.ts",
+      "alias": null
+    },
+    {
+      "name": "IterableContainer",
+      "source": "./internal/types/IterableContainer.ts",
+      "alias": null
+    }
+  ],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "SumBy",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [],
+      "returns": {
+        "type": "bigint | number"
+      },
+      "line": 1
+    }
+  ]
+}
+```

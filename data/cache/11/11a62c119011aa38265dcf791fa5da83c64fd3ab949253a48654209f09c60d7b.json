@@ -1,0 +1,13 @@
+{
+  "key": "11a62c119011aa38265dcf791fa5da83c64fd3ab949253a48654209f09c60d7b",
+  "model": "harness-qwen15b",
+  "prompt_version": "refs-strict-v1-ca2cfcfbecef+json",
+  "file_sha": "a56b5293865f5f3f65101424842349e72631f917289ea22998f4427acd035c73",
+  "relative_path": "src/pullObject.ts",
+  "response": "{\"calls\": [], \"callable_refs\": [{\"caller\": \"pullObject\", \"callee_text\": \"pullObjectImplementation\"}, {\"caller\": \"pullObject\", \"callee_text\": \"keyExtractor\"}, {\"caller\": \"pullObject\", \"callee_text\": \"valueExtractor\"}]}",
+  "created": "2026-08-09T05:48:14+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1498,
+  "completion_tokens": 56
+}

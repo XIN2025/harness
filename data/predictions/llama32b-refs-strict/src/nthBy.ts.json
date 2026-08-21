@@ -1,0 +1,4 @@
+{"callable_refs": [
+  {"caller": "nthBy", "callee_text": "nthByImplementation"},
+  {"caller": "purryOrderRulesWithArgument", "callee_text": "nthByImplementation"}
+], "calls": []}

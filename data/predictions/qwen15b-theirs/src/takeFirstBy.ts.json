@@ -1,0 +1,118 @@
+```json
+{
+  "definitions": [
+    "takeFirstBy",
+    "heapify",
+    "heapMaybeInsert",
+    "purryOrderRulesWithArgument",
+    "type",
+    "OrderRule",
+    "CompareFunction",
+    "NonEmptyArray"
+  ],
+  "references": [
+    {"name": "takeFirstBy", "source": "./src/takeFirstBy.ts"},
+    {"name": "heapify", "source": "./src/takeFirstBy.ts"},
+    {"name": "heapMaybeInsert", "source": "./src/takeFirstBy.ts"},
+    {"name": "purryOrderRulesWithArgument", "source": "./src/takeFirstBy.ts"},
+    {"name": "type", "source": "./src/takeFirstBy.ts"},
+    {"name": "OrderRule", "source": "./src/takeFirstBy.ts"},
+    {"name": "CompareFunction", "source": "./src/takeFirstBy.ts"},
+    {"name": "NonEmptyArray", "source": "./src/takeFirstBy.ts"}
+  ],
+  "calls": [
+    {
+      "caller": "takeFirstBy",
+      "callee_text": "heapify",
+      "kind": "method",
+      "receiver": "data.slice(0, n)",
+      "receiver_type_hint": null,
+      "callee_file_hint": "./src/takeFirstBy.ts",
+      "line": 12
+    },
+    {
+      "caller": "takeFirstBy",
+      "callee_text": "heapMaybeInsert",
+      "kind": "method",
+      "receiver": "heap",
+      "receiver_type_hint": null,
+      "callee_file_hint": "./src/takeFirstBy.ts",
+      "line": 15
+    }
+  ],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "takeFirstBy",
+      "kind": "function",
+      "parent": null,
+      "bases": ["heapify", "heapMaybeInsert", "purryOrderRulesWithArgument"],
+      "params": [{"name": "data", "type": "readonly T[]"}, {"name": "n", "type": "number"}, {"name": "rules", "type": "Readonly<NonEmptyArray<OrderRule<T>>>"}],
+      "returns": "T[]",
+      "line": 1
+    },
+    {
+      "name": "heapify",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "data", "type": "readonly T[]"}, {"name": "compareFn", "type": "CompareFunction<T>"}],
+      "returns": null,
+      "line": 2
+    },
+    {
+      "name": "heapMaybeInsert",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "heap", "type": "T[]"}, {"name": "compareFn", "type": "CompareFunction<T>"}, {"name": "item", "type": "T"}],
+      "returns": null,
+      "line": 3
+    },
+    {
+      "name": "purryOrderRulesWithArgument",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "fn", "type": "Function"}, {"name": "args", "type": "readonly unknown[]"}],
+      "returns": "unknown",
+      "line": 4
+    },
+    {
+      "name": "type",
+      "kind": "interface",
+      "parent": null,
+      "bases": [],
+      "params": [],
+      "returns": null,
+      "line": 5
+    },
+    {
+      "name": "OrderRule",
+      "kind": "interface",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "projection", "type": "Function"}, {"name": "desc", "type": "string"}],
+      "returns": null,
+      "line": 6
+    },
+    {
+      "name": "CompareFunction",
+      "kind": "interface",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "a", "type": "T"}, {"name": "b", "type": "T"}],
+      "returns": "boolean",
+      "line": 7
+    },
+    {
+      "name": "NonEmptyArray",
+      "kind": "interface",
+      "parent": null,
+      "bases": [],
+      "params": [],
+      "returns": "Readonly<never>"
+    }
+  ]
+}
+```

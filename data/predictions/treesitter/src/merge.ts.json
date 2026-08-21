@@ -1,0 +1,16 @@
+{
+  "relative_path": "src/merge.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "merge",
+      "callee_text": "purry",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./purry",
+      "line": 57
+    }
+  ],
+  "callable_refs": []
+}

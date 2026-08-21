@@ -1,0 +1,123 @@
+{
+  "definitions": [
+    "difference",
+    "lazyImplementation"
+  ],
+  "references": [
+    {
+      "name": "purryFromLazy",
+      "source": "./internal/purryFromLazy",
+      "alias": null
+    },
+    {
+      "name": "LazyEvaluator",
+      "source": "./internal/types/LazyEvaluator",
+      "alias": null
+    },
+    {
+      "name": "SKIP_ITEM",
+      "source": "./internal/utilityEvaluators",
+      "alias": null
+    },
+    {
+      "name": "lazyIdentityEvaluator",
+      "source": "./internal/utilityEvaluators",
+      "alias": null
+    }
+  ],
+  "calls": [
+    {
+      "caller": "difference",
+      "callee_text": "purryFromLazy",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./internal/purryFromLazy",
+      "line": 41
+    },
+    {
+      "caller": "lazyImplementation",
+      "callee_text": "Map",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 49
+    },
+    {
+      "caller": "lazyImplementation",
+      "callee_text": "get",
+      "kind": "method",
+      "receiver": "remaining",
+      "receiver_type_hint": "Map",
+      "callee_file_hint": "external",
+      "line": 51
+    },
+    {
+      "caller": "lazyImplementation",
+      "callee_text": "set",
+      "kind": "method",
+      "receiver": "remaining",
+      "receiver_type_hint": "Map",
+      "callee_file_hint": "external",
+      "line": 51
+    },
+    {
+      "caller": "lazyImplementation",
+      "callee_text": "get",
+      "kind": "method",
+      "receiver": "remaining",
+      "receiver_type_hint": "Map",
+      "callee_file_hint": "external",
+      "line": 55
+    },
+    {
+      "caller": "lazyImplementation",
+      "callee_text": "set",
+      "kind": "method",
+      "receiver": "remaining",
+      "receiver_type_hint": "Map",
+      "callee_file_hint": "external",
+      "line": 67
+    }
+  ],
+  "type_assignments": [
+    {
+      "scope": "lazyImplementation",
+      "var": "remaining",
+      "type": "Map",
+      "type_module": "external",
+      "from_call": "Map"
+    }
+  ],
+  "definitions_rich": [
+    {
+      "name": "difference",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "args",
+          "type": "readonly unknown[]"
+        }
+      ],
+      "returns": "unknown",
+      "line": 40
+    },
+    {
+      "name": "lazyImplementation",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "other",
+          "type": "readonly T[]"
+        }
+      ],
+      "returns": "LazyEvaluator",
+      "line": 44
+    }
+  ]
+}

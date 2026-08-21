@@ -1,0 +1,13 @@
+{
+  "key": "21f01df345b9d12ae2da6106ea8912dbe5717700c15a3abed986ad0b92b51922",
+  "model": "harness-qwen15b",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "7e3ae89c322adb419d4a078d5e6f8f9ccbf52a3ca027529e0cc88a4d3c9c9989",
+  "relative_path": "src/internal/purryFromLazy.ts",
+  "response": "```json\n{\n  \"definitions\": [\"purryFromLazy\"],\n  \"references\": [\n    {\"name\": \"pipe\", \"source\": \"../pipe\"},\n    {\"name\": \"LazyDefinition\", \"source\": \"./types/LazyDefinition\"},\n    {\"name\": \"LazyEvaluator\", \"source\": \"./types/LazyEvaluator\"}\n  ],\n  \"calls\": [],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\"name\": \"purryFromLazy\", \"kind\": \"function\", \"parent\": null, \"bases\": [], \"params\": [{\"name\":\"lazy\",\"type\":null},{\"name\":\"args\",\"type\":null}], \"returns\": null, \"line\": 1}\n  ]\n}\n```",
+  "created": "2026-08-08T20:21:28+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 8484,
+  "completion_tokens": 148
+}

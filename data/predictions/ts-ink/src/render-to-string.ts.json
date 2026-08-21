@@ -1,0 +1,151 @@
+{
+  "relative_path": "src/render-to-string.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "renderToString",
+      "callee_text": "createNode",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./dom.js",
+      "line": 51
+    },
+    {
+      "caller": "renderToString",
+      "callee_text": "setWidth",
+      "kind": "method",
+      "receiver": "rootNode.yogaNode!",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 62
+    },
+    {
+      "caller": "renderToString",
+      "callee_text": "calculateLayout",
+      "kind": "method",
+      "receiver": "rootNode.yogaNode!",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 63
+    },
+    {
+      "caller": "renderToString",
+      "callee_text": "renderer",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./renderer.js",
+      "line": 71
+    },
+    {
+      "caller": "renderToString",
+      "callee_text": "createContainer",
+      "kind": "method",
+      "receiver": "reconciler",
+      "receiver_type_hint": null,
+      "callee_file_hint": "./reconciler.js",
+      "line": 87
+    },
+    {
+      "caller": "renderToString",
+      "callee_text": "updateContainerSync",
+      "kind": "method",
+      "receiver": "reconciler",
+      "receiver_type_hint": null,
+      "callee_file_hint": "./reconciler.js",
+      "line": 106
+    },
+    {
+      "caller": "renderToString",
+      "callee_text": "flushSyncWork",
+      "kind": "method",
+      "receiver": "reconciler",
+      "receiver_type_hint": null,
+      "callee_file_hint": "./reconciler.js",
+      "line": 107
+    },
+    {
+      "caller": "renderToString",
+      "callee_text": "renderer",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./renderer.js",
+      "line": 111
+    },
+    {
+      "caller": "renderToString",
+      "callee_text": "updateContainerSync",
+      "kind": "method",
+      "receiver": "reconciler",
+      "receiver_type_hint": null,
+      "callee_file_hint": "./reconciler.js",
+      "line": 116
+    },
+    {
+      "caller": "renderToString",
+      "callee_text": "flushSyncWork",
+      "kind": "method",
+      "receiver": "reconciler",
+      "receiver_type_hint": null,
+      "callee_file_hint": "./reconciler.js",
+      "line": 117
+    },
+    {
+      "caller": "renderToString",
+      "callee_text": "free",
+      "kind": "method",
+      "receiver": "rootNode.yogaNode!",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 121
+    },
+    {
+      "caller": "renderToString",
+      "callee_text": "Error",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 128
+    },
+    {
+      "caller": "renderToString",
+      "callee_text": "String",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 128
+    },
+    {
+      "caller": "renderToString",
+      "callee_text": "endsWith",
+      "kind": "method",
+      "receiver": "capturedStaticOutput",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 134
+    },
+    {
+      "caller": "renderToString",
+      "callee_text": "slice",
+      "kind": "method",
+      "receiver": "capturedStaticOutput",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 135
+    },
+    {
+      "caller": "renderToString",
+      "callee_text": "freeRecursive",
+      "kind": "method",
+      "receiver": "rootNode.yogaNode",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 150
+    }
+  ],
+  "callable_refs": []
+}

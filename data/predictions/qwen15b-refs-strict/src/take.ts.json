@@ -1,0 +1,1 @@
+{"calls": [], "callable_refs": [{"caller": "take", "callee_text": "takeImplementation"}, {"caller": "take", "callee_text": "lazyImplementation"}]}

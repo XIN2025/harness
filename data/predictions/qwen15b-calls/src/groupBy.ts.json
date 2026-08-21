@@ -1,0 +1,13 @@
+{"calls": [
+  {"caller": "groupBy", "callee_text": "purry"},
+  {"caller": "groupByImplementation", "callee_text": "callbackfn"},
+  {"caller": "groupByImplementation", "callee_text": "data"},
+  {"caller": "groupByImplementation", "callee_text": "index"},
+  {"caller": "groupByImplementation", "callee_text": "data"},
+  {"caller": "groupByImplementation", "callee_text": "item"},
+  {"caller": "groupByImplementation", "callee_text": "callbackfn"},
+  {"caller": "groupByImplementation", "callee_text": "key"},
+  {"caller": "groupByImplementation", "callee_text": "output[key]"},
+  {"caller": "groupByImplementation", "callee_text": "items.push(item)"},
+  {"caller": "groupByImplementation", "callee_text": "Object.setPrototypeOf(output, Object.prototype)"}
+]}

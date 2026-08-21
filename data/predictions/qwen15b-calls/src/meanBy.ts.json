@@ -1,0 +1,7 @@
+{"calls": [
+  {"caller": "meanBy", "callee_text": "purry"},
+  {"caller": "meanByImplementation", "callee_text": "array.length"},
+  {"caller": "meanByImplementation", "callee_text": "sum"},
+  {"caller": "meanByImplementation", "callee_text": "fn(item, index, array)"},
+  {"caller": "meanByImplementation", "callee_text": "array.entries"}
+]}

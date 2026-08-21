@@ -1,0 +1,13 @@
+{
+  "key": "dc5c42677f3c26054233fda38dd1bd5732a6ba847c0c581a9c8a67242dee35c8",
+  "model": "harness-qwen15b",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "bce8be3102532c25ede791c13241f0d251554f9eb82039e333fd1e8cdb3379b2",
+  "relative_path": "src/clone.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"clone\",\n    \"isPlainObject\",\n    \"purry\"\n  ],\n  \"references\": [\n    {\"name\": \"clone\", \"source\": \"./src/clone.ts\"},\n    {\"name\": \"isPlainObject\", \"source\": \"./src/clone.ts\"},\n    {\"name\": \"purry\", \"source\": \"./src/clone.ts\"}\n  ],\n  \"calls\": [],\n  \"type_assignments\": [\n    {\"scope\": \"module\", \"var\": \"clone\", \"type\": \"function\", \"type_module\": \"src\"},\n    {\"scope\": \"module\", \"var\": \"isPlainObject\", \"type\": \"function\", \"type_module\": \"src\"},\n    {\"scope\": \"module\", \"var\": \"purry\", \"type\": \"function\", \"type_module\": \"src\"}\n  ],\n  \"definitions_rich\": [\n    {\"name\": \"clone\", \"kind\": \"function\", \"parent\": null, \"bases\": [], \"params\": [], \"returns\": null, \"line\": 1},\n    {\"name\": \"isPlainObject\", \"kind\": \"function\", \"parent\": null, \"bases\": [], \"params\": [], \"returns\": null, \"line\": 3},\n    {\"name\": \"purry\", \"kind\": \"function\", \"parent\": null, \"bases\": [], \"params\": [], \"returns\": null, \"line\": 5}\n  ]\n}\n```",
+  "created": "2026-08-08T20:16:45+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 9002,
+  "completion_tokens": 305
+}

@@ -1,0 +1,24 @@
+{
+  "arms": [
+    "qwen15b-refs",
+    "llama32b-refs"
+  ],
+  "split": "dev",
+  "cut": "full",
+  "min_votes": 2,
+  "formula": "containment: |E_a \u2229 E_b| / min(|E_a|, |E_b|); 0.0 when either set is empty",
+  "limit": 0.8,
+  "max": 0.6906474820143885,
+  "pairs": [
+    {
+      "arm_a": "qwen15b-refs",
+      "arm_b": "llama32b-refs",
+      "overlap": 0.6906474820143885
+    }
+  ],
+  "errors_by_arm": {
+    "qwen15b-refs": 417,
+    "llama32b-refs": 450
+  },
+  "ensemble_dropped": false
+}

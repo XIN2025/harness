@@ -1,0 +1,1 @@
+{"calls": [], "callable_refs": [{"caller": "randomInteger", "callee_text": "fromCeiled"}, {"caller": "randomInteger", "callee_text": "toFloored"}, {"caller": "randomInteger", "callee_text": "Math.random"}, {"caller": "randomInteger", "callee_text": "Math.floor"}, {"caller": "randomInteger", "callee_text": "Math.ceil"}]}

@@ -1,0 +1,54 @@
+```json
+{
+  "definitions": [
+    "Join",
+    "purry",
+    "type-fest",
+    "JoinableItem",
+    "join",
+    "glue"
+  ],
+  "references": [],
+  "calls": [
+    {
+      "caller": "__module__",
+      "callee_text": "join",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "src/join.ts",
+      "line": 1
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "join",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "src/join.ts",
+      "line": 2
+    }
+  ],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "Join",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [],
+      "returns": null,
+      "line": 1
+    },
+    {
+      "name": "purry",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [],
+      "returns": null,
+      "line": 2
+    }
+  ]
+}
+```

@@ -1,0 +1,51 @@
+```json
+{
+  "definitions": [
+    "isEmpty",
+    "isEmptyish",
+    "hasAtLeast",
+    "isStrictEqual",
+    "isNullish",
+    "isTruthy"
+  ],
+  "references": [],
+  "calls": [
+    {
+      "caller": "__module__",
+      "callee_text": "isEmpty",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "src/isEmpty.ts",
+      "line": 1
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "isEmpty",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "src/isEmpty.ts",
+      "line": 2
+    }
+  ],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "isEmpty",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [],
+      "returns": {
+        "scope": null,
+        "var": null,
+        "type": "boolean",
+        "type_module": null,
+        "from_call": false
+      },
+      "line": 1
+    }
+  ]
+}
+```

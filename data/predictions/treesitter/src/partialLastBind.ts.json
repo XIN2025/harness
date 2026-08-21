@@ -1,0 +1,16 @@
+{
+  "relative_path": "src/partialLastBind.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "partialLastBind",
+      "callee_text": "func",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 83
+    }
+  ],
+  "callable_refs": []
+}

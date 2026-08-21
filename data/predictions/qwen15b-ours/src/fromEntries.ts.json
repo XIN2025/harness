@@ -1,0 +1,105 @@
+```json
+{
+  "definitions": [
+    "fromEntries",
+    "Entry",
+    "FromEntriesError",
+    "IsNever",
+    "Simplify",
+    "IterableContainer",
+    "RemedaTypeError",
+    "purry",
+    "string",
+    "number",
+    "symbol",
+    "AllKeys",
+    "ValueForKey",
+    "FromEntriesArrayWithLiteralKeys"
+  ],
+  "references": [
+    {
+      "name": "type-fest",
+      "source": "node_modules/type-fest/index.d.ts",
+      "alias": null
+    },
+    {
+      "name": "./internal/types/IterableContainer",
+      "source": "src/internal/types/IterableContainer.ts",
+      "alias": null
+    },
+    {
+      "name": "./internal/types/RemedaTypeError",
+      "source": "src/internal/types/RemedaTypeError.ts",
+      "alias": null
+    },
+    {
+      "name": "./purry",
+      "source": "src/purry.ts",
+      "alias": null
+    }
+  ],
+  "calls": [
+    {
+      "caller": "__module__",
+      "callee_text": "fromEntries",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "src/fromEntries.ts",
+      "line": 1
+    }
+  ],
+  "type_assignments": [
+    {
+      "scope": "__module__",
+      "var": "fromEntries",
+      "type": "function",
+      "type_module": null,
+      "from_call": true
+    },
+    {
+      "scope": "__module__",
+      "var": "Entry",
+      "type": "interface",
+      "type_module": null,
+      "from_call": false
+    }
+  ],
+  "definitions_rich": [
+    {
+      "name": "fromEntries",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "entries",
+          "type": "IterableContainer<Entry>"
+        }
+      ],
+      "returns": {
+        "type": "Simplify<FromEntries<Entries>>"
+      },
+      "line": 1
+    },
+    {
+      "name": "Entry",
+      "kind": "interface",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "key",
+          "type": "PropertyKey"
+        },
+        {
+          "name": "value",
+          "type": "unknown"
+        }
+      ],
+      "returns": null,
+      "line": 1
+    }
+  ]
+}
+```

@@ -1,0 +1,115 @@
+{
+  "relative_path": "lib/plugins/console/list/route.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "listRoute",
+      "callee_text": "sort",
+      "kind": "this",
+      "receiver": "this.route.list()",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 5
+    },
+    {
+      "caller": "listRoute",
+      "callee_text": "list",
+      "kind": "this",
+      "receiver": "this.route",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 5
+    },
+    {
+      "caller": "listRoute",
+      "callee_text": "buildTree",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 6
+    },
+    {
+      "caller": "listRoute",
+      "callee_text": "buildNodes",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 7
+    },
+    {
+      "caller": "listRoute",
+      "callee_text": "archy",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "fast-archy",
+      "line": 9
+    },
+    {
+      "caller": "listRoute",
+      "callee_text": "log",
+      "kind": "method",
+      "receiver": "console",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 14
+    },
+    {
+      "caller": "buildTree",
+      "callee_text": "split",
+      "kind": "method",
+      "receiver": "routes[i]",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 22
+    },
+    {
+      "caller": "buildNodes",
+      "callee_text": "entries",
+      "kind": "static",
+      "receiver": "Object",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 38
+    },
+    {
+      "caller": "buildNodes",
+      "callee_text": "keys",
+      "kind": "static",
+      "receiver": "Object",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 39
+    },
+    {
+      "caller": "buildNodes",
+      "callee_text": "push",
+      "kind": "method",
+      "receiver": "nodes",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 40
+    },
+    {
+      "caller": "buildNodes",
+      "callee_text": "buildNodes",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 42
+    },
+    {
+      "caller": "buildNodes",
+      "callee_text": "push",
+      "kind": "method",
+      "receiver": "nodes",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 45
+    }
+  ],
+  "callable_refs": []
+}

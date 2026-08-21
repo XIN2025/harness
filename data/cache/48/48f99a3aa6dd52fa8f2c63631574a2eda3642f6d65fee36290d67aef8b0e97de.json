@@ -1,0 +1,13 @@
+{
+  "key": "48f99a3aa6dd52fa8f2c63631574a2eda3642f6d65fee36290d67aef8b0e97de",
+  "model": "harness-llama32b",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "be3323e0ad630e95e76340cd0f695dbb36ce391ebebf652da11334e99e46c4b3",
+  "relative_path": "src/difference.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"difference\", \"callee_text\": \"purryFromLazy\"},\n  {\"caller\": \"difference\", \"callee_text\": \"lazyImplementation\"},\n  {\"caller\": \"difference\", \"callee_text\": \"Map\"},\n  {\"caller\": \"difference\", \"callee_text\": \"remaining.set\"},\n  {\"caller\": \"difference\", \"callee_text\": \"other.length\"},\n  {\"caller\": \"difference\", \"callee_text\": \"for\"},\n  {\"caller\": \"difference\", \"callee_text\": \"value of\"},\n  {\"caller\": \"difference\", \"callee_text\": \"remaining.get\"},\n  {\"caller\": \"difference\", \"callee_text\": \"copies\"},\n  {\"caller\": \"difference\", \"callee_text\": \"if\"},\n  {\"caller\": \"difference\", \"callee_text\": \"else if\"},\n  {\"caller\": \"difference\", \"__module__\": \"internal/purryFromLazy\"},\n  {\"caller\": \"lazyImplementation\", \"callee_text\": \"Map\"},\n  {\"caller\": \"lazyImplementation\", \"callee_text\": \"remaining.set\"},\n  {\"caller\": \"lazyIdentityEvaluator\", \"callee_text\": \"done\"}\n]}",
+  "created": "2026-08-08T22:34:32+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1092,
+  "completion_tokens": 234
+}

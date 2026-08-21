@@ -1,0 +1,79 @@
+{
+  "arm": "hybrid(treesitter+llama32b-refs)",
+  "split": "dev",
+  "cut": "full",
+  "validity": {
+    "total": 112,
+    "raw_valid": 112,
+    "parseable": 112,
+    "schema_valid": 112
+  },
+  "counts": {
+    "tp": 421,
+    "fp": 137,
+    "fn": 33,
+    "unscored": 58,
+    "files": 112
+  },
+  "metrics": {
+    "precision": {
+      "point": 0.7544802867383512,
+      "low": 0.6981573493792077,
+      "high": 0.8053244924360309,
+      "method": "BCa"
+    },
+    "recall": {
+      "point": 0.9273127753303965,
+      "low": 0.8995779073260223,
+      "high": 0.9498910675381264,
+      "method": "BCa"
+    },
+    "f1": {
+      "point": 0.8320158102766798,
+      "low": 0.7962387652885188,
+      "high": 0.8632367753485755,
+      "method": "BCa"
+    }
+  },
+  "base": {
+    "arm": "treesitter",
+    "split": "dev",
+    "cut": "full",
+    "validity": {
+      "total": 112,
+      "raw_valid": 112,
+      "parseable": 112,
+      "schema_valid": 112
+    },
+    "counts": {
+      "tp": 330,
+      "fp": 0,
+      "fn": 124,
+      "unscored": 58,
+      "files": 112
+    },
+    "metrics": {
+      "precision": {
+        "point": 1.0,
+        "low": 1.0,
+        "high": 1.0,
+        "method": "percentile"
+      },
+      "recall": {
+        "point": 0.7268722466960352,
+        "low": 0.6913875598086124,
+        "high": 0.7655101326012594,
+        "method": "BCa"
+      },
+      "f1": {
+        "point": 0.8418367346938775,
+        "low": 0.8175388967468176,
+        "high": 0.8671914910501883,
+        "method": "BCa"
+      }
+    }
+  },
+  "additions": [
+    "llama32b-refs"
+  ]
+}

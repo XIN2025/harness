@@ -1,0 +1,13 @@
+{
+  "key": "a420a39e7b485be0da56b184e6843beeb2154d1d1f372175dd39ed7832fc0a26",
+  "model": "harness-qwen15b",
+  "prompt_version": "refs-v1-7386a79c1ab2+json",
+  "file_sha": "20196f149238c6b0ea7b78a28c95b57dfd64a7427eae66197fcdf419d52f4559",
+  "relative_path": "src/endsWith.ts",
+  "response": "{\n  \"calls\": [],\n  \"callable_refs\": [\n    {\"caller\": \"endsWith\", \"callee_text\": \"endsWithImplementation\"},\n    {\"caller\": \"endsWithImplementation\", \"callee_text\": \"suffix\"}\n  ]\n}",
+  "created": "2026-08-08T22:25:35+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 856,
+  "completion_tokens": 46
+}

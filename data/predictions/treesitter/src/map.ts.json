@@ -1,0 +1,34 @@
+{
+  "relative_path": "src/map.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "map",
+      "callee_text": "purry",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./purry",
+      "line": 53
+    },
+    {
+      "caller": "mapImplementation",
+      "callee_text": "map",
+      "kind": "method",
+      "receiver": "data",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 59
+    },
+    {
+      "caller": "lazyImplementation",
+      "callee_text": "callbackfn",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 68
+    }
+  ],
+  "callable_refs": []
+}

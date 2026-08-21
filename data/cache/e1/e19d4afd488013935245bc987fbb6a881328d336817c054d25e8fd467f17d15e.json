@@ -1,0 +1,13 @@
+{
+  "key": "e19d4afd488013935245bc987fbb6a881328d336817c054d25e8fd467f17d15e",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "refs-v1-7386a79c1ab2+json",
+  "file_sha": "73b328010f636bd43b1d94099d3446278cca26be5e7ce692fbdbf0ebef3b0f75",
+  "relative_path": "src/median.ts",
+  "response": "{\"callable_refs\": [\n  {\"caller\": \"median\", \"callee_text\": \"medianImplementation\"},\n  {\"caller\": \"median\", \"callee_text\": \"numberComparator\"}\n]}",
+  "created": "2026-08-08T23:24:14+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1025,
+  "completion_tokens": 37
+}

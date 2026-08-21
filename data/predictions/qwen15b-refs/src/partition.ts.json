@@ -1,0 +1,1 @@
+{"calls": [], "callable_refs": [{"caller": "partition", "callee_text": "partitionImplementation"}, {"caller": "partitionImplementation", "callee_text": "predicate"}, {"caller": "partitionImplementation", "callee_text": "data"}]}

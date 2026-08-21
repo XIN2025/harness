@@ -1,0 +1,6 @@
+{"calls": [
+  {"caller": "drop", "callee_text": "__module__"},
+  {"caller": "drop", "callee_text": "purry"},
+  {"caller": "dropImplementation", "callee_text": "slice"},
+  {"caller": "lazyImplementation", "callee_text": "function"}
+]}

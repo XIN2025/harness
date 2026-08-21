@@ -1,0 +1,6 @@
+{"calls": [
+  {"caller": "flatMap", "callee_text": "flatMapImplementation"},
+  {"caller": "flatMap", "callee_text": "callbackfn"},
+  {"caller": "flatMapImplementation", "callee_text": "data.flatMap"},
+  {"caller": "flatMapImplementation", "callee_text": "callbackfn"}
+]}

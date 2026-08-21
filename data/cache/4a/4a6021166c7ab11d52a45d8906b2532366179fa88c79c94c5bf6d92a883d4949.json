@@ -1,0 +1,13 @@
+{
+  "key": "4a6021166c7ab11d52a45d8906b2532366179fa88c79c94c5bf6d92a883d4949",
+  "model": "harness-qwen15b",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "86c0d829f15ed379f0d1067772f3ab4bf8be4b42ae64abfee6b2dea326eace86",
+  "relative_path": "src/internal/quickSelect.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"quickSelect\", \"callee_text\": \"partition\"},\n  {\"caller\": \"quickSelectImplementation\", \"callee_text\": \"swapInPlace\"},\n  {\"caller\": \"quickSelectImplementation\", \"callee_text\": \"compareFn\"},\n  {\"caller\": \"quickSelectImplementation\", \"callee_text\": \"data\"},\n  {\"caller\": \"quickSelectImplementation\", \"callee_text\": \"left\"},\n  {\"caller\": \"quickSelectImplementation\", \"callee_text\": \"right\"},\n  {\"caller\": \"quickSelectImplementation\", \"callee_text\": \"pivotIndex\"},\n  {\"caller\": \"quickSelectImplementation\", \"callee_text\": \"i\"},\n  {\"caller\": \"quickSelectImplementation\", \"callee_text\": \"j\"},\n  {\"caller\": \"partition\", \"callee_text\": \"data\"},\n  {\"caller\": \"partition\", \"callee_text\": \"left\"},\n  {\"caller\": \"partition\", \"callee_text\": \"right\"},\n  {\"caller\": \"partition\", \"callee_text\": \"pivot\"}\n]}",
+  "created": "2026-08-08T22:17:36+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1082,
+  "completion_tokens": 209
+}

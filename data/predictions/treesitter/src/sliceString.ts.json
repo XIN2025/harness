@@ -1,0 +1,25 @@
+{
+  "relative_path": "src/sliceString.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "sliceString",
+      "callee_text": "slice",
+      "kind": "method",
+      "receiver": "dataOrIndexStart",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 57
+    },
+    {
+      "caller": "sliceString",
+      "callee_text": "slice",
+      "kind": "method",
+      "receiver": "data",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 58
+    }
+  ],
+  "callable_refs": []
+}

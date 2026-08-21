@@ -1,0 +1,13 @@
+{
+  "key": "99b5710f87e7fd40f4a2db9477a29b017053f071d2387035bb13b9722cdf41b2",
+  "model": "harness-qwen15b",
+  "prompt_version": "ours-v1-5c74cf9a927a",
+  "file_sha": "4392703e7d4196cb731d8653d4978a5f3e92938e0868620b8348fb43d61822e6",
+  "relative_path": "src/debounce.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"Debouncer\",\n    \"DebounceOptions\"\n  ],\n  \"references\": [],\n  \"calls\": [],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"F\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [],\n      \"returns\": null,\n      \"line\": 1\n    },\n    {\n      \"name\": \"IsNullable\",\n      \"kind\": \"boolean\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [],\n      \"returns\": null,\n      \"line\": 2\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:31:40+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 3235,
+  "completion_tokens": 147
+}

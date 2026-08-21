@@ -1,0 +1,13 @@
+{
+  "key": "3aefbd8f338df065446b5a44f571d77162d1772f16aaf84f4aabe49e7588c348",
+  "model": "harness-qwen15b",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "2088617adbf29c12e440220b243cb79e58a1fa80c5c6d2629b72c7e7128186af",
+  "relative_path": "src/internal/words.ts",
+  "response": "```json\n{\n  \"definitions\": [\"words\"],\n  \"references\": [\n    {\"name\": \"words\", \"source\": \"./src/internal/words.ts\"}\n  ],\n  \"calls\": [],\n  \"type_assignments\": [],\n  \"definitions_rich\": []\n}\n```",
+  "created": "2026-08-08T20:21:47+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 8759,
+  "completion_tokens": 57
+}

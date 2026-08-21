@@ -1,0 +1,67 @@
+```json
+{
+  "definitions": [
+    "Product",
+    "product"
+  ],
+  "references": [],
+  "calls": [
+    {
+      "caller": "__module__",
+      "callee_text": "product",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "src/product.ts",
+      "line": 1
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "product",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "src/product.ts",
+      "line": 2
+    }
+  ],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "Product",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [],
+      "returns": {
+        "scope": null,
+        "var": "product",
+        "type": "number | bigint",
+        "type_module": null,
+        "from_call": false
+      },
+      "line": 1
+    },
+    {
+      "name": "product",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "IterableContainer<bigint> | IterableContainer<number>"
+        }
+      ],
+      "returns": {
+        "scope": null,
+        "var": "product",
+        "type": "number | bigint",
+        "type_module": null,
+        "from_call": false
+      },
+      "line": 1
+    }
+  ]
+}
+```

@@ -1,0 +1,13 @@
+{
+  "key": "1549c3f1f7543c72e9162c0b5a78007903961add26595fe20ec6373b850225e6",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "refs-v1-7386a79c1ab2+json",
+  "file_sha": "39a6e4c9e37b1123a72eb3d0507724c218f6bd0ee1571c775c89c41300005e52",
+  "relative_path": "src/findIndex.ts",
+  "response": "{\"callable_refs\": [{\"caller\": \"findIndex\", \"callee_text\": \"findIndexImplementation\"}]}",
+  "created": "2026-08-08T23:20:05+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 891,
+  "completion_tokens": 22
+}

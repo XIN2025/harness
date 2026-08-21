@@ -1,0 +1,13 @@
+{
+  "key": "454b2868699055b46e8982c0a0c0880c5013c3e215e74ef0f5e43ca79d7f0b74",
+  "model": "harness-qwen15b",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "025f9dac9b5c2a7be6e826de4afecb0716668e4b44bfb3633fe7974f8d27e35e",
+  "relative_path": "src/filter.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"filter\",\n    \"filterImplementation\",\n    \"lazyImplementation\"\n  ],\n  \"references\": [\n    {\"name\": \"filter\", \"source\": \"./src/filter.ts\"},\n    {\"name\": \"filterImplementation\", \"source\": \"./src/filter.ts\"},\n    {\"name\": \"lazyImplementation\", \"source\": \"./src/filter.ts\"}\n  ],\n  \"calls\": [\n    {\n      \"caller\": \"App\",\n      \"callee_text\": \"useState\",\n      \"kind\": \"hook\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": \"external\",\n      \"line\": 2\n    }\n  ],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"filter\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [{\"name\": \"data\", \"type\": \"readonly T[]\"}],\n      \"returns\": \"T[]\",\n      \"line\": 1\n    },\n    {\n      \"name\": \"filterImplementation\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [{\"name\": \"data\", \"type\": \"readonly T[]\"}, {\"name\": \"predicate\", \"type\": \"(value: T, index: number, array: readonly T[]) => boolean\"}],\n      \"returns\": \"T[]\",\n      \"line\": 10\n    },\n    {\n      \"name\": \"lazyImplementation\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [{\"name\": \"predicate\", \"type\": \"(value: T, index: number, data: readonly T[]) => boolean\"}],\n      \"returns\": \"LazyEvaluator<T>\",\n      \"line\": 18\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:18:42+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 9174,
+  "completion_tokens": 393
+}

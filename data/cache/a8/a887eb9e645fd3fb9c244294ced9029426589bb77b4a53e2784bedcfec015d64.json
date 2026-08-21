@@ -1,0 +1,11 @@
+{
+  "key": "a887eb9e645fd3fb9c244294ced9029426589bb77b4a53e2784bedcfec015d64",
+  "model": "gemini-2.5-flash",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "dc59bf0d237410cf0e1aff16da87d6f78f66580f9f03f85322c465c093cba13c",
+  "relative_path": "src/concat.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"concat\",\n    \"concatImplementation\"\n  ],\n  \"references\": [\n    {\n      \"name\": \"IterableContainer\",\n      \"source\": \"./internal/types/IterableContainer\",\n      \"alias\": null\n    },\n    {\n      \"name\": \"purry\",\n      \"source\": \"./purry\",\n      \"alias\": null\n    }\n  ],\n  \"calls\": [\n    {\n      \"caller\": \"concat\",\n      \"callee_text\": \"purry\",\n      \"kind\": \"free\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": \"./purry\",\n      \"line\": 35\n    }\n  ],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"concat\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"args\",\n          \"type\": \"readonly unknown[]\"\n        }\n      ],\n      \"returns\": \"unknown\",\n      \"line\": 34\n    },\n    {\n      \"name\": \"concatImplementation\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"arr1\",\n          \"type\": null\n        },\n        {\n          \"name\": \"arr2\",\n          \"type\": null\n        }\n      ],\n      \"returns\": null,\n      \"line\": 38\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T17:08:41+00:00",
+  "finish_reason": "stop",
+  "served_by": ""
+}

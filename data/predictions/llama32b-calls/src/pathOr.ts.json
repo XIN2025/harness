@@ -1,0 +1,15 @@
+{"calls": [
+  {"caller": "pathOr", "callee_text": "purry"},
+  {"caller": "pathOrImplementation", "callee_text": "getOwnPropertyDescriptor"},
+  {"caller": "pathOrImplementation", "callee_text": "hasOwnProperty"},
+  {"caller": "pathOrImplementation", "callee_text": "getPrototypeOf"},
+  {"caller": "pathOrImplementation", "callee_text": "toString"},
+  {"caller": "pathOrImplementation", "callee_text": "hasOwnProperty"},
+  {"caller": "pathOrImplementation", "callee_text": "getOwnPropertyDescriptor"},
+  {"caller": "pathOrImplementation", "callee_text": "hasOwnProperty"},
+  {"caller": "pathOrImplementation", "callee_text": "__lookupGetter"},
+  {"caller": "pathOrImplementation", "callee_text": "toString"},
+  {"caller": "pathOrImplementation", "callee_text": "hasOwnProperty"},
+  {"caller": "pathOrImplementation", "callee_text": "getPrototypeOf"},
+  {"caller": "pathOrImplementation", "callee_text": "__lookupGetter"}
+]}

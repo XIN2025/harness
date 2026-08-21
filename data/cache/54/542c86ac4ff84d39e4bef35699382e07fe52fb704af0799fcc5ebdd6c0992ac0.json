@@ -1,0 +1,13 @@
+{
+  "key": "542c86ac4ff84d39e4bef35699382e07fe52fb704af0799fcc5ebdd6c0992ac0",
+  "model": "harness-qwen15b",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "1aae0ad2b1ea0477434da5ab1084ec663f38a0ade5e8d3e12453aa604b637044",
+  "relative_path": "src/zip.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"zip\",\n    \"Zipped\",\n    \"IterableContainer\",\n    \"LazyEvaluator\",\n    \"purry\"\n  ],\n  \"references\": [\n    {\"name\": \"zip\", \"source\": \"./src/zip.ts\"},\n    {\"name\": \"Zipped\", \"source\": \"./src/zip.ts\"},\n    {\"name\": \"IterableContainer\", \"source\": \"./src/zip.ts\"},\n    {\"name\": \"LazyEvaluator\", \"source\": \"./src/zip.ts\"},\n    {\"name\": \"purry\", \"source\": \"./src/zip.ts\"}\n  ],\n  \"calls\": [\n    {\n      \"caller\": \"__module__\",\n      \"callee_text\": \"zip\",\n      \"kind\": \"free\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": \"./src/zip.ts\",\n      \"line\": 1\n    }\n  ],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"zip\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [\"IterableContainer\", \"LazyEvaluator\"],\n      \"params\": [{\"name\": \"first\", \"type\": \"IterableContainer\"}],\n      \"returns\": \"Zipped<IterableContainer, IterableContainer>\",\n      \"line\": 1\n    },\n    {\n      \"name\": \"Zipped\",\n      \"kind\": \"interface\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [{\"name\": \"first\", \"type\": \"IterableContainer\"}],\n      \"returns\": \"unknown[]\",\n      \"line\": 2\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:29:24+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 8807,
+  "completion_tokens": 350
+}

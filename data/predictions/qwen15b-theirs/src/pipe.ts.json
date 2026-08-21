@@ -1,0 +1,25 @@
+```json
+{
+  "definitions": [
+    "pipe",
+    "prepareLazyFunction",
+    "isIterable"
+  ],
+  "references": [
+    {"name": "pipe", "source": "./src/pipe.ts"},
+    {"name": "prepareLazyFunction", "source": "./src/pipe.ts"},
+    {"name": "isIterable", "source": "./src/pipe.ts"}
+  ],
+  "calls": [],
+  "type_assignments": [
+    {"scope": "module", "var": "pipe", "type": "function", "type_module": "src"},
+    {"scope": "module", "var": "prepareLazyFunction", "type": "function", "type_module": "src"},
+    {"scope": "module", "var": "isIterable", "type": "function", "type_module": "src"}
+  ],
+  "definitions_rich": [
+    {"name": "pipe", "kind": "function", "parent": null, "bases": [], "params": [{"name": "data", "type": null}], "returns": null, "line": 1},
+    {"name": "prepareLazyFunction", "kind": "function", "parent": null, "bases": [], "params": [{"name": "lazy", "type": null}, {"name": "lazyArgs", "type": null}], "returns": null, "line": 2},
+    {"name": "isIterable", "kind": "function", "parent": null, "bases": [], "params": [{"name": "something", "type": null}], "returns": null, "line": 3}
+  ]
+}
+```

@@ -1,0 +1,9 @@
+{"calls": [
+  {"caller": "map", "callee_text": "purry"},
+  {"caller": "mapImplementation", "callee_text": "map"},
+  {"caller": "lazyImplementation", "callee_text": "callbackfn"},
+  {"caller": "mapImplementation", "callee_text": "callbackfn"},
+  {"caller": "lazyImplementation", "callee_text": "callbackfn"},
+  {"caller": "mapImplementation", "callee_text": "callbackfn"},
+  {"caller": "lazyImplementation", "callee_text": "callbackfn"}
+]}

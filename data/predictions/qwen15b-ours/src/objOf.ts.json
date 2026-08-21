@@ -1,0 +1,35 @@
+```json
+{
+  "definitions": [
+    {
+      "name": "objOf",
+      "kind": "function"
+    }
+  ],
+  "references": [],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "objOf",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "value",
+          "type": "unknown"
+        },
+        {
+          "name": "key",
+          "type": "string"
+        }
+      ],
+      "returns": {
+        "type": "Record<string, unknown>"
+      },
+      "line": 1
+    }
+  ]
+}
+```

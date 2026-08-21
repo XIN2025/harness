@@ -1,0 +1,13 @@
+{
+  "key": "0f78ea5d568ef49708942780f2b8dae5ad4c677a60ef1d8b2465032a453c9c4f",
+  "model": "harness-qwen15b",
+  "prompt_version": "ours-v1-5c74cf9a927a",
+  "file_sha": "89bfa962dc86544b014b67fa0e542c0e7c34e5569b80ae3e6f5aa90af791fec4",
+  "relative_path": "src/internal/withPrecision.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    {\n      \"name\": \"MAX_PRECISION\",\n      \"kind\": \"constant\"\n    },\n    {\n      \"name\": \"RADIX\",\n      \"kind\": \"constant\"\n    },\n    {\n      \"name\": \"withPrecision\",\n      \"kind\": \"function\"\n    }\n  ],\n  \"references\": [\n    {\n      \"name\": \"shiftDecimalPoint\",\n      \"source\": \"src/internal/withPrecision.ts\",\n      \"alias\": null\n    }\n  ],\n  \"calls\": [],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"MAX_PRECISION\",\n      \"kind\": \"constant\",\n      \"parent\": \"__global__\",\n      \"bases\": [],\n      \"params\": [],\n      \"returns\": null,\n      \"line\": 1\n    },\n    {\n      \"name\": \"RADIX\",\n      \"kind\": \"constant\",\n      \"parent\": \"__global__\",\n      \"bases\": [],\n      \"params\": [],\n      \"returns\": null,\n      \"line\": 2\n    },\n    {\n      \"name\": \"withPrecision\",\n      \"kind\": \"function\",\n      \"parent\": \"__global__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"roundingFn\",\n          \"type\": \"function\"\n        }\n      ],\n      \"returns\": {\n        \"type\": \"function\"\n      },\n      \"line\": 4\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:37:10+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 701,
+  "completion_tokens": 312
+}

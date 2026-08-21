@@ -1,0 +1,8 @@
+{
+  "calls": [],
+  "callable_refs": [
+    {"caller": "pathOr", "callee_text": "pathOrImplementation"},
+    {"caller": "pathOr", "callee_text": "defaultTo"},
+    {"caller": "pathOr", "callee_text": "prop"}
+  ]
+}

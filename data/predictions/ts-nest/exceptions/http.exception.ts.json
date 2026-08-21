@@ -1,0 +1,151 @@
+{
+  "relative_path": "exceptions/http.exception.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "HttpException.constructor",
+      "callee_text": "super",
+      "kind": "super",
+      "receiver": "super",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 72
+    },
+    {
+      "caller": "HttpException.constructor",
+      "callee_text": "initMessage",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 73
+    },
+    {
+      "caller": "HttpException.constructor",
+      "callee_text": "initName",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 74
+    },
+    {
+      "caller": "HttpException.constructor",
+      "callee_text": "initCause",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 75
+    },
+    {
+      "caller": "HttpException.initMessage",
+      "callee_text": "isString",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../utils/shared.utils",
+      "line": 92
+    },
+    {
+      "caller": "HttpException.initMessage",
+      "callee_text": "isObject",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../utils/shared.utils",
+      "line": 94
+    },
+    {
+      "caller": "HttpException.initMessage",
+      "callee_text": "isString",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../utils/shared.utils",
+      "line": 94
+    },
+    {
+      "caller": "HttpException.initMessage",
+      "callee_text": "join",
+      "kind": "this",
+      "receiver": "this.constructor.name.match(/[A-Z][a-z]+|[0-9]+/g)",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 98
+    },
+    {
+      "caller": "HttpException.initMessage",
+      "callee_text": "match",
+      "kind": "this",
+      "receiver": "this.constructor.name",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 98
+    },
+    {
+      "caller": "HttpException.createBody",
+      "callee_text": "isString",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../utils/shared.utils",
+      "line": 140
+    },
+    {
+      "caller": "HttpException.createBody",
+      "callee_text": "isArray",
+      "kind": "static",
+      "receiver": "Array",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 140
+    },
+    {
+      "caller": "HttpException.createBody",
+      "callee_text": "isNumber",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../utils/shared.utils",
+      "line": 140
+    },
+    {
+      "caller": "HttpException.getDescriptionFrom",
+      "callee_text": "isString",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../utils/shared.utils",
+      "line": 154
+    },
+    {
+      "caller": "HttpException.getHttpExceptionOptionsFrom",
+      "callee_text": "isString",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../utils/shared.utils",
+      "line": 162
+    },
+    {
+      "caller": "HttpException.extractDescriptionAndOptionsFrom",
+      "callee_text": "isString",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../utils/shared.utils",
+      "line": 173
+    },
+    {
+      "caller": "HttpException.extractDescriptionAndOptionsFrom",
+      "callee_text": "isString",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../utils/shared.utils",
+      "line": 177
+    }
+  ],
+  "callable_refs": []
+}

@@ -1,0 +1,72 @@
+```json
+{
+  "definitions": [
+    "partition",
+    "purry"
+  ],
+  "references": [],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "partition",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "readonly T[]"
+        },
+        {
+          "name": "predicate",
+          "type": "(value: T, index: number, data: readonly T[]) => value is S"
+        }
+      ],
+      "returns": [
+        {
+          "type": "[S[], Exclude<T, S>[]]"
+        }
+      ]
+    },
+    {
+      "name": "purry",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(...args: unknown[]) => unknown"
+        }
+      ],
+      "returns": [
+        {
+          "type": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "partitionImplementation",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "readonly T[]"
+        },
+        {
+          "name": "predicate",
+          "type": "(value: T, index: number, data: readonly T[]) => value is S"
+        }
+      ],
+      "returns": [
+        {
+          "type": "[S[], Exclude<T, S>[]]"
+        }
+      ]
+    }
+  ]
+}
+```

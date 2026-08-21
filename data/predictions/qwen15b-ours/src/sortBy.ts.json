@@ -1,0 +1,53 @@
+```json
+{
+  "definitions": [
+    "sortBy",
+    "firstBy",
+    "takeFirstBy",
+    "dropFirstBy",
+    "nthBy",
+    "rankBy"
+  ],
+  "references": [],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "sortBy",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "IterableContainer"
+        },
+        {
+          "name": "sortRules",
+          "type": "NonEmptyArray<OrderRule<T[number]>>"
+        }
+      ],
+      "returns": "ReorderedArray<T>",
+      "line": 1
+    },
+    {
+      "name": "sortBy",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "array",
+          "type": "IterableContainer"
+        },
+        {
+          "name": "sortRules",
+          "type": "NonEmptyArray<OrderRule<T[number]>>"
+        }
+      ],
+      "returns": "ReorderedArray<T>",
+      "line": 1
+    }
+  ]
+}
+```

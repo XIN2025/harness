@@ -1,0 +1,11 @@
+{
+  "key": "1f96da6881d0746ed7cea47131157e58ff0355ba9bceee1456329b1e55447ef4",
+  "model": "gemini-2.5-flash",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "39a6e4c9e37b1123a72eb3d0507724c218f6bd0ee1571c775c89c41300005e52",
+  "relative_path": "src/findIndex.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"findIndex\",\n    \"findIndexImplementation\"\n  ],\n  \"references\": [\n    {\n      \"name\": \"purry\",\n      \"source\": \"./purry\",\n      \"alias\": null\n    }\n  ],\n  \"calls\": [\n    {\n      \"caller\": \"findIndex\",\n      \"callee_text\": \"purry\",\n      \"kind\": \"free\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": \"./purry\",\n      \"line\": 44\n    },\n    {\n      \"caller\": \"findIndexImplementation\",\n      \"callee_text\": \"findIndex\",\n      \"kind\": \"method\",\n      \"receiver\": \"data\",\n      \"receiver_type_hint\": \"Array\",\n      \"callee_file_hint\": \"external\",\n      \"line\": 50\n    },\n    {\n      \"caller\": \"findIndexImplementation\",\n      \"callee_text\": \"predicate\",\n      \"kind\": \"hook\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": null,\n      \"line\": 50\n    }\n  ],\n  \"type_assignments\": [\n    {\n      \"scope\": \"module\",\n      \"var\": \"findIndexImplementation\",\n      \"type\": null,\n      \"type_module\": null,\n      \"from_call\": null\n    }\n  ],\n  \"definitions_rich\": [\n    {\n      \"name\": \"findIndex\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"args\",\n          \"type\": \"unknown[]\"\n        }\n      ],\n      \"returns\": \"unknown\",\n      \"line\": 43\n    },\n    {\n      \"name\": \"findIndexImplementation\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"data\",\n          \"type\": \"T[]\"\n        },\n        {\n          \"name\": \"predicate\",\n          \"type\": null\n        }\n      ],\n      \"returns\": \"number\",\n      \"line\": 47\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T17:13:39+00:00",
+  "finish_reason": "stop",
+  "served_by": ""
+}

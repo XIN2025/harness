@@ -1,0 +1,13 @@
+{
+  "key": "7dca1992d547b6e25e9e5ed788c3412bb1485fc13cb94e2a2f7b47a3700f7404",
+  "model": "harness-qwen15b",
+  "prompt_version": "refs-v1-7386a79c1ab2+json",
+  "file_sha": "158c6eed386a374a3aaaeed7b6c40fe542940bebad0d6f07cff794277345e6e7",
+  "relative_path": "src/sortedLastIndexBy.ts",
+  "response": "{\n  \"calls\": [],\n  \"callable_refs\": [\n    {\n      \"caller\": \"sortedLastIndexBy\",\n      \"callee_text\": \"binarySearchCutoffIndex\"\n    }\n  ]\n}",
+  "created": "2026-08-08T22:30:10+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1468,
+  "completion_tokens": 42
+}

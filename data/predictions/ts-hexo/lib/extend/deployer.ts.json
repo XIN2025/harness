@@ -1,0 +1,43 @@
+{
+  "relative_path": "lib/extend/deployer.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "Deployer.register",
+      "callee_text": "TypeError",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 41
+    },
+    {
+      "caller": "Deployer.register",
+      "callee_text": "TypeError",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 42
+    },
+    {
+      "caller": "Deployer.register",
+      "callee_text": "promisify",
+      "kind": "static",
+      "receiver": "Promise",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 45
+    },
+    {
+      "caller": "Deployer.register",
+      "callee_text": "method",
+      "kind": "static",
+      "receiver": "Promise",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 47
+    }
+  ],
+  "callable_refs": []
+}

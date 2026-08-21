@@ -1,0 +1,12 @@
+{"calls": [
+  {"caller": "clone", "callee_text": "purry"},
+  {"caller": "clone", "callee_text": "cloneImplementation"},
+  {"caller": "cloneImplementation", "callee_text": "structuredClone"},
+  {"caller": "cloneImplementation", "callee_text": "Object.getPrototypeOf"},
+  {"caller": "cloneImplementation", "callee_text": "Array.isArray"},
+  {"caller": "cloneImplementation", "callee_text": "isPlainObject"},
+  {"caller": "cloneImplementation", "callee_text": "deepCloneObject"},
+  {"caller": "cloneImplementation", "callee_text": "Object.entries"},
+  {"caller": "cloneImplementation", "callee_text": "deepCloneArray"},
+  {"caller": "cloneImplementation", "callee_text": "Array.entries"}
+]}

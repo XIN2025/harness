@@ -1,0 +1,16 @@
+{
+  "relative_path": "src/fromEntries.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "fromEntries",
+      "callee_text": "purry",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./purry",
+      "line": 145
+    }
+  ],
+  "callable_refs": []
+}

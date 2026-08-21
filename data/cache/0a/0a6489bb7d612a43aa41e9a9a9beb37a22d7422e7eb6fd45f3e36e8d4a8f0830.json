@@ -1,0 +1,13 @@
+{
+  "key": "0a6489bb7d612a43aa41e9a9a9beb37a22d7422e7eb6fd45f3e36e8d4a8f0830",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "refs-v1-7386a79c1ab2+json",
+  "file_sha": "611680dfae8659b8d1d80dc3447cb2f2dfc6fe1c568116d2f32b257557e77258",
+  "relative_path": "src/keys.ts",
+  "response": "{\"callable_refs\": [{\"caller\": \"keys\", \"callee_text\": \"Object.keys\"}, {\"caller\": \"keys\", \"callee_text\": \"EnumerableStringKeyOf\"}, {\"caller\": \"keys\", \"callee_text\": \"IterableContainer\"}, {\"caller\": \"keys\", \"callee_text\": \"ToString\"}, {\"caller\": \"keys\", \"callee_text\": \"IsNever\"}, {\"caller\": \"keys\", \"callee_text\": \"purry\"}]}",
+  "created": "2026-08-08T23:23:33+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1150,
+  "completion_tokens": 91
+}

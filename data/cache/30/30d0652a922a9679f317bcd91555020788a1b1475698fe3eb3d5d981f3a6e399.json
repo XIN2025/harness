@@ -1,0 +1,13 @@
+{
+  "key": "30d0652a922a9679f317bcd91555020788a1b1475698fe3eb3d5d981f3a6e399",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "5067f80f9912442e66ffd02817afd24430ed8d75692492e510a37af30751562a",
+  "relative_path": "src/setPath.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"setPath\", \"callee_text\": \"__module__\"},\n  {\"caller\": \"setPathImplementation\", \"callee_text\": \"filter\"},\n  {\"caller\": \"setPathImplementation\", \"callee_text\": \"isFinite\"},\n  {\"caller\": \"setPathImplementation\", \"callee_text\": \"sort\"},\n  {\"caller\": \"setPathImplementation\", \"callee_text\": \"reduce\"},\n  {\"caller\": \"setPathImplementation\", \"callee_text\": \"isNaN\"},\n  {\"caller\": \"setPathImplementation\", \"callee_text\": \"Error\"},\n  {\"caller\": \"setPathImplementation\", \"callee_text\": \"format\"},\n  {\"caller\": \"setPathImplementation\", \"callee_text\": \"round\"},\n  {\"caller\": \"setPathImplementation\", \"callee_text\": \"precisionOf\"}\n]}",
+  "created": "2026-08-08T23:10:38+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1363,
+  "completion_tokens": 168
+}

@@ -1,0 +1,13 @@
+{
+  "key": "fb101abe1b9cda053efd65838627fcdf3bb9f5360e6f215b494d3d112b7cad4f",
+  "model": "harness-llama32b",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "5536c462e40c6ab9e0e1c07c947889ca26b896b99d232aa269ed929f75e28b10",
+  "relative_path": "src/countBy.ts",
+  "response": "{\n  \"definitions\": [\"countBy\", \"purry\"],\n  \"references\": [\n    {\"name\": \"BoundedPartial\", \"source\": \"./internal/types/BoundedPartial\"},\n    {\"name\": \"toLowerCase\", \"source\": \"./utils\"}\n  ],\n  \"calls\": [\n    {\"caller\": \"App\", \"callee_text\": \"useState\", \"kind\": \"hook\",\n     \"receiver\": null, \"receiver_type_hint\": null, \"callee_file_hint\": \"external\", \"line\": 2},\n    {\"caller\": \"App\", \"callee_text\": \"useEffect\", \"kind\": \"hook\",\n     \"receiver\": null, \"receiver_type_hint\": null, \"callee_file_hint\": \"external\", \"line\": 3},\n    {\"caller\": \"App\", \"callee_text\": \"fetchData\", \"kind\": \"free\",\n     \"receiver\": null, \"receiver_type_hint\": null, \"callee_file_hint\": \"...\", \"line\": 4},\n    {\"caller\": \"App\", \"callee_text\": \"setN\", \"kind\": \"free\",\n     \"receiver\": null, \"receiver_type_hint\": null, \"callee_file_hint\": \"external\", \"line\": 5}\n  ],\n  \"type_assignments\": [\n    {\"scope\": \"module\", \"var\": \"countBy\", \"type\": \"Function\", \"type_module\": \"src\"}\n  ],\n  \"definitions_rich\": [\n    {\"name\": \"App\", \"kind\": \"component\", \"parent\": null, \"bases\": [],\n     \"params\": [], \"returns\": null, \"line\": 1},\n    {\"name\": \"countBy\", \"kind\": \"function\", \"parent\": null, \"bases\": [],\n     \"params\": [{\"name\": \"data\", \"type\": \"readonly T[]\"}, {\"name\": \"categorizationFn\", \"type\": \"(value: T, index: number, data: readonly T[]) => K | undefined\"}],\n     \"returns\": null, \"line\": 1},\n    {\"name\": \"purry\", \"kind\": \"function\", \"parent\": null, \"bases\": [],\n     \"params\": [{\"name\": \"countByImplementation\", \"type\": \"<T>\"}, {\"name\": \"args\", \"type\": \"readonly unknown[]\"}],\n     \"returns\": null, \"line\": 1},\n    {\"name\": \"countByImplementation\", \"kind\": \"function\", \"parent\": null, \"bases\": [],\n     \"params\": [{\"name\": \"data\", \"type\": \"readonly T[]\"}, {\"name\": \"categorizationFn\", \"type\": \"(value: T, index: number, data: readonly T[]) => PropertyKey | undefined\"}],\n     \"returns\": null, \"line\": 1}\n  ]\n}",
+  "created": "2026-08-08T21:13:05+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 8648,
+  "completion_tokens": 576
+}

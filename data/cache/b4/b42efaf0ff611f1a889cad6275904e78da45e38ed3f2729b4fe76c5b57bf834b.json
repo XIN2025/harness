@@ -1,0 +1,13 @@
+{
+  "key": "b42efaf0ff611f1a889cad6275904e78da45e38ed3f2729b4fe76c5b57bf834b",
+  "model": "harness-llama32b",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "3c4ff73103d1171a167cf341b2bd4a519978fe96611f0be82a01ddf4488f99ef",
+  "relative_path": "src/capitalize.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"capitalize\", \"callee_text\": \"purry\"},\n  {\"caller\": \"capitalize\", \"callee_text\": \"capitalizeImplementation\"},\n  {\"caller\": \"capitalizeImplementation\", \"callee_text\": \"toUpperCase\"},\n  {\"caller\": \"capitalizeImplementation\", \"callee_text\": \"slice\"},\n  {\"caller\": \"capitalizeImplementation\", \"callee_text\": \"??\"},\n  {\"caller\": \"capitalizeImplementation\", \"callee_text\": \"as\"}\n]}",
+  "created": "2026-08-08T22:32:13+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1135,
+  "completion_tokens": 97
+}

@@ -1,0 +1,13 @@
+{
+  "key": "ce6495c32ca1faceae1752b7584f84dfbc70754c71cb824b0e1d7b6eec4e9881",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "refs-v1-7386a79c1ab2+json",
+  "file_sha": "89bfa962dc86544b014b67fa0e542c0e7c34e5569b80ae3e6f5aa90af791fec4",
+  "relative_path": "src/internal/withPrecision.ts",
+  "response": "{\"calls\": [], \"callable_refs\": [{\"caller\": \"withPrecision\", \"callee_text\": \"roundingFn\"}, {\"caller\": \"withPrecision\", \"callee_text\": \"precision\"}, {\"caller\": \"withPrecision\", \"callee_text\": \"MAX_PRECISION\"}, {\"caller\": \"withPrecision\", \"callee_text\": \"RADIX\"}, {\"caller\": \"shiftDecimalPoint\", \"callee_text\": \"value\"}, {\"caller\": \"shiftDecimalPoint\", \"callee_text\": \"exponent\"}, {\"caller\": \"shiftDecimalPoint\", \"callee_text\": \"n\"}, {\"caller\": \"shiftDecimalPoint\", \"callee_text\": \"shift\"}, {\"caller\": \"Number.parseFloat\", \"callee_text\": \"shiftedValueAsString\"}]}",
+  "created": "2026-08-08T23:22:26+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 751,
+  "completion_tokens": 149
+}

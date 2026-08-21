@@ -1,0 +1,13 @@
+{
+  "key": "946e68a77200f407987cb49b1080cc652652d40e387771e7ffd1e6052c5c2fd5",
+  "model": "harness-qwen15b",
+  "prompt_version": "refs-strict-v1-ca2cfcfbecef+json",
+  "file_sha": "3c8bfd5405faabff54a47a6aa9fd1dba3ab1cb644c8d9814066c80b8916a9c49",
+  "relative_path": "src/isEmpty.ts",
+  "response": "{\"calls\": [], \"callable_refs\": [{\"caller\": \"isEmpty\", \"callee_text\": \"isEmptyish\"}, {\"caller\": \"isEmpty\", \"callee_text\": \"hasAtLeast\"}, {\"caller\": \"isEmpty\", \"callee_text\": \"isStrictEqual\"}, {\"caller\": \"isEmpty\", \"callee_text\": \"isNullish\"}, {\"caller\": \"isEmpty\", \"callee_text\": \"isTruthy\"}]}",
+  "created": "2026-08-09T05:46:40+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1076,
+  "completion_tokens": 81
+}

@@ -1,0 +1,13 @@
+{
+  "key": "3cf8eccfb24b0d1378f74b27efe32217bbecae235ae16c52a5c2fa959782fc19",
+  "model": "harness-qwen15b",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "6c2c4219621a7ef1885287463dd1d43d27c4bf116778079d8b3b7fad760db848",
+  "relative_path": "src/map.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"map\",\n    \"mapImplementation\",\n    \"lazyImplementation\"\n  ],\n  \"references\": [\n    {\"name\": \"map\", \"source\": \"./src/map.ts\"},\n    {\"name\": \"mapImplementation\", \"source\": \"./src/map.ts\"},\n    {\"name\": \"lazyImplementation\", \"source\": \"./src/map.ts\"}\n  ],\n  \"calls\": [],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\"name\": \"map\", \"kind\": \"function\", \"parent\": null, \"bases\": [], \"params\": [{\"name\": \"data\", \"type\": \"IterableContainer\"}, {\"name\": \"callbackfn\", \"type\": \"(value: T[number], index: number, data: readonly T[]) => U\"}], \"returns\": \"Mapped<T, U>\", \"line\": 1},\n    {\"name\": \"mapImplementation\", \"kind\": \"function\", \"parent\": null, \"bases\": [], \"params\": [{\"name\": \"data\", \"type\": \"readonly T[]\"}, {\"name\": \"callbackfn\", \"type\": \"(value: T[number], index: number, data: readonly T[]) => U\"}], \"returns\": \"Mapped<T, U>\", \"line\": 10},\n    {\"name\": \"lazyImplementation\", \"kind\": \"function\", \"parent\": null, \"bases\": [], \"params\": [{\"name\": \"callbackfn\", \"type\": \"(value: T[number], index: number, data: readonly T[]) => U\"}], \"returns\": \"LazyEvaluator<T, U>\", \"line\": 19}\n  ]\n}\n```",
+  "created": "2026-08-08T20:22:48+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 8708,
+  "completion_tokens": 342
+}

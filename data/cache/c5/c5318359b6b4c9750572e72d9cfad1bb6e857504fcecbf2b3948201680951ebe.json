@@ -1,0 +1,13 @@
+{
+  "key": "c5318359b6b4c9750572e72d9cfad1bb6e857504fcecbf2b3948201680951ebe",
+  "model": "harness-qwen15b",
+  "prompt_version": "refs-strict-v1-ca2cfcfbecef+json",
+  "file_sha": "26f8d9f51eb99635435316672c699f43d854d59f3edd71ff7be1e16894a484cb",
+  "relative_path": "src/reduce.ts",
+  "response": "{\"calls\": [], \"callable_refs\": [{\"caller\": \"reduce\", \"callee_text\": \"reduceImplementation\"}, {\"caller\": \"reduce\", \"callee_text\": \"reduceImplementation\"}]}",
+  "created": "2026-08-09T05:48:35+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1266,
+  "completion_tokens": 38
+}

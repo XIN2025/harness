@@ -1,0 +1,79 @@
+{
+  "relative_path": "src/countBy.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "countBy",
+      "callee_text": "purry",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./purry",
+      "line": 55
+    },
+    {
+      "caller": "countByImplementation",
+      "callee_text": "Map",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 66
+    },
+    {
+      "caller": "countByImplementation",
+      "callee_text": "entries",
+      "kind": "method",
+      "receiver": "data",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 68
+    },
+    {
+      "caller": "countByImplementation",
+      "callee_text": "categorizationFn",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 69
+    },
+    {
+      "caller": "countByImplementation",
+      "callee_text": "get",
+      "kind": "method",
+      "receiver": "out",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 71
+    },
+    {
+      "caller": "countByImplementation",
+      "callee_text": "set",
+      "kind": "method",
+      "receiver": "out",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 73
+    },
+    {
+      "caller": "countByImplementation",
+      "callee_text": "set",
+      "kind": "method",
+      "receiver": "out",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 75
+    },
+    {
+      "caller": "countByImplementation",
+      "callee_text": "fromEntries",
+      "kind": "static",
+      "receiver": "Object",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 80
+    }
+  ],
+  "callable_refs": []
+}

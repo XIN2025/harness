@@ -1,0 +1,28 @@
+```json
+{
+  "definitions": [
+    {
+      "name": "capitalize",
+      "kind": "function"
+    },
+    {
+      "name": "purry",
+      "kind": "function"
+    }
+  ],
+  "references": [],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "Capitalize",
+      "kind": "constant",
+      "parent": null,
+      "bases": [],
+      "params": [],
+      "returns": null,
+      "line": 1
+    }
+  ]
+}
+```

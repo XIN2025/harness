@@ -1,0 +1,221 @@
+```json
+{
+  "definitions": [
+    "pathOr",
+    "AllKeys",
+    "TypesForKey",
+    "StrictlyRequired",
+    "PathValue1",
+    "Pathable1",
+    "PathValue2",
+    "Pathable2",
+    "PathValue3",
+    "Pathable3"
+  ],
+  "references": [],
+  "calls": [
+    {
+      "caller": "__module__",
+      "callee_text": "pathOr",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "src/pathOr.ts",
+      "line": 1
+    }
+  ],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "pathOr",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "object",
+          "type": "T"
+        },
+        {
+          "name": "path",
+          "type": "readonly [A]"
+        },
+        {
+          "name": "defaultValue",
+          "type": "PathValue1<T, A>"
+        }
+      ],
+      "returns": "PathValue1<T, A>"
+    },
+    {
+      "name": "AllKeys",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "T",
+          "type": "infer I"
+        }
+      ],
+      "returns": "keyof I"
+    },
+    {
+      "name": "TypesForKey",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "T",
+          "type": "infer I"
+        },
+        {
+          "name": "K",
+          "type": "PropertyKey"
+        }
+      ],
+      "returns": "T extends infer I ? K extends keyof I ? I[K] : never : never"
+    },
+    {
+      "name": "StrictlyRequired",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "T",
+          "type": "infer I"
+        }
+      ],
+      "returns": "{ [K in keyof T]-?: NonNullable<T[K]> }"
+    },
+    {
+      "name": "PathValue1",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "T",
+          "type": "infer I"
+        },
+        {
+          "name": "A",
+          "type": "keyof Pathable<T>"
+        }
+      ],
+      "returns": "StrictlyRequired<Pathable<T>>[A]"
+    },
+    {
+      "name": "Pathable1",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "T",
+          "type": "infer I"
+        },
+        {
+          "name": "A",
+          "type": "keyof Pathable<T>"
+        }
+      ],
+      "returns": "Pathable<PathValue1<T, A>>"
+    },
+    {
+      "name": "PathValue2",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "T",
+          "type": "infer I"
+        },
+        {
+          "name": "A",
+          "type": "keyof Pathable<T>"
+        },
+        {
+          "name": "B",
+          "type": "keyof Pathable1<T, A>"
+        }
+      ],
+      "returns": "StrictlyRequired<Pathable1<T, A>>[B]"
+    },
+    {
+      "name": "Pathable2",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "T",
+          "type": "infer I"
+        },
+        {
+          "name": "A",
+          "type": "keyof Pathable<T>"
+        },
+        {
+          "name": "B",
+          "type": "keyof Pathable1<T, A>"
+        }
+      ],
+      "returns": "Pathable<PathValue2<T, A, B>>"
+    },
+    {
+      "name": "PathValue3",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "T",
+          "type": "infer I"
+        },
+        {
+          "name": "A",
+          "type": "keyof Pathable<T>"
+        },
+        {
+          "name": "B",
+          "type": "keyof Pathable1<T, A>"
+        },
+        {
+          "name": "C",
+          "type": "keyof Pathable2<T, A, B>"
+        }
+      ],
+      "returns": "StrictlyRequired<Pathable2<T, A, B>>[C]"
+    },
+    {
+      "name": "Pathable3",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "T",
+          "type": "infer I"
+        },
+        {
+          "name": "A",
+          "type": "keyof Pathable<T>"
+        },
+        {
+          "name": "B",
+          "type": "keyof Pathable1<T, A>"
+        },
+        {
+          "name": "C",
+          "type": "keyof Pathable2<T, A, B>"
+        }
+      ],
+      "returns": "Pathable<PathValue3<T, A, B, C>>"
+    }
+  ]
+}
+```

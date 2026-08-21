@@ -1,0 +1,51 @@
+```json
+{
+  "definitions": [
+    {
+      "name": "Merge",
+      "kind": "type_alias"
+    },
+    {
+      "name": "purry",
+      "kind": "function"
+    },
+    {
+      "name": "merge",
+      "kind": "function"
+    }
+  ],
+  "references": [],
+  "calls": [
+    {
+      "caller": "__module__",
+      "callee_text": "merge",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "src/merge.ts",
+      "line": 1
+    }
+  ],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "data",
+      "kind": "constant",
+      "parent": "__module__",
+      "bases": [],
+      "params": [],
+      "returns": null,
+      "line": 1
+    },
+    {
+      "name": "source",
+      "kind": "constant",
+      "parent": "__module__",
+      "bases": [],
+      "params": [],
+      "returns": null,
+      "line": 2
+    }
+  ]
+}
+```

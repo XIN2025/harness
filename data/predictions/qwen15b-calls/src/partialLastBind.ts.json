@@ -1,0 +1,4 @@
+{"calls": [
+  {"caller": "partialLastBind", "callee_text": "parseInt"},
+  {"caller": "pipe", "callee_text": "JSON.stringify"}
+]}

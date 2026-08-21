@@ -1,0 +1,6 @@
+{"calls": [
+  {"caller": "add", "callee_text": "purry"},
+  {"caller": "addImplementation", "callee_text": "value"},
+  {"caller": "addImplementation", "callee_text": "addend"},
+  {"caller": "addImplementation", "callee_text": "+"}
+]}

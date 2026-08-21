@@ -1,0 +1,13 @@
+{
+  "key": "52718cbaebcb86b7d620072020333b9373fde91807c31d967187dcec02267c52",
+  "model": "harness-llama32b",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "dc59bf0d237410cf0e1aff16da87d6f78f66580f9f03f85322c465c093cba13c",
+  "relative_path": "src/concat.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"concat\", \"callee_text\": \"purry\"},\n  {\"caller\": \"concat\", \"callee_text\": \"concatImplementation\"},\n  {\"caller\": \"concatImplementation\", \"callee_text\": \"Array.prototype.concat\"},\n  {\"caller\": \"concatImplementation\", \"callee_text\": \"Array.prototype.push\"},\n  {\"caller\": \"concatImplementation\", \"callee_text\": \"Array.prototype.concat\"},\n  {\"caller\": \"concatImplementation\", \"callee_text\": \"Array.prototype.push\"},\n  {\"caller\": \"concatImplementation\", \"callee_text\": \"Array.prototype.concat\"},\n  {\"caller\": \"concatImplementation\", \"callee_text\": \"Array.prototype.push\"},\n  {\"caller\": \"concatImplementation\", \"callee_text\": \"Array.prototype.concat\"},\n  {\"caller\": \"concatImplementation\", \"callee_text\": \"Array.prototype.push\"}\n]}",
+  "created": "2026-08-08T22:32:54+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 898,
+  "completion_tokens": 172
+}

@@ -1,0 +1,4 @@
+{"callable_refs": [
+  {"caller": "hasSubObject", "callee_text": "hasSubObjectImplementation"},
+  {"caller": "hasSubObjectImplementation", "callee_text": "isDeepEqual"}
+]}

@@ -1,0 +1,151 @@
+{
+  "relative_path": "src/hooks/use-focus.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "useFocus",
+      "callee_text": "useStdin",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./use-stdin.js",
+      "line": 43
+    },
+    {
+      "caller": "useFocus",
+      "callee_text": "useContext",
+      "kind": "hook",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "react",
+      "line": 45
+    },
+    {
+      "caller": "useFocus",
+      "callee_text": "useMemo",
+      "kind": "hook",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "react",
+      "line": 47
+    },
+    {
+      "caller": "useFocus",
+      "callee_text": "slice",
+      "kind": "method",
+      "receiver": "Math.random().toString()",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 48
+    },
+    {
+      "caller": "useFocus",
+      "callee_text": "toString",
+      "kind": "method",
+      "receiver": "Math.random()",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 48
+    },
+    {
+      "caller": "useFocus",
+      "callee_text": "random",
+      "kind": "static",
+      "receiver": "Math",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 48
+    },
+    {
+      "caller": "useFocus",
+      "callee_text": "useEffect",
+      "kind": "hook",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "react",
+      "line": 51
+    },
+    {
+      "caller": "useFocus",
+      "callee_text": "add",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 52
+    },
+    {
+      "caller": "useFocus",
+      "callee_text": "remove",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 55
+    },
+    {
+      "caller": "useFocus",
+      "callee_text": "useEffect",
+      "kind": "hook",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "react",
+      "line": 59
+    },
+    {
+      "caller": "useFocus",
+      "callee_text": "activate",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 61
+    },
+    {
+      "caller": "useFocus",
+      "callee_text": "deactivate",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 63
+    },
+    {
+      "caller": "useFocus",
+      "callee_text": "useEffect",
+      "kind": "hook",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "react",
+      "line": 67
+    },
+    {
+      "caller": "useFocus",
+      "callee_text": "setRawMode",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 72
+    },
+    {
+      "caller": "useFocus",
+      "callee_text": "setRawMode",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 75
+    },
+    {
+      "caller": "useFocus",
+      "callee_text": "Boolean",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 80
+    }
+  ],
+  "callable_refs": []
+}

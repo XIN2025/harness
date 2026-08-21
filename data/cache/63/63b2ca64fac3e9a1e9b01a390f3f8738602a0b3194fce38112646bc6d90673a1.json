@@ -1,0 +1,13 @@
+{
+  "key": "63b2ca64fac3e9a1e9b01a390f3f8738602a0b3194fce38112646bc6d90673a1",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "a56b5293865f5f3f65101424842349e72631f917289ea22998f4427acd035c73",
+  "relative_path": "src/pullObject.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"pullObject\", \"callee_text\": \"purry\"},\n  {\"caller\": \"pullObjectImplementation\", \"callee_text\": \"entries\"},\n  {\"caller\": \"pullObjectImplementation\", \"callee_text\": \"for\"},\n  {\"caller\": \"pullObjectImplementation\", \"callee_text\": \"keyExtractor\"},\n  {\"caller\": \"pullObjectImplementation\", \"callee_text\": \"valueExtractor\"},\n  {\"caller\": \"pullObjectImplementation\", \"callee_text\": \"result\"},\n  {\"caller\": \"pullObjectImplementation\", \"callee_text\": \"data.entries\"}\n]}",
+  "created": "2026-08-08T23:08:18+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1414,
+  "completion_tokens": 122
+}

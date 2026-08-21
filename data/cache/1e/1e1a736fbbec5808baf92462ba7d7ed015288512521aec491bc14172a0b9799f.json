@@ -1,0 +1,13 @@
+{
+  "key": "1e1a736fbbec5808baf92462ba7d7ed015288512521aec491bc14172a0b9799f",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "refs-strict-v1-ca2cfcfbecef+json",
+  "file_sha": "9e551c3662e1955fa97e9fbecf18bbe86fce21526fba42d5d811df49ebe01180",
+  "relative_path": "src/internal/binarySearchCutoffIndex.ts",
+  "response": "{\"calls\": [], \"callable_refs\": [{\"caller\": \"binarySearchCutoffIndex\", \"callee_text\": \"predicate\"}, {\"caller\": \"binarySearchCutoffIndex\", \"callee_text\": \"(value, index, data)\"}, {\"caller\": \"binarySearchCutoffIndex\", \"callee_text\": \"lowIndex < highIndex\"}]}",
+  "created": "2026-08-09T06:02:02+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 860,
+  "completion_tokens": 70
+}

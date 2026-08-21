@@ -1,0 +1,63 @@
+```json
+{
+  "definitions": [
+    {
+      "name": "MAX_PRECISION",
+      "kind": "constant"
+    },
+    {
+      "name": "RADIX",
+      "kind": "constant"
+    },
+    {
+      "name": "withPrecision",
+      "kind": "function"
+    }
+  ],
+  "references": [
+    {
+      "name": "shiftDecimalPoint",
+      "source": "src/internal/withPrecision.ts",
+      "alias": null
+    }
+  ],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "MAX_PRECISION",
+      "kind": "constant",
+      "parent": "__global__",
+      "bases": [],
+      "params": [],
+      "returns": null,
+      "line": 1
+    },
+    {
+      "name": "RADIX",
+      "kind": "constant",
+      "parent": "__global__",
+      "bases": [],
+      "params": [],
+      "returns": null,
+      "line": 2
+    },
+    {
+      "name": "withPrecision",
+      "kind": "function",
+      "parent": "__global__",
+      "bases": [],
+      "params": [
+        {
+          "name": "roundingFn",
+          "type": "function"
+        }
+      ],
+      "returns": {
+        "type": "function"
+      },
+      "line": 4
+    }
+  ]
+}
+```

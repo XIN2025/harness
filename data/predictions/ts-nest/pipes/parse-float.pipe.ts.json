@@ -1,0 +1,97 @@
+{
+  "relative_path": "pipes/parse-float.pipe.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "__module__",
+      "callee_text": "Injectable",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../decorators/core",
+      "line": 39
+    },
+    {
+      "caller": "ParseFloatPipe.constructor",
+      "callee_text": "Optional",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../decorators/core",
+      "line": 43
+    },
+    {
+      "caller": "ParseFloatPipe.transform",
+      "callee_text": "isNil",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../utils/shared.utils",
+      "line": 61
+    },
+    {
+      "caller": "ParseFloatPipe.transform",
+      "callee_text": "isNumeric",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 64
+    },
+    {
+      "caller": "ParseFloatPipe.transform",
+      "callee_text": "exceptionFactory",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 65
+    },
+    {
+      "caller": "ParseFloatPipe.transform",
+      "callee_text": "parseFloat",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 69
+    },
+    {
+      "caller": "ParseFloatPipe.isNumeric",
+      "callee_text": "includes",
+      "kind": "method",
+      "receiver": "['string', 'number']",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 78
+    },
+    {
+      "caller": "ParseFloatPipe.isNumeric",
+      "callee_text": "isNaN",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 79
+    },
+    {
+      "caller": "ParseFloatPipe.isNumeric",
+      "callee_text": "parseFloat",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 79
+    },
+    {
+      "caller": "ParseFloatPipe.isNumeric",
+      "callee_text": "isFinite",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 80
+    }
+  ],
+  "callable_refs": []
+}

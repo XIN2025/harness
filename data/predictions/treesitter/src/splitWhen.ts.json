@@ -1,0 +1,43 @@
+{
+  "relative_path": "src/splitWhen.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "splitWhen",
+      "callee_text": "purry",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./purry",
+      "line": 36
+    },
+    {
+      "caller": "splitWhenImplementation",
+      "callee_text": "findIndex",
+      "kind": "method",
+      "receiver": "data",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 43
+    },
+    {
+      "caller": "splitWhenImplementation",
+      "callee_text": "slice",
+      "kind": "method",
+      "receiver": "data",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 46
+    },
+    {
+      "caller": "splitWhenImplementation",
+      "callee_text": "slice",
+      "kind": "method",
+      "receiver": "data",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 46
+    }
+  ],
+  "callable_refs": []
+}

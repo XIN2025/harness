@@ -1,0 +1,13 @@
+{
+  "key": "7d54746e1eb9e8aeef1e2fedbac892eff6d469a5d3f4c79116edf8d1653ec45c",
+  "model": "harness-qwen15b",
+  "prompt_version": "ours-v1-5c74cf9a927a",
+  "file_sha": "c17c00842721c8afaa489f89573e6f05c3f5367d87204b1854ae3322bef6a19a",
+  "relative_path": "src/forEach.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"forEach\",\n    \"forEachImplementation\",\n    \"lazyImplementation\"\n  ],\n  \"references\": [],\n  \"calls\": [],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"forEach\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"data\",\n          \"type\": \"IterableContainer\"\n        },\n        {\n          \"name\": \"callbackfn\",\n          \"type\": \"(value: T[number], index: number, data: readonly T[]) => void\"\n        }\n      ],\n      \"returns\": \"void\"\n    },\n    {\n      \"name\": \"forEachImplementation\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"callbackfn\",\n          \"type\": \"(value: T[number], index: number, data: readonly T[]) => void\"\n        }\n      ],\n      \"returns\": \"T[]\"\n    },\n    {\n      \"name\": \"lazyImplementation\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"callbackfn\",\n          \"type\": \"(value: T[number], index: number, data: readonly T[]) => void\"\n        }\n      ],\n      \"returns\": \"LazyEvaluator<T>\"\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:35:06+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1010,
+  "completion_tokens": 315
+}

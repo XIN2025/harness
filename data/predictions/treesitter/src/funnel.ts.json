@@ -1,0 +1,178 @@
+{
+  "relative_path": "src/funnel.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "__module__",
+      "callee_text": "Symbol",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 9
+    },
+    {
+      "caller": "funnel",
+      "callee_text": "callback",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 201
+    },
+    {
+      "caller": "funnel",
+      "callee_text": "callback",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 203
+    },
+    {
+      "caller": "funnel",
+      "callee_text": "setTimeout",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 207
+    },
+    {
+      "caller": "funnel",
+      "callee_text": "clearTimeout",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 214
+    },
+    {
+      "caller": "funnel",
+      "callee_text": "invoke",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 224
+    },
+    {
+      "caller": "funnel",
+      "callee_text": "clearTimeout",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 230
+    },
+    {
+      "caller": "funnel",
+      "callee_text": "invoke",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 241
+    },
+    {
+      "caller": "funnel",
+      "callee_text": "reducer",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 252
+    },
+    {
+      "caller": "funnel",
+      "callee_text": "clearTimeout",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 269
+    },
+    {
+      "caller": "funnel",
+      "callee_text": "now",
+      "kind": "static",
+      "receiver": "Date",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 271
+    },
+    {
+      "caller": "funnel",
+      "callee_text": "min",
+      "kind": "static",
+      "receiver": "Math",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 278
+    },
+    {
+      "caller": "funnel",
+      "callee_text": "max",
+      "kind": "static",
+      "receiver": "Math",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 282
+    },
+    {
+      "caller": "funnel",
+      "callee_text": "setTimeout",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 285
+    },
+    {
+      "caller": "funnel",
+      "callee_text": "invoke",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 289
+    },
+    {
+      "caller": "funnel",
+      "callee_text": "clearTimeout",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 294
+    },
+    {
+      "caller": "funnel",
+      "callee_text": "clearTimeout",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 298
+    },
+    {
+      "caller": "funnel",
+      "callee_text": "handleBurstEnd",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 305
+    },
+    {
+      "caller": "funnel",
+      "callee_text": "handleIntervalEnd",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 306
+    }
+  ],
+  "callable_refs": []
+}

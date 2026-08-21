@@ -1,0 +1,70 @@
+{
+  "relative_path": "src/cursor-helpers.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "buildCursorSuffix",
+      "callee_text": "cursorUp",
+      "kind": "method",
+      "receiver": "ansiEscapes",
+      "receiver_type_hint": null,
+      "callee_file_hint": "ansi-escapes",
+      "line": 45
+    },
+    {
+      "caller": "buildCursorSuffix",
+      "callee_text": "cursorTo",
+      "kind": "method",
+      "receiver": "ansiEscapes",
+      "receiver_type_hint": null,
+      "callee_file_hint": "ansi-escapes",
+      "line": 46
+    },
+    {
+      "caller": "buildReturnToBottom",
+      "callee_text": "cursorDown",
+      "kind": "method",
+      "receiver": "ansiEscapes",
+      "receiver_type_hint": null,
+      "callee_file_hint": "ansi-escapes",
+      "line": 68
+    },
+    {
+      "caller": "buildReturnToBottom",
+      "callee_text": "cursorTo",
+      "kind": "method",
+      "receiver": "ansiEscapes",
+      "receiver_type_hint": null,
+      "callee_file_hint": "ansi-escapes",
+      "line": 68
+    },
+    {
+      "caller": "buildCursorOnlySequence",
+      "callee_text": "buildReturnToBottom",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 88
+    },
+    {
+      "caller": "buildCursorOnlySequence",
+      "callee_text": "buildCursorSuffix",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 92
+    },
+    {
+      "caller": "buildReturnToBottomPrefix",
+      "callee_text": "buildReturnToBottom",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 114
+    }
+  ],
+  "callable_refs": []
+}

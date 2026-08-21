@@ -1,0 +1,11 @@
+{"calls": [
+  {"caller": "groupByProp", "callee_text": "purry"},
+  {"caller": "groupByPropImplementation", "callee_text": "Object.create"},
+  {"caller": "groupByPropImplementation", "callee_text": "Object.setPrototypeOf"},
+  {"caller": "groupByPropImplementation", "callee_text": "push"},
+  {"caller": "groupByPropImplementation", "callee_text": "items"},
+  {"caller": "groupByPropImplementation", "callee_text": "filter"},
+  {"caller": "groupByPropImplementation", "callee_text": "key"},
+  {"caller": "groupByPropImplementation", "callee_text": "item"},
+  {"caller": "groupByPropImplementation", "callee_text": "undefined"}
+]}

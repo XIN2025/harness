@@ -1,0 +1,12 @@
+{"calls": [
+  {"caller": "when", "callee_text": "__module__"},
+  {"caller": "whenImplementation", "callee_text": "filter"},
+  {"caller": "whenImplementation", "callee_text": "isFinite"},
+  {"caller": "whenImplementation", "callee_text": "sort"},
+  {"caller": "whenImplementation", "callee_text": "reduce"},
+  {"caller": "whenImplementation", "callee_text": "isNaN"},
+  {"caller": "whenImplementation", "callee_text": "Error"},
+  {"caller": "whenImplementation", "callee_text": "format"},
+  {"caller": "whenImplementation", "callee_text": "round"},
+  {"caller": "whenImplementation", "callee_text": "precisionOf"}
+]}

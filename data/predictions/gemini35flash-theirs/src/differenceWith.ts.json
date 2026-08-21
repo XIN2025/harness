@@ -1,0 +1,97 @@
+{
+  "definitions": [
+    "differenceWith",
+    "lazyImplementation",
+    "IsEqual"
+  ],
+  "references": [
+    {
+      "name": "purryFromLazy",
+      "source": "./internal/purryFromLazy",
+      "alias": null
+    },
+    {
+      "name": "LazyEvaluator",
+      "source": "./internal/types/LazyEvaluator",
+      "alias": null
+    },
+    {
+      "name": "SKIP_ITEM",
+      "source": "./internal/utilityEvaluators",
+      "alias": null
+    }
+  ],
+  "calls": [
+    {
+      "caller": "differenceWith",
+      "callee_text": "purryFromLazy",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./internal/purryFromLazy",
+      "line": 51
+    },
+    {
+      "caller": "lazyImplementation",
+      "callee_text": "every",
+      "kind": "method",
+      "receiver": "other",
+      "receiver_type_hint": "Array",
+      "callee_file_hint": "external",
+      "line": 60
+    },
+    {
+      "caller": "lazyImplementation",
+      "callee_text": "isEqual",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 60
+    }
+  ],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "IsEqual",
+      "kind": "type_alias",
+      "parent": null,
+      "bases": [],
+      "params": [],
+      "returns": null,
+      "line": 5
+    },
+    {
+      "name": "differenceWith",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "args",
+          "type": "readonly unknown[]"
+        }
+      ],
+      "returns": "unknown",
+      "line": 50
+    },
+    {
+      "name": "lazyImplementation",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "other",
+          "type": "readonly Other[]"
+        },
+        {
+          "name": "isEqual",
+          "type": "IsEqual"
+        }
+      ],
+      "returns": "LazyEvaluator",
+      "line": 54
+    }
+  ]
+}

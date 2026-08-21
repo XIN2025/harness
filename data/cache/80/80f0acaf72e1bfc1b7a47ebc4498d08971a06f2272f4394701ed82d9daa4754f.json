@@ -1,0 +1,13 @@
+{
+  "key": "80f0acaf72e1bfc1b7a47ebc4498d08971a06f2272f4394701ed82d9daa4754f",
+  "model": "harness-qwen15b",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "148faa0e5fc3967f9a36f5bff2b8e664ed445afa6beae5fd61d006a003746582",
+  "relative_path": "src/floor.ts",
+  "response": "```json\n{\n  \"definitions\": [\"floor\"],\n  \"references\": [\n    {\"name\": \"withPrecision\", \"source\": \"./internal/withPrecision\"},\n    {\"name\": \"purry\", \"source\": \"./purry\"}\n  ],\n  \"calls\": [],\n  \"type_assignments\": [],\n  \"definitions_rich\": []\n}\n```",
+  "created": "2026-08-08T20:19:13+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 8525,
+  "completion_tokens": 72
+}

@@ -1,0 +1,13 @@
+{
+  "key": "922a3a51247787bdc07f3859797c7ab21c32c52204f8e07df3a3bafb88e33ad5",
+  "model": "harness-qwen15b",
+  "prompt_version": "refs-v1-7386a79c1ab2+json",
+  "file_sha": "3c8bfd5405faabff54a47a6aa9fd1dba3ab1cb644c8d9814066c80b8916a9c49",
+  "relative_path": "src/isEmpty.ts",
+  "response": "{\n  \"calls\": [],\n  \"callable_refs\": [\n    {\"caller\": \"isEmpty\", \"callee_text\": \"isEmptyish\"},\n    {\"caller\": \"isEmpty\", \"callee_text\": \"hasAtLeast\"},\n    {\"caller\": \"isEmpty\", \"callee_text\": \"isStrictEqual\"},\n    {\"caller\": \"isEmpty\", \"callee_text\": \"isNullish\"},\n    {\"caller\": \"isEmpty\", \"callee_text\": \"isTruthy\"}\n  ]\n}",
+  "created": "2026-08-08T22:27:24+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 894,
+  "completion_tokens": 92
+}

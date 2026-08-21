@@ -1,0 +1,13 @@
+{
+  "key": "5af1caa06208c00045d01868dc27b06cc55d80dd035b412ec8ab639150abdeb6",
+  "model": "harness-qwen15b",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "be3323e0ad630e95e76340cd0f695dbb36ce391ebebf652da11334e99e46c4b3",
+  "relative_path": "src/difference.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"difference\",\n    \"lazyImplementation\"\n  ],\n  \"references\": [\n    {\"name\": \"purryFromLazy\", \"source\": \"./internal/purryFromLazy\"},\n    {\"name\": \"LazyEvaluator\", \"source\": \"./internal/types/LazyEvaluator\"},\n    {\"name\": \"SKIP_ITEM\", \"source\": \"./internal/utilityEvaluators\"}\n  ],\n  \"calls\": [\n    {\n      \"caller\": \"difference\",\n      \"callee_text\": \"purryFromLazy\",\n      \"kind\": \"free\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": \"...\",\n      \"line\": 1\n    },\n    {\n      \"caller\": \"difference\",\n      \"callee_text\": \"lazyImplementation\",\n      \"kind\": \"free\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": \"...\",\n      \"line\": 2\n    }\n  ],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"difference\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [\"purryFromLazy\"],\n      \"params\": [{\"name\": \"data\", \"type\": \"readonly T[]\"}, {\"name\": \"other\", \"type\": \"readonly T[]\"}],\n      \"returns\": \"T[]\",\n      \"line\": 1\n    },\n    {\n      \"name\": \"lazyImplementation\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [{\"name\": \"other\", \"type\": \"readonly T[]\"}],\n      \"returns\": \"LazyEvaluator<T>\",\n      \"line\": 2\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:17:16+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 8691,
+  "completion_tokens": 370
+}

@@ -1,0 +1,56 @@
+```json
+{
+  "definitions": [
+    "ceil"
+  ],
+  "references": [
+    {
+      "name": "withPrecision",
+      "source": "./internal/withPrecision",
+      "alias": null
+    },
+    {
+      "name": "purry",
+      "source": "./purry",
+      "alias": null
+    }
+  ],
+  "calls": [
+    {
+      "caller": "ceil",
+      "callee_text": "purry",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./purry",
+      "line": 43
+    },
+    {
+      "caller": "ceil",
+      "callee_text": "withPrecision",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./internal/withPrecision",
+      "line": 43
+    }
+  ],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "ceil",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "args",
+          "type": "readonly unknown[]"
+        }
+      ],
+      "returns": "unknown",
+      "line": 42
+    }
+  ]
+}
+```

@@ -1,0 +1,23 @@
+```json
+{
+  "definitions": ["divide", "purry"],
+  "references": [
+    {"name": "divide", "source": "./src/divide.ts"},
+    {"name": "purry", "source": "./src/purry.ts"}
+  ],
+  "calls": [
+    {"caller": "divide", "callee_text": "divideImplementation", "kind": "free",
+     "receiver": null, "receiver_type_hint": null, "callee_file_hint": "./src/divide.ts", "line": 15},
+    {"caller": "divide", "callee_text": "divideImplementation", "kind": "free",
+     "receiver": null, "receiver_type_hint": null, "callee_file_hint": "./src/divide.ts", "line": 20}
+  ],
+  "type_assignments": [
+    {"scope": "module", "var": "divide", "type": "function", "type_module": "external"},
+    {"scope": "module", "var": "purry", "type": "function", "type_module": "external"}
+  ],
+  "definitions_rich": [
+    {"name": "divide", "kind": "function", "parent": null, "bases": [], "params": [{"name": "value", "type": "number"}, {"name": "divisor", "type": "number"}], "returns": "number", "line": 1},
+    {"name": "purry", "kind": "function", "parent": null, "bases": [], "params": [{"name": "fn", "type": "Function"}], "returns": "Function", "line": 2}
+  ]
+}
+```

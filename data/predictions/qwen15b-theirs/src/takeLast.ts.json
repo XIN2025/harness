@@ -1,0 +1,20 @@
+```json
+{
+  "definitions": ["takeLast", "purry"],
+  "references": [
+    {"name": "IterableContainer", "source": "./internal/types/IterableContainer"},
+    {"name": "purry", "source": "./purry"}
+  ],
+  "calls": [
+    {"caller": "takeLast", "callee_text": "slice", "kind": "method",
+     "receiver": "array.slice(Math.max(0, array.length - n))", "receiver_type_hint": null, "callee_file_hint": null, "line": 1},
+    {"caller": "takeLast", "callee_text": "purry", "kind": "free",
+     "receiver": null, "receiver_type_hint": null, "callee_file_hint": "./purry", "line": 2}
+  ],
+  "type_assignments": [],
+  "definitions_rich": [
+    {"name": "takeLast", "kind": "function", "parent": null, "bases": [], "params": [{"name": "array", "type": "IterableContainer"}, {"name": "n", "type": "number"}], "returns": "T[number][]", "line": 1},
+    {"name": "purry", "kind": "function", "parent": null, "bases": [], "params": [{"name": "fn", "type": "Function"}], "returns": "Function", "line": 2}
+  ]
+}
+```

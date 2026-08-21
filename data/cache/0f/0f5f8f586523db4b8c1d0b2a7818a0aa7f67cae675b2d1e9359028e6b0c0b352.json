@@ -1,0 +1,13 @@
+{
+  "key": "0f5f8f586523db4b8c1d0b2a7818a0aa7f67cae675b2d1e9359028e6b0c0b352",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "refs-v1-7386a79c1ab2+json",
+  "file_sha": "39294110c2d89cbe5a94fd4752b0d6fc590d11f5386beae1d94a3d020023d14f",
+  "relative_path": "src/randomString.ts",
+  "response": "{\"calls\": [], \"callable_refs\": [{\"caller\": \"randomString\", \"callee_text\": \"randomStringImplementation\"}, {\"caller\": \"randomString\", \"callee_text\": \"ALPHABET\"}, {\"caller\": \"randomString\", \"callee_text\": \"Math.random\"}, {\"caller\": \"randomString\", \"callee_text\": \"ALPHABET.length\"}, {\"caller\": \"randomString\", \"callee_text\": \"out\"}, {\"caller\": \"randomStringImplementation\", \"callee_text\": \"length\"}, {\"caller\": \"randomStringImplementation\", \"callee_text\": \"iteration\"}, {\"caller\": \"randomStringImplementation\", \"callee_text\": \"Math.random\"}, {\"caller\": \"randomStringImplementation\", \"callee_text\": \"ALPHABET.length\"}, {\"caller\": \"randomStringImplementation\", \"callee_text\": \"out\"}, {\"caller\": \"randomStringImplementation\", \"callee_text\": \"push\"}, {\"caller\": \"randomStringImplementation\", \"callee_text\": \"ALPHABET\"}, {\"caller\": \"randomStringImplementation\", \"callee_text\": \"Math.floor\"}, {\"caller\": \"randomStringImplementation\", \"callee_text\": \"ALPHABET.length\"}, {\"caller\": \"randomStringImplementation\", \"callee_text\": \"!\"}, {\"caller\": \"randomStringImplementation\", \"callee_text\": \"join\"}, {\"caller\": \"randomStringImplementation\", \"callee_text\": \"out\"}]}",
+  "created": "2026-08-08T23:26:34+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 772,
+  "completion_tokens": 283
+}

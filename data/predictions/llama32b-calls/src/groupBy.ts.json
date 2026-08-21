@@ -1,0 +1,16 @@
+{"calls": [
+  {"caller": "groupBy", "__module__": "src/groupBy.ts"},
+  {"caller": "groupByImplementation", "callee_text": "Object.create"},
+  {"caller": "groupByImplementation", "callee_text": "Object.setPrototypeOf"},
+  {"caller": "groupByImplementation", "callee_text": "for"},
+  {"caller": "groupByImplementation", "callee_text": "data"},
+  {"caller": "groupByImplementation", "callee_text": "index"},
+  {"caller": "groupByImplementation", "callee_text": "item"},
+  {"caller": "groupByImplementation", "callee_text": "callbackfn"},
+  {"caller": "groupByImplementation", "callee_text": "key"},
+  {"caller": "groupByImplementation", "callee_text": "output"},
+  {"caller": "groupByImplementation", "callee_text": "items"},
+  {"caller": "groupByImplementation", "callee_text": "push"},
+  {"caller": "groupByImplementation", "callee_text": "Object.create"},
+  {"caller": "groupByImplementation", "callee_text": "Object.setPrototypeOf"}
+]}

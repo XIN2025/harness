@@ -1,0 +1,63 @@
+```json
+{
+  "definitions": [
+    "debounce",
+    "DebounceOptions",
+    "StrictFunction"
+  ],
+  "references": [
+    {"name": "debounce", "source": "./src/debounce.ts"},
+    {"name": "DebounceOptions", "source": "./src/debounce.ts"},
+    {"name": "StrictFunction", "source": "./src/debounce.ts"}
+  ],
+  "calls": [
+    {
+      "caller": "App",
+      "callee_text": "useState",
+      "kind": "hook",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 2
+    }
+  ],
+  "type_assignments": [
+    {"scope": "module", "var": "debounce", "type": "function", "type_module": "./src/debounce.ts"},
+    {"scope": "module", "var": "DebounceOptions", "type": "object", "type_module": "./src/debounce.ts"},
+    {"scope": "module", "var": "StrictFunction", "type": "function", "type_module": "./src/debounce.ts"}
+  ],
+  "definitions_rich": [
+    {
+      "name": "debounce",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "func", "type": "StrictFunction"}],
+      "returns": "Debouncer<StrictFunction>",
+      "line": 1
+    },
+    {
+      "name": "DebounceOptions",
+      "kind": "interface",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {"name": "waitMs", "type": "number"},
+        {"name": "maxWaitMs", "type": "number"},
+        {"name": "timing", "type": "string"}
+      ],
+      "returns": null,
+      "line": 3
+    },
+    {
+      "name": "StrictFunction",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [],
+      "returns": null,
+      "line": 5
+    }
+  ]
+}
+```

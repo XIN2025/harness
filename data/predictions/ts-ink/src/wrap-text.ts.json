@@ -1,0 +1,61 @@
+{
+  "relative_path": "src/wrap-text.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "wrapText",
+      "callee_text": "String",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 12
+    },
+    {
+      "caller": "wrapText",
+      "callee_text": "String",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 12
+    },
+    {
+      "caller": "wrapText",
+      "callee_text": "wrapAnsi",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "wrap-ansi",
+      "line": 22
+    },
+    {
+      "caller": "wrapText",
+      "callee_text": "wrapAnsi",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "wrap-ansi",
+      "line": 29
+    },
+    {
+      "caller": "wrapText",
+      "callee_text": "startsWith",
+      "kind": "method",
+      "receiver": "wrapType!",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 36
+    },
+    {
+      "caller": "wrapText",
+      "callee_text": "cliTruncate",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "cli-truncate",
+      "line": 47
+    }
+  ],
+  "callable_refs": []
+}

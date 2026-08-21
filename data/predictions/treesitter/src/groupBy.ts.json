@@ -1,0 +1,52 @@
+{
+  "relative_path": "src/groupBy.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "groupBy",
+      "callee_text": "purry",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./purry",
+      "line": 74
+    },
+    {
+      "caller": "groupByImplementation",
+      "callee_text": "create",
+      "kind": "static",
+      "receiver": "Object",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 83
+    },
+    {
+      "caller": "groupByImplementation",
+      "callee_text": "callbackfn",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 90
+    },
+    {
+      "caller": "groupByImplementation",
+      "callee_text": "push",
+      "kind": "method",
+      "receiver": "items",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 102
+    },
+    {
+      "caller": "groupByImplementation",
+      "callee_text": "setPrototypeOf",
+      "kind": "static",
+      "receiver": "Object",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 108
+    }
+  ],
+  "callable_refs": []
+}

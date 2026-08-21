@@ -1,0 +1,13 @@
+{
+  "key": "687bd1b87c158afa4412c2864beca85b1a591f1a87735a1cb09dc4fc99549a16",
+  "model": "harness-qwen15b",
+  "prompt_version": "refs-strict-v1-ca2cfcfbecef+json",
+  "file_sha": "a436427ed54a69e9310b5855a5332d59f9e4af01677b5e645d2bf68237b7047b",
+  "relative_path": "src/mapValues.ts",
+  "response": "{\"calls\": [], \"callable_refs\": [{\"caller\": \"mapValues\", \"callee_text\": \"mapValuesImplementation\"}]}",
+  "created": "2026-08-09T05:47:11+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1141,
+  "completion_tokens": 26
+}

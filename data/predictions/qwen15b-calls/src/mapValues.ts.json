@@ -1,0 +1,6 @@
+{"calls": [
+  {"caller": "mapValues", "callee_text": "purry"},
+  {"caller": "mapValuesImplementation", "callee_text": "Object.entries"},
+  {"caller": "mapValuesImplementation", "callee_text": "for...of"},
+  {"caller": "mapValuesImplementation", "callee_text": "valueMapper"}
+]}

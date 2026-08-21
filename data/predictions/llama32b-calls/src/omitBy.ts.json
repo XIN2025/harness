@@ -1,0 +1,8 @@
+{"calls": [
+  {"caller": "omitBy", "callee_text": "purry"},
+  {"caller": "omitByImplementation", "callee_text": "Object.entries"},
+  {"caller": "omitByImplementation", "callee_text": "for"},
+  {"caller": "omitByImplementation", "callee_text": "predicate"},
+  {"caller": "omitByImplementation", "callee_text": "delete"},
+  {"caller": "omitByImplementation", "callee_text": "Object.entries"}
+]}

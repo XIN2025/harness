@@ -1,0 +1,13 @@
+{
+  "key": "896df7e497a08ef9a6671d1d4588f1efbea96a0db288f786f199f1ae84f14484",
+  "model": "harness-qwen15b",
+  "prompt_version": "ours-v1-5c74cf9a927a",
+  "file_sha": "bce8be3102532c25ede791c13241f0d251554f9eb82039e333fd1e8cdb3379b2",
+  "relative_path": "src/clone.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"clone\",\n    \"isPlainObject\"\n  ],\n  \"references\": [],\n  \"calls\": [],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"clone\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"data\",\n          \"type\": \"T\"\n        }\n      ],\n      \"returns\": {\n        \"type\": \"T\"\n      },\n      \"line\": 1\n    },\n    {\n      \"name\": \"clone\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"data\",\n          \"type\": \"unknown[]\"\n        }\n      ],\n      \"returns\": {\n        \"type\": \"unknown[]\"\n      },\n      \"line\": 1\n    },\n    {\n      \"name\": \"clone\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"data\",\n          \"type\": \"unknown[]\"\n        }\n      ],\n      \"returns\": {\n        \"type\": \"unknown[]\"\n      },\n      \"line\": 1\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:31:21+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1259,
+  "completion_tokens": 285
+}

@@ -1,0 +1,13 @@
+{
+  "key": "98c8f7916aea903e6aa9dc0847841271a399db14cf8aa82ae6c019671b77cbfd",
+  "model": "harness-qwen15b",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "39a6e4c9e37b1123a72eb3d0507724c218f6bd0ee1571c775c89c41300005e52",
+  "relative_path": "src/findIndex.ts",
+  "response": "```json\n{\n  \"definitions\": [\"findIndex\", \"purry\"],\n  \"references\": [\n    {\"name\": \"findIndex\", \"source\": \"./src/findIndex.ts\"},\n    {\"name\": \"purry\", \"source\": \"./src/purry.ts\"}\n  ],\n  \"calls\": [],\n  \"type_assignments\": [],\n  \"definitions_rich\": []\n}\n```",
+  "created": "2026-08-08T20:18:46+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 8576,
+  "completion_tokens": 79
+}

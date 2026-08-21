@@ -1,0 +1,1 @@
+{"calls": [], "callable_refs": [{"caller": "randomInteger", "callee_text": "Math.random"}]}

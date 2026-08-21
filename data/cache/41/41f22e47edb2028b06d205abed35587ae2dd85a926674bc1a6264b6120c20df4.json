@@ -1,0 +1,13 @@
+{
+  "key": "41f22e47edb2028b06d205abed35587ae2dd85a926674bc1a6264b6120c20df4",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "47a74f0a70b6494dd3cbf092b5ff3e34a0d9c696c9957631fa36c7c4458d75ab",
+  "relative_path": "src/mapKeys.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"mapKeys\", \"callee_text\": \"__module__\"},\n  {\"caller\": \"mapKeysImplementation\", \"callee_text\": \"Object.entries\"},\n  {\"caller\": \"mapKeysImplementation\", \"callee_text\": \"for\"},\n  {\"caller\": \"mapKeysImplementation\", \"callee_text\": \"keyMapper\"},\n  {\"caller\": \"mapKeysImplementation\", \"callee_text\": \"out[mappedKey]\"},\n  {\"caller\": \"mapKeysImplementation\", \"callee_text\": \"Object.entries\"},\n  {\"caller\": \"mapKeysImplementation\", \"callee_text\": \"for\"},\n  {\"caller\": \"mapKeysImplementation\", \"callee_text\": \"keyMapper\"},\n  {\"caller\": \"mapKeysImplementation\", \"callee_text\": \"out[mappedKey]\"},\n  {\"caller\": \"mapKeysImplementation\", \"callee_text\": \"Object.entries\"},\n  {\"caller\": \"mapKeysImplementation\", \"callee_text\": \"for\"},\n  {\"caller\": \"mapKeysImplementation\", \"callee_text\": \"keyMapper\"},\n  {\"caller\": \"mapKeysImplementation\", \"callee_text\": \"out[mappedKey]\"}\n]}",
+  "created": "2026-08-08T23:03:51+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1328,
+  "completion_tokens": 232
+}

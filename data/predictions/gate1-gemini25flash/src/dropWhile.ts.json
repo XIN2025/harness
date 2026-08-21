@@ -1,0 +1,93 @@
+```json
+{
+  "definitions": [
+    "dropWhile",
+    "dropWhileImplementation"
+  ],
+  "references": [
+    {
+      "name": "IterableContainer",
+      "source": "./internal/types/IterableContainer",
+      "alias": null
+    },
+    {
+      "name": "purry",
+      "source": "./purry",
+      "alias": null
+    }
+  ],
+  "calls": [
+    {
+      "caller": "dropWhile",
+      "callee_text": "purry",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./purry",
+      "line": 29
+    },
+    {
+      "caller": "dropWhileImplementation",
+      "callee_text": "entries",
+      "kind": "method",
+      "receiver": "data",
+      "receiver_type_hint": "IterableContainer",
+      "callee_file_hint": "external",
+      "line": 35
+    },
+    {
+      "caller": "dropWhileImplementation",
+      "callee_text": "predicate",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 36
+    },
+    {
+      "caller": "dropWhileImplementation",
+      "callee_text": "slice",
+      "kind": "method",
+      "receiver": "data",
+      "receiver_type_hint": "IterableContainer",
+      "callee_file_hint": "external",
+      "line": 37
+    }
+  ],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "dropWhile",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "args",
+          "type": "unknown[]"
+        }
+      ],
+      "returns": "unknown",
+      "line": 28
+    },
+    {
+      "name": "dropWhileImplementation",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "T"
+        },
+        {
+          "name": "predicate",
+          "type": null
+        }
+      ],
+      "returns": null,
+      "line": 32
+    }
+  ]
+}
+```

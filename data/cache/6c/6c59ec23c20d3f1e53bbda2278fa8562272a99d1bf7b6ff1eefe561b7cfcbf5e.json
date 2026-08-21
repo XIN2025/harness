@@ -1,0 +1,13 @@
+{
+  "key": "6c59ec23c20d3f1e53bbda2278fa8562272a99d1bf7b6ff1eefe561b7cfcbf5e",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "refs-v1-7386a79c1ab2+json",
+  "file_sha": "0627c01458c40feb01d342a5841846268ed9752f2c63d8bfc1d8c4c446afa517",
+  "relative_path": "src/flatMap.ts",
+  "response": "{\"callable_refs\": [\n  {\"caller\": \"flatMap\", \"callee_text\": \"flatMapImplementation\"},\n  {\"caller\": \"flatMap\", \"callee_text\": \"lazyImplementation\"}\n]}",
+  "created": "2026-08-08T23:20:26+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1153,
+  "completion_tokens": 38
+}

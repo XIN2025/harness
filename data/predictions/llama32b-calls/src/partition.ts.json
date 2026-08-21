@@ -1,0 +1,10 @@
+{"calls": [
+  {"caller": "partition", "callee_text": "purry"},
+  {"caller": "partitionImplementation", "callee_text": "entries"},
+  {"caller": "partitionImplementation", "callee_text": "data"},
+  {"caller": "partitionImplementation", "callee_text": "predicate"},
+  {"caller": "partitionImplementation", "callee_text": "index"},
+  {"caller": "partitionImplementation", "callee_text": "data"},
+  {"caller": "partitionImplementation", "callee_text": "entries"},
+  {"caller": "partitionImplementation", "callee_text": "for"}
+]}

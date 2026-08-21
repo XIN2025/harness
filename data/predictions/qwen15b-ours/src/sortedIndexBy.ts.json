@@ -1,0 +1,69 @@
+```json
+{
+  "definitions": [
+    "sortedIndexBy",
+    "purry",
+    "binarySearchCutoffIndex"
+  ],
+  "references": [],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "sortedIndexBy",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "readonly T[]"
+        },
+        {
+          "name": "item",
+          "type": "T"
+        },
+        {
+          "name": "valueFunction",
+          "type": "(item: T, index?: number | undefined, data: readonly T[]) => NonNullable<unknown>"
+        }
+      ],
+      "returns": "number"
+    },
+    {
+      "name": "purry",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(arg1: unknown, arg2: unknown, ...args: unknown[]) => unknown"
+        },
+        {
+          "name": "arity",
+          "type": "number"
+        }
+      ],
+      "returns": "unknown"
+    },
+    {
+      "name": "binarySearchCutoffIndex",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "readonly T[]"
+        },
+        {
+          "name": "compareFn",
+          "type": "(a: T, b: T) => number"
+        }
+      ],
+      "returns": "number"
+    }
+  ]
+}
+```

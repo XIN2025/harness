@@ -1,0 +1,1 @@
+{"callable_refs": [{"caller": "keys", "callee_text": "Object.keys"}, {"caller": "keys", "callee_text": "EnumerableStringKeyOf"}, {"caller": "keys", "callee_text": "IterableContainer"}, {"caller": "keys", "callee_text": "ToString"}, {"caller": "keys", "callee_text": "IsNever"}, {"caller": "keys", "callee_text": "purry"}]}

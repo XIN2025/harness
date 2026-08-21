@@ -1,0 +1,13 @@
+{
+  "key": "09469bba4d5ba253ff856dbfbb0494b769c52aa05a1a08e093099977585e1b4f",
+  "model": "harness-qwen15b",
+  "prompt_version": "ours-v1-5c74cf9a927a",
+  "file_sha": "6335375ec43ab5ffc4d9124d9b970a54c8058b707dd3d4f3178535d2f50a3490",
+  "relative_path": "src/sum.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    {\n      \"name\": \"Sum\",\n      \"kind\": \"function\"\n    },\n    {\n      \"name\": \"sum\",\n      \"kind\": \"function\"\n    },\n    {\n      \"name\": \"sumImplementation\",\n      \"kind\": \"function\"\n    }\n  ],\n  \"references\": [],\n  \"calls\": [\n    {\n      \"caller\": \"__module__\",\n      \"callee_text\": \"sum\",\n      \"kind\": \"method\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": \"src/sum.ts\",\n      \"line\": 10\n    },\n    {\n      \"caller\": \"__module__\",\n      \"callee_text\": \"sum\",\n      \"kind\": \"method\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": \"src/sum.ts\",\n      \"line\": 24\n    }\n  ],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"IterableContainer\",\n      \"kind\": \"interface\"\n    },\n    {\n      \"name\": \"purry\",\n      \"kind\": \"function\"\n    },\n    {\n      \"name\": \"sum\",\n      \"kind\": \"function\"\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:46:38+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1036,
+  "completion_tokens": 275
+}

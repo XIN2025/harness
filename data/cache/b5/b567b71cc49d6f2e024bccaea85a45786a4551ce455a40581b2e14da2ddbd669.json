@@ -1,0 +1,13 @@
+{
+  "key": "b567b71cc49d6f2e024bccaea85a45786a4551ce455a40581b2e14da2ddbd669",
+  "model": "harness-qwen15b",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "304894e6fbcafa2d7b5a130d2aeec158a0e5b9f889de317303a1a1a789cad62f",
+  "relative_path": "src/merge.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"merge\", \"callee_text\": \"purry\"},\n  {\"caller\": \"mergeImplementation\", \"callee_text\": \"spread\"}\n]}",
+  "created": "2026-08-08T22:19:28+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1079,
+  "completion_tokens": 36
+}

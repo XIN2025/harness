@@ -1,0 +1,1 @@
+{"calls": [], "callable_refs": [{"caller": "dropFirstBy", "callee_text": "dropFirstByImplementation"}, {"caller": "dropFirstByImplementation", "callee_text": "heapify"}, {"caller": "dropFirstByImplementation", "callee_text": "heapMaybeInsert"}]}

@@ -1,0 +1,13 @@
+{
+  "key": "2d67dccb378afd84f13f4909121c1941d57354c00553d1d99163e5d49e3bcd07",
+  "model": "harness-qwen15b",
+  "prompt_version": "ours-v1-5c74cf9a927a",
+  "file_sha": "3bc0f57b69d88322a3f3b914bddb02b6af2830607c73b11fe7bd0fc315722307",
+  "relative_path": "src/splitWhen.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"splitWhen\",\n    \"purry\"\n  ],\n  \"references\": [],\n  \"calls\": [],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"splitWhen\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"data\",\n          \"type\": \"readonly T[]\"\n        },\n        {\n          \"name\": \"predicate\",\n          \"type\": \"(item: T, index: number, data: readonly T[]) => boolean\"\n        }\n      ],\n      \"returns\": [\n        {\n          \"type\": \"[T[], T[]]\"\n        }\n      ]\n    },\n    {\n      \"name\": \"purry\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"fn\",\n          \"type\": \"unknown\"\n        }\n      ],\n      \"returns\": [\n        {\n          \"type\": \"unknown\"\n        }\n      ]\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:46:27+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 660,
+  "completion_tokens": 233
+}

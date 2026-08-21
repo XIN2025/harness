@@ -1,0 +1,1 @@
+{"calls": [], "callable_refs": [{"caller": "difference", "callee_text": "lazyImplementation"}, {"caller": "difference", "callee_text": "purryFromLazy"}, {"caller": "difference", "callee_text": "SKIP_ITEM"}, {"caller": "difference", "callee_text": "lazyIdentityEvaluator"}]}

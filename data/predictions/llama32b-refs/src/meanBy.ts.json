@@ -1,0 +1,1 @@
+{"calls": [], "callable_refs": [{"caller": "meanBy", "callee_text": "meanByImplementation"}, {"caller": "meanBy", "callee_text": "fn"}, {"caller": "meanBy", "callee_text": "defaultCompare"}, {"caller": "meanBy", "callee_text": "identity"}]}

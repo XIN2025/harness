@@ -1,0 +1,10 @@
+{"calls": [
+  {"caller": "merge", "callee_text": "purry"},
+  {"caller": "merge", "callee_text": "mergeImplementation"},
+  {"caller": "mergeImplementation", "callee_text": "..."},
+  {"caller": "mergeImplementation", "callee_text": "data"},
+  {"caller": "mergeImplementation", "callee_text": "source"},
+  {"caller": "mergeImplementation", "callee_text": "T"},
+  {"caller": "mergeImplementation", "callee_text": "Source"},
+  {"caller": "mergeImplementation", "callee_text": "Merge<T, Source>"}
+]}

@@ -1,0 +1,43 @@
+{
+  "relative_path": "src/pullObject.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "pullObject",
+      "callee_text": "purry",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./purry",
+      "line": 83
+    },
+    {
+      "caller": "pullObjectImplementation",
+      "callee_text": "entries",
+      "kind": "method",
+      "receiver": "data",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 97
+    },
+    {
+      "caller": "pullObjectImplementation",
+      "callee_text": "keyExtractor",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 98
+    },
+    {
+      "caller": "pullObjectImplementation",
+      "callee_text": "valueExtractor",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 99
+    }
+  ],
+  "callable_refs": []
+}

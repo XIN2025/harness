@@ -1,0 +1,86 @@
+```json
+{
+  "definitions": [
+    "drop",
+    "Drop",
+    "DropFixedTuple",
+    "dropImplementation",
+    "lazyImplementation"
+  ],
+  "references": [
+    {"name": "drop", "source": "./src/drop.ts"},
+    {"name": "Drop", "source": "./src/drop.ts"},
+    {"name": "DropFixedTuple", "source": "./src/drop.ts"},
+    {"name": "dropImplementation", "source": "./src/drop.ts"},
+    {"name": "lazyImplementation", "source": "./src/drop.ts"}
+  ],
+  "calls": [
+    {
+      "caller": "drop",
+      "callee_text": "drop",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./src/drop.ts",
+      "line": 1
+    },
+    {
+      "caller": "drop",
+      "callee_text": "drop",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./src/drop.ts",
+      "line": 2
+    }
+  ],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "drop",
+      "kind": "function",
+      "parent": null,
+      "bases": ["IterableContainer", "number"],
+      "params": [{"name": "array", "type": "IterableContainer"}, {"name": "n", "type": "number"}],
+      "returns": "T[number][]",
+      "line": 1
+    },
+    {
+      "name": "Drop",
+      "kind": "function",
+      "parent": null,
+      "bases": ["IterableContainer", "number"],
+      "params": [{"name": "array", "type": "IterableContainer"}, {"name": "n", "type": "number"}],
+      "returns": "T[number][]",
+      "line": 1
+    },
+    {
+      "name": "DropFixedTuple",
+      "kind": "function",
+      "parent": null,
+      "bases": ["IterableContainer", "number"],
+      "params": [{"name": "array", "type": "IterableContainer"}, {"name": "n", "type": "number"}],
+      "returns": "T[number][]",
+      "line": 1
+    },
+    {
+      "name": "dropImplementation",
+      "kind": "function",
+      "parent": null,
+      "bases": ["IterableContainer", "number"],
+      "params": [{"name": "array", "type": "IterableContainer"}, {"name": "n", "type": "number"}],
+      "returns": "T[number][]",
+      "line": 1
+    },
+    {
+      "name": "lazyImplementation",
+      "kind": "function",
+      "parent": null,
+      "bases": ["IterableContainer", "number"],
+      "params": [{"name": "n", "type": "number"}],
+      "returns": "LazyEvaluator<T>",
+      "line": 1
+    }
+  ]
+}
+```

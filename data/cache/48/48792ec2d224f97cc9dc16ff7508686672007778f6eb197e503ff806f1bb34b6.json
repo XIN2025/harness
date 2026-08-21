@@ -1,0 +1,13 @@
+{
+  "key": "48792ec2d224f97cc9dc16ff7508686672007778f6eb197e503ff806f1bb34b6",
+  "model": "harness-qwen15b",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "7a5d018c4c93a58167f972cb6ce4333a6355f3925795c629265b2391b13c28e6",
+  "relative_path": "src/partialLastBind.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"PartialLastBind\",\n    \"TupleSuffix\",\n    \"RemoveSuffix\",\n    \"PartialLastBindError\"\n  ],\n  \"references\": [\n    {\"name\": \"internal/types/IterableContainer\", \"source\": \"./internal/types/IterableContainer\"},\n    {\"name\": \"internal/types/RemedaTypeError\", \"source\": \"./internal/types/RemedaTypeError\"},\n    {\"name\": \"internal/types/StrictFunction\", \"source\": \"./internal/types/StrictFunction\"},\n    {\"name\": \"internal/types/TupleSplits\", \"source\": \"./internal/types/TupleSplits\"}\n  ],\n  \"calls\": [\n    {\n      \"caller\": \"partialLastBind\",\n      \"callee_text\": \"parseInt\",\n      \"kind\": \"free\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": \"...\",\n      \"line\": 1\n    }\n  ],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"PartialLastBind\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [{\"name\": \"func\", \"type\": \"StrictFunction\"}, {\"name\": \"partial\", \"type\": \"TupleSuffix<Parameters<F>>\"}],\n      \"returns\": \"(...rest: RemovedSuffix extends IterableContainer ? RemovedSuffix : never) => ReturnType<F>\",\n      \"line\": 1\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:23:55+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 8875,
+  "completion_tokens": 308
+}

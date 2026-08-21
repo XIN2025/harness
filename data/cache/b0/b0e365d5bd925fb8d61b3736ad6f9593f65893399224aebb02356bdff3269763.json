@@ -1,0 +1,13 @@
+{
+  "key": "b0e365d5bd925fb8d61b3736ad6f9593f65893399224aebb02356bdff3269763",
+  "model": "harness-qwen15b",
+  "prompt_version": "ours-v1-5c74cf9a927a",
+  "file_sha": "c8df1e430f20827f530687299733030199d555daa932847ad404e1a99b85eaf0",
+  "relative_path": "src/last.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"last\",\n    \"LastArrayElement\",\n    \"IterableContainer\",\n    \"purry\",\n    \"type-fest\",\n    \"internal/types/IterableContainer\",\n    \"__module__\"\n  ],\n  \"references\": [],\n  \"calls\": [\n    {\n      \"caller\": \"__module__.last\",\n      \"callee_text\": \"last\",\n      \"kind\": \"method\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": \"src/last.ts\",\n      \"line\": 1\n    },\n    {\n      \"caller\": \"__module__.last\",\n      \"callee_text\": \"last\",\n      \"kind\": \"method\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": \"src/last.ts\",\n      \"line\": 2\n    }\n  ],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"last\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [],\n      \"returns\": null,\n      \"line\": 1\n    },\n    {\n      \"name\": \"LastArrayElement\",\n      \"kind\": \"type_alias\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [],\n      \"returns\": null,\n      \"line\": 2\n    },\n    {\n      \"name\": \"IterableContainer\",\n      \"kind\": \"interface\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [],\n      \"returns\": null,\n      \"line\": 3\n    },\n    {\n      \"name\": \"purry\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [],\n      \"returns\": null,\n      \"line\": 4\n    },\n    {\n      \"name\": \"type-fest\",\n      \"kind\": \"constant\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [],\n      \"returns\": null,\n      \"line\": 5\n    },\n    {\n      \"name\": \"internal/types/IterableContainer\",\n      \"kind\": \"interface\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [],\n      \"returns\": null,\n      \"line\": 6\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:38:12+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 654,
+  "completion_tokens": 508
+}

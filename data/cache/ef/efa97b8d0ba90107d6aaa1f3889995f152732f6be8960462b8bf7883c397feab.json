@@ -1,0 +1,13 @@
+{
+  "key": "efa97b8d0ba90107d6aaa1f3889995f152732f6be8960462b8bf7883c397feab",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "refs-v1-7386a79c1ab2+json",
+  "file_sha": "9e551c3662e1955fa97e9fbecf18bbe86fce21526fba42d5d811df49ebe01180",
+  "relative_path": "src/internal/binarySearchCutoffIndex.ts",
+  "response": "{\"calls\": [], \"callable_refs\": [{\"caller\": \"binarySearchCutoffIndex\", \"callee_text\": \"predicate\"}, {\"caller\": \"binarySearchCutoffIndex\", \"callee_text\": \"lowIndex\"}, {\"caller\": \"binarySearchCutoffIndex\", \"callee_text\": \"highIndex\"}, {\"caller\": \"binarySearchCutoffIndex\", \"callee_text\": \"(lowIndex + highIndex) >>> 1\"}, {\"caller\": \"binarySearchCutoffIndex\", \"callee_text\": \"pivotIndex\"}, {\"caller\": \"binarySearchCutoffIndex\", \"callee_text\": \"pivot\"}, {\"caller\": \"binarySearchCutoffIndex\", \"callee_text\": \"array[pivotIndex]!\"}, {\"caller\": \"binarySearchCutoffIndex\", \"callee_text\": \"lowIndex = pivotIndex + 1\"}, {\"caller\": \"binarySearchCutoffIndex\", \"callee_text\": \"highIndex = pivotIndex\"}]}",
+  "created": "2026-08-08T23:21:53+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 678,
+  "completion_tokens": 190
+}

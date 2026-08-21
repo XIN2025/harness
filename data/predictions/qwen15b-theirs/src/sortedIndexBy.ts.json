@@ -1,0 +1,20 @@
+```json
+{
+  "definitions": ["sortedIndexBy", "purry", "binarySearchCutoffIndex"],
+  "references": [
+    {"name": "sortedIndexBy", "source": "./src/sortedIndexBy.ts"},
+    {"name": "purry", "source": "./src/purry.ts"},
+    {"name": "binarySearchCutoffIndex", "source": "./src/internal/binarySearchCutoffIndex.ts"}
+  ],
+  "calls": [
+    {"caller": "sortedIndexByImplementation", "callee_text": "valueFunction", "kind": "free",
+     "receiver": null, "receiver_type_hint": null, "callee_file_hint": "...", "line": 1}
+  ],
+  "type_assignments": [],
+  "definitions_rich": [
+    {"name": "sortedIndexBy", "kind": "function", "parent": null, "bases": [], "params": [{"name": "data", "type": "readonly T[]"}, {"name": "item", "type": "T"}, {"name": "valueFunction", "type": "(item: T, index?: number | undefined, data: readonly T[]) => NonNullable<unknown>"}], "returns": "number"},
+    {"name": "purry", "kind": "function", "parent": null, "bases": [], "params": [{"name": "fn", "type": "(...args: unknown[]) => unknown"}, {"name": "arity", "type": "number"}], "returns": "(...args: unknown[]) => unknown"},
+    {"name": "binarySearchCutoffIndex", "kind": "function", "parent": null, "bases": [], "params": [{"name": "data", "type": "readonly T[]"}, {"name": "comparator", "type": "(a: T, b: T) => number"}], "returns": "number"}
+  ]
+}
+```

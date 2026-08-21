@@ -1,0 +1,70 @@
+{
+  "relative_path": "src/randomInteger.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "randomInteger",
+      "callee_text": "ceil",
+      "kind": "static",
+      "receiver": "Math",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 51
+    },
+    {
+      "caller": "randomInteger",
+      "callee_text": "floor",
+      "kind": "static",
+      "receiver": "Math",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 52
+    },
+    {
+      "caller": "randomInteger",
+      "callee_text": "RangeError",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 55
+    },
+    {
+      "caller": "randomInteger",
+      "callee_text": "toString",
+      "kind": "method",
+      "receiver": "from",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 56
+    },
+    {
+      "caller": "randomInteger",
+      "callee_text": "toString",
+      "kind": "method",
+      "receiver": "to",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 56
+    },
+    {
+      "caller": "randomInteger",
+      "callee_text": "floor",
+      "kind": "static",
+      "receiver": "Math",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 60
+    },
+    {
+      "caller": "randomInteger",
+      "callee_text": "random",
+      "kind": "static",
+      "receiver": "Math",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 61
+    }
+  ],
+  "callable_refs": []
+}

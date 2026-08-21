@@ -1,0 +1,10 @@
+{"calls": [
+  {"caller": "sum", "callee_text": "purry"},
+  {"caller": "sumImplementation", "callee_text": "typeof"},
+  {"caller": "sumImplementation", "callee_text": "data[0]"},
+  {"caller": "sumImplementation", "callee_text": "typeof"},
+  {"caller": "sumImplementation", "callee_text": "value"},
+  {"caller": "sumImplementation", "callee_text": "+="},
+  {"caller": "sumImplementation", "callee_text": "out"},
+  {"caller": "sumImplementation", "callee_text": "for"}
+]}

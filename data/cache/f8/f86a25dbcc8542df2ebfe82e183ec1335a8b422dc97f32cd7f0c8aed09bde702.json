@@ -1,0 +1,13 @@
+{
+  "key": "f86a25dbcc8542df2ebfe82e183ec1335a8b422dc97f32cd7f0c8aed09bde702",
+  "model": "harness-qwen15b",
+  "prompt_version": "ours-v1-5c74cf9a927a",
+  "file_sha": "1b72616051eac1c3c6e25ca98670de6d7345b60d2425f38dbbe6d15552baa4d2",
+  "relative_path": "src/hasSubObject.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"hasSubObject\",\n    \"HasSubObjectGuard\",\n    \"HasSubObjectObjectValue\",\n    \"HasSubObjectData\",\n    \"HasSubObjectSubObject\",\n    \"hasSubObjectImplementation\"\n  ],\n  \"references\": [],\n  \"calls\": [],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"hasSubObject\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"data\",\n          \"type\": \"T\"\n        },\n        {\n          \"name\": \"subObject\",\n          \"type\": \"S\"\n        }\n      ],\n      \"returns\": {\n        \"type\": \"HasSubObjectGuard<T, S>\"\n      },\n      \"line\": 1\n    },\n    {\n      \"name\": \"hasSubObject\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"subObject\",\n          \"type\": \"S\"\n        }\n      ],\n      \"returns\": {\n        \"type\": \"HasSubObjectGuard<T, S>\"\n      },\n      \"line\": 1\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:36:31+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1472,
+  "completion_tokens": 273
+}

@@ -1,0 +1,13 @@
+{
+  "key": "cf165303473220308266108633eba46925a021a1b9bf66d7816c3af70ebafde9",
+  "model": "harness-qwen15b",
+  "prompt_version": "refs-v1-7386a79c1ab2+json",
+  "file_sha": "2088617adbf29c12e440220b243cb79e58a1fa80c5c6d2629b72c7e7128186af",
+  "relative_path": "src/internal/words.ts",
+  "response": "{\n  \"calls\": [],\n  \"callable_refs\": [\n    {\"caller\": \"words\", \"callee_text\": \"words\"},\n    {\"caller\": \"words\", \"callee_text\": \"WHITESPACE\"},\n    {\"caller\": \"words\", \"callee_text\": \"WORD_SEPARATORS\"},\n    {\"caller\": \"words\", \"callee_text\": \"flush\"},\n    {\"caller\": \"words\", \"callee_text\": \"data\"},\n    {\"caller\": \"words\", \"callee_text\": \"word\"},\n    {\"caller\": \"words\", \"callee_text\": \"character\"}\n  ]\n}",
+  "created": "2026-08-08T22:27:08+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1062,
+  "completion_tokens": 119
+}

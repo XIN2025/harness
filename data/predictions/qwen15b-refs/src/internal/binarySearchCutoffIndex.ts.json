@@ -1,0 +1,6 @@
+{
+  "calls": [],
+  "callable_refs": [
+    {"caller": "binarySearchCutoffIndex", "callee_text": "predicate"}
+  ]
+}

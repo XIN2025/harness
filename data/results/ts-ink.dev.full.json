@@ -1,0 +1,38 @@
+{
+  "arm": "ts-ink",
+  "split": "dev",
+  "cut": "full",
+  "validity": {
+    "total": 26,
+    "raw_valid": 26,
+    "parseable": 26,
+    "schema_valid": 26
+  },
+  "counts": {
+    "tp": 247,
+    "fp": 0,
+    "fn": 3,
+    "unscored": 83,
+    "files": 26
+  },
+  "metrics": {
+    "precision": {
+      "point": 1.0,
+      "low": 1.0,
+      "high": 1.0,
+      "method": "percentile"
+    },
+    "recall": {
+      "point": 0.988,
+      "low": 0.9727685824512246,
+      "high": 0.9964611576626907,
+      "method": "BCa"
+    },
+    "f1": {
+      "point": 0.993963782696177,
+      "low": 0.9862027309733123,
+      "high": 0.9982293518094556,
+      "method": "BCa"
+    }
+  }
+}

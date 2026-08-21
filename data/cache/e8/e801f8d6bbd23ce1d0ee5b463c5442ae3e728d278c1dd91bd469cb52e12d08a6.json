@@ -1,0 +1,13 @@
+{
+  "key": "e801f8d6bbd23ce1d0ee5b463c5442ae3e728d278c1dd91bd469cb52e12d08a6",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "refs-strict-v1-ca2cfcfbecef+json",
+  "file_sha": "a6bc07b1774728d78bb3d77d796c439da66144e7c97a87aea86c541e1614563d",
+  "relative_path": "src/indexBy.ts",
+  "response": "{\"calls\": [], \"callable_refs\": [{\"caller\": \"indexBy\", \"callee_text\": \"indexByImplementation\"}]}",
+  "created": "2026-08-09T06:01:56+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1173,
+  "completion_tokens": 26
+}

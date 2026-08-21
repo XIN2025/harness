@@ -1,0 +1,592 @@
+{
+  "relative_path": "lib/plugins/helper/open_graph.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "__module__",
+      "callee_text": "shallow",
+      "kind": "method",
+      "receiver": "moize",
+      "receiver_type_hint": null,
+      "callee_file_hint": "moize",
+      "line": 23
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "includes",
+      "kind": "method",
+      "receiver": "str",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 28
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "split",
+      "kind": "method",
+      "receiver": "str",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 29
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "split",
+      "kind": "method",
+      "receiver": "str",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 31
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "toLowerCase",
+      "kind": "method",
+      "receiver": "territory[0]",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 34
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "toUpperCase",
+      "kind": "method",
+      "receiver": "territory[1]",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 34
+    },
+    {
+      "caller": "meta",
+      "callee_text": "escapeHTML",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-util",
+      "line": 40
+    },
+    {
+      "caller": "og",
+      "callee_text": "escapeHTML",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-util",
+      "line": 49
+    },
+    {
+      "caller": "openGraphHelper",
+      "callee_text": "is_post",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 83
+    },
+    {
+      "caller": "openGraphHelper",
+      "callee_text": "prettyUrls",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-util",
+      "line": 84
+    },
+    {
+      "caller": "openGraphHelper",
+      "callee_text": "isArray",
+      "kind": "static",
+      "receiver": "Array",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 92
+    },
+    {
+      "caller": "openGraphHelper",
+      "callee_text": "replace",
+      "kind": "method",
+      "receiver": "escapeHTML(stripHTML(description).substring(0, 200)\n      .trim() // Remove prefixing/trailing spaces\n    )",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 95
+    },
+    {
+      "caller": "openGraphHelper",
+      "callee_text": "escapeHTML",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-util",
+      "line": 95
+    },
+    {
+      "caller": "openGraphHelper",
+      "callee_text": "trim",
+      "kind": "method",
+      "receiver": "stripHTML(description).substring(0, 200)",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 95
+    },
+    {
+      "caller": "openGraphHelper",
+      "callee_text": "substring",
+      "kind": "method",
+      "receiver": "stripHTML(description)",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 95
+    },
+    {
+      "caller": "openGraphHelper",
+      "callee_text": "stripHTML",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-util",
+      "line": 95
+    },
+    {
+      "caller": "openGraphHelper",
+      "callee_text": "slice",
+      "kind": "method",
+      "receiver": "images",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 101
+    },
+    {
+      "caller": "openGraphHelper",
+      "callee_text": "includes",
+      "kind": "method",
+      "receiver": "content",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 103
+    },
+    {
+      "caller": "openGraphHelper",
+      "callee_text": "exec",
+      "kind": "method",
+      "receiver": "imgPattern",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 106
+    },
+    {
+      "caller": "openGraphHelper",
+      "callee_text": "push",
+      "kind": "method",
+      "receiver": "images",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 107
+    },
+    {
+      "caller": "openGraphHelper",
+      "callee_text": "meta",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 116
+    },
+    {
+      "caller": "openGraphHelper",
+      "callee_text": "og",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 119
+    },
+    {
+      "caller": "openGraphHelper",
+      "callee_text": "og",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 120
+    },
+    {
+      "caller": "openGraphHelper",
+      "callee_text": "og",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 123
+    },
+    {
+      "caller": "openGraphHelper",
+      "callee_text": "encodeURL",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-util",
+      "line": 123
+    },
+    {
+      "caller": "openGraphHelper",
+      "callee_text": "og",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 125
+    },
+    {
+      "caller": "openGraphHelper",
+      "callee_text": "og",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 128
+    },
+    {
+      "caller": "openGraphHelper",
+      "callee_text": "og",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 130
+    },
+    {
+      "caller": "openGraphHelper",
+      "callee_text": "og",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 134
+    },
+    {
+      "caller": "openGraphHelper",
+      "callee_text": "localeToTerritory",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 134
+    },
+    {
+      "caller": "openGraphHelper",
+      "callee_text": "filter",
+      "kind": "method",
+      "receiver": "images.map(path => new URL(path, url || config.url).toString())",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 137
+    },
+    {
+      "caller": "openGraphHelper",
+      "callee_text": "map",
+      "kind": "method",
+      "receiver": "images",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 137
+    },
+    {
+      "caller": "openGraphHelper",
+      "callee_text": "toString",
+      "kind": "method",
+      "receiver": "new URL(path, url || config.url)",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 137
+    },
+    {
+      "caller": "openGraphHelper",
+      "callee_text": "URL",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 137
+    },
+    {
+      "caller": "openGraphHelper",
+      "callee_text": "startsWith",
+      "kind": "method",
+      "receiver": "url",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 138
+    },
+    {
+      "caller": "openGraphHelper",
+      "callee_text": "forEach",
+      "kind": "method",
+      "receiver": "images",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 140
+    },
+    {
+      "caller": "openGraphHelper",
+      "callee_text": "og",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 141
+    },
+    {
+      "caller": "openGraphHelper",
+      "callee_text": "isMoment",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "moment",
+      "line": 145
+    },
+    {
+      "caller": "openGraphHelper",
+      "callee_text": "isDate",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "moment",
+      "line": 145
+    },
+    {
+      "caller": "openGraphHelper",
+      "callee_text": "isNaN",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 145
+    },
+    {
+      "caller": "openGraphHelper",
+      "callee_text": "valueOf",
+      "kind": "method",
+      "receiver": "date",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 145
+    },
+    {
+      "caller": "openGraphHelper",
+      "callee_text": "og",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 146
+    },
+    {
+      "caller": "openGraphHelper",
+      "callee_text": "toISOString",
+      "kind": "method",
+      "receiver": "date",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 146
+    },
+    {
+      "caller": "openGraphHelper",
+      "callee_text": "isMoment",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "moment",
+      "line": 151
+    },
+    {
+      "caller": "openGraphHelper",
+      "callee_text": "isDate",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "moment",
+      "line": 151
+    },
+    {
+      "caller": "openGraphHelper",
+      "callee_text": "isNaN",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 151
+    },
+    {
+      "caller": "openGraphHelper",
+      "callee_text": "valueOf",
+      "kind": "method",
+      "receiver": "updated",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 151
+    },
+    {
+      "caller": "openGraphHelper",
+      "callee_text": "og",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 152
+    },
+    {
+      "caller": "openGraphHelper",
+      "callee_text": "toISOString",
+      "kind": "method",
+      "receiver": "updated",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 152
+    },
+    {
+      "caller": "openGraphHelper",
+      "callee_text": "og",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 157
+    },
+    {
+      "caller": "openGraphHelper",
+      "callee_text": "forEach",
+      "kind": "method",
+      "receiver": "keywords.map(tag => {\n      return tag.name ? tag.name : tag;\n    }).filter(Boolean).sort()",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 163
+    },
+    {
+      "caller": "openGraphHelper",
+      "callee_text": "sort",
+      "kind": "method",
+      "receiver": "keywords.map(tag => {\n      return tag.name ? tag.name : tag;\n    }).filter(Boolean)",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 163
+    },
+    {
+      "caller": "openGraphHelper",
+      "callee_text": "filter",
+      "kind": "method",
+      "receiver": "keywords.map(tag => {\n      return tag.name ? tag.name : tag;\n    })",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 163
+    },
+    {
+      "caller": "openGraphHelper",
+      "callee_text": "map",
+      "kind": "method",
+      "receiver": "keywords",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 163
+    },
+    {
+      "caller": "openGraphHelper",
+      "callee_text": "og",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 166
+    },
+    {
+      "caller": "openGraphHelper",
+      "callee_text": "meta",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 170
+    },
+    {
+      "caller": "openGraphHelper",
+      "callee_text": "URL",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 174
+    },
+    {
+      "caller": "openGraphHelper",
+      "callee_text": "meta",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 175
+    },
+    {
+      "caller": "openGraphHelper",
+      "callee_text": "meta",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 177
+    },
+    {
+      "caller": "openGraphHelper",
+      "callee_text": "startsWith",
+      "kind": "method",
+      "receiver": "twitterId",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 182
+    },
+    {
+      "caller": "openGraphHelper",
+      "callee_text": "meta",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 184
+    },
+    {
+      "caller": "openGraphHelper",
+      "callee_text": "meta",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 188
+    },
+    {
+      "caller": "openGraphHelper",
+      "callee_text": "og",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 192
+    },
+    {
+      "caller": "openGraphHelper",
+      "callee_text": "og",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 196
+    },
+    {
+      "caller": "openGraphHelper",
+      "callee_text": "trim",
+      "kind": "method",
+      "receiver": "result",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 199
+    }
+  ],
+  "callable_refs": []
+}

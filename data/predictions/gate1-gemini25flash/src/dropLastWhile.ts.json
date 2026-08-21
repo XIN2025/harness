@@ -1,0 +1,84 @@
+```json
+{
+  "definitions": [
+    "dropLastWhile",
+    "dropLastWhileImplementation"
+  ],
+  "references": [
+    {
+      "name": "IterableContainer",
+      "source": "./internal/types/IterableContainer",
+      "alias": null
+    },
+    {
+      "name": "purry",
+      "source": "./purry",
+      "alias": null
+    }
+  ],
+  "calls": [
+    {
+      "caller": "dropLastWhile",
+      "callee_text": "purry",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./purry",
+      "line": 27
+    },
+    {
+      "caller": "dropLastWhileImplementation",
+      "callee_text": "predicate",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 34
+    },
+    {
+      "caller": "dropLastWhileImplementation",
+      "callee_text": "slice",
+      "kind": "method",
+      "receiver": "data",
+      "receiver_type_hint": "IterableContainer",
+      "callee_file_hint": "external",
+      "line": 35
+    }
+  ],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "dropLastWhile",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "args",
+          "type": "unknown[]"
+        }
+      ],
+      "returns": "unknown",
+      "line": 26
+    },
+    {
+      "name": "dropLastWhileImplementation",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "T"
+        },
+        {
+          "name": "predicate",
+          "type": null
+        }
+      ],
+      "returns": null,
+      "line": 30
+    }
+  ]
+}
+```

@@ -1,0 +1,43 @@
+```json
+{
+  "definitions": [
+    "length",
+    "purry"
+  ],
+  "references": [],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "length",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [],
+      "returns": {
+        "scope": "global",
+        "var": "length",
+        "type": "number",
+        "type_module": null,
+        "from_call": false
+      },
+      "line": 10
+    },
+    {
+      "name": "purry",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [],
+      "returns": {
+        "scope": "global",
+        "var": "purry",
+        "type": "function",
+        "type_module": null,
+        "from_call": false
+      },
+      "line": 14
+    }
+  ]
+}
+```

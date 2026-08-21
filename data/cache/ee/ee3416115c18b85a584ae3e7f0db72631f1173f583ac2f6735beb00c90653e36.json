@@ -1,0 +1,13 @@
+{
+  "key": "ee3416115c18b85a584ae3e7f0db72631f1173f583ac2f6735beb00c90653e36",
+  "model": "harness-qwen15b",
+  "prompt_version": "refs-v1-7386a79c1ab2+json",
+  "file_sha": "2e7a2f9c951b691ea686f1bf22cb08464355e45131b3b7227caf35f588bc61b7",
+  "relative_path": "src/takeWhile.ts",
+  "response": "{\n  \"calls\": [],\n  \"callable_refs\": [\n    {\"caller\": \"takeWhile\", \"callee_text\": \"takeWhileImplementation\"},\n    {\"caller\": \"takeWhileImplementation\", \"callee_text\": \"predicate\"}\n  ]\n}",
+  "created": "2026-08-08T22:30:54+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 837,
+  "completion_tokens": 49
+}

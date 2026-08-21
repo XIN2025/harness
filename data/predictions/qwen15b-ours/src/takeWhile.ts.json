@@ -1,0 +1,77 @@
+```json
+{
+  "definitions": [
+    "takeWhile",
+    "IterableContainer",
+    "purry"
+  ],
+  "references": [],
+  "calls": [
+    {
+      "caller": "__module__",
+      "callee_text": "takeWhile",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "src/takeWhile.ts",
+      "line": 1
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "takeWhile",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "src/takeWhile.ts",
+      "line": 2
+    }
+  ],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "takeWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "IterableContainer"
+        },
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => item is S"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 1
+    },
+    {
+      "name": "takeWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "IterableContainer"
+        },
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "T[number][]"
+        }
+      ],
+      "line": 2
+    }
+  ]
+}
+```

@@ -1,0 +1,259 @@
+{
+  "definitions": [
+    "clone",
+    "cloneImplementation",
+    "deepCloneObject",
+    "deepCloneArray"
+  ],
+  "references": [
+    {
+      "name": "purry",
+      "source": "./purry",
+      "alias": null
+    }
+  ],
+  "calls": [
+    {
+      "caller": "clone",
+      "callee_text": "purry",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./purry",
+      "line": 41
+    },
+    {
+      "caller": "cloneImplementation",
+      "callee_text": "structuredClone",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 54
+    },
+    {
+      "caller": "cloneImplementation",
+      "callee_text": "getPrototypeOf",
+      "kind": "static",
+      "receiver": "Object",
+      "receiver_type_hint": "Object",
+      "callee_file_hint": "external",
+      "line": 58
+    },
+    {
+      "caller": "cloneImplementation",
+      "callee_text": "isArray",
+      "kind": "static",
+      "receiver": "Array",
+      "receiver_type_hint": "Array",
+      "callee_file_hint": "external",
+      "line": 60
+    },
+    {
+      "caller": "cloneImplementation",
+      "callee_text": "structuredClone",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 70
+    },
+    {
+      "caller": "cloneImplementation",
+      "callee_text": "indexOf",
+      "kind": "method",
+      "receiver": "refFrom",
+      "receiver_type_hint": "Array",
+      "callee_file_hint": "external",
+      "line": 76
+    },
+    {
+      "caller": "cloneImplementation",
+      "callee_text": "push",
+      "kind": "method",
+      "receiver": "refFrom",
+      "receiver_type_hint": "Array",
+      "callee_file_hint": "external",
+      "line": 82
+    },
+    {
+      "caller": "cloneImplementation",
+      "callee_text": "isArray",
+      "kind": "static",
+      "receiver": "Array",
+      "receiver_type_hint": "Array",
+      "callee_file_hint": "external",
+      "line": 83
+    },
+    {
+      "caller": "cloneImplementation",
+      "callee_text": "deepCloneArray",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 84
+    },
+    {
+      "caller": "cloneImplementation",
+      "callee_text": "deepCloneObject",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 85
+    },
+    {
+      "caller": "deepCloneObject",
+      "callee_text": "push",
+      "kind": "method",
+      "receiver": "refTo",
+      "receiver_type_hint": "Array",
+      "callee_file_hint": "external",
+      "line": 97
+    },
+    {
+      "caller": "deepCloneObject",
+      "callee_text": "entries",
+      "kind": "static",
+      "receiver": "Object",
+      "receiver_type_hint": "Object",
+      "callee_file_hint": "external",
+      "line": 99
+    },
+    {
+      "caller": "deepCloneObject",
+      "callee_text": "cloneImplementation",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 100
+    },
+    {
+      "caller": "deepCloneArray",
+      "callee_text": "push",
+      "kind": "method",
+      "receiver": "refTo",
+      "receiver_type_hint": "Array",
+      "callee_file_hint": "external",
+      "line": 114
+    },
+    {
+      "caller": "deepCloneArray",
+      "callee_text": "entries",
+      "kind": "method",
+      "receiver": "value",
+      "receiver_type_hint": "Array",
+      "callee_file_hint": "external",
+      "line": 116
+    },
+    {
+      "caller": "deepCloneArray",
+      "callee_text": "cloneImplementation",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 117
+    }
+  ],
+  "type_assignments": [
+    {
+      "scope": "cloneImplementation",
+      "var": "prototype",
+      "type": null,
+      "type_module": null,
+      "from_call": "getPrototypeOf"
+    },
+    {
+      "scope": "cloneImplementation",
+      "var": "idx",
+      "type": null,
+      "type_module": null,
+      "from_call": "indexOf"
+    }
+  ],
+  "definitions_rich": [
+    {
+      "name": "clone",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "args",
+          "type": "readonly unknown[]"
+        }
+      ],
+      "returns": "unknown",
+      "line": 40
+    },
+    {
+      "name": "cloneImplementation",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "value",
+          "type": "T"
+        },
+        {
+          "name": "refFrom",
+          "type": "unknown[]"
+        },
+        {
+          "name": "refTo",
+          "type": "unknown[]"
+        }
+      ],
+      "returns": "T",
+      "line": 44
+    },
+    {
+      "name": "deepCloneObject",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "value",
+          "type": "T"
+        },
+        {
+          "name": "refFrom",
+          "type": "unknown[]"
+        },
+        {
+          "name": "refTo",
+          "type": "unknown[]"
+        }
+      ],
+      "returns": "T",
+      "line": 88
+    },
+    {
+      "name": "deepCloneArray",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "value",
+          "type": "T"
+        },
+        {
+          "name": "refFrom",
+          "type": "unknown[]"
+        },
+        {
+          "name": "refTo",
+          "type": "unknown[]"
+        }
+      ],
+      "returns": "T",
+      "line": 106
+    }
+  ]
+}

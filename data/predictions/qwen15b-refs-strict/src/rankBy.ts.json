@@ -1,0 +1,5 @@
+{"callable_refs": [
+  {"caller": "rankBy", "callee_text": "rankByImplementation"},
+  {"caller": "rankBy", "callee_text": "compareFn"},
+  {"caller": "rankBy", "callee_text": "targetItem"}
+]}

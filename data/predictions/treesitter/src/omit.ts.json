@@ -1,0 +1,34 @@
+{
+  "relative_path": "src/omit.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "omit",
+      "callee_text": "purry",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./purry",
+      "line": 128
+    },
+    {
+      "caller": "omitImplementation",
+      "callee_text": "hasAtLeast",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./hasAtLeast",
+      "line": 135
+    },
+    {
+      "caller": "omitImplementation",
+      "callee_text": "hasAtLeast",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./hasAtLeast",
+      "line": 143
+    }
+  ],
+  "callable_refs": []
+}

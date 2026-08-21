@@ -1,0 +1,13 @@
+{
+  "key": "7bb89bf540a0790530b87ab5caeb26953812c951b0d21a2cd258c51b7b06e396",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "refs-v1-7386a79c1ab2+json",
+  "file_sha": "c17c00842721c8afaa489f89573e6f05c3f5367d87204b1854ae3322bef6a19a",
+  "relative_path": "src/forEach.ts",
+  "response": "{\"callable_refs\": [{\"caller\": \"forEach\", \"callee_text\": \"forEachImplementation\"}, {\"caller\": \"forEach\", \"callee_text\": \"lazyImplementation\"}]}",
+  "created": "2026-08-08T23:20:38+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1066,
+  "completion_tokens": 34
+}

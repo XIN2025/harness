@@ -1,0 +1,13 @@
+{
+  "key": "87e79671cc8c1d46fe94accf76d3f96cfdc54ba48b9397d59bd7bf2e61aef82b",
+  "model": "harness-qwen15b",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "2e7a2f9c951b691ea686f1bf22cb08464355e45131b3b7227caf35f588bc61b7",
+  "relative_path": "src/takeWhile.ts",
+  "response": "```json\n{\n  \"definitions\": [\"takeWhile\", \"purry\", \"pipe\"],\n  \"references\": [\n    {\"name\": \"IterableContainer\", \"source\": \"./internal/types/IterableContainer\"},\n    {\"name\": \"purry\", \"source\": \"./purry\"},\n    {\"name\": \"pipe\", \"source\": \"./pipe\"}\n  ],\n  \"calls\": [\n    {\"caller\": \"takeWhile\", \"callee_text\": \"pipe\", \"kind\": \"hook\",\n     \"receiver\": null, \"receiver_type_hint\": null, \"callee_file_hint\": \"external\", \"line\": 10},\n    {\"caller\": \"takeWhile\", \"callee_text\": \"purry\", \"kind\": \"hook\",\n     \"receiver\": null, \"receiver_type_hint\": null, \"callee_file_hint\": \"external\", \"line\": 9}\n  ],\n  \"type_assignments\": [\n    {\"scope\": \"module\", \"var\": \"IterableContainer\", \"type\": \"IterableContainer\", \"type_module\": \"./internal/types/IterableContainer\"},\n    {\"scope\": \"module\", \"var\": \"purry\", \"type\": \"Function\", \"type_module\": \"./purry\"},\n    {\"scope\": \"module\", \"var\": \"pipe\", \"type\": \"Function\", \"type_module\": \"./pipe\"}\n  ],\n  \"definitions_rich\": [\n    {\"name\": \"takeWhile\", \"kind\": \"function\", \"parent\": null, \"bases\": [], \"params\": [{\"name\": \"data\", \"type\": \"IterableContainer\"}, {\"name\": \"predicate\", \"type\": \"(item: T[number], index: number, data: T) => boolean\"}], \"returns\": \"T[number][]\", \"line\": 1},\n    {\"name\": \"purry\", \"kind\": \"function\", \"parent\": null, \"bases\": [], \"params\": [{\"name\": \"fn\", \"type\": \"Function\"}, {\"name\": \"arity\", \"type\": \"number\"}], \"returns\": \"Function\", \"line\": 2},\n    {\"name\": \"pipe\", \"kind\": \"function\", \"parent\": null, \"bases\": [], \"params\": [{\"name\": \"fns\", \"type\": \"readonly Function[]\"}], \"returns\": \"Function\", \"line\": 3}\n  ]\n}\n```",
+  "created": "2026-08-08T20:28:29+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 8534,
+  "completion_tokens": 480
+}

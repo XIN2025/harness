@@ -1,0 +1,13 @@
+{
+  "key": "cfc98c69ba1b0e695c86f7476aa278870cb4d33a780b50ebae6194efb4c6b9bf",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "cb9aa4755f228d3b9df2086a67fa44b083b4e125a281fe6f55fbf2f5c7674a01",
+  "relative_path": "src/isPlainObject.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"isPlainObject\", \"callee_text\": \"__module__\"},\n  {\"caller\": \"isPlainObject\", \"callee_text\": \"typeof\"},\n  {\"caller\": \"isPlainObject\", \"callee_text\": \"data\"},\n  {\"caller\": \"isPlainObject\", \"callee_text\": \"getPrototypeOf\"},\n  {\"caller\": \"isPlainObject\", \"callee_text\": \"Object\"},\n  {\"caller\": \"isPlainObject\", \"callee_text\": \"typeof\"},\n  {\"caller\": \"isPlainObject\", \"callee_text\": \"data\"},\n  {\"caller\": \"isPlainObject\", \"callee_text\": \"__module__\"}\n]}",
+  "created": "2026-08-08T23:02:49+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 855,
+  "completion_tokens": 137
+}

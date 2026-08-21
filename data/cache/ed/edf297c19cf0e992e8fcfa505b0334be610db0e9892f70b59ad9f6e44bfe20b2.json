@@ -1,0 +1,13 @@
+{
+  "key": "edf297c19cf0e992e8fcfa505b0334be610db0e9892f70b59ad9f6e44bfe20b2",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "refs-strict-v1-ca2cfcfbecef+json",
+  "file_sha": "e5a9c8abf6191c6292f80144f4afb58bb85b34b084029bfbf33531436802d069",
+  "relative_path": "src/product.ts",
+  "response": "{\"callable_refs\": [\n  {\"caller\": \"product\", \"callee_text\": \"productImplementation\"},\n  {\"caller\": \"product\", \"callee_text\": \"purry\"}\n]}",
+  "created": "2026-08-09T06:05:20+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1266,
+  "completion_tokens": 38
+}

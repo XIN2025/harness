@@ -1,0 +1,277 @@
+{
+  "relative_path": "pipes/parse-array.pipe.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "__module__",
+      "callee_text": "Injectable",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../decorators/core/injectable.decorator",
+      "line": 56
+    },
+    {
+      "caller": "ParseArrayPipe.constructor",
+      "callee_text": "Optional",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../decorators/core/optional.decorator",
+      "line": 62
+    },
+    {
+      "caller": "ParseArrayPipe.constructor",
+      "callee_text": "ValidationPipe",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./validation.pipe",
+      "line": 64
+    },
+    {
+      "caller": "ParseArrayPipe.transform",
+      "callee_text": "exceptionFactory",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 86
+    },
+    {
+      "caller": "ParseArrayPipe.transform",
+      "callee_text": "isNil",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../utils/shared.utils",
+      "line": 87
+    },
+    {
+      "caller": "ParseArrayPipe.transform",
+      "callee_text": "isArray",
+      "kind": "static",
+      "receiver": "Array",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 91
+    },
+    {
+      "caller": "ParseArrayPipe.transform",
+      "callee_text": "isString",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../utils/shared.utils",
+      "line": 92
+    },
+    {
+      "caller": "ParseArrayPipe.transform",
+      "callee_text": "exceptionFactory",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 93
+    },
+    {
+      "caller": "ParseArrayPipe.transform",
+      "callee_text": "split",
+      "kind": "method",
+      "receiver": "value\n            .trim()",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 96
+    },
+    {
+      "caller": "ParseArrayPipe.transform",
+      "callee_text": "trim",
+      "kind": "method",
+      "receiver": "value",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 96
+    },
+    {
+      "caller": "ParseArrayPipe.transform",
+      "callee_text": "exceptionFactory",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 100
+    },
+    {
+      "caller": "ParseArrayPipe.transform",
+      "callee_text": "isExpectedTypePrimitive",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 110
+    },
+    {
+      "caller": "ParseArrayPipe.transform",
+      "callee_text": "parse",
+      "kind": "static",
+      "receiver": "JSON",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 114
+    },
+    {
+      "caller": "ParseArrayPipe.transform",
+      "callee_text": "validatePrimitive",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 120
+    },
+    {
+      "caller": "ParseArrayPipe.transform",
+      "callee_text": "transform",
+      "kind": "this",
+      "receiver": "this.validationPipe",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 122
+    },
+    {
+      "caller": "ParseArrayPipe.transform",
+      "callee_text": "toClassInstance",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 132
+    },
+    {
+      "caller": "ParseArrayPipe.transform",
+      "callee_text": "getResponse",
+      "kind": "method",
+      "receiver": "err",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 136
+    },
+    {
+      "caller": "ParseArrayPipe.transform",
+      "callee_text": "isArray",
+      "kind": "static",
+      "receiver": "Array",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 137
+    },
+    {
+      "caller": "ParseArrayPipe.transform",
+      "callee_text": "map",
+      "kind": "method",
+      "receiver": "response.message",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 138
+    },
+    {
+      "caller": "ParseArrayPipe.transform",
+      "callee_text": "concat",
+      "kind": "method",
+      "receiver": "errors",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 147
+    },
+    {
+      "caller": "ParseArrayPipe.transform",
+      "callee_text": "exceptionFactory",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 151
+    },
+    {
+      "caller": "ParseArrayPipe.transform",
+      "callee_text": "all",
+      "kind": "static",
+      "receiver": "Promise",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 155
+    },
+    {
+      "caller": "ParseArrayPipe.transform",
+      "callee_text": "map",
+      "kind": "method",
+      "receiver": "value",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 155
+    },
+    {
+      "caller": "ParseArrayPipe.isExpectedTypePrimitive",
+      "callee_text": "includes",
+      "kind": "method",
+      "receiver": "[Boolean, Number, String]",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 162
+    },
+    {
+      "caller": "ParseArrayPipe.validatePrimitive",
+      "callee_text": "isNaN",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 169
+    },
+    {
+      "caller": "ParseArrayPipe.validatePrimitive",
+      "callee_text": "exceptionFactory",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 170
+    },
+    {
+      "caller": "ParseArrayPipe.validatePrimitive",
+      "callee_text": "isUndefined",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../utils/shared.utils",
+      "line": 171
+    },
+    {
+      "caller": "ParseArrayPipe.validatePrimitive",
+      "callee_text": "isString",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../utils/shared.utils",
+      "line": 176
+    },
+    {
+      "caller": "ParseArrayPipe.validatePrimitive",
+      "callee_text": "exceptionFactory",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 181
+    },
+    {
+      "caller": "ParseArrayPipe.validatePrimitive",
+      "callee_text": "isUndefined",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../utils/shared.utils",
+      "line": 183
+    }
+  ],
+  "callable_refs": []
+}

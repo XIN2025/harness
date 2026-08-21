@@ -1,0 +1,6 @@
+{"callable_refs": [
+  {"caller": "pullObject", "callee_text": "pullObjectImplementation"},
+  {"caller": "pullObjectImplementation", "callee_text": "data.entries"},
+  {"caller": "pullObjectImplementation", "callee_text": "keyExtractor"},
+  {"caller": "pullObjectImplementation", "callee_text": "valueExtractor"}
+]}

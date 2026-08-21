@@ -1,0 +1,52 @@
+{
+  "relative_path": "lib/extend/processor.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "Processor.register",
+      "callee_text": "TypeError",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 38
+    },
+    {
+      "caller": "Processor.register",
+      "callee_text": "promisify",
+      "kind": "static",
+      "receiver": "Promise",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 43
+    },
+    {
+      "caller": "Processor.register",
+      "callee_text": "method",
+      "kind": "static",
+      "receiver": "Promise",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 45
+    },
+    {
+      "caller": "Processor.register",
+      "callee_text": "push",
+      "kind": "this",
+      "receiver": "this.store",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 48
+    },
+    {
+      "caller": "Processor.register",
+      "callee_text": "Pattern",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-util",
+      "line": 49
+    }
+  ],
+  "callable_refs": []
+}

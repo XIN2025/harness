@@ -1,0 +1,19 @@
+```json
+{
+  "definitions": ["indexBy", "BoundedPartial", "purry"],
+  "references": [
+    {"name": "indexBy", "source": "./src/indexBy.ts"},
+    {"name": "BoundedPartial", "source": "./src/internal/types/BoundedPartial.ts"},
+    {"name": "purry", "source": "./src/purry.ts"}
+  ],
+  "calls": [],
+  "type_assignments": [
+    {"scope": "module", "var": "indexByImplementation", "type": "function", "type_module": "src/indexBy.ts"}
+  ],
+  "definitions_rich": [
+    {"name": "indexBy", "kind": "function", "parent": null, "bases": [], "params": [{"name": "data", "type": "readonly T[]"}, {"name": "mapper", "type": "(item: T, index: number, data: readonly T[]) => K"}], "returns": "BoundedPartial<Record<K, T>>"},
+    {"name": "BoundedPartial", "kind": "interface", "parent": null, "bases": [], "params": [], "returns": null},
+    {"name": "purry", "kind": "function", "parent": null, "bases": [], "params": [{"name": "fn", "type": "(...args: unknown[]) => unknown"}], "returns": "unknown"}
+  ]
+}
+```

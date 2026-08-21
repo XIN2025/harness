@@ -1,0 +1,146 @@
+```json
+{
+  "definitions": [
+    "Sampled",
+    "FixedSubTuples",
+    "Combinations",
+    "IsLongerThan",
+    "SubSampled",
+    "sample"
+  ],
+  "references": [],
+  "calls": [
+    {
+      "caller": "__module__",
+      "callee_text": "sampleImplementation",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "src/sample.ts",
+      "line": 10
+    }
+  ],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "Sampled",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "kind": "param",
+          "type": "readonly T[]"
+        },
+        {
+          "name": "sampleSize",
+          "kind": "param",
+          "type": "N extends number"
+        }
+      ],
+      "returns": "Sampled<T, N>"
+    },
+    {
+      "name": "FixedSubTuples",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "T",
+          "kind": "param",
+          "type": "IterableContainer"
+        }
+      ],
+      "returns": "FixedSubTuples<T>"
+    },
+    {
+      "name": "Combinations",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "T",
+          "kind": "param",
+          "type": "IterableContainer"
+        },
+        {
+          "name": "N",
+          "kind": "param",
+          "type": "number"
+        }
+      ],
+      "returns": "Combinations<T, N>"
+    },
+    {
+      "name": "IsLongerThan",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "T extends readonly unknown[]",
+          "kind": "param",
+          "type": "readonly unknown[]"
+        },
+        {
+          "name": "N extends number",
+          "kind": "param",
+          "type": "number"
+        }
+      ],
+      "returns": "IsLongerThan<T, N>"
+    },
+    {
+      "name": "SubSampled",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "Prefix extends readonly unknown[]",
+          "kind": "param",
+          "type": "readonly unknown[]"
+        },
+        {
+          "name": "Item",
+          "kind": "param",
+          "type": "unknown"
+        },
+        {
+          "name": "Suffix extends readonly unknown[]",
+          "kind": "param",
+          "type": "readonly unknown[]"
+        },
+        {
+          "name": "N extends number",
+          "kind": "param",
+          "type": "number"
+        }
+      ],
+      "returns": "SubSampled<Prefix, Item, Suffix, N>"
+    },
+    {
+      "name": "sample",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "data: readonly T[]",
+          "kind": "param",
+          "type": "readonly T[]"
+        },
+        {
+          "name": "sampleSize: N extends number",
+          "kind": "param",
+          "type": "N extends number"
+        }
+      ],
+      "returns": "Sampled<T, N>"
+    }
+  ]
+}
+```

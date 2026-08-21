@@ -1,0 +1,4 @@
+{"calls": [
+  {"caller": "rankBy", "callee_text": "purryOrderRulesWithArgument"},
+  {"caller": "rankByImplementation", "callee_text": "compareFn"}
+]}

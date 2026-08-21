@@ -1,0 +1,18 @@
+```json
+{
+  "definitions": ["toKebabCase"],
+  "references": [
+    {"name": "type-fest", "source": "./node_modules/type-fest/dist/index.d.ts"},
+    {"name": "internal/words", "source": "./src/internal/words.ts"},
+    {"name": "purry", "source": "./src/purry.ts"}
+  ],
+  "calls": [
+    {"caller": "__module__", "callee_text": "toKebabCase", "kind": "free",
+     "receiver": null, "receiver_type_hint": null, "callee_file_hint": "external", "line": 1}
+  ],
+  "type_assignments": [],
+  "definitions_rich": [
+    {"name": "toKebabCase", "kind": "function", "parent": null, "bases": [], "params": [], "returns": "KebabCase<S>", "line": 2}
+  ]
+}
+```

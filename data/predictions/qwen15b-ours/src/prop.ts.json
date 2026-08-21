@@ -1,0 +1,101 @@
+```json
+{
+  "definitions": [
+    {
+      "name": "KeysDeep",
+      "kind": "function"
+    },
+    {
+      "name": "PropDeep",
+      "kind": "function"
+    },
+    {
+      "name": "Prop",
+      "kind": "function"
+    },
+    {
+      "name": "NonPropertyKey",
+      "kind": "type"
+    },
+    {
+      "name": "prop",
+      "kind": "function"
+    }
+  ],
+  "references": [
+    {
+      "name": "KeysOfUnion",
+      "source": "./internal/types/KeysOfUnion.ts",
+      "alias": null
+    },
+    {
+      "name": "ArrayAt",
+      "source": "./internal/types/ArrayAt.ts",
+      "alias": null
+    }
+  ],
+  "calls": [
+    {
+      "caller": "__module__",
+      "callee_text": "prop",
+      "kind": "method",
+      "receiver": "__module__",
+      "receiver_type_hint": null,
+      "callee_file_hint": "./src/prop.ts",
+      "line": 10
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "prop",
+      "kind": "method",
+      "receiver": "__module__",
+      "receiver_type_hint": null,
+      "callee_file_hint": "./src/prop.ts",
+      "line": 24
+    }
+  ],
+  "type_assignments": [
+    {
+      "scope": "__global__",
+      "var": "KeysDeep",
+      "type": "function",
+      "type_module": "./internal/types/KeysOfUnion.ts",
+      "from_call": false
+    },
+    {
+      "scope": "__global__",
+      "var": "PropDeep",
+      "type": "function",
+      "type_module": "./internal/types/KeysOfUnion.ts",
+      "from_call": false
+    },
+    {
+      "scope": "__global__",
+      "var": "Prop",
+      "type": "function",
+      "type_module": "./internal/types/KeysOfUnion.ts",
+      "from_call": false
+    }
+  ],
+  "definitions_rich": [
+    {
+      "name": "prop",
+      "kind": "function",
+      "parent": "__global__",
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "NonPropertyKey"
+        },
+        {
+          "name": "key",
+          "type": "KeysDeep<NonPropertyKey, []>"
+        }
+      ],
+      "returns": "NoInfer<Prop<NonPropertyKey, KeysDeep<NonPropertyKey, []>>>",
+      "line": 10
+    }
+  ]
+}
+```

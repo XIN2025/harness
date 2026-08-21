@@ -1,0 +1,30 @@
+```json
+{
+  "definitions": [
+    {
+      "name": "KebabCase",
+      "kind": "function"
+    },
+    {
+      "name": "toKebabCase",
+      "kind": "function"
+    }
+  ],
+  "references": [],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "toKebabCase",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [],
+      "returns": {
+        "type": "string"
+      },
+      "line": 1
+    }
+  ]
+}
+```

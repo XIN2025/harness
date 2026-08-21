@@ -1,0 +1,34 @@
+{
+  "relative_path": "exceptions/http-version-not-supported.exception.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "HttpVersionNotSupportedException.constructor",
+      "callee_text": "extractDescriptionAndOptionsFrom",
+      "kind": "static",
+      "receiver": "HttpException",
+      "receiver_type_hint": null,
+      "callee_file_hint": "./http.exception",
+      "line": 43
+    },
+    {
+      "caller": "HttpVersionNotSupportedException.constructor",
+      "callee_text": "super",
+      "kind": "super",
+      "receiver": "super",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 45
+    },
+    {
+      "caller": "HttpVersionNotSupportedException.constructor",
+      "callee_text": "createBody",
+      "kind": "static",
+      "receiver": "HttpException",
+      "receiver_type_hint": null,
+      "callee_file_hint": "./http.exception",
+      "line": 46
+    }
+  ],
+  "callable_refs": []
+}

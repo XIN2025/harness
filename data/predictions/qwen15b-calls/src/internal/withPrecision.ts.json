@@ -1,0 +1,7 @@
+{"calls": [
+  {"caller": "withPrecision", "callee_text": "roundingFn"},
+  {"caller": "withPrecision", "callee_text": "value"},
+  {"caller": "withPrecision", "callee_text": "precision"},
+  {"caller": "shiftDecimalPoint", "callee_text": "value"},
+  {"caller": "shiftDecimalPoint", "callee_text": "shift"}
+]}

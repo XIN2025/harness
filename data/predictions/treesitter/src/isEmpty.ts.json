@@ -1,0 +1,25 @@
+{
+  "relative_path": "src/isEmpty.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "isEmpty",
+      "callee_text": "isArray",
+      "kind": "static",
+      "receiver": "Array",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 60
+    },
+    {
+      "caller": "isEmpty",
+      "callee_text": "keys",
+      "kind": "static",
+      "receiver": "Object",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 64
+    }
+  ],
+  "callable_refs": []
+}

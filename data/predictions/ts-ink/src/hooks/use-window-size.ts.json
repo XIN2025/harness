@@ -1,0 +1,79 @@
+{
+  "relative_path": "src/hooks/use-window-size.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "useWindowSize",
+      "callee_text": "useStdout",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./use-stdout.js",
+      "line": 24
+    },
+    {
+      "caller": "useWindowSize",
+      "callee_text": "useState",
+      "kind": "hook",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "react",
+      "line": 25
+    },
+    {
+      "caller": "useWindowSize",
+      "callee_text": "getWindowSize",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../utils.js",
+      "line": 25
+    },
+    {
+      "caller": "useWindowSize",
+      "callee_text": "useEffect",
+      "kind": "hook",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "react",
+      "line": 27
+    },
+    {
+      "caller": "useWindowSize",
+      "callee_text": "setSize",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 29
+    },
+    {
+      "caller": "useWindowSize",
+      "callee_text": "getWindowSize",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../utils.js",
+      "line": 29
+    },
+    {
+      "caller": "useWindowSize",
+      "callee_text": "on",
+      "kind": "method",
+      "receiver": "stdout",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 32
+    },
+    {
+      "caller": "useWindowSize",
+      "callee_text": "off",
+      "kind": "method",
+      "receiver": "stdout",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 35
+    }
+  ],
+  "callable_refs": []
+}

@@ -1,0 +1,97 @@
+{
+  "relative_path": "src/render.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "render",
+      "callee_text": "getOptions",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 214
+    },
+    {
+      "caller": "render",
+      "callee_text": "getInstance",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 217
+    },
+    {
+      "caller": "render",
+      "callee_text": "Ink",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./ink.js",
+      "line": 219
+    },
+    {
+      "caller": "render",
+      "callee_text": "render",
+      "kind": "method",
+      "receiver": "instance",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 221
+    },
+    {
+      "caller": "render",
+      "callee_text": "unmount",
+      "kind": "method",
+      "receiver": "instance",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 226
+    },
+    {
+      "caller": "render",
+      "callee_text": "unmount",
+      "kind": "method",
+      "receiver": "instance",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 231
+    },
+    {
+      "caller": "getInstance",
+      "callee_text": "get",
+      "kind": "method",
+      "receiver": "instances",
+      "receiver_type_hint": null,
+      "callee_file_hint": "./instances.js",
+      "line": 256
+    },
+    {
+      "caller": "getInstance",
+      "callee_text": "createInstance",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 259
+    },
+    {
+      "caller": "getInstance",
+      "callee_text": "set",
+      "kind": "method",
+      "receiver": "instances",
+      "receiver_type_hint": null,
+      "callee_file_hint": "./instances.js",
+      "line": 260
+    },
+    {
+      "caller": "getInstance",
+      "callee_text": "write",
+      "kind": "method",
+      "receiver": "process.stderr",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 269
+    }
+  ],
+  "callable_refs": []
+}

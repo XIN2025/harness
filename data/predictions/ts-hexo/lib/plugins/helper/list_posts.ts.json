@@ -1,0 +1,88 @@
+{
+  "relative_path": "lib/plugins/helper/list_posts.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "listPostsHelper",
+      "callee_text": "call",
+      "kind": "method",
+      "receiver": "Object.prototype.hasOwnProperty",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 16
+    },
+    {
+      "caller": "listPostsHelper",
+      "callee_text": "sort",
+      "kind": "method",
+      "receiver": "posts",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 32
+    },
+    {
+      "caller": "listPostsHelper",
+      "callee_text": "limit",
+      "kind": "method",
+      "receiver": "posts",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 35
+    },
+    {
+      "caller": "listPostsHelper",
+      "callee_text": "forEach",
+      "kind": "method",
+      "receiver": "posts",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 42
+    },
+    {
+      "caller": "listPostsHelper",
+      "callee_text": "call",
+      "kind": "method",
+      "receiver": "url_for",
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-util",
+      "line": 47
+    },
+    {
+      "caller": "listPostsHelper",
+      "callee_text": "transform",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 48
+    },
+    {
+      "caller": "listPostsHelper",
+      "callee_text": "forEach",
+      "kind": "method",
+      "receiver": "posts",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 56
+    },
+    {
+      "caller": "listPostsHelper",
+      "callee_text": "call",
+      "kind": "method",
+      "receiver": "url_for",
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-util",
+      "line": 61
+    },
+    {
+      "caller": "listPostsHelper",
+      "callee_text": "transform",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 62
+    }
+  ],
+  "callable_refs": []
+}

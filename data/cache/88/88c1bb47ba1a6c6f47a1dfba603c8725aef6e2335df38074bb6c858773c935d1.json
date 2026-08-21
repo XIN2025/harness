@@ -1,0 +1,13 @@
+{
+  "key": "88c1bb47ba1a6c6f47a1dfba603c8725aef6e2335df38074bb6c858773c935d1",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "7bafff714c3541b8dce19c4579f7f80b753e64c6077a911cce10e78979eb7bae",
+  "relative_path": "src/dropFirstBy.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"dropFirstBy\", \"callee_text\": \"purryOrderRulesWithArgument\"},\n  {\"caller\": \"dropFirstByImplementation\", \"callee_text\": \"slice\"},\n  {\"caller\": \"dropFirstByImplementation\", \"callee_text\": \"filter\"},\n  {\"caller\": \"dropFirstByImplementation\", \"callee_text\": \"sort\"},\n  {\"caller\": \"dropFirstByImplementation\", \"callee_text\": \"reduce\"},\n  {\"caller\": \"dropFirstByImplementation\", \"callee_text\": \"heapify\"},\n  {\"caller\": \"dropFirstByImplementation\", \"callee_text\": \"heapMaybeInsert\"},\n  {\"caller\": \"dropFirstByImplementation\", \"callee_text\": \"push\"}\n]}",
+  "created": "2026-08-08T22:52:23+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1294,
+  "completion_tokens": 149
+}

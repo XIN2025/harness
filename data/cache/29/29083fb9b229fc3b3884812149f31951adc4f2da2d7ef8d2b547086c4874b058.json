@@ -1,0 +1,13 @@
+{
+  "key": "29083fb9b229fc3b3884812149f31951adc4f2da2d7ef8d2b547086c4874b058",
+  "model": "harness-qwen15b",
+  "prompt_version": "ours-v1-5c74cf9a927a",
+  "file_sha": "2088617adbf29c12e440220b243cb79e58a1fa80c5c6d2629b72c7e7128186af",
+  "relative_path": "src/internal/words.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    {\n      \"name\": \"WHITESPACE\",\n      \"kind\": \"constant\"\n    },\n    {\n      \"name\": \"WORD_SEPARATORS\",\n      \"kind\": \"constant\"\n    }\n  ],\n  \"references\": [],\n  \"calls\": [],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"words\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"data\",\n          \"kind\": \"parameter\"\n        }\n      ],\n      \"returns\": {\n        \"type\": \"Words<S>\",\n        \"type_module\": \"type-fest\",\n        \"from_call\": true\n      },\n      \"line\": 15\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:37:15+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1016,
+  "completion_tokens": 177
+}

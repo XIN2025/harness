@@ -1,0 +1,13 @@
+{
+  "key": "7b51ae3976191a9e51a1d623aab9f1a7a3e2fd0b753f3ed9abc80514665e726e",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "refs-strict-v1-ca2cfcfbecef+json",
+  "file_sha": "7b09cbc083fdb6ae73fe013b645624ab8c37d26b367ed64567d6f1cdbdab279e",
+  "relative_path": "src/dropLastWhile.ts",
+  "response": "{\"calls\": [], \"callable_refs\": [{\"caller\": \"dropLastWhile\", \"callee_text\": \"dropLastWhileImplementation\"}, {\"caller\": \"dropLastWhile\", \"callee_text\": \"purry\"}, {\"caller\": \"dropLastWhile\", \"callee_text\": \"slice\"}, {\"caller\": \"dropLastWhile\", \"callee_text\": \"map\"}, {\"caller\": \"dropLastWhile\", \"callee_text\": \"for\"}, {\"caller\": \"dropLastWhileImplementation\", \"callee_text\": \"predicate\"}, {\"caller\": \"dropLastWhileImplementation\", \"callee_text\": \"data\"}, {\"caller\": \"dropLastWhileImplementation\", \"callee_text\": \"i\"}, {\"caller\": \"dropLastWhileImplementation\", \"callee_text\": \"data.length\"}, {\"caller\": \"dropLastWhileImplementation\", \"callee_text\": \"i >= 0\"}]}",
+  "created": "2026-08-09T06:00:05+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1052,
+  "completion_tokens": 173
+}

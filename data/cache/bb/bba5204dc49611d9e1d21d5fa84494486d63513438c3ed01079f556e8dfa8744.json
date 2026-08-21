@@ -1,0 +1,13 @@
+{
+  "key": "bba5204dc49611d9e1d21d5fa84494486d63513438c3ed01079f556e8dfa8744",
+  "model": "harness-qwen15b",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "b7d2300155642471c1e50273792670c26a717dccf0fcc0b2584735289ccb8d62",
+  "relative_path": "src/times.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"times\", \"callee_text\": \"purry\"},\n  {\"caller\": \"timesImplementation\", \"callee_text\": \"Number.isInteger\"},\n  {\"caller\": \"timesImplementation\", \"callee_text\": \"Math.floor\"},\n  {\"caller\": \"timesImplementation\", \"callee_text\": \"new Array\"},\n  {\"caller\": \"timesImplementation\", \"callee_text\": \"fn\"}\n]}",
+  "created": "2026-08-08T22:23:50+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1337,
+  "completion_tokens": 85
+}

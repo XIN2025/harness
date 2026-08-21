@@ -1,0 +1,4 @@
+{"callable_refs": [
+  {"caller": "sortedIndexBy", "callee_text": "sortedIndexByImplementation"},
+  {"caller": "sortedIndexByImplementation", "callee_text": "binarySearchCutoffIndex"}
+]}

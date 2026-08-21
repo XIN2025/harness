@@ -1,0 +1,13 @@
+{
+  "key": "5a11573a29be303f6df74a85ec8cba6d263ae7e3da3fa341982b8418e8bc2963",
+  "model": "harness-qwen15b",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "90177693fd890d54e8a171f69eedb19bc0e4460c2fc745195cff5274fcba097d",
+  "relative_path": "src/hasProp.ts",
+  "response": "```json\n{\n  \"definitions\": [\"hasProp\"],\n  \"references\": [\n    {\"name\": \"hasAtLeast\", \"source\": \"./src/internal/types/HasAtLeast\"},\n    {\"name\": \"isArray\", \"source\": \"./src/internal/types/IsArray\"},\n    {\"name\": \"pipe\", \"source\": \"./src/utils/pipe\"},\n    {\"name\": \"filter\", \"source\": \"./src/utils/filter\"}\n  ],\n  \"calls\": [\n    {\"caller\": \"hasProp\", \"callee_text\": \"Object.hasOwn\", \"kind\": \"method\",\n     \"receiver\": \"data\", \"receiver_type_hint\": null, \"callee_file_hint\": \"external\", \"line\": 1},\n    {\"caller\": \"hasAtLeast\", \"callee_text\": \"pipe\", \"kind\": \"hook\",\n     \"receiver\": null, \"receiver_type_hint\": null, \"callee_file_hint\": \"src/utils/pipe\", \"line\": 2}\n  ],\n  \"type_assignments\": [\n    {\"scope\": \"module\", \"var\": \"hasAtLeast\", \"type\": \"Function\", \"type_module\": \"./src/internal/types/HasAtLeast\"},\n    {\"scope\": \"module\", \"var\": \"isArray\", \"type\": \"Function\", \"type_module\": \"./src/internal/types/IsArray\"},\n    {\"scope\": \"module\", \"var\": \"pipe\", \"type\": \"Function\", \"type_module\": \"./src/utils/pipe\"}\n  ],\n  \"definitions_rich\": [\n    {\"name\": \"hasAtLeast\", \"kind\": \"function\", \"parent\": null, \"bases\": [], \"params\": [{\"name\": \"key\", \"type\": \"KeysOfUnion<T>\"}], \"returns\": \"boolean\", \"line\": 1},\n    {\"name\": \"isArray\", \"kind\": \"function\", \"parent\": null, \"bases\": [], \"params\": [{\"name\": \"data\", \"type\": \"unknown\"}], \"returns\": \"boolean\", \"line\": 2},\n    {\"name\": \"pipe\", \"kind\": \"function\", \"parent\": null, \"bases\": [], \"params\": [{\"name\": \"fn1\", \"type\": \"Function\"}, {\"name\": \"fn2\", \"type\": \"Function\"}], \"returns\": \"unknown\", \"line\": 3}\n  ]\n}\n```",
+  "created": "2026-08-08T20:20:56+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 8935,
+  "completion_tokens": 484
+}

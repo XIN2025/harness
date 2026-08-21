@@ -1,0 +1,7 @@
+{
+  "calls": [],
+  "callable_refs": [
+    {"caller": "findIndex", "callee_text": "findIndexImplementation"},
+    {"caller": "findIndex", "callee_text": "predicate"}
+  ]
+}

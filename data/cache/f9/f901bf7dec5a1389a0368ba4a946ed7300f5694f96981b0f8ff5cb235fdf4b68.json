@@ -1,0 +1,13 @@
+{
+  "key": "f901bf7dec5a1389a0368ba4a946ed7300f5694f96981b0f8ff5cb235fdf4b68",
+  "model": "harness-llama32b",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "e59a5d47057e85033680a642a067bd2937f0966940092f4049482986dc041588",
+  "relative_path": "src/defaultTo.ts",
+  "response": "{\n  \"definitions\": [\"defaultTo\", \"fallback\"],\n  \"references\": [\n    {\"name\": \"IsEqual\", \"source\": \"type-fest\"},\n    {\"name\": \"NonNullable\", \"source\": \"type-fest\"},\n    {\"name\": \"RemedaTypeError\", \"source\": \"./internal/types/RemedaTypeError\"},\n    {\"name\": \"purry\", \"source\": \"./purry\"}\n  ],\n  \"calls\": [\n    {\"caller\": \"defaultTo\", \"callee_text\": \"??\", \"kind\": \"method\",\n     \"receiver\": null, \"receiver_type_hint\": null, \"callee_file_hint\": \"external\", \"line\": 1},\n    {\"caller\": \"defaultTo\", \"callee_text\": \"??\", \"kind\": \"free\",\n     \"receiver\": null, \"receiver_type_hint\": null, \"callee_file_hint\": \"external\", \"line\": 2}\n  ],\n  \"type_assignments\": [\n    {\"scope\": \"module\", \"var\": \"fallback\", \"type\": \"RemedaTypeError\", \"type_module\": \"./internal/types/RemedaTypeError\"}\n  ],\n  \"definitions_rich\": [\n    {\"name\": \"defaultTo\", \"kind\": \"function\", \"parent\": null, \"bases\": [],\n     \"params\": [{\"name\": \"data\", \"type\": \"T\"}, {\"name\": \"fallback\", \"type\": \"Fallback\"}],\n     \"returns\": \"NonNullable<T> | Fallback\",\n     \"line\": 1},\n    {\"name\": \"fallback\", \"kind\": \"constant\", \"parent\": null, \"bases\": [],\n     \"params\": [], \"returns\": null,\n     \"line\": 2}\n  ]\n}",
+  "created": "2026-08-08T21:15:48+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 8667,
+  "completion_tokens": 353
+}

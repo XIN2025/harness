@@ -1,0 +1,76 @@
+```json
+{
+  "definitions": [
+    "floor",
+    "withPrecision",
+    "purry"
+  ],
+  "references": [],
+  "calls": [
+    {
+      "caller": "__module__",
+      "callee_text": "Math.floor",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 1
+    }
+  ],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "floor",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "value",
+          "type": "number"
+        },
+        {
+          "name": "precision",
+          "type": "number"
+        }
+      ],
+      "returns": {
+        "type": "number"
+      },
+      "line": 1
+    },
+    {
+      "name": "withPrecision",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "function"
+        }
+      ],
+      "returns": {
+        "type": "number"
+      },
+      "line": 1
+    },
+    {
+      "name": "purry",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "function"
+        }
+      ],
+      "returns": {
+        "type": "number"
+      },
+      "line": 1
+    }
+  ]
+}
+```

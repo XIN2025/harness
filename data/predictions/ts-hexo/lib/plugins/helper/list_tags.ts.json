@@ -1,0 +1,169 @@
+{
+  "relative_path": "lib/plugins/helper/list_tags.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "listTagsHelper",
+      "callee_text": "call",
+      "kind": "method",
+      "receiver": "Object.prototype.hasOwnProperty",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 19
+    },
+    {
+      "caller": "listTagsHelper",
+      "callee_text": "call",
+      "kind": "method",
+      "receiver": "Object.prototype.hasOwnProperty",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 29
+    },
+    {
+      "caller": "listTagsHelper",
+      "callee_text": "call",
+      "kind": "method",
+      "receiver": "Object.prototype.hasOwnProperty",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 45
+    },
+    {
+      "caller": "listTagsHelper",
+      "callee_text": "sort",
+      "kind": "method",
+      "receiver": "tags",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 61
+    },
+    {
+      "caller": "listTagsHelper",
+      "callee_text": "limit",
+      "kind": "method",
+      "receiver": "tags",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 64
+    },
+    {
+      "caller": "listTagsHelper",
+      "callee_text": "forEach",
+      "kind": "method",
+      "receiver": "tags",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 69
+    },
+    {
+      "caller": "listTagsHelper",
+      "callee_text": "call",
+      "kind": "method",
+      "receiver": "url_for",
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-util",
+      "line": 72
+    },
+    {
+      "caller": "listTagsHelper",
+      "callee_text": "transform",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 73
+    },
+    {
+      "caller": "listTagsHelper",
+      "callee_text": "escapeHTML",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-util",
+      "line": 73
+    },
+    {
+      "caller": "listTagsHelper",
+      "callee_text": "forEach",
+      "kind": "method",
+      "receiver": "tags",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 85
+    },
+    {
+      "caller": "listTagsHelper",
+      "callee_text": "call",
+      "kind": "method",
+      "receiver": "url_for",
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-util",
+      "line": 88
+    },
+    {
+      "caller": "listTagsHelper",
+      "callee_text": "transform",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 90
+    },
+    {
+      "caller": "listTagsHelper",
+      "callee_text": "transform",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 92
+    },
+    {
+      "caller": "listTagsHelperFactory",
+      "callee_text": "call",
+      "kind": "method",
+      "receiver": "Object.prototype.hasOwnProperty",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 108
+    },
+    {
+      "caller": "listTagsHelperFactory",
+      "callee_text": "toArray",
+      "kind": "method",
+      "receiver": "tags",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 114
+    },
+    {
+      "caller": "listTagsHelperFactory",
+      "callee_text": "call",
+      "kind": "method",
+      "receiver": "moize(listTagsHelper.bind(this), {\n    maxSize: 5,\n    isDeepEqual: true,\n    transformArgs\n  })",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 117
+    },
+    {
+      "caller": "listTagsHelperFactory",
+      "callee_text": "moize",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "moize",
+      "line": 117
+    },
+    {
+      "caller": "listTagsHelperFactory",
+      "callee_text": "bind",
+      "kind": "method",
+      "receiver": "listTagsHelper",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 117
+    }
+  ],
+  "callable_refs": []
+}

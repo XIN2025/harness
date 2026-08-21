@@ -1,0 +1,16 @@
+{
+  "relative_path": "src/hooks/use-focus-manager.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "useFocusManager",
+      "callee_text": "useContext",
+      "kind": "hook",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "react",
+      "line": 51
+    }
+  ],
+  "callable_refs": []
+}

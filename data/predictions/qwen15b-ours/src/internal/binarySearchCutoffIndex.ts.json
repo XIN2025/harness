@@ -1,0 +1,42 @@
+```json
+{
+  "definitions": [
+    "binarySearchCutoffIndex"
+  ],
+  "references": [],
+  "calls": [
+    {
+      "caller": "__module__",
+      "callee_text": "binarySearchCutoffIndex",
+      "kind": "function",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "src/internal/binarySearchCutoffIndex.ts",
+      "line": 1
+    }
+  ],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "binarySearchCutoffIndex",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "array",
+          "type": "readonly T[]"
+        },
+        {
+          "name": "predicate",
+          "type": "(value: T, index: number, data: readonly T[]) => boolean"
+        }
+      ],
+      "returns": {
+        "type": "number"
+      },
+      "line": 1
+    }
+  ]
+}
+```

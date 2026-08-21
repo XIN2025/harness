@@ -1,0 +1,7 @@
+{
+  "calls": [],
+  "callable_refs": [
+    {"caller": "takeLastWhile", "callee_text": "takeLastWhileImplementation"},
+    {"caller": "takeLastWhileImplementation", "callee_text": "predicate"}
+  ]
+}

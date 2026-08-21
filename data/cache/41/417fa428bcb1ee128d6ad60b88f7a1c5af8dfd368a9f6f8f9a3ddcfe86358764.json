@@ -1,0 +1,13 @@
+{
+  "key": "417fa428bcb1ee128d6ad60b88f7a1c5af8dfd368a9f6f8f9a3ddcfe86358764",
+  "model": "harness-qwen15b",
+  "prompt_version": "refs-strict-v1-ca2cfcfbecef+json",
+  "file_sha": "f3d0ec095f51681fe6d2b6a4a8ad5a427bf1141566a212818734352401a621c8",
+  "relative_path": "src/round.ts",
+  "response": "{\"calls\": [], \"callable_refs\": [{\"caller\": \"round\", \"callee_text\": \"Math.round\"}]}",
+  "created": "2026-08-09T05:48:39+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1003,
+  "completion_tokens": 24
+}

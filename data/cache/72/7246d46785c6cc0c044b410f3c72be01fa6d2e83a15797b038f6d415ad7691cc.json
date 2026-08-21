@@ -1,0 +1,13 @@
+{
+  "key": "7246d46785c6cc0c044b410f3c72be01fa6d2e83a15797b038f6d415ad7691cc",
+  "model": "harness-llama32b",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "103267e4538b85b4342e9d0b782cdb7a1905d765d4d9a5e6ece2149e08b28e9e",
+  "relative_path": "src/dropLast.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"dropLast\", \"callee_text\": \"purry\"},\n  {\"caller\": \"dropLast\", \"callee_text\": \"dropLastImplementation\"},\n  {\"caller\": \"dropLastImplementation\", \"callee_text\": \"slice\"},\n  {\"caller\": \"dropLastImplementation\", \"callee_text\": \"Math\"},\n  {\"caller\": \"dropLastImplementation\", \"callee_text\": \"length\"},\n  {\"caller\": \"dropLastImplementation\", \"callee_text\": \"array.length\"},\n  {\"caller\": \"dropLastImplementation\", \"callee_text\": \"max\"},\n  {\"caller\": \"dropLastImplementation\", \"callee_text\": \"Math.max\"},\n  {\"caller\": \"dropLastImplementation\", \"callee_text\": \"0\"},\n  {\"caller\": \"dropLastImplementation\", \"callee_text\": \"array.length - n\"},\n  {\"caller\": \"dropLastImplementation\", \"callee_text\": \"n > 0 ? ... : ...\"},\n  {\"caller\": \"dropLastImplementation\", \"callee_text\": \"array.slice\"},\n  {\"caller\": \"dropLastImplementation\", \"callee_text\": \"...\"},\n  {\"caller\": \"dropLastImplementation\", \"callee_text\": \"array\"},\n  {\"caller\": \"dropLastImplementation\", \"callee_text\": \"n > 0 ? ... : [...array]\"}\n]}",
+  "created": "2026-08-08T22:35:30+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 868,
+  "completion_tokens": 269
+}

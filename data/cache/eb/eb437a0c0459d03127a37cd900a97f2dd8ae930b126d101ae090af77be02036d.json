@@ -1,0 +1,13 @@
+{
+  "key": "eb437a0c0459d03127a37cd900a97f2dd8ae930b126d101ae090af77be02036d",
+  "model": "harness-qwen15b",
+  "prompt_version": "refs-v1-7386a79c1ab2+json",
+  "file_sha": "32f120b5ff86b42f44d0b05b06488f376ea1df9eb43a70576c45df1931b09c44",
+  "relative_path": "src/dropWhile.ts",
+  "response": "{\"calls\": [], \"callable_refs\": [{\"caller\": \"dropWhile\", \"callee_text\": \"dropWhileImplementation\"}, {\"caller\": \"dropWhileImplementation\", \"callee_text\": \"predicate\"}]}",
+  "created": "2026-08-08T22:25:32+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 815,
+  "completion_tokens": 41
+}

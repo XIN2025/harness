@@ -1,0 +1,13 @@
+{
+  "key": "82842039635bb1477058a2febaf2478e2deecf5a81774bfc4ef20178b233890e",
+  "model": "harness-qwen15b",
+  "prompt_version": "ours-v1-5c74cf9a927a",
+  "file_sha": "eaf4d156f8d82fa1140a313b16376cc147eed1c35f6252b5296e378f19595d21",
+  "relative_path": "src/toUpperCase.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    {\n      \"name\": \"toUpperCase\",\n      \"kind\": \"function\"\n    },\n    {\n      \"name\": \"toUpperCaseImplementation\",\n      \"kind\": \"function\"\n    }\n  ],\n  \"references\": [],\n  \"calls\": [],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"toUpperCase\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [],\n      \"returns\": {\n        \"type\": \"Uppercase<T>\",\n        \"type_module\": null,\n        \"from_call\": false\n      },\n      \"line\": 15\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:50:46+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 914,
+  "completion_tokens": 153
+}

@@ -1,0 +1,340 @@
+{
+  "relative_path": "lib/theme/view.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "View.constructor",
+      "callee_text": "join",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "path",
+      "line": 40
+    },
+    {
+      "caller": "View.constructor",
+      "callee_text": "yfm",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-front-matter",
+      "line": 41
+    },
+    {
+      "caller": "View.constructor",
+      "callee_text": "_precompile",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 43
+    },
+    {
+      "caller": "View.render",
+      "callee_text": "_buildLocals",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 55
+    },
+    {
+      "caller": "View.render",
+      "callee_text": "asCallback",
+      "kind": "this",
+      "receiver": "this._compiled(this._bindHelpers(locals)).then(result => {\n      if (result == null || !layout) return result;\n\n      const layoutView = this._resolveLayout(layout);\n      if (!layoutView) return result;\n\n      const layoutLocals = {\n        ...locals,\n        body: result,\n        layout: false\n      };\n\n      return layoutView.render(layoutLocals, callback);\n    })",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 57
+    },
+    {
+      "caller": "View.render",
+      "callee_text": "then",
+      "kind": "this",
+      "receiver": "this._compiled(this._bindHelpers(locals))",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 57
+    },
+    {
+      "caller": "View.render",
+      "callee_text": "_compiled",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 57
+    },
+    {
+      "caller": "View.render",
+      "callee_text": "_bindHelpers",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 57
+    },
+    {
+      "caller": "View.render",
+      "callee_text": "_resolveLayout",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 60
+    },
+    {
+      "caller": "View.render",
+      "callee_text": "render",
+      "kind": "method",
+      "receiver": "layoutView",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 69
+    },
+    {
+      "caller": "View.renderSync",
+      "callee_text": "_buildLocals",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 76
+    },
+    {
+      "caller": "View.renderSync",
+      "callee_text": "_compiledSync",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 77
+    },
+    {
+      "caller": "View.renderSync",
+      "callee_text": "_bindHelpers",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 77
+    },
+    {
+      "caller": "View.renderSync",
+      "callee_text": "_resolveLayout",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 81
+    },
+    {
+      "caller": "View.renderSync",
+      "callee_text": "renderSync",
+      "kind": "method",
+      "receiver": "layoutView",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 90
+    },
+    {
+      "caller": "View._buildLocals",
+      "callee_text": "assignIn",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 96
+    },
+    {
+      "caller": "View._bindHelpers",
+      "callee_text": "list",
+      "kind": "this",
+      "receiver": "this._helper",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 102
+    },
+    {
+      "caller": "View._bindHelpers",
+      "callee_text": "keys",
+      "kind": "static",
+      "receiver": "Object",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 103
+    },
+    {
+      "caller": "View._bindHelpers",
+      "callee_text": "bind",
+      "kind": "method",
+      "receiver": "helpers[key]",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 106
+    },
+    {
+      "caller": "View._resolveLayout",
+      "callee_text": "join",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "path",
+      "line": 114
+    },
+    {
+      "caller": "View._resolveLayout",
+      "callee_text": "dirname",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "path",
+      "line": 114
+    },
+    {
+      "caller": "View._resolveLayout",
+      "callee_text": "getView",
+      "kind": "this",
+      "receiver": "this._theme",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 115
+    },
+    {
+      "caller": "View._resolveLayout",
+      "callee_text": "getView",
+      "kind": "this",
+      "receiver": "this._theme",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 120
+    },
+    {
+      "caller": "View._precompile",
+      "callee_text": "extname",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "path",
+      "line": 127
+    },
+    {
+      "caller": "View._precompile",
+      "callee_text": "getRenderer",
+      "kind": "method",
+      "receiver": "render",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 128
+    },
+    {
+      "caller": "View._precompile",
+      "callee_text": "getOutput",
+      "kind": "method",
+      "receiver": "render",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 135
+    },
+    {
+      "caller": "View._precompile",
+      "callee_text": "compile",
+      "kind": "method",
+      "receiver": "renderer",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 147
+    },
+    {
+      "caller": "View._precompile",
+      "callee_text": "compiled",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 150
+    },
+    {
+      "caller": "View._precompile",
+      "callee_text": "execFilterSync",
+      "kind": "method",
+      "receiver": "ctx",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 151
+    },
+    {
+      "caller": "View._precompile",
+      "callee_text": "buildFilterArguments",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 151
+    },
+    {
+      "caller": "View._precompile",
+      "callee_text": "then",
+      "kind": "method",
+      "receiver": "Promise.resolve(compiled(locals))",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 154
+    },
+    {
+      "caller": "View._precompile",
+      "callee_text": "resolve",
+      "kind": "static",
+      "receiver": "Promise",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 154
+    },
+    {
+      "caller": "View._precompile",
+      "callee_text": "compiled",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 154
+    },
+    {
+      "caller": "View._precompile",
+      "callee_text": "execFilter",
+      "kind": "method",
+      "receiver": "ctx",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 155
+    },
+    {
+      "caller": "View._precompile",
+      "callee_text": "buildFilterArguments",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 155
+    },
+    {
+      "caller": "View._precompile",
+      "callee_text": "renderSync",
+      "kind": "method",
+      "receiver": "render",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 157
+    },
+    {
+      "caller": "View._precompile",
+      "callee_text": "render",
+      "kind": "method",
+      "receiver": "render",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 159
+    }
+  ],
+  "callable_refs": []
+}

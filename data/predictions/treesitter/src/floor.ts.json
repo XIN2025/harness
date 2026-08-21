@@ -1,0 +1,25 @@
+{
+  "relative_path": "src/floor.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "floor",
+      "callee_text": "purry",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./purry",
+      "line": 42
+    },
+    {
+      "caller": "floor",
+      "callee_text": "withPrecision",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./internal/withPrecision",
+      "line": 42
+    }
+  ],
+  "callable_refs": []
+}

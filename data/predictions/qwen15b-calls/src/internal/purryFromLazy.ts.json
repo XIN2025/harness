@@ -1,0 +1,6 @@
+{"calls": [
+  {"caller": "purryFromLazy", "callee_text": "pipe"},
+  {"caller": "purryFromLazy", "callee_text": "lazy"},
+  {"caller": "purryFromLazy", "callee_text": "lazyArgs"},
+  {"caller": "purryFromLazy", "callee_text": "dataLast"}
+]}

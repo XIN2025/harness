@@ -1,0 +1,1 @@
+{"calls": [], "callable_refs": [{"caller": "purryFromLazy", "callee_text": "pipe"}, {"caller": "purryFromLazy", "callee_text": "Object.assign"}]}

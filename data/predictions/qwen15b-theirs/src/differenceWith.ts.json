@@ -1,0 +1,34 @@
+```json
+{
+  "definitions": [
+    "differenceWith",
+    "purryFromLazy",
+    "lazyImplementation",
+    "SKIP_ITEM"
+  ],
+  "references": [
+    {"name": "differenceWith", "source": "./src/differenceWith.ts"},
+    {"name": "purryFromLazy", "source": "./src/internal/purryFromLazy.ts"},
+    {"name": "lazyImplementation", "source": "./src/internal/purryFromLazy.ts"},
+    {"name": "SKIP_ITEM", "source": "./src/internal/utilityEvaluators.ts"}
+  ],
+  "calls": [
+    {
+      "caller": "differenceWith",
+      "callee_text": "purryFromLazy",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./src/internal/purryFromLazy.ts",
+      "line": 1
+    }
+  ],
+  "type_assignments": [],
+  "definitions_rich": [
+    {"name": "differenceWith", "kind": "function", "parent": null, "bases": [], "params": [{"name": "data", "type": "readonly T[]"}, {"name": "other", "type": "readonly Other[]"}, {"name": "isEqual", "type": "IsEqual<T, Other>"}], "returns": "T[]", "line": 1},
+    {"name": "purryFromLazy", "kind": "function", "parent": null, "bases": [], "params": [{"name": "lazyFn", "type": "LazyEvaluator<T>"}], "returns": "LazyEvaluator<T>", "line": 2},
+    {"name": "lazyImplementation", "kind": "function", "parent": null, "bases": [], "params": [{"name": "other", "type": "readonly Other[]"}, {"name": "isEqual", "type": "IsEqual<T, Other>"}], "returns": "LazyEvaluator<T>", "line": 3},
+    {"name": "SKIP_ITEM", "kind": "constant", "parent": null, "bases": [], "params": [], "returns": null, "line": 4}
+  ]
+}
+```

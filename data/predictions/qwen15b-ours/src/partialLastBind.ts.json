@@ -1,0 +1,33 @@
+```json
+{
+  "definitions": [
+    "PartialLastBindError",
+    "TupleSuffix",
+    "RemoveSuffix",
+    "StrictFunction",
+    "TupleSplits"
+  ],
+  "references": [],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "partialLastBind",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "func",
+          "type": "StrictFunction"
+        },
+        {
+          "name": "partial",
+          "type": "TupleSuffix<Parameters<F>>"
+        }
+      ],
+      "returns": "ReturnType<F>"
+    }
+  ]
+}
+```

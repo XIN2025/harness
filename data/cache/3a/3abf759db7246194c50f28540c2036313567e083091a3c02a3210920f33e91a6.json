@@ -1,0 +1,13 @@
+{
+  "key": "3abf759db7246194c50f28540c2036313567e083091a3c02a3210920f33e91a6",
+  "model": "harness-qwen15b",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "0c2d09882888e50f7207d8d63467f6a3bfeea976f303bce09d5b2f313a2ab706",
+  "relative_path": "src/unique.ts",
+  "response": "```json\n{\n  \"definitions\": [\"unique\"],\n  \"references\": [\n    {\"name\": \"lazyImplementation\", \"source\": \"./internal/purryFromLazy\"},\n    {\"name\": \"Deduped\", \"source\": \"./internal/types/Deduped\"},\n    {\"name\": \"IterableContainer\", \"source\": \"./internal/types/IterableContainer\"},\n    {\"name\": \"LazyEvaluator\", \"source\": \"./internal/types/LazyEvaluator\"},\n    {\"name\": \"SKIP_ITEM\", \"source\": \"./internal/utilityEvaluators\"}\n  ],\n  \"calls\": [\n    {\"caller\": \"unique\", \"callee_text\": \"lazyImplementation\", \"kind\": \"free\",\n     \"receiver\": null, \"receiver_type_hint\": null, \"callee_file_hint\": \"...\", \"line\": 1},\n    {\"caller\": \"unique\", \"callee_text\": \"lazyImplementation\", \"kind\": \"free\",\n     \"receiver\": null, \"receiver_type_hint\": null, \"callee_file_hint\": \"...\", \"line\": 2}\n  ],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\"name\": \"unique\", \"kind\": \"function\", \"parent\": null, \"bases\": [], \"params\": [], \"returns\": null, \"line\": 1},\n    {\"name\": \"lazyImplementation\", \"kind\": \"function\", \"parent\": null, \"bases\": [], \"params\": [], \"returns\": null, \"line\": 2}\n  ]\n}\n```",
+  "created": "2026-08-08T20:29:00+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 8453,
+  "completion_tokens": 306
+}

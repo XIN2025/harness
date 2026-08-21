@@ -1,0 +1,13 @@
+{
+  "key": "947b8d41d8b08c915d6f92e612281d79847f01de45ef60b0d536731c5d2b3e5c",
+  "model": "harness-qwen15b",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "e51653f72ff630ab4a58c8a96ed9d95d3b3fa7b22e88b6aa710ab0bdde984276",
+  "relative_path": "src/split.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"BuiltInReturnType\",\n    \"SplitBase\",\n    \"IsFloat\",\n    \"NonNegative\",\n    \"ArraySlice\",\n    \"Split\"\n  ],\n  \"references\": [\n    {\n      \"name\": \"type-fest\",\n      \"source\": \"./node_modules/type-fest/dist/index.d.ts\",\n      \"alias\": null\n    }\n  ],\n  \"calls\": [\n    {\"caller\": \"split\", \"callee_text\": \"split\", \"kind\": \"free\", \"receiver\": null, \"receiver_type_hint\": null, \"callee_file_hint\": \"...\", \"line\": 1},\n    {\"caller\": \"split\", \"callee_text\": \"split\", \"kind\": \"free\", \"receiver\": null, \"receiver_type_hint\": null, \"callee_file_hint\": \"...\", \"line\": 2},\n    {\"caller\": \"split\", \"callee_text\": \"split\", \"kind\": \"free\", \"receiver\": null, \"receiver_type_hint\": null, \"callee_file_hint\": \"...\", \"line\": 3}\n  ],\n  \"type_assignments\": [\n    {\n      \"scope\": \"module\",\n      \"var\": \"BuiltInReturnType\",\n      \"type\": \"string[]\",\n      \"type_module\": \"./node_modules/type-fest/dist/index.d.ts\"\n    }\n  ],\n  \"definitions_rich\": [\n    {\n      \"name\": \"split\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [\n        {\"name\": \"data\", \"type\": \"string\"},\n        {\"name\": \"separator\", \"type\": \"RegExp\"},\n        {\"name\": \"limit\", \"type\": \"number | undefined\"}\n      ],\n      \"returns\": \"string[]\",\n      \"line\": 1\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:27:07+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 9111,
+  "completion_tokens": 381
+}

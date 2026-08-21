@@ -1,0 +1,349 @@
+{
+  "relative_path": "src/dom.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "createNode",
+      "callee_text": "create",
+      "kind": "method",
+      "receiver": "Yoga.Node",
+      "receiver_type_hint": null,
+      "callee_file_hint": "yoga-layout",
+      "line": 99
+    },
+    {
+      "caller": "createNode",
+      "callee_text": "setMeasureFunc",
+      "kind": "method",
+      "receiver": "node.yogaNode",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 105
+    },
+    {
+      "caller": "createNode",
+      "callee_text": "bind",
+      "kind": "method",
+      "receiver": "measureTextNode",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 105
+    },
+    {
+      "caller": "appendChildNode",
+      "callee_text": "removeChildNode",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 116
+    },
+    {
+      "caller": "appendChildNode",
+      "callee_text": "push",
+      "kind": "method",
+      "receiver": "node.childNodes",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 120
+    },
+    {
+      "caller": "appendChildNode",
+      "callee_text": "insertChild",
+      "kind": "method",
+      "receiver": "node.yogaNode",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 123
+    },
+    {
+      "caller": "appendChildNode",
+      "callee_text": "getChildCount",
+      "kind": "method",
+      "receiver": "node.yogaNode",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 125
+    },
+    {
+      "caller": "appendChildNode",
+      "callee_text": "markNodeAsDirty",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 130
+    },
+    {
+      "caller": "insertBeforeNode",
+      "callee_text": "removeChildNode",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 140
+    },
+    {
+      "caller": "insertBeforeNode",
+      "callee_text": "indexOf",
+      "kind": "method",
+      "receiver": "node.childNodes",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 145
+    },
+    {
+      "caller": "insertBeforeNode",
+      "callee_text": "splice",
+      "kind": "method",
+      "receiver": "node.childNodes",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 147
+    },
+    {
+      "caller": "insertBeforeNode",
+      "callee_text": "insertChild",
+      "kind": "method",
+      "receiver": "node.yogaNode",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 149
+    },
+    {
+      "caller": "insertBeforeNode",
+      "callee_text": "push",
+      "kind": "method",
+      "receiver": "node.childNodes",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 152
+    },
+    {
+      "caller": "insertBeforeNode",
+      "callee_text": "insertChild",
+      "kind": "method",
+      "receiver": "node.yogaNode",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 155
+    },
+    {
+      "caller": "insertBeforeNode",
+      "callee_text": "getChildCount",
+      "kind": "method",
+      "receiver": "node.yogaNode",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 157
+    },
+    {
+      "caller": "insertBeforeNode",
+      "callee_text": "markNodeAsDirty",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 163
+    },
+    {
+      "caller": "removeChildNode",
+      "callee_text": "removeChild",
+      "kind": "method",
+      "receiver": "removeNode.parentNode?.yogaNode",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 172
+    },
+    {
+      "caller": "removeChildNode",
+      "callee_text": "indexOf",
+      "kind": "method",
+      "receiver": "node.childNodes",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 177
+    },
+    {
+      "caller": "removeChildNode",
+      "callee_text": "splice",
+      "kind": "method",
+      "receiver": "node.childNodes",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 179
+    },
+    {
+      "caller": "removeChildNode",
+      "callee_text": "markNodeAsDirty",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 183
+    },
+    {
+      "caller": "nullifyYogaNodes",
+      "callee_text": "nullifyYogaNodes",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 192
+    },
+    {
+      "caller": "freeYogaSubtree",
+      "callee_text": "unsetMeasureFunc",
+      "kind": "method",
+      "receiver": "removeNode.yogaNode",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 208
+    },
+    {
+      "caller": "freeYogaSubtree",
+      "callee_text": "freeRecursive",
+      "kind": "method",
+      "receiver": "removeNode.yogaNode",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 209
+    },
+    {
+      "caller": "freeYogaSubtree",
+      "callee_text": "nullifyYogaNodes",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 210
+    },
+    {
+      "caller": "createTextNode",
+      "callee_text": "setTextNodeValue",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 240
+    },
+    {
+      "caller": "measureTextNode",
+      "callee_text": "squashTextNodes",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./squash-text-nodes.js",
+      "line": 250
+    },
+    {
+      "caller": "measureTextNode",
+      "callee_text": "measureText",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./measure-text.js",
+      "line": 252
+    },
+    {
+      "caller": "measureTextNode",
+      "callee_text": "wrapText",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./wrap-text.js",
+      "line": 266
+    },
+    {
+      "caller": "measureTextNode",
+      "callee_text": "measureText",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./measure-text.js",
+      "line": 268
+    },
+    {
+      "caller": "findClosestYogaNode",
+      "callee_text": "findClosestYogaNode",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 276
+    },
+    {
+      "caller": "markNodeAsDirty",
+      "callee_text": "findClosestYogaNode",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 281
+    },
+    {
+      "caller": "markNodeAsDirty",
+      "callee_text": "markDirty",
+      "kind": "method",
+      "receiver": "yogaNode",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 282
+    },
+    {
+      "caller": "setTextNodeValue",
+      "callee_text": "String",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 287
+    },
+    {
+      "caller": "setTextNodeValue",
+      "callee_text": "markNodeAsDirty",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 291
+    },
+    {
+      "caller": "addLayoutListener",
+      "callee_text": "Set",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 302
+    },
+    {
+      "caller": "addLayoutListener",
+      "callee_text": "add",
+      "kind": "method",
+      "receiver": "rootNode.internal_layoutListeners",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 303
+    },
+    {
+      "caller": "addLayoutListener",
+      "callee_text": "delete",
+      "kind": "method",
+      "receiver": "rootNode.internal_layoutListeners",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 306
+    },
+    {
+      "caller": "emitLayoutListeners",
+      "callee_text": "listener",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 316
+    }
+  ],
+  "callable_refs": []
+}

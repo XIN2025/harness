@@ -1,0 +1,36 @@
+```json
+{
+  "definitions": [
+    {
+      "name": "flatMap",
+      "kind": "function"
+    },
+    {
+      "name": "LazyEvaluator",
+      "kind": "type_alias"
+    }
+  ],
+  "references": [],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "flatMap",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "readonly T[]"
+        },
+        {
+          "name": "callbackfn",
+          "type": "(input: T, index: number, data: readonly T[]) => readonly U[] | U"
+        }
+      ],
+      "returns": "U[]"
+    }
+  ]
+}
+```

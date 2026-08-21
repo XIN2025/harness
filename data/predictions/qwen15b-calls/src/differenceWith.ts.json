@@ -1,0 +1,5 @@
+{"calls": [
+  {"caller": "differenceWith", "callee_text": "lazyImplementation"},
+  {"caller": "lazyImplementation", "callee_text": "every"},
+  {"caller": "lazyImplementation", "callee_text": "isEqual"}
+]}

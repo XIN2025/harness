@@ -1,0 +1,5 @@
+{"calls": [
+  {"caller": "zip", "callee_text": "purry"},
+  {"caller": "zipImplementation", "callee_text": "map"},
+  {"caller": "lazyImplementation", "callee_text": "next"}
+]}

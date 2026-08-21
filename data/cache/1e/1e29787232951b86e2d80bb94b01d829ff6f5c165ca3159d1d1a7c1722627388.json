@@ -1,0 +1,13 @@
+{
+  "key": "1e29787232951b86e2d80bb94b01d829ff6f5c165ca3159d1d1a7c1722627388",
+  "model": "harness-qwen15b",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "59890bbbe28762e2f42ad2344de58deda440fad7f9c5520fd3d947abf3cd162c",
+  "relative_path": "src/swapIndices.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"swapIndices\", \"callee_text\": \"swapIndicesImplementation\"},\n  {\"caller\": \"swapIndicesImplementation\", \"callee_text\": \"swapArray\"},\n  {\"caller\": \"swapIndicesImplementation\", \"callee_text\": \"data\"},\n  {\"caller\": \"swapIndicesImplementation\", \"callee_text\": \"index1\"},\n  {\"caller\": \"swapIndicesImplementation\", \"callee_text\": \"index2\"},\n  {\"caller\": \"swapIndicesImplementation\", \"callee_text\": \"result\"},\n  {\"caller\": \"swapIndicesImplementation\", \"callee_text\": \"positiveIndexA\"},\n  {\"caller\": \"swapIndicesImplementation\", \"callee_text\": \"positiveIndexB\"},\n  {\"caller\": \"swapIndicesImplementation\", \"callee_text\": \"data[positiveIndexA]\"},\n  {\"caller\": \"swapIndicesImplementation\", \"callee_text\": \"data[positiveIndexB]\"}\n]}",
+  "created": "2026-08-08T22:23:25+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 2037,
+  "completion_tokens": 184
+}

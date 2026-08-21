@@ -1,0 +1,61 @@
+{
+  "relative_path": "decorators/core/use-pipes.decorator.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "UsePipes",
+      "callee_text": "isFunction",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../../utils/shared.utils",
+      "line": 38
+    },
+    {
+      "caller": "UsePipes",
+      "callee_text": "isFunction",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../../utils/shared.utils",
+      "line": 38
+    },
+    {
+      "caller": "UsePipes",
+      "callee_text": "validateEach",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../../utils/validate-each.util",
+      "line": 41
+    },
+    {
+      "caller": "UsePipes",
+      "callee_text": "extendArrayMetadata",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../../utils/extend-metadata.util",
+      "line": 42
+    },
+    {
+      "caller": "UsePipes",
+      "callee_text": "validateEach",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../../utils/validate-each.util",
+      "line": 45
+    },
+    {
+      "caller": "UsePipes",
+      "callee_text": "extendArrayMetadata",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../../utils/extend-metadata.util",
+      "line": 46
+    }
+  ],
+  "callable_refs": []
+}

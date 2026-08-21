@@ -1,0 +1,4 @@
+{"calls": [
+  {"caller": "reduce", "callee_text": "purry"},
+  {"caller": "reduceImplementation", "callee_text": "data.reduce"}
+]}

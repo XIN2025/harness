@@ -1,0 +1,13 @@
+{
+  "key": "6cc6a41f6fb98cf30d05bb4522901496a1ba45fa224f456abe894a2c764477e8",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "refs-v1-7386a79c1ab2+json",
+  "file_sha": "bba2f69bf022da542f0e21043df8e88ac6f0ad11dbde6c57bd7dd5b980537788",
+  "relative_path": "src/join.ts",
+  "response": "{\"calls\": [], \"callable_refs\": [{\"caller\": \"join\", \"callee_text\": \"joinImplementation\"}, {\"caller\": \"joinImplementation\", \"callee_text\": \"data.join\"}, {\"caller\": \"joinImplementation\", \"callee_text\": \"glue\"}]}",
+  "created": "2026-08-08T23:23:24+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 909,
+  "completion_tokens": 54
+}

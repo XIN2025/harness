@@ -1,0 +1,32 @@
+```json
+{
+  "definitions": [
+    {
+      "name": "uncapitalize",
+      "kind": "function"
+    },
+    {
+      "name": "Uncapitalize",
+      "kind": "utility-type"
+    }
+  ],
+  "references": [],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "uncapitalize",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [],
+      "returns": {
+        "type": "Uncapitalize<T>",
+        "type_module": null,
+        "from_call": false
+      },
+      "line": 10
+    }
+  ]
+}
+```

@@ -1,0 +1,8 @@
+{"calls": [
+  {"caller": "binarySearchCutoffIndex", "callee_text": "array"},
+  {"caller": "binarySearchCutoffIndex", "callee_text": "predicate"},
+  {"caller": "binarySearchCutoffIndex", "callee_text": "lowIndex"},
+  {"caller": "binarySearchCutoffIndex", "callee_text": "highIndex"},
+  {"caller": "binarySearchCutoffIndex", "callee_text": "pivotIndex"},
+  {"caller": "binarySearchCutoffIndex", "callee_text": "pivot"}
+]}

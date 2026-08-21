@@ -1,0 +1,13 @@
+{
+  "key": "28666f06ba943778cbb12c32170942622c7d02c7a73f2cf08b55226ab33da64f",
+  "model": "harness-qwen15b",
+  "prompt_version": "ours-v1-5c74cf9a927a",
+  "file_sha": "47a74f0a70b6494dd3cbf092b5ff3e34a0d9c696c9957631fa36c7c4458d75ab",
+  "relative_path": "src/mapKeys.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"mapKeys\",\n    \"MaybePartial\",\n    \"CouldBeEmpty\",\n    \"BoundedPartial\",\n    \"purry\"\n  ],\n  \"references\": [],\n  \"calls\": [],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"MappedKeys\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"T\",\n          \"type\": \"object\"\n        },\n        {\n          \"name\": \"Key\",\n          \"type\": \"property key\"\n        }\n      ],\n      \"returns\": {\n        \"type\": \"object\"\n      },\n      \"line\": 1\n    },\n    {\n      \"name\": \"MaybePartial\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"T\",\n          \"type\": \"object\"\n        },\n        {\n          \"name\": \"Key\",\n          \"type\": \"property key\"\n        },\n        {\n          \"name\": \"Output\",\n          \"type\": \"any\"\n        }\n      ],\n      \"returns\": {\n        \"type\": \"any\"\n      },\n      \"line\": 1\n    },\n    {\n      \"name\": \"CouldBeEmpty\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"T\",\n          \"type\": \"object\"\n        }\n      ],\n      \"returns\": {\n        \"type\": \"boolean\"\n      },\n      \"line\": 1\n    },\n    {\n      \"name\": \"BoundedPartial\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"Key\",\n          \"type\": \"property key\"\n        }\n      ],\n      \"returns\": {\n        \"type\": \"any\"\n      },\n      \"line\": 1\n    },\n    {\n      \"name\": \"purry\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"fn\",\n          \"type\": \"function\"\n        }\n      ],\n      \"returns\": {\n        \"type\": \"any\"\n      },\n      \"line\": 1\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:38:36+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1184,
+  "completion_tokens": 506
+}

@@ -1,0 +1,13 @@
+{
+  "key": "156312142ca58287e3253b2aeb8fed78bba05cc72bd4ef567b0f0bfda9289d04",
+  "model": "harness-qwen15b",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "7a5d018c4c93a58167f972cb6ce4333a6355f3925795c629265b2391b13c28e6",
+  "relative_path": "src/partialLastBind.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"partialLastBind\", \"callee_text\": \"parseInt\"},\n  {\"caller\": \"pipe\", \"callee_text\": \"JSON.stringify\"}\n]}",
+  "created": "2026-08-08T22:19:51+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1265,
+  "completion_tokens": 37
+}

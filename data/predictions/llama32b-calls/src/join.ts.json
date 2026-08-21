@@ -1,0 +1,7 @@
+{"calls": [
+  {"caller": "join", "callee_text": "purry"},
+  {"caller": "join", "callee_text": "joinImplementation"},
+  {"caller": "joinImplementation", "callee_text": "join"},
+  {"caller": "joinImplementation", "callee_text": "data"},
+  {"caller": "joinImplementation", "callee_text": "glue"}
+]}

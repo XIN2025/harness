@@ -1,0 +1,143 @@
+```json
+{
+  "definitions": [
+    "drop",
+    "dropImplementation",
+    "lazyImplementation"
+  ],
+  "references": [
+    {
+      "name": "ClampedIntegerSubtract",
+      "source": "./internal/types/ClampedIntegerSubtract",
+      "alias": null
+    },
+    {
+      "name": "CoercedArray",
+      "source": "./internal/types/CoercedArray",
+      "alias": null
+    },
+    {
+      "name": "IterableContainer",
+      "source": "./internal/types/IterableContainer",
+      "alias": null
+    },
+    {
+      "name": "LazyEvaluator",
+      "source": "./internal/types/LazyEvaluator",
+      "alias": null
+    },
+    {
+      "name": "PartialArray",
+      "source": "./internal/types/PartialArray",
+      "alias": null
+    },
+    {
+      "name": "TupleParts",
+      "source": "./internal/types/TupleParts",
+      "alias": null
+    },
+    {
+      "name": "SKIP_ITEM",
+      "source": "./internal/utilityEvaluators",
+      "alias": null
+    },
+    {
+      "name": "lazyIdentityEvaluator",
+      "source": "./internal/utilityEvaluators",
+      "alias": null
+    },
+    {
+      "name": "purry",
+      "source": "./purry",
+      "alias": null
+    }
+  ],
+  "calls": [
+    {
+      "caller": "drop",
+      "callee_text": "purry",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./purry",
+      "line": 134
+    },
+    {
+      "caller": "dropImplementation",
+      "callee_text": "slice",
+      "kind": "method",
+      "receiver": "array",
+      "receiver_type_hint": "IterableContainer",
+      "callee_file_hint": "external",
+      "line": 140
+    }
+  ],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "Drop",
+      "kind": "type_alias",
+      "parent": null,
+      "bases": [],
+      "params": [],
+      "returns": null,
+      "line": 11
+    },
+    {
+      "name": "DropFixedTuple",
+      "kind": "type_alias",
+      "parent": null,
+      "bases": [],
+      "params": [],
+      "returns": null,
+      "line": 74
+    },
+    {
+      "name": "drop",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "args",
+          "type": "readonly unknown[]"
+        }
+      ],
+      "returns": "unknown",
+      "line": 133
+    },
+    {
+      "name": "dropImplementation",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "array",
+          "type": "T"
+        },
+        {
+          "name": "n",
+          "type": "number"
+        }
+      ],
+      "returns": "T[number][]",
+      "line": 137
+    },
+    {
+      "name": "lazyImplementation",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "n",
+          "type": "number"
+        }
+      ],
+      "returns": "LazyEvaluator",
+      "line": 142
+    }
+  ]
+}
+```

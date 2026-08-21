@@ -1,0 +1,151 @@
+{
+  "relative_path": "src/clone.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "clone",
+      "callee_text": "purry",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./purry",
+      "line": 42
+    },
+    {
+      "caller": "cloneImplementation",
+      "callee_text": "structuredClone",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 58
+    },
+    {
+      "caller": "cloneImplementation",
+      "callee_text": "getPrototypeOf",
+      "kind": "static",
+      "receiver": "Object",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 62
+    },
+    {
+      "caller": "cloneImplementation",
+      "callee_text": "isArray",
+      "kind": "static",
+      "receiver": "Array",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 64
+    },
+    {
+      "caller": "cloneImplementation",
+      "callee_text": "structuredClone",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 73
+    },
+    {
+      "caller": "cloneImplementation",
+      "callee_text": "indexOf",
+      "kind": "method",
+      "receiver": "refFrom",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 80
+    },
+    {
+      "caller": "cloneImplementation",
+      "callee_text": "push",
+      "kind": "method",
+      "receiver": "refFrom",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 86
+    },
+    {
+      "caller": "cloneImplementation",
+      "callee_text": "isArray",
+      "kind": "static",
+      "receiver": "Array",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 87
+    },
+    {
+      "caller": "cloneImplementation",
+      "callee_text": "deepCloneArray",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 88
+    },
+    {
+      "caller": "cloneImplementation",
+      "callee_text": "deepCloneObject",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 89
+    },
+    {
+      "caller": "deepCloneObject",
+      "callee_text": "push",
+      "kind": "method",
+      "receiver": "refTo",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 101
+    },
+    {
+      "caller": "deepCloneObject",
+      "callee_text": "entries",
+      "kind": "static",
+      "receiver": "Object",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 103
+    },
+    {
+      "caller": "deepCloneObject",
+      "callee_text": "cloneImplementation",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 104
+    },
+    {
+      "caller": "deepCloneArray",
+      "callee_text": "push",
+      "kind": "method",
+      "receiver": "refTo",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 119
+    },
+    {
+      "caller": "deepCloneArray",
+      "callee_text": "entries",
+      "kind": "method",
+      "receiver": "value",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 121
+    },
+    {
+      "caller": "deepCloneArray",
+      "callee_text": "cloneImplementation",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 122
+    }
+  ],
+  "callable_refs": []
+}

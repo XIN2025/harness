@@ -1,0 +1,13 @@
+{
+  "key": "b5f2ccaad576c57207154efaefd3377300f0519aa94c6f702aeb2ba5622c9770",
+  "model": "harness-llama32b",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "7e98f0acc415cae52d9f451e6034da44904d61582649328e0f244a80cf40e980",
+  "relative_path": "src/isDeepEqual.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"isDeepEqual\", \"callee_text\": \"purry\"},\n  {\"caller\": \"isDeepEqualImplementation\", \"callee_text\": \"entries\"},\n  {\"caller\": \"isDeepEqualImplementation\", \"callee_text\": \"get\"},\n  {\"caller\": \"isDeepEqualImplementation\", \"callee_text\": \"has\"},\n  {\"caller\": \"isDeepEqualImplementation\", \"callee_text\": \"get\"},\n  {\"caller\": \"isDeepEqualImplementation\", \"callee_text\": \"entries\"},\n  {\"caller\": \"isDeepEqualSets\", \"callee_text\": \"splice\"},\n  {\"caller\": \"isDeepEqualSets\", \"callee_text\": \"includes\"},\n  {\"caller\": \"isDeepEqualMaps\", \"callee_text\": \"get\"},\n  {\"caller\": \"isDeepEqualArrays\", \"callee_text\": \"entries\"},\n  {\"caller\": \"isComparablePrototype\", \"callee_text\": \"getPrototypeOf\"}\n]}",
+  "created": "2026-08-08T22:44:34+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 2373,
+  "completion_tokens": 193
+}

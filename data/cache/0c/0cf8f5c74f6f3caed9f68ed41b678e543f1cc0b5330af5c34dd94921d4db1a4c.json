@@ -1,0 +1,13 @@
+{
+  "key": "0cf8f5c74f6f3caed9f68ed41b678e543f1cc0b5330af5c34dd94921d4db1a4c",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "refs-strict-v1-ca2cfcfbecef+json",
+  "file_sha": "be3323e0ad630e95e76340cd0f695dbb36ce391ebebf652da11334e99e46c4b3",
+  "relative_path": "src/difference.ts",
+  "response": "{\"calls\": [], \"callable_refs\": [{\"caller\": \"difference\", \"callee_text\": \"lazyImplementation\"}, {\"caller\": \"difference\", \"callee_text\": \"purryFromLazy\"}, {\"caller\": \"difference\", \"callee_text\": \"SKIP_ITEM\"}, {\"caller\": \"difference\", \"callee_text\": \"lazyIdentityEvaluator\"}]}",
+  "created": "2026-08-09T05:59:28+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1188,
+  "completion_tokens": 69
+}

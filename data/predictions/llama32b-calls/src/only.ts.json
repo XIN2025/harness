@@ -1,0 +1,15 @@
+{"calls": [
+  {"caller": "only", "callee_text": "purry"},
+  {"caller": "onlyImplementation", "callee_text": "length"},
+  {"caller": "onlyImplementation", "callee_text": "data"},
+  {"caller": "onlyImplementation", "callee_text": "0"},
+  {"caller": "onlyImplementation", "callee_text": "[]"},
+  {"caller": "onlyImplementation", "callee_text": "length"},
+  {"caller": "onlyImplementation", "callee_text": "data"},
+  {"caller": "onlyImplementation", "callee_text": "1"},
+  {"caller": "onlyImplementation", "callee_text": "0"},
+  {"caller": "onlyImplementation", "callee_text": "[]"},
+  {"caller": "onlyImplementation", "callee_text": "length"},
+  {"caller": "onlyImplementation", "callee_text": "data"},
+  {"caller": "onlyImplementation", "callee_text": "1"}
+]}

@@ -1,0 +1,13 @@
+{
+  "key": "4f3f93be6f45aa8d6aa4840e4257a3f558ae4b5edc865377aa8aa3e1df8cdb37",
+  "model": "harness-qwen15b",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "9b395a3550f12b8aa98c52253b743655e709e4b02485f2006b7816ce73d419ab",
+  "relative_path": "src/toKebabCase.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"toKebabCase\", \"callee_text\": \"words\"},\n  {\"caller\": \"toKebabCase\", \"callee_text\": \"join\"},\n  {\"caller\": \"toKebabCase\", \"callee_text\": \"toLowerCase\"}\n]}",
+  "created": "2026-08-08T22:23:54+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1400,
+  "completion_tokens": 60
+}

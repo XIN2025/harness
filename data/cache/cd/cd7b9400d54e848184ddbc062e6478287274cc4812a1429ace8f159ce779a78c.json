@@ -1,0 +1,13 @@
+{
+  "key": "cd7b9400d54e848184ddbc062e6478287274cc4812a1429ace8f159ce779a78c",
+  "model": "harness-qwen15b",
+  "prompt_version": "refs-strict-v1-ca2cfcfbecef+json",
+  "file_sha": "797a16edf044fd2a8a9199547e51e4f1c1cf80195d4e14e60d088b25860fbc7c",
+  "relative_path": "src/drop.ts",
+  "response": "{\"calls\": [], \"callable_refs\": [{\"caller\": \"drop\", \"callee_text\": \"dropImplementation\"}, {\"caller\": \"drop\", \"callee_text\": \"lazyImplementation\"}]}",
+  "created": "2026-08-09T05:44:37+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1983,
+  "completion_tokens": 38
+}

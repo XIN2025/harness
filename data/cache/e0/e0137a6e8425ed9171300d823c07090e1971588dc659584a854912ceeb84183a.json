@@ -1,0 +1,13 @@
+{
+  "key": "e0137a6e8425ed9171300d823c07090e1971588dc659584a854912ceeb84183a",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "367f0e2dd1c4624a9143902d1e25b5927735bb684e16884e9806cd799ba225a4",
+  "relative_path": "src/first.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"first\", \"callee_text\": \"purry\"},\n  {\"caller\": \"firstImplementation\", \"callee_text\": \"item\"},\n  {\"caller\": \"__module__\", \"callee_text\": \"toSingle\"},\n  {\"caller\": \"__module__\", \"callee_text\": \"IterableContainer\"},\n  {\"caller\": \"__module__\", \"callee_text\": \"LazyEvaluator\"},\n  {\"caller\": \"first\", \"callee_text\": \"lazyImplementation\"},\n  {\"caller\": \"firstImplementation\", \"callee_text\": \"item\"},\n  {\"caller\": \"firstLazy\", \"callee_text\": \"next\"}\n]}",
+  "created": "2026-08-08T22:54:24+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 849,
+  "completion_tokens": 129
+}

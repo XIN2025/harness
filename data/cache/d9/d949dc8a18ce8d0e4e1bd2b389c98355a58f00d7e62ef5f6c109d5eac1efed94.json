@@ -1,0 +1,13 @@
+{
+  "key": "d949dc8a18ce8d0e4e1bd2b389c98355a58f00d7e62ef5f6c109d5eac1efed94",
+  "model": "harness-qwen15b",
+  "prompt_version": "ours-v1-5c74cf9a927a",
+  "file_sha": "304894e6fbcafa2d7b5a130d2aeec158a0e5b9f889de317303a1a1a789cad62f",
+  "relative_path": "src/merge.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    {\n      \"name\": \"Merge\",\n      \"kind\": \"type_alias\"\n    },\n    {\n      \"name\": \"purry\",\n      \"kind\": \"function\"\n    },\n    {\n      \"name\": \"merge\",\n      \"kind\": \"function\"\n    }\n  ],\n  \"references\": [],\n  \"calls\": [\n    {\n      \"caller\": \"__module__\",\n      \"callee_text\": \"merge\",\n      \"kind\": \"method\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": \"src/merge.ts\",\n      \"line\": 1\n    }\n  ],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"data\",\n      \"kind\": \"constant\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [],\n      \"returns\": null,\n      \"line\": 1\n    },\n    {\n      \"name\": \"source\",\n      \"kind\": \"constant\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [],\n      \"returns\": null,\n      \"line\": 2\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:39:11+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 946,
+  "completion_tokens": 256
+}

@@ -1,0 +1,13 @@
+{
+  "key": "c21840db0498c1d19ae6e9bef76c9714d30e57c392a31cef9fcced6640e9605d",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "refs-v1-7386a79c1ab2+json",
+  "file_sha": "b7d2300155642471c1e50273792670c26a717dccf0fcc0b2584735289ccb8d62",
+  "relative_path": "src/times.ts",
+  "response": "{\"callable_refs\": [\n  {\"caller\": \"times\", \"callee_text\": \"timesImplementation\"},\n  {\"caller\": \"timesImplementation\", \"callee_text\": \"Math.floor\"},\n  {\"caller\": \"timesImplementation\", \"callee_text\": \"Number.isInteger\"}\n]}",
+  "created": "2026-08-08T23:29:36+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1259,
+  "completion_tokens": 55
+}

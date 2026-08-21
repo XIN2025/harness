@@ -1,0 +1,43 @@
+```json
+{
+  "definitions": [
+    "unique",
+    "lazyImplementation"
+  ],
+  "references": [],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "unique",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [],
+      "returns": {
+        "scope": "global",
+        "var": "unique",
+        "type": "Deduped<T>",
+        "type_module": "./internal/types/Deduped",
+        "from_call": false
+      },
+      "line": 10
+    },
+    {
+      "name": "lazyImplementation",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [],
+      "returns": {
+        "scope": "global",
+        "var": "lazyImplementation",
+        "type": "LazyEvaluator<T>",
+        "type_module": "./internal/types/LazyEvaluator",
+        "from_call": false
+      },
+      "line": 28
+    }
+  ]
+}
+```

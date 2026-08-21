@@ -1,0 +1,10 @@
+{
+  "key": "2e220cfa553457aa79de95d8a514c385b8f5eaac1b6e512798d3915290145539",
+  "model": "gemini-3.5-flash",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "103267e4538b85b4342e9d0b782cdb7a1905d765d4d9a5e6ece2149e08b28e9e",
+  "relative_path": "src/dropLast.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"dropLast\",\n    \"dropLastImplementation\"\n  ],\n  \"references\": [\n    {\n      \"name\": \"IterableContainer\",\n      \"source\": \"./internal/types/IterableContainer\",\n      \"alias\": null\n    },\n    {\n      \"name\": \"purry\",\n      \"source\": \"./purry\",\n      \"alias\": null\n    }\n  ],\n  \"calls\": [\n    {\n      \"caller\": \"dropLast\",\n      \"callee_text\": \"purry\",\n      \"kind\": \"free\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": \"./purry\",\n      \"line\": 46\n    },\n    {\n      \"caller\": \"dropLastImplementation\",\n      \"callee_text\": \"slice\",\n      \"kind\": \"method\",\n      \"receiver\": \"array\",\n      \"receiver_type_hint\": \"IterableContainer\",\n      \"callee_file_hint\": \"external\",\n      \"line\": 53\n    }\n  ],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"dropLast\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"args\",\n          \"type\": \"readonly unknown[]\"\n        }\n      ],\n      \"returns\": \"unknown\",\n      \"line\": 45\n    },\n    {\n      \"name\": \"dropLastImplementation\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"array\",\n          \"type\": \"T\"\n        },\n        {\n          \"name\": \"n\",\n          \"type\": \"number\"\n        }\n      ],\n      \"returns\": \"T[number][]\",\n      \"line\": 49\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T16:25:45+00:00",
+  "finish_reason": "stop"
+}

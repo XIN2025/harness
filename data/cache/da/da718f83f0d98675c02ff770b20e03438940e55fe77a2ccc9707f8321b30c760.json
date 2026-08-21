@@ -1,0 +1,13 @@
+{
+  "key": "da718f83f0d98675c02ff770b20e03438940e55fe77a2ccc9707f8321b30c760",
+  "model": "harness-qwen15b",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "4392703e7d4196cb731d8653d4978a5f3e92938e0868620b8348fb43d61822e6",
+  "relative_path": "src/debounce.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"debounce\",\n    \"DebounceOptions\",\n    \"StrictFunction\"\n  ],\n  \"references\": [\n    {\"name\": \"debounce\", \"source\": \"./src/debounce.ts\"},\n    {\"name\": \"DebounceOptions\", \"source\": \"./src/debounce.ts\"},\n    {\"name\": \"StrictFunction\", \"source\": \"./src/debounce.ts\"}\n  ],\n  \"calls\": [\n    {\n      \"caller\": \"App\",\n      \"callee_text\": \"useState\",\n      \"kind\": \"hook\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": \"external\",\n      \"line\": 2\n    }\n  ],\n  \"type_assignments\": [\n    {\"scope\": \"module\", \"var\": \"debounce\", \"type\": \"function\", \"type_module\": \"./src/debounce.ts\"},\n    {\"scope\": \"module\", \"var\": \"DebounceOptions\", \"type\": \"object\", \"type_module\": \"./src/debounce.ts\"},\n    {\"scope\": \"module\", \"var\": \"StrictFunction\", \"type\": \"function\", \"type_module\": \"./src/debounce.ts\"}\n  ],\n  \"definitions_rich\": [\n    {\n      \"name\": \"debounce\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [{\"name\": \"func\", \"type\": \"StrictFunction\"}],\n      \"returns\": \"Debouncer<StrictFunction>\",\n      \"line\": 1\n    },\n    {\n      \"name\": \"DebounceOptions\",\n      \"kind\": \"interface\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [\n        {\"name\": \"waitMs\", \"type\": \"number\"},\n        {\"name\": \"maxWaitMs\", \"type\": \"number\"},\n        {\"name\": \"timing\", \"type\": \"string\"}\n      ],\n      \"returns\": null,\n      \"line\": 3\n    },\n    {\n      \"name\": \"StrictFunction\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [],\n      \"returns\": null,\n      \"line\": 5\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:17:05+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 10978,
+  "completion_tokens": 469
+}

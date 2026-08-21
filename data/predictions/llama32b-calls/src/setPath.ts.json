@@ -1,0 +1,12 @@
+{"calls": [
+  {"caller": "setPath", "callee_text": "__module__"},
+  {"caller": "setPathImplementation", "callee_text": "filter"},
+  {"caller": "setPathImplementation", "callee_text": "isFinite"},
+  {"caller": "setPathImplementation", "callee_text": "sort"},
+  {"caller": "setPathImplementation", "callee_text": "reduce"},
+  {"caller": "setPathImplementation", "callee_text": "isNaN"},
+  {"caller": "setPathImplementation", "callee_text": "Error"},
+  {"caller": "setPathImplementation", "callee_text": "format"},
+  {"caller": "setPathImplementation", "callee_text": "round"},
+  {"caller": "setPathImplementation", "callee_text": "precisionOf"}
+]}

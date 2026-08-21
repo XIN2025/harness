@@ -1,0 +1,898 @@
+{
+  "relative_path": "lib/plugins/processor/post.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "__module__",
+      "callee_text": "Pattern",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-util",
+      "line": 30
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "isTmpFile",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./common",
+      "line": 31
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "startsWith",
+      "kind": "method",
+      "receiver": "path",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 35
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "substring",
+      "kind": "method",
+      "receiver": "path",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 38
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "startsWith",
+      "kind": "method",
+      "receiver": "path",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 40
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "substring",
+      "kind": "method",
+      "receiver": "path",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 43
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "isHiddenFile",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./common",
+      "line": 47
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "isRenderable",
+      "kind": "method",
+      "receiver": "ctx.render",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 50
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "isMatch",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./common",
+      "line": 50
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "extname",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "path",
+      "line": 54
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "extname",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "path",
+      "line": 54
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "processPost",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 62
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "processAsset",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 64
+    },
+    {
+      "caller": "processPost",
+      "callee_text": "model",
+      "kind": "method",
+      "receiver": "ctx",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 71
+    },
+    {
+      "caller": "processPost",
+      "callee_text": "findOne",
+      "kind": "static",
+      "receiver": "Post",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 73
+    },
+    {
+      "caller": "processPost",
+      "callee_text": "remove",
+      "kind": "method",
+      "receiver": "doc",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 85
+    },
+    {
+      "caller": "processPost",
+      "callee_text": "then",
+      "kind": "method",
+      "receiver": "Promise.all([\n    file.stat(),\n    file.read()\n  ]).spread((stats: Stats, content: string) => {\n    const data: PostSchema = yfm(content);\n    const info = parseFilename(config.new_post_name, path);\n    const keys = Object.keys(info);\n\n    data.source = file.path;\n    data.raw = content;\n    data.slug = info.title;\n\n    if (file.params.published) {\n      if (!Object.prototype.hasOwnProperty.call(data, 'published')) data.published = true;\n    } else {\n      data.published = false;\n    }\n\n    for (let i = 0, len = keys.length; i < len; i++) {\n      const key = keys[i];\n      if (!preservedKeys[key]) data[key] = info[key];\n    }\n\n    // use `slug` as `title` of post when `title` is not specified.\n    // https://github.com/hexojs/hexo/issues/5372\n    if (use_slug_as_post_title && !('title' in data)) {\n      // @ts-expect-error - title is not in data\n      data.title = info.title;\n    }\n\n    if (data.date) {\n      data.date = toDate(data.date) as any;\n    } else if (info && info.year && (info.month || info.i_month) && (info.day || info.i_day)) {\n      data.date = new Date(\n        info.year,\n        parseInt(info.month || info.i_month, 10) - 1,\n        parseInt(info.day || info.i_day, 10)\n      ) as any;\n    }\n\n    if (data.date) {\n      if (timezone) data.date = adjustDateForTimezone(data.date, timezone) as any;\n    } else {\n      data.date = stats.birthtime as any;\n    }\n\n    data.updated = toDate(data.updated) as any;\n\n    if (data.updated) {\n      if (timezone) data.updated = adjustDateForTimezone(data.updated, timezone) as any;\n    } else if (updated_option === 'date') {\n      data.updated = data.date;\n    } else if (updated_option === 'empty') {\n      data.updated = undefined;\n    } else {\n      data.updated = stats.mtime as any;\n    }\n\n    if (data.category && !data.categories) {\n      data.categories = data.category;\n      data.category = undefined;\n    }\n\n    if (data.tag && !data.tags) {\n      data.tags = data.tag;\n      data.tag = undefined;\n    }\n\n    categories = data.categories || [];\n    tags = data.tags || [];\n\n    if (!Array.isArray(categories)) categories = [categories];\n    if (!Array.isArray(tags)) tags = [tags];\n\n    if (data.photo && !data.photos) {\n      data.photos = data.photo;\n      data.photo = undefined;\n    }\n\n    if (data.photos && !Array.isArray(data.photos)) {\n      data.photos = [data.photos];\n    }\n\n    if (data.permalink) {\n      data.__permalink = data.permalink;\n      data.permalink = undefined;\n    }\n\n    if (doc) {\n      if (file.type !== 'update') {\n        ctx.log.warn(`Trying to \"create\" ${magenta(file.path)}, but the file already exists!`);\n      }\n      return doc.replace(data);\n    }\n\n    return Post.insert(data);\n  })",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 91
+    },
+    {
+      "caller": "processPost",
+      "callee_text": "spread",
+      "kind": "method",
+      "receiver": "Promise.all([\n    file.stat(),\n    file.read()\n  ])",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 91
+    },
+    {
+      "caller": "processPost",
+      "callee_text": "all",
+      "kind": "static",
+      "receiver": "Promise",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 91
+    },
+    {
+      "caller": "processPost",
+      "callee_text": "stat",
+      "kind": "method",
+      "receiver": "file",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 92
+    },
+    {
+      "caller": "processPost",
+      "callee_text": "read",
+      "kind": "method",
+      "receiver": "file",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 93
+    },
+    {
+      "caller": "processPost",
+      "callee_text": "yfm",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-front-matter",
+      "line": 95
+    },
+    {
+      "caller": "processPost",
+      "callee_text": "parseFilename",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 96
+    },
+    {
+      "caller": "processPost",
+      "callee_text": "keys",
+      "kind": "static",
+      "receiver": "Object",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 97
+    },
+    {
+      "caller": "processPost",
+      "callee_text": "call",
+      "kind": "method",
+      "receiver": "Object.prototype.hasOwnProperty",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 104
+    },
+    {
+      "caller": "processPost",
+      "callee_text": "toDate",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./common",
+      "line": 122
+    },
+    {
+      "caller": "processPost",
+      "callee_text": "Date",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 124
+    },
+    {
+      "caller": "processPost",
+      "callee_text": "parseInt",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 126
+    },
+    {
+      "caller": "processPost",
+      "callee_text": "parseInt",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 127
+    },
+    {
+      "caller": "processPost",
+      "callee_text": "adjustDateForTimezone",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./common",
+      "line": 132
+    },
+    {
+      "caller": "processPost",
+      "callee_text": "toDate",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./common",
+      "line": 137
+    },
+    {
+      "caller": "processPost",
+      "callee_text": "adjustDateForTimezone",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./common",
+      "line": 140
+    },
+    {
+      "caller": "processPost",
+      "callee_text": "isArray",
+      "kind": "static",
+      "receiver": "Array",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 162
+    },
+    {
+      "caller": "processPost",
+      "callee_text": "isArray",
+      "kind": "static",
+      "receiver": "Array",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 163
+    },
+    {
+      "caller": "processPost",
+      "callee_text": "isArray",
+      "kind": "static",
+      "receiver": "Array",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 170
+    },
+    {
+      "caller": "processPost",
+      "callee_text": "warn",
+      "kind": "method",
+      "receiver": "ctx.log",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 181
+    },
+    {
+      "caller": "processPost",
+      "callee_text": "magenta",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "picocolors",
+      "line": 181
+    },
+    {
+      "caller": "processPost",
+      "callee_text": "replace",
+      "kind": "method",
+      "receiver": "doc",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 183
+    },
+    {
+      "caller": "processPost",
+      "callee_text": "insert",
+      "kind": "static",
+      "receiver": "Post",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 186
+    },
+    {
+      "caller": "processPost",
+      "callee_text": "then",
+      "kind": "method",
+      "receiver": "Promise.all([\n    doc.setCategories(categories),\n    doc.setTags(tags),\n    scanAssetDir(ctx, doc)\n  ])",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 187
+    },
+    {
+      "caller": "processPost",
+      "callee_text": "all",
+      "kind": "static",
+      "receiver": "Promise",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 187
+    },
+    {
+      "caller": "processPost",
+      "callee_text": "setCategories",
+      "kind": "method",
+      "receiver": "doc",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 188
+    },
+    {
+      "caller": "processPost",
+      "callee_text": "setTags",
+      "kind": "method",
+      "receiver": "doc",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 189
+    },
+    {
+      "caller": "processPost",
+      "callee_text": "scanAssetDir",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 190
+    },
+    {
+      "caller": "processPost",
+      "callee_text": "markFuturePostDirty",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 191
+    },
+    {
+      "caller": "parseFilename",
+      "callee_text": "substring",
+      "kind": "method",
+      "receiver": "config",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 195
+    },
+    {
+      "caller": "parseFilename",
+      "callee_text": "extname",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "path",
+      "line": 195
+    },
+    {
+      "caller": "parseFilename",
+      "callee_text": "substring",
+      "kind": "method",
+      "receiver": "path",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 196
+    },
+    {
+      "caller": "parseFilename",
+      "callee_text": "extname",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "path",
+      "line": 196
+    },
+    {
+      "caller": "parseFilename",
+      "callee_text": "Permalink",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-util",
+      "line": 199
+    },
+    {
+      "caller": "parseFilename",
+      "callee_text": "parse",
+      "kind": "method",
+      "receiver": "permalink",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 211
+    },
+    {
+      "caller": "parseFilename",
+      "callee_text": "assign",
+      "kind": "static",
+      "receiver": "Object",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 217
+    },
+    {
+      "caller": "parseFilename",
+      "callee_text": "slugize",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-util",
+      "line": 218
+    },
+    {
+      "caller": "parseFilename",
+      "callee_text": "slugize",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-util",
+      "line": 223
+    },
+    {
+      "caller": "scanAssetDir",
+      "callee_text": "model",
+      "kind": "method",
+      "receiver": "ctx",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 235
+    },
+    {
+      "caller": "scanAssetDir",
+      "callee_text": "map",
+      "kind": "method",
+      "receiver": "stat(assetDir).then(stats => {\n    if (!stats.isDirectory()) return [];\n\n    return listDir(assetDir);\n  }).catch(err => {\n    if (err && err.code === 'ENOENT') return [];\n    throw err;\n  }).filter(item => !isExcludedFile(item, ctx.config))",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 237
+    },
+    {
+      "caller": "scanAssetDir",
+      "callee_text": "filter",
+      "kind": "method",
+      "receiver": "stat(assetDir).then(stats => {\n    if (!stats.isDirectory()) return [];\n\n    return listDir(assetDir);\n  }).catch(err => {\n    if (err && err.code === 'ENOENT') return [];\n    throw err;\n  })",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 237
+    },
+    {
+      "caller": "scanAssetDir",
+      "callee_text": "catch",
+      "kind": "method",
+      "receiver": "stat(assetDir).then(stats => {\n    if (!stats.isDirectory()) return [];\n\n    return listDir(assetDir);\n  })",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 237
+    },
+    {
+      "caller": "scanAssetDir",
+      "callee_text": "then",
+      "kind": "method",
+      "receiver": "stat(assetDir)",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 237
+    },
+    {
+      "caller": "scanAssetDir",
+      "callee_text": "stat",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-fs",
+      "line": 237
+    },
+    {
+      "caller": "scanAssetDir",
+      "callee_text": "isDirectory",
+      "kind": "method",
+      "receiver": "stats",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 238
+    },
+    {
+      "caller": "scanAssetDir",
+      "callee_text": "listDir",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-fs",
+      "line": 240
+    },
+    {
+      "caller": "scanAssetDir",
+      "callee_text": "isExcludedFile",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./common",
+      "line": 244
+    },
+    {
+      "caller": "scanAssetDir",
+      "callee_text": "replace",
+      "kind": "method",
+      "receiver": "join(assetDir, item).substring(baseDirLength)",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 245
+    },
+    {
+      "caller": "scanAssetDir",
+      "callee_text": "substring",
+      "kind": "method",
+      "receiver": "join(assetDir, item)",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 245
+    },
+    {
+      "caller": "scanAssetDir",
+      "callee_text": "join",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "path",
+      "line": 245
+    },
+    {
+      "caller": "scanAssetDir",
+      "callee_text": "substring",
+      "kind": "method",
+      "receiver": "id",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 246
+    },
+    {
+      "caller": "scanAssetDir",
+      "callee_text": "findById",
+      "kind": "static",
+      "receiver": "PostAsset",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 247
+    },
+    {
+      "caller": "scanAssetDir",
+      "callee_text": "shouldSkipAsset",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 249
+    },
+    {
+      "caller": "scanAssetDir",
+      "callee_text": "save",
+      "kind": "static",
+      "receiver": "PostAsset",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 251
+    },
+    {
+      "caller": "scanAssetDir",
+      "callee_text": "isRenderable",
+      "kind": "method",
+      "receiver": "ctx.render",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 256
+    },
+    {
+      "caller": "scanAssetDir",
+      "callee_text": "isMatch",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./common",
+      "line": 256
+    },
+    {
+      "caller": "shouldSkipAsset",
+      "callee_text": "_showDrafts",
+      "kind": "method",
+      "receiver": "ctx",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 262
+    },
+    {
+      "caller": "shouldSkipAsset",
+      "callee_text": "remove",
+      "kind": "method",
+      "receiver": "asset",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 265
+    },
+    {
+      "caller": "markFuturePostDirty",
+      "callee_text": "valueOf",
+      "kind": "method",
+      "receiver": "post.date",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 277
+    },
+    {
+      "caller": "markFuturePostDirty",
+      "callee_text": "now",
+      "kind": "static",
+      "receiver": "Date",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 277
+    },
+    {
+      "caller": "markFuturePostDirty",
+      "callee_text": "replace",
+      "kind": "method",
+      "receiver": "file.source.substring(ctx.base_dir.length)",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 279
+    },
+    {
+      "caller": "markFuturePostDirty",
+      "callee_text": "substring",
+      "kind": "method",
+      "receiver": "file.source",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 279
+    },
+    {
+      "caller": "markFuturePostDirty",
+      "callee_text": "findById",
+      "kind": "method",
+      "receiver": "ctx.model('Cache')",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 280
+    },
+    {
+      "caller": "markFuturePostDirty",
+      "callee_text": "model",
+      "kind": "method",
+      "receiver": "ctx",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 280
+    },
+    {
+      "caller": "markFuturePostDirty",
+      "callee_text": "save",
+      "kind": "method",
+      "receiver": "cache",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 286
+    },
+    {
+      "caller": "processAsset",
+      "callee_text": "model",
+      "kind": "method",
+      "receiver": "ctx",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 290
+    },
+    {
+      "caller": "processAsset",
+      "callee_text": "model",
+      "kind": "method",
+      "receiver": "ctx",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 291
+    },
+    {
+      "caller": "processAsset",
+      "callee_text": "replace",
+      "kind": "method",
+      "receiver": "file.source.substring(ctx.base_dir.length)",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 292
+    },
+    {
+      "caller": "processAsset",
+      "callee_text": "substring",
+      "kind": "method",
+      "receiver": "file.source",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 292
+    },
+    {
+      "caller": "processAsset",
+      "callee_text": "findById",
+      "kind": "static",
+      "receiver": "PostAsset",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 293
+    },
+    {
+      "caller": "processAsset",
+      "callee_text": "remove",
+      "kind": "method",
+      "receiver": "postAsset",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 297
+    },
+    {
+      "caller": "processAsset",
+      "callee_text": "save",
+      "kind": "static",
+      "receiver": "PostAsset",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 303
+    },
+    {
+      "caller": "processAsset",
+      "callee_text": "substring",
+      "kind": "method",
+      "receiver": "file.source",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 305
+    },
+    {
+      "caller": "processAsset",
+      "callee_text": "findById",
+      "kind": "static",
+      "receiver": "Post",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 314
+    },
+    {
+      "caller": "processAsset",
+      "callee_text": "_showDrafts",
+      "kind": "method",
+      "receiver": "ctx",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 315
+    },
+    {
+      "caller": "processAsset",
+      "callee_text": "savePostAsset",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 316
+    },
+    {
+      "caller": "processAsset",
+      "callee_text": "slice",
+      "kind": "method",
+      "receiver": "id",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 322
+    },
+    {
+      "caller": "processAsset",
+      "callee_text": "lastIndexOf",
+      "kind": "method",
+      "receiver": "id",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 322
+    },
+    {
+      "caller": "processAsset",
+      "callee_text": "join",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "path",
+      "line": 325
+    },
+    {
+      "caller": "processAsset",
+      "callee_text": "filter",
+      "kind": "static",
+      "receiver": "Post",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 336
+    },
+    {
+      "caller": "processAsset",
+      "callee_text": "_showDrafts",
+      "kind": "method",
+      "receiver": "ctx",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 338
+    },
+    {
+      "caller": "processAsset",
+      "callee_text": "savePostAsset",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 339
+    },
+    {
+      "caller": "processAsset",
+      "callee_text": "remove",
+      "kind": "method",
+      "receiver": "postAsset",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 344
+    }
+  ],
+  "callable_refs": []
+}

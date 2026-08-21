@@ -1,0 +1,16 @@
+{
+  "relative_path": "src/values.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "values",
+      "callee_text": "purry",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./purry",
+      "line": 42
+    }
+  ],
+  "callable_refs": []
+}

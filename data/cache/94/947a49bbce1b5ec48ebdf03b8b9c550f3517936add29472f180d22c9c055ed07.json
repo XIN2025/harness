@@ -1,0 +1,13 @@
+{
+  "key": "947a49bbce1b5ec48ebdf03b8b9c550f3517936add29472f180d22c9c055ed07",
+  "model": "harness-qwen15b",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "4e86542f46208f217177928fc6443fde8214f3d5e8bd7c21432999baed773e53",
+  "relative_path": "src/partition.ts",
+  "response": "```json\n{\n  \"definitions\": [\"partition\", \"purry\"],\n  \"references\": [\n    {\"name\": \"purry\", \"source\": \"./purry\"},\n    {\"name\": \"partitionImplementation\", \"source\": \"./partition.ts\"}\n  ],\n  \"calls\": [],\n  \"type_assignments\": [],\n  \"definitions_rich\": []\n}\n```",
+  "created": "2026-08-08T20:23:59+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 8805,
+  "completion_tokens": 74
+}

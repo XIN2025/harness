@@ -1,0 +1,92 @@
+```json
+{
+  "definitions": [
+    "dropLast",
+    "dropLastImplementation"
+  ],
+  "references": [
+    {
+      "name": "IterableContainer",
+      "source": "./internal/types/IterableContainer",
+      "alias": null
+    },
+    {
+      "name": "purry",
+      "source": "./purry",
+      "alias": null
+    }
+  ],
+  "calls": [
+    {
+      "caller": "dropLast",
+      "callee_text": "purry",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./purry",
+      "line": 38
+    },
+    {
+      "caller": "dropLastImplementation",
+      "callee_text": "slice",
+      "kind": "method",
+      "receiver": "array",
+      "receiver_type_hint": "IterableContainer",
+      "callee_file_hint": "external",
+      "line": 44
+    },
+    {
+      "caller": "dropLastImplementation",
+      "callee_text": "max",
+      "kind": "static",
+      "receiver": "Math",
+      "receiver_type_hint": "Math",
+      "callee_file_hint": "external",
+      "line": 44
+    }
+  ],
+  "type_assignments": [
+    {
+      "scope": "module",
+      "var": "dropLastImplementation",
+      "type": null,
+      "type_module": null,
+      "from_call": null
+    }
+  ],
+  "definitions_rich": [
+    {
+      "name": "dropLast",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "args",
+          "type": "readonly unknown[]"
+        }
+      ],
+      "returns": "unknown",
+      "line": 37
+    },
+    {
+      "name": "dropLastImplementation",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "array",
+          "type": "T"
+        },
+        {
+          "name": "n",
+          "type": "number"
+        }
+      ],
+      "returns": "T[number][]",
+      "line": 41
+    }
+  ]
+}
+```

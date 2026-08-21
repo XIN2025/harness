@@ -1,0 +1,13 @@
+{
+  "key": "4e80d99e23b96003554f045dff39bfeca1d0f53603475afb17173a3e8bca5086",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "ef69523594bdbd8dd9d5c3daebd418856db2fe91d4fcc16283c5522824078097",
+  "relative_path": "src/toTitleCase.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"toTitleCase\", \"callee_text\": \"words\"},\n  {\"caller\": \"toTitleCaseImplementation\", \"callee_text\": \"test\"},\n  {\"caller\": \"toTitleCaseImplementation\", \"callee_text\": \"toLowerCase\"},\n  {\"caller\": \"toTitleCaseImplementation\", \"callee_text\": \"map\"},\n  {\"caller\": \"toTitleCaseImplementation\", \"callee_text\": \"toUpperCase\"},\n  {\"caller\": \"toTitleCaseImplementation\", \"callee_text\": \"slice\"},\n  {\"caller\": \"toTitleCaseImplementation\", \"callee_text\": \"toLowerCase\"},\n  {\"caller\": \"toTitleCaseImplementation\", \"callee_text\": \"join\"}\n]}",
+  "created": "2026-08-08T23:16:10+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 2007,
+  "completion_tokens": 141
+}

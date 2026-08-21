@@ -1,0 +1,5 @@
+{"callable_refs": [
+  {"caller": "zipWith", "callee_text": "lazyDataLastImpl"},
+  {"caller": "zipWith", "callee_text": "lazyImplementation"},
+  {"caller": "zipWith", "callee_text": "zipWithImplementation"}
+]}

@@ -1,0 +1,12 @@
+{"calls": [
+  {"caller": "meanBy", "callee_text": "purry"},
+  {"caller": "meanByImplementation", "callee_text": "entries"},
+  {"caller": "meanByImplementation", "callee_text": "for"},
+  {"caller": "meanByImplementation", "callee_text": "fn"},
+  {"caller": "meanByImplementation", "callee_text": "item"},
+  {"caller": "meanByImplementation", "callee_text": "index"},
+  {"caller": "meanByImplementation", "callee_text": "array"},
+  {"caller": "meanByImplementation", "callee_text": "sum"},
+  {"caller": "meanByImplementation", "callee_text": "array.length"},
+  {"caller": "meanByImplementation", "callee_text": "return"}
+]}

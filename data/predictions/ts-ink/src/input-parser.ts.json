@@ -1,0 +1,349 @@
+{
+  "relative_path": "src/input-parser.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "parseCsiSequence",
+      "callee_text": "codePointAt",
+      "kind": "method",
+      "receiver": "input",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 40
+    },
+    {
+      "caller": "parseCsiSequence",
+      "callee_text": "isCsiParameterByte",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 45
+    },
+    {
+      "caller": "parseCsiSequence",
+      "callee_text": "isCsiIntermediateByte",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 45
+    },
+    {
+      "caller": "parseCsiSequence",
+      "callee_text": "isCsiFinalByte",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 54
+    },
+    {
+      "caller": "parseCsiSequence",
+      "callee_text": "slice",
+      "kind": "method",
+      "receiver": "input",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 56
+    },
+    {
+      "caller": "parseSs3Sequence",
+      "callee_text": "codePointAt",
+      "kind": "method",
+      "receiver": "input",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 77
+    },
+    {
+      "caller": "parseSs3Sequence",
+      "callee_text": "isCsiFinalByte",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 78
+    },
+    {
+      "caller": "parseSs3Sequence",
+      "callee_text": "slice",
+      "kind": "method",
+      "receiver": "input",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 83
+    },
+    {
+      "caller": "parseControlSequence",
+      "callee_text": "parseCsiSequence",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 99
+    },
+    {
+      "caller": "parseControlSequence",
+      "callee_text": "parseSs3Sequence",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 103
+    },
+    {
+      "caller": "parseEscapedCodePoint",
+      "callee_text": "codePointAt",
+      "kind": "method",
+      "receiver": "input",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 116
+    },
+    {
+      "caller": "parseEscapedCodePoint",
+      "callee_text": "slice",
+      "kind": "method",
+      "receiver": "input",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 122
+    },
+    {
+      "caller": "parseEscapeSequence",
+      "callee_text": "parseControlSequence",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 148
+    },
+    {
+      "caller": "parseEscapeSequence",
+      "callee_text": "slice",
+      "kind": "method",
+      "receiver": "input",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 158
+    },
+    {
+      "caller": "parseEscapeSequence",
+      "callee_text": "parseControlSequence",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 163
+    },
+    {
+      "caller": "parseEscapeSequence",
+      "callee_text": "parseEscapedCodePoint",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 172
+    },
+    {
+      "caller": "splitBackspaceBytes",
+      "callee_text": "push",
+      "kind": "method",
+      "receiver": "events",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 187
+    },
+    {
+      "caller": "splitBackspaceBytes",
+      "callee_text": "slice",
+      "kind": "method",
+      "receiver": "text",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 187
+    },
+    {
+      "caller": "splitBackspaceBytes",
+      "callee_text": "push",
+      "kind": "method",
+      "receiver": "events",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 190
+    },
+    {
+      "caller": "splitBackspaceBytes",
+      "callee_text": "push",
+      "kind": "method",
+      "receiver": "events",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 196
+    },
+    {
+      "caller": "splitBackspaceBytes",
+      "callee_text": "slice",
+      "kind": "method",
+      "receiver": "text",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 196
+    },
+    {
+      "caller": "parseKeypresses",
+      "callee_text": "slice",
+      "kind": "method",
+      "receiver": "input",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 205
+    },
+    {
+      "caller": "parseKeypresses",
+      "callee_text": "indexOf",
+      "kind": "method",
+      "receiver": "input",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 209
+    },
+    {
+      "caller": "parseKeypresses",
+      "callee_text": "splitBackspaceBytes",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 211
+    },
+    {
+      "caller": "parseKeypresses",
+      "callee_text": "slice",
+      "kind": "method",
+      "receiver": "input",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 211
+    },
+    {
+      "caller": "parseKeypresses",
+      "callee_text": "splitBackspaceBytes",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 219
+    },
+    {
+      "caller": "parseKeypresses",
+      "callee_text": "slice",
+      "kind": "method",
+      "receiver": "input",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 219
+    },
+    {
+      "caller": "parseKeypresses",
+      "callee_text": "parseEscapeSequence",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 222
+    },
+    {
+      "caller": "parseKeypresses",
+      "callee_text": "pendingFrom",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 224
+    },
+    {
+      "caller": "parseKeypresses",
+      "callee_text": "indexOf",
+      "kind": "method",
+      "receiver": "input",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 229
+    },
+    {
+      "caller": "parseKeypresses",
+      "callee_text": "pendingFrom",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 231
+    },
+    {
+      "caller": "parseKeypresses",
+      "callee_text": "push",
+      "kind": "method",
+      "receiver": "events",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 234
+    },
+    {
+      "caller": "parseKeypresses",
+      "callee_text": "slice",
+      "kind": "method",
+      "receiver": "input",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 234
+    },
+    {
+      "caller": "parseKeypresses",
+      "callee_text": "push",
+      "kind": "method",
+      "receiver": "events",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 239
+    },
+    {
+      "caller": "createInputParser",
+      "callee_text": "parseKeypresses",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 261
+    },
+    {
+      "caller": "createInputParser",
+      "callee_text": "startsWith",
+      "kind": "method",
+      "receiver": "pending",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 269
+    },
+    {
+      "caller": "createInputParser",
+      "callee_text": "startsWith",
+      "kind": "method",
+      "receiver": "pending",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 270
+    },
+    {
+      "caller": "createInputParser",
+      "callee_text": "startsWith",
+      "kind": "method",
+      "receiver": "pending",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 275
+    }
+  ],
+  "callable_refs": []
+}

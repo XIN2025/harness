@@ -1,0 +1,169 @@
+{
+  "relative_path": "src/hooks/use-animation.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "useAnimation",
+      "callee_text": "normalizeAnimationInterval",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 69
+    },
+    {
+      "caller": "useAnimation",
+      "callee_text": "useContext",
+      "kind": "hook",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "react",
+      "line": 70
+    },
+    {
+      "caller": "useAnimation",
+      "callee_text": "useState",
+      "kind": "hook",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "react",
+      "line": 71
+    },
+    {
+      "caller": "useAnimation",
+      "callee_text": "useState",
+      "kind": "hook",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "react",
+      "line": 72
+    },
+    {
+      "caller": "useAnimation",
+      "callee_text": "useRef",
+      "kind": "hook",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "react",
+      "line": 73
+    },
+    {
+      "caller": "useAnimation",
+      "callee_text": "useRef",
+      "kind": "hook",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "react",
+      "line": 74
+    },
+    {
+      "caller": "useAnimation",
+      "callee_text": "useRef",
+      "kind": "hook",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "react",
+      "line": 75
+    },
+    {
+      "caller": "useAnimation",
+      "callee_text": "useCallback",
+      "kind": "hook",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "react",
+      "line": 83
+    },
+    {
+      "caller": "useAnimation",
+      "callee_text": "setResetKey",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 84
+    },
+    {
+      "caller": "useAnimation",
+      "callee_text": "useLayoutEffect",
+      "kind": "hook",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "react",
+      "line": 87
+    },
+    {
+      "caller": "useAnimation",
+      "callee_text": "setAnimState",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 96
+    },
+    {
+      "caller": "useAnimation",
+      "callee_text": "subscribe",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 100
+    },
+    {
+      "caller": "useAnimation",
+      "callee_text": "setAnimState",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 117
+    },
+    {
+      "caller": "useAnimation",
+      "callee_text": "floor",
+      "kind": "static",
+      "receiver": "Math",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 118
+    },
+    {
+      "caller": "useAnimation",
+      "callee_text": "useLayoutEffect",
+      "kind": "hook",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "react",
+      "line": 134
+    },
+    {
+      "caller": "normalizeAnimationInterval",
+      "callee_text": "isFinite",
+      "kind": "static",
+      "receiver": "Number",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 146
+    },
+    {
+      "caller": "normalizeAnimationInterval",
+      "callee_text": "min",
+      "kind": "static",
+      "receiver": "Math",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 150
+    },
+    {
+      "caller": "normalizeAnimationInterval",
+      "callee_text": "max",
+      "kind": "static",
+      "receiver": "Math",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 150
+    }
+  ],
+  "callable_refs": []
+}

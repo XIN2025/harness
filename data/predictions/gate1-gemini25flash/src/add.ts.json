@@ -1,0 +1,69 @@
+```json
+{
+  "definitions": [
+    "add",
+    "addImplementation"
+  ],
+  "references": [
+    {
+      "name": "purry",
+      "source": "./purry",
+      "alias": null
+    }
+  ],
+  "calls": [
+    {
+      "caller": "add",
+      "callee_text": "purry",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./purry",
+      "line": 27
+    }
+  ],
+  "type_assignments": [
+    {
+      "scope": "module",
+      "var": "addImplementation",
+      "type": null,
+      "type_module": null,
+      "from_call": null
+    }
+  ],
+  "definitions_rich": [
+    {
+      "name": "add",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "args",
+          "type": "readonly unknown[]"
+        }
+      ],
+      "returns": "unknown",
+      "line": 26
+    },
+    {
+      "name": "addImplementation",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "value",
+          "type": "number"
+        },
+        {
+          "name": "addend",
+          "type": "number"
+        }
+      ],
+      "returns": "number",
+      "line": 31
+    }
+  ]
+}
+```

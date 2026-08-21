@@ -1,0 +1,4 @@
+{"calls": [
+  {"caller": "mapKeys", "callee_text": "Object.entries"},
+  {"caller": "mapKeysImplementation", "callee_text": "keyMapper"}
+]}

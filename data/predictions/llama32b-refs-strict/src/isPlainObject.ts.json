@@ -1,0 +1,1 @@
+{"calls": [], "callable_refs": [{"caller": "isPlainObject", "callee_text": "typeof data !== \"object\" || data === null"}]}

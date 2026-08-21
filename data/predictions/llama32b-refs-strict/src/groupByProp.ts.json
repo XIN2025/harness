@@ -1,0 +1,6 @@
+{"callable_refs": [
+  {"caller": "groupByProp", "callee_text": "purry"},
+  {"caller": "groupByPropImplementation", "callee_text": "Object.create(null)"},
+  {"caller": "groupByPropImplementation", "callee_text": "output[key]"},
+  {"caller": "groupByPropImplementation", "callee_text": "items.push(item)"}
+]}

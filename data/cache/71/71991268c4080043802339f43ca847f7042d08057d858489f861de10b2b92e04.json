@@ -1,0 +1,13 @@
+{
+  "key": "71991268c4080043802339f43ca847f7042d08057d858489f861de10b2b92e04",
+  "model": "harness-qwen15b",
+  "prompt_version": "ours-v1-5c74cf9a927a",
+  "file_sha": "611680dfae8659b8d1d80dc3447cb2f2dfc6fe1c568116d2f32b257557e77258",
+  "relative_path": "src/keys.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"keys\",\n    \"IsNever\",\n    \"EnumerableStringKeyOf\",\n    \"IterableContainer\",\n    \"ToString\",\n    \"purry\",\n    \"Keys\",\n    \"IsIndexAfterSpread\",\n    \"IndicesAfterSpread\",\n    \"ObjectKeys\"\n  ],\n  \"references\": [],\n  \"calls\": [],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"keys\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [],\n      \"returns\": [\"Keys<T>\"],\n      \"line\": 1\n    },\n    {\n      \"name\": \"IsNever\",\n      \"kind\": \"type_alias\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [],\n      \"returns\": [\"boolean\"],\n      \"line\": 2\n    },\n    {\n      \"name\": \"EnumerableStringKeyOf\",\n      \"kind\": \"type_alias\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [],\n      \"returns\": [\"string\"],\n      \"line\": 3\n    },\n    {\n      \"name\": \"IterableContainer\",\n      \"kind\": \"type_alias\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [],\n      \"returns\": [\"unknown[] | []\"],\n      \"line\": 4\n    },\n    {\n      \"name\": \"ToString\",\n      \"kind\": \"type_alias\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [],\n      \"returns\": [\"string\"],\n      \"line\": 5\n    },\n    {\n      \"name\": \"purry\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [[\"T\", \"U\"], [\"R\"]]],\n      \"returns\": [\"R\"],\n      \"line\": 6\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:38:04+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1092,
+  "completion_tokens": 416
+}

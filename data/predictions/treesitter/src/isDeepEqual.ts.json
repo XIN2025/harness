@@ -1,0 +1,241 @@
+{
+  "relative_path": "src/isDeepEqual.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "isDeepEqual",
+      "callee_text": "purry",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./purry",
+      "line": 82
+    },
+    {
+      "caller": "isDeepEqualImplementation",
+      "callee_text": "is",
+      "kind": "static",
+      "receiver": "Object",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 90
+    },
+    {
+      "caller": "isDeepEqualImplementation",
+      "callee_text": "isComparablePrototype",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 104
+    },
+    {
+      "caller": "isDeepEqualImplementation",
+      "callee_text": "isArray",
+      "kind": "static",
+      "receiver": "Array",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 115
+    },
+    {
+      "caller": "isDeepEqualImplementation",
+      "callee_text": "isDeepEqualArrays",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 116
+    },
+    {
+      "caller": "isDeepEqualImplementation",
+      "callee_text": "isDeepEqualMaps",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 120
+    },
+    {
+      "caller": "isDeepEqualImplementation",
+      "callee_text": "isDeepEqualSets",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 124
+    },
+    {
+      "caller": "isDeepEqualImplementation",
+      "callee_text": "getTime",
+      "kind": "method",
+      "receiver": "data",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 128
+    },
+    {
+      "caller": "isDeepEqualImplementation",
+      "callee_text": "getTime",
+      "kind": "method",
+      "receiver": "(other as unknown as Date)",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 128
+    },
+    {
+      "caller": "isDeepEqualImplementation",
+      "callee_text": "toString",
+      "kind": "method",
+      "receiver": "data",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 132
+    },
+    {
+      "caller": "isDeepEqualImplementation",
+      "callee_text": "toString",
+      "kind": "method",
+      "receiver": "(other as unknown as RegExp)",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 132
+    },
+    {
+      "caller": "isDeepEqualImplementation",
+      "callee_text": "keys",
+      "kind": "static",
+      "receiver": "Object",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 141
+    },
+    {
+      "caller": "isDeepEqualImplementation",
+      "callee_text": "keys",
+      "kind": "static",
+      "receiver": "Object",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 141
+    },
+    {
+      "caller": "isDeepEqualImplementation",
+      "callee_text": "entries",
+      "kind": "static",
+      "receiver": "Object",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 145
+    },
+    {
+      "caller": "isDeepEqualImplementation",
+      "callee_text": "isDeepEqualImplementation",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 151
+    },
+    {
+      "caller": "isComparablePrototype",
+      "callee_text": "getPrototypeOf",
+      "kind": "static",
+      "receiver": "Object",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 166
+    },
+    {
+      "caller": "isComparablePrototype",
+      "callee_text": "getPrototypeOf",
+      "kind": "static",
+      "receiver": "Object",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 168
+    },
+    {
+      "caller": "isDeepEqualArrays",
+      "callee_text": "entries",
+      "kind": "method",
+      "receiver": "data",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 189
+    },
+    {
+      "caller": "isDeepEqualArrays",
+      "callee_text": "isDeepEqualImplementation",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 190
+    },
+    {
+      "caller": "isDeepEqualMaps",
+      "callee_text": "entries",
+      "kind": "method",
+      "receiver": "data",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 206
+    },
+    {
+      "caller": "isDeepEqualMaps",
+      "callee_text": "has",
+      "kind": "method",
+      "receiver": "other",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 207
+    },
+    {
+      "caller": "isDeepEqualMaps",
+      "callee_text": "isDeepEqualImplementation",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 211
+    },
+    {
+      "caller": "isDeepEqualMaps",
+      "callee_text": "get",
+      "kind": "method",
+      "receiver": "other",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 211
+    },
+    {
+      "caller": "isDeepEqualSets",
+      "callee_text": "entries",
+      "kind": "method",
+      "receiver": "otherCopy",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 236
+    },
+    {
+      "caller": "isDeepEqualSets",
+      "callee_text": "isDeepEqualImplementation",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 237
+    },
+    {
+      "caller": "isDeepEqualSets",
+      "callee_text": "splice",
+      "kind": "method",
+      "receiver": "otherCopy",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 239
+    }
+  ],
+  "callable_refs": []
+}

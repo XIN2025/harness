@@ -1,0 +1,13 @@
+{
+  "key": "7eaf8442026e3150414c266cc167c1a16346ba05de10277c972574e3e4e9daad",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "refs-v1-7386a79c1ab2+json",
+  "file_sha": "3a6473cc51ade6e5c787e5ab09a4cccbeeed67e742a1d1772d413aa5a78befc8",
+  "relative_path": "src/findLast.ts",
+  "response": "{\"callable_refs\": [{\"caller\": \"findLast\", \"callee_text\": \"findLastImplementation\"}]}",
+  "created": "2026-08-08T23:20:10+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1306,
+  "completion_tokens": 22
+}

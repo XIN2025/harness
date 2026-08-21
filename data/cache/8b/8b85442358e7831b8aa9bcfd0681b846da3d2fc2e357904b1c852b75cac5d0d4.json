@@ -1,0 +1,13 @@
+{
+  "key": "8b85442358e7831b8aa9bcfd0681b846da3d2fc2e357904b1c852b75cac5d0d4",
+  "model": "harness-qwen15b",
+  "prompt_version": "refs-strict-v1-ca2cfcfbecef+json",
+  "file_sha": "7e98f0acc415cae52d9f451e6034da44904d61582649328e0f244a80cf40e980",
+  "relative_path": "src/isDeepEqual.ts",
+  "response": "{\"callable_refs\": [{\"caller\": \"isDeepEqual\", \"callee_text\": \"isDeepEqualImplementation\"}, {\"caller\": \"isDeepEqual\", \"callee_text\": \"isComparablePrototype\"}, {\"caller\": \"isDeepEqualArrays\", \"callee_text\": \"isDeepEqualImplementation\"}, {\"caller\": \"isDeepEqualMaps\", \"callee_text\": \"isDeepEqualImplementation\"}, {\"caller\": \"isDeepEqualSets\", \"callee_text\": \"isDeepEqualImplementation\"}]}",
+  "created": "2026-08-09T05:46:36+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 2459,
+  "completion_tokens": 98
+}

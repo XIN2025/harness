@@ -1,0 +1,5 @@
+{"calls": [
+  {"caller": "keys", "callee_text": "Object.keys"},
+  {"caller": "keys", "callee_text": "pipe"},
+  {"caller": "keys", "callee_text": "keys"}
+]}

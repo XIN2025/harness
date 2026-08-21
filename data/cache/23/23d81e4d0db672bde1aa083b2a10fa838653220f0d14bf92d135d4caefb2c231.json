@@ -1,0 +1,13 @@
+{
+  "key": "23d81e4d0db672bde1aa083b2a10fa838653220f0d14bf92d135d4caefb2c231",
+  "model": "harness-qwen15b",
+  "prompt_version": "refs-strict-v1-ca2cfcfbecef+json",
+  "file_sha": "c59582fe2c11fdf31393cff4fbd74fd6e67eddab651e5a636141425462824bea",
+  "relative_path": "src/funnel.ts",
+  "response": "{\"callable_refs\": [\n  {\"caller\": \"funnel\", \"callee_text\": \"handleBurstEnd\"},\n  {\"caller\": \"funnel\", \"callee_text\": \"handleIntervalEnd\"}\n]}",
+  "created": "2026-08-09T05:45:39+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 3431,
+  "completion_tokens": 42
+}

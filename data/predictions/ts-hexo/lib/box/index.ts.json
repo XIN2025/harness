@@ -1,0 +1,1078 @@
+{
+  "relative_path": "lib/box/index.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "__module__",
+      "callee_text": "Pattern",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-util",
+      "line": 13
+    },
+    {
+      "caller": "Box.constructor",
+      "callee_text": "super",
+      "kind": "super",
+      "receiver": "super",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 40
+    },
+    {
+      "caller": "Box.constructor",
+      "callee_text": "assign",
+      "kind": "static",
+      "receiver": "Object",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 42
+    },
+    {
+      "caller": "Box.constructor",
+      "callee_text": "endsWith",
+      "kind": "method",
+      "receiver": "base",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 49
+    },
+    {
+      "caller": "Box.constructor",
+      "callee_text": "model",
+      "kind": "method",
+      "receiver": "ctx",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 58
+    },
+    {
+      "caller": "Box.constructor",
+      "callee_text": "_createFileClass",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 59
+    },
+    {
+      "caller": "Box.constructor",
+      "callee_text": "concat",
+      "kind": "method",
+      "receiver": "targets",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 62
+    },
+    {
+      "caller": "Box.constructor",
+      "callee_text": "filter",
+      "kind": "method",
+      "receiver": "targets.map(s => toRegExp(ctx, s))",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 65
+    },
+    {
+      "caller": "Box.constructor",
+      "callee_text": "map",
+      "kind": "method",
+      "receiver": "targets",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 65
+    },
+    {
+      "caller": "Box.constructor",
+      "callee_text": "toRegExp",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 65
+    },
+    {
+      "caller": "Box._createFileClass",
+      "callee_text": "render",
+      "kind": "method",
+      "receiver": "ctx.render",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 75
+    },
+    {
+      "caller": "Box._createFileClass",
+      "callee_text": "renderSync",
+      "kind": "method",
+      "receiver": "ctx.render",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 81
+    },
+    {
+      "caller": "Box.addProcessor",
+      "callee_text": "TypeError",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 100
+    },
+    {
+      "caller": "Box.addProcessor",
+      "callee_text": "Pattern",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-util",
+      "line": 101
+    },
+    {
+      "caller": "Box.addProcessor",
+      "callee_text": "push",
+      "kind": "this",
+      "receiver": "this.processors",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 103
+    },
+    {
+      "caller": "Box._readDir",
+      "callee_text": "map",
+      "kind": "method",
+      "receiver": "readDirWalker(ctx, base, results, this.ignore, prefix)\n      .return(results)\n      .map(path => this._checkFileStatus(path))",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 112
+    },
+    {
+      "caller": "Box._readDir",
+      "callee_text": "map",
+      "kind": "method",
+      "receiver": "readDirWalker(ctx, base, results, this.ignore, prefix)\n      .return(results)",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 112
+    },
+    {
+      "caller": "Box._readDir",
+      "callee_text": "return",
+      "kind": "method",
+      "receiver": "readDirWalker(ctx, base, results, this.ignore, prefix)",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 112
+    },
+    {
+      "caller": "Box._readDir",
+      "callee_text": "readDirWalker",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 112
+    },
+    {
+      "caller": "Box._readDir",
+      "callee_text": "_checkFileStatus",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 114
+    },
+    {
+      "caller": "Box._readDir",
+      "callee_text": "return",
+      "kind": "this",
+      "receiver": "this._processFile(file.type, file.path)",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 115
+    },
+    {
+      "caller": "Box._readDir",
+      "callee_text": "_processFile",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 115
+    },
+    {
+      "caller": "Box._checkFileStatus",
+      "callee_text": "join",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "path",
+      "line": 120
+    },
+    {
+      "caller": "Box._checkFileStatus",
+      "callee_text": "then",
+      "kind": "method",
+      "receiver": "Cache.compareFile(\n      escapeBackslash(src.substring(ctx.base_dir.length)),\n      () => getHash(src),\n      () => stat(src)\n    )",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 122
+    },
+    {
+      "caller": "Box._checkFileStatus",
+      "callee_text": "compareFile",
+      "kind": "static",
+      "receiver": "Cache",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 122
+    },
+    {
+      "caller": "Box._checkFileStatus",
+      "callee_text": "escapeBackslash",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 123
+    },
+    {
+      "caller": "Box._checkFileStatus",
+      "callee_text": "substring",
+      "kind": "method",
+      "receiver": "src",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 123
+    },
+    {
+      "caller": "Box._checkFileStatus",
+      "callee_text": "getHash",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 124
+    },
+    {
+      "caller": "Box._checkFileStatus",
+      "callee_text": "stat",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-fs",
+      "line": 125
+    },
+    {
+      "caller": "Box.process",
+      "callee_text": "asCallback",
+      "kind": "method",
+      "receiver": "stat(base).then(stats => {\n      if (!stats.isDirectory()) return;\n\n      // Check existing files in cache\n      const relativeBase = escapeBackslash(base.substring(ctx.base_dir.length));\n      const cacheFiles: string[] = Cache.filter(item => item._id.startsWith(relativeBase)).map(item => item._id.substring(relativeBase.length));\n\n      // Handle deleted files\n      return this._readDir(base)\n        .then(files => cacheFiles.filter(path => !files.includes(path)))\n        .map(path => this._processFile(File.TYPE_DELETE, path));\n    }).catch(err => {\n      if (err && err.code !== 'ENOENT') throw err;\n    })",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 135
+    },
+    {
+      "caller": "Box.process",
+      "callee_text": "catch",
+      "kind": "method",
+      "receiver": "stat(base).then(stats => {\n      if (!stats.isDirectory()) return;\n\n      // Check existing files in cache\n      const relativeBase = escapeBackslash(base.substring(ctx.base_dir.length));\n      const cacheFiles: string[] = Cache.filter(item => item._id.startsWith(relativeBase)).map(item => item._id.substring(relativeBase.length));\n\n      // Handle deleted files\n      return this._readDir(base)\n        .then(files => cacheFiles.filter(path => !files.includes(path)))\n        .map(path => this._processFile(File.TYPE_DELETE, path));\n    })",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 135
+    },
+    {
+      "caller": "Box.process",
+      "callee_text": "then",
+      "kind": "method",
+      "receiver": "stat(base)",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 135
+    },
+    {
+      "caller": "Box.process",
+      "callee_text": "stat",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-fs",
+      "line": 135
+    },
+    {
+      "caller": "Box.process",
+      "callee_text": "isDirectory",
+      "kind": "method",
+      "receiver": "stats",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 136
+    },
+    {
+      "caller": "Box.process",
+      "callee_text": "escapeBackslash",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 139
+    },
+    {
+      "caller": "Box.process",
+      "callee_text": "substring",
+      "kind": "method",
+      "receiver": "base",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 139
+    },
+    {
+      "caller": "Box.process",
+      "callee_text": "map",
+      "kind": "method",
+      "receiver": "Cache.filter(item => item._id.startsWith(relativeBase))",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 140
+    },
+    {
+      "caller": "Box.process",
+      "callee_text": "filter",
+      "kind": "static",
+      "receiver": "Cache",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 140
+    },
+    {
+      "caller": "Box.process",
+      "callee_text": "startsWith",
+      "kind": "method",
+      "receiver": "item._id",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 140
+    },
+    {
+      "caller": "Box.process",
+      "callee_text": "substring",
+      "kind": "method",
+      "receiver": "item._id",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 140
+    },
+    {
+      "caller": "Box.process",
+      "callee_text": "map",
+      "kind": "this",
+      "receiver": "this._readDir(base)\n        .then(files => cacheFiles.filter(path => !files.includes(path)))",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 143
+    },
+    {
+      "caller": "Box.process",
+      "callee_text": "then",
+      "kind": "this",
+      "receiver": "this._readDir(base)",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 143
+    },
+    {
+      "caller": "Box.process",
+      "callee_text": "_readDir",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 143
+    },
+    {
+      "caller": "Box.process",
+      "callee_text": "filter",
+      "kind": "method",
+      "receiver": "cacheFiles",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 144
+    },
+    {
+      "caller": "Box.process",
+      "callee_text": "includes",
+      "kind": "method",
+      "receiver": "files",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 144
+    },
+    {
+      "caller": "Box.process",
+      "callee_text": "_processFile",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 145
+    },
+    {
+      "caller": "Box._processFile",
+      "callee_text": "resolve",
+      "kind": "static",
+      "receiver": "BlueBirdPromise",
+      "receiver_type_hint": null,
+      "callee_file_hint": "bluebird",
+      "line": 153
+    },
+    {
+      "caller": "Box._processFile",
+      "callee_text": "emit",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 160
+    },
+    {
+      "caller": "Box._processFile",
+      "callee_text": "thenReturn",
+      "kind": "method",
+      "receiver": "BlueBirdPromise.reduce(this.processors, (count, processor) => {\n      const params = processor.pattern.match(path);\n      if (!params) return count;\n\n      const file: File = new File({\n        // source is used for filesystem path, keep backslashes on Windows\n        source: join(base, path),\n        // path is used for URL path, replace backslashes on Windows\n        path: escapeBackslash(path),\n        params,\n        type\n      });\n\n      return Reflect.apply(BlueBirdPromise.method(processor.process), ctx, [file])\n        .thenReturn(count + 1);\n    }, 0).then(count => {\n      if (count) {\n        ctx.log.debug('Processed: %s', magenta(path));\n      }\n\n      this.emit('processAfter', {\n        type,\n        path\n      });\n    }).catch(err => {\n      ctx.log.error({ err }, 'Process failed: %s', magenta(path));\n    }).finally(() => {\n      this._processingFiles[path] = false;\n    })",
+      "receiver_type_hint": null,
+      "callee_file_hint": "bluebird",
+      "line": 165
+    },
+    {
+      "caller": "Box._processFile",
+      "callee_text": "finally",
+      "kind": "method",
+      "receiver": "BlueBirdPromise.reduce(this.processors, (count, processor) => {\n      const params = processor.pattern.match(path);\n      if (!params) return count;\n\n      const file: File = new File({\n        // source is used for filesystem path, keep backslashes on Windows\n        source: join(base, path),\n        // path is used for URL path, replace backslashes on Windows\n        path: escapeBackslash(path),\n        params,\n        type\n      });\n\n      return Reflect.apply(BlueBirdPromise.method(processor.process), ctx, [file])\n        .thenReturn(count + 1);\n    }, 0).then(count => {\n      if (count) {\n        ctx.log.debug('Processed: %s', magenta(path));\n      }\n\n      this.emit('processAfter', {\n        type,\n        path\n      });\n    }).catch(err => {\n      ctx.log.error({ err }, 'Process failed: %s', magenta(path));\n    })",
+      "receiver_type_hint": null,
+      "callee_file_hint": "bluebird",
+      "line": 165
+    },
+    {
+      "caller": "Box._processFile",
+      "callee_text": "catch",
+      "kind": "method",
+      "receiver": "BlueBirdPromise.reduce(this.processors, (count, processor) => {\n      const params = processor.pattern.match(path);\n      if (!params) return count;\n\n      const file: File = new File({\n        // source is used for filesystem path, keep backslashes on Windows\n        source: join(base, path),\n        // path is used for URL path, replace backslashes on Windows\n        path: escapeBackslash(path),\n        params,\n        type\n      });\n\n      return Reflect.apply(BlueBirdPromise.method(processor.process), ctx, [file])\n        .thenReturn(count + 1);\n    }, 0).then(count => {\n      if (count) {\n        ctx.log.debug('Processed: %s', magenta(path));\n      }\n\n      this.emit('processAfter', {\n        type,\n        path\n      });\n    })",
+      "receiver_type_hint": null,
+      "callee_file_hint": "bluebird",
+      "line": 165
+    },
+    {
+      "caller": "Box._processFile",
+      "callee_text": "then",
+      "kind": "method",
+      "receiver": "BlueBirdPromise.reduce(this.processors, (count, processor) => {\n      const params = processor.pattern.match(path);\n      if (!params) return count;\n\n      const file: File = new File({\n        // source is used for filesystem path, keep backslashes on Windows\n        source: join(base, path),\n        // path is used for URL path, replace backslashes on Windows\n        path: escapeBackslash(path),\n        params,\n        type\n      });\n\n      return Reflect.apply(BlueBirdPromise.method(processor.process), ctx, [file])\n        .thenReturn(count + 1);\n    }, 0)",
+      "receiver_type_hint": null,
+      "callee_file_hint": "bluebird",
+      "line": 165
+    },
+    {
+      "caller": "Box._processFile",
+      "callee_text": "reduce",
+      "kind": "static",
+      "receiver": "BlueBirdPromise",
+      "receiver_type_hint": null,
+      "callee_file_hint": "bluebird",
+      "line": 165
+    },
+    {
+      "caller": "Box._processFile",
+      "callee_text": "match",
+      "kind": "method",
+      "receiver": "processor.pattern",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 166
+    },
+    {
+      "caller": "Box._processFile",
+      "callee_text": "File",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./file",
+      "line": 169
+    },
+    {
+      "caller": "Box._processFile",
+      "callee_text": "join",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "path",
+      "line": 171
+    },
+    {
+      "caller": "Box._processFile",
+      "callee_text": "escapeBackslash",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 173
+    },
+    {
+      "caller": "Box._processFile",
+      "callee_text": "thenReturn",
+      "kind": "method",
+      "receiver": "Reflect.apply(BlueBirdPromise.method(processor.process), ctx, [file])",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 178
+    },
+    {
+      "caller": "Box._processFile",
+      "callee_text": "apply",
+      "kind": "static",
+      "receiver": "Reflect",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 178
+    },
+    {
+      "caller": "Box._processFile",
+      "callee_text": "method",
+      "kind": "static",
+      "receiver": "BlueBirdPromise",
+      "receiver_type_hint": null,
+      "callee_file_hint": "bluebird",
+      "line": 178
+    },
+    {
+      "caller": "Box._processFile",
+      "callee_text": "debug",
+      "kind": "method",
+      "receiver": "ctx.log",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 182
+    },
+    {
+      "caller": "Box._processFile",
+      "callee_text": "magenta",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "picocolors",
+      "line": 182
+    },
+    {
+      "caller": "Box._processFile",
+      "callee_text": "emit",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 185
+    },
+    {
+      "caller": "Box._processFile",
+      "callee_text": "error",
+      "kind": "method",
+      "receiver": "ctx.log",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 190
+    },
+    {
+      "caller": "Box._processFile",
+      "callee_text": "magenta",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "picocolors",
+      "line": 190
+    },
+    {
+      "caller": "Box.watch",
+      "callee_text": "isWatching",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 197
+    },
+    {
+      "caller": "Box.watch",
+      "callee_text": "asCallback",
+      "kind": "method",
+      "receiver": "BlueBirdPromise.reject(new Error('Watcher has already started.'))",
+      "receiver_type_hint": null,
+      "callee_file_hint": "bluebird",
+      "line": 198
+    },
+    {
+      "caller": "Box.watch",
+      "callee_text": "reject",
+      "kind": "static",
+      "receiver": "BlueBirdPromise",
+      "receiver_type_hint": null,
+      "callee_file_hint": "bluebird",
+      "line": 198
+    },
+    {
+      "caller": "Box.watch",
+      "callee_text": "Error",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 198
+    },
+    {
+      "caller": "Box.watch",
+      "callee_text": "escapeBackslash",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 204
+    },
+    {
+      "caller": "Box.watch",
+      "callee_text": "substring",
+      "kind": "method",
+      "receiver": "path",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 204
+    },
+    {
+      "caller": "Box.watch",
+      "callee_text": "asCallback",
+      "kind": "this",
+      "receiver": "this.process().then(() => watch(base, this.options)).then(watcher => {\n      this.watcher = watcher;\n\n      watcher.on('add', path => {\n        this._processFile(File.TYPE_CREATE, getPath(path));\n      });\n\n      watcher.on('change', path => {\n        this._processFile(File.TYPE_UPDATE, getPath(path));\n      });\n\n      watcher.on('unlink', path => {\n        this._processFile(File.TYPE_DELETE, getPath(path));\n      });\n\n      watcher.on('addDir', path => {\n        let prefix = getPath(path);\n        if (prefix) prefix += '/';\n\n        this._readDir(path, prefix);\n      });\n    })",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 207
+    },
+    {
+      "caller": "Box.watch",
+      "callee_text": "then",
+      "kind": "this",
+      "receiver": "this.process().then(() => watch(base, this.options))",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 207
+    },
+    {
+      "caller": "Box.watch",
+      "callee_text": "then",
+      "kind": "this",
+      "receiver": "this.process()",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 207
+    },
+    {
+      "caller": "Box.watch",
+      "callee_text": "process",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 207
+    },
+    {
+      "caller": "Box.watch",
+      "callee_text": "watch",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-fs",
+      "line": 207
+    },
+    {
+      "caller": "Box.watch",
+      "callee_text": "on",
+      "kind": "method",
+      "receiver": "watcher",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 210
+    },
+    {
+      "caller": "Box.watch",
+      "callee_text": "_processFile",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 211
+    },
+    {
+      "caller": "Box.watch",
+      "callee_text": "getPath",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 211
+    },
+    {
+      "caller": "Box.watch",
+      "callee_text": "on",
+      "kind": "method",
+      "receiver": "watcher",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 214
+    },
+    {
+      "caller": "Box.watch",
+      "callee_text": "_processFile",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 215
+    },
+    {
+      "caller": "Box.watch",
+      "callee_text": "getPath",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 215
+    },
+    {
+      "caller": "Box.watch",
+      "callee_text": "on",
+      "kind": "method",
+      "receiver": "watcher",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 218
+    },
+    {
+      "caller": "Box.watch",
+      "callee_text": "_processFile",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 219
+    },
+    {
+      "caller": "Box.watch",
+      "callee_text": "getPath",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 219
+    },
+    {
+      "caller": "Box.watch",
+      "callee_text": "on",
+      "kind": "method",
+      "receiver": "watcher",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 222
+    },
+    {
+      "caller": "Box.watch",
+      "callee_text": "getPath",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 223
+    },
+    {
+      "caller": "Box.watch",
+      "callee_text": "_readDir",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 226
+    },
+    {
+      "caller": "Box.unwatch",
+      "callee_text": "isWatching",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 232
+    },
+    {
+      "caller": "Box.unwatch",
+      "callee_text": "close",
+      "kind": "this",
+      "receiver": "this.watcher",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 234
+    },
+    {
+      "caller": "Box.isWatching",
+      "callee_text": "Boolean",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 239
+    },
+    {
+      "caller": "escapeBackslash",
+      "callee_text": "replace",
+      "kind": "method",
+      "receiver": "path",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 245
+    },
+    {
+      "caller": "getHash",
+      "callee_text": "createReadStream",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-fs",
+      "line": 249
+    },
+    {
+      "caller": "getHash",
+      "callee_text": "createSha1Hash",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-util",
+      "line": 250
+    },
+    {
+      "caller": "getHash",
+      "callee_text": "BlueBirdPromise",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "bluebird",
+      "line": 252
+    },
+    {
+      "caller": "getHash",
+      "callee_text": "once",
+      "kind": "method",
+      "receiver": "src",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 253
+    },
+    {
+      "caller": "getHash",
+      "callee_text": "once",
+      "kind": "method",
+      "receiver": "src",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 254
+    },
+    {
+      "caller": "getHash",
+      "callee_text": "on",
+      "kind": "method",
+      "receiver": "src",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 257
+    },
+    {
+      "caller": "getHash",
+      "callee_text": "update",
+      "kind": "method",
+      "receiver": "hasher",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 257
+    },
+    {
+      "caller": "getHash",
+      "callee_text": "then",
+      "kind": "method",
+      "receiver": "finishedPromise",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 259
+    },
+    {
+      "caller": "getHash",
+      "callee_text": "digest",
+      "kind": "method",
+      "receiver": "hasher",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 259
+    },
+    {
+      "caller": "toRegExp",
+      "callee_text": "warn",
+      "kind": "method",
+      "receiver": "ctx.log",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 265
+    },
+    {
+      "caller": "toRegExp",
+      "callee_text": "makeRe",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "micromatch",
+      "line": 268
+    },
+    {
+      "caller": "toRegExp",
+      "callee_text": "warn",
+      "kind": "method",
+      "receiver": "ctx.log",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 270
+    },
+    {
+      "caller": "isIgnoreMatch",
+      "callee_text": "isMatch",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "micromatch",
+      "line": 277
+    },
+    {
+      "caller": "readDirWalker",
+      "callee_text": "isIgnoreMatch",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 281
+    },
+    {
+      "caller": "readDirWalker",
+      "callee_text": "resolve",
+      "kind": "static",
+      "receiver": "BlueBirdPromise",
+      "receiver_type_hint": null,
+      "callee_file_hint": "bluebird",
+      "line": 281
+    },
+    {
+      "caller": "readDirWalker",
+      "callee_text": "map",
+      "kind": "static",
+      "receiver": "BlueBirdPromise",
+      "receiver_type_hint": null,
+      "callee_file_hint": "bluebird",
+      "line": 283
+    },
+    {
+      "caller": "readDirWalker",
+      "callee_text": "catch",
+      "kind": "method",
+      "receiver": "readdir(base)",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 283
+    },
+    {
+      "caller": "readDirWalker",
+      "callee_text": "readdir",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-fs",
+      "line": 283
+    },
+    {
+      "caller": "readDirWalker",
+      "callee_text": "error",
+      "kind": "method",
+      "receiver": "ctx.log",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 284
+    },
+    {
+      "caller": "readDirWalker",
+      "callee_text": "join",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "path",
+      "line": 288
+    },
+    {
+      "caller": "readDirWalker",
+      "callee_text": "catch",
+      "kind": "method",
+      "receiver": "stat(fullPath)",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 289
+    },
+    {
+      "caller": "readDirWalker",
+      "callee_text": "stat",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-fs",
+      "line": 289
+    },
+    {
+      "caller": "readDirWalker",
+      "callee_text": "error",
+      "kind": "method",
+      "receiver": "ctx.log",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 290
+    },
+    {
+      "caller": "readDirWalker",
+      "callee_text": "isDirectory",
+      "kind": "method",
+      "receiver": "stats",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 296
+    },
+    {
+      "caller": "readDirWalker",
+      "callee_text": "readDirWalker",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 297
+    },
+    {
+      "caller": "readDirWalker",
+      "callee_text": "isIgnoreMatch",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 299
+    },
+    {
+      "caller": "readDirWalker",
+      "callee_text": "push",
+      "kind": "method",
+      "receiver": "results",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 300
+    }
+  ],
+  "callable_refs": []
+}

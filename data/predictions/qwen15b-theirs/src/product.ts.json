@@ -1,0 +1,57 @@
+```json
+{
+  "definitions": [
+    "product",
+    "purry",
+    "IterableContainer",
+    "Product",
+    "number",
+    "bigint",
+    "Box"
+  ],
+  "references": [
+    {"name": "product", "source": "./src/product.ts"},
+    {"name": "purry", "source": "./src/purry.ts"},
+    {"name": "IterableContainer", "source": "./src/internal/types/IterableContainer.ts"},
+    {"name": "Product", "source": "./src/product.ts"},
+    {"name": "number", "source": "./src/product.ts"},
+    {"name": "bigint", "source": "./src/product.ts"},
+    {"name": "Box", "source": "./src/components/Box.ts"}
+  ],
+  "calls": [
+    {
+      "caller": "product",
+      "callee_text": "pipe",
+      "kind": "hook",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 1
+    }
+  ],
+  "type_assignments": [
+    {"scope": "module", "var": "product", "type": "function", "type_module": "./src/product.ts"},
+    {"scope": "module", "var": "purry", "type": "function", "type_module": "./src/purry.ts"}
+  ],
+  "definitions_rich": [
+    {
+      "name": "product",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "data", "type": "IterableContainer<bigint> | IterableContainer<number>"}],
+      "returns": "Product<T>",
+      "line": 1
+    },
+    {
+      "name": "purry",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "fn", "type": "Function"}],
+      "returns": "Function",
+      "line": 2
+    }
+  ]
+}
+```

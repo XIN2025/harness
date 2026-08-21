@@ -1,0 +1,4 @@
+{"calls": [
+  {"caller": "unique", "callee_text": "purryFromLazy"},
+  {"caller": "unique", "callee_text": "lazyImplementation"}
+]}

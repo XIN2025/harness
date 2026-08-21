@@ -1,0 +1,12 @@
+```json
+{
+  "definitions": ["purry", "strictFunction"],
+  "references": [
+    {"name": "purr", "source": "./src/purry.ts"},
+    {"name": "strictFunction", "source": "./src/internal/types/StrictFunction"}
+  ],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": []
+}
+```

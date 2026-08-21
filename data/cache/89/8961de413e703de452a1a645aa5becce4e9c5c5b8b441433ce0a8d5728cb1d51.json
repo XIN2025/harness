@@ -1,0 +1,13 @@
+{
+  "key": "8961de413e703de452a1a645aa5becce4e9c5c5b8b441433ce0a8d5728cb1d51",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "refs-strict-v1-ca2cfcfbecef+json",
+  "file_sha": "59890bbbe28762e2f42ad2344de58deda440fad7f9c5520fd3d947abf3cd162c",
+  "relative_path": "src/swapIndices.ts",
+  "response": "{\"callable_refs\": [{\"caller\": \"swapIndices\", \"callee_text\": \"swapArrayInternal\"}]}",
+  "created": "2026-08-09T06:08:19+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 2142,
+  "completion_tokens": 22
+}

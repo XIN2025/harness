@@ -1,0 +1,13 @@
+{
+  "key": "d8769a436766ed9490d09463995463e734baed098c941eadf36e77b8edaabfa5",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "refs-strict-v1-ca2cfcfbecef+json",
+  "file_sha": "7bafff714c3541b8dce19c4579f7f80b753e64c6077a911cce10e78979eb7bae",
+  "relative_path": "src/dropFirstBy.ts",
+  "response": "{\"callable_refs\": [\n  {\"caller\": \"dropFirstBy\", \"callee_text\": \"dropFirstByImplementation\"},\n  {\"caller\": \"dropFirstBy\", \"callee_text\": \"purryOrderRulesWithArgument\"},\n  {\"caller\": \"dropFirstByImplementation\", \"callee_text\": \"heapify\"},\n  {\"caller\": \"dropFirstByImplementation\", \"callee_text\": \"heapMaybeInsert\"}\n]}",
+  "created": "2026-08-09T05:59:50+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1390,
+  "completion_tokens": 84
+}

@@ -1,0 +1,7 @@
+{
+  "calls": [],
+  "callable_refs": [
+    {"caller": "findLast", "callee_text": "findLastImplementation"},
+    {"caller": "findLastImplementation", "callee_text": "predicate"}
+  ]
+}

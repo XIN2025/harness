@@ -1,0 +1,166 @@
+```json
+{
+  "definitions": [
+    "dropFirstBy",
+    "dropFirstByImplementation"
+  ],
+  "references": [
+    {
+      "name": "heapify",
+      "source": "./internal/heap",
+      "alias": null
+    },
+    {
+      "name": "heapMaybeInsert",
+      "source": "./internal/heap",
+      "alias": null
+    },
+    {
+      "name": "purryOrderRulesWithArgument",
+      "source": "./internal/purryOrderRules",
+      "alias": null
+    },
+    {
+      "name": "OrderRule",
+      "source": "./internal/purryOrderRules",
+      "alias": null
+    },
+    {
+      "name": "CompareFunction",
+      "source": "./internal/types/CompareFunction",
+      "alias": null
+    },
+    {
+      "name": "NonEmptyArray",
+      "source": "./internal/types/NonEmptyArray",
+      "alias": null
+    }
+  ],
+  "calls": [
+    {
+      "caller": "dropFirstBy",
+      "callee_text": "purryOrderRulesWithArgument",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./internal/purryOrderRules",
+      "line": 39
+    },
+    {
+      "caller": "dropFirstBy",
+      "callee_text": "dropFirstByImplementation",
+      "kind": "hook",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 39
+    },
+    {
+      "caller": "dropFirstByImplementation",
+      "callee_text": "slice",
+      "kind": "method",
+      "receiver": "data",
+      "receiver_type_hint": "Array",
+      "callee_file_hint": "external",
+      "line": 49
+    },
+    {
+      "caller": "dropFirstByImplementation",
+      "callee_text": "heapify",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./internal/heap",
+      "line": 50
+    },
+    {
+      "caller": "dropFirstByImplementation",
+      "callee_text": "slice",
+      "kind": "method",
+      "receiver": "data",
+      "receiver_type_hint": "Array",
+      "callee_file_hint": "external",
+      "line": 53
+    },
+    {
+      "caller": "dropFirstByImplementation",
+      "callee_text": "heapMaybeInsert",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./internal/heap",
+      "line": 55
+    },
+    {
+      "caller": "dropFirstByImplementation",
+      "callee_text": "push",
+      "kind": "method",
+      "receiver": "out",
+      "receiver_type_hint": "Array",
+      "callee_file_hint": "external",
+      "line": 56
+    }
+  ],
+  "type_assignments": [
+    {
+      "scope": "dropFirstByImplementation",
+      "var": "heap",
+      "type": "Array",
+      "type_module": "external",
+      "from_call": "slice"
+    },
+    {
+      "scope": "dropFirstByImplementation",
+      "var": "out",
+      "type": "Array",
+      "type_module": "external",
+      "from_call": null
+    },
+    {
+      "scope": "dropFirstByImplementation",
+      "var": "rest",
+      "type": "Array",
+      "type_module": "external",
+      "from_call": "slice"
+    }
+  ],
+  "definitions_rich": [
+    {
+      "name": "dropFirstBy",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "args",
+          "type": "unknown[]"
+        }
+      ],
+      "returns": "unknown",
+      "line": 38
+    },
+    {
+      "name": "dropFirstByImplementation",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "T[]"
+        },
+        {
+          "name": "compareFn",
+          "type": "CompareFunction"
+        },
+        {
+          "name": "n",
+          "type": "number"
+        }
+      ],
+      "returns": "T[]",
+      "line": 42
+    }
+  ]
+}
+```

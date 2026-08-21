@@ -1,0 +1,7 @@
+{"calls": [
+  {"caller": "set", "callee_text": "purry"},
+  {"caller": "setImplementation", "callee_text": "pipe"},
+  {"caller": "setImplementation", "callee_text": "UpsertProp"},
+  {"caller": "setImplementation", "callee_text": "addProp"},
+  {"caller": "setImplementation", "callee_text": "setPath"}
+]}

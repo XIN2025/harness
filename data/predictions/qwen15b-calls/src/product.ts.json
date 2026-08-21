@@ -1,0 +1,6 @@
+{"calls": [
+  {"caller": "product", "callee_text": "purry"},
+  {"caller": "productImplementation", "callee_text": "typeof"},
+  {"caller": "productImplementation", "callee_text": "for...of"},
+  {"caller": "productImplementation", "callee_text": "*"}
+]}

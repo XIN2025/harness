@@ -1,0 +1,10 @@
+{"calls": [
+  {"caller": "toTitleCase", "callee_text": "words"},
+  {"caller": "toTitleCaseImplementation", "callee_text": "test"},
+  {"caller": "toTitleCaseImplementation", "callee_text": "toLowerCase"},
+  {"caller": "toTitleCaseImplementation", "callee_text": "map"},
+  {"caller": "toTitleCaseImplementation", "callee_text": "toUpperCase"},
+  {"caller": "toTitleCaseImplementation", "callee_text": "slice"},
+  {"caller": "toTitleCaseImplementation", "callee_text": "toLowerCase"},
+  {"caller": "toTitleCaseImplementation", "callee_text": "join"}
+]}

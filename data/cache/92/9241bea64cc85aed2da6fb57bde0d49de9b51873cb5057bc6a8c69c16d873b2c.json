@@ -1,0 +1,13 @@
+{
+  "key": "9241bea64cc85aed2da6fb57bde0d49de9b51873cb5057bc6a8c69c16d873b2c",
+  "model": "harness-qwen15b",
+  "prompt_version": "ours-v1-5c74cf9a927a",
+  "file_sha": "6480c7bc51197097348e4e8e1ddaba378084a73f0946ab839dc4c77c3fbacbb5",
+  "relative_path": "src/sumBy.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    {\n      \"name\": \"SumBy\",\n      \"kind\": \"function\"\n    },\n    {\n      \"name\": \"sumBy\",\n      \"kind\": \"function\"\n    },\n    {\n      \"name\": \"sumByImplementation\",\n      \"kind\": \"function\"\n    }\n  ],\n  \"references\": [\n    {\n      \"name\": \"purry\",\n      \"source\": \"./purry.ts\",\n      \"alias\": null\n    },\n    {\n      \"name\": \"IterableContainer\",\n      \"source\": \"./internal/types/IterableContainer.ts\",\n      \"alias\": null\n    }\n  ],\n  \"calls\": [],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"SumBy\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [],\n      \"returns\": {\n        \"type\": \"bigint | number\"\n      },\n      \"line\": 1\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:46:43+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1223,
+  "completion_tokens": 217
+}

@@ -1,0 +1,34 @@
+{
+  "relative_path": "exceptions/bad-gateway.exception.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "BadGatewayException.constructor",
+      "callee_text": "extractDescriptionAndOptionsFrom",
+      "kind": "static",
+      "receiver": "HttpException",
+      "receiver_type_hint": null,
+      "callee_file_hint": "./http.exception",
+      "line": 41
+    },
+    {
+      "caller": "BadGatewayException.constructor",
+      "callee_text": "super",
+      "kind": "super",
+      "receiver": "super",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 43
+    },
+    {
+      "caller": "BadGatewayException.constructor",
+      "callee_text": "createBody",
+      "kind": "static",
+      "receiver": "HttpException",
+      "receiver_type_hint": null,
+      "callee_file_hint": "./http.exception",
+      "line": 44
+    }
+  ],
+  "callable_refs": []
+}

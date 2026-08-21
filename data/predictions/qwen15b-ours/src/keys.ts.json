@@ -1,0 +1,75 @@
+```json
+{
+  "definitions": [
+    "keys",
+    "IsNever",
+    "EnumerableStringKeyOf",
+    "IterableContainer",
+    "ToString",
+    "purry",
+    "Keys",
+    "IsIndexAfterSpread",
+    "IndicesAfterSpread",
+    "ObjectKeys"
+  ],
+  "references": [],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "keys",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [],
+      "returns": ["Keys<T>"],
+      "line": 1
+    },
+    {
+      "name": "IsNever",
+      "kind": "type_alias",
+      "parent": "__module__",
+      "bases": [],
+      "params": [],
+      "returns": ["boolean"],
+      "line": 2
+    },
+    {
+      "name": "EnumerableStringKeyOf",
+      "kind": "type_alias",
+      "parent": "__module__",
+      "bases": [],
+      "params": [],
+      "returns": ["string"],
+      "line": 3
+    },
+    {
+      "name": "IterableContainer",
+      "kind": "type_alias",
+      "parent": "__module__",
+      "bases": [],
+      "params": [],
+      "returns": ["unknown[] | []"],
+      "line": 4
+    },
+    {
+      "name": "ToString",
+      "kind": "type_alias",
+      "parent": "__module__",
+      "bases": [],
+      "params": [],
+      "returns": ["string"],
+      "line": 5
+    },
+    {
+      "name": "purry",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [["T", "U"], ["R"]]],
+      "returns": ["R"],
+      "line": 6
+    }
+  ]
+}
+```

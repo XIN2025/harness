@@ -1,0 +1,115 @@
+{
+  "relative_path": "lib/theme/processors/source.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "process",
+      "callee_text": "model",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 6
+    },
+    {
+      "caller": "process",
+      "callee_text": "replace",
+      "kind": "method",
+      "receiver": "file.source.substring(this.base_dir.length)",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 7
+    },
+    {
+      "caller": "process",
+      "callee_text": "substring",
+      "kind": "method",
+      "receiver": "file.source",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 7
+    },
+    {
+      "caller": "process",
+      "callee_text": "findById",
+      "kind": "static",
+      "receiver": "Asset",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 9
+    },
+    {
+      "caller": "process",
+      "callee_text": "remove",
+      "kind": "method",
+      "receiver": "doc",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 13
+    },
+    {
+      "caller": "process",
+      "callee_text": "save",
+      "kind": "static",
+      "receiver": "Asset",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 19
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "Pattern",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-util",
+      "line": 26
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "startsWith",
+      "kind": "method",
+      "receiver": "path",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 27
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "substring",
+      "kind": "method",
+      "receiver": "path",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 29
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "isHiddenFile",
+      "kind": "method",
+      "receiver": "common",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 30
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "isTmpFile",
+      "kind": "method",
+      "receiver": "common",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 30
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "includes",
+      "kind": "method",
+      "receiver": "path",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 30
+    }
+  ],
+  "callable_refs": []
+}

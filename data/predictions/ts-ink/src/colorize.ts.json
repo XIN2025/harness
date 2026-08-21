@@ -1,0 +1,169 @@
+{
+  "relative_path": "src/colorize.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "colorize",
+      "callee_text": "isNamedColor",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 21
+    },
+    {
+      "caller": "colorize",
+      "callee_text": "toUpperCase",
+      "kind": "method",
+      "receiver": "color[0]!",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 27
+    },
+    {
+      "caller": "colorize",
+      "callee_text": "slice",
+      "kind": "method",
+      "receiver": "color",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 27
+    },
+    {
+      "caller": "colorize",
+      "callee_text": "startsWith",
+      "kind": "method",
+      "receiver": "color",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 33
+    },
+    {
+      "caller": "colorize",
+      "callee_text": "hex",
+      "kind": "method",
+      "receiver": "chalk",
+      "receiver_type_hint": null,
+      "callee_file_hint": "chalk",
+      "line": 35
+    },
+    {
+      "caller": "colorize",
+      "callee_text": "bgHex",
+      "kind": "method",
+      "receiver": "chalk",
+      "receiver_type_hint": null,
+      "callee_file_hint": "chalk",
+      "line": 36
+    },
+    {
+      "caller": "colorize",
+      "callee_text": "startsWith",
+      "kind": "method",
+      "receiver": "color",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 39
+    },
+    {
+      "caller": "colorize",
+      "callee_text": "exec",
+      "kind": "method",
+      "receiver": "ansiRegex",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 40
+    },
+    {
+      "caller": "colorize",
+      "callee_text": "Number",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 46
+    },
+    {
+      "caller": "colorize",
+      "callee_text": "ansi256",
+      "kind": "method",
+      "receiver": "chalk",
+      "receiver_type_hint": null,
+      "callee_file_hint": "chalk",
+      "line": 49
+    },
+    {
+      "caller": "colorize",
+      "callee_text": "bgAnsi256",
+      "kind": "method",
+      "receiver": "chalk",
+      "receiver_type_hint": null,
+      "callee_file_hint": "chalk",
+      "line": 50
+    },
+    {
+      "caller": "colorize",
+      "callee_text": "startsWith",
+      "kind": "method",
+      "receiver": "color",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 53
+    },
+    {
+      "caller": "colorize",
+      "callee_text": "exec",
+      "kind": "method",
+      "receiver": "rgbRegex",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 54
+    },
+    {
+      "caller": "colorize",
+      "callee_text": "Number",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 60
+    },
+    {
+      "caller": "colorize",
+      "callee_text": "Number",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 61
+    },
+    {
+      "caller": "colorize",
+      "callee_text": "Number",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 62
+    },
+    {
+      "caller": "colorize",
+      "callee_text": "rgb",
+      "kind": "method",
+      "receiver": "chalk",
+      "receiver_type_hint": null,
+      "callee_file_hint": "chalk",
+      "line": 65
+    },
+    {
+      "caller": "colorize",
+      "callee_text": "bgRgb",
+      "kind": "method",
+      "receiver": "chalk",
+      "receiver_type_hint": null,
+      "callee_file_hint": "chalk",
+      "line": 66
+    }
+  ],
+  "callable_refs": []
+}

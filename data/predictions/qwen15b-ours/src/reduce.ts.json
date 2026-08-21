@@ -1,0 +1,40 @@
+```json
+{
+  "definitions": [
+    {
+      "name": "reduce",
+      "kind": "function"
+    },
+    {
+      "name": "purry",
+      "kind": "function"
+    }
+  ],
+  "references": [],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "reduce",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": ["Array"],
+      "params": [
+        {
+          "name": "data",
+          "type": "readonly T[]"
+        },
+        {
+          "name": "callbackfn",
+          "type": "(previousValue: U, currentValue: T, currentIndex: number, data: readonly T[]) => U"
+        },
+        {
+          "name": "initialValue",
+          "type": "U"
+        }
+      ],
+      "returns": "U"
+    }
+  ]
+}
+```

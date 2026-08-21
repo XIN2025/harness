@@ -1,0 +1,35 @@
+```json
+{
+  "definitions": ["last"],
+  "references": [
+    {"name": "type-fest", "source": "./node_modules/type-fest/dist/index.d.ts"},
+    {"name": "internal/types/IterableContainer", "source": "./src/internal/types/IterableContainer.ts"},
+    {"name": "purry", "source": "./src/purry.ts"}
+  ],
+  "calls": [
+    {
+      "caller": "last",
+      "callee_text": "at",
+      "kind": "method",
+      "receiver": "array",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 1
+    }
+  ],
+  "type_assignments": [
+    {"scope": "module", "var": "last", "type": "function", "type_module": "./src/last.ts"}
+  ],
+  "definitions_rich": [
+    {
+      "name": "last",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "data", "type": "IterableContainer"}],
+      "returns": "Last<T>",
+      "line": 1
+    }
+  ]
+}
+```

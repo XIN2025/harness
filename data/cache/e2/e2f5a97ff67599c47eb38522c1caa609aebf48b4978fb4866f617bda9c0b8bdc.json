@@ -1,0 +1,13 @@
+{
+  "key": "e2f5a97ff67599c47eb38522c1caa609aebf48b4978fb4866f617bda9c0b8bdc",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "refs-strict-v1-ca2cfcfbecef+json",
+  "file_sha": "304894e6fbcafa2d7b5a130d2aeec158a0e5b9f889de317303a1a1a789cad62f",
+  "relative_path": "src/merge.ts",
+  "response": "{\"callable_refs\": [{\"caller\": \"merge\", \"callee_text\": \"mergeImplementation\"}]}",
+  "created": "2026-08-09T06:03:54+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1180,
+  "completion_tokens": 20
+}

@@ -1,0 +1,8 @@
+{"calls": [
+  {"caller": "__module__", "callee_text": "when"},
+  {"caller": "__module__", "callee_text": "whenImplementation"},
+  {"caller": "whenImplementation", "callee_text": "predicate"},
+  {"caller": "whenImplementation", "callee_text": "onTrueOrBranches"},
+  {"caller": "whenImplementation", "callee_text": "data"},
+  {"caller": "whenImplementation", "callee_text": "extraArgs"}
+]}

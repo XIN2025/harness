@@ -1,0 +1,11 @@
+{"calls": [
+  {"caller": "debounce", "callee_text": "setTimeout"},
+  {"caller": "debounce", "callee_text": "clearTimeout"},
+  {"caller": "debounce", "callee_text": "handleInvoke"},
+  {"caller": "debounce", "callee_text": "handleCoolDownEnd"},
+  {"caller": "debounce", "callee_text": "handleDebouncedCall"},
+  {"caller": "debounce", "callee_text": "setTimeout"},
+  {"caller": "debounce", "callee_text": "clearTimeout"},
+  {"caller": "debounce", "callee_text": "handleCoolDownEnd"},
+  {"caller": "debounce", "callee_text": "handleDebouncedCall"}
+]}

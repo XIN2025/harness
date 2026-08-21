@@ -1,0 +1,12 @@
+{"calls": [
+  {"caller": "sortedIndexWith", "callee_text": "purry"},
+  {"caller": "binarySearchCutoffIndex", "callee_text": "filter"},
+  {"caller": "binarySearchCutoffIndex", "callee_text": "isFinite"},
+  {"caller": "binarySearchCutoffIndex", "callee_text": "sort"},
+  {"caller": "binarySearchCutoffIndex", "callee_text": "reduce"},
+  {"caller": "binarySearchCutoffIndex", "callee_text": "isNaN"},
+  {"caller": "binarySearchCutoffIndex", "callee_text": "Error"},
+  {"caller": "binarySearchCutoffIndex", "callee_text": "format"},
+  {"caller": "binarySearchCutoffIndex", "callee_text": "round"},
+  {"caller": "binarySearchCutoffIndex", "callee_text": "precisionOf"}
+]}

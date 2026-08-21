@@ -1,0 +1,10 @@
+{"calls": [
+  {"caller": "first", "callee_text": "purry"},
+  {"caller": "firstImplementation", "callee_text": "item"},
+  {"caller": "__module__", "callee_text": "toSingle"},
+  {"caller": "__module__", "callee_text": "IterableContainer"},
+  {"caller": "__module__", "callee_text": "LazyEvaluator"},
+  {"caller": "first", "callee_text": "lazyImplementation"},
+  {"caller": "firstImplementation", "callee_text": "item"},
+  {"caller": "firstLazy", "callee_text": "next"}
+]}

@@ -1,0 +1,7 @@
+{
+  "calls": [],
+  "callable_refs": [
+    {"caller": "indexBy", "callee_text": "indexByImplementation"},
+    {"caller": "indexByImplementation", "callee_text": "mapper"}
+  ]
+}

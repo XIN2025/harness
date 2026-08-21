@@ -1,0 +1,75 @@
+```json
+{
+  "definitions": [
+    "sortedLastIndexBy",
+    "purry",
+    "binarySearchCutoffIndex",
+    "prop"
+  ],
+  "references": [
+    {"name": "sortedLastIndexBy", "source": "./src/sortedLastIndexBy.ts"},
+    {"name": "purry", "source": "./src/purry.ts"},
+    {"name": "binarySearchCutoffIndex", "source": "./src/internal/binarySearchCutoffIndex.ts"},
+    {"name": "prop", "source": "./src/utilities/prop.ts"}
+  ],
+  "calls": [
+    {
+      "caller": "sortedLastIndexBy",
+      "callee_text": "purry",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./src/sortedLastIndexBy.ts",
+      "line": 1
+    },
+    {
+      "caller": "sortedLastIndexBy",
+      "callee_text": "binarySearchCutoffIndex",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./src/sortedLastIndexBy.ts",
+      "line": 1
+    }
+  ],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "sortedLastIndexBy",
+      "kind": "function",
+      "parent": null,
+      "bases": ["purry", "binarySearchCutoffIndex"],
+      "params": [{"name": "data", "type": "readonly T[]"}, {"name": "item", "type": "T"}, {"name": "valueFunction", "type": "(item: T, index?: number | undefined, data: readonly T[]) => NonNullable<unknown>"}],
+      "returns": "number",
+      "line": 1
+    },
+    {
+      "name": "purry",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "fn", "type": "(...args: unknown[]) => unknown"}],
+      "returns": "(...args: unknown[]) => unknown",
+      "line": 1
+    },
+    {
+      "name": "binarySearchCutoffIndex",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "array", "type": "readonly T[]"}, {"name": "compareFn", "type": "(a: T, b: T) => number"}],
+      "returns": "number",
+      "line": 1
+    },
+    {
+      "name": "prop",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "obj", "type": "object"}, {"name": "key", "type": "string"}],
+      "returns": "unknown",
+      "line": 1
+    }
+  ]
+}
+```

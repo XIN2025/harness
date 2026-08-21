@@ -1,0 +1,13 @@
+{
+  "key": "a95bb42b483e0d9838f74a9bec340fc610db92bbc8e1c15601969d2c36cade4e",
+  "model": "harness-qwen15b",
+  "prompt_version": "ours-v1-5c74cf9a927a",
+  "file_sha": "1c9f23f0bc34aa7420a85e4f8b9ada4f26a1986a6d487694b5f3123565239007",
+  "relative_path": "src/omitBy.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"omitBy\",\n    \"pickBy\"\n  ],\n  \"references\": [],\n  \"calls\": [],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"omitBy\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"data\",\n          \"type\": \"T\"\n        },\n        {\n          \"name\": \"predicate\",\n          \"type\": \"(value: EnumerableStringKeyedValueOf<T>, key: EnumerableStringKeyOf<T>, data: T) => value is S\"\n        }\n      ],\n      \"returns\": \"PartialEnumerableKeysNarrowed<T, S>\"\n    },\n    {\n      \"name\": \"pickBy\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"data\",\n          \"type\": \"T\"\n        },\n        {\n          \"name\": \"predicate\",\n          \"type\": \"(value: EnumerableStringKeyedValueOf<T>, key: EnumerableStringKeyOf<T>, data: T) => boolean\"\n        }\n      ],\n      \"returns\": \"PartialEnumerableKeys<T>\"\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:39:44+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 2123,
+  "completion_tokens": 273
+}

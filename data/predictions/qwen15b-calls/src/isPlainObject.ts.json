@@ -1,0 +1,4 @@
+{"calls": [
+  {"caller": "isPlainObject", "callee_text": "typeof"},
+  {"caller": "isPlainObject", "callee_text": "Object.getPrototypeOf"}
+]}

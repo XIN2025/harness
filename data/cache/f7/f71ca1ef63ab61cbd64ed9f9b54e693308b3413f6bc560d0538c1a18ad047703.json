@@ -1,0 +1,13 @@
+{
+  "key": "f71ca1ef63ab61cbd64ed9f9b54e693308b3413f6bc560d0538c1a18ad047703",
+  "model": "harness-qwen15b",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "ee62c2433ee2c3c8dc3c4a1f35715611dea9656efbd46e3155d21299a8275f80",
+  "relative_path": "src/swapProps.ts",
+  "response": "```json\n{\n  \"definitions\": [\"swapProps\", \"purry\"],\n  \"references\": [\n    {\"name\": \"swapProps\", \"source\": \"./src/swapProps.ts\"},\n    {\"name\": \"purry\", \"source\": \"./src/purry.ts\"}\n  ],\n  \"calls\": [],\n  \"type_assignments\": [],\n  \"definitions_rich\": []\n}\n```",
+  "created": "2026-08-08T20:27:47+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 8562,
+  "completion_tokens": 80
+}

@@ -1,0 +1,13 @@
+{
+  "key": "8dc7fa404c92eb65ecdb459e4cf86239577ada4fef33ae80f5dcdd7a876f4983",
+  "model": "harness-llama32b",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "78abc81dd0a0401a76bb96d4fda26bdbcf236cab026e630834cb42548a5eb2e5",
+  "relative_path": "src/ceil.ts",
+  "response": "{\n  \"definitions\": [\"ceil\", \"withPrecision\", \"purry\"],\n  \"references\": [\n    {\"name\": \"withPrecision\", \"source\": \"./internal/withPrecision\"},\n    {\"name\": \"purry\", \"source\": \"./purry\"}\n  ],\n  \"calls\": [\n    {\"caller\": \"ceil\", \"callee_text\": \"Math.ceil\", \"kind\": \"free\",\n     \"receiver\": null, \"receiver_type_hint\": null, \"callee_file_hint\": \"external\", \"line\": 1},\n    {\"caller\": \"ceil\", \"callee_text\": \"withPrecision\", \"kind\": \"method\",\n     \"receiver\": \"Math.ceil\", \"receiver_type_hint\": null, \"callee_file_hint\": \"./internal/withPrecision\", \"line\": 2},\n    {\"caller\": \"ceil\", \"callee_text\": \"purry\", \"kind\": \"free\",\n     \"receiver\": null, \"receiver_type_hint\": null, \"callee_file_hint\": \"./purry\", \"line\": 3}\n  ],\n  \"type_assignments\": [\n    {\"scope\": \"module\", \"var\": \"ceil\", \"type\": \"(value: number, precision: number) => number\",\n     \"type_module\": \"src\"}\n  ],\n  \"definitions_rich\": [\n    {\"name\": \"ceil\", \"kind\": \"function\", \"parent\": null, \"bases\": [],\n     \"params\": [{\"name\": \"precision\", \"type\": \"number\"}],\n     \"returns\": \"(value: number) => number\",\n     \"line\": 1},\n    {\"name\": \"withPrecision\", \"kind\": \"method\", \"parent\": null, \"bases\": [],\n     \"params\": [], \"returns\": null,\n     \"line\": 2},\n    {\"name\": \"purry\", \"kind\": \"function\", \"parent\": null, \"bases\": [],\n     \"params\": [], \"returns\": null,\n     \"line\": 3}\n  ]\n}",
+  "created": "2026-08-08T21:07:44+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 8474,
+  "completion_tokens": 406
+}

@@ -1,0 +1,13 @@
+{
+  "key": "5c34fa9b8ac618fceeae544338bd4f8478bfaa3b0b7f049425ed5a2e5fef4382",
+  "model": "harness-qwen15b",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "367f0e2dd1c4624a9143902d1e25b5927735bb684e16884e9806cd799ba225a4",
+  "relative_path": "src/first.ts",
+  "response": "```json\n{\n  \"definitions\": [\"first\", \"firstImplementation\", \"lazyImplementation\", \"firstLazy\"],\n  \"references\": [\n    {\"name\": \"toSingle\", \"source\": \"./internal/toSingle\"},\n    {\"name\": \"IterableContainer\", \"source\": \"./internal/types/IterableContainer\"},\n    {\"name\": \"LazyEvaluator\", \"source\": \"./internal/types/LazyEvaluator\"},\n    {\"name\": \"purry\", \"source\": \"./purry\"}\n  ],\n  \"calls\": [\n    {\"caller\": \"first\", \"callee_text\": \"pipe\", \"kind\": \"method\",\n     \"receiver\": null, \"receiver_type_hint\": null, \"callee_file_hint\": \"...\", \"line\": 1},\n    {\"caller\": \"firstImplementation\", \"callee_text\": \"next\", \"kind\": \"free\",\n     \"receiver\": null, \"receiver_type_hint\": null, \"callee_file_hint\": \"...\", \"line\": 2},\n    {\"caller\": \"lazyImplementation\", \"callee_text\": \"next\", \"kind\": \"free\",\n     \"receiver\": null, \"receiver_type_hint\": null, \"callee_file_hint\": \"...\", \"line\": 3}\n  ],\n  \"type_assignments\": [\n    {\"scope\": \"module\", \"var\": \"first\", \"type\": \"function\", \"type_module\": \"src\"},\n    {\"scope\": \"module\", \"var\": \"firstImplementation\", \"type\": \"function\", \"type_module\": \"src\"},\n    {\"scope\": \"module\", \"var\": \"lazyImplementation\", \"type\": \"function\", \"type_module\": \"src\"},\n    {\"scope\": \"module\", \"var\": \"firstLazy\", \"type\": \"function\", \"type_module\": \"src\"}\n  ],\n  \"definitions_rich\": [\n    {\"name\": \"pipe\", \"kind\": \"function\", \"parent\": null, \"bases\": [], \"params\": [{\"name\": \"array\", \"type\": \"IterableContainer\"}], \"returns\": \"unknown\", \"line\": 1},\n    {\"name\": \"first\", \"kind\": \"function\", \"parent\": null, \"bases\": [], \"params\": [], \"returns\": \"First<T>\", \"line\": 2}\n  ]\n}\n```",
+  "created": "2026-08-08T20:19:02+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 8449,
+  "completion_tokens": 462
+}

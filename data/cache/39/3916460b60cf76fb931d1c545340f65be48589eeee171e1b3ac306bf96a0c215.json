@@ -1,0 +1,13 @@
+{
+  "key": "3916460b60cf76fb931d1c545340f65be48589eeee171e1b3ac306bf96a0c215",
+  "model": "harness-qwen15b",
+  "prompt_version": "refs-v1-7386a79c1ab2+json",
+  "file_sha": "ef69523594bdbd8dd9d5c3daebd418856db2fe91d4fcc16283c5522824078097",
+  "relative_path": "src/toTitleCase.ts",
+  "response": "{\"calls\": [], \"callable_refs\": [{\"caller\": \"toTitleCaseImplementation\", \"callee_text\": \"words\"}, {\"caller\": \"toTitleCaseImplementation\", \"callee_text\": \"LOWER_CASE_CHARACTER_RE.test\"}, {\"caller\": \"toTitleCaseImplementation\", \"callee_text\": \"data.toLowerCase\"}, {\"caller\": \"toTitleCaseImplementation\", \"callee_text\": \"word[0]!.toUpperCase()\"}, {\"caller\": \"toTitleCaseImplementation\", \"callee_text\": \"preserveConsecutiveUppercase ? word.slice(1) : word.slice(1).toLowerCase()\"}, {\"caller\": \"toTitleCaseImplementation\", \"callee_text\": \"join(' ')\"}]}",
+  "created": "2026-08-08T22:31:06+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1909,
+  "completion_tokens": 139
+}

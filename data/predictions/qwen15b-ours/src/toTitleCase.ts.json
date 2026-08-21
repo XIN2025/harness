@@ -1,0 +1,88 @@
+```json
+{
+  "definitions": [
+    "toTitleCase",
+    "words",
+    "OptionalOptionsWithDefaults",
+    "IsEqual",
+    "IsLiteral",
+    "Join",
+    "Words",
+    "DEFAULT_PRESERVE_CONSECUTIVE_UPPERCASE",
+    "TitleCaseOptions",
+    "TitleCaseOptionsWithDefaults",
+    "TitleCase",
+    "TitleCasedArray",
+    "XMLHttpRequest"
+  ],
+  "references": [
+    {
+      "name": "type-fest",
+      "source": "node_modules/type-fest/index.d.ts",
+      "alias": null
+    },
+    {
+      "name": "./internal/types/OptionalOptionsWithDefaults",
+      "source": "src/toTitleCase.ts",
+      "alias": null
+    },
+    {
+      "name": "./internal/words",
+      "source": "src/toTitleCase.ts",
+      "alias": null
+    }
+  ],
+  "calls": [
+    {
+      "caller": "__module__",
+      "callee_text": "toTitleCaseImplementation",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "src/toTitleCase.ts",
+      "line": 10
+    }
+  ],
+  "type_assignments": [
+    {
+      "scope": "__global__",
+      "var": "XMLHttpRequest",
+      "type": "function",
+      "type_module": null,
+      "from_call": false
+    }
+  ],
+  "definitions_rich": [
+    {
+      "name": "toTitleCase",
+      "kind": "function",
+      "parent": "__global__",
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "string"
+        },
+        {
+          "name": "options",
+          "type": "TitleCaseOptions"
+        }
+      ],
+      "returns": "TitleCase<string, TitleCaseOptions>"
+    },
+    {
+      "name": "words",
+      "kind": "function",
+      "parent": "__global__",
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "string"
+        }
+      ],
+      "returns": "Words<string>"
+    }
+  ]
+}
+```

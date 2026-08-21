@@ -1,0 +1,11 @@
+```json
+{
+  "definitions": ["piped"],
+  "references": [
+    {"name": "pipe", "source": "./pipe"}
+  ],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": []
+}
+```

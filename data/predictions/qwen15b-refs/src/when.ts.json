@@ -1,0 +1,13 @@
+{
+  "calls": [],
+  "callable_refs": [
+    {
+      "caller": "when",
+      "callee_text": "whenImplementation"
+    },
+    {
+      "caller": "when",
+      "callee_text": "whenImplementation"
+    }
+  ]
+}

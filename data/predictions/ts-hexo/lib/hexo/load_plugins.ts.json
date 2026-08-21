@@ -1,0 +1,457 @@
+{
+  "relative_path": "lib/hexo/load_plugins.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "__module__",
+      "callee_text": "then",
+      "kind": "method",
+      "receiver": "loadModules(ctx)",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 10
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "loadModules",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 10
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "loadScripts",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 10
+    },
+    {
+      "caller": "loadModuleList",
+      "callee_text": "join",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "path",
+      "line": 14
+    },
+    {
+      "caller": "loadModuleList",
+      "callee_text": "then",
+      "kind": "method",
+      "receiver": "exists(packagePath).then(exist => {\n    if (!exist) return [];\n\n    // Read package.json and find dependencies\n    return readFile(packagePath).then(content => {\n      const json = JSON.parse(content);\n      const deps = Object.keys(json.dependencies || {});\n      const devDeps = Object.keys(json.devDependencies || {});\n\n      return basedir === ctx.base_dir ? deps.concat(devDeps) : deps;\n    });\n  }).filter((name: string) => {\n    // Ignore plugins whose name is not started with \"hexo-\"\n    if (!/^hexo-|^@[^/]+\\/hexo-/.test(name)) return false;\n\n    // Ignore plugin whose name is started with \"hexo-theme\"\n    if (/^hexo-theme-|^@[^/]+\\/hexo-theme-/.test(name)) return false;\n\n    // Ignore typescript definition file that is started with \"@types/\"\n    if (name.startsWith('@types/')) return false;\n\n    // Make sure the plugin exists\n    const path = ctx.resolvePlugin(name, basedir);\n    return exists(path);\n  })",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 17
+    },
+    {
+      "caller": "loadModuleList",
+      "callee_text": "filter",
+      "kind": "method",
+      "receiver": "exists(packagePath).then(exist => {\n    if (!exist) return [];\n\n    // Read package.json and find dependencies\n    return readFile(packagePath).then(content => {\n      const json = JSON.parse(content);\n      const deps = Object.keys(json.dependencies || {});\n      const devDeps = Object.keys(json.devDependencies || {});\n\n      return basedir === ctx.base_dir ? deps.concat(devDeps) : deps;\n    });\n  })",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 17
+    },
+    {
+      "caller": "loadModuleList",
+      "callee_text": "then",
+      "kind": "method",
+      "receiver": "exists(packagePath)",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 17
+    },
+    {
+      "caller": "loadModuleList",
+      "callee_text": "exists",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-fs",
+      "line": 17
+    },
+    {
+      "caller": "loadModuleList",
+      "callee_text": "then",
+      "kind": "method",
+      "receiver": "readFile(packagePath)",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 21
+    },
+    {
+      "caller": "loadModuleList",
+      "callee_text": "readFile",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-fs",
+      "line": 21
+    },
+    {
+      "caller": "loadModuleList",
+      "callee_text": "parse",
+      "kind": "static",
+      "receiver": "JSON",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 22
+    },
+    {
+      "caller": "loadModuleList",
+      "callee_text": "keys",
+      "kind": "static",
+      "receiver": "Object",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 23
+    },
+    {
+      "caller": "loadModuleList",
+      "callee_text": "keys",
+      "kind": "static",
+      "receiver": "Object",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 24
+    },
+    {
+      "caller": "loadModuleList",
+      "callee_text": "concat",
+      "kind": "method",
+      "receiver": "deps",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 26
+    },
+    {
+      "caller": "loadModuleList",
+      "callee_text": "test",
+      "kind": "method",
+      "receiver": "/^hexo-|^@[^/]+\\/hexo-/",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 30
+    },
+    {
+      "caller": "loadModuleList",
+      "callee_text": "test",
+      "kind": "method",
+      "receiver": "/^hexo-theme-|^@[^/]+\\/hexo-theme-/",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 33
+    },
+    {
+      "caller": "loadModuleList",
+      "callee_text": "startsWith",
+      "kind": "method",
+      "receiver": "name",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 36
+    },
+    {
+      "caller": "loadModuleList",
+      "callee_text": "resolvePlugin",
+      "kind": "method",
+      "receiver": "ctx",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 39
+    },
+    {
+      "caller": "loadModuleList",
+      "callee_text": "exists",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-fs",
+      "line": 40
+    },
+    {
+      "caller": "loadModuleList",
+      "callee_text": "fromEntries",
+      "kind": "static",
+      "receiver": "Object",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 42
+    },
+    {
+      "caller": "loadModuleList",
+      "callee_text": "map",
+      "kind": "method",
+      "receiver": "modules",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 42
+    },
+    {
+      "caller": "loadModuleList",
+      "callee_text": "resolvePlugin",
+      "kind": "method",
+      "receiver": "ctx",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 42
+    },
+    {
+      "caller": "loadModules",
+      "callee_text": "map",
+      "kind": "method",
+      "receiver": "Promise.map([ctx.base_dir, ctx.theme_dir], basedir => loadModuleList(ctx, basedir))\n    .then(([hexoModuleList, themeModuleList]) => {\n      return Object.entries(Object.assign(themeModuleList, hexoModuleList));\n    })",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 47
+    },
+    {
+      "caller": "loadModules",
+      "callee_text": "then",
+      "kind": "method",
+      "receiver": "Promise.map([ctx.base_dir, ctx.theme_dir], basedir => loadModuleList(ctx, basedir))",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 47
+    },
+    {
+      "caller": "loadModules",
+      "callee_text": "map",
+      "kind": "static",
+      "receiver": "Promise",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 47
+    },
+    {
+      "caller": "loadModules",
+      "callee_text": "loadModuleList",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 47
+    },
+    {
+      "caller": "loadModules",
+      "callee_text": "entries",
+      "kind": "static",
+      "receiver": "Object",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 49
+    },
+    {
+      "caller": "loadModules",
+      "callee_text": "assign",
+      "kind": "static",
+      "receiver": "Object",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 49
+    },
+    {
+      "caller": "loadModules",
+      "callee_text": "catch",
+      "kind": "method",
+      "receiver": "ctx.loadPlugin(path as string).then(() => {\n        ctx.log.debug('Plugin loaded: %s', magenta(name));\n      })",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 53
+    },
+    {
+      "caller": "loadModules",
+      "callee_text": "then",
+      "kind": "method",
+      "receiver": "ctx.loadPlugin(path as string)",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 53
+    },
+    {
+      "caller": "loadModules",
+      "callee_text": "loadPlugin",
+      "kind": "method",
+      "receiver": "ctx",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 53
+    },
+    {
+      "caller": "loadModules",
+      "callee_text": "debug",
+      "kind": "method",
+      "receiver": "ctx.log",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 54
+    },
+    {
+      "caller": "loadModules",
+      "callee_text": "magenta",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "picocolors",
+      "line": 54
+    },
+    {
+      "caller": "loadModules",
+      "callee_text": "error",
+      "kind": "method",
+      "receiver": "ctx.log",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 56
+    },
+    {
+      "caller": "loadModules",
+      "callee_text": "magenta",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "picocolors",
+      "line": 56
+    },
+    {
+      "caller": "loadScripts",
+      "callee_text": "map",
+      "kind": "method",
+      "receiver": "Promise.filter([\n    ctx.theme_script_dir,\n    ctx.script_dir\n  ], scriptDir => { // Ignore the directory if it does not exist\n    return scriptDir ? exists(scriptDir) : false;\n  })",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 64
+    },
+    {
+      "caller": "loadScripts",
+      "callee_text": "filter",
+      "kind": "static",
+      "receiver": "Promise",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 64
+    },
+    {
+      "caller": "loadScripts",
+      "callee_text": "exists",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-fs",
+      "line": 68
+    },
+    {
+      "caller": "loadScripts",
+      "callee_text": "map",
+      "kind": "method",
+      "receiver": "listDir(scriptDir)",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 69
+    },
+    {
+      "caller": "loadScripts",
+      "callee_text": "listDir",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-fs",
+      "line": 69
+    },
+    {
+      "caller": "loadScripts",
+      "callee_text": "join",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "path",
+      "line": 70
+    },
+    {
+      "caller": "loadScripts",
+      "callee_text": "catch",
+      "kind": "method",
+      "receiver": "ctx.loadPlugin(path).then(() => {\n      ctx.log.debug('Script loaded: %s', displayPath(path, baseDirLength));\n    })",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 72
+    },
+    {
+      "caller": "loadScripts",
+      "callee_text": "then",
+      "kind": "method",
+      "receiver": "ctx.loadPlugin(path)",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 72
+    },
+    {
+      "caller": "loadScripts",
+      "callee_text": "loadPlugin",
+      "kind": "method",
+      "receiver": "ctx",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 72
+    },
+    {
+      "caller": "loadScripts",
+      "callee_text": "debug",
+      "kind": "method",
+      "receiver": "ctx.log",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 73
+    },
+    {
+      "caller": "loadScripts",
+      "callee_text": "displayPath",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 73
+    },
+    {
+      "caller": "loadScripts",
+      "callee_text": "error",
+      "kind": "method",
+      "receiver": "ctx.log",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 75
+    },
+    {
+      "caller": "loadScripts",
+      "callee_text": "displayPath",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 75
+    },
+    {
+      "caller": "displayPath",
+      "callee_text": "magenta",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "picocolors",
+      "line": 81
+    },
+    {
+      "caller": "displayPath",
+      "callee_text": "substring",
+      "kind": "method",
+      "receiver": "path",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 81
+    }
+  ],
+  "callable_refs": []
+}

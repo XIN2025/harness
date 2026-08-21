@@ -1,0 +1,13 @@
+{
+  "key": "160f0e5adebdf9490e20521edb8ee44c1657f35b3667e36526c2508aefe78223",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "49d50fbc79b021f2572a4dc671f9947a54e1a82349b65b9b4a24fc18e1b83359",
+  "relative_path": "src/only.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"only\", \"callee_text\": \"purry\"},\n  {\"caller\": \"onlyImplementation\", \"callee_text\": \"length\"},\n  {\"caller\": \"onlyImplementation\", \"callee_text\": \"data\"},\n  {\"caller\": \"onlyImplementation\", \"callee_text\": \"0\"},\n  {\"caller\": \"onlyImplementation\", \"callee_text\": \"[]\"},\n  {\"caller\": \"onlyImplementation\", \"callee_text\": \"length\"},\n  {\"caller\": \"onlyImplementation\", \"callee_text\": \"data\"},\n  {\"caller\": \"onlyImplementation\", \"callee_text\": \"1\"},\n  {\"caller\": \"onlyImplementation\", \"callee_text\": \"0\"},\n  {\"caller\": \"onlyImplementation\", \"callee_text\": \"[]\"},\n  {\"caller\": \"onlyImplementation\", \"callee_text\": \"length\"},\n  {\"caller\": \"onlyImplementation\", \"callee_text\": \"data\"},\n  {\"caller\": \"onlyImplementation\", \"callee_text\": \"1\"}\n]}",
+  "created": "2026-08-08T23:05:55+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 779,
+  "completion_tokens": 201
+}

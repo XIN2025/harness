@@ -1,0 +1,8 @@
+{"calls": [
+  {"caller": "pick", "callee_text": "pickImplementation"},
+  {"caller": "pickImplementation", "callee_text": "in"},
+  {"caller": "pickImplementation", "callee_text": "object"},
+  {"caller": "pickImplementation", "callee_text": "keys"},
+  {"caller": "pickImplementation", "callee_text": "out"},
+  {"caller": "pickImplementation", "callee_text": "for"}
+]}

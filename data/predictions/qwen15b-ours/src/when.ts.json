@@ -1,0 +1,136 @@
+```json
+{
+  "definitions": [
+    {
+      "name": "when",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "Predicate"
+        },
+        {
+          "name": "onTrue",
+          "type": "OnTrue"
+        }
+      ],
+      "returns": "Exclude<T, GuardType<Predicate>> | ReturnType<OnTrue>"
+    },
+    {
+      "name": "when",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "T"
+        },
+        {
+          "name": "predicate",
+          "type": "Predicate"
+        },
+        {
+          "name": "onTrue",
+          "type": "OnTrue"
+        }
+      ],
+      "returns": "Exclude<T, GuardType<Predicate>> | ReturnType<OnTrue>"
+    },
+    {
+      "name": "when",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "T"
+        },
+        {
+          "name": "predicate",
+          "type": "Predicate"
+        },
+        {
+          "name": "onTrue",
+          "type": "OnTrue"
+        }
+      ],
+      "returns": "Exclude<T, GuardType<Predicate>> | ReturnType<OnTrue>"
+    },
+    {
+      "name": "when",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "T"
+        },
+        {
+          "name": "predicate",
+          "type": "Predicate"
+        },
+        {
+          "name": "onTrue",
+          "type": "OnTrue"
+        }
+      ],
+      "returns": "Exclude<T, GuardType<Predicate>> | ReturnType<OnTrue>"
+    }
+  ],
+  "references": [],
+  "calls": [
+    {
+      "caller": "__module__",
+      "callee_text": "when",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "src/when.ts",
+      "line": 1
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "when",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "src/when.ts",
+      "line": 2
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "when",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "src/when.ts",
+      "line": 3
+    }
+  ],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "GuardType",
+      "kind": "interface",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "Predicate",
+          "type": "Predicate"
+        },
+        {
+          "name": "T",
+          "type": "T"
+        }
+      ],
+      "returns": "GuardType<Predicate, T>"
+    }
+  ]
+}
+```

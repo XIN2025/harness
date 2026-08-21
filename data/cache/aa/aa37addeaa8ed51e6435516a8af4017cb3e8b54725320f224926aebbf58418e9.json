@@ -1,0 +1,13 @@
+{
+  "key": "aa37addeaa8ed51e6435516a8af4017cb3e8b54725320f224926aebbf58418e9",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "be3323e0ad630e95e76340cd0f695dbb36ce391ebebf652da11334e99e46c4b3",
+  "relative_path": "src/difference.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"difference\", \"callee_text\": \"purryFromLazy\"},\n  {\"caller\": \"difference\", \"callee_text\": \"lazyImplementation\"},\n  {\"caller\": \"difference\", \"callee_text\": \"Map\"},\n  {\"caller\": \"difference\", \"callee_text\": \"remaining.set\"},\n  {\"caller\": \"difference\", \"callee_text\": \"other.length\"},\n  {\"caller\": \"difference\", \"callee_text\": \"lazyIdentityEvaluator\"},\n  {\"caller\": \"difference\", \"callee_text\": \"for\"},\n  {\"caller\": \"difference\", \"callee_text\": \"value of\"},\n  {\"caller\": \"difference\", \"callee_text\": \"remaining.get\"},\n  {\"caller\": \"difference\", \"callee_text\": \"copies\"},\n  {\"caller\": \"difference\", \"callee_text\": \"if\"},\n  {\"caller\": \"difference\", \"callee_text\": \"else if\"},\n  {\"caller\": \"difference\", \"callee_text\": \"return\"},\n  {\"caller\": \"difference\", \"callee_text\": \"SKIP_ITEM\"},\n  {\"caller\": \"difference\", \"callee_text\": \"remaining.set\"},\n  {\"caller\": \"difference\", \"callee_text\": \"other.length\"},\n  {\"caller\": \"difference\", \"callee_text\": \"lazyIdentityEvaluator\"},\n  {\"caller\": \"difference\", \"callee_text\": \"for\"},\n  {\"caller\": \"difference\", \"callee_text\": \"value of\"},\n  {\"caller\": \"difference\", \"callee_text\": \"remaining.get\"},\n  {\"caller\": \"difference\", \"callee_text\": \"copies\"},\n  {\"caller\": \"difference\", \"callee_text\": \"if\"},\n  {\"caller\": \"difference\", \"callee_text\": \"else if\"},\n  {\"caller\": \"difference\", \"callee_text\": \"return\"},\n  {\"caller\": \"difference\", \"callee_text\": \"SKIP_ITEM\"}\n]}",
+  "created": "2026-08-08T22:51:48+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1092,
+  "completion_tokens": 376
+}

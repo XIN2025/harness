@@ -1,0 +1,13 @@
+{
+  "key": "f66d9d505f64449237f7a02161720a381001a94425803fac7c6abcb9ab9ddb10",
+  "model": "harness-qwen15b",
+  "prompt_version": "ours-v1-5c74cf9a927a",
+  "file_sha": "e59a5d47057e85033680a642a067bd2937f0966940092f4049482986dc041588",
+  "relative_path": "src/defaultTo.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    {\n      \"name\": \"defaultTo\",\n      \"kind\": \"function\"\n    },\n    {\n      \"name\": \"fallbackOf\",\n      \"kind\": \"function\"\n    }\n  ],\n  \"references\": [],\n  \"calls\": [],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"defaultTo\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"data\",\n          \"type\": \"T\"\n        },\n        {\n          \"name\": \"fallback\",\n          \"type\": \"FallbackOf<T>\"\n        }\n      ],\n      \"returns\": \"NonNullable<T> | Fallback\"\n    },\n    {\n      \"name\": \"defaultTo\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"fallback\",\n          \"type\": \"FallbackOf<T>\"\n        }\n      ],\n      \"returns\": \"(data: T) => NonNullable<T> | Fallback\"\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:31:45+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 917,
+  "completion_tokens": 245
+}

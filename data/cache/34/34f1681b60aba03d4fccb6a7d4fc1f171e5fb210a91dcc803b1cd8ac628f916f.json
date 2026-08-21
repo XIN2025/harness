@@ -1,0 +1,13 @@
+{
+  "key": "34f1681b60aba03d4fccb6a7d4fc1f171e5fb210a91dcc803b1cd8ac628f916f",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "refs-strict-v1-ca2cfcfbecef+json",
+  "file_sha": "2e7a2f9c951b691ea686f1bf22cb08464355e45131b3b7227caf35f588bc61b7",
+  "relative_path": "src/takeWhile.ts",
+  "response": "{\"calls\": [], \"callable_refs\": [{\"caller\": \"takeWhile\", \"callee_text\": \"takeWhileImplementation\"}]}",
+  "created": "2026-08-09T06:08:49+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1031,
+  "completion_tokens": 26
+}

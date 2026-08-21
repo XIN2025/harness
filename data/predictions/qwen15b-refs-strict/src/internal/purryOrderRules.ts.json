@@ -1,0 +1,13 @@
+{
+  "calls": [],
+  "callable_refs": [
+    {
+      "caller": "purryOrderRules",
+      "callee_text": "orderRuleComparer"
+    },
+    {
+      "caller": "purryOrderRulesWithArgument",
+      "callee_text": "orderRuleComparer"
+    }
+  ]
+}

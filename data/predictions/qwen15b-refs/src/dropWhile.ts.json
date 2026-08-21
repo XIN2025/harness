@@ -1,0 +1,1 @@
+{"calls": [], "callable_refs": [{"caller": "dropWhile", "callee_text": "dropWhileImplementation"}, {"caller": "dropWhileImplementation", "callee_text": "predicate"}]}

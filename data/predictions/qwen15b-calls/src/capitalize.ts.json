@@ -1,0 +1,6 @@
+{"calls": [
+  {"caller": "capitalize", "callee_text": "purry"},
+  {"caller": "capitalizeImplementation", "callee_text": "charAt"},
+  {"caller": "capitalizeImplementation", "callee_text": "toUpperCase"},
+  {"caller": "capitalizeImplementation", "callee_text": "slice"}
+]}

@@ -1,0 +1,14 @@
+```json
+{
+  "definitions": [
+    {
+      "name": "sliceString",
+      "kind": "function"
+    }
+  ],
+  "references": [],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": []
+}
+```

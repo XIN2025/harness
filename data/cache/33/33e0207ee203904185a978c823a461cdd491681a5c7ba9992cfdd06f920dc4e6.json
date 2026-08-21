@@ -1,0 +1,13 @@
+{
+  "key": "33e0207ee203904185a978c823a461cdd491681a5c7ba9992cfdd06f920dc4e6",
+  "model": "harness-qwen15b",
+  "prompt_version": "refs-strict-v1-ca2cfcfbecef+json",
+  "file_sha": "d73685e307e0d64cf57d8a941a9965578bcabddb978f2965f94a61fb8c19bda5",
+  "relative_path": "src/nthBy.ts",
+  "response": "{\"calls\": [], \"callable_refs\": [{\"caller\": \"nthBy\", \"callee_text\": \"quickSelect\"}]}",
+  "created": "2026-08-09T05:47:25+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1383,
+  "completion_tokens": 25
+}

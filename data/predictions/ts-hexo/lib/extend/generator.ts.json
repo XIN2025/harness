@@ -1,0 +1,34 @@
+{
+  "relative_path": "lib/extend/generator.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "Generator.register",
+      "callee_text": "TypeError",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 49
+    },
+    {
+      "caller": "Generator.register",
+      "callee_text": "promisify",
+      "kind": "static",
+      "receiver": "Promise",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 53
+    },
+    {
+      "caller": "Generator.register",
+      "callee_text": "method",
+      "kind": "static",
+      "receiver": "Promise",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 54
+    }
+  ],
+  "callable_refs": []
+}

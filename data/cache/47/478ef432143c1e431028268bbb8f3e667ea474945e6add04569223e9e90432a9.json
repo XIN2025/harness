@@ -1,0 +1,13 @@
+{
+  "key": "478ef432143c1e431028268bbb8f3e667ea474945e6add04569223e9e90432a9",
+  "model": "harness-qwen15b",
+  "prompt_version": "refs-strict-v1-ca2cfcfbecef+json",
+  "file_sha": "bce8be3102532c25ede791c13241f0d251554f9eb82039e333fd1e8cdb3379b2",
+  "relative_path": "src/clone.ts",
+  "response": "{\"calls\": [], \"callable_refs\": [{\"caller\": \"clone\", \"callee_text\": \"deepCloneObject\"}, {\"caller\": \"clone\", \"callee_text\": \"deepCloneArray\"}]}",
+  "created": "2026-08-09T05:40:27+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1487,
+  "completion_tokens": 40
+}

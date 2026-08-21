@@ -1,0 +1,13 @@
+{
+  "key": "6142e13cdbd8758ba2575f87952ee15dcac124cd7a71bf3491643d2e8cd88dcf",
+  "model": "harness-qwen15b",
+  "prompt_version": "ours-v1-5c74cf9a927a",
+  "file_sha": "34f873d171af864871c42c5fc30154b22d2a8a3aea90bf657977dba1e07faf19",
+  "relative_path": "src/objOf.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    {\n      \"name\": \"objOf\",\n      \"kind\": \"function\"\n    }\n  ],\n  \"references\": [],\n  \"calls\": [],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"objOf\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"value\",\n          \"type\": \"unknown\"\n        },\n        {\n          \"name\": \"key\",\n          \"type\": \"string\"\n        }\n      ],\n      \"returns\": {\n        \"type\": \"Record<string, unknown>\"\n      },\n      \"line\": 1\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:39:24+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 577,
+  "completion_tokens": 158
+}

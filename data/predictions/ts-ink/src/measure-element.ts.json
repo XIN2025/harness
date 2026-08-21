@@ -1,0 +1,61 @@
+{
+  "relative_path": "src/measure-element.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "measureElement",
+      "callee_text": "getComputedLeft",
+      "kind": "method",
+      "receiver": "yogaNode",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 40
+    },
+    {
+      "caller": "measureElement",
+      "callee_text": "getComputedTop",
+      "kind": "method",
+      "receiver": "yogaNode",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 41
+    },
+    {
+      "caller": "measureElement",
+      "callee_text": "getComputedLeft",
+      "kind": "method",
+      "receiver": "current.yogaNode",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 47
+    },
+    {
+      "caller": "measureElement",
+      "callee_text": "getComputedTop",
+      "kind": "method",
+      "receiver": "current.yogaNode",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 48
+    },
+    {
+      "caller": "measureElement",
+      "callee_text": "getComputedWidth",
+      "kind": "method",
+      "receiver": "yogaNode",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 57
+    },
+    {
+      "caller": "measureElement",
+      "callee_text": "getComputedHeight",
+      "kind": "method",
+      "receiver": "yogaNode",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 58
+    }
+  ],
+  "callable_refs": []
+}

@@ -1,0 +1,25 @@
+{
+  "relative_path": "src/findLastIndex.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "findLastIndex",
+      "callee_text": "purry",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./purry",
+      "line": 57
+    },
+    {
+      "caller": "findLastIndexImplementation",
+      "callee_text": "predicate",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 67
+    }
+  ],
+  "callable_refs": []
+}

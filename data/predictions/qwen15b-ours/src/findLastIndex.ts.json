@@ -1,0 +1,63 @@
+```json
+{
+  "definitions": [
+    "findLastIndex",
+    "purry"
+  ],
+  "references": [],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "findLastIndex",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "readonly T[]"
+        },
+        {
+          "name": "predicate",
+          "type": "(value: T, index: number, data: readonly T[]) => boolean"
+        }
+      ],
+      "returns": "number",
+      "line": 1
+    },
+    {
+      "name": "purry",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(...args: unknown[]) => unknown"
+        }
+      ],
+      "returns": "unknown",
+      "line": 1
+    },
+    {
+      "name": "findLastIndexImplementation",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "readonly T[]"
+        },
+        {
+          "name": "predicate",
+          "type": "(value: T, index: number, data: readonly T[]) => boolean"
+        }
+      ],
+      "returns": "number",
+      "line": 1
+    }
+  ]
+}
+```

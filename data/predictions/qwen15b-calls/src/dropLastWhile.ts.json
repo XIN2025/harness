@@ -1,0 +1,4 @@
+{"calls": [
+  {"caller": "dropLastWhile", "callee_text": "purry"},
+  {"caller": "dropLastWhileImplementation", "callee_text": "for"}
+]}

@@ -1,0 +1,13 @@
+{
+  "key": "b833f562f2e2d15c5f9a8ba295f2a9575dfc900d1856e9bb08ad9b7a99ed8029",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "611680dfae8659b8d1d80dc3447cb2f2dfc6fe1c568116d2f32b257557e77258",
+  "relative_path": "src/keys.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"keys\", \"callee_text\": \"Object.keys\"},\n  {\"caller\": \"keys\", \"callee_text\": \"pipe\"},\n  {\"caller\": \"keys\", \"callee_text\": \"keys\"}\n]}",
+  "created": "2026-08-08T23:03:04+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1236,
+  "completion_tokens": 50
+}

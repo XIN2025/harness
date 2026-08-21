@@ -1,0 +1,13 @@
+{
+  "key": "c5df9c8656aa32fe4800c875bea5e61b15c1e2faec1d1aa1d274d6807dd7865c",
+  "model": "harness-qwen15b",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "0627c01458c40feb01d342a5841846268ed9752f2c63d8bfc1d8c4c446afa517",
+  "relative_path": "src/flatMap.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"flatMap\", \"callee_text\": \"flatMapImplementation\"},\n  {\"caller\": \"flatMap\", \"callee_text\": \"callbackfn\"},\n  {\"caller\": \"flatMapImplementation\", \"callee_text\": \"data.flatMap\"},\n  {\"caller\": \"flatMapImplementation\", \"callee_text\": \"callbackfn\"}\n]}",
+  "created": "2026-08-08T22:16:34+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1238,
+  "completion_tokens": 68
+}

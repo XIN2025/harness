@@ -1,0 +1,439 @@
+{
+  "relative_path": "pipes/validation.pipe.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "__module__",
+      "callee_text": "Injectable",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../decorators/core",
+      "line": 52
+    },
+    {
+      "caller": "ValidationPipe.constructor",
+      "callee_text": "Optional",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../decorators",
+      "line": 63
+    },
+    {
+      "caller": "ValidationPipe.constructor",
+      "callee_text": "createExceptionFactory",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 87
+    },
+    {
+      "caller": "ValidationPipe.constructor",
+      "callee_text": "loadValidator",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 89
+    },
+    {
+      "caller": "ValidationPipe.constructor",
+      "callee_text": "loadTransformer",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 90
+    },
+    {
+      "caller": "ValidationPipe.loadValidator",
+      "callee_text": "loadPackage",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../utils/load-package.util",
+      "line": 98
+    },
+    {
+      "caller": "ValidationPipe.loadValidator",
+      "callee_text": "require",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 99
+    },
+    {
+      "caller": "ValidationPipe.loadTransformer",
+      "callee_text": "loadPackage",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../utils/load-package.util",
+      "line": 109
+    },
+    {
+      "caller": "ValidationPipe.loadTransformer",
+      "callee_text": "require",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 110
+    },
+    {
+      "caller": "ValidationPipe.transform",
+      "callee_text": "toValidate",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 121
+    },
+    {
+      "caller": "ValidationPipe.transform",
+      "callee_text": "transformPrimitive",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 123
+    },
+    {
+      "caller": "ValidationPipe.transform",
+      "callee_text": "toEmptyIfNil",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 127
+    },
+    {
+      "caller": "ValidationPipe.transform",
+      "callee_text": "isPrimitive",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 130
+    },
+    {
+      "caller": "ValidationPipe.transform",
+      "callee_text": "stripProtoKeys",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 131
+    },
+    {
+      "caller": "ValidationPipe.transform",
+      "callee_text": "plainToInstance",
+      "kind": "method",
+      "receiver": "classTransformer",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 132
+    },
+    {
+      "caller": "ValidationPipe.transform",
+      "callee_text": "validate",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 150
+    },
+    {
+      "caller": "ValidationPipe.transform",
+      "callee_text": "exceptionFactory",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 152
+    },
+    {
+      "caller": "ValidationPipe.transform",
+      "callee_text": "keys",
+      "kind": "static",
+      "receiver": "Object",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 177
+    },
+    {
+      "caller": "ValidationPipe.transform",
+      "callee_text": "classToPlain",
+      "kind": "method",
+      "receiver": "classTransformer",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 179
+    },
+    {
+      "caller": "ValidationPipe.createExceptionFactory",
+      "callee_text": "flattenValidationErrors",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 188
+    },
+    {
+      "caller": "ValidationPipe.toValidate",
+      "callee_text": "some",
+      "kind": "method",
+      "receiver": "types",
+      "receiver_type_hint": null,
+      "callee_file_hint": "util",
+      "line": 199
+    },
+    {
+      "caller": "ValidationPipe.toValidate",
+      "callee_text": "isNil",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../utils/shared.utils",
+      "line": 199
+    },
+    {
+      "caller": "ValidationPipe.transformPrimitive",
+      "callee_text": "isUndefined",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../utils/shared.utils",
+      "line": 212
+    },
+    {
+      "caller": "ValidationPipe.transformPrimitive",
+      "callee_text": "isUndefined",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../utils/shared.utils",
+      "line": 222
+    },
+    {
+      "caller": "ValidationPipe.transformPrimitive",
+      "callee_text": "isUndefined",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../utils/shared.utils",
+      "line": 230
+    },
+    {
+      "caller": "ValidationPipe.transformPrimitive",
+      "callee_text": "String",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 231
+    },
+    {
+      "caller": "ValidationPipe.toEmptyIfNil",
+      "callee_text": "isNil",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../utils/shared.utils",
+      "line": 240
+    },
+    {
+      "caller": "ValidationPipe.stripProtoKeys",
+      "callee_text": "isTypedArray",
+      "kind": "method",
+      "receiver": "types",
+      "receiver_type_hint": null,
+      "callee_file_hint": "util",
+      "line": 260
+    },
+    {
+      "caller": "ValidationPipe.stripProtoKeys",
+      "callee_text": "some",
+      "kind": "static",
+      "receiver": "BUILT_IN_TYPES",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 266
+    },
+    {
+      "caller": "ValidationPipe.stripProtoKeys",
+      "callee_text": "isArray",
+      "kind": "static",
+      "receiver": "Array",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 270
+    },
+    {
+      "caller": "ValidationPipe.stripProtoKeys",
+      "callee_text": "stripProtoKeys",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 272
+    },
+    {
+      "caller": "ValidationPipe.stripProtoKeys",
+      "callee_text": "includes",
+      "kind": "static",
+      "receiver": "BUILT_IN_TYPES",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 283
+    },
+    {
+      "caller": "ValidationPipe.stripProtoKeys",
+      "callee_text": "stripProtoKeys",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 288
+    },
+    {
+      "caller": "ValidationPipe.isPrimitive",
+      "callee_text": "includes",
+      "kind": "method",
+      "receiver": "['number', 'boolean', 'string']",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 293
+    },
+    {
+      "caller": "ValidationPipe.validate",
+      "callee_text": "validate",
+      "kind": "method",
+      "receiver": "classValidator",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 300
+    },
+    {
+      "caller": "ValidationPipe.flattenValidationErrors",
+      "callee_text": "toArray",
+      "kind": "method",
+      "receiver": "iterate(validationErrors)\n      .map(error => this.mapChildrenToValidationErrors(error))\n      .flatten()\n      .filter(item => !!item.constraints)\n      .map(item => Object.values(item.constraints!))\n      .flatten()",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 306
+    },
+    {
+      "caller": "ValidationPipe.flattenValidationErrors",
+      "callee_text": "flatten",
+      "kind": "method",
+      "receiver": "iterate(validationErrors)\n      .map(error => this.mapChildrenToValidationErrors(error))\n      .flatten()\n      .filter(item => !!item.constraints)\n      .map(item => Object.values(item.constraints!))",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 306
+    },
+    {
+      "caller": "ValidationPipe.flattenValidationErrors",
+      "callee_text": "map",
+      "kind": "method",
+      "receiver": "iterate(validationErrors)\n      .map(error => this.mapChildrenToValidationErrors(error))\n      .flatten()\n      .filter(item => !!item.constraints)",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 306
+    },
+    {
+      "caller": "ValidationPipe.flattenValidationErrors",
+      "callee_text": "filter",
+      "kind": "method",
+      "receiver": "iterate(validationErrors)\n      .map(error => this.mapChildrenToValidationErrors(error))\n      .flatten()",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 306
+    },
+    {
+      "caller": "ValidationPipe.flattenValidationErrors",
+      "callee_text": "flatten",
+      "kind": "method",
+      "receiver": "iterate(validationErrors)\n      .map(error => this.mapChildrenToValidationErrors(error))",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 306
+    },
+    {
+      "caller": "ValidationPipe.flattenValidationErrors",
+      "callee_text": "map",
+      "kind": "method",
+      "receiver": "iterate(validationErrors)",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 306
+    },
+    {
+      "caller": "ValidationPipe.flattenValidationErrors",
+      "callee_text": "iterate",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "iterare",
+      "line": 306
+    },
+    {
+      "caller": "ValidationPipe.flattenValidationErrors",
+      "callee_text": "mapChildrenToValidationErrors",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 307
+    },
+    {
+      "caller": "ValidationPipe.flattenValidationErrors",
+      "callee_text": "values",
+      "kind": "static",
+      "receiver": "Object",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 310
+    },
+    {
+      "caller": "ValidationPipe.mapChildrenToValidationErrors",
+      "callee_text": "push",
+      "kind": "method",
+      "receiver": "validationErrors",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 328
+    },
+    {
+      "caller": "ValidationPipe.mapChildrenToValidationErrors",
+      "callee_text": "mapChildrenToValidationErrors",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 329
+    },
+    {
+      "caller": "ValidationPipe.mapChildrenToValidationErrors",
+      "callee_text": "push",
+      "kind": "method",
+      "receiver": "validationErrors",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 332
+    },
+    {
+      "caller": "ValidationPipe.mapChildrenToValidationErrors",
+      "callee_text": "prependConstraintsWithParentProp",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 333
+    }
+  ],
+  "callable_refs": []
+}

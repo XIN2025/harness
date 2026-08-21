@@ -1,0 +1,11 @@
+```json
+{
+  "definitions": ["randomString"],
+  "references": [
+    {"name": "randomString", "source": "./src/randomString.ts"}
+  ],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": []
+}
+```

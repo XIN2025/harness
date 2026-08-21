@@ -1,0 +1,154 @@
+```json
+{
+  "definitions": [
+    "sample",
+    "Combinations",
+    "FixedSubTuples",
+    "IsLongerThan",
+    "IsNever",
+    "NTuple",
+    "PartialArray",
+    "Purry",
+    "Sampled",
+    "SampledLiteral",
+    "SubSampled",
+    "TupleParts"
+  ],
+  "references": [
+    {"name": "sample", "source": "./src/sample.ts"},
+    {"name": "Combinations", "source": "./src/sample.ts"},
+    {"name": "FixedSubTuples", "source": "./src/sample.ts"},
+    {"name": "IsLongerThan", "source": "./src/sample.ts"},
+    {"name": "IsNever", "source": "./src/sample.ts"},
+    {"name": "NTuple", "source": "./src/sample.ts"},
+    {"name": "PartialArray", "source": "./src/sample.ts"},
+    {"name": "Purry", "source": "./src/sample.ts"},
+    {"name": "Sampled", "source": "./src/sample.ts"},
+    {"name": "SampledLiteral", "source": "./src/sample.ts"},
+    {"name": "SubSampled", "source": "./src/sample.ts"},
+    {"name": "TupleParts", "source": "./src/sample.ts"}
+  ],
+  "calls": [
+    {
+      "caller": "__module__",
+      "callee_text": "sample",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./src/sample.ts",
+      "line": 1
+    }
+  ],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "sample",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "data", "type": "readonly T[]"}, {"name": "sampleSize", "type": "N"}],
+      "returns": "T[]",
+      "line": 1
+    },
+    {
+      "name": "Combinations",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "T", "type": "IterableContainer"}, {"name": "N", "type": "number"}],
+      "returns": "unknown[]",
+      "line": 1
+    },
+    {
+      "name": "FixedSubTuples",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "T", "type": "IterableContainer"}],
+      "returns": "unknown[]",
+      "line": 1
+    },
+    {
+      "name": "IsLongerThan",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "T", "type": "readonly unknown[]"}, {"name": "N", "type": "number"}],
+      "returns": "boolean",
+      "line": 1
+    },
+    {
+      "name": "IsNever",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "T", "type": "unknown"}],
+      "returns": "boolean",
+      "line": 1
+    },
+    {
+      "name": "NTuple",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "T", "type": "unknown"}, {"name": "N", "type": "number"}],
+      "returns": "unknown[]",
+      "line": 1
+    },
+    {
+      "name": "PartialArray",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "T", "type": "unknown"}],
+      "returns": "unknown[]",
+      "line": 1
+    },
+    {
+      "name": "Purry",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "fn", "type": "unknown"}, {"name": "args", "type": "readonly unknown[]"}],
+      "returns": "unknown",
+      "line": 1
+    },
+    {
+      "name": "Sampled",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "T", "type": "IterableContainer"}, {"name": "N", "type": "number"}],
+      "returns": "unknown[]",
+      "line": 1
+    },
+    {
+      "name": "SampledLiteral",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "T", "type": "IterableContainer"}, {"name": "N", "type": "number"}],
+      "returns": "unknown[]",
+      "line": 1
+    },
+    {
+      "name": "SubSampled",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "Prefix", "type": "readonly unknown[]"}, {"name": "Item", "type": "unknown"}, {"name": "Suffix", "type": "readonly unknown[]"}, {"name": "N", "type": "number"}],
+      "returns": "unknown[]",
+      "line": 1
+    },
+    {
+      "name": "TupleParts",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "T", "type": "IterableContainer"}],
+      "returns": "unknown[]",
+      "line": 1
+    }
+  ]
+}
+```

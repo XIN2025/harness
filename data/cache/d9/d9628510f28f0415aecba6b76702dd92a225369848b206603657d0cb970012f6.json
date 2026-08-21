@@ -1,0 +1,13 @@
+{
+  "key": "d9628510f28f0415aecba6b76702dd92a225369848b206603657d0cb970012f6",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "refs-strict-v1-ca2cfcfbecef+json",
+  "file_sha": "1f300215c84cf6ca1bff9c5378ef89a180b9ed194b3581987e885a1d44344f2c",
+  "relative_path": "src/takeLastWhile.ts",
+  "response": "{\"callable_refs\": [\n  {\"caller\": \"takeLastWhile\", \"callee_text\": \"takeLastWhileImplementation\"},\n  {\"caller\": \"takeLastWhileImplementation\", \"callee_text\": \"slice\"},\n  {\"caller\": \"takeLastWhileImplementation\", \"callee_text\": \"sort\"},\n  {\"caller\": \"takeLastWhileImplementation\", \"callee_text\": \"map\"}\n]}",
+  "created": "2026-08-09T06:08:45+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1077,
+  "completion_tokens": 77
+}

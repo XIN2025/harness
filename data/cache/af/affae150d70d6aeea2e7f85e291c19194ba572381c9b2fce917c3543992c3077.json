@@ -1,0 +1,13 @@
+{
+  "key": "affae150d70d6aeea2e7f85e291c19194ba572381c9b2fce917c3543992c3077",
+  "model": "harness-qwen15b",
+  "prompt_version": "refs-v1-7386a79c1ab2+json",
+  "file_sha": "c0cb203f156052f700038dd0eef746a0b6000792aae6d7891763d64f4c7ae2d3",
+  "relative_path": "src/divide.ts",
+  "response": "{\"calls\": [], \"callable_refs\": [{\"caller\": \"divide\", \"callee_text\": \"divideImplementation\"}]}",
+  "created": "2026-08-08T22:25:14+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 675,
+  "completion_tokens": 24
+}

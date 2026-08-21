@@ -1,0 +1,4 @@
+{"callable_refs": [
+  {"caller": "fromKeys", "callee_text": "fromKeysImplementation"},
+  {"caller": "fromKeysImplementation", "callee_text": "mapper"}
+]}

@@ -1,0 +1,12 @@
+{"calls": [
+  {"caller": "prop", "callee_text": "implementation"},
+  {"caller": "propImplementation", "callee_text": "output"},
+  {"caller": "propImplementation", "callee_text": "data"},
+  {"caller": "propImplementation", "callee_text": "key"},
+  {"caller": "propImplementation", "callee_text": "keys"},
+  {"caller": "propImplementation", "callee_text": "undefined"},
+  {"caller": "propImplementation", "callee_text": "output"},
+  {"caller": "propImplementation", "callee_text": "data"},
+  {"caller": "propImplementation", "callee_text": "key"},
+  {"caller": "propImplementation", "callee_text": "keys"}
+]}

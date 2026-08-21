@@ -1,0 +1,66 @@
+{
+  "arm": "ensemble-2of2",
+  "split": "dev",
+  "cut": "calls_only",
+  "validity": {
+    "total": 112,
+    "raw_valid": 105,
+    "parseable": 105,
+    "schema_valid": 105
+  },
+  "counts": {
+    "tp": 136,
+    "fp": 42,
+    "fn": 195,
+    "unscored": 24,
+    "files": 112
+  },
+  "metrics": {
+    "precision": {
+      "point": 0.7640449438202247,
+      "low": 0.6785714285714286,
+      "high": 0.8297872340425532,
+      "method": "BCa"
+    },
+    "recall": {
+      "point": 0.4108761329305136,
+      "low": 0.3228860805702526,
+      "high": 0.4946856745895988,
+      "method": "BCa"
+    },
+    "f1": {
+      "point": 0.5343811394891945,
+      "low": 0.45161290322580644,
+      "high": 0.6088794926004228,
+      "method": "BCa"
+    }
+  },
+  "arms": [
+    "qwen15b-calls",
+    "llama32b-calls"
+  ],
+  "overlap": {
+    "arms": [
+      "qwen15b-calls",
+      "llama32b-calls"
+    ],
+    "split": "dev",
+    "cut": "calls_only",
+    "min_votes": 2,
+    "formula": "containment: |E_a \u2229 E_b| / min(|E_a|, |E_b|); 0.0 when either set is empty",
+    "limit": 0.8,
+    "max": 0.37317784256559766,
+    "pairs": [
+      {
+        "arm_a": "qwen15b-calls",
+        "arm_b": "llama32b-calls",
+        "overlap": 0.37317784256559766
+      }
+    ],
+    "errors_by_arm": {
+      "qwen15b-calls": 343,
+      "llama32b-calls": 483
+    },
+    "ensemble_dropped": false
+  }
+}

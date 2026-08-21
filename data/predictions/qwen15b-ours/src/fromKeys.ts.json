@@ -1,0 +1,297 @@
+```json
+{
+  "definitions": [
+    "fromKeys",
+    "ExactlyOneKey",
+    "FromKeys",
+    "BoundedPartial",
+    "IterableContainer",
+    "purry",
+    "type-fest",
+    "internal/types/BoundedPartial",
+    "internal/types/IterableContainer",
+    "add"
+  ],
+  "references": [
+    {
+      "name": "fromKeys",
+      "source": "src/fromKeys.ts",
+      "alias": null
+    },
+    {
+      "name": "ExactlyOneKey",
+      "source": "src/fromKeys.ts",
+      "alias": null
+    },
+    {
+      "name": "FromKeys",
+      "source": "src/fromKeys.ts",
+      "alias": null
+    },
+    {
+      "name": "BoundedPartial",
+      "source": "src/fromKeys.ts",
+      "alias": null
+    },
+    {
+      "name": "IterableContainer",
+      "source": "src/fromKeys.ts",
+      "alias": null
+    },
+    {
+      "name": "purry",
+      "source": "src/fromKeys.ts",
+      "alias": null
+    },
+    {
+      "name": "type-fest",
+      "source": "src/fromKeys.ts",
+      "alias": null
+    },
+    {
+      "name": "internal/types/BoundedPartial",
+      "source": "src/fromKeys.ts",
+      "alias": null
+    },
+    {
+      "name": "internal/types/IterableContainer",
+      "source": "src/fromKeys.ts",
+      "alias": null
+    },
+    {
+      "name": "add",
+      "source": "src/fromKeys.ts",
+      "alias": null
+    }
+  ],
+  "calls": [
+    {
+      "caller": "__module__",
+      "callee_text": "fromKeys",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "src/fromKeys.ts",
+      "line": 1
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "fromKeys",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "src/fromKeys.ts",
+      "line": 2
+    }
+  ],
+  "type_assignments": [
+    {
+      "scope": "__module__",
+      "var": "fromKeys",
+      "type": "function",
+      "type_module": null,
+      "from_call": false
+    },
+    {
+      "scope": "__module__",
+      "var": "ExactlyOneKey",
+      "type": "function",
+      "type_module": null,
+      "from_call": false
+    },
+    {
+      "scope": "__module__",
+      "var": "FromKeys",
+      "type": "function",
+      "type_module": null,
+      "from_call": false
+    },
+    {
+      "scope": "__module__",
+      "var": "BoundedPartial",
+      "type": "function",
+      "type_module": null,
+      "from_call": false
+    },
+    {
+      "scope": "__module__",
+      "var": "IterableContainer",
+      "type": "function",
+      "type_module": null,
+      "from_call": false
+    },
+    {
+      "scope": "__module__",
+      "var": "purry",
+      "type": "function",
+      "type_module": null,
+      "from_call": false
+    },
+    {
+      "scope": "__module__",
+      "var": "type-fest",
+      "type": "function",
+      "type_module": null,
+      "from_call": false
+    },
+    {
+      "scope": "__module__",
+      "var": "internal/types/BoundedPartial",
+      "type": "function",
+      "type_module": null,
+      "from_call": false
+    },
+    {
+      "scope": "__module__",
+      "var": "internal/types/IterableContainer",
+      "type": "function",
+      "type_module": null,
+      "from_call": false
+    }
+  ],
+  "definitions_rich": [
+    {
+      "name": "fromKeys",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "IterableContainer<PropertyKey>"
+        },
+        {
+          "name": "mapper",
+          "type": "(item: T[number], index: number, data: T) => V"
+        }
+      ],
+      "returns": "Simplify<FromKeys<T, V>>"
+    },
+    {
+      "name": "ExactlyOneKey",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "T",
+          "type": "IterableContainer<PropertyKey>"
+        },
+        {
+          "name": "V",
+          "type": "unknown"
+        }
+      ],
+      "returns": "never"
+    },
+    {
+      "name": "FromKeys",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "T",
+          "type": "IterableContainer<PropertyKey>"
+        },
+        {
+          "name": "V",
+          "type": "unknown"
+        }
+      ],
+      "returns": "never"
+    },
+    {
+      "name": "BoundedPartial",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "T",
+          "type": "Record<T[number], V>"
+        }
+      ],
+      "returns": "never"
+    },
+    {
+      "name": "IterableContainer",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "T",
+          "type": "unknown"
+        }
+      ],
+      "returns": "never"
+    },
+    {
+      "name": "purry",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "Function"
+        }
+      ],
+      "returns": "Function"
+    },
+    {
+      "name": "type-fest",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "T",
+          "type": "unknown"
+        }
+      ],
+      "returns": "never"
+    },
+    {
+      "name": "internal/types/BoundedPartial",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "T",
+          "type": "Record<T[number], V>"
+        }
+      ],
+      "returns": "never"
+    },
+    {
+      "name": "internal/types/IterableContainer",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "T",
+          "type": "unknown"
+        }
+      ],
+      "returns": "never"
+    },
+    {
+      "name": "add",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "x",
+          "type": "number"
+        }
+      ],
+      "returns": "number"
+    }
+  ]
+}
+```

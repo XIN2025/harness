@@ -1,0 +1,7 @@
+{
+  "calls": [],
+  "callable_refs": [
+    {"caller": "dropLastWhile", "callee_text": "dropLastWhileImplementation"},
+    {"caller": "dropLastWhileImplementation", "callee_text": "predicate"}
+  ]
+}

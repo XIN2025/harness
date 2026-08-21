@@ -1,0 +1,13 @@
+{
+  "key": "bb9e85eae9bbdb2f647dc6093aaa068e9402a7e9db50a0430024a8ed58cb3d8b",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "refs-strict-v1-ca2cfcfbecef+json",
+  "file_sha": "7a5d018c4c93a58167f972cb6ce4333a6355f3925795c629265b2391b13c28e6",
+  "relative_path": "src/partialLastBind.ts",
+  "response": "{\"callable_refs\": [\n  {\"caller\": \"partialLastBind\", \"callee_text\": \"RemoveSuffix\"},\n  {\"caller\": \"partialLastBind\", \"callee_text\": \"PartialLastBindError\"},\n  {\"caller\": \"partialLastBind\", \"callee_text\": \"StrictFunction\"},\n  {\"caller\": \"partialLastBind\", \"callee_text\": \"TupleSplits\"},\n  {\"caller\": \"partialLastBind\", \"callee_text\": \"Parameters\"},\n  {\"caller\": \"partialLastBind\", \"callee_text\": \"ReturnType\"}\n]}",
+  "created": "2026-08-09T06:04:32+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1361,
+  "completion_tokens": 110
+}

@@ -1,0 +1,13 @@
+{
+  "key": "5a64eaa3e565fb02b2714e8957090b30ebfe2241a6ded71737526e84ef5301ad",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "refs-v1-7386a79c1ab2+json",
+  "file_sha": "54473bf270fed786995f78e7d4b4200c16f5dadeffc8a208f9d668264f58a3cc",
+  "relative_path": "src/zipWith.ts",
+  "response": "{\"callable_refs\": [\n  {\"caller\": \"zipWith\", \"callee_text\": \"lazyImplementation\"},\n  {\"caller\": \"zipWith\", \"callee_text\": \"zipWithImplementation\"}\n]}",
+  "created": "2026-08-08T23:30:43+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1416,
+  "completion_tokens": 40
+}

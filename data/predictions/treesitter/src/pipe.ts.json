@@ -1,0 +1,151 @@
+{
+  "relative_path": "src/pipe.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "pipe",
+      "callee_text": "map",
+      "kind": "method",
+      "receiver": "functions",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 290
+    },
+    {
+      "caller": "pipe",
+      "callee_text": "prepareLazyFunction",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 291
+    },
+    {
+      "caller": "pipe",
+      "callee_text": "isIterable",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 297
+    },
+    {
+      "caller": "pipe",
+      "callee_text": "func",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 299
+    },
+    {
+      "caller": "pipe",
+      "callee_text": "push",
+      "kind": "method",
+      "receiver": "lazySequence",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 311
+    },
+    {
+      "caller": "pipe",
+      "callee_text": "processItem",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 320
+    },
+    {
+      "caller": "pipe",
+      "callee_text": "at",
+      "kind": "method",
+      "receiver": "lazySequence",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 326
+    },
+    {
+      "caller": "processItem",
+      "callee_text": "push",
+      "kind": "method",
+      "receiver": "accumulator",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 341
+    },
+    {
+      "caller": "processItem",
+      "callee_text": "entries",
+      "kind": "method",
+      "receiver": "lazySequence",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 349
+    },
+    {
+      "caller": "processItem",
+      "callee_text": "push",
+      "kind": "method",
+      "receiver": "items",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 351
+    },
+    {
+      "caller": "processItem",
+      "callee_text": "lazyFn",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 352
+    },
+    {
+      "caller": "processItem",
+      "callee_text": "processItem",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 357
+    },
+    {
+      "caller": "processItem",
+      "callee_text": "slice",
+      "kind": "method",
+      "receiver": "lazySequence",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 360
+    },
+    {
+      "caller": "processItem",
+      "callee_text": "push",
+      "kind": "method",
+      "receiver": "accumulator",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 380
+    },
+    {
+      "caller": "prepareLazyFunction",
+      "callee_text": "lazy",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 387
+    },
+    {
+      "caller": "prepareLazyFunction",
+      "callee_text": "assign",
+      "kind": "static",
+      "receiver": "Object",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 388
+    }
+  ],
+  "callable_refs": []
+}

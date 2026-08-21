@@ -1,0 +1,27 @@
+```json
+{
+  "definitions": [
+    "toTitleCase",
+    "words",
+    "OptionalOptionsWithDefaults",
+    "Words",
+    "IsEqual",
+    "IsLiteral",
+    "Join",
+    "Lowercase",
+    "DEFAULT_PRESERVE_CONSECUTIVE_UPPERCASE",
+    "TitleCaseOptions",
+    "TitleCaseOptionsWithDefaults",
+    "TitleCase",
+    "TitleCasedArray",
+    "toTitleCaseImplementation"
+  ],
+  "references": [
+    {"name": "type-fest", "source": "./node_modules/type-fest"},
+    {"name": "@mui/material", "source": "./node_modules/@mui/material"}
+  ],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": []
+}
+```

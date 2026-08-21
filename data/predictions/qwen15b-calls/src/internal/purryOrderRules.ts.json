@@ -1,0 +1,7 @@
+{"calls": [
+  {"caller": "purryOrderRules", "callee_text": "purry"},
+  {"caller": "purryOrderRulesWithArgument", "callee_text": "purry"},
+  {"caller": "orderRuleComparer", "callee_text": "compareFn"},
+  {"caller": "isOrderRule", "callee_text": "primaryRule"},
+  {"caller": "isProjection", "callee_text": "maybeProjection"}
+]}

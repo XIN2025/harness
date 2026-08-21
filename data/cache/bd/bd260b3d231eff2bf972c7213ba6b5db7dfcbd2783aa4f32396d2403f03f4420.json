@@ -1,0 +1,13 @@
+{
+  "key": "bd260b3d231eff2bf972c7213ba6b5db7dfcbd2783aa4f32396d2403f03f4420",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "refs-strict-v1-ca2cfcfbecef+json",
+  "file_sha": "e51653f72ff630ab4a58c8a96ed9d95d3b3fa7b22e88b6aa710ab0bdde984276",
+  "relative_path": "src/split.ts",
+  "response": "{\"calls\": [], \"callable_refs\": [{\"caller\": \"split\", \"callee_text\": \"split\"}, {\"caller\": \"pipe\", \"callee_text\": \"split\"}]}",
+  "created": "2026-08-09T06:07:50+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1608,
+  "completion_tokens": 36
+}

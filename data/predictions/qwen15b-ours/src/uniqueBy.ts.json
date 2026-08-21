@@ -1,0 +1,43 @@
+```json
+{
+  "definitions": [
+    "uniqueBy",
+    "lazyImplementation"
+  ],
+  "references": [],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "uniqueBy",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "IterableContainer"
+        },
+        {
+          "name": "keyFunction",
+          "type": "(item: T[number], index: number, data: T) => unknown"
+        }
+      ],
+      "returns": "Deduped<T>"
+    },
+    {
+      "name": "lazyImplementation",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "keyFunction",
+          "type": "(item: T, index: number, data: readonly T[]) => unknown"
+        }
+      ],
+      "returns": "LazyEvaluator<T>"
+    }
+  ]
+}
+```

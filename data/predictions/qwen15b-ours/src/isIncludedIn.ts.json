@@ -1,0 +1,106 @@
+```json
+{
+  "definitions": [
+    "IsLiteral",
+    "IsUnion",
+    "IterableContainer",
+    "IsConstantTuple",
+    "IsNarrowable",
+    "isIncludedIn"
+  ],
+  "references": [],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "IsLiteral",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [],
+      "returns": {
+        "type": "boolean"
+      },
+      "line": 1
+    },
+    {
+      "name": "IsUnion",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [],
+      "returns": {
+        "type": "boolean"
+      },
+      "line": 2
+    },
+    {
+      "name": "IterableContainer",
+      "kind": "interface",
+      "parent": null,
+      "bases": [],
+      "params": [],
+      "returns": {
+        "type": "unknown[]"
+      },
+      "line": 3
+    },
+    {
+      "name": "IsConstantTuple",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "T",
+          "type": "IterableContainer"
+        }
+      ],
+      "returns": {
+        "type": "boolean"
+      },
+      "line": 4
+    },
+    {
+      "name": "IsNarrowable",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "T",
+          "type": "unknown"
+        },
+        {
+          "name": "S",
+          "type": "IterableContainer<unknown>"
+        }
+      ],
+      "returns": {
+        "type": "boolean"
+      },
+      "line": 5
+    },
+    {
+      "name": "isIncludedIn",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "unknown"
+        },
+        {
+          "name": "container",
+          "type": "IterableContainer<unknown>"
+        }
+      ],
+      "returns": {
+        "type": "boolean"
+      },
+      "line": 6
+    }
+  ]
+}
+```

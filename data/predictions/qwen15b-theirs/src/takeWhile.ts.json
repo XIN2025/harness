@@ -1,0 +1,26 @@
+```json
+{
+  "definitions": ["takeWhile", "purry", "pipe"],
+  "references": [
+    {"name": "IterableContainer", "source": "./internal/types/IterableContainer"},
+    {"name": "purry", "source": "./purry"},
+    {"name": "pipe", "source": "./pipe"}
+  ],
+  "calls": [
+    {"caller": "takeWhile", "callee_text": "pipe", "kind": "hook",
+     "receiver": null, "receiver_type_hint": null, "callee_file_hint": "external", "line": 10},
+    {"caller": "takeWhile", "callee_text": "purry", "kind": "hook",
+     "receiver": null, "receiver_type_hint": null, "callee_file_hint": "external", "line": 9}
+  ],
+  "type_assignments": [
+    {"scope": "module", "var": "IterableContainer", "type": "IterableContainer", "type_module": "./internal/types/IterableContainer"},
+    {"scope": "module", "var": "purry", "type": "Function", "type_module": "./purry"},
+    {"scope": "module", "var": "pipe", "type": "Function", "type_module": "./pipe"}
+  ],
+  "definitions_rich": [
+    {"name": "takeWhile", "kind": "function", "parent": null, "bases": [], "params": [{"name": "data", "type": "IterableContainer"}, {"name": "predicate", "type": "(item: T[number], index: number, data: T) => boolean"}], "returns": "T[number][]", "line": 1},
+    {"name": "purry", "kind": "function", "parent": null, "bases": [], "params": [{"name": "fn", "type": "Function"}, {"name": "arity", "type": "number"}], "returns": "Function", "line": 2},
+    {"name": "pipe", "kind": "function", "parent": null, "bases": [], "params": [{"name": "fns", "type": "readonly Function[]"}], "returns": "Function", "line": 3}
+  ]
+}
+```

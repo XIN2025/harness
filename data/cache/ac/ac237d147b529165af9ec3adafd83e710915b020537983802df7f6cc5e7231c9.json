@@ -1,0 +1,13 @@
+{
+  "key": "ac237d147b529165af9ec3adafd83e710915b020537983802df7f6cc5e7231c9",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "refs-strict-v1-ca2cfcfbecef+json",
+  "file_sha": "86c0d829f15ed379f0d1067772f3ab4bf8be4b42ae64abfee6b2dea326eace86",
+  "relative_path": "src/internal/quickSelect.ts",
+  "response": "{\"calls\": [], \"callable_refs\": [{\"caller\": \"quickSelect\", \"callee_text\": \"quickSelectImplementation\"}, {\"caller\": \"quickSelectImplementation\", \"callee_text\": \"partition\"}]}",
+  "created": "2026-08-09T06:02:18+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1189,
+  "completion_tokens": 41
+}

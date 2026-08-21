@@ -1,0 +1,13 @@
+{
+  "key": "58becafd282934bd645f5254b4bece0e696aa621ebf1c6a75899c2756e56c189",
+  "model": "harness-qwen15b",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "bcb75d76351156b7d96f6c439606a936a13a8caebd4480053526c9cf83475424",
+  "relative_path": "src/takeFirstBy.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"takeFirstBy\", \"callee_text\": \"purryOrderRulesWithArgument\"},\n  {\"caller\": \"takeFirstByImplementation\", \"callee_text\": \"heapify\"},\n  {\"caller\": \"takeFirstByImplementation\", \"callee_text\": \"heapMaybeInsert\"}\n]}",
+  "created": "2026-08-08T22:23:36+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1257,
+  "completion_tokens": 64
+}

@@ -1,0 +1,13 @@
+{
+  "key": "d49daa6535b938633d5e564fc6e3effcca23cabbcf8b79ffb2a69fa6fa6762b7",
+  "model": "harness-qwen15b",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "81b1e8438c284ebad6364f1d149ffb2d545def691e224e388aa77a7a13e59cdb",
+  "relative_path": "src/groupBy.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"groupBy\", \"callee_text\": \"purry\"},\n  {\"caller\": \"groupByImplementation\", \"callee_text\": \"callbackfn\"},\n  {\"caller\": \"groupByImplementation\", \"callee_text\": \"data\"},\n  {\"caller\": \"groupByImplementation\", \"callee_text\": \"index\"},\n  {\"caller\": \"groupByImplementation\", \"callee_text\": \"data\"},\n  {\"caller\": \"groupByImplementation\", \"callee_text\": \"item\"},\n  {\"caller\": \"groupByImplementation\", \"callee_text\": \"callbackfn\"},\n  {\"caller\": \"groupByImplementation\", \"callee_text\": \"key\"},\n  {\"caller\": \"groupByImplementation\", \"callee_text\": \"output[key]\"},\n  {\"caller\": \"groupByImplementation\", \"callee_text\": \"items.push(item)\"},\n  {\"caller\": \"groupByImplementation\", \"callee_text\": \"Object.setPrototypeOf(output, Object.prototype)\"}\n]}",
+  "created": "2026-08-08T22:16:58+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1892,
+  "completion_tokens": 183
+}

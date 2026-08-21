@@ -1,0 +1,4 @@
+{"callable_refs": [
+  {"caller": "prop", "callee_text": "propImplementation"},
+  {"caller": "prop", "callee_text": "prop"}
+]}

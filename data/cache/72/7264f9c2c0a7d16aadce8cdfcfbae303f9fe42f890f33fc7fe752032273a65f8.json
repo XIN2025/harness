@@ -1,0 +1,13 @@
+{
+  "key": "7264f9c2c0a7d16aadce8cdfcfbae303f9fe42f890f33fc7fe752032273a65f8",
+  "model": "harness-qwen15b",
+  "prompt_version": "refs-v1-7386a79c1ab2+json",
+  "file_sha": "be3323e0ad630e95e76340cd0f695dbb36ce391ebebf652da11334e99e46c4b3",
+  "relative_path": "src/difference.ts",
+  "response": "{\n  \"calls\": [],\n  \"callable_refs\": [\n    {\"caller\": \"difference\", \"callee_text\": \"lazyImplementation\"},\n    {\"caller\": \"lazyImplementation\", \"callee_text\": \"remaining\"},\n    {\"caller\": \"lazyImplementation\", \"callee_text\": \"copies\"}\n  ]\n}",
+  "created": "2026-08-08T22:25:07+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 994,
+  "completion_tokens": 61
+}

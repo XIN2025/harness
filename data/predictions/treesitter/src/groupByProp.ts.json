@@ -1,0 +1,43 @@
+{
+  "relative_path": "src/groupByProp.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "groupByProp",
+      "callee_text": "purry",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./purry",
+      "line": 183
+    },
+    {
+      "caller": "groupByPropImplementation",
+      "callee_text": "create",
+      "kind": "static",
+      "receiver": "Object",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 192
+    },
+    {
+      "caller": "groupByPropImplementation",
+      "callee_text": "push",
+      "kind": "method",
+      "receiver": "items",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 216
+    },
+    {
+      "caller": "groupByPropImplementation",
+      "callee_text": "setPrototypeOf",
+      "kind": "static",
+      "receiver": "Object",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 224
+    }
+  ],
+  "callable_refs": []
+}

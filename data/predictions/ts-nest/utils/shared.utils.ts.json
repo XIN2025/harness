@@ -1,0 +1,133 @@
+{
+  "relative_path": "utils/shared.utils.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "isObject",
+      "callee_text": "isNil",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 5
+    },
+    {
+      "caller": "isPlainObject",
+      "callee_text": "isObject",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 8
+    },
+    {
+      "caller": "isPlainObject",
+      "callee_text": "getPrototypeOf",
+      "kind": "static",
+      "receiver": "Object",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 11
+    },
+    {
+      "caller": "isPlainObject",
+      "callee_text": "call",
+      "kind": "method",
+      "receiver": "Object.prototype.hasOwnProperty",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 16
+    },
+    {
+      "caller": "isPlainObject",
+      "callee_text": "call",
+      "kind": "method",
+      "receiver": "Function.prototype.toString",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 21
+    },
+    {
+      "caller": "isPlainObject",
+      "callee_text": "call",
+      "kind": "method",
+      "receiver": "Function.prototype.toString",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 22
+    },
+    {
+      "caller": "addLeadingSlash",
+      "callee_text": "charAt",
+      "kind": "method",
+      "receiver": "path",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 28
+    },
+    {
+      "caller": "addLeadingSlash",
+      "callee_text": "substring",
+      "kind": "method",
+      "receiver": "path",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 28
+    },
+    {
+      "caller": "normalizePath",
+      "callee_text": "startsWith",
+      "kind": "method",
+      "receiver": "path",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 35
+    },
+    {
+      "caller": "normalizePath",
+      "callee_text": "replace",
+      "kind": "method",
+      "receiver": "('/' + path.replace(/\\/+$/, ''))",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 36
+    },
+    {
+      "caller": "normalizePath",
+      "callee_text": "replace",
+      "kind": "method",
+      "receiver": "path",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 36
+    },
+    {
+      "caller": "normalizePath",
+      "callee_text": "replace",
+      "kind": "method",
+      "receiver": "path",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 37
+    },
+    {
+      "caller": "stripEndSlash",
+      "callee_text": "slice",
+      "kind": "method",
+      "receiver": "path",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 41
+    },
+    {
+      "caller": "isNil",
+      "callee_text": "isUndefined",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 49
+    }
+  ],
+  "callable_refs": []
+}

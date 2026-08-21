@@ -1,0 +1,25 @@
+{
+  "relative_path": "src/last.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "last",
+      "callee_text": "purry",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./purry",
+      "line": 46
+    },
+    {
+      "caller": "lastImplementation",
+      "callee_text": "at",
+      "kind": "method",
+      "receiver": "array",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 50
+    }
+  ],
+  "callable_refs": []
+}

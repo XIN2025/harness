@@ -1,0 +1,1 @@
+{"callable_refs": [{"caller": "takeLast", "callee_text": "takeLastImplementation"}, {"caller": "takeLast", "callee_text": "purry"}]}

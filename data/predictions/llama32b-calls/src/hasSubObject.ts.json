@@ -1,0 +1,7 @@
+{"calls": [
+  {"caller": "hasSubObject", "callee_text": "purry"},
+  {"caller": "hasSubObjectImplementation", "callee_text": "Object.entries"},
+  {"caller": "hasSubObjectImplementation", "callee_text": "Object.hasOwn"},
+  {"caller": "hasSubObjectImplementation", "callee_text": "isDeepEqual"},
+  {"caller": "hasSubObjectImplementation", "callee_text": "hasOwnProperty"}
+]}

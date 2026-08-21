@@ -1,0 +1,13 @@
+{
+  "key": "69cd62d5be0992b8fe523573ac2d09896ae69eda0962799b4292871fa0d04a66",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "refs-v1-7386a79c1ab2+json",
+  "file_sha": "bcb75d76351156b7d96f6c439606a936a13a8caebd4480053526c9cf83475424",
+  "relative_path": "src/takeFirstBy.ts",
+  "response": "{\"calls\": [], \"callable_refs\": [{\"caller\": \"takeFirstBy\", \"callee_text\": \"takeFirstByImplementation\"}, {\"caller\": \"takeFirstBy\", \"callee_text\": \"heapify\"}, {\"caller\": \"takeFirstBy\", \"callee_text\": \"heapMaybeInsert\"}, {\"caller\": \"takeFirstBy\", \"callee_text\": \"compareFn\"}, {\"caller\": \"takeFirstBy\", \"callee_text\": \"defaultCompare\"}, {\"caller\": \"takeFirstBy\", \"callee_text\": \"identity\"}]}",
+  "created": "2026-08-08T23:29:11+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1182,
+  "completion_tokens": 108
+}

@@ -1,0 +1,13 @@
+{
+  "key": "4a29362086794d81e069465eb48d325cae31d1902d2cdd7d7d7f7fd251e2ce86",
+  "model": "harness-qwen15b",
+  "prompt_version": "refs-strict-v1-ca2cfcfbecef+json",
+  "file_sha": "7b09cbc083fdb6ae73fe013b645624ab8c37d26b367ed64567d6f1cdbdab279e",
+  "relative_path": "src/dropLastWhile.ts",
+  "response": "{\"calls\": [], \"callable_refs\": [{\"caller\": \"dropLastWhile\", \"callee_text\": \"dropLastWhileImplementation\"}]}",
+  "created": "2026-08-09T05:44:48+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1046,
+  "completion_tokens": 28
+}

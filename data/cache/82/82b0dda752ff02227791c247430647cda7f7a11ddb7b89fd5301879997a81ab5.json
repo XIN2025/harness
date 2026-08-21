@@ -1,0 +1,13 @@
+{
+  "key": "82b0dda752ff02227791c247430647cda7f7a11ddb7b89fd5301879997a81ab5",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "refs-v1-7386a79c1ab2+json",
+  "file_sha": "6dfcf1256f8bce158862d4f3d51878fad821c1c88b91f0e90c4b1a4b9dfff713",
+  "relative_path": "src/fromKeys.ts",
+  "response": "{\"callable_refs\": [\n  {\"caller\": \"fromKeys\", \"callee_text\": \"fromKeysImplementation\"},\n  {\"caller\": \"fromKeysImplementation\", \"callee_text\": \"mapper\"}\n]}",
+  "created": "2026-08-08T23:20:51+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1514,
+  "completion_tokens": 40
+}

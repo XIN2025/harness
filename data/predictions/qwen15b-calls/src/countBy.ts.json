@@ -1,0 +1,7 @@
+{"calls": [
+  {"caller": "countBy", "callee_text": "purry"},
+  {"caller": "countByImplementation", "callee_text": "forEach"},
+  {"caller": "countByImplementation", "callee_text": "categorizationFn"},
+  {"caller": "countByImplementation", "callee_text": "get"},
+  {"caller": "countByImplementation", "callee_text": "set"}
+]}

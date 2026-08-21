@@ -1,0 +1,13 @@
+{
+  "key": "9cee71dccc02c549348131967bed7b2a5f97c7a5b768a5a63c5174537e58314f",
+  "model": "harness-qwen15b",
+  "prompt_version": "ours-v1-5c74cf9a927a",
+  "file_sha": "ee62c2433ee2c3c8dc3c4a1f35715611dea9656efbd46e3155d21299a8275f80",
+  "relative_path": "src/swapProps.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"swapProps\",\n    \"SwappedProps\"\n  ],\n  \"references\": [],\n  \"calls\": [\n    {\n      \"caller\": \"__module__\",\n      \"callee_text\": \"swapProps\",\n      \"kind\": \"method\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": \"src/swapProps.ts\",\n      \"line\": 1\n    },\n    {\n      \"caller\": \"__module__\",\n      \"callee_text\": \"swapProps\",\n      \"kind\": \"method\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": \"src/swapProps.ts\",\n      \"line\": 2\n    }\n  ],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"swapProps\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"data\",\n          \"type\": \"T\"\n        },\n        {\n          \"name\": \"key1\",\n          \"type\": \"K1\"\n        },\n        {\n          \"name\": \"key2\",\n          \"type\": \"K2\"\n        }\n      ],\n      \"returns\": \"SwappedProps<T, K1, K2>\",\n      \"line\": 1\n    },\n    {\n      \"name\": \"SwappedProps\",\n      \"kind\": \"interface\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"T\",\n          \"type\": \"object\"\n        }\n      ],\n      \"returns\": \"Record<PropertyKey, unknown>\",\n      \"line\": 1\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:46:59+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 819,
+  "completion_tokens": 374
+}

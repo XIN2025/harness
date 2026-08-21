@@ -1,0 +1,70 @@
+```json
+{
+  "definitions": [
+    "countBy",
+    "BoundedPartial",
+    "purry",
+    "toLowerCase"
+  ],
+  "references": [],
+  "calls": [
+    {
+      "caller": "__module__",
+      "callee_text": "countBy",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "src/countBy.ts",
+      "line": 1
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "pipe",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "src/countBy.ts",
+      "line": 2
+    }
+  ],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "countBy",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "readonly T[]"
+        },
+        {
+          "name": "categorizationFn",
+          "type": "(value: T, index: number, data: readonly T[]) => K | undefined"
+        }
+      ],
+      "returns": {
+        "type": "BoundedPartial<Record<K, number>>"
+      },
+      "line": 1
+    },
+    {
+      "name": "countBy",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "categorizationFn",
+          "type": "(value: T, index: number, data: readonly T[]) => K | undefined"
+        }
+      ],
+      "returns": {
+        "type": "BoundedPartial<Record<K, number>>"
+      },
+      "line": 2
+    }
+  ]
+}
+```

@@ -1,0 +1,259 @@
+{
+  "relative_path": "lib/hexo/load_config.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "__module__",
+      "callee_text": "exists",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-fs",
+      "line": 17
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "findConfigPath",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 17
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "render",
+      "kind": "method",
+      "receiver": "ctx.render",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 21
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "debug",
+      "kind": "method",
+      "receiver": "ctx.log",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 24
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "magenta",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "picocolors",
+      "line": 24
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "tildify",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "tildify",
+      "line": 24
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "deepMerge",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-util",
+      "line": 26
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "URL",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 29
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "endsWith",
+      "kind": "method",
+      "receiver": "pathname",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 30
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "validateConfig",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./validate_config",
+      "line": 35
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "replace",
+      "kind": "method",
+      "receiver": "config.root",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 39
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "replace",
+      "kind": "method",
+      "receiver": "config.url",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 41
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "resolve",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "path",
+      "line": 43
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "resolve",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "path",
+      "line": 44
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "Source",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./source",
+      "line": 45
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "toString",
+      "kind": "method",
+      "receiver": "config.theme",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 49
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "join",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "path",
+      "line": 52
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "join",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "path",
+      "line": 53
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "exists",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-fs",
+      "line": 57
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "exists",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-fs",
+      "line": 60
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "join",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "path",
+      "line": 64
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "Theme",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../theme",
+      "line": 65
+    },
+    {
+      "caller": "findConfigPath",
+      "callee_text": "parse",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "path",
+      "line": 69
+    },
+    {
+      "caller": "findConfigPath",
+      "callee_text": "readdir",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-fs",
+      "line": 71
+    },
+    {
+      "caller": "findConfigPath",
+      "callee_text": "find",
+      "kind": "method",
+      "receiver": "files",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 72
+    },
+    {
+      "caller": "findConfigPath",
+      "callee_text": "basename",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "path",
+      "line": 72
+    },
+    {
+      "caller": "findConfigPath",
+      "callee_text": "extname",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "path",
+      "line": 72
+    },
+    {
+      "caller": "findConfigPath",
+      "callee_text": "join",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "path",
+      "line": 73
+    }
+  ],
+  "callable_refs": []
+}

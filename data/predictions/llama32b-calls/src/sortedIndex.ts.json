@@ -1,0 +1,6 @@
+{"calls": [
+  {"caller": "sortedIndex", "callee_text": "purry"},
+  {"caller": "sortedIndexImplementation", "callee_text": "binarySearchCutoffIndex"},
+  {"caller": "sortedIndexImplementation", "callee_text": "pivot < "},
+  {"caller": "sortedIndexImplementation", "callee_text": "item"}
+]}

@@ -1,0 +1,34 @@
+{
+  "relative_path": "src/capitalize.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "capitalize",
+      "callee_text": "purry",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./purry",
+      "line": 55
+    },
+    {
+      "caller": "capitalizeImplementation",
+      "callee_text": "toUpperCase",
+      "kind": "method",
+      "receiver": "data[0]",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 59
+    },
+    {
+      "caller": "capitalizeImplementation",
+      "callee_text": "slice",
+      "kind": "method",
+      "receiver": "data",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 59
+    }
+  ],
+  "callable_refs": []
+}

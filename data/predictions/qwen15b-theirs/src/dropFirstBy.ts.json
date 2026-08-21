@@ -1,0 +1,97 @@
+```json
+{
+  "definitions": [
+    "dropFirstBy",
+    "heapify",
+    "heapMaybeInsert",
+    "purryOrderRulesWithArgument",
+    "type",
+    "OrderRule",
+    "CompareFunction",
+    "NonEmptyArray"
+  ],
+  "references": [
+    {"name": "dropFirstBy", "source": "./src/dropFirstBy.ts"},
+    {"name": "heapify", "source": "./src/dropFirstBy.ts"},
+    {"name": "heapMaybeInsert", "source": "./src/dropFirstBy.ts"},
+    {"name": "purryOrderRulesWithArgument", "source": "./src/dropFirstBy.ts"},
+    {"name": "type", "source": "./src/dropFirstBy.ts"},
+    {"name": "OrderRule", "source": "./src/dropFirstBy.ts"},
+    {"name": "CompareFunction", "source": "./src/dropFirstBy.ts"},
+    {"name": "NonEmptyArray", "source": "./src/dropFirstBy.ts"}
+  ],
+  "calls": [
+    {
+      "caller": "dropFirstBy",
+      "callee_text": "heapify",
+      "kind": "method",
+      "receiver": "data.slice(0, n)",
+      "receiver_type_hint": null,
+      "callee_file_hint": "./src/dropFirstBy.ts",
+      "line": 1
+    },
+    {
+      "caller": "dropFirstBy",
+      "callee_text": "heapMaybeInsert",
+      "kind": "method",
+      "receiver": "heap",
+      "receiver_type_hint": null,
+      "callee_file_hint": "./src/dropFirstBy.ts",
+      "line": 2
+    },
+    {
+      "caller": "dropFirstBy",
+      "callee_text": "purryOrderRulesWithArgument",
+      "kind": "method",
+      "receiver": "data.slice(n)",
+      "receiver_type_hint": null,
+      "callee_file_hint": "./src/dropFirstBy.ts",
+      "line": 3
+    }
+  ],
+  "type_assignments": [
+    {"scope": "module", "var": "dropFirstBy", "type": "function", "type_module": "./src/dropFirstBy.ts"},
+    {"scope": "module", "var": "heapify", "type": "function", "type_module": "./src/dropFirstBy.ts"},
+    {"scope": "module", "var": "heapMaybeInsert", "type": "function", "type_module": "./src/dropFirstBy.ts"},
+    {"scope": "module", "var": "purryOrderRulesWithArgument", "type": "function", "type_module": "./src/dropFirstBy.ts"}
+  ],
+  "definitions_rich": [
+    {
+      "name": "dropFirstBy",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "data", "type": "readonly T[]"}, {"name": "n", "type": "number"}, {"name": "...rules", "type": "Readonly<NonEmptyArray<OrderRule<T>>"}],
+      "returns": "T[]",
+      "line": 1
+    },
+    {
+      "name": "heapify",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "data", "type": "readonly T[]"}, {"name": "compareFn", "type": "CompareFunction<T>"}],
+      "returns": null,
+      "line": 2
+    },
+    {
+      "name": "heapMaybeInsert",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "heap", "type": "T[]"}, {"name": "compareFn", "type": "CompareFunction<T>"}, {"name": "item", "type": "T"}],
+      "returns": "T | undefined",
+      "line": 3
+    },
+    {
+      "name": "purryOrderRulesWithArgument",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "fn", "type": "Function"}, {"name": "...args", "type": "readonly unknown[]"}],
+      "returns": "unknown",
+      "line": 4
+    }
+  ]
+}
+```

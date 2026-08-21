@@ -1,0 +1,13 @@
+{
+  "key": "4bafaca8d1eac0d6bb51ca4e6b92e63fe041c36954d6a7cf43b5987f87cd100f",
+  "model": "harness-qwen15b",
+  "prompt_version": "ours-v1-5c74cf9a927a",
+  "file_sha": "20196f149238c6b0ea7b78a28c95b57dfd64a7427eae66197fcdf419d52f4559",
+  "relative_path": "src/endsWith.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"endsWith\",\n    \"endsWithImplementation\"\n  ],\n  \"references\": [],\n  \"calls\": [],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"endsWith\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"data\",\n          \"type\": \"string\"\n        },\n        {\n          \"name\": \"suffix\",\n          \"type\": \"string\"\n        }\n      ],\n      \"returns\": {\n        \"type\": \"boolean\"\n      },\n      \"line\": 1\n    },\n    {\n      \"name\": \"endsWithImplementation\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"data\",\n          \"type\": \"string\"\n        },\n        {\n          \"name\": \"suffix\",\n          \"type\": \"string\"\n        }\n      ],\n      \"returns\": {\n        \"type\": \"boolean\"\n      },\n      \"line\": 20\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:34:03+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 810,
+  "completion_tokens": 241
+}

@@ -1,0 +1,187 @@
+{
+  "relative_path": "lib/plugins/helper/list_archives.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "__module__",
+      "callee_text": "Cache",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-util",
+      "line": 24
+    },
+    {
+      "caller": "listArchivesHelper",
+      "callee_text": "toMomentLocale",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./date",
+      "line": 30
+    },
+    {
+      "caller": "listArchivesHelper",
+      "callee_text": "call",
+      "kind": "method",
+      "receiver": "Object.prototype.hasOwnProperty",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 34
+    },
+    {
+      "caller": "listArchivesHelper",
+      "callee_text": "apply",
+      "kind": "method",
+      "receiver": "postsCache",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 47
+    },
+    {
+      "caller": "listArchivesHelper",
+      "callee_text": "sort",
+      "kind": "this",
+      "receiver": "this.site.posts",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 47
+    },
+    {
+      "caller": "listArchivesHelper",
+      "callee_text": "sort",
+      "kind": "this",
+      "receiver": "this.site.posts",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 47
+    },
+    {
+      "caller": "listArchivesHelper",
+      "callee_text": "forEach",
+      "kind": "method",
+      "receiver": "posts",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 53
+    },
+    {
+      "caller": "listArchivesHelper",
+      "callee_text": "clone",
+      "kind": "method",
+      "receiver": "post.date",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 55
+    },
+    {
+      "caller": "listArchivesHelper",
+      "callee_text": "tz",
+      "kind": "method",
+      "receiver": "date",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 57
+    },
+    {
+      "caller": "listArchivesHelper",
+      "callee_text": "year",
+      "kind": "method",
+      "receiver": "date",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 59
+    },
+    {
+      "caller": "listArchivesHelper",
+      "callee_text": "month",
+      "kind": "method",
+      "receiver": "date",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 60
+    },
+    {
+      "caller": "listArchivesHelper",
+      "callee_text": "compareFunc",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 63
+    },
+    {
+      "caller": "listArchivesHelper",
+      "callee_text": "locale",
+      "kind": "method",
+      "receiver": "date",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 64
+    },
+    {
+      "caller": "listArchivesHelper",
+      "callee_text": "format",
+      "kind": "method",
+      "receiver": "date",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 65
+    },
+    {
+      "caller": "listArchivesHelper",
+      "callee_text": "push",
+      "kind": "method",
+      "receiver": "data",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 66
+    },
+    {
+      "caller": "listArchivesHelper",
+      "callee_text": "call",
+      "kind": "method",
+      "receiver": "url_for",
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-util",
+      "line": 85
+    },
+    {
+      "caller": "listArchivesHelper",
+      "callee_text": "link",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 96
+    },
+    {
+      "caller": "listArchivesHelper",
+      "callee_text": "transform",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 97
+    },
+    {
+      "caller": "listArchivesHelper",
+      "callee_text": "link",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 114
+    },
+    {
+      "caller": "listArchivesHelper",
+      "callee_text": "transform",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 115
+    }
+  ],
+  "callable_refs": []
+}

@@ -1,0 +1,6 @@
+{"calls": [
+  {"caller": "first", "callee_text": "purry"},
+  {"caller": "firstImplementation", "callee_text": "readonly"},
+  {"caller": "lazyImplementation", "callee_text": "toSingle"},
+  {"caller": "firstLazy", "callee_text": "next"}
+]}

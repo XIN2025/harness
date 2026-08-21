@@ -1,0 +1,13 @@
+{
+  "key": "cdbef926ee762aaf0a2004e21477ee4b7db12c2386e731261405917c1bcead36",
+  "model": "harness-qwen15b",
+  "prompt_version": "ours-v1-5c74cf9a927a",
+  "file_sha": "662c763ede812036fe84f36492e5a631b53506898a8a7fe8b2115b936e1aa247",
+  "relative_path": "src/take.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"take\",\n    \"takeImplementation\",\n    \"lazyImplementation\"\n  ],\n  \"references\": [],\n  \"calls\": [],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"take\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"array\",\n          \"type\": \"IterableContainer\"\n        },\n        {\n          \"name\": \"n\",\n          \"type\": \"number\"\n        }\n      ],\n      \"returns\": [\n        {\n          \"type\": \"T[number][]\"\n        }\n      ]\n    },\n    {\n      \"name\": \"takeImplementation\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"array\",\n          \"type\": \"IterableContainer\"\n        },\n        {\n          \"name\": \"n\",\n          \"type\": \"number\"\n        }\n      ],\n      \"returns\": [\n        {\n          \"type\": \"T[number][]\"\n        }\n      ]\n    },\n    {\n      \"name\": \"lazyImplementation\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"n\",\n          \"type\": \"number\"\n        }\n      ],\n      \"returns\": [\n        {\n          \"type\": \"LazyEvaluator<T>\"\n        }\n      ]\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:47:05+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 829,
+  "completion_tokens": 322
+}

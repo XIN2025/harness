@@ -1,0 +1,13 @@
+{
+  "key": "ec85f002f4429b10066b33b30ae2a2b98854f79061a33267d79c591b4b11467d",
+  "model": "harness-qwen15b",
+  "prompt_version": "refs-v1-7386a79c1ab2+json",
+  "file_sha": "3a6473cc51ade6e5c787e5ab09a4cccbeeed67e742a1d1772d413aa5a78befc8",
+  "relative_path": "src/findLast.ts",
+  "response": "{\n  \"calls\": [],\n  \"callable_refs\": [\n    {\"caller\": \"findLast\", \"callee_text\": \"findLastImplementation\"},\n    {\"caller\": \"findLastImplementation\", \"callee_text\": \"predicate\"}\n  ]\n}",
+  "created": "2026-08-08T22:25:52+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1297,
+  "completion_tokens": 49
+}

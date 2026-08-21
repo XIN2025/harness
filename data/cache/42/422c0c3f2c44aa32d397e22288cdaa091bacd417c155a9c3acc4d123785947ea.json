@@ -1,0 +1,11 @@
+{
+  "key": "422c0c3f2c44aa32d397e22288cdaa091bacd417c155a9c3acc4d123785947ea",
+  "model": "gemini-2.5-flash",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "7b09cbc083fdb6ae73fe013b645624ab8c37d26b367ed64567d6f1cdbdab279e",
+  "relative_path": "src/dropLastWhile.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"dropLastWhile\",\n    \"dropLastWhileImplementation\"\n  ],\n  \"references\": [\n    {\n      \"name\": \"IterableContainer\",\n      \"source\": \"./internal/types/IterableContainer\",\n      \"alias\": null\n    },\n    {\n      \"name\": \"purry\",\n      \"source\": \"./purry\",\n      \"alias\": null\n    }\n  ],\n  \"calls\": [\n    {\n      \"caller\": \"dropLastWhile\",\n      \"callee_text\": \"purry\",\n      \"kind\": \"free\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": \"./purry\",\n      \"line\": 27\n    },\n    {\n      \"caller\": \"dropLastWhileImplementation\",\n      \"callee_text\": \"predicate\",\n      \"kind\": \"free\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": null,\n      \"line\": 34\n    },\n    {\n      \"caller\": \"dropLastWhileImplementation\",\n      \"callee_text\": \"slice\",\n      \"kind\": \"method\",\n      \"receiver\": \"data\",\n      \"receiver_type_hint\": \"IterableContainer\",\n      \"callee_file_hint\": \"external\",\n      \"line\": 35\n    }\n  ],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"dropLastWhile\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"args\",\n          \"type\": \"unknown[]\"\n        }\n      ],\n      \"returns\": \"unknown\",\n      \"line\": 26\n    },\n    {\n      \"name\": \"dropLastWhileImplementation\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"data\",\n          \"type\": \"T\"\n        },\n        {\n          \"name\": \"predicate\",\n          \"type\": null\n        }\n      ],\n      \"returns\": null,\n      \"line\": 30\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T17:11:58+00:00",
+  "finish_reason": "stop",
+  "served_by": ""
+}

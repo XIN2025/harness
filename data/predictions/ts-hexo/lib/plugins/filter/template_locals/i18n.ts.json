@@ -1,0 +1,88 @@
+{
+  "relative_path": "lib/plugins/filter/template_locals/i18n.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "i18nLocalsFilter",
+      "callee_text": "list",
+      "kind": "method",
+      "receiver": "i18n",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 11
+    },
+    {
+      "caller": "i18nLocalsFilter",
+      "callee_text": "Pattern",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-util",
+      "line": 15
+    },
+    {
+      "caller": "i18nLocalsFilter",
+      "callee_text": "match",
+      "kind": "method",
+      "receiver": "pattern",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 16
+    },
+    {
+      "caller": "i18nLocalsFilter",
+      "callee_text": "includes",
+      "kind": "method",
+      "receiver": "i18nLanguages",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 18
+    },
+    {
+      "caller": "i18nLocalsFilter",
+      "callee_text": "Set",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 30
+    },
+    {
+      "caller": "i18nLocalsFilter",
+      "callee_text": "filter",
+      "kind": "method",
+      "receiver": "[].concat(lang, i18nConfigLanguages, i18nLanguages)",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 30
+    },
+    {
+      "caller": "i18nLocalsFilter",
+      "callee_text": "concat",
+      "kind": "method",
+      "receiver": "[]",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 30
+    },
+    {
+      "caller": "i18nLocalsFilter",
+      "callee_text": "__",
+      "kind": "method",
+      "receiver": "i18n",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 32
+    },
+    {
+      "caller": "i18nLocalsFilter",
+      "callee_text": "_p",
+      "kind": "method",
+      "receiver": "i18n",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 33
+    }
+  ],
+  "callable_refs": []
+}

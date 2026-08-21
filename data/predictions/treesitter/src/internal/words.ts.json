@@ -1,0 +1,151 @@
+{
+  "relative_path": "src/internal/words.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "__module__",
+      "callee_text": "Set",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 34
+    },
+    {
+      "caller": "words",
+      "callee_text": "push",
+      "kind": "method",
+      "receiver": "results",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 44
+    },
+    {
+      "caller": "words",
+      "callee_text": "has",
+      "kind": "static",
+      "receiver": "WORD_SEPARATORS",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 50
+    },
+    {
+      "caller": "words",
+      "callee_text": "flush",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 52
+    },
+    {
+      "caller": "words",
+      "callee_text": "test",
+      "kind": "method",
+      "receiver": "/[a-z]$/u",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 58
+    },
+    {
+      "caller": "words",
+      "callee_text": "test",
+      "kind": "method",
+      "receiver": "/[A-Z]/u",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 58
+    },
+    {
+      "caller": "words",
+      "callee_text": "flush",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 59
+    },
+    {
+      "caller": "words",
+      "callee_text": "test",
+      "kind": "method",
+      "receiver": "/[A-Z][A-Z]$/u",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 65
+    },
+    {
+      "caller": "words",
+      "callee_text": "test",
+      "kind": "method",
+      "receiver": "/[a-z]/u",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 65
+    },
+    {
+      "caller": "words",
+      "callee_text": "slice",
+      "kind": "method",
+      "receiver": "word",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 66
+    },
+    {
+      "caller": "words",
+      "callee_text": "slice",
+      "kind": "method",
+      "receiver": "word",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 67
+    },
+    {
+      "caller": "words",
+      "callee_text": "flush",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 68
+    },
+    {
+      "caller": "words",
+      "callee_text": "test",
+      "kind": "method",
+      "receiver": "/\\d$/u",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 72
+    },
+    {
+      "caller": "words",
+      "callee_text": "test",
+      "kind": "method",
+      "receiver": "/\\d/u",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 72
+    },
+    {
+      "caller": "words",
+      "callee_text": "flush",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 73
+    },
+    {
+      "caller": "words",
+      "callee_text": "flush",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 81
+    }
+  ],
+  "callable_refs": []
+}

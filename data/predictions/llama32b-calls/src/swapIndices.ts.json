@@ -1,0 +1,14 @@
+{"calls": [
+  {"caller": "swapIndices", "callee_text": "purry"},
+  {"caller": "swapIndicesImplementation", "callee_text": "join"},
+  {"caller": "swapArray", "callee_text": "concat"},
+  {"caller": "swapArray", "callee_text": "slice"},
+  {"caller": "swapArray", "callee_text": "NaN"},
+  {"caller": "swapArray", "callee_text": "isNaN"},
+  {"caller": "swapArray", "callee_text": "length"},
+  {"caller": "swapArray", "callee_text": "push"},
+  {"caller": "swapArray", "callee_text": "pop"},
+  {"caller": "swapArray", "callee_text": "indexOf"},
+  {"caller": "swapArray", "callee_text": "includes"},
+  {"caller": "swapArray", "callee_text": "toString"}
+]}

@@ -1,0 +1,13 @@
+{
+  "key": "146228d98a0f2ba2c4111ee57c16a3ee7836494d98f4def9ea602d1ee59ec267",
+  "model": "harness-qwen15b",
+  "prompt_version": "ours-v1-5c74cf9a927a",
+  "file_sha": "1fc8de33753b26e4a4d9da863b75195dc89c157083c2425c009e7968a9320922",
+  "relative_path": "src/length.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"length\",\n    \"purry\"\n  ],\n  \"references\": [],\n  \"calls\": [],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"length\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [],\n      \"returns\": {\n        \"scope\": \"global\",\n        \"var\": \"length\",\n        \"type\": \"number\",\n        \"type_module\": null,\n        \"from_call\": false\n      },\n      \"line\": 10\n    },\n    {\n      \"name\": \"purry\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [],\n      \"returns\": {\n        \"scope\": \"global\",\n        \"var\": \"purry\",\n        \"type\": \"function\",\n        \"type_module\": null,\n        \"from_call\": false\n      },\n      \"line\": 14\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:38:17+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 506,
+  "completion_tokens": 219
+}

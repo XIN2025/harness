@@ -1,0 +1,13 @@
+{
+  "key": "a2d507ecc22d77412ea75c9cb15c9dfe6467cf07bb1a5895dd0aff6dab4d4040",
+  "model": "harness-qwen15b",
+  "prompt_version": "ours-v1-5c74cf9a927a",
+  "file_sha": "383924399a85fb1dbafc071b0441223e8250a5d5e105d33503c34c76ea0e3a3c",
+  "relative_path": "src/findLastIndex.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"findLastIndex\",\n    \"purry\"\n  ],\n  \"references\": [],\n  \"calls\": [],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"findLastIndex\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"data\",\n          \"type\": \"readonly T[]\"\n        },\n        {\n          \"name\": \"predicate\",\n          \"type\": \"(value: T, index: number, data: readonly T[]) => boolean\"\n        }\n      ],\n      \"returns\": \"number\",\n      \"line\": 1\n    },\n    {\n      \"name\": \"purry\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"fn\",\n          \"type\": \"(...args: unknown[]) => unknown\"\n        }\n      ],\n      \"returns\": \"unknown\",\n      \"line\": 1\n    },\n    {\n      \"name\": \"findLastIndexImplementation\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"data\",\n          \"type\": \"readonly T[]\"\n        },\n        {\n          \"name\": \"predicate\",\n          \"type\": \"(value: T, index: number, data: readonly T[]) => boolean\"\n        }\n      ],\n      \"returns\": \"number\",\n      \"line\": 1\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:34:38+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 950,
+  "completion_tokens": 341
+}

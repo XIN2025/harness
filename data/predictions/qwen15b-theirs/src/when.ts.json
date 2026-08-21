@@ -1,0 +1,72 @@
+```json
+{
+  "definitions": [
+    "when",
+    "GuardType",
+    "isNullish",
+    "constant",
+    "add",
+    "multiply",
+    "parseInt"
+  ],
+  "references": [
+    {"name": "when", "source": "./src/when.ts"},
+    {"name": "GuardType", "source": "./src/internal/types/GuardType.ts"},
+    {"name": "isNullish", "source": "./src/internal/types/GuardType.ts"},
+    {"name": "constant", "source": "./src/internal/types/GuardType.ts"},
+    {"name": "add", "source": "./src/internal/types/GuardType.ts"},
+    {"name": "multiply", "source": "./src/internal/types/GuardType.ts"},
+    {"name": "parseInt", "source": "./src/internal/types/GuardType.ts"}
+  ],
+  "calls": [
+    {
+      "caller": "when",
+      "callee_text": "isNullish",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./src/internal/types/GuardType.ts",
+      "line": 1
+    },
+    {
+      "caller": "when",
+      "callee_text": "constant",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./src/internal/types/GuardType.ts",
+      "line": 2
+    }
+  ],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "when",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(data: unknown, ...extraArgs: unknown[]) => boolean"
+        },
+        {
+          "name": "onTrueOrBranches",
+          "type": "| ((data: unknown, ...extraArgs: unknown[]) => WhenTrue) | { readonly onTrue: (data: unknown, ...extraArgs: unknown[]) => WhenTrue; readonly onFalse: (data: unknown, ...extraArgs: unknown[]) => WhenFalse; }"
+        }
+      ],
+      "returns": "T | WhenFalse | WhenTrue",
+      "line": 1
+    },
+    {
+      "name": "GuardType",
+      "kind": "interface",
+      "parent": null,
+      "bases": [],
+      "params": [],
+      "returns": null,
+      "line": 3
+    }
+  ]
+}
+```

@@ -1,0 +1,214 @@
+{
+  "relative_path": "src/handlers/GetHandler.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "__module__",
+      "callee_text": "Map",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 7
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "Set",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 30
+    },
+    {
+      "caller": "GetHandler.registerPath",
+      "callee_text": "set",
+      "kind": "this",
+      "receiver": "this.paths",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 54
+    },
+    {
+      "caller": "GetHandler.send",
+      "callee_text": "Headers",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 63
+    },
+    {
+      "caller": "GetHandler.send",
+      "callee_text": "URL",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 65
+    },
+    {
+      "caller": "GetHandler.send",
+      "callee_text": "get",
+      "kind": "this",
+      "receiver": "this.paths",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 66
+    },
+    {
+      "caller": "GetHandler.send",
+      "callee_text": "handler",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 69
+    },
+    {
+      "caller": "GetHandler.send",
+      "callee_text": "getFileIdFromRequest",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 76
+    },
+    {
+      "caller": "GetHandler.send",
+      "callee_text": "onIncomingRequest",
+      "kind": "this",
+      "receiver": "this.options",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 82
+    },
+    {
+      "caller": "GetHandler.send",
+      "callee_text": "getUpload",
+      "kind": "this",
+      "receiver": "this.store",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 85
+    },
+    {
+      "caller": "GetHandler.send",
+      "callee_text": "filterContentType",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 91
+    },
+    {
+      "caller": "GetHandler.send",
+      "callee_text": "acquireLock",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 93
+    },
+    {
+      "caller": "GetHandler.send",
+      "callee_text": "read",
+      "kind": "this",
+      "receiver": "this.store",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 96
+    },
+    {
+      "caller": "GetHandler.send",
+      "callee_text": "set",
+      "kind": "method",
+      "receiver": "headers",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 97
+    },
+    {
+      "caller": "GetHandler.send",
+      "callee_text": "toString",
+      "kind": "method",
+      "receiver": "stats.offset",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 97
+    },
+    {
+      "caller": "GetHandler.send",
+      "callee_text": "set",
+      "kind": "method",
+      "receiver": "headers",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 98
+    },
+    {
+      "caller": "GetHandler.send",
+      "callee_text": "set",
+      "kind": "method",
+      "receiver": "headers",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 99
+    },
+    {
+      "caller": "GetHandler.send",
+      "callee_text": "Response",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 100
+    },
+    {
+      "caller": "GetHandler.send",
+      "callee_text": "unlock",
+      "kind": "method",
+      "receiver": "lock",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 102
+    },
+    {
+      "caller": "GetHandler.filterContentType",
+      "callee_text": "test",
+      "kind": "this",
+      "receiver": "this.reMimeType",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 123
+    },
+    {
+      "caller": "GetHandler.filterContentType",
+      "callee_text": "has",
+      "kind": "this",
+      "receiver": "this.mimeInlineBrowserWhitelist",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 129
+    },
+    {
+      "caller": "GetHandler.filterContentType",
+      "callee_text": "quote",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 143
+    },
+    {
+      "caller": "GetHandler.quote",
+      "callee_text": "replace",
+      "kind": "method",
+      "receiver": "value",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 156
+    }
+  ],
+  "callable_refs": []
+}

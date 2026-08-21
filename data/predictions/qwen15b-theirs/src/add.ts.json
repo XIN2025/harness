@@ -1,0 +1,18 @@
+```json
+{
+  "definitions": ["add", "addImplementation"],
+  "references": [
+    {"name": "add", "source": "./src/add.ts"},
+    {"name": "addImplementation", "source": "./src/add.ts"}
+  ],
+  "calls": [
+    {"caller": "add", "callee_text": "addImplementation", "kind": "free",
+     "receiver": null, "receiver_type_hint": null, "callee_file_hint": "./src/add.ts", "line": 15}
+  ],
+  "type_assignments": [],
+  "definitions_rich": [
+    {"name": "add", "kind": "function", "parent": null, "bases": [], "params": [{"name":"value","type":"number"},{"name":"addend","type":"number"}], "returns": "number", "line": 1},
+    {"name": "addImplementation", "kind": "function", "parent": null, "bases": [], "params": [{"name":"value","type":"number"},{"name":"addend","type":"number"}], "returns": "number", "line": 2}
+  ]
+}
+```

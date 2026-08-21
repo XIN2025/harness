@@ -1,0 +1,9 @@
+{"calls": [
+  {"caller": "rankBy", "callee_text": "__module__"},
+  {"caller": "rankBy", "callee_text": "purryOrderRulesWithArgument"},
+  {"caller": "rankByImplementation", "callee_text": "for"},
+  {"caller": "rankByImplementation", "callee_text": "compareFn"},
+  {"caller": "rankByImplementation", "callee_text": "targetItem"},
+  {"caller": "rankByImplementation", "callee_text": "data"},
+  {"caller": "rankByImplementation", "callee_text": "rank"}
+]}

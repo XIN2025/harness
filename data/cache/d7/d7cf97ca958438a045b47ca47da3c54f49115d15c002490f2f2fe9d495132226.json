@@ -1,0 +1,13 @@
+{
+  "key": "d7cf97ca958438a045b47ca47da3c54f49115d15c002490f2f2fe9d495132226",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "73b328010f636bd43b1d94099d3446278cca26be5e7ce692fbdbf0ebef3b0f75",
+  "relative_path": "src/median.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"median\", \"callee_text\": \"purry\"},\n  {\"caller\": \"median\", \"callee_text\": \"medianImplementation\"},\n  {\"caller\": \"numberComparator\", \"callee_text\": \"sort\"},\n  {\"caller\": \"medianImplementation\", \"callee_text\": \"sort\"},\n  {\"caller\": \"medianImplementation\", \"callee_text\": \"Array.prototype.sort\"},\n  {\"caller\": \"medianImplementation\", \"callee_text\": \"slice\"},\n  {\"caller\": \"medianImplementation\", \"callee_text\": \"filter\"},\n  {\"caller\": \"medianImplementation\", \"callee_text\": \"isFinite\"},\n  {\"caller\": \"medianImplementation\", \"callee_text\": \"reduce\"},\n  {\"caller\": \"medianImplementation\", \"callee_text\": \"isNaN\"},\n  {\"caller\": \"medianImplementation\", \"callee_text\": \"format\"},\n  {\"caller\": \"medianImplementation\", \"callee_text\": \"round\"},\n  {\"caller\": \"precisionOf\", \"callee_text\": \"sort\"}\n]}",
+  "created": "2026-08-08T23:04:37+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1111,
+  "completion_tokens": 204
+}

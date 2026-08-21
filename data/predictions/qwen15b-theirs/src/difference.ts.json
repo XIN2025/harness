@@ -1,0 +1,54 @@
+```json
+{
+  "definitions": [
+    "difference",
+    "lazyImplementation"
+  ],
+  "references": [
+    {"name": "purryFromLazy", "source": "./internal/purryFromLazy"},
+    {"name": "LazyEvaluator", "source": "./internal/types/LazyEvaluator"},
+    {"name": "SKIP_ITEM", "source": "./internal/utilityEvaluators"}
+  ],
+  "calls": [
+    {
+      "caller": "difference",
+      "callee_text": "purryFromLazy",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "...",
+      "line": 1
+    },
+    {
+      "caller": "difference",
+      "callee_text": "lazyImplementation",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "...",
+      "line": 2
+    }
+  ],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "difference",
+      "kind": "function",
+      "parent": null,
+      "bases": ["purryFromLazy"],
+      "params": [{"name": "data", "type": "readonly T[]"}, {"name": "other", "type": "readonly T[]"}],
+      "returns": "T[]",
+      "line": 1
+    },
+    {
+      "name": "lazyImplementation",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "other", "type": "readonly T[]"}],
+      "returns": "LazyEvaluator<T>",
+      "line": 2
+    }
+  ]
+}
+```

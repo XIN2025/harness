@@ -1,0 +1,13 @@
+{
+  "key": "f4763896644c0491f0d36a68a81285a5ccbc3b4d33c51c5bb1f3b519a4e53ac2",
+  "model": "harness-qwen15b",
+  "prompt_version": "refs-strict-v1-ca2cfcfbecef+json",
+  "file_sha": "6c2c4219621a7ef1885287463dd1d43d27c4bf116778079d8b3b7fad760db848",
+  "relative_path": "src/map.ts",
+  "response": "{\"calls\": [], \"callable_refs\": [{\"caller\": \"map\", \"callee_text\": \"mapImplementation\"}, {\"caller\": \"map\", \"callee_text\": \"lazyImplementation\"}]}",
+  "created": "2026-08-09T05:47:04+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1193,
+  "completion_tokens": 38
+}

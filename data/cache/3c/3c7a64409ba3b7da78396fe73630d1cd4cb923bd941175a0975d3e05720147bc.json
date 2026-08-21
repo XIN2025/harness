@@ -1,0 +1,13 @@
+{
+  "key": "3c7a64409ba3b7da78396fe73630d1cd4cb923bd941175a0975d3e05720147bc",
+  "model": "harness-llama32b",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "bce8be3102532c25ede791c13241f0d251554f9eb82039e333fd1e8cdb3379b2",
+  "relative_path": "src/clone.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"clone\", \"callee_text\": \"purry\"},\n  {\"caller\": \"clone\", \"callee_text\": \"cloneImplementation\"},\n  {\"caller\": \"cloneImplementation\", \"callee_text\": \"structuredClone\"},\n  {\"caller\": \"cloneImplementation\", \"callee_text\": \"Object.getPrototypeOf\"},\n  {\"caller\": \"cloneImplementation\", \"callee_text\": \"Array.isArray\"},\n  {\"caller\": \"cloneImplementation\", \"callee_text\": \"isPlainObject\"},\n  {\"caller\": \"cloneImplementation\", \"callee_text\": \"deepCloneObject\"},\n  {\"caller\": \"cloneImplementation\", \"callee_text\": \"Object.entries\"},\n  {\"caller\": \"cloneImplementation\", \"callee_text\": \"for\"},\n  {\"caller\": \"cloneImplementation\", \"callee_text\": \"refFrom.push\"},\n  {\"caller\": \"cloneImplementation\", \"callee_text\": \"deepCloneArray\"},\n  {\"caller\": \"cloneImplementation\", \"callee_text\": \"value.entries\"},\n  {\"caller\": \"cloneImplementation\", \"callee_text\": \"for\"}\n]}",
+  "created": "2026-08-08T22:32:40+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1403,
+  "completion_tokens": 215
+}

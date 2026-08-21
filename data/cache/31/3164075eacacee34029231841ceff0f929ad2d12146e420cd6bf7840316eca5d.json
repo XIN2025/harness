@@ -1,0 +1,13 @@
+{
+  "key": "3164075eacacee34029231841ceff0f929ad2d12146e420cd6bf7840316eca5d",
+  "model": "harness-llama32b",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "9e551c3662e1955fa97e9fbecf18bbe86fce21526fba42d5d811df49ebe01180",
+  "relative_path": "src/internal/binarySearchCutoffIndex.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"binarySearchCutoffIndex\", \"callee_text\": \"__module__\"},\n  {\"caller\": \"binarySearchCutoffIndex\", \"callee_text\": \"array\"},\n  {\"caller\": \"binarySearchCutoffIndex\", \"callee_text\": \"predicate\"},\n  {\"caller\": \"binarySearchCutoffIndex\", \"callee_text\": \"lowIndex\"},\n  {\"caller\": \"binarySearchCutoffIndex\", \"callee_text\": \"highIndex\"},\n  {\"caller\": \"binarySearchCutoffIndex\", \"callee_text\": \"while\"},\n  {\"caller\": \"binarySearchCutoffIndex\", \"callee_text\": \"pivotIndex\"},\n  {\"caller\": \"binarySearchCutoffIndex\", \"callee_text\": \"array\"},\n  {\"caller\": \"binarySearchCutoffIndex\", \"callee_text\": \"pivot\"},\n  {\"caller\": \"binarySearchCutoffIndex\", \"callee_text\": \"predicate\"},\n  {\"caller\": \"binarySearchCutoffIndex\", \"callee_text\": \"lowIndex\"},\n  {\"caller\": \"binarySearchCutoffIndex\", \"callee_text\": \"highIndex\"},\n  {\"caller\": \"binarySearchCutoffIndex\", \"callee_text\": \"if\"}\n]}",
+  "created": "2026-08-08T22:40:38+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 764,
+  "completion_tokens": 247
+}

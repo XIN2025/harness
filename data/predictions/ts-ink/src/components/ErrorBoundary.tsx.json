@@ -1,0 +1,16 @@
+{
+  "relative_path": "src/components/ErrorBoundary.tsx",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "ErrorBoundary.componentDidCatch",
+      "callee_text": "onError",
+      "kind": "this",
+      "receiver": "this.props",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 27
+    }
+  ],
+  "callable_refs": []
+}

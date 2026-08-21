@@ -1,0 +1,4 @@
+{"callable_refs": [
+  {"caller": "mapKeys", "callee_text": "mapKeysImplementation"},
+  {"caller": "mapKeysImplementation", "callee_text": "Object.entries"}
+]}

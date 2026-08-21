@@ -1,0 +1,13 @@
+{
+  "key": "80fc53adcc9daca0048f1df4f0435ddd0735456e41ae6e39ca2fae45b2ab1af1",
+  "model": "harness-qwen15b",
+  "prompt_version": "refs-v1-7386a79c1ab2+json",
+  "file_sha": "73b328010f636bd43b1d94099d3446278cca26be5e7ce692fbdbf0ebef3b0f75",
+  "relative_path": "src/median.ts",
+  "response": "{\"calls\": [], \"callable_refs\": [{\"caller\": \"median\", \"callee_text\": \"medianImplementation\"}, {\"caller\": \"medianImplementation\", \"callee_text\": \"numberComparator\"}]}",
+  "created": "2026-08-08T22:28:03+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1022,
+  "completion_tokens": 39
+}

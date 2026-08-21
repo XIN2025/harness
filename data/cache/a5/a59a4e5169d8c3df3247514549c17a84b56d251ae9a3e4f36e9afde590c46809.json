@@ -1,0 +1,13 @@
+{
+  "key": "a59a4e5169d8c3df3247514549c17a84b56d251ae9a3e4f36e9afde590c46809",
+  "model": "harness-qwen15b",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "618597e2ebce7e307cdb48dada9d21201c6dd690f13b2682764688d443e70a4d",
+  "relative_path": "src/sortedIndexBy.ts",
+  "response": "```json\n{\n  \"definitions\": [\"sortedIndexBy\", \"purry\", \"binarySearchCutoffIndex\"],\n  \"references\": [\n    {\"name\": \"sortedIndexBy\", \"source\": \"./src/sortedIndexBy.ts\"},\n    {\"name\": \"purry\", \"source\": \"./src/purry.ts\"},\n    {\"name\": \"binarySearchCutoffIndex\", \"source\": \"./src/internal/binarySearchCutoffIndex.ts\"}\n  ],\n  \"calls\": [\n    {\"caller\": \"sortedIndexByImplementation\", \"callee_text\": \"valueFunction\", \"kind\": \"free\",\n     \"receiver\": null, \"receiver_type_hint\": null, \"callee_file_hint\": \"...\", \"line\": 1}\n  ],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\"name\": \"sortedIndexBy\", \"kind\": \"function\", \"parent\": null, \"bases\": [], \"params\": [{\"name\": \"data\", \"type\": \"readonly T[]\"}, {\"name\": \"item\", \"type\": \"T\"}, {\"name\": \"valueFunction\", \"type\": \"(item: T, index?: number | undefined, data: readonly T[]) => NonNullable<unknown>\"}], \"returns\": \"number\"},\n    {\"name\": \"purry\", \"kind\": \"function\", \"parent\": null, \"bases\": [], \"params\": [{\"name\": \"fn\", \"type\": \"(...args: unknown[]) => unknown\"}, {\"name\": \"arity\", \"type\": \"number\"}], \"returns\": \"(...args: unknown[]) => unknown\"},\n    {\"name\": \"binarySearchCutoffIndex\", \"kind\": \"function\", \"parent\": null, \"bases\": [], \"params\": [{\"name\": \"data\", \"type\": \"readonly T[]\"}, {\"name\": \"comparator\", \"type\": \"(a: T, b: T) => number\"}], \"returns\": \"number\"}\n  ]\n}\n```",
+  "created": "2026-08-08T20:26:38+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 9078,
+  "completion_tokens": 403
+}

@@ -1,0 +1,4 @@
+{"callable_refs": [
+  {"caller": "flatMap", "callee_text": "flatMapImplementation"},
+  {"caller": "flatMap", "callee_text": "lazyImplementation"}
+]}

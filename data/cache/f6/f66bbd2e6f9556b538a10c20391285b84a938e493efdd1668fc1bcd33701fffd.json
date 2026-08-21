@@ -1,0 +1,13 @@
+{
+  "key": "f66bbd2e6f9556b538a10c20391285b84a938e493efdd1668fc1bcd33701fffd",
+  "model": "harness-qwen15b",
+  "prompt_version": "ours-v1-5c74cf9a927a",
+  "file_sha": "54473bf270fed786995f78e7d4b4200c16f5dadeffc8a208f9d668264f58a3cc",
+  "relative_path": "src/zipWith.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"lazyDataLastImpl\",\n    \"IterableContainer\",\n    \"LazyEvaluator\",\n    \"ZippingFunction\"\n  ],\n  \"references\": [],\n  \"calls\": [\n    {\n      \"caller\": \"__module__\",\n      \"callee_text\": \"zipWith\",\n      \"kind\": \"method\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": \"src/zipWith.ts\",\n      \"line\": 1\n    },\n    {\n      \"caller\": \"__module__\",\n      \"callee_text\": \"lazyDataLastImpl\",\n      \"kind\": \"method\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": \"src/zipWith.ts\",\n      \"line\": 2\n    }\n  ],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"lazyDataLastImpl\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [],\n      \"returns\": null,\n      \"line\": 1\n    },\n    {\n      \"name\": \"IterableContainer\",\n      \"kind\": \"interface\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [],\n      \"returns\": null,\n      \"line\": 2\n    },\n    {\n      \"name\": \"LazyEvaluator\",\n      \"kind\": \"interface\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [],\n      \"returns\": null,\n      \"line\": 3\n    },\n    {\n      \"name\": \"ZippingFunction\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"T1\",\n          \"type\": \"IterableContainer\",\n          \"optional\": true,\n          \"default\": \"IterableContainer\"\n        },\n        {\n          \"name\": \"T2\",\n          \"type\": \"IterableContainer\",\n          \"optional\": true,\n          \"default\": \"IterableContainer\"\n        },\n        {\n          \"name\": \"Value\",\n          \"type\": \"unknown\",\n          \"optional\": true\n        }\n      ],\n      \"returns\": null,\n      \"line\": 4\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:51:35+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1358,
+  "completion_tokens": 488
+}

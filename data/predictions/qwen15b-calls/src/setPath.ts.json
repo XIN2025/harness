@@ -1,0 +1,8 @@
+{"calls": [
+  {"caller": "setPath", "callee_text": "purr"},
+  {"caller": "setPathImplementation", "callee_text": "Array.isArray"},
+  {"caller": "setPathImplementation", "callee_text": "slice"},
+  {"caller": "setPathImplementation", "callee_text": "copyWithin"},
+  {"caller": "setPathImplementation", "callee_text": "splice"},
+  {"caller": "setPathImplementation", "callee_text": "Object.assign"}
+]}

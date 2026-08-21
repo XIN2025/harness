@@ -1,0 +1,52 @@
+{
+  "relative_path": "src/measure-text.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "__module__",
+      "callee_text": "Map",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 3
+    },
+    {
+      "caller": "measureText",
+      "callee_text": "get",
+      "kind": "method",
+      "receiver": "cache",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 18
+    },
+    {
+      "caller": "measureText",
+      "callee_text": "widestLine",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "widest-line",
+      "line": 24
+    },
+    {
+      "caller": "measureText",
+      "callee_text": "split",
+      "kind": "method",
+      "receiver": "text",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 25
+    },
+    {
+      "caller": "measureText",
+      "callee_text": "set",
+      "kind": "method",
+      "receiver": "cache",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 27
+    }
+  ],
+  "callable_refs": []
+}

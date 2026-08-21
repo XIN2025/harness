@@ -1,0 +1,241 @@
+{
+  "relative_path": "src/components/ErrorOverview.tsx",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "cleanupPath",
+      "callee_text": "replace",
+      "kind": "method",
+      "receiver": "path",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 12
+    },
+    {
+      "caller": "cleanupPath",
+      "callee_text": "cwd",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "node:process",
+      "line": 12
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "StackUtils",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "stack-utils",
+      "line": 15
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "cwd",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "node:process",
+      "line": 16
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "nodeInternals",
+      "kind": "static",
+      "receiver": "StackUtils",
+      "receiver_type_hint": null,
+      "callee_file_hint": "stack-utils",
+      "line": 17
+    },
+    {
+      "caller": "ErrorOverview",
+      "callee_text": "slice",
+      "kind": "method",
+      "receiver": "error.stack.split('\\n')",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 25
+    },
+    {
+      "caller": "ErrorOverview",
+      "callee_text": "split",
+      "kind": "method",
+      "receiver": "error.stack",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 25
+    },
+    {
+      "caller": "ErrorOverview",
+      "callee_text": "parseLine",
+      "kind": "method",
+      "receiver": "stackUtils",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 26
+    },
+    {
+      "caller": "ErrorOverview",
+      "callee_text": "cleanupPath",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 27
+    },
+    {
+      "caller": "ErrorOverview",
+      "callee_text": "Map",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 30
+    },
+    {
+      "caller": "ErrorOverview",
+      "callee_text": "existsSync",
+      "kind": "method",
+      "receiver": "fs",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 32
+    },
+    {
+      "caller": "ErrorOverview",
+      "callee_text": "readFileSync",
+      "kind": "method",
+      "receiver": "fs",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 33
+    },
+    {
+      "caller": "ErrorOverview",
+      "callee_text": "codeExcerpt",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "code-excerpt",
+      "line": 34
+    },
+    {
+      "caller": "ErrorOverview",
+      "callee_text": "max",
+      "kind": "static",
+      "receiver": "Math",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 38
+    },
+    {
+      "caller": "ErrorOverview",
+      "callee_text": "String",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 38
+    },
+    {
+      "caller": "ErrorOverview",
+      "callee_text": "map",
+      "kind": "method",
+      "receiver": "excerpt",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 64
+    },
+    {
+      "caller": "ErrorOverview",
+      "callee_text": "padStart",
+      "kind": "static",
+      "receiver": "String(line)",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 77
+    },
+    {
+      "caller": "ErrorOverview",
+      "callee_text": "String",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 77
+    },
+    {
+      "caller": "ErrorOverview",
+      "callee_text": "map",
+      "kind": "method",
+      "receiver": "error.stack\n\t\t\t\t\t\t.split('\\n')\n\t\t\t\t\t\t.slice(1)",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 95
+    },
+    {
+      "caller": "ErrorOverview",
+      "callee_text": "slice",
+      "kind": "method",
+      "receiver": "error.stack\n\t\t\t\t\t\t.split('\\n')",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 95
+    },
+    {
+      "caller": "ErrorOverview",
+      "callee_text": "split",
+      "kind": "method",
+      "receiver": "error.stack",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 95
+    },
+    {
+      "caller": "ErrorOverview",
+      "callee_text": "parseLine",
+      "kind": "method",
+      "receiver": "stackUtils",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 99
+    },
+    {
+      "caller": "ErrorOverview",
+      "callee_text": "get",
+      "kind": "method",
+      "receiver": "stackLineCounts",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 100
+    },
+    {
+      "caller": "ErrorOverview",
+      "callee_text": "set",
+      "kind": "method",
+      "receiver": "stackLineCounts",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 101
+    },
+    {
+      "caller": "ErrorOverview",
+      "callee_text": "cleanupPath",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 129
+    },
+    {
+      "caller": "ErrorOverview",
+      "callee_text": "cleanupPath",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 133
+    }
+  ],
+  "callable_refs": []
+}

@@ -1,0 +1,13 @@
+{
+  "key": "f9c1f0d29a98ac56d2447f8f09cd5d30144a630f0ef313dcb916b6fadc4fd8f4",
+  "model": "harness-qwen15b",
+  "prompt_version": "refs-v1-7386a79c1ab2+json",
+  "file_sha": "103267e4538b85b4342e9d0b782cdb7a1905d765d4d9a5e6ece2149e08b28e9e",
+  "relative_path": "src/dropLast.ts",
+  "response": "{\"calls\": [], \"callable_refs\": [{\"caller\": \"dropLast\", \"callee_text\": \"dropLastImplementation\"}, {\"caller\": \"dropLastImplementation\", \"callee_text\": \"Math.max\"}, {\"caller\": \"dropLastImplementation\", \"callee_text\": \"slice\"}]}",
+  "created": "2026-08-08T22:25:25+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 770,
+  "completion_tokens": 57
+}

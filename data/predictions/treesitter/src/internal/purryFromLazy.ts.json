@@ -1,0 +1,43 @@
+{
+  "relative_path": "src/internal/purryFromLazy.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "purryFromLazy",
+      "callee_text": "pipe",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../pipe",
+      "line": 34
+    },
+    {
+      "caller": "purryFromLazy",
+      "callee_text": "pipe",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../pipe",
+      "line": 41
+    },
+    {
+      "caller": "purryFromLazy",
+      "callee_text": "assign",
+      "kind": "static",
+      "receiver": "Object",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 42
+    },
+    {
+      "caller": "purryFromLazy",
+      "callee_text": "Error",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 45
+    }
+  ],
+  "callable_refs": []
+}

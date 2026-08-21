@@ -1,0 +1,13 @@
+{
+  "key": "b8be29c217e7b3089cc6d9a95d982cba49dd750b49054a89cebfad2ae67386d0",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "refs-v1-7386a79c1ab2+json",
+  "file_sha": "3c8bfd5405faabff54a47a6aa9fd1dba3ab1cb644c8d9814066c80b8916a9c49",
+  "relative_path": "src/isEmpty.ts",
+  "response": "{\"calls\": [], \"callable_refs\": [{\"caller\": \"isEmpty\", \"callee_text\": \"isEmptyish\"}, {\"caller\": \"isEmpty\", \"callee_text\": \"hasAtLeast\"}, {\"caller\": \"isEmpty\", \"callee_text\": \"isStrictEqual\"}, {\"caller\": \"isEmpty\", \"callee_text\": \"isNullish\"}, {\"caller\": \"isEmpty\", \"callee_text\": \"isTruthy\"}]}",
+  "created": "2026-08-08T23:23:07+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 906,
+  "completion_tokens": 81
+}

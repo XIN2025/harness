@@ -1,0 +1,4 @@
+{"calls": [
+  {"caller": "join", "callee_text": "purry"},
+  {"caller": "joinImplementation", "callee_text": "Array.prototype.join"}
+]}

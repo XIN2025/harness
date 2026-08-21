@@ -1,0 +1,4 @@
+{"calls": [
+  {"caller": "swapProps", "callee_text": "purry"},
+  {"caller": "swapPropsImplementation", "callee_text": "destructuring"}
+]}

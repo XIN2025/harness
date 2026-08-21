@@ -1,0 +1,160 @@
+{
+  "relative_path": "src/render-border.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "stylePiece",
+      "callee_text": "colorize",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./colorize.js",
+      "line": 13
+    },
+    {
+      "caller": "stylePiece",
+      "callee_text": "colorize",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./colorize.js",
+      "line": 14
+    },
+    {
+      "caller": "stylePiece",
+      "callee_text": "dim",
+      "kind": "method",
+      "receiver": "chalk",
+      "receiver_type_hint": null,
+      "callee_file_hint": "chalk",
+      "line": 16
+    },
+    {
+      "caller": "renderBorder",
+      "callee_text": "getComputedWidth",
+      "kind": "method",
+      "receiver": "node.yogaNode!",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 29
+    },
+    {
+      "caller": "renderBorder",
+      "callee_text": "getComputedHeight",
+      "kind": "method",
+      "receiver": "node.yogaNode!",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 30
+    },
+    {
+      "caller": "renderBorder",
+      "callee_text": "repeat",
+      "kind": "method",
+      "receiver": "box.top",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 76
+    },
+    {
+      "caller": "renderBorder",
+      "callee_text": "stylePiece",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 80
+    },
+    {
+      "caller": "renderBorder",
+      "callee_text": "stylePiece",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 100
+    },
+    {
+      "caller": "renderBorder",
+      "callee_text": "repeat",
+      "kind": "method",
+      "receiver": "(one + '\\n')",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 106
+    },
+    {
+      "caller": "renderBorder",
+      "callee_text": "stylePiece",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 112
+    },
+    {
+      "caller": "renderBorder",
+      "callee_text": "repeat",
+      "kind": "method",
+      "receiver": "(one + '\\n')",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 118
+    },
+    {
+      "caller": "renderBorder",
+      "callee_text": "repeat",
+      "kind": "method",
+      "receiver": "box.bottom",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 123
+    },
+    {
+      "caller": "renderBorder",
+      "callee_text": "stylePiece",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 126
+    },
+    {
+      "caller": "renderBorder",
+      "callee_text": "write",
+      "kind": "method",
+      "receiver": "output",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 136
+    },
+    {
+      "caller": "renderBorder",
+      "callee_text": "write",
+      "kind": "method",
+      "receiver": "output",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 140
+    },
+    {
+      "caller": "renderBorder",
+      "callee_text": "write",
+      "kind": "method",
+      "receiver": "output",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 144
+    },
+    {
+      "caller": "renderBorder",
+      "callee_text": "write",
+      "kind": "method",
+      "receiver": "output",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 150
+    }
+  ],
+  "callable_refs": []
+}

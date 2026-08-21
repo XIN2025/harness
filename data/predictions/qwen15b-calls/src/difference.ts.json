@@ -1,0 +1,8 @@
+{"calls": [
+  {"caller": "difference", "callee_text": "purryFromLazy"},
+  {"caller": "lazyImplementation", "callee_text": "Map"},
+  {"caller": "lazyImplementation", "callee_text": "get"},
+  {"caller": "lazyImplementation", "callee_text": "set"},
+  {"caller": "lazyImplementation", "callee_text": "next"},
+  {"caller": "difference", "callee_text": "SKIP_ITEM"}
+]}

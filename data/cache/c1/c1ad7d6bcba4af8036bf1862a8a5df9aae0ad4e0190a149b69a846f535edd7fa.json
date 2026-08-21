@@ -1,0 +1,13 @@
+{
+  "key": "c1ad7d6bcba4af8036bf1862a8a5df9aae0ad4e0190a149b69a846f535edd7fa",
+  "model": "harness-qwen15b",
+  "prompt_version": "ours-v1-5c74cf9a927a",
+  "file_sha": "dc59bf0d237410cf0e1aff16da87d6f78f66580f9f03f85322c465c093cba13c",
+  "relative_path": "src/concat.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    {\n      \"name\": \"concat\",\n      \"kind\": \"function\"\n    },\n    {\n      \"name\": \"IterableContainer\",\n      \"kind\": \"type_alias\"\n    },\n    {\n      \"name\": \"purry\",\n      \"kind\": \"function\"\n    }\n  ],\n  \"references\": [],\n  \"calls\": [\n    {\n      \"caller\": \"__module__\",\n      \"callee_text\": \"concat\",\n      \"kind\": \"method\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": \"src/concat.ts\",\n      \"line\": 1\n    },\n    {\n      \"caller\": \"__module__\",\n      \"callee_text\": \"concat\",\n      \"kind\": \"method\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": \"src/concat.ts\",\n      \"line\": 2\n    }\n  ],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"concat\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"data\",\n          \"kind\": \"param\"\n        },\n        {\n          \"name\": \"other\",\n          \"kind\": \"param\"\n        }\n      ],\n      \"returns\": [\n        {\n          \"type\": \"unknown[]\",\n          \"type_module\": null,\n          \"from_call\": false\n        }\n      ],\n      \"line\": 1\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:31:28+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 754,
+  "completion_tokens": 333
+}

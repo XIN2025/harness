@@ -1,0 +1,313 @@
+{
+  "relative_path": "src/render-node-to-output.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "applyPaddingToText",
+      "callee_text": "getComputedLeft",
+      "kind": "method",
+      "receiver": "yogaNode",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 22
+    },
+    {
+      "caller": "applyPaddingToText",
+      "callee_text": "getComputedTop",
+      "kind": "method",
+      "receiver": "yogaNode",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 23
+    },
+    {
+      "caller": "applyPaddingToText",
+      "callee_text": "repeat",
+      "kind": "method",
+      "receiver": "'\\n'",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 24
+    },
+    {
+      "caller": "applyPaddingToText",
+      "callee_text": "indentString",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "indent-string",
+      "line": 24
+    },
+    {
+      "caller": "renderNodeToScreenReaderOutput",
+      "callee_text": "getDisplay",
+      "kind": "method",
+      "receiver": "node.yogaNode",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 43
+    },
+    {
+      "caller": "renderNodeToScreenReaderOutput",
+      "callee_text": "squashTextNodes",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./squash-text-nodes.js",
+      "line": 50
+    },
+    {
+      "caller": "renderNodeToScreenReaderOutput",
+      "callee_text": "reverse",
+      "kind": "method",
+      "receiver": "[...node.childNodes]",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 61
+    },
+    {
+      "caller": "renderNodeToScreenReaderOutput",
+      "callee_text": "join",
+      "kind": "method",
+      "receiver": "childNodes\n\t\t\t.map(childNode => {\n\t\t\t\tconst screenReaderOutput = renderNodeToScreenReaderOutput(\n\t\t\t\t\tchildNode as DOMElement,\n\t\t\t\t\t{\n\t\t\t\t\t\tparentRole: node.internal_accessibility?.role,\n\t\t\t\t\t\tskipStaticElements: options.skipStaticElements,\n\t\t\t\t\t},\n\t\t\t\t);\n\t\t\t\treturn screenReaderOutput;\n\t\t\t})\n\t\t\t.filter(Boolean)",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 64
+    },
+    {
+      "caller": "renderNodeToScreenReaderOutput",
+      "callee_text": "filter",
+      "kind": "method",
+      "receiver": "childNodes\n\t\t\t.map(childNode => {\n\t\t\t\tconst screenReaderOutput = renderNodeToScreenReaderOutput(\n\t\t\t\t\tchildNode as DOMElement,\n\t\t\t\t\t{\n\t\t\t\t\t\tparentRole: node.internal_accessibility?.role,\n\t\t\t\t\t\tskipStaticElements: options.skipStaticElements,\n\t\t\t\t\t},\n\t\t\t\t);\n\t\t\t\treturn screenReaderOutput;\n\t\t\t})",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 64
+    },
+    {
+      "caller": "renderNodeToScreenReaderOutput",
+      "callee_text": "map",
+      "kind": "method",
+      "receiver": "childNodes",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 64
+    },
+    {
+      "caller": "renderNodeToScreenReaderOutput",
+      "callee_text": "renderNodeToScreenReaderOutput",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 66
+    },
+    {
+      "caller": "renderNodeToScreenReaderOutput",
+      "callee_text": "keys",
+      "kind": "static",
+      "receiver": "Object",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 83
+    },
+    {
+      "caller": "renderNodeToScreenReaderOutput",
+      "callee_text": "join",
+      "kind": "method",
+      "receiver": "stateKeys.filter(key => state[key])",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 84
+    },
+    {
+      "caller": "renderNodeToScreenReaderOutput",
+      "callee_text": "filter",
+      "kind": "method",
+      "receiver": "stateKeys",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 84
+    },
+    {
+      "caller": "renderNodeToOutput",
+      "callee_text": "getDisplay",
+      "kind": "method",
+      "receiver": "yogaNode",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 124
+    },
+    {
+      "caller": "renderNodeToOutput",
+      "callee_text": "getComputedLeft",
+      "kind": "method",
+      "receiver": "yogaNode",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 129
+    },
+    {
+      "caller": "renderNodeToOutput",
+      "callee_text": "getComputedTop",
+      "kind": "method",
+      "receiver": "yogaNode",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 130
+    },
+    {
+      "caller": "renderNodeToOutput",
+      "callee_text": "squashTextNodes",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./squash-text-nodes.js",
+      "line": 141
+    },
+    {
+      "caller": "renderNodeToOutput",
+      "callee_text": "widestLine",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "widest-line",
+      "line": 144
+    },
+    {
+      "caller": "renderNodeToOutput",
+      "callee_text": "getMaxWidth",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./get-max-width.js",
+      "line": 145
+    },
+    {
+      "caller": "renderNodeToOutput",
+      "callee_text": "wrapText",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./wrap-text.js",
+      "line": 149
+    },
+    {
+      "caller": "renderNodeToOutput",
+      "callee_text": "applyPaddingToText",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 152
+    },
+    {
+      "caller": "renderNodeToOutput",
+      "callee_text": "write",
+      "kind": "method",
+      "receiver": "output",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 154
+    },
+    {
+      "caller": "renderNodeToOutput",
+      "callee_text": "renderBackground",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./render-background.js",
+      "line": 163
+    },
+    {
+      "caller": "renderNodeToOutput",
+      "callee_text": "renderBorder",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./render-border.js",
+      "line": 164
+    },
+    {
+      "caller": "renderNodeToOutput",
+      "callee_text": "getComputedBorder",
+      "kind": "method",
+      "receiver": "yogaNode",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 173
+    },
+    {
+      "caller": "renderNodeToOutput",
+      "callee_text": "getComputedWidth",
+      "kind": "method",
+      "receiver": "yogaNode",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 178
+    },
+    {
+      "caller": "renderNodeToOutput",
+      "callee_text": "getComputedBorder",
+      "kind": "method",
+      "receiver": "yogaNode",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 179
+    },
+    {
+      "caller": "renderNodeToOutput",
+      "callee_text": "getComputedBorder",
+      "kind": "method",
+      "receiver": "yogaNode",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 183
+    },
+    {
+      "caller": "renderNodeToOutput",
+      "callee_text": "getComputedHeight",
+      "kind": "method",
+      "receiver": "yogaNode",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 188
+    },
+    {
+      "caller": "renderNodeToOutput",
+      "callee_text": "getComputedBorder",
+      "kind": "method",
+      "receiver": "yogaNode",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 189
+    },
+    {
+      "caller": "renderNodeToOutput",
+      "callee_text": "clip",
+      "kind": "method",
+      "receiver": "output",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 192
+    },
+    {
+      "caller": "renderNodeToOutput",
+      "callee_text": "renderNodeToOutput",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 199
+    },
+    {
+      "caller": "renderNodeToOutput",
+      "callee_text": "unclip",
+      "kind": "method",
+      "receiver": "output",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 208
+    }
+  ],
+  "callable_refs": []
+}

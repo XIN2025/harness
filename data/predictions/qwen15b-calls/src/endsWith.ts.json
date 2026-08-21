@@ -1,0 +1,4 @@
+{"calls": [
+  {"caller": "endsWith", "callee_text": "endsWith"},
+  {"caller": "endsWith", "callee_text": "endsWithImplementation"}
+]}

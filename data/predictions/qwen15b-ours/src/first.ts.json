@@ -1,0 +1,131 @@
+```json
+{
+  "definitions": [
+    {
+      "name": "First",
+      "kind": "function"
+    },
+    {
+      "name": "toSingle",
+      "kind": "function"
+    },
+    {
+      "name": "IterableContainer",
+      "kind": "type_alias"
+    },
+    {
+      "name": "LazyEvaluator",
+      "kind": "type_alias"
+    },
+    {
+      "name": "purry",
+      "kind": "function"
+    }
+  ],
+  "references": [
+    {
+      "name": "internal/toSingle",
+      "source": "./internal/toSingle.ts",
+      "alias": null
+    },
+    {
+      "name": "internal/types/IterableContainer",
+      "source": "./internal/types/IterableContainer.ts",
+      "alias": null
+    },
+    {
+      "name": "internal/types/LazyEvaluator",
+      "source": "./internal/types/LazyEvaluator.ts",
+      "alias": null
+    }
+  ],
+  "calls": [
+    {
+      "caller": "__module__",
+      "callee_text": "first",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./src/first.ts",
+      "line": 1
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "pipe",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./src/first.ts",
+      "line": 2
+    }
+  ],
+  "type_assignments": [
+    {
+      "scope": "__module__",
+      "var": "First",
+      "type": "function",
+      "type_module": null,
+      "from_call": false
+    },
+    {
+      "scope": "__module__",
+      "var": "toSingle",
+      "type": "function",
+      "type_module": null,
+      "from_call": false
+    },
+    {
+      "scope": "__module__",
+      "var": "IterableContainer",
+      "type": "type_alias",
+      "type_module": null,
+      "from_call": false
+    },
+    {
+      "scope": "__module__",
+      "var": "LazyEvaluator",
+      "type": "type_alias",
+      "type_module": null,
+      "from_call": false
+    }
+  ],
+  "definitions_rich": [
+    {
+      "name": "first",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [],
+      "returns": "First<T>",
+      "line": 1
+    },
+    {
+      "name": "toSingle",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [],
+      "returns": "unknown",
+      "line": 2
+    },
+    {
+      "name": "IterableContainer",
+      "kind": "type_alias",
+      "parent": "__module__",
+      "bases": [],
+      "params": [],
+      "returns": "unknown",
+      "line": 3
+    },
+    {
+      "name": "LazyEvaluator",
+      "kind": "type_alias",
+      "parent": "__module__",
+      "bases": [],
+      "params": [],
+      "returns": "unknown",
+      "line": 4
+    }
+  ]
+}
+```

@@ -1,0 +1,4 @@
+{"callable_refs": [
+  {"caller": "partialLastBind", "callee_text": "func"},
+  {"caller": "partialLastBind", "callee_text": "partial"}
+]}

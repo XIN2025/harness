@@ -1,0 +1,25 @@
+{
+  "relative_path": "src/sortedLastIndex.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "sortedLastIndex",
+      "callee_text": "purry",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./purry",
+      "line": 48
+    },
+    {
+      "caller": "sortedLastIndexImplementation",
+      "callee_text": "binarySearchCutoffIndex",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./internal/binarySearchCutoffIndex",
+      "line": 55
+    }
+  ],
+  "callable_refs": []
+}

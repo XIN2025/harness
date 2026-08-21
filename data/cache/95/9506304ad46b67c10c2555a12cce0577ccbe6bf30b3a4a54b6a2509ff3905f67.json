@@ -1,0 +1,13 @@
+{
+  "key": "9506304ad46b67c10c2555a12cce0577ccbe6bf30b3a4a54b6a2509ff3905f67",
+  "model": "harness-qwen15b",
+  "prompt_version": "ours-v1-5c74cf9a927a",
+  "file_sha": "5067f80f9912442e66ffd02817afd24430ed8d75692492e510a37af30751562a",
+  "relative_path": "src/setPath.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"setPath\",\n    \"Paths\",\n    \"ProperKeyOf\",\n    \"ValueAtPath\",\n    \"setPathImplementation\"\n  ],\n  \"references\": [],\n  \"calls\": [],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"setPath\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"data\",\n          \"type\": \"unknown\"\n        },\n        {\n          \"name\": \"path\",\n          \"type\": \"readonly PropertyKey[]\"\n        },\n        {\n          \"name\": \"value\",\n          \"type\": \"unknown\"\n        }\n      ],\n      \"returns\": \"unknown\"\n    },\n    {\n      \"name\": \"setPathImplementation\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"data\",\n          \"type\": \"unknown\"\n        },\n        {\n          \"name\": \"path\",\n          \"type\": \"readonly PropertyKey[]\"\n        },\n        {\n          \"name\": \"value\",\n          \"type\": \"unknown\"\n        }\n      ],\n      \"returns\": \"unknown\"\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:44:02+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1219,
+  "completion_tokens": 274
+}

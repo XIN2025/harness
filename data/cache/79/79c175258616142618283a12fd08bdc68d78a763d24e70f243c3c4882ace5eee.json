@@ -1,0 +1,13 @@
+{
+  "key": "79c175258616142618283a12fd08bdc68d78a763d24e70f243c3c4882ace5eee",
+  "model": "harness-qwen15b",
+  "prompt_version": "ours-v1-5c74cf9a927a",
+  "file_sha": "813d721b6bed7fb64e5f0de2c8fde8ca1895f2ef0913b056d78b149c8e242554",
+  "relative_path": "src/rankBy.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"rankBy\",\n    \"purryOrderRulesWithArgument\",\n    \"type OrderRule\",\n    \"CompareFunction\",\n    \"NonEmptyArray\"\n  ],\n  \"references\": [],\n  \"calls\": [\n    {\n      \"caller\": \"__module__\",\n      \"callee_text\": \"rankBy\",\n      \"kind\": \"method\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": \"src/rankBy.ts\",\n      \"line\": 1\n    },\n    {\n      \"caller\": \"__module__\",\n      \"callee_text\": \"rankBy\",\n      \"kind\": \"method\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": \"src/rankBy.ts\",\n      \"line\": 2\n    },\n    {\n      \"caller\": \"__module__\",\n      \"callee_text\": \"rankBy\",\n      \"kind\": \"method\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": \"src/rankBy.ts\",\n      \"line\": 3\n    }\n  ],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"rankBy\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"data\",\n          \"type\": \"readonly T[]\"\n        },\n        {\n          \"name\": \"item\",\n          \"type\": \"T\"\n        }\n      ],\n      \"returns\": \"number\",\n      \"line\": 1\n    },\n    {\n      \"name\": \"rankBy\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"item\",\n          \"type\": \"T\"\n        }\n      ],\n      \"returns\": \"number\",\n      \"line\": 2\n    },\n    {\n      \"name\": \"rankBy\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"item\",\n          \"type\": \"T\"\n        }\n      ],\n      \"returns\": \"(data: readonly T[]) => number\",\n      \"line\": 3\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:43:27+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1178,
+  "completion_tokens": 498
+}

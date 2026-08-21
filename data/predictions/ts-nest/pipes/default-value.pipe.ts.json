@@ -1,0 +1,43 @@
+{
+  "relative_path": "pipes/default-value.pipe.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "__module__",
+      "callee_text": "Injectable",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../decorators/core/injectable.decorator",
+      "line": 15
+    },
+    {
+      "caller": "DefaultValuePipe.transform",
+      "callee_text": "isNil",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../utils/shared.utils",
+      "line": 24
+    },
+    {
+      "caller": "DefaultValuePipe.transform",
+      "callee_text": "isNumber",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../utils/shared.utils",
+      "line": 25
+    },
+    {
+      "caller": "DefaultValuePipe.transform",
+      "callee_text": "isNaN",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 25
+    }
+  ],
+  "callable_refs": []
+}

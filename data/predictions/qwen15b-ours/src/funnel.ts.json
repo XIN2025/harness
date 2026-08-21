@@ -1,0 +1,116 @@
+```json
+{
+  "definitions": [
+    "FunnelOptions",
+    "RestArguments",
+    "FunnelTimingOptions",
+    "R",
+    "Args",
+    "Callback",
+    "Funnel"
+  ],
+  "references": [],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "FunnelOptions",
+      "kind": "interface",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "reducer",
+          "type": "FunnelReducer<Args, R>"
+        }
+      ],
+      "returns": "Funnel<Args>",
+      "line": 10
+    },
+    {
+      "name": "RestArguments",
+      "kind": "interface",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "args",
+          "type": "any[]"
+        }
+      ],
+      "returns": "never",
+      "line": 12
+    },
+    {
+      "name": "FunnelTimingOptions",
+      "kind": "interface",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "triggerAt",
+          "type": "'end' | 'start' | 'both'"
+        }
+      ],
+      "returns": "Funnel<Args>",
+      "line": 14
+    },
+    {
+      "name": "R",
+      "kind": "interface",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "",
+          "type": "never"
+        }
+      ],
+      "returns": "never",
+      "line": 16
+    },
+    {
+      "name": "Args",
+      "kind": "interface",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "",
+          "type": "any[]"
+        }
+      ],
+      "returns": "never",
+      "line": 18
+    },
+    {
+      "name": "Callback",
+      "kind": "interface",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "R"
+        }
+      ],
+      "returns": "void",
+      "line": 20
+    },
+    {
+      "name": "Funnel",
+      "kind": "interface",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "",
+          "type": "never"
+        }
+      ],
+      "returns": "Funnel<Args>",
+      "line": 22
+    }
+  ]
+}
+```

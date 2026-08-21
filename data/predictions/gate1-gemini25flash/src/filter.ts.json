@@ -1,0 +1,132 @@
+```json
+{
+  "definitions": [
+    "filter",
+    "filterImplementation",
+    "lazyImplementation"
+  ],
+  "references": [
+    {
+      "name": "FilteredArray",
+      "source": "./internal/types/FilteredArray",
+      "alias": null
+    },
+    {
+      "name": "IterableContainer",
+      "source": "./internal/types/IterableContainer",
+      "alias": null
+    },
+    {
+      "name": "LazyEvaluator",
+      "source": "./internal/types/LazyEvaluator",
+      "alias": null
+    },
+    {
+      "name": "SKIP_ITEM",
+      "source": "./internal/utilityEvaluators",
+      "alias": null
+    },
+    {
+      "name": "purry",
+      "source": "./purry",
+      "alias": null
+    }
+  ],
+  "calls": [
+    {
+      "caller": "filter",
+      "callee_text": "purry",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./purry",
+      "line": 59
+    },
+    {
+      "caller": "filter",
+      "callee_text": "filterImplementation",
+      "kind": "hook",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 59
+    },
+    {
+      "caller": "filter",
+      "callee_text": "lazyImplementation",
+      "kind": "hook",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 59
+    },
+    {
+      "caller": "filterImplementation",
+      "callee_text": "filter",
+      "kind": "method",
+      "receiver": "data",
+      "receiver_type_hint": "Array",
+      "callee_file_hint": "external",
+      "line": 64
+    },
+    {
+      "caller": "lazyImplementation",
+      "callee_text": "predicate",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 70
+    }
+  ],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "filter",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "args",
+          "type": "readonly unknown[]"
+        }
+      ],
+      "returns": "unknown",
+      "line": 59
+    },
+    {
+      "name": "filterImplementation",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "readonly T[]"
+        },
+        {
+          "name": "predicate",
+          "type": "(value: T, index: number, array: readonly T[]) => boolean"
+        }
+      ],
+      "returns": "T[]",
+      "line": 62
+    },
+    {
+      "name": "lazyImplementation",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(value: T, index: number, data: readonly T[]) => boolean"
+        }
+      ],
+      "returns": "LazyEvaluator",
+      "line": 67
+    }
+  ]
+}
+```

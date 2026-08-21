@@ -1,0 +1,13 @@
+{
+  "key": "519604ea4eb6bcfb3a403330a3c70f4eee80eb33bee6b96253ed39d74aeffc22",
+  "model": "harness-qwen15b",
+  "prompt_version": "refs-strict-v1-ca2cfcfbecef+json",
+  "file_sha": "c6c2df6c4952f0dbf536ce43a2ddefeb2e8d8bea734ae2b77ea7b458226afedc",
+  "relative_path": "src/sortedIndexWith.ts",
+  "response": "{\"callable_refs\": [{\"caller\": \"sortedIndexWith\", \"callee_text\": \"binarySearchCutoffIndex\"}]}",
+  "created": "2026-08-09T05:50:19+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1504,
+  "completion_tokens": 25
+}

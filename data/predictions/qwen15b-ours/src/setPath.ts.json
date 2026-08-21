@@ -1,0 +1,58 @@
+```json
+{
+  "definitions": [
+    "setPath",
+    "Paths",
+    "ProperKeyOf",
+    "ValueAtPath",
+    "setPathImplementation"
+  ],
+  "references": [],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "setPath",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "unknown"
+        },
+        {
+          "name": "path",
+          "type": "readonly PropertyKey[]"
+        },
+        {
+          "name": "value",
+          "type": "unknown"
+        }
+      ],
+      "returns": "unknown"
+    },
+    {
+      "name": "setPathImplementation",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "unknown"
+        },
+        {
+          "name": "path",
+          "type": "readonly PropertyKey[]"
+        },
+        {
+          "name": "value",
+          "type": "unknown"
+        }
+      ],
+      "returns": "unknown"
+    }
+  ]
+}
+```

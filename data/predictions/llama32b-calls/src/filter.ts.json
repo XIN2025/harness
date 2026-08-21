@@ -1,0 +1,6 @@
+{"calls": [
+  {"caller": "filter", "callee_text": "purry"},
+  {"caller": "filterImplementation", "callee_text": "filter"},
+  {"caller": "filterImplementation", "callee_text": "predicate"},
+  {"caller": "lazyImplementation", "callee_text": "predicate"}
+]}

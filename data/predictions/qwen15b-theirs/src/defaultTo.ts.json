@@ -1,0 +1,11 @@
+```json
+{
+  "definitions": ["defaultTo"],
+  "references": [
+    {"name": "defaultTo", "source": "./src/defaultTo.ts"}
+  ],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": []
+}
+```

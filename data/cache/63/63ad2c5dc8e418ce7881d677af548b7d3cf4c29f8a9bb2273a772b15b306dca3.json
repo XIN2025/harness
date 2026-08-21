@@ -1,0 +1,13 @@
+{
+  "key": "63ad2c5dc8e418ce7881d677af548b7d3cf4c29f8a9bb2273a772b15b306dca3",
+  "model": "harness-qwen15b",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "103267e4538b85b4342e9d0b782cdb7a1905d765d4d9a5e6ece2149e08b28e9e",
+  "relative_path": "src/dropLast.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"dropLast\", \"callee_text\": \"purry\"},\n  {\"caller\": \"dropLastImplementation\", \"callee_text\": \"slice\"}\n]}",
+  "created": "2026-08-08T22:15:15+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 857,
+  "completion_tokens": 38
+}

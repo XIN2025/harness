@@ -1,0 +1,430 @@
+{
+  "relative_path": "lib/plugins/filter/before_post_render/backtick_code_block.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "escapeSwigTag",
+      "callee_text": "replace",
+      "kind": "method",
+      "receiver": "str.replace(/{/g, '&#123;')",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 11
+    },
+    {
+      "caller": "escapeSwigTag",
+      "callee_text": "replace",
+      "kind": "method",
+      "receiver": "str",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 11
+    },
+    {
+      "caller": "parseArgs",
+      "callee_text": "exec",
+      "kind": "method",
+      "receiver": "rAdditionalOptions",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 19
+    },
+    {
+      "caller": "parseArgs",
+      "callee_text": "push",
+      "kind": "method",
+      "receiver": "matches",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 20
+    },
+    {
+      "caller": "parseArgs",
+      "callee_text": "split",
+      "kind": "method",
+      "receiver": "matches[i]",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 27
+    },
+    {
+      "caller": "parseArgs",
+      "callee_text": "isNaN",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 37
+    },
+    {
+      "caller": "parseArgs",
+      "callee_text": "Number",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 37
+    },
+    {
+      "caller": "parseArgs",
+      "callee_text": "isNaN",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 40
+    },
+    {
+      "caller": "parseArgs",
+      "callee_text": "Number",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 40
+    },
+    {
+      "caller": "parseArgs",
+      "callee_text": "split",
+      "kind": "method",
+      "receiver": "value",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 46
+    },
+    {
+      "caller": "parseArgs",
+      "callee_text": "indexOf",
+      "kind": "method",
+      "receiver": "cur",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 47
+    },
+    {
+      "caller": "parseArgs",
+      "callee_text": "slice",
+      "kind": "method",
+      "receiver": "cur",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 49
+    },
+    {
+      "caller": "parseArgs",
+      "callee_text": "slice",
+      "kind": "method",
+      "receiver": "cur",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 50
+    },
+    {
+      "caller": "parseArgs",
+      "callee_text": "isNaN",
+      "kind": "static",
+      "receiver": "Number",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 51
+    },
+    {
+      "caller": "parseArgs",
+      "callee_text": "isNaN",
+      "kind": "static",
+      "receiver": "Number",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 51
+    },
+    {
+      "caller": "parseArgs",
+      "callee_text": "push",
+      "kind": "method",
+      "receiver": "mark",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 57
+    },
+    {
+      "caller": "parseArgs",
+      "callee_text": "isNaN",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 60
+    },
+    {
+      "caller": "parseArgs",
+      "callee_text": "Number",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 60
+    },
+    {
+      "caller": "parseArgs",
+      "callee_text": "push",
+      "kind": "method",
+      "receiver": "mark",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 60
+    },
+    {
+      "caller": "parseArgs",
+      "callee_text": "replace",
+      "kind": "method",
+      "receiver": "args",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 80
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "includes",
+      "kind": "method",
+      "receiver": "dataContent",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 88
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "includes",
+      "kind": "method",
+      "receiver": "dataContent",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 88
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "query",
+      "kind": "method",
+      "receiver": "ctx.extend.highlight",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 88
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "exec",
+      "kind": "method",
+      "receiver": "rCommentEscape",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 94
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "push",
+      "kind": "method",
+      "receiver": "commentStarts",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 95
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "push",
+      "kind": "method",
+      "receiver": "commentEnds",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 96
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "replace",
+      "kind": "method",
+      "receiver": "data.content",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 100
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "escapeSwigTag",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 110
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "replace",
+      "kind": "method",
+      "receiver": "_content",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 112
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "query",
+      "kind": "method",
+      "receiver": "ctx.extend.highlight",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 115
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "escapeSwigTag",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 115
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "parseArgs",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 117
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "escapeSwigTag",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 118
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "shift",
+      "kind": "method",
+      "receiver": "_args.split('=')",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 122
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "split",
+      "kind": "method",
+      "receiver": "_args",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 122
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "exec",
+      "kind": "method",
+      "receiver": "rAllOptions",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 126
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "exec",
+      "kind": "method",
+      "receiver": "rLangCaption",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 126
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "includes",
+      "kind": "method",
+      "receiver": "start",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 142
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "split",
+      "kind": "method",
+      "receiver": "start",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 144
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "RegExp",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 145
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "replace",
+      "kind": "method",
+      "receiver": "content",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 146
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "split",
+      "kind": "method",
+      "receiver": "content",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 152
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "replace",
+      "kind": "method",
+      "receiver": "_args",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 156
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "includes",
+      "kind": "method",
+      "receiver": "_args",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 159
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "split",
+      "kind": "method",
+      "receiver": "_args",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 160
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "exec",
+      "kind": "method",
+      "receiver": "ctx.extend.highlight",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 162
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "escapeSwigTag",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 169
+    }
+  ],
+  "callable_refs": []
+}

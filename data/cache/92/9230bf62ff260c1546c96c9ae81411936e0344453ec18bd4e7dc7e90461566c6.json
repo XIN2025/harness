@@ -1,0 +1,13 @@
+{
+  "key": "9230bf62ff260c1546c96c9ae81411936e0344453ec18bd4e7dc7e90461566c6",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "afcc96daefa55f4d53e1a7cb0c9b8f785b917365068cb745a0b78518a909bb48",
+  "relative_path": "src/uncapitalize.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"uncapitalize\", \"callee_text\": \"purry\"},\n  {\"caller\": \"uncapitalize\", \"callee_text\": \"uncapitalizeImplementation\"},\n  {\"caller\": \"uncapitalizeImplementation\", \"callee_text\": \"toLowerCase\"},\n  {\"caller\": \"uncapitalizeImplementation\", \"callee_text\": \"??\"},\n  {\"caller\": \"uncapitalizeImplementation\", \"callee_text\": \"slice\"},\n  {\"caller\": \"uncapitalizeImplementation\", \"callee_text\": \"as\"}\n]}",
+  "created": "2026-08-08T23:16:28+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1158,
+  "completion_tokens": 111
+}

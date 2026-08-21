@@ -1,0 +1,87 @@
+```json
+{
+  "definitions": [
+    "findIndex",
+    "findIndexImplementation"
+  ],
+  "references": [
+    {
+      "name": "purry",
+      "source": "./purry",
+      "alias": null
+    }
+  ],
+  "calls": [
+    {
+      "caller": "findIndex",
+      "callee_text": "purry",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./purry",
+      "line": 44
+    },
+    {
+      "caller": "findIndexImplementation",
+      "callee_text": "findIndex",
+      "kind": "method",
+      "receiver": "data",
+      "receiver_type_hint": "Array",
+      "callee_file_hint": "external",
+      "line": 50
+    },
+    {
+      "caller": "findIndexImplementation",
+      "callee_text": "predicate",
+      "kind": "hook",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 50
+    }
+  ],
+  "type_assignments": [
+    {
+      "scope": "module",
+      "var": "findIndexImplementation",
+      "type": null,
+      "type_module": null,
+      "from_call": null
+    }
+  ],
+  "definitions_rich": [
+    {
+      "name": "findIndex",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "args",
+          "type": "unknown[]"
+        }
+      ],
+      "returns": "unknown",
+      "line": 43
+    },
+    {
+      "name": "findIndexImplementation",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "T[]"
+        },
+        {
+          "name": "predicate",
+          "type": null
+        }
+      ],
+      "returns": "number",
+      "line": 47
+    }
+  ]
+}
+```

@@ -1,0 +1,29 @@
+```json
+{
+  "definitions": ["first", "firstImplementation", "lazyImplementation", "firstLazy"],
+  "references": [
+    {"name": "toSingle", "source": "./internal/toSingle"},
+    {"name": "IterableContainer", "source": "./internal/types/IterableContainer"},
+    {"name": "LazyEvaluator", "source": "./internal/types/LazyEvaluator"},
+    {"name": "purry", "source": "./purry"}
+  ],
+  "calls": [
+    {"caller": "first", "callee_text": "pipe", "kind": "method",
+     "receiver": null, "receiver_type_hint": null, "callee_file_hint": "...", "line": 1},
+    {"caller": "firstImplementation", "callee_text": "next", "kind": "free",
+     "receiver": null, "receiver_type_hint": null, "callee_file_hint": "...", "line": 2},
+    {"caller": "lazyImplementation", "callee_text": "next", "kind": "free",
+     "receiver": null, "receiver_type_hint": null, "callee_file_hint": "...", "line": 3}
+  ],
+  "type_assignments": [
+    {"scope": "module", "var": "first", "type": "function", "type_module": "src"},
+    {"scope": "module", "var": "firstImplementation", "type": "function", "type_module": "src"},
+    {"scope": "module", "var": "lazyImplementation", "type": "function", "type_module": "src"},
+    {"scope": "module", "var": "firstLazy", "type": "function", "type_module": "src"}
+  ],
+  "definitions_rich": [
+    {"name": "pipe", "kind": "function", "parent": null, "bases": [], "params": [{"name": "array", "type": "IterableContainer"}], "returns": "unknown", "line": 1},
+    {"name": "first", "kind": "function", "parent": null, "bases": [], "params": [], "returns": "First<T>", "line": 2}
+  ]
+}
+```

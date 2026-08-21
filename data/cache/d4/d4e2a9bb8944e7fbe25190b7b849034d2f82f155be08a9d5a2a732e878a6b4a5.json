@@ -1,0 +1,13 @@
+{
+  "key": "d4e2a9bb8944e7fbe25190b7b849034d2f82f155be08a9d5a2a732e878a6b4a5",
+  "model": "harness-qwen15b",
+  "prompt_version": "refs-strict-v1-ca2cfcfbecef+json",
+  "file_sha": "338296079ba09bc18b676384852c8d2a4eedf7116f407ae1d670a235631a6eb1",
+  "relative_path": "src/evolve.ts",
+  "response": "{\"callable_refs\": [\n  {\"caller\": \"evolve\", \"callee_text\": \"evolveImplementation\"},\n  {\"caller\": \"evolveImplementation\", \"callee_text\": \"evolve\"}\n]}",
+  "created": "2026-08-09T05:44:58+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1765,
+  "completion_tokens": 41
+}

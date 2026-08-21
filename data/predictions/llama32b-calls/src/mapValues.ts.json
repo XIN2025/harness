@@ -1,0 +1,10 @@
+{"calls": [
+  {"caller": "mapValues", "callee_text": "purry"},
+  {"caller": "mapValuesImplementation", "callee_text": "Object.entries"},
+  {"caller": "mapValuesImplementation", "callee_text": "for"},
+  {"caller": "mapValuesImplementation", "callee_text": "of"},
+  {"caller": "mapValuesImplementation", "callee_text": "Object.entries"},
+  {"caller": "mapValuesImplementation", "callee_text": "forEach"},
+  {"caller": "mapValuesImplementation", "callee_text": "out[key] = mappedValue"},
+  {"caller": "mapValuesImplementation", "callee_text": "mapValuesImplementation"}
+]}

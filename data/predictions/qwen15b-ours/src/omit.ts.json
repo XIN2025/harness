@@ -1,0 +1,197 @@
+```json
+{
+  "definitions": [
+    {
+      "name": "OmitFromArray",
+      "kind": "function"
+    },
+    {
+      "name": "OmitBounded",
+      "kind": "function"
+    },
+    {
+      "name": "OmitUnbounded",
+      "kind": "function"
+    },
+    {
+      "name": "FixEmpty",
+      "kind": "function"
+    },
+    {
+      "name": "Bounded",
+      "kind": "function"
+    },
+    {
+      "name": "omit",
+      "kind": "function"
+    }
+  ],
+  "references": [
+    {
+      "name": "type-fest",
+      "source": "node_modules/type-fest/index.d.ts",
+      "alias": null
+    },
+    {
+      "name": "./hasAtLeast",
+      "source": "src/omit.ts",
+      "alias": null
+    },
+    {
+      "name": "./internal/types/IsBounded",
+      "source": "src/internal/types/IsBounded.ts",
+      "alias": null
+    },
+    {
+      "name": "./internal/types/IsBoundedRecord",
+      "source": "src/internal/types/IsBoundedRecord.ts",
+      "alias": null
+    },
+    {
+      "name": "./internal/types/PartitionByUnion",
+      "source": "src/internal/types/PartitionByUnion.ts",
+      "alias": null
+    },
+    {
+      "name": "./internal/types/SimplifiedWritable",
+      "source": "src/internal/types/SimplifiedWritable.ts",
+      "alias": null
+    },
+    {
+      "name": "./internal/types/TupleParts",
+      "source": "src/internal/types/TupleParts.ts",
+      "alias": null
+    },
+    {
+      "name": "./purry",
+      "source": "src/purry.ts",
+      "alias": null
+    }
+  ],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "OmitFromArray",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [],
+      "returns": {
+        "scope": "global",
+        "var": "T",
+        "type": "unknown",
+        "type_module": null,
+        "from_call": false
+      }
+    },
+    {
+      "name": "OmitBounded",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "T",
+          "type": "unknown"
+        },
+        {
+          "name": "Keys",
+          "type": "readonly PropertyKey[]"
+        }
+      ],
+      "returns": {
+        "scope": "global",
+        "var": "T",
+        "type": "unknown",
+        "type_module": null,
+        "from_call": false
+      }
+    },
+    {
+      "name": "OmitUnbounded",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "T",
+          "type": "unknown"
+        },
+        {
+          "name": "Keys",
+          "type": "readonly PropertyKey[]"
+        }
+      ],
+      "returns": {
+        "scope": "global",
+        "var": "T",
+        "type": "unknown",
+        "type_module": null,
+        "from_call": false
+      }
+    },
+    {
+      "name": "FixEmpty",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "T",
+          "type": "unknown"
+        }
+      ],
+      "returns": {
+        "scope": "global",
+        "var": "T",
+        "type": "unknown",
+        "type_module": null,
+        "from_call": false
+      }
+    },
+    {
+      "name": "Bounded",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "T",
+          "type": "unknown"
+        }
+      ],
+      "returns": {
+        "scope": "global",
+        "var": "T",
+        "type": "unknown",
+        "type_module": null,
+        "from_call": false
+      }
+    },
+    {
+      "name": "omit",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "keys",
+          "type": "readonly (keyof T)[]"
+        },
+        {
+          "name": "data",
+          "type": "T"
+        }
+      ],
+      "returns": {
+        "scope": "global",
+        "var": "OmitFromArray<T, Keys>",
+        "type": "unknown",
+        "type_module": null,
+        "from_call": false
+      }
+    }
+  ]
+}
+```

@@ -1,0 +1,7 @@
+{
+  "calls": [],
+  "callable_refs": [
+    {"caller": "fromEntries", "callee_text": "Object.fromEntries"},
+    {"caller": "fromEntries", "callee_text": "purry"}
+  ]
+}

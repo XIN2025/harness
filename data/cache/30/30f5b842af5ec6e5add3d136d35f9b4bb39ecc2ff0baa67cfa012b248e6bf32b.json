@@ -1,0 +1,13 @@
+{
+  "key": "30f5b842af5ec6e5add3d136d35f9b4bb39ecc2ff0baa67cfa012b248e6bf32b",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "refs-strict-v1-ca2cfcfbecef+json",
+  "file_sha": "5ad35fb348f291d04557027dc4c39358fd3957b7cebad193c9c0d27057e60c15",
+  "relative_path": "src/omit.ts",
+  "response": "{\"callable_refs\": [{\"caller\": \"omit\", \"callee_text\": \"OmitUnboundedRecord\"}]}",
+  "created": "2026-08-09T06:04:11+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 2196,
+  "completion_tokens": 23
+}

@@ -1,0 +1,13 @@
+{
+  "key": "85405735e2c2c2ea6f5f24aec23d54d1dc80b6b2e7bdee7555f422c42de919ca",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "refs-strict-v1-ca2cfcfbecef+json",
+  "file_sha": "5536c462e40c6ab9e0e1c07c947889ca26b896b99d232aa269ed929f75e28b10",
+  "relative_path": "src/countBy.ts",
+  "response": "{\"callable_refs\": [{\"caller\": \"countBy\", \"callee_text\": \"countByImplementation\"}]}",
+  "created": "2026-08-09T05:42:36+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1138,
+  "completion_tokens": 22
+}

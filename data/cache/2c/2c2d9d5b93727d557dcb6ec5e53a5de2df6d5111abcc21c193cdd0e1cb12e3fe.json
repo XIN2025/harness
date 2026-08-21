@@ -1,0 +1,13 @@
+{
+  "key": "2c2d9d5b93727d557dcb6ec5e53a5de2df6d5111abcc21c193cdd0e1cb12e3fe",
+  "model": "harness-llama32b",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "bce8be3102532c25ede791c13241f0d251554f9eb82039e333fd1e8cdb3379b2",
+  "relative_path": "src/clone.ts",
+  "response": "{\n  \"definitions\": [\"clone\", \"purry\"],\n  \"references\": [\n    {\"name\": \"clone\", \"source\": \"./purry\"},\n    {\"name\": \"purry\", \"source\": \"./purry\"}\n  ],\n  \"calls\": [\n    {\"caller\": \"App\", \"callee_text\": \"useState\", \"kind\": \"hook\",\n     \"receiver\": null, \"receiver_type_hint\": null, \"callee_file_hint\": \"external\", \"line\": 2},\n    {\"caller\": \"App\", \"callee_text\": \"useEffect\", \"kind\": \"hook\",\n     \"receiver\": null, \"receiver_type_hint\": null, \"callee_file_hint\": \"external\", \"line\": 3},\n    {\"caller\": \"App\", \"callee_text\": \"fetchData\", \"kind\": \"free\",\n     \"receiver\": null, \"receiver_type_hint\": null, \"callee_file_hint\": \"...\", \"line\": 3},\n    {\"caller\": \"App\", \"callee_text\": \"setN\", \"kind\": \"free\",\n     \"receiver\": null, \"receiver_type_hint\": null, \"callee_file_hint\": \"external\", \"line\": 4}\n  ],\n  \"type_assignments\": [\n    {\"scope\": \"module\", \"var\": \"clone\", \"type\": \"function\", \"type_module\": \"./purry\"}\n  ],\n  \"definitions_rich\": [\n    {\"name\": \"App\", \"kind\": \"component\", \"parent\": null, \"bases\": [],\n     \"params\": [], \"returns\": null, \"line\": 1},\n    {\"name\": \"clone\", \"kind\": \"function\", \"parent\": null, \"bases\": [],\n     \"params\": [{\"name\": \"data\", \"type\": \"T\"}], \"returns\": \"T\", \"line\": 2},\n    {\"name\": \"purry\", \"kind\": \"function\", \"parent\": null, \"bases\": [],\n     \"params\": [], \"returns\": null, \"line\": 3}\n  ]\n}",
+  "created": "2026-08-08T21:09:36+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 9009,
+  "completion_tokens": 420
+}

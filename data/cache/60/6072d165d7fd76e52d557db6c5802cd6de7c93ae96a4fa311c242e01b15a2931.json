@@ -1,0 +1,13 @@
+{
+  "key": "6072d165d7fd76e52d557db6c5802cd6de7c93ae96a4fa311c242e01b15a2931",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "9b395a3550f12b8aa98c52253b743655e709e4b02485f2006b7816ce73d419ab",
+  "relative_path": "src/toKebabCase.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"toKebabCase\", \"callee_text\": \"purry\"},\n  {\"caller\": \"toKebabCaseImplementation\", \"callee_text\": \"words\"},\n  {\"caller\": \"toKebabCaseImplementation\", \"callee_text\": \"join\"},\n  {\"caller\": \"toKebabCaseImplementation\", \"callee_text\": \"toLowerCase\"},\n  {\"caller\": \"toKebabCase\", \"callee_text\": \"purry\"}\n]}",
+  "created": "2026-08-08T23:15:57+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1409,
+  "completion_tokens": 101
+}

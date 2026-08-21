@@ -1,0 +1,25 @@
+{
+  "relative_path": "src/sortedIndex.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "sortedIndex",
+      "callee_text": "purry",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./purry",
+      "line": 48
+    },
+    {
+      "caller": "sortedIndexImplementation",
+      "callee_text": "binarySearchCutoffIndex",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./internal/binarySearchCutoffIndex",
+      "line": 52
+    }
+  ],
+  "callable_refs": []
+}

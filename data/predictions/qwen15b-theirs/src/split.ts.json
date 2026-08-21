@@ -1,0 +1,47 @@
+```json
+{
+  "definitions": [
+    "BuiltInReturnType",
+    "SplitBase",
+    "IsFloat",
+    "NonNegative",
+    "ArraySlice",
+    "Split"
+  ],
+  "references": [
+    {
+      "name": "type-fest",
+      "source": "./node_modules/type-fest/dist/index.d.ts",
+      "alias": null
+    }
+  ],
+  "calls": [
+    {"caller": "split", "callee_text": "split", "kind": "free", "receiver": null, "receiver_type_hint": null, "callee_file_hint": "...", "line": 1},
+    {"caller": "split", "callee_text": "split", "kind": "free", "receiver": null, "receiver_type_hint": null, "callee_file_hint": "...", "line": 2},
+    {"caller": "split", "callee_text": "split", "kind": "free", "receiver": null, "receiver_type_hint": null, "callee_file_hint": "...", "line": 3}
+  ],
+  "type_assignments": [
+    {
+      "scope": "module",
+      "var": "BuiltInReturnType",
+      "type": "string[]",
+      "type_module": "./node_modules/type-fest/dist/index.d.ts"
+    }
+  ],
+  "definitions_rich": [
+    {
+      "name": "split",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {"name": "data", "type": "string"},
+        {"name": "separator", "type": "RegExp"},
+        {"name": "limit", "type": "number | undefined"}
+      ],
+      "returns": "string[]",
+      "line": 1
+    }
+  ]
+}
+```

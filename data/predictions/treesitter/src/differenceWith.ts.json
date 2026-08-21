@@ -1,0 +1,34 @@
+{
+  "relative_path": "src/differenceWith.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "differenceWith",
+      "callee_text": "purryFromLazy",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./internal/purryFromLazy",
+      "line": 55
+    },
+    {
+      "caller": "lazyImplementation",
+      "callee_text": "every",
+      "kind": "method",
+      "receiver": "other",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 64
+    },
+    {
+      "caller": "lazyImplementation",
+      "callee_text": "isEqual",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 64
+    }
+  ],
+  "callable_refs": []
+}

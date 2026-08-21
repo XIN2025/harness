@@ -1,0 +1,13 @@
+{
+  "key": "8958803cb7fa777fdbaeedd28550c6e116d832481a5700606abca97a8c64f634",
+  "model": "harness-qwen15b",
+  "prompt_version": "refs-v1-7386a79c1ab2+json",
+  "file_sha": "39a6e4c9e37b1123a72eb3d0507724c218f6bd0ee1571c775c89c41300005e52",
+  "relative_path": "src/findIndex.ts",
+  "response": "{\n  \"calls\": [],\n  \"callable_refs\": [\n    {\"caller\": \"findIndex\", \"callee_text\": \"findIndexImplementation\"},\n    {\"caller\": \"findIndex\", \"callee_text\": \"predicate\"}\n  ]\n}",
+  "created": "2026-08-08T22:25:48+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 879,
+  "completion_tokens": 48
+}

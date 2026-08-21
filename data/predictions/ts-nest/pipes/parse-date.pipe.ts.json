@@ -1,0 +1,88 @@
+{
+  "relative_path": "pipes/parse-date.pipe.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "__module__",
+      "callee_text": "Injectable",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../decorators/core/injectable.decorator",
+      "line": 39
+    },
+    {
+      "caller": "ParseDatePipe.transform",
+      "callee_text": "isNil",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../utils/shared.utils",
+      "line": 64
+    },
+    {
+      "caller": "ParseDatePipe.transform",
+      "callee_text": "default",
+      "kind": "this",
+      "receiver": "this.options",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 65
+    },
+    {
+      "caller": "ParseDatePipe.transform",
+      "callee_text": "isNil",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../utils/shared.utils",
+      "line": 68
+    },
+    {
+      "caller": "ParseDatePipe.transform",
+      "callee_text": "exceptionFactory",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 69
+    },
+    {
+      "caller": "ParseDatePipe.transform",
+      "callee_text": "Date",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 72
+    },
+    {
+      "caller": "ParseDatePipe.transform",
+      "callee_text": "isNaN",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 74
+    },
+    {
+      "caller": "ParseDatePipe.transform",
+      "callee_text": "getTime",
+      "kind": "method",
+      "receiver": "transformedValue",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 74
+    },
+    {
+      "caller": "ParseDatePipe.transform",
+      "callee_text": "exceptionFactory",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 75
+    }
+  ],
+  "callable_refs": []
+}

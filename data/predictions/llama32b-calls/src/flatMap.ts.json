@@ -1,0 +1,7 @@
+{"calls": [
+  {"caller": "flatMap", "callee_text": "purry"},
+  {"caller": "flatMap", "callee_text": "flatMapImplementation"},
+  {"caller": "lazyImplementation", "callee_text": "callbackfn"},
+  {"caller": "lazyImplementation", "callee_text": "callbackfn"},
+  {"caller": "lazyImplementation", "callee_text": "callbackfn"}
+]}

@@ -1,0 +1,13 @@
+{
+  "key": "75d61d1710dfdf2aaacb2a39b203aad5277190dd50800d2d17d85923c15c0f90",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "refs-strict-v1-ca2cfcfbecef+json",
+  "file_sha": "eaf4d156f8d82fa1140a313b16376cc147eed1c35f6252b5296e378f19595d21",
+  "relative_path": "src/toUpperCase.ts",
+  "response": "{\"calls\": [], \"callable_refs\": [{\"caller\": \"toUpperCase\", \"callee_text\": \"toUpperCaseImplementation\"}]}",
+  "created": "2026-08-09T06:09:20+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1152,
+  "completion_tokens": 24
+}

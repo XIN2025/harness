@@ -1,0 +1,385 @@
+{
+  "relative_path": "lib/hexo/render.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "getExtname",
+      "callee_text": "extname",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "path",
+      "line": 12
+    },
+    {
+      "caller": "getExtname",
+      "callee_text": "startsWith",
+      "kind": "method",
+      "receiver": "ext",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 13
+    },
+    {
+      "caller": "getExtname",
+      "callee_text": "slice",
+      "kind": "method",
+      "receiver": "ext",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 13
+    },
+    {
+      "caller": "toString",
+      "callee_text": "call",
+      "kind": "method",
+      "receiver": "Object.prototype.hasOwnProperty",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 17
+    },
+    {
+      "caller": "toString",
+      "callee_text": "toString",
+      "kind": "method",
+      "receiver": "options",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 20
+    },
+    {
+      "caller": "toString",
+      "callee_text": "stringify",
+      "kind": "static",
+      "receiver": "JSON",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 22
+    },
+    {
+      "caller": "toString",
+      "callee_text": "toString",
+      "kind": "method",
+      "receiver": "result",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 24
+    },
+    {
+      "caller": "Render.isRenderable",
+      "callee_text": "isRenderable",
+      "kind": "this",
+      "receiver": "this.renderer",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 40
+    },
+    {
+      "caller": "Render.isRenderableSync",
+      "callee_text": "isRenderableSync",
+      "kind": "this",
+      "receiver": "this.renderer",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 44
+    },
+    {
+      "caller": "Render.getOutput",
+      "callee_text": "getOutput",
+      "kind": "this",
+      "receiver": "this.renderer",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 48
+    },
+    {
+      "caller": "Render.getRenderer",
+      "callee_text": "get",
+      "kind": "this",
+      "receiver": "this.renderer",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 52
+    },
+    {
+      "caller": "Render.getRendererSync",
+      "callee_text": "getRenderer",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 56
+    },
+    {
+      "caller": "Render.render",
+      "callee_text": "reject",
+      "kind": "static",
+      "receiver": "Promise",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 72
+    },
+    {
+      "caller": "Render.render",
+      "callee_text": "TypeError",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 72
+    },
+    {
+      "caller": "Render.render",
+      "callee_text": "resolve",
+      "kind": "static",
+      "receiver": "Promise",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 75
+    },
+    {
+      "caller": "Render.render",
+      "callee_text": "reject",
+      "kind": "static",
+      "receiver": "Promise",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 77
+    },
+    {
+      "caller": "Render.render",
+      "callee_text": "TypeError",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 77
+    },
+    {
+      "caller": "Render.render",
+      "callee_text": "readFile",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-fs",
+      "line": 79
+    },
+    {
+      "caller": "Render.render",
+      "callee_text": "asCallback",
+      "kind": "method",
+      "receiver": "promise.then(text => {\n      data.text = text;\n      ext = data.engine || getExtname(data.path);\n      if (!ext || !this.isRenderable(ext)) return text;\n\n      const renderer = this.getRenderer(ext);\n      return Reflect.apply(renderer, ctx, [data, options]);\n    }).then(result => {\n      result = toString(result, data);\n      if (data.onRenderEnd) {\n        return data.onRenderEnd(result);\n      }\n\n      return result;\n    }).then(result => {\n      const output = this.getOutput(ext) || ext;\n      return ctx.execFilter(`after_render:${output}`, result, {\n        context: ctx,\n        args: [data]\n      });\n    })",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 82
+    },
+    {
+      "caller": "Render.render",
+      "callee_text": "then",
+      "kind": "method",
+      "receiver": "promise.then(text => {\n      data.text = text;\n      ext = data.engine || getExtname(data.path);\n      if (!ext || !this.isRenderable(ext)) return text;\n\n      const renderer = this.getRenderer(ext);\n      return Reflect.apply(renderer, ctx, [data, options]);\n    }).then(result => {\n      result = toString(result, data);\n      if (data.onRenderEnd) {\n        return data.onRenderEnd(result);\n      }\n\n      return result;\n    })",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 82
+    },
+    {
+      "caller": "Render.render",
+      "callee_text": "then",
+      "kind": "method",
+      "receiver": "promise.then(text => {\n      data.text = text;\n      ext = data.engine || getExtname(data.path);\n      if (!ext || !this.isRenderable(ext)) return text;\n\n      const renderer = this.getRenderer(ext);\n      return Reflect.apply(renderer, ctx, [data, options]);\n    })",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 82
+    },
+    {
+      "caller": "Render.render",
+      "callee_text": "then",
+      "kind": "method",
+      "receiver": "promise",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 82
+    },
+    {
+      "caller": "Render.render",
+      "callee_text": "getExtname",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 84
+    },
+    {
+      "caller": "Render.render",
+      "callee_text": "isRenderable",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 85
+    },
+    {
+      "caller": "Render.render",
+      "callee_text": "getRenderer",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 87
+    },
+    {
+      "caller": "Render.render",
+      "callee_text": "apply",
+      "kind": "static",
+      "receiver": "Reflect",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 88
+    },
+    {
+      "caller": "Render.render",
+      "callee_text": "toString",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 90
+    },
+    {
+      "caller": "Render.render",
+      "callee_text": "onRenderEnd",
+      "kind": "method",
+      "receiver": "data",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 92
+    },
+    {
+      "caller": "Render.render",
+      "callee_text": "getOutput",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 97
+    },
+    {
+      "caller": "Render.render",
+      "callee_text": "execFilter",
+      "kind": "method",
+      "receiver": "ctx",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 98
+    },
+    {
+      "caller": "Render.renderSync",
+      "callee_text": "TypeError",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 106
+    },
+    {
+      "caller": "Render.renderSync",
+      "callee_text": "TypeError",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 111
+    },
+    {
+      "caller": "Render.renderSync",
+      "callee_text": "readFileSync",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-fs",
+      "line": 112
+    },
+    {
+      "caller": "Render.renderSync",
+      "callee_text": "TypeError",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 115
+    },
+    {
+      "caller": "Render.renderSync",
+      "callee_text": "getExtname",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 117
+    },
+    {
+      "caller": "Render.renderSync",
+      "callee_text": "isRenderableSync",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 120
+    },
+    {
+      "caller": "Render.renderSync",
+      "callee_text": "getRendererSync",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 121
+    },
+    {
+      "caller": "Render.renderSync",
+      "callee_text": "apply",
+      "kind": "static",
+      "receiver": "Reflect",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 122
+    },
+    {
+      "caller": "Render.renderSync",
+      "callee_text": "getOutput",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 127
+    },
+    {
+      "caller": "Render.renderSync",
+      "callee_text": "toString",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 128
+    },
+    {
+      "caller": "Render.renderSync",
+      "callee_text": "onRenderEnd",
+      "kind": "method",
+      "receiver": "data",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 131
+    },
+    {
+      "caller": "Render.renderSync",
+      "callee_text": "execFilterSync",
+      "kind": "method",
+      "receiver": "ctx",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 134
+    }
+  ],
+  "callable_refs": []
+}

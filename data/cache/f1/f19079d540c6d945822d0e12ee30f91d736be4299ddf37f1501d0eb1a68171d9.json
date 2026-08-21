@@ -1,0 +1,13 @@
+{
+  "key": "f19079d540c6d945822d0e12ee30f91d736be4299ddf37f1501d0eb1a68171d9",
+  "model": "harness-qwen15b",
+  "prompt_version": "ours-v1-5c74cf9a927a",
+  "file_sha": "86c0d829f15ed379f0d1067772f3ab4bf8be4b42ae64abfee6b2dea326eace86",
+  "relative_path": "src/internal/quickSelect.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"quickSelect\",\n    \"swapInPlace\",\n    \"CompareFunction\",\n    \"partition\"\n  ],\n  \"references\": [],\n  \"calls\": [],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"quickSelect\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [],\n      \"returns\": null,\n      \"line\": 1\n    },\n    {\n      \"name\": \"swapInPlace\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [],\n      \"returns\": null,\n      \"line\": 3\n    },\n    {\n      \"name\": \"CompareFunction\",\n      \"kind\": \"type_alias\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [],\n      \"returns\": null,\n      \"line\": 5\n    },\n    {\n      \"name\": \"partition\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [],\n      \"returns\": null,\n      \"line\": 7\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:37:05+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 949,
+  "completion_tokens": 261
+}

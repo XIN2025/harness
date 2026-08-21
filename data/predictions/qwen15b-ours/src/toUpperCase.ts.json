@@ -1,0 +1,32 @@
+```json
+{
+  "definitions": [
+    {
+      "name": "toUpperCase",
+      "kind": "function"
+    },
+    {
+      "name": "toUpperCaseImplementation",
+      "kind": "function"
+    }
+  ],
+  "references": [],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "toUpperCase",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [],
+      "returns": {
+        "type": "Uppercase<T>",
+        "type_module": null,
+        "from_call": false
+      },
+      "line": 15
+    }
+  ]
+}
+```

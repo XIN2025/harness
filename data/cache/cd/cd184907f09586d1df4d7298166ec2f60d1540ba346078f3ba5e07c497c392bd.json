@@ -1,0 +1,13 @@
+{
+  "key": "cd184907f09586d1df4d7298166ec2f60d1540ba346078f3ba5e07c497c392bd",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "dca4844f1391cb5f3ee13fbe61836923ce01c5e06469614207bf8ca610f980aa",
+  "relative_path": "src/when.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"when\", \"callee_text\": \"__module__\"},\n  {\"caller\": \"whenImplementation\", \"callee_text\": \"filter\"},\n  {\"caller\": \"whenImplementation\", \"callee_text\": \"isFinite\"},\n  {\"caller\": \"whenImplementation\", \"callee_text\": \"sort\"},\n  {\"caller\": \"whenImplementation\", \"callee_text\": \"reduce\"},\n  {\"caller\": \"whenImplementation\", \"callee_text\": \"isNaN\"},\n  {\"caller\": \"whenImplementation\", \"callee_text\": \"Error\"},\n  {\"caller\": \"whenImplementation\", \"callee_text\": \"format\"},\n  {\"caller\": \"whenImplementation\", \"callee_text\": \"round\"},\n  {\"caller\": \"whenImplementation\", \"callee_text\": \"precisionOf\"}\n]}",
+  "created": "2026-08-08T23:17:08+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1993,
+  "completion_tokens": 158
+}

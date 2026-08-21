@@ -1,0 +1,13 @@
+{
+  "key": "31a84d981f56b0225f807314ef3c70394107b34a1ff80bc7d7d41b22e3e696f7",
+  "model": "harness-qwen15b",
+  "prompt_version": "ours-v1-5c74cf9a927a",
+  "file_sha": "0f5ebe146a8ce7f262bdad9a9576b2d6b925c628c292e142177b640d25d1f64c",
+  "relative_path": "src/isIncludedIn.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"IsLiteral\",\n    \"IsUnion\",\n    \"IterableContainer\",\n    \"IsConstantTuple\",\n    \"IsNarrowable\",\n    \"isIncludedIn\"\n  ],\n  \"references\": [],\n  \"calls\": [],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"IsLiteral\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [],\n      \"returns\": {\n        \"type\": \"boolean\"\n      },\n      \"line\": 1\n    },\n    {\n      \"name\": \"IsUnion\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [],\n      \"returns\": {\n        \"type\": \"boolean\"\n      },\n      \"line\": 2\n    },\n    {\n      \"name\": \"IterableContainer\",\n      \"kind\": \"interface\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [],\n      \"returns\": {\n        \"type\": \"unknown[]\"\n      },\n      \"line\": 3\n    },\n    {\n      \"name\": \"IsConstantTuple\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"T\",\n          \"type\": \"IterableContainer\"\n        }\n      ],\n      \"returns\": {\n        \"type\": \"boolean\"\n      },\n      \"line\": 4\n    },\n    {\n      \"name\": \"IsNarrowable\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"T\",\n          \"type\": \"unknown\"\n        },\n        {\n          \"name\": \"S\",\n          \"type\": \"IterableContainer<unknown>\"\n        }\n      ],\n      \"returns\": {\n        \"type\": \"boolean\"\n      },\n      \"line\": 5\n    },\n    {\n      \"name\": \"isIncludedIn\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"data\",\n          \"type\": \"unknown\"\n        },\n        {\n          \"name\": \"container\",\n          \"type\": \"IterableContainer<unknown>\"\n        }\n      ],\n      \"returns\": {\n        \"type\": \"boolean\"\n      },\n      \"line\": 6\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:37:48+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 2007,
+  "completion_tokens": 518
+}

@@ -1,0 +1,205 @@
+{
+  "relative_path": "src/handlers/HeadHandler.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "HeadHandler.send",
+      "callee_text": "Headers",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 6
+    },
+    {
+      "caller": "HeadHandler.send",
+      "callee_text": "getFileIdFromRequest",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 7
+    },
+    {
+      "caller": "HeadHandler.send",
+      "callee_text": "onIncomingRequest",
+      "kind": "this",
+      "receiver": "this.options",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 13
+    },
+    {
+      "caller": "HeadHandler.send",
+      "callee_text": "acquireLock",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 16
+    },
+    {
+      "caller": "HeadHandler.send",
+      "callee_text": "getUpload",
+      "kind": "this",
+      "receiver": "this.store",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 20
+    },
+    {
+      "caller": "HeadHandler.send",
+      "callee_text": "unlock",
+      "kind": "method",
+      "receiver": "lock",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 22
+    },
+    {
+      "caller": "HeadHandler.send",
+      "callee_text": "Date",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 29
+    },
+    {
+      "caller": "HeadHandler.send",
+      "callee_text": "hasExtension",
+      "kind": "this",
+      "receiver": "this.store",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 31
+    },
+    {
+      "caller": "HeadHandler.send",
+      "callee_text": "getExpiration",
+      "kind": "this",
+      "receiver": "this.store",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 32
+    },
+    {
+      "caller": "HeadHandler.send",
+      "callee_text": "Date",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 34
+    },
+    {
+      "caller": "HeadHandler.send",
+      "callee_text": "getTime",
+      "kind": "method",
+      "receiver": "new Date(file.creation_date)",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 34
+    },
+    {
+      "caller": "HeadHandler.send",
+      "callee_text": "Date",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 34
+    },
+    {
+      "caller": "HeadHandler.send",
+      "callee_text": "getExpiration",
+      "kind": "this",
+      "receiver": "this.store",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 34
+    },
+    {
+      "caller": "HeadHandler.send",
+      "callee_text": "Response",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 39
+    },
+    {
+      "caller": "HeadHandler.send",
+      "callee_text": "set",
+      "kind": "method",
+      "receiver": "res.headers",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 44
+    },
+    {
+      "caller": "HeadHandler.send",
+      "callee_text": "set",
+      "kind": "method",
+      "receiver": "res.headers",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 47
+    },
+    {
+      "caller": "HeadHandler.send",
+      "callee_text": "toString",
+      "kind": "method",
+      "receiver": "file.offset",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 47
+    },
+    {
+      "caller": "HeadHandler.send",
+      "callee_text": "set",
+      "kind": "method",
+      "receiver": "res.headers",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 52
+    },
+    {
+      "caller": "HeadHandler.send",
+      "callee_text": "set",
+      "kind": "method",
+      "receiver": "res.headers",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 56
+    },
+    {
+      "caller": "HeadHandler.send",
+      "callee_text": "toString",
+      "kind": "method",
+      "receiver": "(file.size as number)",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 56
+    },
+    {
+      "caller": "HeadHandler.send",
+      "callee_text": "set",
+      "kind": "method",
+      "receiver": "res.headers",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 63
+    },
+    {
+      "caller": "HeadHandler.send",
+      "callee_text": "stringify",
+      "kind": "static",
+      "receiver": "Metadata",
+      "receiver_type_hint": null,
+      "callee_file_hint": "@tus/utils",
+      "line": 63
+    }
+  ],
+  "callable_refs": []
+}

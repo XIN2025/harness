@@ -1,0 +1,13 @@
+{
+  "key": "4926a577a5b209bb5a217468d608d0b0e56d12db02dffe42715696a455c17503",
+  "model": "harness-qwen15b",
+  "prompt_version": "refs-strict-v1-ca2cfcfbecef+json",
+  "file_sha": "6480c7bc51197097348e4e8e1ddaba378084a73f0946ab839dc4c77c3fbacbb5",
+  "relative_path": "src/sumBy.ts",
+  "response": "{\"calls\": [], \"callable_refs\": [{\"caller\": \"sumBy\", \"callee_text\": \"sumByImplementation\"}]}",
+  "created": "2026-08-09T05:50:44+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1451,
+  "completion_tokens": 26
+}

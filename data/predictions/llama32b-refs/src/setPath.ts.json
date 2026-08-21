@@ -1,0 +1,4 @@
+{"callable_refs": [
+  {"caller": "setPath", "callee_text": "setPathImplementation"},
+  {"caller": "setPathImplementation", "callee_text": "Array.prototype.push"}
+] }

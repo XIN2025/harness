@@ -1,0 +1,13 @@
+{
+  "key": "eea31a56c47296e7efa7e77e40819d6068fcfca6bb1ba96748272ef79d19d848",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "304894e6fbcafa2d7b5a130d2aeec158a0e5b9f889de317303a1a1a789cad62f",
+  "relative_path": "src/merge.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"merge\", \"callee_text\": \"purry\"},\n  {\"caller\": \"merge\", \"callee_text\": \"mergeImplementation\"},\n  {\"caller\": \"mergeImplementation\", \"callee_text\": \"...\"},\n  {\"caller\": \"mergeImplementation\", \"callee_text\": \"data\"},\n  {\"caller\": \"mergeImplementation\", \"callee_text\": \"source\"},\n  {\"caller\": \"mergeImplementation\", \"callee_text\": \"T\"},\n  {\"caller\": \"mergeImplementation\", \"callee_text\": \"Source\"},\n  {\"caller\": \"mergeImplementation\", \"callee_text\": \"Merge<T, Source>\"}\n]}",
+  "created": "2026-08-08T23:04:50+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1084,
+  "completion_tokens": 130
+}

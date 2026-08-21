@@ -1,0 +1,1 @@
+{"calls": [], "callable_refs": [{"caller": "swapProps", "callee_text": "swapPropsImplementation"}, {"caller": "swapPropsImplementation", "callee_text": "obj"}]}

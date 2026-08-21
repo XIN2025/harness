@@ -1,0 +1,13 @@
+{
+  "key": "827491755fbcabc700415a6a8cec5fa3eac239dc34f36d6976f3cd75459c99f7",
+  "model": "harness-qwen15b",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "78abc81dd0a0401a76bb96d4fda26bdbcf236cab026e630834cb42548a5eb2e5",
+  "relative_path": "src/ceil.ts",
+  "response": "```json\n{\n  \"definitions\": [\"ceil\"],\n  \"references\": [\n    {\"name\": \"withPrecision\", \"source\": \"./internal/withPrecision\"},\n    {\"name\": \"purry\", \"source\": \"./purry\"}\n  ],\n  \"calls\": [],\n  \"type_assignments\": [],\n  \"definitions_rich\": []\n}\n```",
+  "created": "2026-08-08T20:16:39+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 8525,
+  "completion_tokens": 72
+}

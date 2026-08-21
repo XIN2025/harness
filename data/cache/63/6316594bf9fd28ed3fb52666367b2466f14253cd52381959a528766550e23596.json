@@ -1,0 +1,13 @@
+{
+  "key": "6316594bf9fd28ed3fb52666367b2466f14253cd52381959a528766550e23596",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "refs-v1-7386a79c1ab2+json",
+  "file_sha": "ef69523594bdbd8dd9d5c3daebd418856db2fe91d4fcc16283c5522824078097",
+  "relative_path": "src/toTitleCase.ts",
+  "response": "{\"callable_refs\": [{\"caller\": \"toTitleCase\", \"callee_text\": \"words\"}, {\"caller\": \"toTitleCaseImplementation\", \"callee_text\": \"LOWER_CASE_CHARACTER_RE.test\"}, {\"caller\": \"toTitleCaseImplementation\", \"callee_text\": \"data.toLowerCase\"}, {\"caller\": \"toTitleCaseImplementation\", \"callee_text\": \"word[0]!\"}, {\"caller\": \"toTitleCaseImplementation\", \"callee_text\": \"preserveConsecutiveUppercase\"}, {\"caller\": \"toTitleCaseImplementation\", \"callee_text\": \"word.slice(1)\"}, {\"caller\": \"toTitleCaseImplementation\", \"callee_text\": \"word.slice(1).toLowerCase\"}]}",
+  "created": "2026-08-08T23:29:55+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1921,
+  "completion_tokens": 141
+}

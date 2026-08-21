@@ -1,0 +1,12 @@
+```json
+{
+  "definitions": ["dropWhile", "purry"],
+  "references": [
+    {"name": "dropWhile", "source": "./src/dropWhile.ts"},
+    {"name": "purry", "source": "./src/purry.ts"}
+  ],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": []
+}
+```

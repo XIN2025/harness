@@ -1,0 +1,178 @@
+{
+  "relative_path": "decorators/http/request-mapping.decorator.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "RequestMapping",
+      "callee_text": "defineMetadata",
+      "kind": "static",
+      "receiver": "Reflect",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 26
+    },
+    {
+      "caller": "RequestMapping",
+      "callee_text": "defineMetadata",
+      "kind": "static",
+      "receiver": "Reflect",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 27
+    },
+    {
+      "caller": "createMappingDecorator",
+      "callee_text": "RequestMapping",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 35
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "createMappingDecorator",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 48
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "createMappingDecorator",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 57
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "createMappingDecorator",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 66
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "createMappingDecorator",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 75
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "createMappingDecorator",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 84
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "createMappingDecorator",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 93
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "createMappingDecorator",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 102
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "createMappingDecorator",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 111
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "createMappingDecorator",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 120
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "createMappingDecorator",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 129
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "createMappingDecorator",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 138
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "createMappingDecorator",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 147
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "createMappingDecorator",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 156
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "createMappingDecorator",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 165
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "createMappingDecorator",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 174
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "createMappingDecorator",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 183
+    }
+  ],
+  "callable_refs": []
+}

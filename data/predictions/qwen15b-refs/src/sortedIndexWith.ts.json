@@ -1,0 +1,8 @@
+{
+  "calls": [],
+  "callable_refs": [
+    {"caller": "sortedIndexWith", "callee_text": "binarySearchCutoffIndex"},
+    {"caller": "sortedIndexWith", "callee_text": "defaultCompare"},
+    {"caller": "sortedIndexWith", "callee_text": "identity"}
+  ]
+}

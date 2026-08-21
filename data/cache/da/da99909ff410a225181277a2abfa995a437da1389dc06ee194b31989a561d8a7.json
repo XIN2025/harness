@@ -1,0 +1,13 @@
+{
+  "key": "da99909ff410a225181277a2abfa995a437da1389dc06ee194b31989a561d8a7",
+  "model": "harness-qwen15b",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "0627c01458c40feb01d342a5841846268ed9752f2c63d8bfc1d8c4c446afa517",
+  "relative_path": "src/flatMap.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"flatMap\",\n    \"pipe\",\n    \"lazyImplementation\"\n  ],\n  \"references\": [\n    {\"name\": \"flatMap\", \"source\": \"./src/flatMap.ts\"},\n    {\"name\": \"pipe\", \"source\": \"./src/flatMap.ts\"},\n    {\"name\": \"lazyImplementation\", \"source\": \"./src/flatMap.ts\"}\n  ],\n  \"calls\": [],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\"name\": \"flatMap\", \"kind\": \"function\", \"parent\": null, \"bases\": [], \"params\": [{\"name\": \"data\", \"type\": \"readonly T[]\"}, {\"name\": \"callbackfn\", \"type\": \"(input: T, index: number, data: readonly T[]) => readonly U[] | U\"}], \"returns\": \"U[]\"},\n    {\"name\": \"pipe\", \"kind\": \"function\", \"parent\": null, \"bases\": [], \"params\": [{\"name\": \"data\", \"type\": \"readonly T[]\"}, {\"name\": \"callbackfn\", \"type\": \"(input: T, index: number, data: readonly T[]) => readonly U[] | U\"}], \"returns\": \"U[]\"},\n    {\"name\": \"lazyImplementation\", \"kind\": \"function\", \"parent\": null, \"bases\": [], \"params\": [{\"name\": \"callbackfn\", \"type\": \"(input: T, index: number, data: readonly T[]) => K | readonly K[]\"}], \"returns\": \"LazyEvaluator<T, K>\"}\n  ]\n}\n```",
+  "created": "2026-08-08T20:19:09+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 8848,
+  "completion_tokens": 328
+}

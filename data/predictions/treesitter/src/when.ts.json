@@ -1,0 +1,61 @@
+{
+  "relative_path": "src/when.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "when",
+      "callee_text": "whenImplementation",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 146
+    },
+    {
+      "caller": "when",
+      "callee_text": "whenImplementation",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 148
+    },
+    {
+      "caller": "whenImplementation",
+      "callee_text": "predicate",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 162
+    },
+    {
+      "caller": "whenImplementation",
+      "callee_text": "onTrueOrBranches",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 164
+    },
+    {
+      "caller": "whenImplementation",
+      "callee_text": "onTrue",
+      "kind": "method",
+      "receiver": "onTrueOrBranches",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 165
+    },
+    {
+      "caller": "whenImplementation",
+      "callee_text": "onFalse",
+      "kind": "method",
+      "receiver": "onTrueOrBranches",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 168
+    }
+  ],
+  "callable_refs": []
+}

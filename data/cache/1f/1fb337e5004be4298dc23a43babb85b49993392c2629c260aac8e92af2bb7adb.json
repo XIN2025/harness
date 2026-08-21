@@ -1,0 +1,13 @@
+{
+  "key": "1fb337e5004be4298dc23a43babb85b49993392c2629c260aac8e92af2bb7adb",
+  "model": "harness-qwen15b",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "3c8bfd5405faabff54a47a6aa9fd1dba3ab1cb644c8d9814066c80b8916a9c49",
+  "relative_path": "src/isEmpty.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"isEmpty\", \"callee_text\": \"IterableContainer\"},\n  {\"caller\": \"isEmpty\", \"callee_text\": \"Record\"},\n  {\"caller\": \"isEmpty\", \"callee_text\": \"string\"},\n  {\"caller\": \"isEmpty\", \"callee_text\": \"undefined\"}\n]}",
+  "created": "2026-08-08T22:18:45+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 981,
+  "completion_tokens": 63
+}

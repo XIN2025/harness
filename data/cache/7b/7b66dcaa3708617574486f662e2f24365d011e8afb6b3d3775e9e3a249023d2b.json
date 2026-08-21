@@ -1,0 +1,13 @@
+{
+  "key": "7b66dcaa3708617574486f662e2f24365d011e8afb6b3d3775e9e3a249023d2b",
+  "model": "harness-llama32b",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "c59582fe2c11fdf31393cff4fbd74fd6e67eddab651e5a636141425462824bea",
+  "relative_path": "src/funnel.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"funnel\", \"callee_text\": \"callback\"},\n  {\"caller\": \"funnel\", \"callee_text\": \"reducer\"},\n  {\"caller\": \"funnel\", \"callee_text\": \"triggerAt\"},\n  {\"caller\": \"funnel\", \"callee_text\": \"minQuietPeriodMs\"},\n  {\"caller\": \"funnel\", \"callee_text\": \"maxBurstDurationMs\"},\n  {\"caller\": \"funnel\", \"callee_text\": \"minGapMs\"},\n  {\"caller\": \"funnel\", \"callee_text\": \"__module__\"},\n  {\"caller\": \"setTimeout\", \"callee_text\": \"handleIntervalEnd\"},\n  {\"caller\": \"setTimeout\", \"callee_text\": \"handleBurstEnd\"},\n  {\"caller\": \"clearTimeout\", \"callee_text\": \"handleBurstEnd\"},\n  {\"caller\": \"clearTimeout\", \"callee_text\": \"handleIntervalEnd\"}\n]}",
+  "created": "2026-08-08T22:38:55+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 3341,
+  "completion_tokens": 191
+}

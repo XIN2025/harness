@@ -1,0 +1,13 @@
+{
+  "key": "4997600ea8ac0634122c4d32878406c933c6b3974e174c1edaf219f1be824747",
+  "model": "harness-qwen15b",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "86c0d829f15ed379f0d1067772f3ab4bf8be4b42ae64abfee6b2dea326eace86",
+  "relative_path": "src/internal/quickSelect.ts",
+  "response": "```json\n{\n  \"definitions\": [\"quickSelect\", \"swapInPlace\", \"CompareFunction\"],\n  \"references\": [\n    {\"name\": \"swapInPlace\", \"source\": \"./src/internal/swapInPlace.ts\"},\n    {\"name\": \"CompareFunction\", \"source\": \"./src/internal/types/CompareFunction.ts\"}\n  ],\n  \"calls\": [\n    {\"caller\": \"quickSelect\", \"callee_text\": \"partition\", \"kind\": \"method\",\n     \"receiver\": null, \"receiver_type_hint\": null, \"callee_file_hint\": \"external\", \"line\": 10},\n    {\"caller\": \"quickSelectImplementation\", \"callee_text\": \"swapInPlace\", \"kind\": \"method\",\n     \"receiver\": null, \"receiver_type_hint\": null, \"callee_file_hint\": \"external\", \"line\": 24},\n    {\"caller\": \"quickSelectImplementation\", \"callee_text\": \"partition\", \"kind\": \"method\",\n     \"receiver\": null, \"receiver_type_hint\": null, \"callee_file_hint\": \"external\", \"line\": 30}\n  ],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\"name\": \"quickSelect\", \"kind\": \"function\", \"parent\": null, \"bases\": [], \"params\": [{\"name\":\"data\",\"type\":\"readonly T[]\"},{\"name\":\"index\",\"type\":\"number\"},{\"name\":\"compareFn\",\"type\":\"CompareFunction<T>\"}], \"returns\": \"T | undefined\", \"line\": 1},\n    {\"name\": \"swapInPlace\", \"kind\": \"function\", \"parent\": null, \"bases\": [], \"params\": [{\"name\":\"data\",\"type\":\"T[]\"},{\"name\":\"i\",\"type\":\"number\"},{\"name\":\"j\",\"type\":\"number\"}], \"returns\": void 0, \"line\": 2},\n    {\"name\": \"CompareFunction\", \"kind\": \"interface\", \"parent\": null, \"bases\": [], \"params\": [], \"returns\": \"number\", \"line\": 3}\n  ]\n}\n```",
+  "created": "2026-08-08T20:21:40+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 8692,
+  "completion_tokens": 424
+}

@@ -1,0 +1,13 @@
+{
+  "key": "2fff07384d9ffb4b7ce0378b76753d080c36ea3530e51989ee271bf415a70f4b",
+  "model": "harness-qwen15b",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "103267e4538b85b4342e9d0b782cdb7a1905d765d4d9a5e6ece2149e08b28e9e",
+  "relative_path": "src/dropLast.ts",
+  "response": "```json\n{\n  \"definitions\": [\"dropLast\", \"purry\", \"IterableContainer\", \"purryImplementation\"],\n  \"references\": [\n    {\"name\": \"dropLast\", \"source\": \"./src/dropLast.ts\"},\n    {\"name\": \"purry\", \"source\": \"./src/purry.ts\"},\n    {\"name\": \"IterableContainer\", \"source\": \"./src/internal/types/IterableContainer.ts\"},\n    {\"name\": \"purryImplementation\", \"source\": \"./src/purry.ts\"}\n  ],\n  \"calls\": [\n    {\"caller\": \"dropLast\", \"callee_text\": \"slice\", \"kind\": \"method\",\n     \"receiver\": \"array\", \"receiver_type_hint\": null, \"callee_file_hint\": \"external\", \"line\": 1},\n    {\"caller\": \"purry\", \"callee_text\": \"apply\", \"kind\": \"method\",\n     \"receiver\": \"dropLastImplementation\", \"receiver_type_hint\": null, \"callee_file_hint\": \"external\", \"line\": 2}\n  ],\n  \"type_assignments\": [\n    {\"scope\": \"module\", \"var\": \"dropLast\", \"type\": \"function\", \"type_module\": \"src/dropLast.ts\"},\n    {\"scope\": \"module\", \"var\": \"purry\", \"type\": \"function\", \"type_module\": \"src/purry.ts\"}\n  ],\n  \"definitions_rich\": [\n    {\"name\": \"dropLast\", \"kind\": \"function\", \"parent\": null, \"bases\": [], \"params\": [{\"name\": \"array\", \"type\": \"IterableContainer\"}, {\"name\": \"n\", \"type\": \"number\"}], \"returns\": \"T[number][]\", \"line\": 1},\n    {\"name\": \"purry\", \"kind\": \"function\", \"parent\": null, \"bases\": [], \"params\": [{\"name\": \"fn\", \"type\": \"Function\"}, {\"name\": \"arity\", \"type\": \"number\"}], \"returns\": \"Function\", \"line\": 2}\n  ]\n}\n```",
+  "created": "2026-08-08T20:18:03+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 8467,
+  "completion_tokens": 423
+}

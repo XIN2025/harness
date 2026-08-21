@@ -1,0 +1,10 @@
+{"calls": [
+  {"caller": "indexBy", "callee_text": "purry"},
+  {"caller": "indexByImplementation", "callee_text": "entries"},
+  {"caller": "indexByImplementation", "callee_text": "for"},
+  {"caller": "indexByImplementation", "callee_text": "mapper"},
+  {"caller": "indexByImplementation", "callee_text": "key"},
+  {"caller": "indexByImplementation", "callee_text": "out"},
+  {"caller": "indexByImplementation", "callee_text": "as"},
+  {"caller": "indexByImplementation", "callee_text": "BoundedPartial"}
+]}

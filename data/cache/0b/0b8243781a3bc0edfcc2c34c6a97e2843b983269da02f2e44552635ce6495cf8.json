@@ -1,0 +1,13 @@
+{
+  "key": "0b8243781a3bc0edfcc2c34c6a97e2843b983269da02f2e44552635ce6495cf8",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "6480c7bc51197097348e4e8e1ddaba378084a73f0946ab839dc4c77c3fbacbb5",
+  "relative_path": "src/sumBy.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"sumBy\", \"callee_text\": \"__module__\"},\n  {\"caller\": \"sumBy\", \"callee_text\": \"purry\"},\n  {\"caller\": \"sumImplementation\", \"callee_text\": \"entries\"},\n  {\"caller\": \"sumImplementation\", \"callee_text\": \"next\"},\n  {\"caller\": \"sumImplementation\", \"callee_text\": \"value\"},\n  {\"caller\": \"sumImplementation\", \"callee_text\": \"firstValue\"},\n  {\"caller\": \"sumImplementation\", \"callee_text\": \"callbackfn\"},\n  {\"caller\": \"sumImplementation\", \"callee_text\": \"index\"},\n  {\"caller\": \"sumImplementation\", \"callee_text\": \"array\"},\n  {\"caller\": \"sumImplementation\", \"callee_text\": \"callbackfn\"},\n  {\"caller\": \"sumImplementation\", \"callee_text\": \"item\"},\n  {\"caller\": \"sumImplementation\", \"callee_text\": \"index\"},\n  {\"caller\": \"sumImplementation\", \"callee_text\": \"callbackfn\"},\n  {\"caller\": \"sumImplementation\", \"callee_text\": \"summand\"},\n  {\"caller\": \"sumImplementation\", \"callee_text\": \"callbackfn\"}\n]}",
+  "created": "2026-08-08T23:13:11+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1365,
+  "completion_tokens": 239
+}

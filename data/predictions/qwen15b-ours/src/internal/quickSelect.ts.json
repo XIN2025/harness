@@ -1,0 +1,51 @@
+```json
+{
+  "definitions": [
+    "quickSelect",
+    "swapInPlace",
+    "CompareFunction",
+    "partition"
+  ],
+  "references": [],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "quickSelect",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [],
+      "returns": null,
+      "line": 1
+    },
+    {
+      "name": "swapInPlace",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [],
+      "returns": null,
+      "line": 3
+    },
+    {
+      "name": "CompareFunction",
+      "kind": "type_alias",
+      "parent": "__module__",
+      "bases": [],
+      "params": [],
+      "returns": null,
+      "line": 5
+    },
+    {
+      "name": "partition",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [],
+      "returns": null,
+      "line": 7
+    }
+  ]
+}
+```

@@ -1,0 +1,13 @@
+{
+  "key": "04cd52fd4a786a337f338e48e66460226e64cdec59979fe3a00a74d76b54924d",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "0fcaa31bd2a34bf850409c3e65142f4b6a0ed535ecba87acedebd8983989a78c",
+  "relative_path": "src/purry.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"purry\", \"callee_text\": \"fn\"},\n  {\"caller\": \"purry\", \"callee_text\": \"args\"},\n  {\"caller\": \"purry\", \"callee_text\": \"lazy\"},\n  {\"caller\": \"purry\", \"callee_text\": \"fn\"},\n  {\"caller\": \"purry\", \"callee_text\": \"args\"},\n  {\"caller\": \"purry\", \"callee_text\": \"lazy\"},\n  {\"caller\": \"purry\", \"callee_text\": \"fn\"},\n  {\"caller\": \"purry\", \"callee_text\": \"args\"},\n  {\"caller\": \"purry\", \"callee_text\": \"lazy\"},\n  {\"caller\": \"purry\", \"callee_text\": \"fn\"},\n  {\"caller\": \"purry\", \"callee_text\": \"args\"},\n  {\"caller\": \"purry\", \"callee_text\": \"lazy\"},\n  {\"caller\": \"__module__\", \"callee_text\": \"Error\"}\n]}",
+  "created": "2026-08-08T23:08:34+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1003,
+  "completion_tokens": 201
+}

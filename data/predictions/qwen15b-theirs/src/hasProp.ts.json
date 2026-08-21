@@ -1,0 +1,27 @@
+```json
+{
+  "definitions": ["hasProp"],
+  "references": [
+    {"name": "hasAtLeast", "source": "./src/internal/types/HasAtLeast"},
+    {"name": "isArray", "source": "./src/internal/types/IsArray"},
+    {"name": "pipe", "source": "./src/utils/pipe"},
+    {"name": "filter", "source": "./src/utils/filter"}
+  ],
+  "calls": [
+    {"caller": "hasProp", "callee_text": "Object.hasOwn", "kind": "method",
+     "receiver": "data", "receiver_type_hint": null, "callee_file_hint": "external", "line": 1},
+    {"caller": "hasAtLeast", "callee_text": "pipe", "kind": "hook",
+     "receiver": null, "receiver_type_hint": null, "callee_file_hint": "src/utils/pipe", "line": 2}
+  ],
+  "type_assignments": [
+    {"scope": "module", "var": "hasAtLeast", "type": "Function", "type_module": "./src/internal/types/HasAtLeast"},
+    {"scope": "module", "var": "isArray", "type": "Function", "type_module": "./src/internal/types/IsArray"},
+    {"scope": "module", "var": "pipe", "type": "Function", "type_module": "./src/utils/pipe"}
+  ],
+  "definitions_rich": [
+    {"name": "hasAtLeast", "kind": "function", "parent": null, "bases": [], "params": [{"name": "key", "type": "KeysOfUnion<T>"}], "returns": "boolean", "line": 1},
+    {"name": "isArray", "kind": "function", "parent": null, "bases": [], "params": [{"name": "data", "type": "unknown"}], "returns": "boolean", "line": 2},
+    {"name": "pipe", "kind": "function", "parent": null, "bases": [], "params": [{"name": "fn1", "type": "Function"}, {"name": "fn2", "type": "Function"}], "returns": "unknown", "line": 3}
+  ]
+}
+```

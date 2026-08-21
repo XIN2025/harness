@@ -1,0 +1,8 @@
+{"calls": [
+  {"caller": "forEach", "callee_text": "purry"},
+  {"caller": "forEachImplementation", "callee_text": "forEach"},
+  {"caller": "forEachImplementation", "callee_text": "data"},
+  {"caller": "forEachImplementation", "callee_text": "callbackfn"},
+  {"caller": "forEachImplementation", "callee_text": "forEach"},
+  {"caller": "lazyImplementation", "callee_text": "forEach"}
+]}

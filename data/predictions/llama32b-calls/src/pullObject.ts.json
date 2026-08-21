@@ -1,0 +1,9 @@
+{"calls": [
+  {"caller": "pullObject", "callee_text": "purry"},
+  {"caller": "pullObjectImplementation", "callee_text": "entries"},
+  {"caller": "pullObjectImplementation", "callee_text": "for"},
+  {"caller": "pullObjectImplementation", "callee_text": "keyExtractor"},
+  {"caller": "pullObjectImplementation", "callee_text": "valueExtractor"},
+  {"caller": "pullObjectImplementation", "callee_text": "result"},
+  {"caller": "pullObjectImplementation", "callee_text": "data.entries"}
+]}

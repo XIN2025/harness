@@ -1,0 +1,5 @@
+{"calls": [
+  {"caller": "map", "callee_text": "purry"},
+  {"caller": "mapImplementation", "callee_text": "data.map"},
+  {"caller": "lazyImplementation", "callee_text": "callbackfn"}
+]}

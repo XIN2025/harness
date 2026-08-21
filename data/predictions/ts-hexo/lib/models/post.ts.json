@@ -1,0 +1,916 @@
+{
+  "relative_path": "lib/models/post.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "removeEmptyTag",
+      "callee_text": "map",
+      "kind": "method",
+      "receiver": "tags.filter(tag => tag != null && tag !== '')",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 15
+    },
+    {
+      "caller": "removeEmptyTag",
+      "callee_text": "filter",
+      "kind": "method",
+      "receiver": "tags",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 15
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "Cache",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-util",
+      "line": 18
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "Schema",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 21
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "get",
+      "kind": "method",
+      "receiver": "Post.virtual('path')",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 44
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "virtual",
+      "kind": "static",
+      "receiver": "Post",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 44
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "execFilterSync",
+      "kind": "method",
+      "receiver": "ctx",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 45
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "get",
+      "kind": "method",
+      "receiver": "Post.virtual('permalink')",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 49
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "virtual",
+      "kind": "static",
+      "receiver": "Post",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 49
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "call",
+      "kind": "method",
+      "receiver": "full_url_for",
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-util",
+      "line": 50
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "get",
+      "kind": "method",
+      "receiver": "Post.virtual('full_source')",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 53
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "virtual",
+      "kind": "static",
+      "receiver": "Post",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 53
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "join",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "path",
+      "line": 54
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "get",
+      "kind": "method",
+      "receiver": "Post.virtual('asset_dir')",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 57
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "virtual",
+      "kind": "static",
+      "receiver": "Post",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 57
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "substring",
+      "kind": "method",
+      "receiver": "src",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 59
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "extname",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "path",
+      "line": 59
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "get",
+      "kind": "method",
+      "receiver": "Post.virtual('tags')",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 62
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "virtual",
+      "kind": "static",
+      "receiver": "Post",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 62
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "apply",
+      "kind": "method",
+      "receiver": "tagsGetterCache",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 63
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "model",
+      "kind": "method",
+      "receiver": "ctx",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 65
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "map",
+      "kind": "method",
+      "receiver": "ReadOnlyPostTag.find({post_id: this._id})",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 67
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "find",
+      "kind": "static",
+      "receiver": "ReadOnlyPostTag",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 67
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "find",
+      "kind": "static",
+      "receiver": "Tag",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 69
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "method",
+      "kind": "static",
+      "receiver": "Post",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 73
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "valueOf",
+      "kind": "this",
+      "receiver": "this.date",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 75
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "now",
+      "kind": "static",
+      "receiver": "Date",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 75
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "_showDrafts",
+      "kind": "method",
+      "receiver": "ctx",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 75
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "method",
+      "kind": "static",
+      "receiver": "Post",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 78
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "notPublished",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 79
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "flush",
+      "kind": "method",
+      "receiver": "tagsGetterCache",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 84
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "removeEmptyTag",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 85
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "model",
+      "kind": "method",
+      "receiver": "ctx",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 88
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "model",
+      "kind": "method",
+      "receiver": "ctx",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 89
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "map",
+      "kind": "method",
+      "receiver": "ReadOnlyPostTag.find({post_id: id})",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 91
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "find",
+      "kind": "static",
+      "receiver": "ReadOnlyPostTag",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 91
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "map",
+      "kind": "method",
+      "receiver": "Promise.map(tags, tag => {\n      // Find the tag by name\n      const data = Tag.findOne({name: tag}, {lean: true});\n      if (data) return data;\n\n      // Insert the tag if not exist\n      return Tag.insert({name: tag}).catch(err => {\n        // Try to find the tag again. Throw the error if not found\n        const data = Tag.findOne({name: tag}, {lean: true});\n\n        if (data) return data;\n        throw err;\n      });\n    }).map(tag => {\n      // Find the reference\n      const ref = ReadOnlyPostTag.findOne({post_id: id, tag_id: tag._id});\n      if (ref) return ref;\n\n      // Insert the reference if not exist\n      return PostTag.insert({\n        post_id: id,\n        tag_id: tag._id\n      });\n    }).then(tags => {\n      // Remove old tags\n      const deleted = existed.filter(item => !tags.map(pickID).includes(item));\n      return deleted;\n    })",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 93
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "then",
+      "kind": "method",
+      "receiver": "Promise.map(tags, tag => {\n      // Find the tag by name\n      const data = Tag.findOne({name: tag}, {lean: true});\n      if (data) return data;\n\n      // Insert the tag if not exist\n      return Tag.insert({name: tag}).catch(err => {\n        // Try to find the tag again. Throw the error if not found\n        const data = Tag.findOne({name: tag}, {lean: true});\n\n        if (data) return data;\n        throw err;\n      });\n    }).map(tag => {\n      // Find the reference\n      const ref = ReadOnlyPostTag.findOne({post_id: id, tag_id: tag._id});\n      if (ref) return ref;\n\n      // Insert the reference if not exist\n      return PostTag.insert({\n        post_id: id,\n        tag_id: tag._id\n      });\n    })",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 93
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "map",
+      "kind": "method",
+      "receiver": "Promise.map(tags, tag => {\n      // Find the tag by name\n      const data = Tag.findOne({name: tag}, {lean: true});\n      if (data) return data;\n\n      // Insert the tag if not exist\n      return Tag.insert({name: tag}).catch(err => {\n        // Try to find the tag again. Throw the error if not found\n        const data = Tag.findOne({name: tag}, {lean: true});\n\n        if (data) return data;\n        throw err;\n      });\n    })",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 93
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "map",
+      "kind": "static",
+      "receiver": "Promise",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 93
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "findOne",
+      "kind": "static",
+      "receiver": "Tag",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 95
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "catch",
+      "kind": "method",
+      "receiver": "Tag.insert({name: tag})",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 99
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "insert",
+      "kind": "static",
+      "receiver": "Tag",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 99
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "findOne",
+      "kind": "static",
+      "receiver": "Tag",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 101
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "findOne",
+      "kind": "static",
+      "receiver": "ReadOnlyPostTag",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 108
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "insert",
+      "kind": "static",
+      "receiver": "PostTag",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 112
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "filter",
+      "kind": "method",
+      "receiver": "existed",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 118
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "includes",
+      "kind": "method",
+      "receiver": "tags.map(pickID)",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 118
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "map",
+      "kind": "method",
+      "receiver": "tags",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 118
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "removeById",
+      "kind": "static",
+      "receiver": "PostTag",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 120
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "get",
+      "kind": "method",
+      "receiver": "Post.virtual('categories')",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 123
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "virtual",
+      "kind": "static",
+      "receiver": "Post",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 123
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "model",
+      "kind": "method",
+      "receiver": "ctx",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 125
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "map",
+      "kind": "method",
+      "receiver": "ReadOnlyPostCategory.find({post_id: this._id})",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 127
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "find",
+      "kind": "static",
+      "receiver": "ReadOnlyPostCategory",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 127
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "find",
+      "kind": "static",
+      "receiver": "Category",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 129
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "method",
+      "kind": "static",
+      "receiver": "Post",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 132
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "notPublished",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 133
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "map",
+      "kind": "method",
+      "receiver": "cats.filter(cat => {\n      return Array.isArray(cat) || (cat != null && cat !== '');\n    })",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 137
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "filter",
+      "kind": "method",
+      "receiver": "cats",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 137
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "isArray",
+      "kind": "static",
+      "receiver": "Array",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 138
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "isArray",
+      "kind": "static",
+      "receiver": "Array",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 140
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "removeEmptyTag",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 140
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "model",
+      "kind": "method",
+      "receiver": "ctx",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 144
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "model",
+      "kind": "method",
+      "receiver": "ctx",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 145
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "map",
+      "kind": "method",
+      "receiver": "ReadOnlyPostCategory.find({post_id: id})",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 148
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "find",
+      "kind": "static",
+      "receiver": "ReadOnlyPostCategory",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 148
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "filter",
+      "kind": "method",
+      "receiver": "cats",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 149
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "isArray",
+      "kind": "static",
+      "receiver": "Array",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 154
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "each",
+      "kind": "static",
+      "receiver": "Promise",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 157
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "findOne",
+      "kind": "static",
+      "receiver": "Category",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 159
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "push",
+      "kind": "method",
+      "receiver": "allIds",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 165
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "push",
+      "kind": "method",
+      "receiver": "parentIds",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 166
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "then",
+      "kind": "method",
+      "receiver": "Category.insert(obj).catch(err => {\n          // Try to find the category again. Throw the error if not found\n          const data: CategorySchema = Category.findOne({\n            name: cat,\n            parent: i ? parentIds[i - 1] : {$exists: false}\n          }, {lean: true});\n\n          if (data) return data;\n          throw err;\n        })",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 174
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "catch",
+      "kind": "method",
+      "receiver": "Category.insert(obj)",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 174
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "insert",
+      "kind": "static",
+      "receiver": "Category",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 174
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "findOne",
+      "kind": "static",
+      "receiver": "Category",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 176
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "push",
+      "kind": "method",
+      "receiver": "allIds",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 184
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "push",
+      "kind": "method",
+      "receiver": "parentIds",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 185
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "map",
+      "kind": "method",
+      "receiver": "(hasHierarchy ? Promise.each(cats, addHierarchy) : Promise.resolve(addHierarchy(cats as string[]))\n    ).then(() => allIds).map(catId => {\n      // Find the reference\n      const ref: PostCategorySchema = ReadOnlyPostCategory.findOne({post_id: id, category_id: catId});\n      if (ref) return ref;\n\n      // Insert the reference if not exist\n      return PostCategory.insert({\n        post_id: id,\n        category_id: catId\n      });\n    }).then((postCats: PostCategorySchema[]) => // Remove old categories\n      existed.filter(item => !postCats.map(pickID).includes(item)))",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 191
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "then",
+      "kind": "method",
+      "receiver": "(hasHierarchy ? Promise.each(cats, addHierarchy) : Promise.resolve(addHierarchy(cats as string[]))\n    ).then(() => allIds).map(catId => {\n      // Find the reference\n      const ref: PostCategorySchema = ReadOnlyPostCategory.findOne({post_id: id, category_id: catId});\n      if (ref) return ref;\n\n      // Insert the reference if not exist\n      return PostCategory.insert({\n        post_id: id,\n        category_id: catId\n      });\n    })",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 191
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "map",
+      "kind": "method",
+      "receiver": "(hasHierarchy ? Promise.each(cats, addHierarchy) : Promise.resolve(addHierarchy(cats as string[]))\n    ).then(() => allIds)",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 191
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "then",
+      "kind": "method",
+      "receiver": "(hasHierarchy ? Promise.each(cats, addHierarchy) : Promise.resolve(addHierarchy(cats as string[]))\n    )",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 191
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "each",
+      "kind": "static",
+      "receiver": "Promise",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 191
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "resolve",
+      "kind": "static",
+      "receiver": "Promise",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 191
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "addHierarchy",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 191
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "findOne",
+      "kind": "static",
+      "receiver": "ReadOnlyPostCategory",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 194
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "insert",
+      "kind": "static",
+      "receiver": "PostCategory",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 198
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "filter",
+      "kind": "method",
+      "receiver": "existed",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 203
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "includes",
+      "kind": "method",
+      "receiver": "postCats.map(pickID)",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 203
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "map",
+      "kind": "method",
+      "receiver": "postCats",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 203
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "removeById",
+      "kind": "static",
+      "receiver": "PostCategory",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 203
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "pre",
+      "kind": "static",
+      "receiver": "Post",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 207
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "model",
+      "kind": "method",
+      "receiver": "ctx",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 208
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "remove",
+      "kind": "static",
+      "receiver": "PostTag",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 209
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "pre",
+      "kind": "static",
+      "receiver": "Post",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 213
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "model",
+      "kind": "method",
+      "receiver": "ctx",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 214
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "remove",
+      "kind": "static",
+      "receiver": "PostCategory",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 215
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "pre",
+      "kind": "static",
+      "receiver": "Post",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 219
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "model",
+      "kind": "method",
+      "receiver": "ctx",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 220
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "remove",
+      "kind": "static",
+      "receiver": "PostAsset",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 221
+    }
+  ],
+  "callable_refs": []
+}

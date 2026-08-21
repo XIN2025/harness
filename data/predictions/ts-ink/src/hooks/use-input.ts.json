@@ -1,0 +1,142 @@
+{
+  "relative_path": "src/hooks/use-input.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "useInput",
+      "callee_text": "useStdinContext",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./use-stdin.js",
+      "line": 162
+    },
+    {
+      "caller": "useInput",
+      "callee_text": "useEffect",
+      "kind": "hook",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "react",
+      "line": 164
+    },
+    {
+      "caller": "useInput",
+      "callee_text": "setRawMode",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 169
+    },
+    {
+      "caller": "useInput",
+      "callee_text": "setRawMode",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 172
+    },
+    {
+      "caller": "useInput",
+      "callee_text": "useEffectEvent",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "react",
+      "line": 176
+    },
+    {
+      "caller": "useInput",
+      "callee_text": "parseKeypress",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../parse-keypress.js",
+      "line": 177
+    },
+    {
+      "caller": "useInput",
+      "callee_text": "includes",
+      "kind": "method",
+      "receiver": "nonAlphanumericKeys",
+      "receiver_type_hint": null,
+      "callee_file_hint": "../parse-keypress.js",
+      "line": 229
+    },
+    {
+      "caller": "useInput",
+      "callee_text": "startsWith",
+      "kind": "method",
+      "receiver": "input",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 236
+    },
+    {
+      "caller": "useInput",
+      "callee_text": "slice",
+      "kind": "method",
+      "receiver": "input",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 237
+    },
+    {
+      "caller": "useInput",
+      "callee_text": "test",
+      "kind": "method",
+      "receiver": "/[A-Z]/",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 240
+    },
+    {
+      "caller": "useInput",
+      "callee_text": "discreteUpdates",
+      "kind": "method",
+      "receiver": "reconciler",
+      "receiver_type_hint": null,
+      "callee_file_hint": "../reconciler.js",
+      "line": 253
+    },
+    {
+      "caller": "useInput",
+      "callee_text": "inputHandler",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 254
+    },
+    {
+      "caller": "useInput",
+      "callee_text": "useEffect",
+      "kind": "hook",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "react",
+      "line": 258
+    },
+    {
+      "caller": "useInput",
+      "callee_text": "on",
+      "kind": "method",
+      "receiver": "internal_eventEmitter",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 263
+    },
+    {
+      "caller": "useInput",
+      "callee_text": "removeListener",
+      "kind": "method",
+      "receiver": "internal_eventEmitter",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 266
+    }
+  ],
+  "callable_refs": []
+}

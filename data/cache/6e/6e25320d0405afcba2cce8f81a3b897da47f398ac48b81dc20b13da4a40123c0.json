@@ -1,0 +1,13 @@
+{
+  "key": "6e25320d0405afcba2cce8f81a3b897da47f398ac48b81dc20b13da4a40123c0",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "750ed29b2f7ca1b824afe39411bc8f299d4f38ca7b8a48556ed06a4a47e613cc",
+  "relative_path": "src/differenceWith.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"differenceWith\", \"callee_text\": \"purryFromLazy\"},\n  {\"caller\": \"differenceWith\", \"callee_text\": \"lazyImplementation\"}\n]}",
+  "created": "2026-08-08T22:51:54+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 978,
+  "completion_tokens": 41
+}

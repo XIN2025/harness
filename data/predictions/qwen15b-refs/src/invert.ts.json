@@ -1,0 +1,1 @@
+{"calls": [], "callable_refs": [{"caller": "invert", "callee_text": "invertImplementation"}, {"caller": "invertImplementation", "callee_text": "Object.entries"}, {"caller": "invertImplementation", "callee_text": "result[value] = key"}]}

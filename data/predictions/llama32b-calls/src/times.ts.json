@@ -1,0 +1,14 @@
+{"calls": [
+  {"caller": "times", "callee_text": "purry"},
+  {"caller": "timesImplementation", "callee_text": "Number.isInteger"},
+  {"caller": "timesImplementation", "callee_text": "Math.floor"},
+  {"caller": "timesImplementation", "callee_text": "new Array"},
+  {"caller": "timesImplementation", "callee_text": "Array.prototype.push"},
+  {"caller": "timesImplementation", "callee_text": "fn"},
+  {"caller": "timesImplementation", "callee_text": "fn"},
+  {"caller": "timesImplementation", "callee_text": "fn"},
+  {"caller": "timesImplementation", "callee_text": "fn"},
+  {"caller": "timesImplementation", "callee_text": "fn"},
+  {"caller": "timesImplementation", "callee_text": "fn"},
+  {"caller": "timesImplementation", "callee_text": "fn"}
+]}

@@ -1,0 +1,38 @@
+{
+  "arm": "qwen15b-refs",
+  "split": "dev",
+  "cut": "full",
+  "validity": {
+    "total": 112,
+    "raw_valid": 112,
+    "parseable": 112,
+    "schema_valid": 112
+  },
+  "counts": {
+    "tp": 143,
+    "fp": 106,
+    "fn": 311,
+    "unscored": 7,
+    "files": 112
+  },
+  "metrics": {
+    "precision": {
+      "point": 0.5742971887550201,
+      "low": 0.5031394490372458,
+      "high": 0.644,
+      "method": "BCa"
+    },
+    "recall": {
+      "point": 0.31497797356828194,
+      "low": 0.2649402390438247,
+      "high": 0.36112251868248696,
+      "method": "BCa"
+    },
+    "f1": {
+      "point": 0.406827880512091,
+      "low": 0.3515672822795928,
+      "high": 0.4549483013293944,
+      "method": "BCa"
+    }
+  }
+}

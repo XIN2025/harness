@@ -1,0 +1,13 @@
+{
+  "key": "e390d3e6298e86851adedff513b0d2c376121bcc77eb598b7826401ee74dc2bb",
+  "model": "harness-qwen15b",
+  "prompt_version": "refs-strict-v1-ca2cfcfbecef+json",
+  "file_sha": "1b72616051eac1c3c6e25ca98670de6d7345b60d2425f38dbbe6d15552baa4d2",
+  "relative_path": "src/hasSubObject.ts",
+  "response": "{\"calls\": [], \"callable_refs\": [{\"caller\": \"hasSubObject\", \"callee_text\": \"hasSubObjectImplementation\"}]}",
+  "created": "2026-08-09T05:45:58+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1700,
+  "completion_tokens": 28
+}

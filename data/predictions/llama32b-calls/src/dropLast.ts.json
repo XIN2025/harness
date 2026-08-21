@@ -1,0 +1,11 @@
+{"calls": [
+  {"caller": "dropLast", "callee_text": "purry"},
+  {"caller": "dropLast", "callee_text": "dropLastImplementation"},
+  {"caller": "dropLastImplementation", "callee_text": "slice"},
+  {"caller": "dropLastImplementation", "callee_text": "Math"},
+  {"caller": "dropLastImplementation", "callee_text": "max"},
+  {"caller": "dropLastImplementation", "callee_text": "length"},
+  {"caller": "dropLastImplementation", "callee_text": "array"},
+  {"caller": "dropLastImplementation", "callee_text": "n"},
+  {"caller": "dropLastImplementation", "callee_text": "Math"}
+]}

@@ -1,0 +1,38 @@
+{
+  "arm": "treesitter",
+  "split": "dev",
+  "cut": "calls_only",
+  "validity": {
+    "total": 112,
+    "raw_valid": 112,
+    "parseable": 112,
+    "schema_valid": 112
+  },
+  "counts": {
+    "tp": 330,
+    "fp": 0,
+    "fn": 1,
+    "unscored": 58,
+    "files": 112
+  },
+  "metrics": {
+    "precision": {
+      "point": 1.0,
+      "low": 1.0,
+      "high": 1.0,
+      "method": "percentile"
+    },
+    "recall": {
+      "point": 0.9969788519637462,
+      "low": 0.9844779103881065,
+      "high": 1.0,
+      "method": "BCa"
+    },
+    "f1": {
+      "point": 0.9984871406959153,
+      "low": 0.9921783829094599,
+      "high": 1.0,
+      "method": "BCa"
+    }
+  }
+}

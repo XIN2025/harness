@@ -1,0 +1,275 @@
+```json
+{
+  "definitions": [
+    "GroupByProp",
+    "GroupByPropRaw",
+    "GroupableProps",
+    "AllPropValues",
+    "ItemsSuperObject",
+    "FixEmptyObject",
+    "EnsureValuesAreNonEmpty",
+    "PossiblyEmptyArrayKeys",
+    "IsNonEmptyArray",
+    "CoercedNonEmptyValues"
+  ],
+  "references": [
+    {
+      "name": "type-fest",
+      "source": "node_modules/type-fest/index.d.ts",
+      "alias": null
+    },
+    {
+      "name": "./internal/types/ArrayRequiredPrefix",
+      "source": "src/internal/types/ArrayRequiredPrefix.ts",
+      "alias": null
+    },
+    {
+      "name": "./internal/types/BoundedPartial",
+      "source": "src/internal/types/BoundedPartial.ts",
+      "alias": null
+    },
+    {
+      "name": "./internal/types/FilteredArray",
+      "source": "src/internal/types/FilteredArray.ts",
+      "alias": null
+    },
+    {
+      "name": "./internal/types/IterableContainer",
+      "source": "src/internal/types/IterableContainer.ts",
+      "alias": null
+    },
+    {
+      "name": "./internal/types/TupleParts",
+      "source": "src/internal/types/TupleParts.ts",
+      "alias": null
+    }
+  ],
+  "calls": [
+    {
+      "caller": "__module__",
+      "callee_text": "groupByProp",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "src/groupByProp.ts",
+      "line": 1
+    }
+  ],
+  "type_assignments": [
+    {
+      "scope": "function",
+      "var": "groupByProp",
+      "type": "Function",
+      "type_module": "node_modules/type-fest/index.d.ts",
+      "from_call": false
+    },
+    {
+      "scope": "method",
+      "var": "groupByPropRaw",
+      "type": "Function",
+      "type_module": "node_modules/type-fest/index.d.ts",
+      "from_call": false
+    },
+    {
+      "scope": "function",
+      "var": "GroupableProps",
+      "type": "Function",
+      "type_module": "node_modules/type-fest/index.d.ts",
+      "from_call": false
+    },
+    {
+      "scope": "function",
+      "var": "AllPropValues",
+      "type": "Function",
+      "type_module": "node_modules/type-fest/index.d.ts",
+      "from_call": false
+    },
+    {
+      "scope": "function",
+      "var": "ItemsSuperObject",
+      "type": "Function",
+      "type_module": "node_modules/type-fest/index.d.ts",
+      "from_call": false
+    },
+    {
+      "scope": "function",
+      "var": "FixEmptyObject",
+      "type": "Function",
+      "type_module": "node_modules/type-fest/index.d.ts",
+      "from_call": false
+    },
+    {
+      "scope": "function",
+      "var": "EnsureValuesAreNonEmpty",
+      "type": "Function",
+      "type_module": "node_modules/type-fest/index.d.ts",
+      "from_call": false
+    },
+    {
+      "scope": "function",
+      "var": "PossiblyEmptyArrayKeys",
+      "type": "Function",
+      "type_module": "node_modules/type-fest/index.d.ts",
+      "from_call": false
+    },
+    {
+      "scope": "function",
+      "var": "IsNonEmptyArray",
+      "type": "Function",
+      "type_module": "node_modules/type-fest/index.d.ts",
+      "from_call": false
+    },
+    {
+      "scope": "function",
+      "var": "CoercedNonEmptyValues",
+      "type": "Function",
+      "type_module": "node_modules/type-fest/index.d.ts",
+      "from_call": false
+    }
+  ],
+  "definitions_rich": [
+    {
+      "name": "groupByProp",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "IterableContainer"
+        },
+        {
+          "name": "prop",
+          "type": "GroupableProps<IterableContainer>"
+        }
+      ],
+      "returns": "GroupByProp<IterableContainer, GroupableProps<IterableContainer>>"
+    },
+    {
+      "name": "groupByPropRaw",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "IterableContainer"
+        },
+        {
+          "name": "prop",
+          "type": "GroupableProps<IterableContainer>"
+        }
+      ],
+      "returns": "GroupByPropRaw<IterableContainer, GroupableProps<IterableContainer>>"
+    },
+    {
+      "name": "GroupableProps",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "IterableContainer"
+        }
+      ],
+      "returns": "ConditionalKeys<ItemsSuperObject<IterableContainer>, PropertyKey | undefined>"
+    },
+    {
+      "name": "AllPropValues",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "IterableContainer"
+        },
+        {
+          "name": "prop",
+          "type": "GroupableProps<IterableContainer>"
+        }
+      ],
+      "returns": "Extract<ItemsSuperObject<IterableContainer>[Prop], PropertyKey>"
+    },
+    {
+      "name": "ItemsSuperObject",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "IterableContainer"
+        }
+      ],
+      "returns": "AllUnionFields<Exclude<T[number], undefined>>"
+    },
+    {
+      "name": "FixEmptyObject",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "Record<PropertyKey, IterableContainer>"
+        }
+      ],
+      "returns": "IsNever<keyof T> extends true ? EmptyObject : T"
+    },
+    {
+      "name": "EnsureValuesAreNonEmpty",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "Record<PropertyKey, IterableContainer>"
+        }
+      ],
+      "returns": "Simplify<Omit<T, PossiblyEmptyArrayKeys<T>> & BoundedPartial<CoercedNonEmptyValues<Pick<T, PossiblyEmptyArrayKeys<T>>>"
+    },
+    {
+      "name": "PossiblyEmptyArrayKeys",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "Record<PropertyKey, IterableContainer>"
+        }
+      ],
+      "returns": "keyof T extends infer Key extends unknown ? Key extends keyof T ? IsNonEmptyArray<T[Key]> extends true ? never : Key : never : never"
+    },
+    {
+      "name": "IsNonEmptyArray",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "IterableContainer"
+        }
+      ],
+      "returns": "IsNonEmptyFixedTuple<TupleParts<T>['required']> extends true ? true : IsNonEmptyFixedTuple<TupleParts<T>['suffix']> extends true ? true : false"
+    },
+    {
+      "name": "CoercedNonEmptyValues",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "Record<PropertyKey, IterableContainer>"
+        }
+      ],
+      "returns": "Pick<T, PossiblyEmptyArrayKeys<T>> & { [P in keyof T]: ArrayRequiredPrefix<T[P], 1> }"
+    }
+  ]
+}
+```

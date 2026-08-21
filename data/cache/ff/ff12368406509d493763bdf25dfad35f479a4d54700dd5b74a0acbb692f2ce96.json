@@ -1,0 +1,13 @@
+{
+  "key": "ff12368406509d493763bdf25dfad35f479a4d54700dd5b74a0acbb692f2ce96",
+  "model": "harness-qwen15b",
+  "prompt_version": "refs-strict-v1-ca2cfcfbecef+json",
+  "file_sha": "35158cd641e179c161aacc02d91cb72a59570ff02776862f469db0cece272d55",
+  "relative_path": "src/meanBy.ts",
+  "response": "{\"calls\": [], \"callable_refs\": [{\"caller\": \"meanBy\", \"callee_text\": \"meanByImplementation\"}]}",
+  "created": "2026-08-09T05:47:14+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 910,
+  "completion_tokens": 26
+}

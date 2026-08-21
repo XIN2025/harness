@@ -1,0 +1,4 @@
+{"calls": [
+  {"caller": "sliceString", "callee_text": "slice"},
+  {"caller": "sliceString", "callee_text": "slice"}
+]}

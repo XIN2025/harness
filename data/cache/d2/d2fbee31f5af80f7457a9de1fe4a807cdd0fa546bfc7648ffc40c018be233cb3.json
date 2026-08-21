@@ -1,0 +1,13 @@
+{
+  "key": "d2fbee31f5af80f7457a9de1fe4a807cdd0fa546bfc7648ffc40c018be233cb3",
+  "model": "harness-qwen15b",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "5067f80f9912442e66ffd02817afd24430ed8d75692492e510a37af30751562a",
+  "relative_path": "src/setPath.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"setPath\", \"callee_text\": \"purr\"},\n  {\"caller\": \"setPathImplementation\", \"callee_text\": \"Array.isArray\"},\n  {\"caller\": \"setPathImplementation\", \"callee_text\": \"slice\"},\n  {\"caller\": \"setPathImplementation\", \"callee_text\": \"copyWithin\"},\n  {\"caller\": \"setPathImplementation\", \"callee_text\": \"splice\"},\n  {\"caller\": \"setPathImplementation\", \"callee_text\": \"Object.assign\"}\n]}",
+  "created": "2026-08-08T22:21:46+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1352,
+  "completion_tokens": 105
+}

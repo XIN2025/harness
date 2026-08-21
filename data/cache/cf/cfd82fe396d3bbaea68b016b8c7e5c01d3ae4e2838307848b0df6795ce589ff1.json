@@ -1,0 +1,13 @@
+{
+  "key": "cfd82fe396d3bbaea68b016b8c7e5c01d3ae4e2838307848b0df6795ce589ff1",
+  "model": "harness-qwen15b",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "73b328010f636bd43b1d94099d3446278cca26be5e7ce692fbdbf0ebef3b0f75",
+  "relative_path": "src/median.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"median\", \"callee_text\": \"purry\"},\n  {\"caller\": \"medianImplementation\", \"callee_text\": \"Array.prototype.sort\"},\n  {\"caller\": \"medianImplementation\", \"callee_text\": \"Math.floor\"},\n  {\"caller\": \"medianImplementation\", \"callee_text\": \"Math.ceil\"}\n]}",
+  "created": "2026-08-08T22:19:24+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1109,
+  "completion_tokens": 70
+}

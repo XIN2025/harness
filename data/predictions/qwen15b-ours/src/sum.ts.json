@@ -1,0 +1,54 @@
+```json
+{
+  "definitions": [
+    {
+      "name": "Sum",
+      "kind": "function"
+    },
+    {
+      "name": "sum",
+      "kind": "function"
+    },
+    {
+      "name": "sumImplementation",
+      "kind": "function"
+    }
+  ],
+  "references": [],
+  "calls": [
+    {
+      "caller": "__module__",
+      "callee_text": "sum",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "src/sum.ts",
+      "line": 10
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "sum",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "src/sum.ts",
+      "line": 24
+    }
+  ],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "IterableContainer",
+      "kind": "interface"
+    },
+    {
+      "name": "purry",
+      "kind": "function"
+    },
+    {
+      "name": "sum",
+      "kind": "function"
+    }
+  ]
+}
+```

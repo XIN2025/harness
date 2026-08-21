@@ -1,0 +1,13 @@
+{
+  "key": "c1f5177723f51309e828ef5d837014d1b8e3f417b861ac4dcbb6a0a200d6dedf",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "refs-v1-7386a79c1ab2+json",
+  "file_sha": "7a5d018c4c93a58167f972cb6ce4333a6355f3925795c629265b2391b13c28e6",
+  "relative_path": "src/partialLastBind.ts",
+  "response": "{\"callable_refs\": [\n  {\"caller\": \"partialLastBind\", \"callee_text\": \"func\"},\n  {\"caller\": \"partialLastBind\", \"callee_text\": \"partial\"}\n]}",
+  "created": "2026-08-08T23:24:55+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1179,
+  "completion_tokens": 40
+}

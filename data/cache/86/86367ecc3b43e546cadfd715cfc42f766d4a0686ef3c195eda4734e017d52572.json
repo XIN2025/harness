@@ -1,0 +1,13 @@
+{
+  "key": "86367ecc3b43e546cadfd715cfc42f766d4a0686ef3c195eda4734e017d52572",
+  "model": "harness-qwen15b",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "30c9e61082911af43816a41fb9c274b14243a883ad5640c778cff32803877557",
+  "relative_path": "src/values.ts",
+  "response": "```json\n{\n  \"definitions\": [\"values\"],\n  \"references\": [\n    {\"name\": \"importedName1\", \"source\": \"./src/values.ts\"},\n    {\"name\": \"importedName2\", \"source\": \"./src/internal/types/EnumerableStringKeyedValueOf\"}\n  ],\n  \"calls\": [],\n  \"type_assignments\": [],\n  \"definitions_rich\": []\n}\n```",
+  "created": "2026-08-08T20:29:08+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 8403,
+  "completion_tokens": 83
+}

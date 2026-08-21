@@ -1,0 +1,13 @@
+{
+  "key": "e7d2b26d2c5cf45d6fe90b252de284571a35371992560fbe24eef5c657807569",
+  "model": "harness-qwen15b",
+  "prompt_version": "refs-strict-v1-ca2cfcfbecef+json",
+  "file_sha": "4392703e7d4196cb731d8653d4978a5f3e92938e0868620b8348fb43d61822e6",
+  "relative_path": "src/debounce.ts",
+  "response": "{\"callable_refs\": [\n  {\"caller\": \"debounce\", \"callee_text\": \"handleInvoke\"},\n  {\"caller\": \"debounce\", \"callee_text\": \"handleCoolDownEnd\"},\n  {\"caller\": \"debounce\", \"callee_text\": \"handleDebouncedCall\"}\n]}",
+  "created": "2026-08-09T05:44:19+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 3463,
+  "completion_tokens": 60
+}

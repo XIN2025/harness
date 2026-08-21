@@ -1,0 +1,13 @@
+{
+  "key": "6e50842d65afc75a1f4193a1d8572bfd9b540ba50cc375d2594e27896f00bcd6",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "refs-strict-v1-ca2cfcfbecef+json",
+  "file_sha": "797a16edf044fd2a8a9199547e51e4f1c1cf80195d4e14e60d088b25860fbc7c",
+  "relative_path": "src/drop.ts",
+  "response": "{\"callable_refs\": [{\"caller\": \"drop\", \"callee_text\": \"dropImplementation\"}, {\"caller\": \"drop\", \"callee_text\": \"lazyImplementation\"}]}",
+  "created": "2026-08-09T05:59:43+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1995,
+  "completion_tokens": 34
+}

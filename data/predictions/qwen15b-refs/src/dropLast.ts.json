@@ -1,0 +1,1 @@
+{"calls": [], "callable_refs": [{"caller": "dropLast", "callee_text": "dropLastImplementation"}, {"caller": "dropLastImplementation", "callee_text": "Math.max"}, {"caller": "dropLastImplementation", "callee_text": "slice"}]}

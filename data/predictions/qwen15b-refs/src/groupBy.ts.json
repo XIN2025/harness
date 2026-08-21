@@ -1,0 +1,1 @@
+{"calls": [], "callable_refs": [{"caller": "groupBy", "callee_text": "groupByImplementation"}, {"caller": "groupByImplementation", "callee_text": "callbackfn"}, {"caller": "groupByImplementation", "callee_text": "data"}]}

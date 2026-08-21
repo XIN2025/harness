@@ -1,0 +1,57 @@
+```json
+{
+  "definitions": [
+    {
+      "name": "takeLast",
+      "kind": "function"
+    },
+    {
+      "name": "takeLastImplementation",
+      "kind": "function"
+    }
+  ],
+  "references": [],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "takeLast",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "array",
+          "type": "IterableContainer"
+        },
+        {
+          "name": "n",
+          "type": "number"
+        }
+      ],
+      "returns": [
+        {
+          "type": "T[number][]"
+        }
+      ]
+    },
+    {
+      "name": "takeLast",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "n",
+          "type": "number"
+        }
+      ],
+      "returns": [
+        {
+          "type": "T[number][]"
+        }
+      ]
+    }
+  ]
+}
+```

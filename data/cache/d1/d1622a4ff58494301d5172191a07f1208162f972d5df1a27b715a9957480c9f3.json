@@ -1,0 +1,13 @@
+{
+  "key": "d1622a4ff58494301d5172191a07f1208162f972d5df1a27b715a9957480c9f3",
+  "model": "harness-qwen15b",
+  "prompt_version": "refs-strict-v1-ca2cfcfbecef+json",
+  "file_sha": "5aefa9f87740e4e6be5daec9148097f1beb94244e73bfb833eb42d6420c272f4",
+  "relative_path": "src/sliceString.ts",
+  "response": "{\"calls\": [], \"callable_refs\": [{\"caller\": \"sliceString\", \"callee_text\": \"slice\"}]}",
+  "created": "2026-08-09T05:50:01+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1028,
+  "completion_tokens": 24
+}

@@ -1,0 +1,15 @@
+```json
+{
+  "definitions": [
+    "omitBy",
+    "pickBy"
+  ],
+  "references": [
+    {"name": "omitBy", "source": "./src/omitBy.ts"},
+    {"name": "pickBy", "source": "./src/pickBy.ts"}
+  ],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": []
+}
+```

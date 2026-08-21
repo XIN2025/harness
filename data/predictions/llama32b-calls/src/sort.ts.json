@@ -1,0 +1,12 @@
+{"calls": [
+  {"caller": "sort", "callee_text": "purry"},
+  {"caller": "sortImplementation", "callee_text": "sort"},
+  {"caller": "sortImplementation", "callee_text": "cmp"},
+  {"caller": "sortImplementation", "callee_text": "items"},
+  {"caller": "sortImplementation", "callee_text": "ret"},
+  {"caller": "sortImplementation", "callee_text": "ret.sort"},
+  {"caller": "sortImplementation", "callee_text": "cmp"},
+  {"caller": "sortImplementation", "callee_text": "items"},
+  {"caller": "sortImplementation", "callee_text": "ret"},
+  {"caller": "sortImplementation", "callee_text": "as"}
+]}

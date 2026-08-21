@@ -1,0 +1,11 @@
+{
+  "key": "74bd2b4c4940c32c26206bded176f978e1a7e439ec42ad399602cc458669acf4",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "dc59bf0d237410cf0e1aff16da87d6f78f66580f9f03f85322c465c093cba13c",
+  "relative_path": "src/concat.ts",
+  "response": "{\n  \"definitions\": [\"concat\", \"concatImplementation\"],\n  \"references\": [\n    {\"name\": \"IterableContainer\", \"source\": \"./internal/types/IterableContainer\", \"alias\": null},\n    {\"name\": \"purry\", \"source\": \"./purry\", \"alias\": null}\n  ],\n  \"calls\": [\n    {\"caller\": \"concat\", \"callee_text\": \"purry\", \"kind\": \"free\", \"receiver\": null, \"receiver_type_hint\": null, \"callee_file_hint\": \"./purry\", \"line\": 45}\n  ],\n  \"type_assignments\": [\n    {\"scope\": \"module\", \"var\": \"concatImplementation\", \"type\": null, \"type_module\": null, \"from_call\": null}\n  ],\n  \"definitions_rich\": [\n    {\"name\": \"concat\", \"kind\": \"function\", \"parent\": null, \"bases\": [], \"params\": [{\"name\": \"data\", \"type\": \"T1\"}, {\"name\": \"other\", \"type\": \"T2\"}], \"returns\": \"[...T1, ...T2]\", \"line\": 14},\n    {\"name\": \"concat\", \"kind\": \"function\", \"parent\": null, \"bases\": [], \"params\": [{\"name\": \"other\", \"type\": \"T2\"}], \"returns\": \"<T1 extends IterableContainer>(data: T1) => [...T1, ...T2]\", \"line\": 33},\n    {\"name\": \"concatImplementation\", \"kind\": \"function\", \"parent\": null, \"bases\": [], \"params\": [{\"name\": \"arr1\", \"type\": \"T1\"}, {\"name\": \"arr2\", \"type\": \"T2\"}], \"returns\": \"[...T1, ...T2]\", \"line\": 48}\n  ]\n}",
+  "created": "2026-08-08T16:52:44+00:00",
+  "finish_reason": "stop",
+  "served_by": "Nvidia"
+}

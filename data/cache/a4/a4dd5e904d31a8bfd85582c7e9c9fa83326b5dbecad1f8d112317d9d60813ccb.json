@@ -1,0 +1,13 @@
+{
+  "key": "a4dd5e904d31a8bfd85582c7e9c9fa83326b5dbecad1f8d112317d9d60813ccb",
+  "model": "harness-qwen15b",
+  "prompt_version": "refs-v1-7386a79c1ab2+json",
+  "file_sha": "3bc0f57b69d88322a3f3b914bddb02b6af2830607c73b11fe7bd0fc315722307",
+  "relative_path": "src/splitWhen.ts",
+  "response": "{\"calls\": [], \"callable_refs\": [{\"caller\": \"splitWhen\", \"callee_text\": \"splitWhenImplementation\"}, {\"caller\": \"splitWhenImplementation\", \"callee_text\": \"predicate\"}]}",
+  "created": "2026-08-08T22:30:17+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 706,
+  "completion_tokens": 41
+}

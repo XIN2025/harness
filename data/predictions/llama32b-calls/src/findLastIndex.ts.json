@@ -1,0 +1,8 @@
+{"calls": [
+  {"caller": "findLastIndex", "callee_text": "purry"},
+  {"caller": "findLastIndexImplementation", "callee_text": "for"},
+  {"caller": "findLastIndexImplementation", "callee_text": "predicate"},
+  {"caller": "findLastIndexImplementation", "callee_text": "data"},
+  {"caller": "findLastIndexImplementation", "callee_text": "i"},
+  {"caller": "findLastIndexImplementation", "callee_text": "return"}
+]}

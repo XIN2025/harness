@@ -1,0 +1,128 @@
+```json
+{
+  "definitions": [
+    "sumBy",
+    "purry",
+    "type",
+    "IterableContainer",
+    "SumBy",
+    "pipe",
+    "hasAtLeast",
+    "isEmpty"
+  ],
+  "references": [
+    {"name": "sumBy", "source": "./src/sumBy.ts"},
+    {"name": "purry", "source": "./src/purry.ts"},
+    {"name": "type", "source": "./src/internal/types/type.ts"},
+    {"name": "IterableContainer", "source": "./src/internal/types/IterableContainer.ts"},
+    {"name": "SumBy", "source": "./src/sumBy.ts"},
+    {"name": "pipe", "source": "./src/pipe.ts"},
+    {"name": "hasAtLeast", "source": "./src/internal/utils/hasAtLeast.ts"},
+    {"name": "isEmpty", "source": "./src/internal/utils/isEmpty.ts"}
+  ],
+  "calls": [
+    {
+      "caller": "sumBy",
+      "callee_text": "callbackfn",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./src/purry.ts",
+      "line": 1
+    },
+    {
+      "caller": "sumBy",
+      "callee_text": "callbackfn",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./src/internal/types/IterableContainer.ts",
+      "line": 2
+    }
+  ],
+  "type_assignments": [
+    {"scope": "module", "var": "sumBy", "type": "function", "type_module": "src"},
+    {"scope": "module", "var": "purry", "type": "function", "type_module": "src"},
+    {"scope": "module", "var": "type", "type": "interface", "type_module": "src/internal/types/type.ts"},
+    {"scope": "module", "var": "IterableContainer", "type": "interface", "type_module": "src/internal/types/IterableContainer.ts"},
+    {"scope": "module", "var": "SumBy", "type": "function", "type_module": "src"},
+    {"scope": "module", "var": "pipe", "type": "function", "type_module": "src"},
+    {"scope": "module", "var": "hasAtLeast", "type": "function", "type_module": "src/internal/utils/hasAtLeast.ts"},
+    {"scope": "module", "var": "isEmpty", "type": "function", "type_module": "src/internal/utils/isEmpty.ts"}
+  ],
+  "definitions_rich": [
+    {
+      "name": "sumBy",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "callbackfn", "type": "Function"}],
+      "returns": "bigint | number",
+      "line": 1
+    },
+    {
+      "name": "purry",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "fn", "type": "Function"}],
+      "returns": "Function",
+      "line": 2
+    },
+    {
+      "name": "type",
+      "kind": "interface",
+      "parent": null,
+      "bases": [],
+      "params": [],
+      "returns": null,
+      "line": 3
+    },
+    {
+      "name": "IterableContainer",
+      "kind": "interface",
+      "parent": null,
+      "bases": [],
+      "params": [],
+      "returns": null,
+      "line": 4
+    },
+    {
+      "name": "SumBy",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "callbackfn", "type": "Function"}],
+      "returns": "bigint | number",
+      "line": 5
+    },
+    {
+      "name": "pipe",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "fns", "type": "Array<Function>"}],
+      "returns": "Function",
+      "line": 6
+    },
+    {
+      "name": "hasAtLeast",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "array", "type": "Array<any>"}, {"name": "minLength", "type": "number"}],
+      "returns": "boolean",
+      "line": 7
+    },
+    {
+      "name": "isEmpty",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "array", "type": "Array<any>"}, {"name": "minLength", "type": "number"}],
+      "returns": "boolean",
+      "line": 8
+    }
+  ]
+}
+```

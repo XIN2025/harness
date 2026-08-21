@@ -1,0 +1,13 @@
+{
+  "key": "c604e5fdc78605f9baa63e49d9461e7aa2924e439f36d6ea7e289fabc0bc8604",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "f3d0ec095f51681fe6d2b6a4a8ad5a427bf1141566a212818734352401a621c8",
+  "relative_path": "src/round.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"round\", \"callee_text\": \"withPrecision\"},\n  {\"caller\": \"round\", \"callee_text\": \"Math.round\"},\n  {\"caller\": \"round\", \"callee_text\": \"purry\"}\n]}",
+  "created": "2026-08-08T23:09:59+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 861,
+  "completion_tokens": 51
+}

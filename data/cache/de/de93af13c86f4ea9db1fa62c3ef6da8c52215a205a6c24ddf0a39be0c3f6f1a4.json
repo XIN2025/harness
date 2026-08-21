@@ -1,0 +1,13 @@
+{
+  "key": "de93af13c86f4ea9db1fa62c3ef6da8c52215a205a6c24ddf0a39be0c3f6f1a4",
+  "model": "harness-qwen15b",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "dca4844f1391cb5f3ee13fbe61836923ce01c5e06469614207bf8ca610f980aa",
+  "relative_path": "src/when.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"when\",\n    \"GuardType\",\n    \"isNullish\",\n    \"constant\",\n    \"add\",\n    \"multiply\",\n    \"parseInt\"\n  ],\n  \"references\": [\n    {\"name\": \"when\", \"source\": \"./src/when.ts\"},\n    {\"name\": \"GuardType\", \"source\": \"./src/internal/types/GuardType.ts\"},\n    {\"name\": \"isNullish\", \"source\": \"./src/internal/types/GuardType.ts\"},\n    {\"name\": \"constant\", \"source\": \"./src/internal/types/GuardType.ts\"},\n    {\"name\": \"add\", \"source\": \"./src/internal/types/GuardType.ts\"},\n    {\"name\": \"multiply\", \"source\": \"./src/internal/types/GuardType.ts\"},\n    {\"name\": \"parseInt\", \"source\": \"./src/internal/types/GuardType.ts\"}\n  ],\n  \"calls\": [\n    {\n      \"caller\": \"when\",\n      \"callee_text\": \"isNullish\",\n      \"kind\": \"method\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": \"./src/internal/types/GuardType.ts\",\n      \"line\": 1\n    },\n    {\n      \"caller\": \"when\",\n      \"callee_text\": \"constant\",\n      \"kind\": \"method\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": \"./src/internal/types/GuardType.ts\",\n      \"line\": 2\n    }\n  ],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"when\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"predicate\",\n          \"type\": \"(data: unknown, ...extraArgs: unknown[]) => boolean\"\n        },\n        {\n          \"name\": \"onTrueOrBranches\",\n          \"type\": \"| ((data: unknown, ...extraArgs: unknown[]) => WhenTrue) | { readonly onTrue: (data: unknown, ...extraArgs: unknown[]) => WhenTrue; readonly onFalse: (data: unknown, ...extraArgs: unknown[]) => WhenFalse; }\"\n        }\n      ],\n      \"returns\": \"T | WhenFalse | WhenTrue\",\n      \"line\": 1\n    },\n    {\n      \"name\": \"GuardType\",\n      \"kind\": \"interface\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [],\n      \"returns\": null,\n      \"line\": 3\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:29:17+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 9599,
+  "completion_tokens": 541
+}

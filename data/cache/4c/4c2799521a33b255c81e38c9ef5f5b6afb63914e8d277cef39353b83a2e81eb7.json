@@ -1,0 +1,13 @@
+{
+  "key": "4c2799521a33b255c81e38c9ef5f5b6afb63914e8d277cef39353b83a2e81eb7",
+  "model": "harness-qwen15b",
+  "prompt_version": "ours-v1-5c74cf9a927a",
+  "file_sha": "49d50fbc79b021f2572a4dc671f9947a54e1a82349b65b9b4a24fc18e1b83359",
+  "relative_path": "src/only.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"IterableContainer\",\n    \"purry\",\n    \"Only\",\n    \"only\"\n  ],\n  \"references\": [],\n  \"calls\": [],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"IterableContainer\",\n      \"kind\": \"interface\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [],\n      \"returns\": null,\n      \"line\": 1\n    },\n    {\n      \"name\": \"purry\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"fn\",\n          \"type\": \"Function\"\n        }\n      ],\n      \"returns\": \"unknown\",\n      \"line\": 10\n    },\n    {\n      \"name\": \"Only\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"data\",\n          \"type\": \"IterableContainer\"\n        }\n      ],\n      \"returns\": \"unknown\",\n      \"line\": 18\n    },\n    {\n      \"name\": \"only\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"data\",\n          \"type\": \"IterableContainer\"\n        }\n      ],\n      \"returns\": \"unknown\",\n      \"line\": 26\n    },\n    {\n      \"name\": \"onlyImplementation\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"data\",\n          \"type\": \"readonly T[]\"\n        }\n      ],\n      \"returns\": \"T | undefined\",\n      \"line\": 34\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:39:51+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 635,
+  "completion_tokens": 390
+}

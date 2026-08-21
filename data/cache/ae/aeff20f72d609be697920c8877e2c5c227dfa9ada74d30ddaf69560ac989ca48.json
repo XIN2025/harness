@@ -1,0 +1,10 @@
+{
+  "key": "aeff20f72d609be697920c8877e2c5c227dfa9ada74d30ddaf69560ac989ca48",
+  "model": "gemini-3.5-flash",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "3c4ff73103d1171a167cf341b2bd4a519978fe96611f0be82a01ddf4488f99ef",
+  "relative_path": "src/capitalize.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"capitalize\",\n    \"capitalizeImplementation\"\n  ],\n  \"references\": [\n    {\n      \"name\": \"purry\",\n      \"source\": \"./purry\",\n      \"alias\": null\n    }\n  ],\n  \"calls\": [\n    {\n      \"caller\": \"capitalize\",\n      \"callee_text\": \"purry\",\n      \"kind\": \"free\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": \"./purry\",\n      \"line\": 54\n    }\n  ],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"capitalize\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"args\",\n          \"type\": \"readonly unknown[]\"\n        }\n      ],\n      \"returns\": \"unknown\",\n      \"line\": 53\n    },\n    {\n      \"name\": \"capitalizeImplementation\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"data\",\n          \"type\": \"T\"\n        }\n      ],\n      \"returns\": \"Capitalize\",\n      \"line\": 57\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T16:18:31+00:00",
+  "finish_reason": "stop"
+}

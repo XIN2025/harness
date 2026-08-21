@@ -1,0 +1,6 @@
+{"callable_refs": [
+  {"caller": "intersection", "callee_text": "lazyImplementation"},
+  {"caller": "intersection", "callee_text": "puryFromLazy"},
+  {"caller": "intersection", "callee_text": "lazyEmptyEvaluator"},
+  {"caller": "intersection", "callee_text": "SKIP_ITEM"}
+]}

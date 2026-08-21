@@ -1,0 +1,11 @@
+{
+  "key": "48a5d97875fe2985166412bdb08ad15f150ecf9f3ec620466831eab337c4b679",
+  "model": "gemini-2.5-flash",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "3c4ff73103d1171a167cf341b2bd4a519978fe96611f0be82a01ddf4488f99ef",
+  "relative_path": "src/capitalize.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"capitalize\",\n    \"capitalizeImplementation\"\n  ],\n  \"references\": [\n    {\n      \"name\": \"purry\",\n      \"source\": \"./purry\",\n      \"alias\": null\n    }\n  ],\n  \"calls\": [\n    {\n      \"caller\": \"capitalize\",\n      \"callee_text\": \"purry\",\n      \"kind\": \"free\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": \"./purry\",\n      \"line\": 43\n    },\n    {\n      \"caller\": \"capitalizeImplementation\",\n      \"callee_text\": \"toUpperCase\",\n      \"kind\": \"method\",\n      \"receiver\": \"data[0]\",\n      \"receiver_type_hint\": \"string\",\n      \"callee_file_hint\": \"external\",\n      \"line\": 47\n    },\n    {\n      \"caller\": \"capitalizeImplementation\",\n      \"callee_text\": \"slice\",\n      \"kind\": \"method\",\n      \"receiver\": \"data\",\n      \"receiver_type_hint\": \"string\",\n      \"callee_file_hint\": \"external\",\n      \"line\": 47\n    }\n  ],\n  \"type_assignments\": [\n    {\n      \"scope\": \"module\",\n      \"var\": \"capitalizeImplementation\",\n      \"type\": null,\n      \"type_module\": null,\n      \"from_call\": null\n    }\n  ],\n  \"definitions_rich\": [\n    {\n      \"name\": \"capitalize\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"args\",\n          \"type\": \"readonly unknown[]\"\n        }\n      ],\n      \"returns\": \"unknown\",\n      \"line\": 42\n    },\n    {\n      \"name\": \"capitalizeImplementation\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"data\",\n          \"type\": \"T\"\n        }\n      ],\n      \"returns\": \"Capitalize<T>\",\n      \"line\": 46\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T17:07:40+00:00",
+  "finish_reason": "stop",
+  "served_by": ""
+}

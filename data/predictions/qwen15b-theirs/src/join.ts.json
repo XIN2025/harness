@@ -1,0 +1,24 @@
+```json
+{
+  "definitions": ["join", "JoinableItem", "Glue"],
+  "references": [
+    {"name": "type-fest", "source": "./node_modules/type-fest/dist/index.js"},
+    {"name": "purry", "source": "./src/purry.ts"}
+  ],
+  "calls": [
+    {"caller": "join", "callee_text": "joinImplementation", "kind": "free",
+     "receiver": null, "receiver_type_hint": null, "callee_file_hint": "...", "line": 1},
+    {"caller": "pipe", "callee_text": "join", "kind": "hook",
+     "receiver": null, "receiver_type_hint": null, "callee_file_hint": "...", "line": 2}
+  ],
+  "type_assignments": [
+    {"scope": "module", "var": "JoinableItem", "type": "bigint | boolean | number | string | null | undefined"},
+    {"scope": "module", "var": "Glue", "type": "string"}
+  ],
+  "definitions_rich": [
+    {"name": "join", "kind": "function", "parent": null, "bases": [], "params": [{"name": "data", "type": "readonly JoinableItem[] | []"}, {"name": "glue", "type": "Glue"}], "returns": "Join<T, Glue>", "line": 1},
+    {"name": "JoinableItem", "kind": "interface", "parent": null, "bases": [], "params": [], "returns": null, "line": 3},
+    {"name": "Glue", "kind": "type_alias", "parent": null, "bases": [], "params": [], "returns": "string", "line": 4}
+  ]
+}
+```

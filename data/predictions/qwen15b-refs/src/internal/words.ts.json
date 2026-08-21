@@ -1,0 +1,12 @@
+{
+  "calls": [],
+  "callable_refs": [
+    {"caller": "words", "callee_text": "words"},
+    {"caller": "words", "callee_text": "WHITESPACE"},
+    {"caller": "words", "callee_text": "WORD_SEPARATORS"},
+    {"caller": "words", "callee_text": "flush"},
+    {"caller": "words", "callee_text": "data"},
+    {"caller": "words", "callee_text": "word"},
+    {"caller": "words", "callee_text": "character"}
+  ]
+}

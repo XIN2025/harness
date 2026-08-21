@@ -1,0 +1,13 @@
+{
+  "key": "2b8570ccc30d6b11f4990255b7d94a07b4de3370b81d3ba9645d1d8cac0424ae",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "refs-strict-v1-ca2cfcfbecef+json",
+  "file_sha": "1b72616051eac1c3c6e25ca98670de6d7345b60d2425f38dbbe6d15552baa4d2",
+  "relative_path": "src/hasSubObject.ts",
+  "response": "{\"callable_refs\": [{\"caller\": \"hasSubObject\", \"callee_text\": \"hasSubObjectImplementation\"}]}",
+  "created": "2026-08-09T06:01:51+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1712,
+  "completion_tokens": 24
+}

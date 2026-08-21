@@ -1,0 +1,13 @@
+{
+  "key": "0a074c3bfc8d5e7ec74ed65e767004c52d4a59d4f15363ffe2a16d1482892d33",
+  "model": "harness-qwen15b",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "f97b07502cf9e290cde1c373b52d66279b3bc836a4d75fe5abccb5795c350026",
+  "relative_path": "src/sortedIndex.ts",
+  "response": "```json\n{\n  \"definitions\": [\"sortedIndex\", \"binarySearchCutoffIndex\"],\n  \"references\": [\n    {\"name\": \"purry\", \"source\": \"./purry\"},\n    {\"name\": \"binarySearchCutoffIndex\", \"source\": \"./internal/binarySearchCutoffIndex\"}\n  ],\n  \"calls\": [],\n  \"type_assignments\": [],\n  \"definitions_rich\": []\n}\n```",
+  "created": "2026-08-08T20:26:30+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 8541,
+  "completion_tokens": 86
+}

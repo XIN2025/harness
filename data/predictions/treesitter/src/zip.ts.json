@@ -1,0 +1,34 @@
+{
+  "relative_path": "src/zip.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "zip",
+      "callee_text": "purry",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./purry",
+      "line": 64
+    },
+    {
+      "caller": "zipImplementation",
+      "callee_text": "map",
+      "kind": "method",
+      "receiver": "first",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 75
+    },
+    {
+      "caller": "zipImplementation",
+      "callee_text": "map",
+      "kind": "method",
+      "receiver": "second",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 76
+    }
+  ],
+  "callable_refs": []
+}

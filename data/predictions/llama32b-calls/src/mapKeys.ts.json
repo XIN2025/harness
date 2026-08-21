@@ -1,0 +1,15 @@
+{"calls": [
+  {"caller": "mapKeys", "callee_text": "__module__"},
+  {"caller": "mapKeysImplementation", "callee_text": "Object.entries"},
+  {"caller": "mapKeysImplementation", "callee_text": "for"},
+  {"caller": "mapKeysImplementation", "callee_text": "keyMapper"},
+  {"caller": "mapKeysImplementation", "callee_text": "out[mappedKey]"},
+  {"caller": "mapKeysImplementation", "callee_text": "Object.entries"},
+  {"caller": "mapKeysImplementation", "callee_text": "for"},
+  {"caller": "mapKeysImplementation", "callee_text": "keyMapper"},
+  {"caller": "mapKeysImplementation", "callee_text": "out[mappedKey]"},
+  {"caller": "mapKeysImplementation", "callee_text": "Object.entries"},
+  {"caller": "mapKeysImplementation", "callee_text": "for"},
+  {"caller": "mapKeysImplementation", "callee_text": "keyMapper"},
+  {"caller": "mapKeysImplementation", "callee_text": "out[mappedKey]"}
+]}

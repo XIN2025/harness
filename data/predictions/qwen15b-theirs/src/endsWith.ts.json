@@ -1,0 +1,11 @@
+```json
+{
+  "definitions": ["endsWith"],
+  "references": [
+    {"name": "endsWith", "source": "./src/endsWith.ts"}
+  ],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": []
+}
+```

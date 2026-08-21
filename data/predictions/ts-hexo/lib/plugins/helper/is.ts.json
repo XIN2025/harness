@@ -1,0 +1,142 @@
+{
+  "relative_path": "lib/plugins/helper/is.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "isCurrentHelper",
+      "callee_text": "replace",
+      "kind": "this",
+      "receiver": "this.path",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 4
+    },
+    {
+      "caller": "isCurrentHelper",
+      "callee_text": "endsWith",
+      "kind": "method",
+      "receiver": "path",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 7
+    },
+    {
+      "caller": "isCurrentHelper",
+      "callee_text": "replace",
+      "kind": "method",
+      "receiver": "path",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 8
+    },
+    {
+      "caller": "isCurrentHelper",
+      "callee_text": "replace",
+      "kind": "method",
+      "receiver": "path",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 13
+    },
+    {
+      "caller": "isCurrentHelper",
+      "callee_text": "replace",
+      "kind": "method",
+      "receiver": "path",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 17
+    },
+    {
+      "caller": "isCurrentHelper",
+      "callee_text": "startsWith",
+      "kind": "method",
+      "receiver": "currentPath",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 19
+    },
+    {
+      "caller": "isHomeHelper",
+      "callee_text": "Boolean",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 23
+    },
+    {
+      "caller": "isHomeFirstPageHelper",
+      "callee_text": "Boolean",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 27
+    },
+    {
+      "caller": "isPostHelper",
+      "callee_text": "Boolean",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 31
+    },
+    {
+      "caller": "isPageHelper",
+      "callee_text": "Boolean",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 35
+    },
+    {
+      "caller": "isArchiveHelper",
+      "callee_text": "Boolean",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 39
+    },
+    {
+      "caller": "isYearHelper",
+      "callee_text": "Boolean",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 50
+    },
+    {
+      "caller": "isMonthHelper",
+      "callee_text": "Boolean",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 65
+    },
+    {
+      "caller": "isCategoryHelper",
+      "callee_text": "Boolean",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 73
+    },
+    {
+      "caller": "isTagHelper",
+      "callee_text": "Boolean",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 81
+    }
+  ],
+  "callable_refs": []
+}

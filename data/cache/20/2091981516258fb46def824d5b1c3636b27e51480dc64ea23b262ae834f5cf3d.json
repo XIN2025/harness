@@ -1,0 +1,13 @@
+{
+  "key": "2091981516258fb46def824d5b1c3636b27e51480dc64ea23b262ae834f5cf3d",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "refs-strict-v1-ca2cfcfbecef+json",
+  "file_sha": "a436427ed54a69e9310b5855a5332d59f9e4af01677b5e645d2bf68237b7047b",
+  "relative_path": "src/mapValues.ts",
+  "response": "{\"callable_refs\": [{\"caller\": \"mapValues\", \"callee_text\": \"mapValuesImplementation\"}]}",
+  "created": "2026-08-09T06:03:40+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1153,
+  "completion_tokens": 22
+}

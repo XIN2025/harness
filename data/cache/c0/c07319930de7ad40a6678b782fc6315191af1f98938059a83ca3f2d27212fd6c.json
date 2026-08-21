@@ -1,0 +1,13 @@
+{
+  "key": "c07319930de7ad40a6678b782fc6315191af1f98938059a83ca3f2d27212fd6c",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "eaf4d156f8d82fa1140a313b16376cc147eed1c35f6252b5296e378f19595d21",
+  "relative_path": "src/toUpperCase.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"toUpperCase\", \"callee_text\": \"purry\"},\n  {\"caller\": \"toUpperCase\", \"callee_text\": \"toUpperCaseImplementation\"},\n  {\"caller\": \"toUpperCase\", \"callee_text\": \"data.toUpperCase\"},\n  {\"caller\": \"pipe\", \"callee_text\": \"toUpperCase\"}\n]}",
+  "created": "2026-08-08T23:16:17+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1056,
+  "completion_tokens": 66
+}

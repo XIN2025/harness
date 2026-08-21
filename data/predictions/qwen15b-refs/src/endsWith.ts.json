@@ -1,0 +1,7 @@
+{
+  "calls": [],
+  "callable_refs": [
+    {"caller": "endsWith", "callee_text": "endsWithImplementation"},
+    {"caller": "endsWithImplementation", "callee_text": "suffix"}
+  ]
+}

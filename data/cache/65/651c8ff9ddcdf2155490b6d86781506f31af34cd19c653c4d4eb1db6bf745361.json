@@ -1,0 +1,13 @@
+{
+  "key": "651c8ff9ddcdf2155490b6d86781506f31af34cd19c653c4d4eb1db6bf745361",
+  "model": "harness-qwen15b",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "715287f17d5f1438df2975a186e07da208ebdc6510c1d1af77210d8023fdf91f",
+  "relative_path": "src/sample.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"sample\", \"callee_text\": \"purry\"},\n  {\"caller\": \"sampleImplementation\", \"callee_text\": \"Math.random\"},\n  {\"caller\": \"sampleImplementation\", \"callee_text\": \"Math.floor\"},\n  {\"caller\": \"sampleImplementation\", \"callee_text\": \"Array.prototype.slice\"},\n  {\"caller\": \"sampleImplementation\", \"callee_text\": \"Set.prototype.add\"},\n  {\"caller\": \"sampleImplementation\", \"callee_text\": \"Array.prototype.sort\"},\n  {\"caller\": \"sampleImplementation\", \"callee_text\": \"Array.prototype.map\"},\n  {\"caller\": \"sampleImplementation\", \"callee_text\": \"Array.prototype.filter\"}\n]}",
+  "created": "2026-08-08T22:21:38+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 2627,
+  "completion_tokens": 138
+}

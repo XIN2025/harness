@@ -1,0 +1,11 @@
+{
+  "key": "663bcf1cb61c59f652e4843e73c8305675108f65be6eb72c32ad45fd98d279ce",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "78abc81dd0a0401a76bb96d4fda26bdbcf236cab026e630834cb42548a5eb2e5",
+  "relative_path": "src/ceil.ts",
+  "response": "{\n  \"definitions\": [\"ceil\"],\n  \"references\": [\n    {\"name\": \"withPrecision\", \"source\": \"./internal/withPrecision\", \"alias\": null},\n    {\"name\": \"purry\", \"source\": \"./purry\", \"alias\": null}\n  ],\n  \"calls\": [\n    {\"caller\": \"ceil\", \"callee_text\": \"withPrecision\", \"kind\": \"method\", \"receiver\": \"withPrecision\", \"receiver_type_hint\": null, \"callee_file_hint\": \"./internal/withPrecision\", \"line\": 42},\n    {\"caller\": \"ceil\", \"callee_text\": \"purry\", \"kind\": \"method\", \"receiver\": \"purry\", \"receiver_type_hint\": null, \"callee_file_hint\": \"./purry\", \"line\": 42}\n  ],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\"name\": \"ceil\", \"kind\": \"function\", \"parent\": null, \"bases\": [], \"params\": [{\"name\": \"args\", \"type\": \"readonly unknown[]\"}], \"returns\": \"unknown\", \"line\": 41}\n  ]\n}",
+  "created": "2026-08-08T16:49:23+00:00",
+  "finish_reason": "stop",
+  "served_by": "Nvidia"
+}

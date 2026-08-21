@@ -1,0 +1,13 @@
+{
+  "key": "f98b2387acbfa68031113c9fb13ee3d05cefed09543f98dea51d8455b29062f9",
+  "model": "harness-qwen15b",
+  "prompt_version": "ours-v1-5c74cf9a927a",
+  "file_sha": "53b08953331d51e0d305d10d952180ef26473377287ead8bed4b1d8387063c8b",
+  "relative_path": "src/takeLast.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    {\n      \"name\": \"takeLast\",\n      \"kind\": \"function\"\n    },\n    {\n      \"name\": \"takeLastImplementation\",\n      \"kind\": \"function\"\n    }\n  ],\n  \"references\": [],\n  \"calls\": [],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"takeLast\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"array\",\n          \"type\": \"IterableContainer\"\n        },\n        {\n          \"name\": \"n\",\n          \"type\": \"number\"\n        }\n      ],\n      \"returns\": [\n        {\n          \"type\": \"T[number][]\"\n        }\n      ]\n    },\n    {\n      \"name\": \"takeLast\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"n\",\n          \"type\": \"number\"\n        }\n      ],\n      \"returns\": [\n        {\n          \"type\": \"T[number][]\"\n        }\n      ]\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:47:18+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 717,
+  "completion_tokens": 252
+}

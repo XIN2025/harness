@@ -1,0 +1,13 @@
+{
+  "key": "a8fa60ebf54fee5f1b5dd41e5e3943ec80a3d94381e8d233c40e59101b1a44ff",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "86c0d829f15ed379f0d1067772f3ab4bf8be4b42ae64abfee6b2dea326eace86",
+  "relative_path": "src/internal/quickSelect.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"quickSelect\", \"callee_text\": \"quickSelectImplementation\"},\n  {\"caller\": \"quickSelect\", \"callee_text\": \"partition\"},\n  {\"caller\": \"quickSelectImplementation\", \"callee_text\": \"swapInPlace\"},\n  {\"caller\": \"quickSelectImplementation\", \"callee_text\": \"compareFn\"},\n  {\"caller\": \"quickSelectImplementation\", \"callee_text\": \"swapInPlace\"},\n  {\"caller\": \"quickSelectImplementation\", \"callee_text\": \"partition\"}\n]}",
+  "created": "2026-08-08T23:01:02+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1093,
+  "completion_tokens": 107
+}

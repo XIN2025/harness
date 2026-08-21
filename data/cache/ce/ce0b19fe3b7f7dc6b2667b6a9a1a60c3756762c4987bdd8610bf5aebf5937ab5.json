@@ -1,0 +1,13 @@
+{
+  "key": "ce0b19fe3b7f7dc6b2667b6a9a1a60c3756762c4987bdd8610bf5aebf5937ab5",
+  "model": "harness-qwen15b",
+  "prompt_version": "ours-v1-5c74cf9a927a",
+  "file_sha": "3a6473cc51ade6e5c787e5ab09a4cccbeeed67e742a1d1772d413aa5a78befc8",
+  "relative_path": "src/findLast.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"findLast\",\n    \"findLastImplementation\"\n  ],\n  \"references\": [],\n  \"calls\": [],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"findLast\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"data\",\n          \"type\": \"readonly T[]\"\n        },\n        {\n          \"name\": \"predicate\",\n          \"type\": \"(value: T, index: number, data: readonly T[]) => value is S\"\n        }\n      ],\n      \"returns\": \"S | undefined\"\n    },\n    {\n      \"name\": \"findLastImplementation\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"data\",\n          \"type\": \"readonly T[]\"\n        },\n        {\n          \"name\": \"predicate\",\n          \"type\": \"(value: T, index: number, data: readonly T[]) => boolean\"\n        }\n      ],\n      \"returns\": \"S | undefined\"\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:34:32+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1251,
+  "completion_tokens": 254
+}

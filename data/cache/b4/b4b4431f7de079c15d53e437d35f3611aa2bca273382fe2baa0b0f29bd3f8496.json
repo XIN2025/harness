@@ -1,0 +1,13 @@
+{
+  "key": "b4b4431f7de079c15d53e437d35f3611aa2bca273382fe2baa0b0f29bd3f8496",
+  "model": "harness-qwen15b",
+  "prompt_version": "refs-v1-7386a79c1ab2+json",
+  "file_sha": "902fd581b378cf637ef1e48b907c4ceda148b509d226d017ece64ed62682ff56",
+  "relative_path": "src/invert.ts",
+  "response": "{\"calls\": [], \"callable_refs\": [{\"caller\": \"invert\", \"callee_text\": \"invertImplementation\"}, {\"caller\": \"invertImplementation\", \"callee_text\": \"Object.entries\"}, {\"caller\": \"invertImplementation\", \"callee_text\": \"result[value] = key\"}]}",
+  "created": "2026-08-08T22:27:15+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 745,
+  "completion_tokens": 57
+}

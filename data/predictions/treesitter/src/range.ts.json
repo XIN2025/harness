@@ -1,0 +1,79 @@
+{
+  "relative_path": "src/range.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "range",
+      "callee_text": "purry",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./purry",
+      "line": 61
+    },
+    {
+      "caller": "rangeImplementation",
+      "callee_text": "RangeError",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 71
+    },
+    {
+      "caller": "rangeImplementation",
+      "callee_text": "ceilingWithSnap",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 76
+    },
+    {
+      "caller": "rangeImplementation",
+      "callee_text": "from",
+      "kind": "static",
+      "receiver": "Array",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 81
+    },
+    {
+      "caller": "ceilingWithSnap",
+      "callee_text": "round",
+      "kind": "static",
+      "receiver": "Math",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 96
+    },
+    {
+      "caller": "ceilingWithSnap",
+      "callee_text": "abs",
+      "kind": "static",
+      "receiver": "Math",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 97
+    },
+    {
+      "caller": "ceilingWithSnap",
+      "callee_text": "abs",
+      "kind": "static",
+      "receiver": "Math",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 97
+    },
+    {
+      "caller": "ceilingWithSnap",
+      "callee_text": "ceil",
+      "kind": "static",
+      "receiver": "Math",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 99
+    }
+  ],
+  "callable_refs": []
+}

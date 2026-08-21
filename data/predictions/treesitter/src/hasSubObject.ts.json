@@ -1,0 +1,43 @@
+{
+  "relative_path": "src/hasSubObject.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "hasSubObject",
+      "callee_text": "purry",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./purry",
+      "line": 106
+    },
+    {
+      "caller": "hasSubObjectImplementation",
+      "callee_text": "entries",
+      "kind": "static",
+      "receiver": "Object",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 113
+    },
+    {
+      "caller": "hasSubObjectImplementation",
+      "callee_text": "hasOwn",
+      "kind": "static",
+      "receiver": "Object",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 114
+    },
+    {
+      "caller": "hasSubObjectImplementation",
+      "callee_text": "isDeepEqual",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./isDeepEqual",
+      "line": 118
+    }
+  ],
+  "callable_refs": []
+}

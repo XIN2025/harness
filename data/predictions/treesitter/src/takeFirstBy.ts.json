@@ -1,0 +1,52 @@
+{
+  "relative_path": "src/takeFirstBy.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "takeFirstBy",
+      "callee_text": "purryOrderRulesWithArgument",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./internal/purryOrderRules",
+      "line": 52
+    },
+    {
+      "caller": "takeFirstByImplementation",
+      "callee_text": "slice",
+      "kind": "method",
+      "receiver": "data",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 68
+    },
+    {
+      "caller": "takeFirstByImplementation",
+      "callee_text": "heapify",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./internal/heap",
+      "line": 69
+    },
+    {
+      "caller": "takeFirstByImplementation",
+      "callee_text": "slice",
+      "kind": "method",
+      "receiver": "data",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 71
+    },
+    {
+      "caller": "takeFirstByImplementation",
+      "callee_text": "heapMaybeInsert",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./internal/heap",
+      "line": 73
+    }
+  ],
+  "callable_refs": []
+}

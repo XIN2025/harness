@@ -1,0 +1,13 @@
+{
+  "key": "b707cc2021405c4091b7dc6c1ce3e607288cfb55b5525d2e1f536329a32b5c2d",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "refs-strict-v1-ca2cfcfbecef+json",
+  "file_sha": "902fd581b378cf637ef1e48b907c4ceda148b509d226d017ece64ed62682ff56",
+  "relative_path": "src/invert.ts",
+  "response": "{\"callable_refs\": [{\"caller\": \"invert\", \"callee_text\": \"invertImplementation\"}, {\"caller\": \"invert\", \"callee_text\": \"purry\"}]}",
+  "created": "2026-08-09T06:02:41+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 939,
+  "completion_tokens": 34
+}

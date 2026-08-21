@@ -1,0 +1,6 @@
+{"calls": [
+  {"caller": "swapProps", "callee_text": "purry"},
+  {"caller": "swapPropsImplementation", "callee_text": "getOwnPropertyDescriptor"},
+  {"caller": "swapPropsImplementation", "callee_text": "defineProperty"},
+  {"caller": "swapPropsImplementation", "callee_text": "Object.assign"}
+]}

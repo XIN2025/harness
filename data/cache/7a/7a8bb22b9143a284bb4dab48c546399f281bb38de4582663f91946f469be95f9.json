@@ -1,0 +1,13 @@
+{
+  "key": "7a8bb22b9143a284bb4dab48c546399f281bb38de4582663f91946f469be95f9",
+  "model": "harness-qwen15b",
+  "prompt_version": "ours-v1-5c74cf9a927a",
+  "file_sha": "b5b040887b1668ac8e8f6bd838a9b321913e1b0e1777f398ca4522b6b61c91b6",
+  "relative_path": "src/sort.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"sort\",\n    \"IterableContainer\",\n    \"ReorderedArray\",\n    \"purry\"\n  ],\n  \"references\": [],\n  \"calls\": [\n    {\n      \"caller\": \"__module__\",\n      \"callee_text\": \"sort\",\n      \"kind\": \"method\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": \"src/sort.ts\",\n      \"line\": 1\n    },\n    {\n      \"caller\": \"__module__\",\n      \"callee_text\": \"sort\",\n      \"kind\": \"method\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": \"src/sort.ts\",\n      \"line\": 2\n    }\n  ],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"sort\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"items\",\n          \"type\": \"IterableContainer\"\n        },\n        {\n          \"name\": \"cmp\",\n          \"type\": \"(a: T[number], b: T[number]) => number\"\n        }\n      ],\n      \"returns\": \"ReorderedArray<T>\"\n    },\n    {\n      \"name\": \"sort\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"cmp\",\n          \"type\": \"(a: T[number], b: T[number]) => number\"\n        }\n      ],\n      \"returns\": \"ReorderedArray<T>\"\n    },\n    {\n      \"name\": \"IterableContainer\",\n      \"kind\": \"interface\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": []\n    },\n    {\n      \"name\": \"ReorderedArray\",\n      \"kind\": \"interface\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": []\n    },\n    {\n      \"name\": \"purry\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"fn\",\n          \"type\": \"(a: unknown, b: unknown) => unknown\"\n        }\n      ],\n      \"returns\": \"unknown\"\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:44:13+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 766,
+  "completion_tokens": 503
+}

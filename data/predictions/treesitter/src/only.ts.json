@@ -1,0 +1,16 @@
+{
+  "relative_path": "src/only.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "only",
+      "callee_text": "purry",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./purry",
+      "line": 44
+    }
+  ],
+  "callable_refs": []
+}

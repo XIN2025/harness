@@ -1,0 +1,97 @@
+{
+  "relative_path": "lib/plugins/filter/after_render/external_link.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "addNoopener",
+      "callee_text": "includes",
+      "kind": "method",
+      "receiver": "rel",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 11
+    },
+    {
+      "caller": "externalLinkFilter",
+      "callee_text": "exec",
+      "kind": "method",
+      "receiver": "rATag",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 28
+    },
+    {
+      "caller": "externalLinkFilter",
+      "callee_text": "slice",
+      "kind": "method",
+      "receiver": "data",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 29
+    },
+    {
+      "caller": "externalLinkFilter",
+      "callee_text": "isExternalLink",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-util",
+      "line": 34
+    },
+    {
+      "caller": "externalLinkFilter",
+      "callee_text": "test",
+      "kind": "method",
+      "receiver": "rTargetAttr",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 34
+    },
+    {
+      "caller": "externalLinkFilter",
+      "callee_text": "test",
+      "kind": "method",
+      "receiver": "rRelAttr",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 37
+    },
+    {
+      "caller": "externalLinkFilter",
+      "callee_text": "replace",
+      "kind": "method",
+      "receiver": "str.replace(rRelStrAttr, addNoopener)",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 38
+    },
+    {
+      "caller": "externalLinkFilter",
+      "callee_text": "replace",
+      "kind": "method",
+      "receiver": "str",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 38
+    },
+    {
+      "caller": "externalLinkFilter",
+      "callee_text": "replace",
+      "kind": "method",
+      "receiver": "str",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 40
+    },
+    {
+      "caller": "externalLinkFilter",
+      "callee_text": "slice",
+      "kind": "method",
+      "receiver": "data",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 45
+    }
+  ],
+  "callable_refs": []
+}

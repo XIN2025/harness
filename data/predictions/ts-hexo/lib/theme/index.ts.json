@@ -1,0 +1,142 @@
+{
+  "relative_path": "lib/theme/index.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "Theme.constructor",
+      "callee_text": "super",
+      "kind": "super",
+      "receiver": "super",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 18
+    },
+    {
+      "caller": "Theme.constructor",
+      "callee_text": "isArray",
+      "kind": "static",
+      "receiver": "Array",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 33
+    },
+    {
+      "caller": "Theme.constructor",
+      "callee_text": "push",
+      "kind": "method",
+      "receiver": "languages",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 35
+    },
+    {
+      "caller": "Theme.constructor",
+      "callee_text": "I18n",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-i18n",
+      "line": 37
+    },
+    {
+      "caller": "Theme.constructor",
+      "callee_text": "Set",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 38
+    },
+    {
+      "caller": "Theme.constructor",
+      "callee_text": "filter",
+      "kind": "method",
+      "receiver": "languages",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 38
+    },
+    {
+      "caller": "Theme.getView",
+      "callee_text": "replace",
+      "kind": "method",
+      "receiver": "path",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 52
+    },
+    {
+      "caller": "Theme.getView",
+      "callee_text": "extname",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "path",
+      "line": 54
+    },
+    {
+      "caller": "Theme.getView",
+      "callee_text": "substring",
+      "kind": "method",
+      "receiver": "path",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 55
+    },
+    {
+      "caller": "Theme.getView",
+      "callee_text": "keys",
+      "kind": "static",
+      "receiver": "Object",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 64
+    },
+    {
+      "caller": "Theme.setView",
+      "callee_text": "extname",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "path",
+      "line": 68
+    },
+    {
+      "caller": "Theme.setView",
+      "callee_text": "substring",
+      "kind": "method",
+      "receiver": "path",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 69
+    },
+    {
+      "caller": "Theme.setView",
+      "callee_text": "View",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./view",
+      "line": 73
+    },
+    {
+      "caller": "Theme.removeView",
+      "callee_text": "extname",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "path",
+      "line": 77
+    },
+    {
+      "caller": "Theme.removeView",
+      "callee_text": "substring",
+      "kind": "method",
+      "receiver": "path",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 78
+    }
+  ],
+  "callable_refs": []
+}

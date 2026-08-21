@@ -1,0 +1,6 @@
+{"callable_refs": [
+  {"caller": "range", "callee_text": "rangeImplementation"},
+  {"caller": "range", "callee_text": "purry"},
+  {"caller": "range", "callee_text": "rangeImplementation"},
+  {"caller": "ceilingWithSnap", "callee_text": "Math.ceil"}
+]}

@@ -1,0 +1,8 @@
+{"calls": [
+  {"caller": "dropWhile", "callee_text": "purry"},
+  {"caller": "dropWhileImplementation", "callee_text": "entries"},
+  {"caller": "dropWhileImplementation", "callee_text": "slice"},
+  {"caller": "dropWhileImplementation", "callee_text": "predicate"},
+  {"caller": "dropWhileImplementation", "callee_text": "data"},
+  {"caller": "dropWhileImplementation", "callee_text": "index"}
+]}

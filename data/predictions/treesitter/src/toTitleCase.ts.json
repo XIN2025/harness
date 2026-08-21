@@ -1,0 +1,106 @@
+{
+  "relative_path": "src/toTitleCase.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "toTitleCase",
+      "callee_text": "toTitleCaseImplementation",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 127
+    },
+    {
+      "caller": "toTitleCase",
+      "callee_text": "toTitleCaseImplementation",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 128
+    },
+    {
+      "caller": "toTitleCaseImplementation",
+      "callee_text": "join",
+      "kind": "method",
+      "receiver": "words(\n    LOWER_CASE_CHARACTER_RE.test(data)\n      ? data\n      : // If the text doesn't have **any** lowercase characters, we lowercase\n        // everything; otherwise we maintain existing case as it affects word\n        // boundaries.\n        data.toLowerCase(),\n  )\n    .map(\n      (word) =>\n        `${word[0]!.toUpperCase()}${\n          preserveConsecutiveUppercase\n            ? word.slice(1)\n            : word.slice(1).toLowerCase()\n        }`,\n    )",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 138
+    },
+    {
+      "caller": "toTitleCaseImplementation",
+      "callee_text": "map",
+      "kind": "method",
+      "receiver": "words(\n    LOWER_CASE_CHARACTER_RE.test(data)\n      ? data\n      : // If the text doesn't have **any** lowercase characters, we lowercase\n        // everything; otherwise we maintain existing case as it affects word\n        // boundaries.\n        data.toLowerCase(),\n  )",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 138
+    },
+    {
+      "caller": "toTitleCaseImplementation",
+      "callee_text": "words",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./internal/words",
+      "line": 138
+    },
+    {
+      "caller": "toTitleCaseImplementation",
+      "callee_text": "test",
+      "kind": "static",
+      "receiver": "LOWER_CASE_CHARACTER_RE",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 139
+    },
+    {
+      "caller": "toTitleCaseImplementation",
+      "callee_text": "toLowerCase",
+      "kind": "method",
+      "receiver": "data",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 144
+    },
+    {
+      "caller": "toTitleCaseImplementation",
+      "callee_text": "toUpperCase",
+      "kind": "method",
+      "receiver": "word[0]!",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 148
+    },
+    {
+      "caller": "toTitleCaseImplementation",
+      "callee_text": "slice",
+      "kind": "method",
+      "receiver": "word",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 150
+    },
+    {
+      "caller": "toTitleCaseImplementation",
+      "callee_text": "toLowerCase",
+      "kind": "method",
+      "receiver": "word.slice(1)",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 151
+    },
+    {
+      "caller": "toTitleCaseImplementation",
+      "callee_text": "slice",
+      "kind": "method",
+      "receiver": "word",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 151
+    }
+  ],
+  "callable_refs": []
+}

@@ -1,0 +1,13 @@
+{
+  "key": "e4fd467cec2593200ec62b2b8874a6adcc0d7b0ab6772b4d087ed4f1a2160e61",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "refs-strict-v1-ca2cfcfbecef+json",
+  "file_sha": "7e98f0acc415cae52d9f451e6034da44904d61582649328e0f244a80cf40e980",
+  "relative_path": "src/isDeepEqual.ts",
+  "response": "{\"callable_refs\": [{\"caller\": \"isDeepEqual\", \"callee_text\": \"isDeepEqualImplementation\"}]}",
+  "created": "2026-08-09T06:02:47+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 2469,
+  "completion_tokens": 24
+}

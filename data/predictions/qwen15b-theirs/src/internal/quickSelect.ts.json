@@ -1,0 +1,23 @@
+```json
+{
+  "definitions": ["quickSelect", "swapInPlace", "CompareFunction"],
+  "references": [
+    {"name": "swapInPlace", "source": "./src/internal/swapInPlace.ts"},
+    {"name": "CompareFunction", "source": "./src/internal/types/CompareFunction.ts"}
+  ],
+  "calls": [
+    {"caller": "quickSelect", "callee_text": "partition", "kind": "method",
+     "receiver": null, "receiver_type_hint": null, "callee_file_hint": "external", "line": 10},
+    {"caller": "quickSelectImplementation", "callee_text": "swapInPlace", "kind": "method",
+     "receiver": null, "receiver_type_hint": null, "callee_file_hint": "external", "line": 24},
+    {"caller": "quickSelectImplementation", "callee_text": "partition", "kind": "method",
+     "receiver": null, "receiver_type_hint": null, "callee_file_hint": "external", "line": 30}
+  ],
+  "type_assignments": [],
+  "definitions_rich": [
+    {"name": "quickSelect", "kind": "function", "parent": null, "bases": [], "params": [{"name":"data","type":"readonly T[]"},{"name":"index","type":"number"},{"name":"compareFn","type":"CompareFunction<T>"}], "returns": "T | undefined", "line": 1},
+    {"name": "swapInPlace", "kind": "function", "parent": null, "bases": [], "params": [{"name":"data","type":"T[]"},{"name":"i","type":"number"},{"name":"j","type":"number"}], "returns": void 0, "line": 2},
+    {"name": "CompareFunction", "kind": "interface", "parent": null, "bases": [], "params": [], "returns": "number", "line": 3}
+  ]
+}
+```

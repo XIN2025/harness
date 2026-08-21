@@ -1,0 +1,13 @@
+{
+  "key": "a51f2b80092e5b0afdc90127cead72c1b1a729522c4c0c0ddf08c32c67a99037",
+  "model": "harness-llama32b",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "39a6e4c9e37b1123a72eb3d0507724c218f6bd0ee1571c775c89c41300005e52",
+  "relative_path": "src/findIndex.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"findIndex\", \"callee_text\": \"purry\"},\n  {\"caller\": \"findIndexImplementation\", \"callee_text\": \"findIndex\"},\n  {\"caller\": \"findIndexImplementation\", \"callee_text\": \"data\"},\n  {\"caller\": \"findIndexImplementation\", \"callee_text\": \"predicate\"}\n]}",
+  "created": "2026-08-08T22:37:08+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 977,
+  "completion_tokens": 71
+}

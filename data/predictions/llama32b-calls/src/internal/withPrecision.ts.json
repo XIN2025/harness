@@ -1,0 +1,15 @@
+{"calls": [
+  {"caller": "withPrecision", "callee_text": "Number.parseInt"},
+  {"caller": "withPrecision", "callee_text": "toString"},
+  {"caller": "withPrecision", "callee_text": "split"},
+  {"caller": "withPrecision", "callee_text": "e"},
+  {"caller": "withPrecision", "callee_text": "toString"},
+  {"caller": "shiftDecimalPoint", "callee_text": "Number.parseFloat"},
+  {"caller": "shiftDecimalPoint", "callee_text": "toString"},
+  {"caller": "shiftDecimalPoint", "callee_text": "split"},
+  {"caller": "shiftDecimalPoint", "callee_text": "e"},
+  {"caller": "withPrecision", "callee_text": "Number.parseInt"},
+  {"caller": "withPrecision", "callee_text": "toString"},
+  {"caller": "withPrecision", "callee_text": "split"},
+  {"caller": "withPrecision", "callee_text": "e"}
+]}

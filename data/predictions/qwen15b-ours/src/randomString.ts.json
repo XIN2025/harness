@@ -1,0 +1,96 @@
+```json
+{
+  "definitions": [
+    "randomString",
+    "ALPHABET",
+    "purry",
+    "randomStringImplementation"
+  ],
+  "references": [],
+  "calls": [
+    {
+      "caller": "__module__",
+      "callee_text": "randomString",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "src/randomString.ts",
+      "line": 1
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "randomString",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "src/randomString.ts",
+      "line": 2
+    }
+  ],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "randomString",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "length",
+          "kind": "param",
+          "type": "number"
+        }
+      ],
+      "returns": {
+        "type": "string"
+      },
+      "line": 1
+    },
+    {
+      "name": "ALPHABET",
+      "kind": "constant",
+      "parent": "__module__",
+      "bases": [],
+      "params": [],
+      "returns": {
+        "type": "string"
+      },
+      "line": 3
+    },
+    {
+      "name": "purry",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "kind": "param",
+          "type": "Function"
+        }
+      ],
+      "returns": {
+        "type": "Function"
+      },
+      "line": 4
+    },
+    {
+      "name": "randomStringImplementation",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "length",
+          "kind": "param",
+          "type": "number"
+        }
+      ],
+      "returns": {
+        "type": "string"
+      },
+      "line": 10
+    }
+  ]
+}
+```

@@ -1,0 +1,61 @@
+{
+  "relative_path": "src/internal/quickSelect.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "quickSelect",
+      "callee_text": "quickSelectImplementation",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 30
+    },
+    {
+      "caller": "quickSelectImplementation",
+      "callee_text": "partition",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 54
+    },
+    {
+      "caller": "quickSelectImplementation",
+      "callee_text": "quickSelectImplementation",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 60
+    },
+    {
+      "caller": "partition",
+      "callee_text": "compareFn",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 81
+    },
+    {
+      "caller": "partition",
+      "callee_text": "swapInPlace",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./swapInPlace",
+      "line": 83
+    },
+    {
+      "caller": "partition",
+      "callee_text": "swapInPlace",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./swapInPlace",
+      "line": 88
+    }
+  ],
+  "callable_refs": []
+}

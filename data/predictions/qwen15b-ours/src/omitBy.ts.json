@@ -1,0 +1,47 @@
+```json
+{
+  "definitions": [
+    "omitBy",
+    "pickBy"
+  ],
+  "references": [],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "omitBy",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "T"
+        },
+        {
+          "name": "predicate",
+          "type": "(value: EnumerableStringKeyedValueOf<T>, key: EnumerableStringKeyOf<T>, data: T) => value is S"
+        }
+      ],
+      "returns": "PartialEnumerableKeysNarrowed<T, S>"
+    },
+    {
+      "name": "pickBy",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "T"
+        },
+        {
+          "name": "predicate",
+          "type": "(value: EnumerableStringKeyedValueOf<T>, key: EnumerableStringKeyOf<T>, data: T) => boolean"
+        }
+      ],
+      "returns": "PartialEnumerableKeys<T>"
+    }
+  ]
+}
+```

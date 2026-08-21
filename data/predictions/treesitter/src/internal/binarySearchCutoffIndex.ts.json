@@ -1,0 +1,16 @@
+{
+  "relative_path": "src/internal/binarySearchCutoffIndex.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "binarySearchCutoffIndex",
+      "callee_text": "predicate",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 27
+    }
+  ],
+  "callable_refs": []
+}

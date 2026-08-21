@@ -1,0 +1,43 @@
+```json
+{
+  "definitions": [
+    "hasProp",
+    "HasProp"
+  ],
+  "references": [],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "hasProp",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "T"
+        },
+        {
+          "name": "key",
+          "type": "Key extends KeysOfUnion<T> ? Key : never"
+        }
+      ],
+      "returns": "data is HasProp<T, Key>"
+    },
+    {
+      "name": "HasProp",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "T",
+          "type": "object"
+        }
+      ],
+      "returns": "boolean"
+    }
+  ]
+}
+```

@@ -1,0 +1,11 @@
+{"calls": [
+  {"caller": "dropFirstBy", "callee_text": "purryOrderRulesWithArgument"},
+  {"caller": "dropFirstByImplementation", "callee_text": "heapify"},
+  {"caller": "dropFirstByImplementation", "callee_text": "heapMaybeInsert"},
+  {"caller": "dropFirstByImplementation", "callee_text": "compareFn"},
+  {"caller": "dropFirstByImplementation", "callee_text": "n"},
+  {"caller": "dropFirstByImplementation", "callee_text": "data.slice(0, n)"},
+  {"caller": "dropFirstByImplementation", "callee_text": "rest"},
+  {"caller": "dropFirstByImplementation", "callee_text": "item"},
+  {"caller": "dropFirstByImplementation", "callee_text": "previousHead"}
+]}

@@ -1,0 +1,13 @@
+{
+  "key": "b2464555ca5476621f81c834a5a3a0e7b4f8b80ad8134932bbdb8320f57e6e45",
+  "model": "harness-qwen15b",
+  "prompt_version": "refs-strict-v1-ca2cfcfbecef+json",
+  "file_sha": "afcc96daefa55f4d53e1a7cb0c9b8f785b917365068cb745a0b78518a909bb48",
+  "relative_path": "src/uncapitalize.ts",
+  "response": "{\"calls\": [], \"callable_refs\": [{\"caller\": \"uncapitalize\", \"callee_text\": \"uncapitalizeImplementation\"}]}",
+  "created": "2026-08-09T05:51:28+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1242,
+  "completion_tokens": 28
+}

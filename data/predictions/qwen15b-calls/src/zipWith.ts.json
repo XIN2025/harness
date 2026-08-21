@@ -1,0 +1,6 @@
+{"calls": [
+  {"caller": "zipWith", "callee_text": "lazyDataLastImpl"},
+  {"caller": "lazyDataLastImpl", "callee_text": "zipWithImplementation"},
+  {"caller": "zipWithImplementation", "callee_text": "map"},
+  {"caller": "zipWithImplementation", "callee_text": "fn"}
+]}

@@ -1,0 +1,13 @@
+{
+  "key": "2610d694910d73f04446abfd19ce0356be4f598bdda79476f9b2cf7b3be68dfb",
+  "model": "harness-qwen15b",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "a436427ed54a69e9310b5855a5332d59f9e4af01677b5e645d2bf68237b7047b",
+  "relative_path": "src/mapValues.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"mapValues\", \"callee_text\": \"purry\"},\n  {\"caller\": \"mapValuesImplementation\", \"callee_text\": \"Object.entries\"},\n  {\"caller\": \"mapValuesImplementation\", \"callee_text\": \"for...of\"},\n  {\"caller\": \"mapValuesImplementation\", \"callee_text\": \"valueMapper\"}\n]}",
+  "created": "2026-08-08T22:19:17+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1046,
+  "completion_tokens": 74
+}

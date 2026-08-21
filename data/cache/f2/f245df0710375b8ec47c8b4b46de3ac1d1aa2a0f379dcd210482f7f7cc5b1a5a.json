@@ -1,0 +1,13 @@
+{
+  "key": "f245df0710375b8ec47c8b4b46de3ac1d1aa2a0f379dcd210482f7f7cc5b1a5a",
+  "model": "harness-qwen15b",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "c0cb203f156052f700038dd0eef746a0b6000792aae6d7891763d64f4c7ae2d3",
+  "relative_path": "src/divide.ts",
+  "response": "```json\n{\n  \"definitions\": [\"divide\", \"purry\"],\n  \"references\": [\n    {\"name\": \"divide\", \"source\": \"./src/divide.ts\"},\n    {\"name\": \"purry\", \"source\": \"./src/purry.ts\"}\n  ],\n  \"calls\": [\n    {\"caller\": \"divide\", \"callee_text\": \"divideImplementation\", \"kind\": \"free\",\n     \"receiver\": null, \"receiver_type_hint\": null, \"callee_file_hint\": \"./src/divide.ts\", \"line\": 15},\n    {\"caller\": \"divide\", \"callee_text\": \"divideImplementation\", \"kind\": \"free\",\n     \"receiver\": null, \"receiver_type_hint\": null, \"callee_file_hint\": \"./src/divide.ts\", \"line\": 20}\n  ],\n  \"type_assignments\": [\n    {\"scope\": \"module\", \"var\": \"divide\", \"type\": \"function\", \"type_module\": \"external\"},\n    {\"scope\": \"module\", \"var\": \"purry\", \"type\": \"function\", \"type_module\": \"external\"}\n  ],\n  \"definitions_rich\": [\n    {\"name\": \"divide\", \"kind\": \"function\", \"parent\": null, \"bases\": [], \"params\": [{\"name\": \"value\", \"type\": \"number\"}, {\"name\": \"divisor\", \"type\": \"number\"}], \"returns\": \"number\", \"line\": 1},\n    {\"name\": \"purry\", \"kind\": \"function\", \"parent\": null, \"bases\": [], \"params\": [{\"name\": \"fn\", \"type\": \"Function\"}], \"returns\": \"Function\", \"line\": 2}\n  ]\n}\n```",
+  "created": "2026-08-08T20:17:31+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 8372,
+  "completion_tokens": 354
+}

@@ -1,0 +1,12 @@
+```json
+{
+  "definitions": ["uniqueBy"],
+  "references": [
+    {"name": "lazyImplementation", "source": "./src/uniqueBy.ts"},
+    {"name": "brandedKeyFunction", "source": "./src/uniqueBy.ts"}
+  ],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": []
+}
+```

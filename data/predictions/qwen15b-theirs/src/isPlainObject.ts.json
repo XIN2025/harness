@@ -1,0 +1,11 @@
+```json
+{
+  "definitions": ["isPlainObject"],
+  "references": [
+    {"name": "internal/types/NarrowedTo", "source": "./internal/types/NarrowedTo"}
+  ],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": []
+}
+```

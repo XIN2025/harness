@@ -1,0 +1,169 @@
+{
+  "relative_path": "lib/plugins/console/render.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "renderConsole",
+      "callee_text": "call",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 21
+    },
+    {
+      "caller": "renderConsole",
+      "callee_text": "resolve",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "path",
+      "line": 25
+    },
+    {
+      "caller": "renderConsole",
+      "callee_text": "hrtime",
+      "kind": "method",
+      "receiver": "process",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 27
+    },
+    {
+      "caller": "renderConsole",
+      "callee_text": "then",
+      "kind": "this",
+      "receiver": "this.render.render({\n    path: src,\n    engine: args.engine\n  })",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 30
+    },
+    {
+      "caller": "renderConsole",
+      "callee_text": "render",
+      "kind": "this",
+      "receiver": "this.render",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 30
+    },
+    {
+      "caller": "renderConsole",
+      "callee_text": "stringify",
+      "kind": "static",
+      "receiver": "JSON",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 36
+    },
+    {
+      "caller": "renderConsole",
+      "callee_text": "stringify",
+      "kind": "static",
+      "receiver": "JSON",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 38
+    },
+    {
+      "caller": "renderConsole",
+      "callee_text": "log",
+      "kind": "method",
+      "receiver": "console",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 42
+    },
+    {
+      "caller": "renderConsole",
+      "callee_text": "resolve",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "path",
+      "line": 44
+    },
+    {
+      "caller": "renderConsole",
+      "callee_text": "prettyHrtime",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "pretty-hrtime",
+      "line": 45
+    },
+    {
+      "caller": "renderConsole",
+      "callee_text": "hrtime",
+      "kind": "method",
+      "receiver": "process",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 45
+    },
+    {
+      "caller": "renderConsole",
+      "callee_text": "info",
+      "kind": "method",
+      "receiver": "log",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 47
+    },
+    {
+      "caller": "renderConsole",
+      "callee_text": "cyan",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "picocolors",
+      "line": 47
+    },
+    {
+      "caller": "renderConsole",
+      "callee_text": "magenta",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "picocolors",
+      "line": 47
+    },
+    {
+      "caller": "renderConsole",
+      "callee_text": "tildify",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "tildify",
+      "line": 47
+    },
+    {
+      "caller": "renderConsole",
+      "callee_text": "magenta",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "picocolors",
+      "line": 47
+    },
+    {
+      "caller": "renderConsole",
+      "callee_text": "tildify",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "tildify",
+      "line": 47
+    },
+    {
+      "caller": "renderConsole",
+      "callee_text": "writeFile",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-fs",
+      "line": 48
+    }
+  ],
+  "callable_refs": []
+}

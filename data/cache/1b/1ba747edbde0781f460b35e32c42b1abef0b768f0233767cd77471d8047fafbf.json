@@ -1,0 +1,13 @@
+{
+  "key": "1ba747edbde0781f460b35e32c42b1abef0b768f0233767cd77471d8047fafbf",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "refs-strict-v1-ca2cfcfbecef+json",
+  "file_sha": "2088617adbf29c12e440220b243cb79e58a1fa80c5c6d2629b72c7e7128186af",
+  "relative_path": "src/internal/words.ts",
+  "response": "{\"calls\": [], \"callable_refs\": [{\"caller\": \"words\", \"callee_text\": \"flush\"}, {\"caller\": \"words\", \"callee_text\": \"slice\"}, {\"caller\": \"words\", \"callee_text\": \"sort\"}, {\"caller\": \"words\", \"callee_text\": \"map\"}, {\"caller\": \"words\", \"callee_text\": \"test\"}]}",
+  "created": "2026-08-09T06:02:29+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1212,
+  "completion_tokens": 75
+}

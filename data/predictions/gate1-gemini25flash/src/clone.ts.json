@@ -1,0 +1,270 @@
+```json
+{
+  "definitions": [
+    "clone",
+    "cloneImplementation",
+    "deepCloneObject",
+    "deepCloneArray"
+  ],
+  "references": [
+    {
+      "name": "purry",
+      "source": "./purry",
+      "alias": null
+    }
+  ],
+  "calls": [
+    {
+      "caller": "clone",
+      "callee_text": "purry",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./purry",
+      "line": 19
+    },
+    {
+      "caller": "clone",
+      "callee_text": "cloneImplementation",
+      "kind": "hook",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 19
+    },
+    {
+      "caller": "cloneImplementation",
+      "callee_text": "structuredClone",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 29
+    },
+    {
+      "caller": "cloneImplementation",
+      "callee_text": "getPrototypeOf",
+      "kind": "static",
+      "receiver": "Object",
+      "receiver_type_hint": "Object",
+      "callee_file_hint": "external",
+      "line": 33
+    },
+    {
+      "caller": "cloneImplementation",
+      "callee_text": "isArray",
+      "kind": "static",
+      "receiver": "Array",
+      "receiver_type_hint": "Array",
+      "callee_file_hint": "external",
+      "line": 35
+    },
+    {
+      "caller": "cloneImplementation",
+      "callee_text": "structuredClone",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 44
+    },
+    {
+      "caller": "cloneImplementation",
+      "callee_text": "indexOf",
+      "kind": "method",
+      "receiver": "refFrom",
+      "receiver_type_hint": "Array",
+      "callee_file_hint": "external",
+      "line": 49
+    },
+    {
+      "caller": "cloneImplementation",
+      "callee_text": "push",
+      "kind": "method",
+      "receiver": "refFrom",
+      "receiver_type_hint": "Array",
+      "callee_file_hint": "external",
+      "line": 53
+    },
+    {
+      "caller": "cloneImplementation",
+      "callee_text": "isArray",
+      "kind": "static",
+      "receiver": "Array",
+      "receiver_type_hint": "Array",
+      "callee_file_hint": "external",
+      "line": 54
+    },
+    {
+      "caller": "cloneImplementation",
+      "callee_text": "deepCloneArray",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 55
+    },
+    {
+      "caller": "cloneImplementation",
+      "callee_text": "deepCloneObject",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 56
+    },
+    {
+      "caller": "deepCloneObject",
+      "callee_text": "push",
+      "kind": "method",
+      "receiver": "refTo",
+      "receiver_type_hint": "Array",
+      "callee_file_hint": "external",
+      "line": 65
+    },
+    {
+      "caller": "deepCloneObject",
+      "callee_text": "entries",
+      "kind": "static",
+      "receiver": "Object",
+      "receiver_type_hint": "Object",
+      "callee_file_hint": "external",
+      "line": 67
+    },
+    {
+      "caller": "deepCloneObject",
+      "callee_text": "cloneImplementation",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 68
+    },
+    {
+      "caller": "deepCloneArray",
+      "callee_text": "push",
+      "kind": "method",
+      "receiver": "refTo",
+      "receiver_type_hint": "Array",
+      "callee_file_hint": "external",
+      "line": 78
+    },
+    {
+      "caller": "deepCloneArray",
+      "callee_text": "entries",
+      "kind": "method",
+      "receiver": "value",
+      "receiver_type_hint": "Array",
+      "callee_file_hint": "external",
+      "line": 80
+    },
+    {
+      "caller": "deepCloneArray",
+      "callee_text": "cloneImplementation",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 81
+    }
+  ],
+  "type_assignments": [
+    {
+      "scope": "deepCloneObject",
+      "var": "copiedValue",
+      "type": "Object",
+      "type_module": "external",
+      "from_call": null
+    },
+    {
+      "scope": "deepCloneArray",
+      "var": "copiedValue",
+      "type": "Array",
+      "type_module": "external",
+      "from_call": null
+    }
+  ],
+  "definitions_rich": [
+    {
+      "name": "clone",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "args",
+          "type": "readonly unknown[]"
+        }
+      ],
+      "returns": "unknown",
+      "line": 18
+    },
+    {
+      "name": "cloneImplementation",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "value",
+          "type": "T"
+        },
+        {
+          "name": "refFrom",
+          "type": "unknown[]"
+        },
+        {
+          "name": "refTo",
+          "type": "unknown[]"
+        }
+      ],
+      "returns": "T",
+      "line": 21
+    },
+    {
+      "name": "deepCloneObject",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "value",
+          "type": "T"
+        },
+        {
+          "name": "refFrom",
+          "type": "unknown[]"
+        },
+        {
+          "name": "refTo",
+          "type": "unknown[]"
+        }
+      ],
+      "returns": "T",
+      "line": 60
+    },
+    {
+      "name": "deepCloneArray",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "value",
+          "type": "T"
+        },
+        {
+          "name": "refFrom",
+          "type": "unknown[]"
+        },
+        {
+          "name": "refTo",
+          "type": "unknown[]"
+        }
+      ],
+      "returns": "T",
+      "line": 73
+    }
+  ]
+}
+```

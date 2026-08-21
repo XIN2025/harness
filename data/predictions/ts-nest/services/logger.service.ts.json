@@ -1,0 +1,376 @@
+{
+  "relative_path": "services/logger.service.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "__module__",
+      "callee_text": "ConsoleLogger",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./console-logger.service",
+      "line": 73
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "DateTimeFormat",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 75
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "Injectable",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../decorators/core",
+      "line": 87
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "Array",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 89
+    },
+    {
+      "caller": "Logger.WrapBuffer",
+      "callee_text": "push",
+      "kind": "method",
+      "receiver": "Logger.logBuffer",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 104
+    },
+    {
+      "caller": "Logger.WrapBuffer",
+      "callee_text": "bind",
+      "kind": "method",
+      "receiver": "originalFn",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 105
+    },
+    {
+      "caller": "Logger.WrapBuffer",
+      "callee_text": "call",
+      "kind": "method",
+      "receiver": "originalFn",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 110
+    },
+    {
+      "caller": "Logger.constructor",
+      "callee_text": "Optional",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../decorators/core",
+      "line": 118
+    },
+    {
+      "caller": "Logger.constructor",
+      "callee_text": "Optional",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../decorators/core",
+      "line": 119
+    },
+    {
+      "caller": "Logger.localInstance",
+      "callee_text": "registerLocalInstanceRef",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 124
+    },
+    {
+      "caller": "Logger.localInstance",
+      "callee_text": "getPrototypeOf",
+      "kind": "static",
+      "receiver": "Object",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 126
+    },
+    {
+      "caller": "Logger.localInstance",
+      "callee_text": "registerLocalInstanceRef",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 128
+    },
+    {
+      "caller": "Logger.error",
+      "callee_text": "concat",
+      "kind": "method",
+      "receiver": "(optionalParams.length ? optionalParams : [undefined])",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 142
+    },
+    {
+      "caller": "Logger.error",
+      "callee_text": "error",
+      "kind": "this",
+      "receiver": "this.localInstance",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 147
+    },
+    {
+      "caller": "Logger.log",
+      "callee_text": "concat",
+      "kind": "method",
+      "receiver": "optionalParams",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 158
+    },
+    {
+      "caller": "Logger.log",
+      "callee_text": "log",
+      "kind": "this",
+      "receiver": "this.localInstance",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 160
+    },
+    {
+      "caller": "Logger.warn",
+      "callee_text": "concat",
+      "kind": "method",
+      "receiver": "optionalParams",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 171
+    },
+    {
+      "caller": "Logger.warn",
+      "callee_text": "warn",
+      "kind": "this",
+      "receiver": "this.localInstance",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 173
+    },
+    {
+      "caller": "Logger.debug",
+      "callee_text": "concat",
+      "kind": "method",
+      "receiver": "optionalParams",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 184
+    },
+    {
+      "caller": "Logger.debug",
+      "callee_text": "debug",
+      "kind": "this",
+      "receiver": "this.localInstance",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 186
+    },
+    {
+      "caller": "Logger.verbose",
+      "callee_text": "concat",
+      "kind": "method",
+      "receiver": "optionalParams",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 197
+    },
+    {
+      "caller": "Logger.verbose",
+      "callee_text": "verbose",
+      "kind": "this",
+      "receiver": "this.localInstance",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 199
+    },
+    {
+      "caller": "Logger.fatal",
+      "callee_text": "concat",
+      "kind": "method",
+      "receiver": "optionalParams",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 210
+    },
+    {
+      "caller": "Logger.fatal",
+      "callee_text": "fatal",
+      "kind": "this",
+      "receiver": "this.localInstance",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 212
+    },
+    {
+      "caller": "Logger.error",
+      "callee_text": "error",
+      "kind": "this",
+      "receiver": "this.staticInstanceRef",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 227
+    },
+    {
+      "caller": "Logger.log",
+      "callee_text": "log",
+      "kind": "this",
+      "receiver": "this.staticInstanceRef",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 237
+    },
+    {
+      "caller": "Logger.warn",
+      "callee_text": "warn",
+      "kind": "this",
+      "receiver": "this.staticInstanceRef",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 247
+    },
+    {
+      "caller": "Logger.debug",
+      "callee_text": "debug",
+      "kind": "this",
+      "receiver": "this.staticInstanceRef",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 258
+    },
+    {
+      "caller": "Logger.verbose",
+      "callee_text": "verbose",
+      "kind": "this",
+      "receiver": "this.staticInstanceRef",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 268
+    },
+    {
+      "caller": "Logger.fatal",
+      "callee_text": "fatal",
+      "kind": "this",
+      "receiver": "this.staticInstanceRef",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 278
+    },
+    {
+      "caller": "Logger.flush",
+      "callee_text": "forEach",
+      "kind": "this",
+      "receiver": "this.logBuffer",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 286
+    },
+    {
+      "caller": "Logger.flush",
+      "callee_text": "methodRef",
+      "kind": "method",
+      "receiver": "item",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 287
+    },
+    {
+      "caller": "Logger.getTimestamp",
+      "callee_text": "format",
+      "kind": "method",
+      "receiver": "dateTimeFormatter",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 309
+    },
+    {
+      "caller": "Logger.getTimestamp",
+      "callee_text": "now",
+      "kind": "static",
+      "receiver": "Date",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 309
+    },
+    {
+      "caller": "Logger.overrideLogger",
+      "callee_text": "isArray",
+      "kind": "static",
+      "receiver": "Array",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 313
+    },
+    {
+      "caller": "Logger.overrideLogger",
+      "callee_text": "setLogLevels",
+      "kind": "this",
+      "receiver": "this.staticInstanceRef",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 315
+    },
+    {
+      "caller": "Logger.overrideLogger",
+      "callee_text": "isObject",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../utils/shared.utils",
+      "line": 317
+    },
+    {
+      "caller": "Logger.overrideLogger",
+      "callee_text": "error",
+      "kind": "this",
+      "receiver": "this.staticInstanceRef",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 320
+    },
+    {
+      "caller": "Logger.overrideLogger",
+      "callee_text": "Error",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 321
+    },
+    {
+      "caller": "Logger.isLevelEnabled",
+      "callee_text": "isLogLevelEnabled",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./utils",
+      "line": 331
+    },
+    {
+      "caller": "Logger.registerLocalInstanceRef",
+      "callee_text": "ConsoleLogger",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./console-logger.service",
+      "line": 338
+    }
+  ],
+  "callable_refs": []
+}

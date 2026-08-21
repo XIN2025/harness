@@ -1,0 +1,52 @@
+{
+  "relative_path": "decorators/core/optional.decorator.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "Optional",
+      "callee_text": "isUndefined",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../../utils/shared.utils",
+      "line": 22
+    },
+    {
+      "caller": "Optional",
+      "callee_text": "getMetadata",
+      "kind": "static",
+      "receiver": "Reflect",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 23
+    },
+    {
+      "caller": "Optional",
+      "callee_text": "defineMetadata",
+      "kind": "static",
+      "receiver": "Reflect",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 24
+    },
+    {
+      "caller": "Optional",
+      "callee_text": "getMetadata",
+      "kind": "static",
+      "receiver": "Reflect",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 28
+    },
+    {
+      "caller": "Optional",
+      "callee_text": "defineMetadata",
+      "kind": "static",
+      "receiver": "Reflect",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 32
+    }
+  ],
+  "callable_refs": []
+}

@@ -1,0 +1,13 @@
+{
+  "key": "cc63a55b0c68093590928a1a270bdfaa67571beadeabf599007afcda33a87956",
+  "model": "harness-qwen15b",
+  "prompt_version": "ours-v1-5c74cf9a927a",
+  "file_sha": "39294110c2d89cbe5a94fd4752b0d6fc590d11f5386beae1d94a3d020023d14f",
+  "relative_path": "src/randomString.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"randomString\",\n    \"ALPHABET\",\n    \"purry\",\n    \"randomStringImplementation\"\n  ],\n  \"references\": [],\n  \"calls\": [\n    {\n      \"caller\": \"__module__\",\n      \"callee_text\": \"randomString\",\n      \"kind\": \"method\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": \"src/randomString.ts\",\n      \"line\": 1\n    },\n    {\n      \"caller\": \"__module__\",\n      \"callee_text\": \"randomString\",\n      \"kind\": \"method\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": \"src/randomString.ts\",\n      \"line\": 2\n    }\n  ],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"randomString\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"length\",\n          \"kind\": \"param\",\n          \"type\": \"number\"\n        }\n      ],\n      \"returns\": {\n        \"type\": \"string\"\n      },\n      \"line\": 1\n    },\n    {\n      \"name\": \"ALPHABET\",\n      \"kind\": \"constant\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [],\n      \"returns\": {\n        \"type\": \"string\"\n      },\n      \"line\": 3\n    },\n    {\n      \"name\": \"purry\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"fn\",\n          \"kind\": \"param\",\n          \"type\": \"Function\"\n        }\n      ],\n      \"returns\": {\n        \"type\": \"Function\"\n      },\n      \"line\": 4\n    },\n    {\n      \"name\": \"randomStringImplementation\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"length\",\n          \"kind\": \"param\",\n          \"type\": \"number\"\n        }\n      ],\n      \"returns\": {\n        \"type\": \"string\"\n      },\n      \"line\": 10\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:41:48+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 722,
+  "completion_tokens": 504
+}

@@ -1,0 +1,64 @@
+```json
+{
+  "definitions": [
+    "meanBy",
+    "purry"
+  ],
+  "references": [],
+  "calls": [
+    {
+      "caller": "__module__",
+      "callee_text": "meanBy",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "src/meanBy.ts",
+      "line": 1
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "meanBy",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "src/meanBy.ts",
+      "line": 2
+    }
+  ],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "meanBy",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "Function"
+        }
+      ],
+      "returns": {
+        "type": "number"
+      },
+      "line": 1
+    },
+    {
+      "name": "purry",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "Function"
+        }
+      ],
+      "returns": {
+        "type": "Function"
+      },
+      "line": 1
+    }
+  ]
+}
+```

@@ -1,0 +1,13 @@
+{
+  "key": "9cfa5df4f905c548e2ac39b49c1c6f721f2dfa8d2321366b750f05dc94041ac2",
+  "model": "harness-qwen15b",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "2e7a2f9c951b691ea686f1bf22cb08464355e45131b3b7227caf35f588bc61b7",
+  "relative_path": "src/takeWhile.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"takeWhile\", \"callee_text\": \"purry\"},\n  {\"caller\": \"takeWhileImplementation\", \"callee_text\": \"entries\"}\n]}",
+  "created": "2026-08-08T22:23:46+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 924,
+  "completion_tokens": 38
+}

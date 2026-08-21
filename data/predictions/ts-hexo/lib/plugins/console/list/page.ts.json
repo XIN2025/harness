@@ -1,0 +1,115 @@
+{
+  "relative_path": "lib/plugins/console/list/page.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "listPage",
+      "callee_text": "model",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 10
+    },
+    {
+      "caller": "listPage",
+      "callee_text": "map",
+      "kind": "method",
+      "receiver": "Page.sort({date: 1})",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 12
+    },
+    {
+      "caller": "listPage",
+      "callee_text": "sort",
+      "kind": "static",
+      "receiver": "Page",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 12
+    },
+    {
+      "caller": "listPage",
+      "callee_text": "format",
+      "kind": "method",
+      "receiver": "page.date",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 13
+    },
+    {
+      "caller": "listPage",
+      "callee_text": "gray",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "picocolors",
+      "line": 14
+    },
+    {
+      "caller": "listPage",
+      "callee_text": "magenta",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "picocolors",
+      "line": 14
+    },
+    {
+      "caller": "listPage",
+      "callee_text": "map",
+      "kind": "method",
+      "receiver": "['Date', 'Title', 'Path']",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 18
+    },
+    {
+      "caller": "listPage",
+      "callee_text": "underline",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "picocolors",
+      "line": 18
+    },
+    {
+      "caller": "listPage",
+      "callee_text": "unshift",
+      "kind": "method",
+      "receiver": "data",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 20
+    },
+    {
+      "caller": "listPage",
+      "callee_text": "table",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "fast-text-table",
+      "line": 22
+    },
+    {
+      "caller": "listPage",
+      "callee_text": "log",
+      "kind": "method",
+      "receiver": "console",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 26
+    },
+    {
+      "caller": "listPage",
+      "callee_text": "log",
+      "kind": "method",
+      "receiver": "console",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 27
+    }
+  ],
+  "callable_refs": []
+}

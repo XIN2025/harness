@@ -1,0 +1,4 @@
+{"calls": [
+  {"caller": "nthBy", "callee_text": "purryOrderRulesWithArgument"},
+  {"caller": "nthByImplementation", "callee_text": "quickSelect"}
+]}

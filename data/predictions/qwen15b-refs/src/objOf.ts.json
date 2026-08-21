@@ -1,0 +1,1 @@
+{"calls": [], "callable_refs": [{"caller": "objOf", "callee_text": "objOfImplementation"}, {"caller": "objOfImplementation", "callee_text": "value"}, {"caller": "objOfImplementation", "callee_text": "key"}]}

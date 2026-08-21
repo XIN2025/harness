@@ -1,0 +1,116 @@
+```json
+{
+  "definitions": [
+    "pullObject",
+    "BoundedPartial",
+    "IterableContainer",
+    "purry",
+    "prop",
+    "pipe"
+  ],
+  "references": [
+    {"name": "internal/types/BoundedPartial", "source": "./src/internal/types/BoundedPartial.ts"},
+    {"name": "internal/types/IterableContainer", "source": "./src/internal/types/IterableContainer.ts"},
+    {"name": "purry", "source": "./src/purry.ts"},
+    {"name": "prop", "source": "./src/pullObject.ts"},
+    {"name": "pipe", "source": "./src/pullObject.ts"}
+  ],
+  "calls": [
+    {
+      "caller": "pullObject",
+      "callee_text": "prop",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "internal/types/BoundedPartial.ts",
+      "line": 1
+    },
+    {
+      "caller": "pullObject",
+      "callee_text": "prop",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "internal/types/IterableContainer.ts",
+      "line": 2
+    }
+  ],
+  "type_assignments": [
+    {"scope": "module", "var": "pullObject", "type": "function", "type_module": "./src/pullObject.ts"},
+    {"scope": "module", "var": "BoundedPartial", "type": "interface", "type_module": "./src/internal/types/BoundedPartial.ts"},
+    {"scope": "module", "var": "IterableContainer", "type": "interface", "type_module": "./src/internal/types/IterableContainer.ts"},
+    {"scope": "module", "var": "purry", "type": "function", "type_module": "./src/purry.ts"},
+    {"scope": "module", "var": "prop", "type": "function", "type_module": "./src/pullObject.ts"},
+    {"scope": "module", "var": "pipe", "type": "function", "type_module": "./src/pullObject.ts"}
+  ],
+  "definitions_rich": [
+    {
+      "name": "pullObject",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {"name": "data", "type": "IterableContainer"},
+        {"name": "keyExtractor", "type": "(item: T[number], index: number, data: T) => K"},
+        {"name": "valueExtractor", "type": "(item: T[number], index: number, data: T) => V"}
+      ],
+      "returns": "Partial<Record<K, V>>",
+      "line": 1
+    },
+    {
+      "name": "BoundedPartial",
+      "kind": "interface",
+      "parent": null,
+      "bases": [],
+      "params": [],
+      "returns": null,
+      "line": 2
+    },
+    {
+      "name": "IterableContainer",
+      "kind": "interface",
+      "parent": null,
+      "bases": [],
+      "params": [],
+      "returns": null,
+      "line": 3
+    },
+    {
+      "name": "purry",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {"name": "fn", "type": "Function"},
+        {"name": "arity", "type": "number"}
+      ],
+      "returns": "Function",
+      "line": 4
+    },
+    {
+      "name": "prop",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {"name": "key", "type": "PropertyKey"},
+        {"name": "obj", "type": "any"}
+      ],
+      "returns": "any",
+      "line": 5
+    },
+    {
+      "name": "pipe",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {"name": "fn1", "type": "Function"},
+        {"name": "fn2", "type": "Function"}
+      ],
+      "returns": "Function",
+      "line": 6
+    }
+  ]
+}
+```

@@ -1,0 +1,16 @@
+{
+  "relative_path": "src/swapProps.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "swapProps",
+      "callee_text": "purry",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./purry",
+      "line": 47
+    }
+  ],
+  "callable_refs": []
+}

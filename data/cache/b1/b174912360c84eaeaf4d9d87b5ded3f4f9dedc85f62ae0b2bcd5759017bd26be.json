@@ -1,0 +1,13 @@
+{
+  "key": "b174912360c84eaeaf4d9d87b5ded3f4f9dedc85f62ae0b2bcd5759017bd26be",
+  "model": "harness-qwen15b",
+  "prompt_version": "refs-strict-v1-ca2cfcfbecef+json",
+  "file_sha": "e51653f72ff630ab4a58c8a96ed9d95d3b3fa7b22e88b6aa710ab0bdde984276",
+  "relative_path": "src/split.ts",
+  "response": "{\"calls\": [], \"callable_refs\": [{\"caller\": \"split\", \"callee_text\": \"String.prototype.split\"}]}",
+  "created": "2026-08-09T05:50:30+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1596,
+  "completion_tokens": 25
+}

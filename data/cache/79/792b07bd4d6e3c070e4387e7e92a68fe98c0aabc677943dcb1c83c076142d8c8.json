@@ -1,0 +1,10 @@
+{
+  "key": "792b07bd4d6e3c070e4387e7e92a68fe98c0aabc677943dcb1c83c076142d8c8",
+  "model": "gemini-3.5-flash",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "c0cb203f156052f700038dd0eef746a0b6000792aae6d7891763d64f4c7ae2d3",
+  "relative_path": "src/divide.ts",
+  "response": "{\n  \"definitions\": [\n    \"divide\",\n    \"divideImplementation\"\n  ],\n  \"references\": [\n    {\n      \"name\": \"purry\",\n      \"source\": \"./purry\",\n      \"alias\": null\n    }\n  ],\n  \"calls\": [\n    {\n      \"caller\": \"divide\",\n      \"callee_text\": \"purry\",\n      \"kind\": \"free\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": \"./purry\",\n      \"line\": 35\n    }\n  ],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"divide\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"args\",\n          \"type\": \"readonly unknown[]\"\n        }\n      ],\n      \"returns\": \"unknown\",\n      \"line\": 34\n    },\n    {\n      \"name\": \"divideImplementation\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"value\",\n          \"type\": \"number\"\n        },\n        {\n          \"name\": \"divisor\",\n          \"type\": \"number\"\n        }\n      ],\n      \"returns\": \"number\",\n      \"line\": 41\n    }\n  ]\n}",
+  "created": "2026-08-08T16:24:44+00:00",
+  "finish_reason": "stop"
+}

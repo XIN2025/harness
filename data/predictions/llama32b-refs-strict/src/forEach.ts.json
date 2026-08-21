@@ -1,0 +1,4 @@
+{"callable_refs": [
+  {"caller": "forEach", "callee_text": "forEachImplementation"},
+  {"caller": "forEach", "callee_text": "lazyImplementation"}
+]}

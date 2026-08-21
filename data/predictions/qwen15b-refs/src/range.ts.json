@@ -1,0 +1,9 @@
+{
+  "calls": [],
+  "callable_refs": [
+    {
+      "caller": "range",
+      "callee_text": "rangeImplementation"
+    }
+  ]
+}

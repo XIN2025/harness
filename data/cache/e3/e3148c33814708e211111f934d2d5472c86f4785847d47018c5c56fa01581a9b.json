@@ -1,0 +1,13 @@
+{
+  "key": "e3148c33814708e211111f934d2d5472c86f4785847d47018c5c56fa01581a9b",
+  "model": "harness-llama32b",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "4392703e7d4196cb731d8653d4978a5f3e92938e0868620b8348fb43d61822e6",
+  "relative_path": "src/debounce.ts",
+  "response": "{\n  \"definitions\": [\"debounce\", \"Debouncer\"],\n  \"references\": [\n    {\"name\": \"debounce\", \"source\": \"./internal/types/StrictFunction\"},\n    {\"name\": \"Debouncer\", \"source\": \"./types.ts\"}\n  ],\n  \"calls\": [\n    {\"caller\": \"debounce\", \"callee_text\": \"identity\", \"kind\": \"free\",\n     \"receiver\": null, \"receiver_type_hint\": null, \"callee_file_hint\": \"internal/types/StrictFunction\", \"line\": 1}\n  ],\n  \"type_assignments\": [\n    {\"scope\": \"module\", \"var\": \"debounce\", \"type\": \"Debouncer\", \"type_module\": \"./types.ts\"}\n  ],\n  \"definitions_rich\": [\n    {\"name\": \"debounce\", \"kind\": \"function\", \"parent\": null, \"bases\": [], \"params\": [], \"returns\": null, \"line\": 1}\n  ]\n}",
+  "created": "2026-08-08T21:14:11+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 10975,
+  "completion_tokens": 202
+}

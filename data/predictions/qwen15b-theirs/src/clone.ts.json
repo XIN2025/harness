@@ -1,0 +1,25 @@
+```json
+{
+  "definitions": [
+    "clone",
+    "isPlainObject",
+    "purry"
+  ],
+  "references": [
+    {"name": "clone", "source": "./src/clone.ts"},
+    {"name": "isPlainObject", "source": "./src/clone.ts"},
+    {"name": "purry", "source": "./src/clone.ts"}
+  ],
+  "calls": [],
+  "type_assignments": [
+    {"scope": "module", "var": "clone", "type": "function", "type_module": "src"},
+    {"scope": "module", "var": "isPlainObject", "type": "function", "type_module": "src"},
+    {"scope": "module", "var": "purry", "type": "function", "type_module": "src"}
+  ],
+  "definitions_rich": [
+    {"name": "clone", "kind": "function", "parent": null, "bases": [], "params": [], "returns": null, "line": 1},
+    {"name": "isPlainObject", "kind": "function", "parent": null, "bases": [], "params": [], "returns": null, "line": 3},
+    {"name": "purry", "kind": "function", "parent": null, "bases": [], "params": [], "returns": null, "line": 5}
+  ]
+}
+```

@@ -1,0 +1,232 @@
+{
+  "relative_path": "lib/hexo/scaffold.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "Scaffold.constructor",
+      "callee_text": "join",
+      "kind": "method",
+      "receiver": "[\n        '---',\n        'layout: {{ layout }}',\n        'title: {{ title }}',\n        'date: {{ date }}',\n        'tags:',\n        '---'\n      ]",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 18
+    },
+    {
+      "caller": "Scaffold._listDir",
+      "callee_text": "map",
+      "kind": "method",
+      "receiver": "exists(scaffoldDir).then(exist => {\n      if (!exist) return [];\n\n      return listDir(scaffoldDir, {\n        ignorePattern: /^_|\\/_/\n      });\n    })",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 35
+    },
+    {
+      "caller": "Scaffold._listDir",
+      "callee_text": "then",
+      "kind": "method",
+      "receiver": "exists(scaffoldDir)",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 35
+    },
+    {
+      "caller": "Scaffold._listDir",
+      "callee_text": "exists",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-fs",
+      "line": 35
+    },
+    {
+      "caller": "Scaffold._listDir",
+      "callee_text": "listDir",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-fs",
+      "line": 38
+    },
+    {
+      "caller": "Scaffold._listDir",
+      "callee_text": "substring",
+      "kind": "method",
+      "receiver": "item",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 42
+    },
+    {
+      "caller": "Scaffold._listDir",
+      "callee_text": "extname",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "path",
+      "line": 42
+    },
+    {
+      "caller": "Scaffold._listDir",
+      "callee_text": "join",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "path",
+      "line": 43
+    },
+    {
+      "caller": "Scaffold._getScaffold",
+      "callee_text": "then",
+      "kind": "this",
+      "receiver": "this._listDir()",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 51
+    },
+    {
+      "caller": "Scaffold._getScaffold",
+      "callee_text": "_listDir",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 51
+    },
+    {
+      "caller": "Scaffold._getScaffold",
+      "callee_text": "find",
+      "kind": "method",
+      "receiver": "list",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 51
+    },
+    {
+      "caller": "Scaffold.get",
+      "callee_text": "asCallback",
+      "kind": "this",
+      "receiver": "this._getScaffold(name).then(item => {\n      if (item) {\n        return readFile(item.path);\n      }\n\n      return this.defaults[name];\n    })",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 55
+    },
+    {
+      "caller": "Scaffold.get",
+      "callee_text": "then",
+      "kind": "this",
+      "receiver": "this._getScaffold(name)",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 55
+    },
+    {
+      "caller": "Scaffold.get",
+      "callee_text": "_getScaffold",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 55
+    },
+    {
+      "caller": "Scaffold.get",
+      "callee_text": "readFile",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-fs",
+      "line": 57
+    },
+    {
+      "caller": "Scaffold.set",
+      "callee_text": "asCallback",
+      "kind": "this",
+      "receiver": "this._getScaffold(name).then(item => {\n      let path = item ? item.path : join(scaffoldDir, name);\n      if (!extname(path)) path += '.md';\n\n      return writeFile(path, content);\n    })",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 67
+    },
+    {
+      "caller": "Scaffold.set",
+      "callee_text": "then",
+      "kind": "this",
+      "receiver": "this._getScaffold(name)",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 67
+    },
+    {
+      "caller": "Scaffold.set",
+      "callee_text": "_getScaffold",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 67
+    },
+    {
+      "caller": "Scaffold.set",
+      "callee_text": "join",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "path",
+      "line": 68
+    },
+    {
+      "caller": "Scaffold.set",
+      "callee_text": "extname",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "path",
+      "line": 69
+    },
+    {
+      "caller": "Scaffold.set",
+      "callee_text": "writeFile",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-fs",
+      "line": 71
+    },
+    {
+      "caller": "Scaffold.remove",
+      "callee_text": "asCallback",
+      "kind": "this",
+      "receiver": "this._getScaffold(name).then(item => {\n      if (!item) return;\n\n      return unlink(item.path);\n    })",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 76
+    },
+    {
+      "caller": "Scaffold.remove",
+      "callee_text": "then",
+      "kind": "this",
+      "receiver": "this._getScaffold(name)",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 76
+    },
+    {
+      "caller": "Scaffold.remove",
+      "callee_text": "_getScaffold",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 76
+    },
+    {
+      "caller": "Scaffold.remove",
+      "callee_text": "unlink",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-fs",
+      "line": 79
+    }
+  ],
+  "callable_refs": []
+}

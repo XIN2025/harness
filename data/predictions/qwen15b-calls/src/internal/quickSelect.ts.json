@@ -1,0 +1,15 @@
+{"calls": [
+  {"caller": "quickSelect", "callee_text": "partition"},
+  {"caller": "quickSelectImplementation", "callee_text": "swapInPlace"},
+  {"caller": "quickSelectImplementation", "callee_text": "compareFn"},
+  {"caller": "quickSelectImplementation", "callee_text": "data"},
+  {"caller": "quickSelectImplementation", "callee_text": "left"},
+  {"caller": "quickSelectImplementation", "callee_text": "right"},
+  {"caller": "quickSelectImplementation", "callee_text": "pivotIndex"},
+  {"caller": "quickSelectImplementation", "callee_text": "i"},
+  {"caller": "quickSelectImplementation", "callee_text": "j"},
+  {"caller": "partition", "callee_text": "data"},
+  {"caller": "partition", "callee_text": "left"},
+  {"caller": "partition", "callee_text": "right"},
+  {"caller": "partition", "callee_text": "pivot"}
+]}

@@ -1,0 +1,28 @@
+```json
+{
+  "definitions": [
+    "invert",
+    "Inverted"
+  ],
+  "references": [],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "invert",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [],
+      "returns": {
+        "scope": "global",
+        "var": "invert",
+        "type": "Inverted<T>",
+        "type_module": null,
+        "from_call": false
+      },
+      "line": 10
+    }
+  ]
+}
+```

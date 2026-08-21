@@ -1,0 +1,13 @@
+{
+  "calls": [],
+  "callable_refs": [
+    {"caller": "evolve", "callee_text": "evolveImplementation"},
+    {"caller": "evolveImplementation", "callee_text": "data"},
+    {"caller": "evolveImplementation", "callee_text": "evolver"},
+    {"caller": "evolveImplementation", "callee_text": "out[key]"},
+    {"caller": "evolveImplementation", "callee_text": "typeof value === 'function'"},
+    {"caller": "evolveImplementation", "callee_text": "value(out[key])"},
+    {"caller": "evolveImplementation", "callee_text": "evolveImplementation(out[key], value)"},
+    {"caller": "evolveImplementation", "callee_text": "out"}
+  ]
+}

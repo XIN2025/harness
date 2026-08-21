@@ -1,0 +1,7 @@
+{"calls": [
+  {"caller": "toKebabCase", "callee_text": "purry"},
+  {"caller": "toKebabCaseImplementation", "callee_text": "words"},
+  {"caller": "toKebabCaseImplementation", "callee_text": "join"},
+  {"caller": "toKebabCaseImplementation", "callee_text": "toLowerCase"},
+  {"caller": "toKebabCase", "callee_text": "purry"}
+]}

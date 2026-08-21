@@ -1,0 +1,17 @@
+{"calls": [
+  {"caller": "sumBy", "callee_text": "__module__"},
+  {"caller": "sumBy", "callee_text": "purry"},
+  {"caller": "sumImplementation", "callee_text": "entries"},
+  {"caller": "sumImplementation", "callee_text": "next"},
+  {"caller": "sumImplementation", "callee_text": "value"},
+  {"caller": "sumImplementation", "callee_text": "firstValue"},
+  {"caller": "sumImplementation", "callee_text": "callbackfn"},
+  {"caller": "sumImplementation", "callee_text": "index"},
+  {"caller": "sumImplementation", "callee_text": "array"},
+  {"caller": "sumImplementation", "callee_text": "callbackfn"},
+  {"caller": "sumImplementation", "callee_text": "item"},
+  {"caller": "sumImplementation", "callee_text": "index"},
+  {"caller": "sumImplementation", "callee_text": "callbackfn"},
+  {"caller": "sumImplementation", "callee_text": "summand"},
+  {"caller": "sumImplementation", "callee_text": "callbackfn"}
+]}

@@ -1,0 +1,1453 @@
+```json
+{
+  "definitions": [
+    "times",
+    "MAX_LITERAL_SIZE",
+    "GreaterThan",
+    "purry"
+  ],
+  "references": [],
+  "calls": [
+    {
+      "caller": "__module__",
+      "callee_text": "times",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "src/times.ts",
+      "line": 1
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "times",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "src/times.ts",
+      "line": 2
+    }
+  ],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "count",
+          "type": "number"
+        },
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 1
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(index: number) => T"
+        }
+      ],
+      "returns": "TimesArray<T, N>",
+      "line": 2
+    },
+    {
+      "name": "times",
+      "kind": "function",
+      "parent

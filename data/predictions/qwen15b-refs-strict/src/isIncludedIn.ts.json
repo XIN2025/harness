@@ -1,0 +1,9 @@
+{
+  "calls": [],
+  "callable_refs": [
+    {
+      "caller": "isIncludedIn",
+      "callee_text": "Array.prototype.includes"
+    }
+  ]
+}

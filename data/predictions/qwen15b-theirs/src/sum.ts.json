@@ -1,0 +1,16 @@
+```json
+{
+  "definitions": ["sum"],
+  "references": [
+    {"name": "sum", "source": "./src/sum.ts"}
+  ],
+  "calls": [
+    {"caller": "sum", "callee_text": "sumImplementation", "kind": "free",
+     "receiver": null, "receiver_type_hint": null, "callee_file_hint": "./src/sum.ts", "line": 25}
+  ],
+  "type_assignments": [],
+  "definitions_rich": [
+    {"name": "sum", "kind": "function", "parent": null, "bases": [], "params": [{"name": "data", "type": "IterableContainer<bigint> | IterableContainer<number>"}, {"name": "data", "type": "IterableContainer<bigint> | IterableContainer<number>"}], "returns": "Sum<T>", "line": 1}
+  ]
+}
+```

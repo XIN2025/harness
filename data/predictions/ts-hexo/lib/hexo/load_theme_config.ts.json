@@ -1,0 +1,178 @@
+{
+  "relative_path": "lib/hexo/load_theme_config.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "__module__",
+      "callee_text": "join",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "path",
+      "line": 13
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "String",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 13
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "then",
+      "kind": "method",
+      "receiver": "exists(configPath).then(exist => {\n    return exist ? configPath : findConfigPath(configPath);\n  }).then(path => {\n    if (!path) return;\n\n    configPath = path;\n    return ctx.render.render({ path });\n  })",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 15
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "then",
+      "kind": "method",
+      "receiver": "exists(configPath).then(exist => {\n    return exist ? configPath : findConfigPath(configPath);\n  })",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 15
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "then",
+      "kind": "method",
+      "receiver": "exists(configPath)",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 15
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "exists",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-fs",
+      "line": 15
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "findConfigPath",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 16
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "render",
+      "kind": "method",
+      "receiver": "ctx.render",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 21
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "debug",
+      "kind": "method",
+      "receiver": "ctx.log",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 25
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "magenta",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "picocolors",
+      "line": 25
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "tildify",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "tildify",
+      "line": 25
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "deepMerge",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-util",
+      "line": 31
+    },
+    {
+      "caller": "findConfigPath",
+      "callee_text": "parse",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "path",
+      "line": 36
+    },
+    {
+      "caller": "findConfigPath",
+      "callee_text": "then",
+      "kind": "method",
+      "receiver": "readdir(dir)",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 38
+    },
+    {
+      "caller": "findConfigPath",
+      "callee_text": "readdir",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-fs",
+      "line": 38
+    },
+    {
+      "caller": "findConfigPath",
+      "callee_text": "find",
+      "kind": "method",
+      "receiver": "files",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 39
+    },
+    {
+      "caller": "findConfigPath",
+      "callee_text": "basename",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "path",
+      "line": 39
+    },
+    {
+      "caller": "findConfigPath",
+      "callee_text": "extname",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "path",
+      "line": 39
+    },
+    {
+      "caller": "findConfigPath",
+      "callee_text": "join",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "path",
+      "line": 40
+    }
+  ],
+  "callable_refs": []
+}

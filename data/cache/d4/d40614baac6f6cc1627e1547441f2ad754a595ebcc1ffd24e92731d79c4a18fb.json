@@ -1,0 +1,13 @@
+{
+  "key": "d40614baac6f6cc1627e1547441f2ad754a595ebcc1ffd24e92731d79c4a18fb",
+  "model": "harness-qwen15b",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "32f120b5ff86b42f44d0b05b06488f376ea1df9eb43a70576c45df1931b09c44",
+  "relative_path": "src/dropWhile.ts",
+  "response": "```json\n{\n  \"definitions\": [\"dropWhile\", \"purry\"],\n  \"references\": [\n    {\"name\": \"dropWhile\", \"source\": \"./src/dropWhile.ts\"},\n    {\"name\": \"purry\", \"source\": \"./src/purry.ts\"}\n  ],\n  \"calls\": [],\n  \"type_assignments\": [],\n  \"definitions_rich\": []\n}\n```",
+  "created": "2026-08-08T20:18:21+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 8512,
+  "completion_tokens": 80
+}

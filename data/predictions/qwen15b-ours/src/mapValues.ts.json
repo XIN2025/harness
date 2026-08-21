@@ -1,0 +1,266 @@
+```json
+{
+  "definitions": [
+    "mapValues",
+    "Simplify",
+    "EnumerableStringKeyOf",
+    "EnumerableStringKeyedValueOf",
+    "purry",
+    "type-fest",
+    "internal/types/EnumerableStringKeyOf",
+    "internal/types/EnumerableStringKeyedValueOf",
+    "merge",
+    "__module__"
+  ],
+  "references": [
+    {
+      "name": "mapValues",
+      "source": "src/mapValues.ts",
+      "alias": null
+    },
+    {
+      "name": "Simplify",
+      "source": "type-fest",
+      "alias": null
+    },
+    {
+      "name": "EnumerableStringKeyOf",
+      "source": "./internal/types/EnumerableStringKeyOf",
+      "alias": null
+    },
+    {
+      "name": "EnumerableStringKeyedValueOf",
+      "source": "./internal/types/EnumerableStringKeyedValueOf",
+      "alias": null
+    },
+    {
+      "name": "purry",
+      "source": "./purry",
+      "alias": null
+    },
+    {
+      "name": "type-fest",
+      "source": "type-fest",
+      "alias": null
+    },
+    {
+      "name": "internal/types/EnumerableStringKeyOf",
+      "source": "./internal/types/EnumerableStringKeyOf",
+      "alias": null
+    },
+    {
+      "name": "internal/types/EnumerableStringKeyedValueOf",
+      "source": "./internal/types/EnumerableStringKeyedValueOf",
+      "alias": null
+    },
+    {
+      "name": "merge",
+      "source": "./merge",
+      "alias": null
+    }
+  ],
+  "calls": [
+    {
+      "caller": "__module__",
+      "callee_text": "mapValues",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "src/mapValues.ts",
+      "line": 1
+    }
+  ],
+  "type_assignments": [
+    {
+      "scope": "__module__",
+      "var": "mapValues",
+      "type": "function",
+      "type_module": "./mapValues.ts",
+      "from_call": false
+    },
+    {
+      "scope": "__module__",
+      "var": "Simplify",
+      "type": "function",
+      "type_module": "type-fest",
+      "from_call": false
+    },
+    {
+      "scope": "__module__",
+      "var": "EnumerableStringKeyOf",
+      "type": "function",
+      "type_module": "./internal/types/EnumerableStringKeyOf",
+      "from_call": false
+    },
+    {
+      "scope": "__module__",
+      "var": "EnumerableStringKeyedValueOf",
+      "type": "function",
+      "type_module": "./internal/types/EnumerableStringKeyedValueOf",
+      "from_call": false
+    },
+    {
+      "scope": "__module__",
+      "var": "purry",
+      "type": "function",
+      "type_module": "./purry",
+      "from_call": false
+    },
+    {
+      "scope": "__module__",
+      "var": "type-fest",
+      "type": "function",
+      "type_module": "type-fest",
+      "from_call": false
+    },
+    {
+      "scope": "__module__",
+      "var": "internal/types/EnumerableStringKeyOf",
+      "type": "function",
+      "type_module": "./internal/types/EnumerableStringKeyOf",
+      "from_call": false
+    },
+    {
+      "scope": "__module__",
+      "var": "internal/types/EnumerableStringKeyedValueOf",
+      "type": "function",
+      "type_module": "./internal/types/EnumerableStringKeyedValueOf",
+      "from_call": false
+    }
+  ],
+  "definitions_rich": [
+    {
+      "name": "mapValues",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "type": "object",
+          "key": "T"
+        },
+        {
+          "type": "function",
+          "key": "Value"
+        }
+      ],
+      "returns": {
+        "type": "MappedValues<T, Value>"
+      },
+      "line": 1
+    },
+    {
+      "name": "Simplify",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "type": "object",
+          "key": "T"
+        }
+      ],
+      "returns": {
+        "type": "unknown"
+      },
+      "line": 1
+    },
+    {
+      "name": "EnumerableStringKeyOf",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "type": "object",
+          "key": "T"
+        }
+      ],
+      "returns": {
+        "type": "string"
+      },
+      "line": 1
+    },
+    {
+      "name": "EnumerableStringKeyedValueOf",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "type": "object",
+          "key": "T"
+        }
+      ],
+      "returns": {
+        "type": "unknown"
+      },
+      "line": 1
+    },
+    {
+      "name": "purry",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "type": "function",
+          "key": "fn"
+        }
+      ],
+      "returns": {
+        "type": "unknown"
+      },
+      "line": 1
+    },
+    {
+      "name": "type-fest",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "type": "object",
+          "key": "T"
+        }
+      ],
+      "returns": {
+        "type": "unknown"
+      },
+      "line": 1
+    },
+    {
+      "name": "internal/types/EnumerableStringKeyOf",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "type": "object",
+          "key": "T"
+        }
+      ],
+      "returns": {
+        "type": "string"
+      },
+      "line": 1
+    },
+    {
+      "name": "internal/types/EnumerableStringKeyedValueOf",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "type": "object",
+          "key": "T"
+        }
+      ],
+      "returns": {
+        "type": "unknown"
+      },
+      "line": 1
+    }
+  ]
+}
+```

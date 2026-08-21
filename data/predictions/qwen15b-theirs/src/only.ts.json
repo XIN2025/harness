@@ -1,0 +1,23 @@
+```json
+{
+  "definitions": ["Only", "only"],
+  "references": [
+    {"name": "only", "source": "./src/only.ts"},
+    {"name": "onlyImplementation", "source": "./src/only.ts"}
+  ],
+  "calls": [
+    {"caller": "only", "callee_text": "pipe", "kind": "method",
+     "receiver": null, "receiver_type_hint": null, "callee_file_hint": "external", "line": 1},
+    {"caller": "only", "callee_text": "onlyImplementation", "kind": "free",
+     "receiver": null, "receiver_type_hint": null, "callee_file_hint": "./src/only.ts", "line": 2}
+  ],
+  "type_assignments": [
+    {"scope": "module", "var": "pipe", "type": "Function", "type_module": "external"},
+    {"scope": "module", "var": "onlyImplementation", "type": "Function", "type_module": "external"}
+  ],
+  "definitions_rich": [
+    {"name": "Only", "kind": "function", "parent": null, "bases": [], "params": [], "returns": "T | undefined", "line": 1},
+    {"name": "only", "kind": "function", "parent": null, "bases": [], "params": [], "returns": "T | undefined", "line": 2}
+  ]
+}
+```

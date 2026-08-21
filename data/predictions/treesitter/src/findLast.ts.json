@@ -1,0 +1,25 @@
+{
+  "relative_path": "src/findLast.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "findLast",
+      "callee_text": "purry",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./purry",
+      "line": 74
+    },
+    {
+      "caller": "findLastImplementation",
+      "callee_text": "predicate",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 85
+    }
+  ],
+  "callable_refs": []
+}

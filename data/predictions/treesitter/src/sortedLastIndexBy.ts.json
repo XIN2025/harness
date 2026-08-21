@@ -1,0 +1,43 @@
+{
+  "relative_path": "src/sortedLastIndexBy.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "sortedLastIndexBy",
+      "callee_text": "purry",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./purry",
+      "line": 90
+    },
+    {
+      "caller": "sortedLastIndexByImplementation",
+      "callee_text": "valueFunction",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 102
+    },
+    {
+      "caller": "sortedLastIndexByImplementation",
+      "callee_text": "binarySearchCutoffIndex",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./internal/binarySearchCutoffIndex",
+      "line": 103
+    },
+    {
+      "caller": "sortedLastIndexByImplementation",
+      "callee_text": "valueFunction",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 108
+    }
+  ],
+  "callable_refs": []
+}

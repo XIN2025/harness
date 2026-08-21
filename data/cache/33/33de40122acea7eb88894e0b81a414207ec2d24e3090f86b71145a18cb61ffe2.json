@@ -1,0 +1,13 @@
+{
+  "key": "33de40122acea7eb88894e0b81a414207ec2d24e3090f86b71145a18cb61ffe2",
+  "model": "harness-qwen15b",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "e5a9c8abf6191c6292f80144f4afb58bb85b34b084029bfbf33531436802d069",
+  "relative_path": "src/product.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"product\",\n    \"purry\",\n    \"IterableContainer\",\n    \"Product\",\n    \"number\",\n    \"bigint\",\n    \"Box\"\n  ],\n  \"references\": [\n    {\"name\": \"product\", \"source\": \"./src/product.ts\"},\n    {\"name\": \"purry\", \"source\": \"./src/purry.ts\"},\n    {\"name\": \"IterableContainer\", \"source\": \"./src/internal/types/IterableContainer.ts\"},\n    {\"name\": \"Product\", \"source\": \"./src/product.ts\"},\n    {\"name\": \"number\", \"source\": \"./src/product.ts\"},\n    {\"name\": \"bigint\", \"source\": \"./src/product.ts\"},\n    {\"name\": \"Box\", \"source\": \"./src/components/Box.ts\"}\n  ],\n  \"calls\": [\n    {\n      \"caller\": \"product\",\n      \"callee_text\": \"pipe\",\n      \"kind\": \"hook\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": \"external\",\n      \"line\": 1\n    }\n  ],\n  \"type_assignments\": [\n    {\"scope\": \"module\", \"var\": \"product\", \"type\": \"function\", \"type_module\": \"./src/product.ts\"},\n    {\"scope\": \"module\", \"var\": \"purry\", \"type\": \"function\", \"type_module\": \"./src/purry.ts\"}\n  ],\n  \"definitions_rich\": [\n    {\n      \"name\": \"product\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [{\"name\": \"data\", \"type\": \"IterableContainer<bigint> | IterableContainer<number>\"}],\n      \"returns\": \"Product<T>\",\n      \"line\": 1\n    },\n    {\n      \"name\": \"purry\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [{\"name\": \"fn\", \"type\": \"Function\"}],\n      \"returns\": \"Function\",\n      \"line\": 2\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:24:36+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 8771,
+  "completion_tokens": 434
+}

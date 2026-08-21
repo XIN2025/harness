@@ -1,0 +1,13 @@
+{
+  "key": "5f4466ae986579c3be13f21c9b942dac89b1f43fc9f3a2ca2af8d94b0468926b",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "refs-v1-7386a79c1ab2+json",
+  "file_sha": "53b08953331d51e0d305d10d952180ef26473377287ead8bed4b1d8387063c8b",
+  "relative_path": "src/takeLast.ts",
+  "response": "{\"callable_refs\": [{\"caller\": \"takeLast\", \"callee_text\": \"takeLastImplementation\"}, {\"caller\": \"takeLast\", \"callee_text\": \"purry\"}]}",
+  "created": "2026-08-08T23:29:17+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 775,
+  "completion_tokens": 37
+}

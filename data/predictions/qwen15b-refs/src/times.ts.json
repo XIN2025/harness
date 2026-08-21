@@ -1,0 +1,7 @@
+{
+  "calls": [],
+  "callable_refs": [
+    {"caller": "times", "callee_text": "timesImplementation"},
+    {"caller": "timesImplementation", "callee_text": "fn"}
+  ]
+}

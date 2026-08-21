@@ -1,0 +1,116 @@
+```json
+{
+  "definitions": [
+    "fromKeys",
+    "Simplify",
+    "BoundedPartial",
+    "IterableContainer",
+    "purry",
+    "length",
+    "add",
+    "pipe"
+  ],
+  "references": [
+    {"name": "fromKeys", "source": "./src/fromKeys.ts"},
+    {"name": "Simplify", "source": "./src/internal/types/Simplify.ts"},
+    {"name": "BoundedPartial", "source": "./src/internal/types/BoundedPartial.ts"},
+    {"name": "IterableContainer", "source": "./src/internal/types/IterableContainer.ts"},
+    {"name": "purry", "source": "./src/purry.ts"},
+    {"name": "length", "source": "./src/internal/utils/length.ts"},
+    {"name": "add", "source": "./src/internal/utils/add.ts"},
+    {"name": "pipe", "source": "./src/internal/utils/pipe.ts"}
+  ],
+  "calls": [
+    {
+      "caller": "fromKeys",
+      "callee_text": "Simplify",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./src/internal/types/Simplify.ts",
+      "line": 1
+    },
+    {
+      "caller": "fromKeys",
+      "callee_text": "BoundedPartial",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./src/internal/types/BoundedPartial.ts",
+      "line": 1
+    },
+    {
+      "caller": "fromKeys",
+      "callee_text": "IterableContainer",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./src/internal/types/IterableContainer.ts",
+      "line": 1
+    },
+    {
+      "caller": "fromKeys",
+      "callee_text": "purry",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./src/purry.ts",
+      "line": 1
+    }
+  ],
+  "type_assignments": [
+    {"scope": "module", "var": "fromKeys", "type": "function", "type_module": "src/fromKeys.ts"},
+    {"scope": "module", "var": "Simplify", "type": "type", "type_module": "src/internal/types/Simplify.ts"},
+    {"scope": "module", "var": "BoundedPartial", "type": "type", "type_module": "src/internal/types/BoundedPartial.ts"},
+    {"scope": "module", "var": "IterableContainer", "type": "type", "type_module": "src/internal/types/IterableContainer.ts"},
+    {"scope": "module", "var": "purry", "type": "function", "type_module": "src/purry.ts"}
+  ],
+  "definitions_rich": [
+    {
+      "name": "fromKeys",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "data", "type": "IterableContainer<PropertyKey>"}],
+      "returns": "Simplify<FromKeys<T, V>>",
+      "line": 1
+    },
+    {
+      "name": "Simplify",
+      "kind": "type",
+      "parent": null,
+      "bases": [],
+      "params": [],
+      "returns": "unknown",
+      "line": 2
+    },
+    {
+      "name": "BoundedPartial",
+      "kind": "type",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "T", "type": "Record<PropertyKey, unknown>"}],
+      "returns": "unknown",
+      "line": 3
+    },
+    {
+      "name": "IterableContainer",
+      "kind": "type",
+      "parent": null,
+      "bases": [],
+      "params": [],
+      "returns": "unknown",
+      "line": 4
+    },
+    {
+      "name": "purry",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "fn", "type": "Function"}],
+      "returns": "unknown",
+      "line": 5
+    }
+  ]
+}
+```

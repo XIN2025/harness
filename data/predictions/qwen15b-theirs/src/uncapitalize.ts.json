@@ -1,0 +1,11 @@
+```json
+{
+  "definitions": ["uncapitalize"],
+  "references": [
+    {"name": "uncapitalize", "source": "./src/uncapitalize.ts"}
+  ],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": []
+}
+```

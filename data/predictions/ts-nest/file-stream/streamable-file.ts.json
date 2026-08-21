@@ -1,0 +1,88 @@
+{
+  "relative_path": "file-stream/streamable-file.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "__module__",
+      "callee_text": "Logger",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../services",
+      "line": 15
+    },
+    {
+      "caller": "StreamableFile.handleError",
+      "callee_text": "end",
+      "kind": "method",
+      "receiver": "res",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 25
+    },
+    {
+      "caller": "StreamableFile.handleError",
+      "callee_text": "send",
+      "kind": "method",
+      "receiver": "res",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 30
+    },
+    {
+      "caller": "StreamableFile.logError",
+      "callee_text": "error",
+      "kind": "this",
+      "receiver": "this.logger",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 34
+    },
+    {
+      "caller": "StreamableFile.constructor",
+      "callee_text": "isUint8Array",
+      "kind": "method",
+      "receiver": "types",
+      "receiver_type_hint": null,
+      "callee_file_hint": "util",
+      "line": 43
+    },
+    {
+      "caller": "StreamableFile.constructor",
+      "callee_text": "Readable",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "stream",
+      "line": 44
+    },
+    {
+      "caller": "StreamableFile.constructor",
+      "callee_text": "push",
+      "kind": "this",
+      "receiver": "this.stream",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 45
+    },
+    {
+      "caller": "StreamableFile.constructor",
+      "callee_text": "push",
+      "kind": "this",
+      "receiver": "this.stream",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 46
+    },
+    {
+      "caller": "StreamableFile.constructor",
+      "callee_text": "isFunction",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../utils/shared.utils",
+      "line": 48
+    }
+  ],
+  "callable_refs": []
+}

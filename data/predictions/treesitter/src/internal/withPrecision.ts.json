@@ -1,0 +1,151 @@
+{
+  "relative_path": "src/internal/withPrecision.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "withPrecision",
+      "callee_text": "roundingFn",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 13
+    },
+    {
+      "caller": "withPrecision",
+      "callee_text": "isInteger",
+      "kind": "static",
+      "receiver": "Number",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 16
+    },
+    {
+      "caller": "withPrecision",
+      "callee_text": "TypeError",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 17
+    },
+    {
+      "caller": "withPrecision",
+      "callee_text": "toString",
+      "kind": "method",
+      "receiver": "precision",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 18
+    },
+    {
+      "caller": "withPrecision",
+      "callee_text": "RangeError",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 23
+    },
+    {
+      "caller": "withPrecision",
+      "callee_text": "isNaN",
+      "kind": "static",
+      "receiver": "Number",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 26
+    },
+    {
+      "caller": "withPrecision",
+      "callee_text": "isFinite",
+      "kind": "static",
+      "receiver": "Number",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 26
+    },
+    {
+      "caller": "withPrecision",
+      "callee_text": "roundingFn",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 27
+    },
+    {
+      "caller": "withPrecision",
+      "callee_text": "shiftDecimalPoint",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 30
+    },
+    {
+      "caller": "withPrecision",
+      "callee_text": "roundingFn",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 31
+    },
+    {
+      "caller": "withPrecision",
+      "callee_text": "shiftDecimalPoint",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 32
+    },
+    {
+      "caller": "shiftDecimalPoint",
+      "callee_text": "toString",
+      "kind": "method",
+      "receiver": "value",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 44
+    },
+    {
+      "caller": "shiftDecimalPoint",
+      "callee_text": "split",
+      "kind": "method",
+      "receiver": "asString",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 45
+    },
+    {
+      "caller": "shiftDecimalPoint",
+      "callee_text": "parseInt",
+      "kind": "static",
+      "receiver": "Number",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 48
+    },
+    {
+      "caller": "shiftDecimalPoint",
+      "callee_text": "toString",
+      "kind": "method",
+      "receiver": "shiftedExponent",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 50
+    },
+    {
+      "caller": "shiftDecimalPoint",
+      "callee_text": "parseFloat",
+      "kind": "static",
+      "receiver": "Number",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 52
+    }
+  ],
+  "callable_refs": []
+}

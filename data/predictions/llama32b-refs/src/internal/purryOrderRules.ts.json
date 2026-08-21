@@ -1,0 +1,5 @@
+{"callable_refs": [
+  {"caller": "purryOrderRulesWithArgument", "callee_text": "orderRuleComparer"},
+  {"caller": "purryOrderRulesWithArgument", "callee_text": "isOrderRule"},
+  {"caller": "purryOrderRulesWithArgument", "callee_text": "isProjection"}
+]}

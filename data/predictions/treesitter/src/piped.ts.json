@@ -1,0 +1,16 @@
+{
+  "relative_path": "src/piped.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "piped",
+      "callee_text": "pipe",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./pipe",
+      "line": 193
+    }
+  ],
+  "callable_refs": []
+}

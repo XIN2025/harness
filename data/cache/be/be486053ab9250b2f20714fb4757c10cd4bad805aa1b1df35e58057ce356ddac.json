@@ -1,0 +1,13 @@
+{
+  "key": "be486053ab9250b2f20714fb4757c10cd4bad805aa1b1df35e58057ce356ddac",
+  "model": "harness-qwen15b",
+  "prompt_version": "refs-strict-v1-ca2cfcfbecef+json",
+  "file_sha": "5536c462e40c6ab9e0e1c07c947889ca26b896b99d232aa269ed929f75e28b10",
+  "relative_path": "src/countBy.ts",
+  "response": "{\"calls\": [], \"callable_refs\": [{\"caller\": \"countBy\", \"callee_text\": \"countByImplementation\"}, {\"caller\": \"countBy\", \"callee_text\": \"categorizationFn\"}]}",
+  "created": "2026-08-09T05:40:34+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1126,
+  "completion_tokens": 43
+}

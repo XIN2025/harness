@@ -1,0 +1,13 @@
+{
+  "key": "b0ab6cc85dbd4499d9bd2cfdba8f38f7f4697a481b75b3a82ed8a7fe3285a881",
+  "model": "harness-qwen15b",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "1fc8de33753b26e4a4d9da863b75195dc89c157083c2425c009e7968a9320922",
+  "relative_path": "src/length.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"length\", \"callee_text\": \"purry\"},\n  {\"caller\": \"lengthImplementation\", \"callee_text\": \"Array.prototype.length\"}\n]}",
+  "created": "2026-08-08T22:19:06+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 639,
+  "completion_tokens": 38
+}

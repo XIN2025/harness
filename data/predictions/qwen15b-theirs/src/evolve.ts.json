@@ -1,0 +1,79 @@
+```json
+{
+  "definitions": [
+    "evolve",
+    "GenericEvolver",
+    "Evolver",
+    "Evolved",
+    "pipe"
+  ],
+  "references": [
+    {"name": "evolve", "source": "./src/evolve.ts"},
+    {"name": "GenericEvolver", "source": "./src/evolve.ts"},
+    {"name": "Evolver", "source": "./src/evolve.ts"},
+    {"name": "Evolved", "source": "./src/evolve.ts"},
+    {"name": "pipe", "source": "./src/evolve.ts"}
+  ],
+  "calls": [
+    {
+      "caller": "evolve",
+      "callee_text": "add",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./src/evolve.ts",
+      "line": 10
+    }
+  ],
+  "type_assignments": [
+    {"scope": "module", "var": "pipe", "type": "Function", "type_module": "external"}
+  ],
+  "definitions_rich": [
+    {
+      "name": "evolve",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "object", "type": "T"}, {"name": "evolver", "type": "E"}],
+      "returns": "Evolved<T, E>",
+      "line": 1
+    },
+    {
+      "name": "GenericEvolver",
+      "kind": "interface",
+      "parent": null,
+      "bases": [],
+      "params": [],
+      "returns": null,
+      "line": 2
+    },
+    {
+      "name": "Evolver",
+      "kind": "interface",
+      "parent": null,
+      "bases": [],
+      "params": [],
+      "returns": null,
+      "line": 3
+    },
+    {
+      "name": "Evolved",
+      "kind": "type_alias",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "T", "type": "object"}, {"name": "E", "type": "Evolver<T>"}],
+      "returns": "T",
+      "line": 4
+    },
+    {
+      "name": "pipe",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "evolver", "type": "E"}],
+      "returns": "(object: T) => Evolved<T, E>",
+      "line": 5
+    }
+  ]
+}
+```

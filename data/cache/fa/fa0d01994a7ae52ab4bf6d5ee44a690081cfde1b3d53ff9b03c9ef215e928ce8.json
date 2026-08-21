@@ -1,0 +1,13 @@
+{
+  "key": "fa0d01994a7ae52ab4bf6d5ee44a690081cfde1b3d53ff9b03c9ef215e928ce8",
+  "model": "harness-qwen15b",
+  "prompt_version": "refs-v1-7386a79c1ab2+json",
+  "file_sha": "072cf96695319baa69730ece1e6c254c937416003ab0817bdaf043a39e8fda8d",
+  "relative_path": "src/range.ts",
+  "response": "{\n  \"calls\": [],\n  \"callable_refs\": [\n    {\n      \"caller\": \"range\",\n      \"callee_text\": \"rangeImplementation\"\n    }\n  ]\n}",
+  "created": "2026-08-08T22:29:18+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1282,
+  "completion_tokens": 36
+}

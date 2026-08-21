@@ -1,0 +1,13 @@
+{
+  "key": "d4be40f05dd040c3cf25823f73c25ba2d7c542c849adf28a7d666e8e6f46cba6",
+  "model": "harness-qwen15b",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "49d50fbc79b021f2572a4dc671f9947a54e1a82349b65b9b4a24fc18e1b83359",
+  "relative_path": "src/only.ts",
+  "response": "```json\n{\n  \"definitions\": [\"Only\", \"only\"],\n  \"references\": [\n    {\"name\": \"only\", \"source\": \"./src/only.ts\"},\n    {\"name\": \"onlyImplementation\", \"source\": \"./src/only.ts\"}\n  ],\n  \"calls\": [\n    {\"caller\": \"only\", \"callee_text\": \"pipe\", \"kind\": \"method\",\n     \"receiver\": null, \"receiver_type_hint\": null, \"callee_file_hint\": \"external\", \"line\": 1},\n    {\"caller\": \"only\", \"callee_text\": \"onlyImplementation\", \"kind\": \"free\",\n     \"receiver\": null, \"receiver_type_hint\": null, \"callee_file_hint\": \"./src/only.ts\", \"line\": 2}\n  ],\n  \"type_assignments\": [\n    {\"scope\": \"module\", \"var\": \"pipe\", \"type\": \"Function\", \"type_module\": \"external\"},\n    {\"scope\": \"module\", \"var\": \"onlyImplementation\", \"type\": \"Function\", \"type_module\": \"external\"}\n  ],\n  \"definitions_rich\": [\n    {\"name\": \"Only\", \"kind\": \"function\", \"parent\": null, \"bases\": [], \"params\": [], \"returns\": \"T | undefined\", \"line\": 1},\n    {\"name\": \"only\", \"kind\": \"function\", \"parent\": null, \"bases\": [], \"params\": [], \"returns\": \"T | undefined\", \"line\": 2}\n  ]\n}\n```",
+  "created": "2026-08-08T20:23:48+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 8378,
+  "completion_tokens": 313
+}

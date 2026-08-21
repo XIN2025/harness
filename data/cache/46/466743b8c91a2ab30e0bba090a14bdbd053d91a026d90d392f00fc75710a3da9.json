@@ -1,0 +1,13 @@
+{
+  "key": "466743b8c91a2ab30e0bba090a14bdbd053d91a026d90d392f00fc75710a3da9",
+  "model": "harness-qwen15b",
+  "prompt_version": "refs-strict-v1-ca2cfcfbecef+json",
+  "file_sha": "7e3ae89c322adb419d4a078d5e6f8f9ccbf52a3ca027529e0cc88a4d3c9c9989",
+  "relative_path": "src/internal/purryFromLazy.ts",
+  "response": "{\"calls\": [], \"callable_refs\": [{\"caller\": \"purryFromLazy\", \"callee_text\": \"pipe\"}]}",
+  "created": "2026-08-09T05:46:08+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 969,
+  "completion_tokens": 26
+}

@@ -1,0 +1,14 @@
+{"calls": [
+  {"caller": "sumBy", "callee_text": "purry"},
+  {"caller": "sumByImplementation", "callee_text": "entries"},
+  {"caller": "sumByImplementation", "callee_text": "next"},
+  {"caller": "sumByImplementation", "callee_text": "value"},
+  {"caller": "sumByImplementation", "callee_text": "callbackfn"},
+  {"caller": "sumByImplementation", "callee_text": "index"},
+  {"caller": "sumByImplementation", "callee_text": "array"},
+  {"caller": "sumByImplementation", "callee_text": "firstEntry"},
+  {"caller": "sumByImplementation", "callee_text": "done"},
+  {"caller": "sumByImplementation", "callee_text": "iter"},
+  {"caller": "sumByImplementation", "callee_text": "item"},
+  {"caller": "sumByImplementation", "callee_text": "summand"}
+]}

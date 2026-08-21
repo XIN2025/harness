@@ -1,0 +1,57 @@
+```json
+{
+  "definitions": [
+    "forEach",
+    "forEachImplementation",
+    "lazyImplementation"
+  ],
+  "references": [],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "forEach",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "IterableContainer"
+        },
+        {
+          "name": "callbackfn",
+          "type": "(value: T[number], index: number, data: readonly T[]) => void"
+        }
+      ],
+      "returns": "void"
+    },
+    {
+      "name": "forEachImplementation",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "callbackfn",
+          "type": "(value: T[number], index: number, data: readonly T[]) => void"
+        }
+      ],
+      "returns": "T[]"
+    },
+    {
+      "name": "lazyImplementation",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "callbackfn",
+          "type": "(value: T[number], index: number, data: readonly T[]) => void"
+        }
+      ],
+      "returns": "LazyEvaluator<T>"
+    }
+  ]
+}
+```

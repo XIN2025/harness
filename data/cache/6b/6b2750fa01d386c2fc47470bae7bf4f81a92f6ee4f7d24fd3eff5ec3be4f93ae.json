@@ -1,0 +1,13 @@
+{
+  "key": "6b2750fa01d386c2fc47470bae7bf4f81a92f6ee4f7d24fd3eff5ec3be4f93ae",
+  "model": "harness-qwen15b",
+  "prompt_version": "ours-v1-5c74cf9a927a",
+  "file_sha": "78abc81dd0a0401a76bb96d4fda26bdbcf236cab026e630834cb42548a5eb2e5",
+  "relative_path": "src/ceil.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"ceil\",\n    \"withPrecision\",\n    \"purry\"\n  ],\n  \"references\": [],\n  \"calls\": [\n    {\n      \"caller\": \"__module__\",\n      \"callee_text\": \"ceil\",\n      \"kind\": \"method\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": \"src/ceil.ts\",\n      \"line\": 1\n    },\n    {\n      \"caller\": \"__module__\",\n      \"callee_text\": \"withPrecision\",\n      \"kind\": \"method\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": \"src/ceil.ts\",\n      \"line\": 2\n    },\n    {\n      \"caller\": \"__module__\",\n      \"callee_text\": \"purry\",\n      \"kind\": \"method\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": \"src/ceil.ts\",\n      \"line\": 3\n    }\n  ],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"ceil\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"value\",\n          \"type\": \"number\"\n        },\n        {\n          \"name\": \"precision\",\n          \"type\": \"number\"\n        }\n      ],\n      \"returns\": {\n        \"type\": \"number\"\n      },\n      \"line\": 1\n    },\n    {\n      \"name\": \"withPrecision\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"fn\",\n          \"type\": \"function\"\n        }\n      ],\n      \"returns\": {\n        \"type\": \"number\"\n      },\n      \"line\": 2\n    },\n    {\n      \"name\": \"purry\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"fn\",\n          \"type\": \"function\"\n        }\n      ],\n      \"returns\": {\n        \"type\": \"number\"\n      },\n      \"line\": 3\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:31:16+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 782,
+  "completion_tokens": 489
+}

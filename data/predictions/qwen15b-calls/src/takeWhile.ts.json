@@ -1,0 +1,4 @@
+{"calls": [
+  {"caller": "takeWhile", "callee_text": "purry"},
+  {"caller": "takeWhileImplementation", "callee_text": "entries"}
+]}

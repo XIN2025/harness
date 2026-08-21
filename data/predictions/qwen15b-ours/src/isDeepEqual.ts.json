@@ -1,0 +1,143 @@
+```json
+{
+  "definitions": [
+    "isDeepEqual",
+    "isDeepEqualImplementation",
+    "isComparablePrototype",
+    "isDeepEqualArrays",
+    "isDeepEqualMaps",
+    "isDeepEqualSets"
+  ],
+  "references": [],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "isDeepEqual",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "unknown"
+        },
+        {
+          "name": "other",
+          "type": "unknown"
+        }
+      ],
+      "returns": {
+        "type": "unknown",
+        "module": "__module__"
+      },
+      "line": 1
+    },
+    {
+      "name": "isDeepEqualImplementation",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "unknown"
+        },
+        {
+          "name": "other",
+          "type": "unknown"
+        }
+      ],
+      "returns": {
+        "type": "unknown",
+        "module": "__module__"
+      },
+      "line": 10
+    },
+    {
+      "name": "isComparablePrototype",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "object"
+        },
+        {
+          "name": "other",
+          "type": "object"
+        }
+      ],
+      "returns": {
+        "type": "boolean",
+        "module": "__module__"
+      },
+      "line": 20
+    },
+    {
+      "name": "isDeepEqualArrays",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "readonly unknown[]"
+        },
+        {
+          "name": "other",
+          "type": "readonly unknown[]"
+        }
+      ],
+      "returns": {
+        "type": "boolean",
+        "module": "__module__"
+      },
+      "line": 30
+    },
+    {
+      "name": "isDeepEqualMaps",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "ReadonlyMap<unknown, unknown>"
+        },
+        {
+          "name": "other",
+          "type": "ReadonlyMap<unknown, unknown>"
+        }
+      ],
+      "returns": {
+        "type": "boolean",
+        "module": "__module__"
+      },
+      "line": 40
+    },
+    {
+      "name": "isDeepEqualSets",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "ReadonlySet<unknown>"
+        },
+        {
+          "name": "other",
+          "type": "ReadonlySet<unknown>"
+        }
+      ],
+      "returns": {
+        "type": "boolean",
+        "module": "__module__"
+      },
+      "line": 50
+    }
+  ]
+}
+```

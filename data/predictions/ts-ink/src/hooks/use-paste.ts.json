@@ -1,0 +1,115 @@
+{
+  "relative_path": "src/hooks/use-paste.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "usePaste",
+      "callee_text": "useStdinContext",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./use-stdin.js",
+      "line": 45
+    },
+    {
+      "caller": "usePaste",
+      "callee_text": "useEffect",
+      "kind": "hook",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "react",
+      "line": 47
+    },
+    {
+      "caller": "usePaste",
+      "callee_text": "setRawMode",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 52
+    },
+    {
+      "caller": "usePaste",
+      "callee_text": "setBracketedPasteMode",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 53
+    },
+    {
+      "caller": "usePaste",
+      "callee_text": "setRawMode",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 56
+    },
+    {
+      "caller": "usePaste",
+      "callee_text": "setBracketedPasteMode",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 57
+    },
+    {
+      "caller": "usePaste",
+      "callee_text": "useEffectEvent",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "react",
+      "line": 61
+    },
+    {
+      "caller": "usePaste",
+      "callee_text": "discreteUpdates",
+      "kind": "method",
+      "receiver": "reconciler",
+      "receiver_type_hint": null,
+      "callee_file_hint": "../reconciler.js",
+      "line": 65
+    },
+    {
+      "caller": "usePaste",
+      "callee_text": "handler",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 66
+    },
+    {
+      "caller": "usePaste",
+      "callee_text": "useEffect",
+      "kind": "hook",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "react",
+      "line": 70
+    },
+    {
+      "caller": "usePaste",
+      "callee_text": "on",
+      "kind": "method",
+      "receiver": "internal_eventEmitter",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 75
+    },
+    {
+      "caller": "usePaste",
+      "callee_text": "removeListener",
+      "kind": "method",
+      "receiver": "internal_eventEmitter",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 78
+    }
+  ],
+  "callable_refs": []
+}

@@ -1,0 +1,9 @@
+{"calls": [
+  {"caller": "intersection", "callee_text": "lazyImplementation"},
+  {"caller": "lazyImplementation", "callee_text": "remaining"},
+  {"caller": "lazyImplementation", "callee_text": "get"},
+  {"caller": "lazyImplementation", "callee_text": "delete"},
+  {"caller": "lazyImplementation", "callee_text": "set"},
+  {"caller": "intersection", "callee_text": "next"},
+  {"caller": "intersection", "callee_text": "done"}
+]}

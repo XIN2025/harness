@@ -1,0 +1,13 @@
+{
+  "key": "21946806bf3e6904feed39f900aeb56e20f14fed01bc733a1eadf4473770de9b",
+  "model": "harness-qwen15b",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "eaf4d156f8d82fa1140a313b16376cc147eed1c35f6252b5296e378f19595d21",
+  "relative_path": "src/toUpperCase.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"toUpperCase\", \"callee_text\": \"purry\"},\n  {\"caller\": \"toUpperCaseImplementation\", \"callee_text\": \"toUpperCase\"}\n]}",
+  "created": "2026-08-08T22:24:02+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1047,
+  "completion_tokens": 36
+}

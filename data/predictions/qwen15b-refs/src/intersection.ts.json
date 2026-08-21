@@ -1,0 +1,9 @@
+{
+  "calls": [],
+  "callable_refs": [
+    {"caller": "intersection", "callee_text": "lazyImplementation"},
+    {"caller": "lazyImplementation", "callee_text": "remaining"},
+    {"caller": "lazyImplementation", "callee_text": "other"},
+    {"caller": "lazyImplementation", "callee_text": "value"}
+  ]
+}

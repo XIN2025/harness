@@ -1,0 +1,10 @@
+{"calls": [
+  {"caller": "omit", "callee_text": "purry"},
+  {"caller": "omitImplementation", "callee_text": "hasAtLeast"},
+  {"caller": "omitImplementation", "callee_text": "keys"},
+  {"caller": "omitImplementation", "callee_text": "data"},
+  {"caller": "omitImplementation", "callee_text": "keys"},
+  {"caller": "omitImplementation", "callee_text": "data"},
+  {"caller": "omitImplementation", "callee_text": "keys"},
+  {"caller": "omitImplementation", "callee_text": "data"}
+]}

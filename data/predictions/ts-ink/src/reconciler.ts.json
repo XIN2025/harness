@@ -1,0 +1,403 @@
+{
+  "relative_path": "src/reconciler.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "__module__",
+      "callee_text": "resolve",
+      "kind": "method",
+      "receiver": "import.meta",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 38
+    },
+    {
+      "caller": "diff",
+      "callee_text": "keys",
+      "kind": "static",
+      "receiver": "Object",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 61
+    },
+    {
+      "caller": "diff",
+      "callee_text": "hasOwn",
+      "kind": "static",
+      "receiver": "Object",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 62
+    },
+    {
+      "caller": "diff",
+      "callee_text": "keys",
+      "kind": "static",
+      "receiver": "Object",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 71
+    },
+    {
+      "caller": "loadPackageJson",
+      "callee_text": "readFileSync",
+      "kind": "method",
+      "receiver": "fs",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 144
+    },
+    {
+      "caller": "loadPackageJson",
+      "callee_text": "URL",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 145
+    },
+    {
+      "caller": "loadPackageJson",
+      "callee_text": "parse",
+      "kind": "static",
+      "receiver": "JSON",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 149
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "loadPackageJson",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 169
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "warn",
+      "kind": "method",
+      "receiver": "console",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 177
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "createReconciler",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "react-reconciler",
+      "line": 184
+    },
+    {
+      "caller": "resetAfterCommit",
+      "callee_text": "onComputeLayout",
+      "kind": "method",
+      "receiver": "rootNode",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 208
+    },
+    {
+      "caller": "resetAfterCommit",
+      "callee_text": "emitLayoutListeners",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./dom.js",
+      "line": 211
+    },
+    {
+      "caller": "resetAfterCommit",
+      "callee_text": "onStaticChange",
+      "kind": "method",
+      "receiver": "rootNode",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 219
+    },
+    {
+      "caller": "resetAfterCommit",
+      "callee_text": "onImmediateRender",
+      "kind": "method",
+      "receiver": "rootNode",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 229
+    },
+    {
+      "caller": "resetAfterCommit",
+      "callee_text": "onRender",
+      "kind": "method",
+      "receiver": "rootNode",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 236
+    },
+    {
+      "caller": "createInstance",
+      "callee_text": "Error",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 252
+    },
+    {
+      "caller": "createInstance",
+      "callee_text": "createNode",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./dom.js",
+      "line": 260
+    },
+    {
+      "caller": "createInstance",
+      "callee_text": "entries",
+      "kind": "static",
+      "receiver": "Object",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 262
+    },
+    {
+      "caller": "createInstance",
+      "callee_text": "setStyle",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./dom.js",
+      "line": 268
+    },
+    {
+      "caller": "createInstance",
+      "callee_text": "applyStyles",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./styles.js",
+      "line": 271
+    },
+    {
+      "caller": "createInstance",
+      "callee_text": "setAttribute",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./dom.js",
+      "line": 292
+    },
+    {
+      "caller": "createTextInstance",
+      "callee_text": "Error",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 299
+    },
+    {
+      "caller": "createTextInstance",
+      "callee_text": "createTextNode",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./dom.js",
+      "line": 304
+    },
+    {
+      "caller": "hideTextInstance",
+      "callee_text": "setTextNodeValue",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./dom.js",
+      "line": 308
+    },
+    {
+      "caller": "unhideTextInstance",
+      "callee_text": "setTextNodeValue",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./dom.js",
+      "line": 311
+    },
+    {
+      "caller": "hideInstance",
+      "callee_text": "setDisplay",
+      "kind": "method",
+      "receiver": "node.yogaNode",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 315
+    },
+    {
+      "caller": "unhideInstance",
+      "callee_text": "setDisplay",
+      "kind": "method",
+      "receiver": "node.yogaNode",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 318
+    },
+    {
+      "caller": "removeChildFromContainer",
+      "callee_text": "clearStaticNodeIfContained",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 352
+    },
+    {
+      "caller": "removeChildFromContainer",
+      "callee_text": "findRootNode",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 352
+    },
+    {
+      "caller": "removeChildFromContainer",
+      "callee_text": "removeChildNode",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./dom.js",
+      "line": 354
+    },
+    {
+      "caller": "removeChildFromContainer",
+      "callee_text": "freeYogaSubtree",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./dom.js",
+      "line": 355
+    },
+    {
+      "caller": "commitUpdate",
+      "callee_text": "findRootNode",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 359
+    },
+    {
+      "caller": "commitUpdate",
+      "callee_text": "diff",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 366
+    },
+    {
+      "caller": "commitUpdate",
+      "callee_text": "diff",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 368
+    },
+    {
+      "caller": "commitUpdate",
+      "callee_text": "entries",
+      "kind": "static",
+      "receiver": "Object",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 378
+    },
+    {
+      "caller": "commitUpdate",
+      "callee_text": "setStyle",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./dom.js",
+      "line": 380
+    },
+    {
+      "caller": "commitUpdate",
+      "callee_text": "setAttribute",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./dom.js",
+      "line": 394
+    },
+    {
+      "caller": "commitUpdate",
+      "callee_text": "applyStyles",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./styles.js",
+      "line": 399
+    },
+    {
+      "caller": "commitTextUpdate",
+      "callee_text": "setTextNodeValue",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./dom.js",
+      "line": 407
+    },
+    {
+      "caller": "removeChild",
+      "callee_text": "clearStaticNodeIfContained",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 412
+    },
+    {
+      "caller": "removeChild",
+      "callee_text": "findRootNode",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 412
+    },
+    {
+      "caller": "removeChild",
+      "callee_text": "removeChildNode",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./dom.js",
+      "line": 414
+    },
+    {
+      "caller": "removeChild",
+      "callee_text": "freeYogaSubtree",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./dom.js",
+      "line": 415
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "createContext",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "react",
+      "line": 435
+    }
+  ],
+  "callable_refs": []
+}

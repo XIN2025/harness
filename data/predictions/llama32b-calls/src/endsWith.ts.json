@@ -1,0 +1,7 @@
+{"calls": [
+  {"caller": "endsWith", "callee_text": "purry"},
+  {"caller": "endsWith", "callee_text": "endsWithImplementation"},
+  {"caller": "endsWithImplementation", "callee_text": "endsWith"},
+  {"caller": "endsWithImplementation", "callee_text": "data"},
+  {"caller": "endsWithImplementation", "callee_text": "suffix"}
+]}

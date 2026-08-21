@@ -1,0 +1,5 @@
+{"calls": [
+  {"caller": "purry", "callee_text": "strictFunction"},
+  {"caller": "purry", "callee_text": "args"},
+  {"caller": "purry", "callee_text": "lazyDataLastImpl"}
+]}

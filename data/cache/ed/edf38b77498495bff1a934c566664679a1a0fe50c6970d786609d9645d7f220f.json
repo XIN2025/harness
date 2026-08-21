@@ -1,0 +1,13 @@
+{
+  "key": "edf38b77498495bff1a934c566664679a1a0fe50c6970d786609d9645d7f220f",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "refs-strict-v1-ca2cfcfbecef+json",
+  "file_sha": "0fcaa31bd2a34bf850409c3e65142f4b6a0ed535ecba87acedebd8983989a78c",
+  "relative_path": "src/purry.ts",
+  "response": "{\"calls\": [], \"callable_refs\": [{\"caller\": \"purry\", \"callee_text\": \"fn\"}, {\"caller\": \"purry\", \"callee_text\": \"args\"}, {\"caller\": \"purry\", \"callee_text\": \"lazyDataLastImpl\"}]}",
+  "created": "2026-08-09T06:06:02+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1099,
+  "completion_tokens": 55
+}

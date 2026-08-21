@@ -1,0 +1,277 @@
+{
+  "relative_path": "lib/plugins/filter/new_post_path.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "newPostPathFilter",
+      "callee_text": "join",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "path",
+      "line": 23
+    },
+    {
+      "caller": "newPostPathFilter",
+      "callee_text": "join",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "path",
+      "line": 24
+    },
+    {
+      "caller": "newPostPathFilter",
+      "callee_text": "Permalink",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-util",
+      "line": 31
+    },
+    {
+      "caller": "newPostPathFilter",
+      "callee_text": "join",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "path",
+      "line": 39
+    },
+    {
+      "caller": "newPostPathFilter",
+      "callee_text": "join",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "path",
+      "line": 43
+    },
+    {
+      "caller": "newPostPathFilter",
+      "callee_text": "join",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "path",
+      "line": 47
+    },
+    {
+      "caller": "newPostPathFilter",
+      "callee_text": "join",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "path",
+      "line": 52
+    },
+    {
+      "caller": "newPostPathFilter",
+      "callee_text": "join",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "path",
+      "line": 56
+    },
+    {
+      "caller": "newPostPathFilter",
+      "callee_text": "moment",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "moment",
+      "line": 60
+    },
+    {
+      "caller": "newPostPathFilter",
+      "callee_text": "now",
+      "kind": "static",
+      "receiver": "Date",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 60
+    },
+    {
+      "caller": "newPostPathFilter",
+      "callee_text": "keys",
+      "kind": "static",
+      "receiver": "Object",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 61
+    },
+    {
+      "caller": "newPostPathFilter",
+      "callee_text": "slice",
+      "kind": "method",
+      "receiver": "createSha1Hash().update(slug + date.unix().toString())\n          .digest('hex')",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 62
+    },
+    {
+      "caller": "newPostPathFilter",
+      "callee_text": "digest",
+      "kind": "method",
+      "receiver": "createSha1Hash().update(slug + date.unix().toString())",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 62
+    },
+    {
+      "caller": "newPostPathFilter",
+      "callee_text": "update",
+      "kind": "method",
+      "receiver": "createSha1Hash()",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 62
+    },
+    {
+      "caller": "newPostPathFilter",
+      "callee_text": "createSha1Hash",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-util",
+      "line": 62
+    },
+    {
+      "caller": "newPostPathFilter",
+      "callee_text": "toString",
+      "kind": "method",
+      "receiver": "date.unix()",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 62
+    },
+    {
+      "caller": "newPostPathFilter",
+      "callee_text": "unix",
+      "kind": "method",
+      "receiver": "date",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 62
+    },
+    {
+      "caller": "newPostPathFilter",
+      "callee_text": "format",
+      "kind": "method",
+      "receiver": "date",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 66
+    },
+    {
+      "caller": "newPostPathFilter",
+      "callee_text": "format",
+      "kind": "method",
+      "receiver": "date",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 67
+    },
+    {
+      "caller": "newPostPathFilter",
+      "callee_text": "format",
+      "kind": "method",
+      "receiver": "date",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 68
+    },
+    {
+      "caller": "newPostPathFilter",
+      "callee_text": "format",
+      "kind": "method",
+      "receiver": "date",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 69
+    },
+    {
+      "caller": "newPostPathFilter",
+      "callee_text": "format",
+      "kind": "method",
+      "receiver": "date",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 70
+    },
+    {
+      "caller": "newPostPathFilter",
+      "callee_text": "join",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "path",
+      "line": 80
+    },
+    {
+      "caller": "newPostPathFilter",
+      "callee_text": "stringify",
+      "kind": "method",
+      "receiver": "permalink",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 80
+    },
+    {
+      "caller": "newPostPathFilter",
+      "callee_text": "reject",
+      "kind": "static",
+      "receiver": "Promise",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 87
+    },
+    {
+      "caller": "newPostPathFilter",
+      "callee_text": "TypeError",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 87
+    },
+    {
+      "caller": "newPostPathFilter",
+      "callee_text": "extname",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "path",
+      "line": 90
+    },
+    {
+      "caller": "newPostPathFilter",
+      "callee_text": "extname",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "path",
+      "line": 91
+    },
+    {
+      "caller": "newPostPathFilter",
+      "callee_text": "resolve",
+      "kind": "static",
+      "receiver": "Promise",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 95
+    },
+    {
+      "caller": "newPostPathFilter",
+      "callee_text": "ensurePath",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-fs",
+      "line": 98
+    }
+  ],
+  "callable_refs": []
+}

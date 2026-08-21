@@ -1,0 +1,11 @@
+```json
+{
+  "definitions": ["sliceString"],
+  "references": [
+    {"name": "sliceString", "source": "./src/sliceString.ts"}
+  ],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": []
+}
+```

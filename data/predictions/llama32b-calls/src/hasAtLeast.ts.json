@@ -1,0 +1,8 @@
+{"calls": [
+  {"caller": "hasAtLeast", "callee_text": "purry"},
+  {"caller": "hasAtLeast", "callee_text": "hasAtLeastImplementation"},
+  {"caller": "hasAtLeastImplementation", "callee_text": "length"},
+  {"caller": "hasAtLeastImplementation", "callee_text": ">="},
+  {"caller": "hasAtLeastImplementation", "callee_text": "data"},
+  {"caller": "hasAtLeastImplementation", "callee_text": "minimum"}
+]}

@@ -1,0 +1,82 @@
+```json
+{
+  "definitions": [
+    "funnel",
+    "VOID_REDUCER_SYMBOL",
+    "RestArguments",
+    "FunnelOptions",
+    "FunnelTimingOptions",
+    "ReturnType",
+    "Parameters",
+    "Funnel",
+    "debouncer",
+    "throttle"
+  ],
+  "references": [
+    {"name": "voidReducer", "source": "./funnel.ts"},
+    {"name": "RestArguments", "source": "./funnel.ts"},
+    {"name": "FunnelOptions", "source": "./funnel.ts"},
+    {"name": "FunnelTimingOptions", "source": "./funnel.ts"},
+    {"name": "ReturnType", "source": "./funnel.ts"},
+    {"name": "Parameters", "source": "./funnel.ts"},
+    {"name": "Funnel", "source": "./funnel.ts"},
+    {"name": "debouncer", "source": "./funnel.ts"},
+    {"name": "throttle", "source": "./funnel.ts"}
+  ],
+  "calls": [
+    {
+      "caller": "funnel",
+      "callee_text": "call",
+      "kind": "method",
+      "receiver": "funnel",
+      "receiver_type_hint": null,
+      "callee_file_hint": "./funnel.ts",
+      "line": 10
+    },
+    {
+      "caller": "funnel",
+      "callee_text": "cancel",
+      "kind": "method",
+      "receiver": "funnel",
+      "receiver_type_hint": null,
+      "callee_file_hint": "./funnel.ts",
+      "line": 14
+    },
+    {
+      "caller": "funnel",
+      "callee_text": "flush",
+      "kind": "method",
+      "receiver": "funnel",
+      "receiver_type_hint": null,
+      "callee_file_hint": "./funnel.ts",
+      "line": 18
+    }
+  ],
+  "type_assignments": [
+    {"scope": "module", "var": "voidReducer", "type": "Symbol", "type_module": "./funnel.ts"},
+    {"scope": "module", "var": "RestArguments", "type": "any[]", "type_module": "./funnel.ts"},
+    {"scope": "module", "var": "FunnelOptions", "type": "{ readonly reducer?: (accumulator: R | undefined, ...params: Args) => R; } & FunnelTimingOptions; ", "type_module": "./funnel.ts"},
+    {"scope": "module", "var": "FunnelTimingOptions", "type": "| ({ readonly triggerAt?: 'end' } & (| ({ readonly minGapMs: number } & RequireAtLeastOne<{ readonly minQuietPeriodMs: number; readonly maxBurstDurationMs: number; }>) | { readonly minQuietPeriodMs?: number; readonly maxBurstDurationMs?: number; readonly minGapMs?: never; })) | { readonly triggerAt: 'start' | 'both'; readonly minQuietPeriodMs?: number; readonly maxBurstDurationMs?: number; readonly minGapMs?: number; })", "type_module": "./funnel.ts"},
+    {"scope": "module", "var": "RestArguments", "type": "any[]", "type_module": "./funnel.ts"},
+    {"scope": "module", "var": "FunnelOptions", "type": "{ readonly reducer?: (accumulator: R | undefined, ...params: Args) => R; } & FunnelTimingOptions; ", "type_module": "./funnel.ts"},
+    {"scope": "module", "var": "FunnelTimingOptions", "type": "| ({ readonly triggerAt?: 'end' } & (| ({ readonly minGapMs: number } & RequireAtLeastOne<{ readonly minQuietPeriodMs: number; readonly maxBurstDurationMs: number; }>) | { readonly minQuietPeriodMs?: number; readonly maxBurstDurationMs?: number; readonly minGapMs?: never; })) | { readonly triggerAt: 'start' | 'both'; readonly minQuietPeriodMs?: number; readonly maxBurstDurationMs?: number; readonly minGapMs?: number; })", "type_module": "./funnel.ts"},
+    {"scope": "module", "var": "ReturnType", "type": "never", "type_module": "./funnel.ts"},
+    {"scope": "module", "var": "Parameters", "type": "(...args: Args) => void", "type_module": "./funnel.ts"},
+    {"scope": "module", "var": "Funnel", "type": "{ readonly call: (...args: Args) => void; cancel: () => void; flush: () => void; get isIdle(): boolean; }", "type_module": "./funnel.ts"},
+    {"scope": "module", "var": "debouncer", "type": "(callback: (data: R) => void, { triggerAt?: 'end', minQuietPeriodMs?: number, maxBurstDurationMs?: number, minGapMs?: number; reducer?: (accumulator: R | undefined, ...params: Args) => R; }) => Funnel<Args>", "type_module": "./funnel.ts"},
+    {"scope": "module", "var": "throttle", "type": "(callback: (data: R) => void, { triggerAt?: 'end', minQuietPeriodMs?: number, maxBurstDurationMs?: number, minGapMs?: number; reducer?: (accumulator: R | undefined, ...params: Args) => R; }) => Funnel<Args>", "type_module": "./funnel.ts"}
+  ],
+  "definitions_rich": [
+    {"name": "funnel", "kind": "function", "parent": null, "bases": [], "params": [], "returns": null, "line": 1},
+    {"name": "VOID_REDUCER_SYMBOL", "kind": "symbol", "parent": null, "bases": [], "params": [], "returns": null, "line": 2},
+    {"name": "RestArguments", "kind": "type", "parent": null, "bases": [], "params": [], "returns": null, "line": 3},
+    {"name": "FunnelOptions", "kind": "interface", "parent": null, "bases": [], "params": [], "returns": null, "line": 4},
+    {"name": "FunnelTimingOptions", "kind": "interface", "parent": null, "bases": [], "params": [], "returns": null, "line": 5},
+    {"name": "ReturnType", "kind": "type", "parent": null, "bases": [], "params": [], "returns": null, "line": 6},
+    {"name": "Parameters", "kind": "type", "parent": null, "bases": [], "params": [], "returns": null, "line": 7},
+    {"name": "Funnel", "kind": "interface", "parent": null, "bases": [], "params": [], "returns": null, "line": 8},
+    {"name": "debouncer", "kind": "function", "parent": null, "bases": [], "params": [], "returns": null, "line": 9},
+    {"name": "throttle", "kind": "function", "parent": null, "bases": [], "params": [], "returns": null, "line": 10}
+  ]
+}
+```

@@ -1,0 +1,115 @@
+```json
+{
+  "definitions": [
+    {
+      "name": "CompareFunction",
+      "exported": true,
+      "source": "./types/CompareFunction.ts"
+    },
+    {
+      "name": "NonEmptyArray",
+      "exported": true,
+      "source": "./types/NonEmptyArray.ts"
+    }
+  ],
+  "references": [
+    {
+      "name": "OrderRule",
+      "source": "./internal/purryOrderRules.ts",
+      "alias": null
+    },
+    {
+      "name": "Projection",
+      "source": "./internal/purryOrderRules.ts",
+      "alias": null
+    },
+    {
+      "name": "Comparable",
+      "source": "./internal/purryOrderRules.ts",
+      "alias": null
+    },
+    {
+      "name": "ComparablePrimitive",
+      "source": "./internal/purryOrderRules.ts",
+      "alias": null
+    }
+  ],
+  "calls": [
+    {
+      "caller": "__module__",
+      "callee_text": "purryOrderRules",
+      "kind": "function",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./internal/purryOrderRules.ts",
+      "line": 1
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "purryOrderRulesWithArgument",
+      "kind": "function",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./internal/purryOrderRules.ts",
+      "line": 1
+    }
+  ],
+  "type_assignments": [
+    {
+      "scope": "__global__",
+      "var": "COMPARATORS",
+      "type": "const",
+      "type_module": null,
+      "from_call": false
+    },
+    {
+      "scope": "__global__",
+      "var": "OrderRule",
+      "type": "function",
+      "type_module": "./internal/purryOrderRules.ts",
+      "from_call": false
+    },
+    {
+      "scope": "__global__",
+      "var": "Projection",
+      "type": "function",
+      "type_module": "./internal/purryOrderRules.ts",
+      "from_call": false
+    },
+    {
+      "scope": "__global__",
+      "var": "Comparable",
+      "type": "object",
+      "type_module": "./internal/purryOrderRules.ts",
+      "from_call": false
+    },
+    {
+      "scope": "__global__",
+      "var": "ComparablePrimitive",
+      "type": "bigint | boolean | number | string",
+      "type_module": "./internal/purryOrderRules.ts",
+      "from_call": false
+    }
+  ],
+  "definitions_rich": [
+    {
+      "name": "CompareFunction",
+      "kind": "function",
+      "parent": "__global__",
+      "bases": [],
+      "params": [],
+      "returns": null,
+      "line": 1
+    },
+    {
+      "name": "NonEmptyArray",
+      "kind": "function",
+      "parent": "__global__",
+      "bases": [],
+      "params": [],
+      "returns": null,
+      "line": 2
+    }
+  ]
+}
+```

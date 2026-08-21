@@ -1,0 +1,13 @@
+{
+  "key": "63bde54df052bdda9767d235c742d110de9955efb66961667b52ef3d665ff77a",
+  "model": "harness-qwen15b",
+  "prompt_version": "ours-v1-5c74cf9a927a",
+  "file_sha": "9b395a3550f12b8aa98c52253b743655e709e4b02485f2006b7816ce73d419ab",
+  "relative_path": "src/toKebabCase.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    {\n      \"name\": \"KebabCase\",\n      \"kind\": \"function\"\n    },\n    {\n      \"name\": \"toKebabCase\",\n      \"kind\": \"function\"\n    }\n  ],\n  \"references\": [],\n  \"calls\": [],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"toKebabCase\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [],\n      \"returns\": {\n        \"type\": \"string\"\n      },\n      \"line\": 1\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:50:33+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1267,
+  "completion_tokens": 144
+}

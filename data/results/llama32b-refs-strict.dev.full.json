@@ -1,0 +1,38 @@
+{
+  "arm": "llama32b-refs-strict",
+  "split": "dev",
+  "cut": "full",
+  "validity": {
+    "total": 112,
+    "raw_valid": 111,
+    "parseable": 111,
+    "schema_valid": 111
+  },
+  "counts": {
+    "tp": 150,
+    "fp": 63,
+    "fn": 304,
+    "unscored": 8,
+    "files": 112
+  },
+  "metrics": {
+    "precision": {
+      "point": 0.704225352112676,
+      "low": 0.6083108852064907,
+      "high": 0.7821782178217822,
+      "method": "BCa"
+    },
+    "recall": {
+      "point": 0.3303964757709251,
+      "low": 0.28031130733790277,
+      "high": 0.3773148148148148,
+      "method": "BCa"
+    },
+    "f1": {
+      "point": 0.4497751124437781,
+      "low": 0.39881679060661335,
+      "high": 0.49685003568349584,
+      "method": "BCa"
+    }
+  }
+}

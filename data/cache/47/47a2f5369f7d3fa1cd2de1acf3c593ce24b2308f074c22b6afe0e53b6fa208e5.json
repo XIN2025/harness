@@ -1,0 +1,13 @@
+{
+  "key": "47a2f5369f7d3fa1cd2de1acf3c593ce24b2308f074c22b6afe0e53b6fa208e5",
+  "model": "harness-qwen15b",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "5067f80f9912442e66ffd02817afd24430ed8d75692492e510a37af30751562a",
+  "relative_path": "src/setPath.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"setPath\",\n    \"Paths\",\n    \"ProperKeyOf\",\n    \"ValueAtPath\",\n    \"setPathImplementation\"\n  ],\n  \"references\": [\n    {\"name\": \"setPath\", \"source\": \"./src/setPath.ts\"},\n    {\"name\": \"Paths\", \"source\": \"./src/setPath.ts\"},\n    {\"name\": \"ProperKeyOf\", \"source\": \"./src/setPath.ts\"},\n    {\"name\": \"ValueAtPath\", \"source\": \"./src/setPath.ts\"},\n    {\"name\": \"setPathImplementation\", \"source\": \"./src/setPath.ts\"}\n  ],\n  \"calls\": [\n    {\n      \"caller\": \"setPath\",\n      \"callee_text\": \"setPathImplementation\",\n      \"kind\": \"free\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": \"./src/setPath.ts\",\n      \"line\": 1\n    }\n  ],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\"name\": \"setPath\", \"kind\": \"function\", \"parent\": null, \"bases\": [], \"params\": [{\"name\": \"data\", \"type\": \"unknown\"}, {\"name\": \"path\", \"type\": \"readonly PropertyKey[]\"}, {\"name\": \"value\", \"type\": \"unknown\"}], \"returns\": \"unknown\", \"line\": 1},\n    {\"name\": \"Paths\", \"kind\": \"interface\", \"parent\": null, \"bases\": [], \"params\": [], \"returns\": null, \"line\": 3},\n    {\"name\": \"ProperKeyOf\", \"kind\": \"function\", \"parent\": null, \"bases\": [], \"params\": [], \"returns\": \"PropertyKey\", \"line\": 5},\n    {\"name\": \"ValueAtPath\", \"kind\": \"function\", \"parent\": null, \"bases\": [], \"params\": [], \"returns\": \"unknown\", \"line\": 7},\n    {\"name\": \"setPathImplementation\", \"kind\": \"function\", \"parent\": null, \"bases\": [], \"params\": [{\"name\": \"data\", \"type\": \"unknown\"}, {\"name\": \"path\", \"type\": \"readonly PropertyKey[]\"}, {\"name\": \"value\", \"type\": \"unknown\"}], \"returns\": \"unknown\", \"line\": 10}\n  ]\n}\n```",
+  "created": "2026-08-08T20:26:10+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 8962,
+  "completion_tokens": 496
+}

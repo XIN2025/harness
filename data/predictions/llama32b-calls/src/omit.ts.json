@@ -1,0 +1,15 @@
+{"calls": [
+  {"caller": "omit", "callee_text": "__module__"},
+  {"caller": "omitImplementation", "callee_text": "hasAtLeast"},
+  {"caller": "omitImplementation", "callee_text": "keys"},
+  {"caller": "omitImplementation", "callee_text": "data"},
+  {"caller": "omitImplementation", "callee_text": "filter"},
+  {"caller": "omitImplementation", "callee_text": "isFinite"},
+  {"caller": "omitImplementation", "callee_text": "sort"},
+  {"caller": "omitImplementation", "callee_text": "reduce"},
+  {"caller": "omitImplementation", "callee_text": "isNaN"},
+  {"caller": "omitImplementation", "callee_text": "Error"},
+  {"caller": "omitImplementation", "callee_text": "format"},
+  {"caller": "omitImplementation", "callee_text": "round"},
+  {"caller": "omitImplementation", "callee_text": "precisionOf"}
+]}

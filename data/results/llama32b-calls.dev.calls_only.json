@@ -1,0 +1,38 @@
+{
+  "arm": "llama32b-calls",
+  "split": "dev",
+  "cut": "calls_only",
+  "validity": {
+    "total": 112,
+    "raw_valid": 112,
+    "parseable": 112,
+    "schema_valid": 109
+  },
+  "counts": {
+    "tp": 209,
+    "fp": 361,
+    "fn": 122,
+    "unscored": 71,
+    "files": 112
+  },
+  "metrics": {
+    "precision": {
+      "point": 0.36666666666666664,
+      "low": 0.3143322179565996,
+      "high": 0.4179389312977099,
+      "method": "BCa"
+    },
+    "recall": {
+      "point": 0.6314199395770392,
+      "low": 0.5377645483617094,
+      "high": 0.710666759341154,
+      "method": "BCa"
+    },
+    "f1": {
+      "point": 0.46392896781354054,
+      "low": 0.41015398321506075,
+      "high": 0.5144926204036807,
+      "method": "BCa"
+    }
+  }
+}

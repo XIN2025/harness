@@ -1,0 +1,13 @@
+{
+  "key": "f8d0f79306c79095adf55a4914c57584890a436810e3026c358e0c4166b75a97",
+  "model": "harness-llama32b",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "3c4ff73103d1171a167cf341b2bd4a519978fe96611f0be82a01ddf4488f99ef",
+  "relative_path": "src/capitalize.ts",
+  "response": "{\n  \"definitions\": [\"capitalize\"],\n  \"references\": [\n    {\"name\": \"purry\", \"source\": \"./purry\"}\n  ],\n  \"calls\": [\n    {\"caller\": \"capitalize\", \"callee_text\": \"toUpperCase\", \"kind\": \"method\",\n     \"receiver\": null, \"receiver_type_hint\": null, \"callee_file_hint\": \"external\", \"line\": 1}\n  ],\n  \"type_assignments\": [\n    {\"scope\": \"module\", \"var\": \"data\", \"type\": \"string\", \"type_module\": \"unknown\"}\n  ],\n  \"definitions_rich\": [\n    {\"name\": \"capitalize\", \"kind\": \"function\", \"parent\": null, \"bases\": [],\n     \"params\": [{\"name\": \"data\", \"type\": \"string\"}], \"returns\": null, \"line\": 1}\n  ]\n}",
+  "created": "2026-08-08T21:05:57+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 8741,
+  "completion_tokens": 180
+}

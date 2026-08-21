@@ -1,0 +1,13 @@
+{
+  "key": "1927ad012de22852b4a3d9e90bc63e80f7bac293e154d7f76211c06b9a53fd83",
+  "model": "harness-qwen15b",
+  "prompt_version": "ours-v1-5c74cf9a927a",
+  "file_sha": "0fcaa31bd2a34bf850409c3e65142f4b6a0ed535ecba87acedebd8983989a78c",
+  "relative_path": "src/purry.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"purry\",\n    \"lazyDataLastImpl\",\n    \"StrictFunction\",\n    \"LazyEvaluator\"\n  ],\n  \"references\": [],\n  \"calls\": [],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"purry\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"fn\",\n          \"type\": \"StrictFunction\"\n        },\n        {\n          \"name\": \"args\",\n          \"type\": \"readonly unknown[]\"\n        },\n        {\n          \"name\": \"lazy\",\n          \"type\": \"LazyEvaluator | undefined\"\n        }\n      ],\n      \"returns\": \"unknown\",\n      \"line\": 1\n    },\n    {\n      \"name\": \"lazyDataLastImpl\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"fn\",\n          \"type\": \"StrictFunction\"\n        },\n        {\n          \"name\": \"args\",\n          \"type\": \"readonly unknown[]\"\n        },\n        {\n          \"name\": \"lazy\",\n          \"type\": \"LazyEvaluator | undefined\"\n        }\n      ],\n      \"returns\": \"(array: T[]) => number\",\n      \"line\": 10\n    },\n    {\n      \"name\": \"StrictFunction\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [],\n      \"returns\": \"unknown\",\n      \"line\": 23\n    },\n    {\n      \"name\": \"LazyEvaluator\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [],\n      \"returns\": \"unknown\",\n      \"line\": 28\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:41:27+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 861,
+  "completion_tokens": 392
+}

@@ -1,0 +1,13 @@
+{
+  "key": "bb9d5ca6c6b671b098cf6eee7c15a766ce079b28f0a0e30b29f327975b120ec9",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "158c6eed386a374a3aaaeed7b6c40fe542940bebad0d6f07cff794277345e6e7",
+  "relative_path": "src/sortedLastIndexBy.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"sortedLastIndexBy\", \"callee_text\": \"purry\"},\n  {\"caller\": \"sortedLastIndexByImplementation\", \"callee_text\": \"binarySearchCutoffIndex\"},\n  {\"caller\": \"sortedLastIndexByImplementation\", \"callee_text\": \"valueFunction\"},\n  {\"caller\": \"sortedLastIndexByImplementation\", \"callee_text\": \"valueFunction\"},\n  {\"caller\": \"sortedLastIndexByImplementation\", \"callee_text\": \"valueFunction\"},\n  {\"caller\": \"sortedLastIndexByImplementation\", \"callee_text\": \"binarySearchCutoffIndex\"}\n]}",
+  "created": "2026-08-08T23:12:01+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1560,
+  "completion_tokens": 125
+}

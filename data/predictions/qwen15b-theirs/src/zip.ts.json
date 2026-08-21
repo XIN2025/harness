@@ -1,0 +1,50 @@
+```json
+{
+  "definitions": [
+    "zip",
+    "Zipped",
+    "IterableContainer",
+    "LazyEvaluator",
+    "purry"
+  ],
+  "references": [
+    {"name": "zip", "source": "./src/zip.ts"},
+    {"name": "Zipped", "source": "./src/zip.ts"},
+    {"name": "IterableContainer", "source": "./src/zip.ts"},
+    {"name": "LazyEvaluator", "source": "./src/zip.ts"},
+    {"name": "purry", "source": "./src/zip.ts"}
+  ],
+  "calls": [
+    {
+      "caller": "__module__",
+      "callee_text": "zip",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./src/zip.ts",
+      "line": 1
+    }
+  ],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "zip",
+      "kind": "function",
+      "parent": null,
+      "bases": ["IterableContainer", "LazyEvaluator"],
+      "params": [{"name": "first", "type": "IterableContainer"}],
+      "returns": "Zipped<IterableContainer, IterableContainer>",
+      "line": 1
+    },
+    {
+      "name": "Zipped",
+      "kind": "interface",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "first", "type": "IterableContainer"}],
+      "returns": "unknown[]",
+      "line": 2
+    }
+  ]
+}
+```

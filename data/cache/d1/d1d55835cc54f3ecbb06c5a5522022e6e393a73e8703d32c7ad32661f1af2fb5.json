@@ -1,0 +1,13 @@
+{
+  "key": "d1d55835cc54f3ecbb06c5a5522022e6e393a73e8703d32c7ad32661f1af2fb5",
+  "model": "harness-qwen15b",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "1f300215c84cf6ca1bff9c5378ef89a180b9ed194b3581987e885a1d44344f2c",
+  "relative_path": "src/takeLastWhile.ts",
+  "response": "```json\n{\n  \"definitions\": [\"takeLastWhile\", \"purry\", \"IterableContainer\", \"purryImplementation\"],\n  \"references\": [\n    {\"name\": \"takeLastWhile\", \"source\": \"./src/takeLastWhile.ts\"},\n    {\"name\": \"purry\", \"source\": \"./src/purry.ts\"},\n    {\"name\": \"IterableContainer\", \"source\": \"./src/internal/types/IterableContainer.ts\"},\n    {\"name\": \"purryImplementation\", \"source\": \"./src/purry.ts\"}\n  ],\n  \"calls\": [\n    {\n      \"caller\": \"takeLastWhile\",\n      \"callee_text\": \"pipe\",\n      \"kind\": \"hook\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": \"external\",\n      \"line\": 1\n    }\n  ],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\"name\": \"takeLastWhile\", \"kind\": \"function\", \"parent\": null, \"bases\": [], \"params\": [{\"name\": \"data\", \"type\": \"IterableContainer\"}, {\"name\": \"predicate\", \"type\": \"(item: T[number], index: number, data: T) => boolean\"}], \"returns\": \"T[number][]\", \"line\": 1},\n    {\"name\": \"purry\", \"kind\": \"function\", \"parent\": null, \"bases\": [], \"params\": [{\"name\": \"fn\", \"type\": \"(...args: unknown[]) => unknown\"}], \"returns\": \"(...args: unknown[]) => unknown\", \"line\": 2}\n  ]\n}\n```",
+  "created": "2026-08-08T20:28:21+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 8584,
+  "completion_tokens": 336
+}

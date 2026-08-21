@@ -1,0 +1,51 @@
+```json
+{
+  "definitions": [
+    "pathOr",
+    "AllKeys",
+    "TypesForKey",
+    "StrictlyRequired",
+    "PathValue1",
+    "Pathable1",
+    "PathValue2",
+    "Pathable2",
+    "PathValue3",
+    "Pathable3"
+  ],
+  "references": [
+    {"name": "pathOr", "source": "./src/pathOr.ts"},
+    {"name": "AllKeys", "source": "./src/pathOr.ts"},
+    {"name": "TypesForKey", "source": "./src/pathOr.ts"},
+    {"name": "StrictlyRequired", "source": "./src/pathOr.ts"},
+    {"name": "PathValue1", "source": "./src/pathOr.ts"},
+    {"name": "Pathable1", "source": "./src/pathOr.ts"},
+    {"name": "PathValue2", "source": "./src/pathOr.ts"},
+    {"name": "Pathable2", "source": "./src/pathOr.ts"},
+    {"name": "PathValue3", "source": "./src/pathOr.ts"},
+    {"name": "Pathable3", "source": "./src/pathOr.ts"}
+  ],
+  "calls": [
+    {
+      "caller": "pathOr",
+      "callee_text": "prop",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 1
+    }
+  ],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "pathOr",
+      "kind": "function",
+      "parent": null,
+      "bases": ["prop"],
+      "params": [{"name": "object", "type": "unknown"}, {"name": "path", "type": "readonly PropertyKey[]"}, {"name": "defaultValue", "type": "unknown"}],
+      "returns": "unknown",
+      "line": 1
+    }
+  ]
+}
+```

@@ -1,0 +1,16 @@
+{
+  "relative_path": "src/hasAtLeast.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "hasAtLeast",
+      "callee_text": "purry",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./purry",
+      "line": 68
+    }
+  ],
+  "callable_refs": []
+}

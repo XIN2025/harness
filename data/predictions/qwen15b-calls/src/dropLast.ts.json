@@ -1,0 +1,4 @@
+{"calls": [
+  {"caller": "dropLast", "callee_text": "purry"},
+  {"caller": "dropLastImplementation", "callee_text": "slice"}
+]}

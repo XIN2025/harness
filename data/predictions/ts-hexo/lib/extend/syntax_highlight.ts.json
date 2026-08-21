@@ -1,0 +1,34 @@
+{
+  "relative_path": "lib/extend/syntax_highlight.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "SyntaxHighlight.register",
+      "callee_text": "TypeError",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 43
+    },
+    {
+      "caller": "SyntaxHighlight.exec",
+      "callee_text": "TypeError",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 55
+    },
+    {
+      "caller": "SyntaxHighlight.exec",
+      "callee_text": "apply",
+      "kind": "static",
+      "receiver": "Reflect",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 59
+    }
+  ],
+  "callable_refs": []
+}

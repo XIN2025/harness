@@ -1,0 +1,88 @@
+{
+  "relative_path": "pipes/parse-int.pipe.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "__module__",
+      "callee_text": "Injectable",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../decorators/core/injectable.decorator",
+      "line": 43
+    },
+    {
+      "caller": "ParseIntPipe.constructor",
+      "callee_text": "Optional",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../decorators/core/optional.decorator",
+      "line": 47
+    },
+    {
+      "caller": "ParseIntPipe.transform",
+      "callee_text": "isNil",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../utils/shared.utils",
+      "line": 65
+    },
+    {
+      "caller": "ParseIntPipe.transform",
+      "callee_text": "isNumeric",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 68
+    },
+    {
+      "caller": "ParseIntPipe.transform",
+      "callee_text": "exceptionFactory",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 69
+    },
+    {
+      "caller": "ParseIntPipe.transform",
+      "callee_text": "parseInt",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 73
+    },
+    {
+      "caller": "ParseIntPipe.isNumeric",
+      "callee_text": "includes",
+      "kind": "method",
+      "receiver": "['string', 'number']",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 82
+    },
+    {
+      "caller": "ParseIntPipe.isNumeric",
+      "callee_text": "test",
+      "kind": "method",
+      "receiver": "/^-?\\d+$/",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 83
+    },
+    {
+      "caller": "ParseIntPipe.isNumeric",
+      "callee_text": "isFinite",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 84
+    }
+  ],
+  "callable_refs": []
+}

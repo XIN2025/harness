@@ -1,0 +1,15 @@
+{"calls": [
+  {"caller": "words", "callee_text": "data"},
+  {"caller": "words", "callee_text": "WHITESPACE"},
+  {"caller": "words", "callee_text": "WORD_SEPARATORS"},
+  {"caller": "words", "callee_text": "results"},
+  {"caller": "words", "callee_text": "word"},
+  {"caller": "words", "callee_text": "flush"},
+  {"caller": "words", "callee_text": "character"},
+  {"caller": "words", "callee_text": "WORD_SEPARATORS.has"},
+  {"caller": "words", "callee_text": "/[a-z]$/u.test(word) && /[A-Z]/u.test(character)"},
+  {"caller": "words", "callee_text": "flush"},
+  {"caller": "words", "callee_text": "/[A-Z][A-Z]$/u.test(word) && /[a-z]/u.test(character)"},
+  {"caller": "words", "callee_text": "flush"},
+  {"caller": "words", "callee_text": "/\b[a-zA-Z0-9]+\b/g"}
+]}

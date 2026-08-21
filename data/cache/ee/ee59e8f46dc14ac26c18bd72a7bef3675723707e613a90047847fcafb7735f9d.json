@@ -1,0 +1,13 @@
+{
+  "key": "ee59e8f46dc14ac26c18bd72a7bef3675723707e613a90047847fcafb7735f9d",
+  "model": "harness-qwen15b",
+  "prompt_version": "ours-v1-5c74cf9a927a",
+  "file_sha": "30c9e61082911af43816a41fb9c274b14243a883ad5640c778cff32803877557",
+  "relative_path": "src/values.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"values\",\n    \"EnumerableStringKeyedValueOf\",\n    \"IterableContainer\",\n    \"purry\"\n  ],\n  \"references\": [],\n  \"calls\": [],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"Values\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [],\n      \"returns\": {\n        \"scope\": \"local\",\n        \"var\": \"values\",\n        \"type\": \"unknown[]\",\n        \"type_module\": null,\n        \"from_call\": false\n      }\n    },\n    {\n      \"name\": \"EnumerableStringKeyedValueOf\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [],\n      \"returns\": {\n        \"scope\": \"local\",\n        \"var\": \"EnumerableStringKeyedValueOf\",\n        \"type\": \"unknown[]\",\n        \"type_module\": null,\n        \"from_call\": false\n      }\n    },\n    {\n      \"name\": \"IterableContainer\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [],\n      \"returns\": {\n        \"scope\": \"local\",\n        \"var\": \"IterableContainer\",\n        \"type\": \"unknown[]\",\n        \"type_module\": null,\n        \"from_call\": false\n      }\n    },\n    {\n      \"name\": \"purry\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [],\n      \"returns\": {\n        \"scope\": \"local\",\n        \"var\": \"purry\",\n        \"type\": \"unknown[]\",\n        \"type_module\": null,\n        \"from_call\": false\n      }\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:51:07+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 660,
+  "completion_tokens": 385
+}

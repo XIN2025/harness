@@ -1,0 +1,13 @@
+{
+  "key": "e621f5ddd811eef7641b0fb2145f2788617e7c8f09d5e0ed4a096692f2eba666",
+  "model": "harness-qwen15b",
+  "prompt_version": "refs-strict-v1-ca2cfcfbecef+json",
+  "file_sha": "86c0d829f15ed379f0d1067772f3ab4bf8be4b42ae64abfee6b2dea326eace86",
+  "relative_path": "src/internal/quickSelect.ts",
+  "response": "{\"calls\": [], \"callable_refs\": [{\"caller\": \"quickSelect\", \"callee_text\": \"partition\"}, {\"caller\": \"quickSelectImplementation\", \"callee_text\": \"partition\"}]}",
+  "created": "2026-08-09T05:46:17+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1177,
+  "completion_tokens": 39
+}

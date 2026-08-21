@@ -1,0 +1,23 @@
+```json
+{
+  "definitions": ["unique"],
+  "references": [
+    {"name": "lazyImplementation", "source": "./internal/purryFromLazy"},
+    {"name": "Deduped", "source": "./internal/types/Deduped"},
+    {"name": "IterableContainer", "source": "./internal/types/IterableContainer"},
+    {"name": "LazyEvaluator", "source": "./internal/types/LazyEvaluator"},
+    {"name": "SKIP_ITEM", "source": "./internal/utilityEvaluators"}
+  ],
+  "calls": [
+    {"caller": "unique", "callee_text": "lazyImplementation", "kind": "free",
+     "receiver": null, "receiver_type_hint": null, "callee_file_hint": "...", "line": 1},
+    {"caller": "unique", "callee_text": "lazyImplementation", "kind": "free",
+     "receiver": null, "receiver_type_hint": null, "callee_file_hint": "...", "line": 2}
+  ],
+  "type_assignments": [],
+  "definitions_rich": [
+    {"name": "unique", "kind": "function", "parent": null, "bases": [], "params": [], "returns": null, "line": 1},
+    {"name": "lazyImplementation", "kind": "function", "parent": null, "bases": [], "params": [], "returns": null, "line": 2}
+  ]
+}
+```

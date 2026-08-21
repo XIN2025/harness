@@ -1,0 +1,115 @@
+{
+  "relative_path": "lib/plugins/helper/mail_to.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "mailToHelper",
+      "callee_text": "isArray",
+      "kind": "static",
+      "receiver": "Array",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 28
+    },
+    {
+      "caller": "mailToHelper",
+      "callee_text": "join",
+      "kind": "method",
+      "receiver": "path",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 28
+    },
+    {
+      "caller": "mailToHelper",
+      "callee_text": "assign",
+      "kind": "static",
+      "receiver": "Object",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 31
+    },
+    {
+      "caller": "mailToHelper",
+      "callee_text": "isArray",
+      "kind": "static",
+      "receiver": "Array",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 36
+    },
+    {
+      "caller": "mailToHelper",
+      "callee_text": "join",
+      "kind": "method",
+      "receiver": "attrs.class",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 37
+    },
+    {
+      "caller": "mailToHelper",
+      "callee_text": "forEach",
+      "kind": "method",
+      "receiver": "['subject', 'cc', 'bcc', 'body']",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 42
+    },
+    {
+      "caller": "mailToHelper",
+      "callee_text": "isArray",
+      "kind": "static",
+      "receiver": "Array",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 46
+    },
+    {
+      "caller": "mailToHelper",
+      "callee_text": "join",
+      "kind": "method",
+      "receiver": "item",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 46
+    },
+    {
+      "caller": "mailToHelper",
+      "callee_text": "toString",
+      "kind": "method",
+      "receiver": "new URLSearchParams(data)",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 51
+    },
+    {
+      "caller": "mailToHelper",
+      "callee_text": "URLSearchParams",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 51
+    },
+    {
+      "caller": "mailToHelper",
+      "callee_text": "htmlTag",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-util",
+      "line": 54
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "moize",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "moize",
+      "line": 57
+    }
+  ],
+  "callable_refs": []
+}

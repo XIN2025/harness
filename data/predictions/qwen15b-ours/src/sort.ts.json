@@ -1,0 +1,91 @@
+```json
+{
+  "definitions": [
+    "sort",
+    "IterableContainer",
+    "ReorderedArray",
+    "purry"
+  ],
+  "references": [],
+  "calls": [
+    {
+      "caller": "__module__",
+      "callee_text": "sort",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "src/sort.ts",
+      "line": 1
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "sort",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "src/sort.ts",
+      "line": 2
+    }
+  ],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "sort",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "items",
+          "type": "IterableContainer"
+        },
+        {
+          "name": "cmp",
+          "type": "(a: T[number], b: T[number]) => number"
+        }
+      ],
+      "returns": "ReorderedArray<T>"
+    },
+    {
+      "name": "sort",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "cmp",
+          "type": "(a: T[number], b: T[number]) => number"
+        }
+      ],
+      "returns": "ReorderedArray<T>"
+    },
+    {
+      "name": "IterableContainer",
+      "kind": "interface",
+      "parent": "__module__",
+      "bases": [],
+      "params": []
+    },
+    {
+      "name": "ReorderedArray",
+      "kind": "interface",
+      "parent": "__module__",
+      "bases": [],
+      "params": []
+    },
+    {
+      "name": "purry",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(a: unknown, b: unknown) => unknown"
+        }
+      ],
+      "returns": "unknown"
+    }
+  ]
+}
+```

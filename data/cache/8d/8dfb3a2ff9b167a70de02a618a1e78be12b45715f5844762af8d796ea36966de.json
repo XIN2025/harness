@@ -1,0 +1,13 @@
+{
+  "key": "8dfb3a2ff9b167a70de02a618a1e78be12b45715f5844762af8d796ea36966de",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "refs-strict-v1-ca2cfcfbecef+json",
+  "file_sha": "c59582fe2c11fdf31393cff4fbd74fd6e67eddab651e5a636141425462824bea",
+  "relative_path": "src/funnel.ts",
+  "response": "{\"callable_refs\": [{\"caller\": \"funnel\", \"callee_text\": \"voidReducer\"}]}",
+  "created": "2026-08-09T06:01:20+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 3437,
+  "completion_tokens": 21
+}

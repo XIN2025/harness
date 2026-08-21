@@ -1,0 +1,5 @@
+{"callable_refs": [
+  {"caller": "sortedLastIndexBy", "callee_text": "sortedLastIndexByImplementation"},
+  {"caller": "sortedLastIndexBy", "callee_text": "purry"},
+  {"caller": "binarySearchCutoffIndex", "callee_text": "binarySearchCutoffIndex"}
+]}

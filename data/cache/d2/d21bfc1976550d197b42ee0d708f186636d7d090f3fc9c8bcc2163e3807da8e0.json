@@ -1,0 +1,13 @@
+{
+  "key": "d21bfc1976550d197b42ee0d708f186636d7d090f3fc9c8bcc2163e3807da8e0",
+  "model": "harness-llama32b",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "32f120b5ff86b42f44d0b05b06488f376ea1df9eb43a70576c45df1931b09c44",
+  "relative_path": "src/dropWhile.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"dropWhile\", \"callee_text\": \"purry\"},\n  {\"caller\": \"dropWhileImplementation\", \"callee_text\": \"entries\"},\n  {\"caller\": \"dropWhileImplementation\", \"callee_text\": \"slice\"},\n  {\"caller\": \"dropWhileImplementation\", \"callee_text\": \"predicate\"},\n  {\"caller\": \"dropWhileImplementation\", \"callee_text\": \"data\"},\n  {\"caller\": \"dropWhileImplementation\", \"callee_text\": \"index\"},\n  {\"caller\": \"dropWhileImplementation\", \"callee_text\": \"predicate\"},\n  {\"caller\": \"dropWhileImplementation\", \"callee_text\": \"entries\"},\n  {\"caller\": \"dropWhileImplementation\", \"callee_text\": \"for\"}\n]}",
+  "created": "2026-08-08T22:36:06+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 907,
+  "completion_tokens": 151
+}

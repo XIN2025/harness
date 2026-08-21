@@ -1,0 +1,13 @@
+{
+  "key": "78cc1f80d76476b5398752c9d8d53cefd2af3be993a02ee06502c9fc1a8a2002",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "refs-strict-v1-ca2cfcfbecef+json",
+  "file_sha": "a56b5293865f5f3f65101424842349e72631f917289ea22998f4427acd035c73",
+  "relative_path": "src/pullObject.ts",
+  "response": "{\"callable_refs\": [\n  {\"caller\": \"pullObject\", \"callee_text\": \"pullObjectImplementation\"},\n  {\"caller\": \"pullObjectImplementation\", \"callee_text\": \"data.entries\"},\n  {\"caller\": \"pullObjectImplementation\", \"callee_text\": \"keyExtractor\"},\n  {\"caller\": \"pullObjectImplementation\", \"callee_text\": \"valueExtractor\"}\n]}",
+  "created": "2026-08-09T06:05:55+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1510,
+  "completion_tokens": 75
+}

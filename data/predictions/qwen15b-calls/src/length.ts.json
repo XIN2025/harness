@@ -1,0 +1,4 @@
+{"calls": [
+  {"caller": "length", "callee_text": "purry"},
+  {"caller": "lengthImplementation", "callee_text": "Array.prototype.length"}
+]}

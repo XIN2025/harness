@@ -1,0 +1,8 @@
+{"calls": [
+  {"caller": "sortedLastIndexBy", "callee_text": "purry"},
+  {"caller": "sortedLastIndexByImplementation", "callee_text": "binarySearchCutoffIndex"},
+  {"caller": "sortedLastIndexByImplementation", "callee_text": "valueFunction"},
+  {"caller": "sortedLastIndexByImplementation", "callee_text": "valueFunction"},
+  {"caller": "sortedLastIndexByImplementation", "callee_text": "valueFunction"},
+  {"caller": "sortedLastIndexByImplementation", "callee_text": "binarySearchCutoffIndex"}
+]}

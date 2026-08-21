@@ -1,0 +1,13 @@
+{
+  "key": "dec0f7c0ca1184ef59a16cf9509779d498ef27e361c2ec94bb62afc78d83f889",
+  "model": "harness-qwen15b",
+  "prompt_version": "refs-strict-v1-ca2cfcfbecef+json",
+  "file_sha": "c8df1e430f20827f530687299733030199d555daa932847ad404e1a99b85eaf0",
+  "relative_path": "src/last.ts",
+  "response": "{\"calls\": [], \"callable_refs\": [{\"caller\": \"last\", \"callee_text\": \"lastImplementation\"}]}",
+  "created": "2026-08-09T05:46:57+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 882,
+  "completion_tokens": 24
+}

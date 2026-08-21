@@ -1,0 +1,13 @@
+{
+  "key": "5881e94582314e3c63ce4cfa504eeb3fd4067823a9e82c9fd52a252ff0c03731",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "4392703e7d4196cb731d8653d4978a5f3e92938e0868620b8348fb43d61822e6",
+  "relative_path": "src/debounce.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"debounce\", \"callee_text\": \"setTimeout\"},\n  {\"caller\": \"debounce\", \"callee_text\": \"clearTimeout\"},\n  {\"caller\": \"debounce\", \"callee_text\": \"setTimeout\"},\n  {\"caller\": \"debounce\", \"callee_text\": \"clearTimeout\"},\n  {\"caller\": \"debounce\", \"callee_text\": \"setTimeout\"},\n  {\"caller\": \"debounce\", \"callee_text\": \"clearTimeout\"},\n  {\"caller\": \"debounce\", \"callee_text\": \"setTimeout\"},\n  {\"caller\": \"debounce\", \"callee_text\": \"clearTimeout\"},\n  {\"caller\": \"debounce\", \"callee_text\": \"setTimeout\"},\n  {\"caller\": \"debounce\", \"callee_text\": \"clearTimeout\"},\n  {\"caller\": \"debounce\", \"callee_text\": \"setTimeout\"},\n  {\"caller\": \"debounce\", \"callee_text\": \"clearTimeout\"},\n  {\"caller\": \"debounce\", \"callee_text\": \"setTimeout\"},\n  {\"caller\": \"debounce\", \"callee_text\": \"__module__\"}\n]}",
+  "created": "2026-08-08T22:51:14+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 3369,
+  "completion_tokens": 223
+}

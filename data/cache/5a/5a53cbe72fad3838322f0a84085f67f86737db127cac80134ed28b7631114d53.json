@@ -1,0 +1,13 @@
+{
+  "key": "5a53cbe72fad3838322f0a84085f67f86737db127cac80134ed28b7631114d53",
+  "model": "harness-qwen15b",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "1aae0ad2b1ea0477434da5ab1084ec663f38a0ade5e8d3e12453aa604b637044",
+  "relative_path": "src/zip.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"zip\", \"callee_text\": \"purry\"},\n  {\"caller\": \"zipImplementation\", \"callee_text\": \"map\"},\n  {\"caller\": \"lazyImplementation\", \"callee_text\": \"next\"}\n]}",
+  "created": "2026-08-08T22:24:24+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1197,
+  "completion_tokens": 51
+}

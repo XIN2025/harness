@@ -1,0 +1,15 @@
+{"calls": [
+  {"caller": "median", "callee_text": "purry"},
+  {"caller": "median", "callee_text": "medianImplementation"},
+  {"caller": "numberComparator", "callee_text": "sort"},
+  {"caller": "medianImplementation", "callee_text": "sort"},
+  {"caller": "medianImplementation", "callee_text": "Array.prototype.sort"},
+  {"caller": "medianImplementation", "callee_text": "slice"},
+  {"caller": "medianImplementation", "callee_text": "filter"},
+  {"caller": "medianImplementation", "callee_text": "isFinite"},
+  {"caller": "medianImplementation", "callee_text": "reduce"},
+  {"caller": "medianImplementation", "callee_text": "isNaN"},
+  {"caller": "medianImplementation", "callee_text": "format"},
+  {"caller": "medianImplementation", "callee_text": "round"},
+  {"caller": "precisionOf", "callee_text": "sort"}
+]}

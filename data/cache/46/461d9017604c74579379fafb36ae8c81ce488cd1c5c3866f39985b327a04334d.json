@@ -1,0 +1,13 @@
+{
+  "key": "461d9017604c74579379fafb36ae8c81ce488cd1c5c3866f39985b327a04334d",
+  "model": "harness-qwen15b",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "7061b28b56dfd28c2f5efb1486fc29de6c96382e12558c64d2b4a6119c19b2d0",
+  "relative_path": "src/randomInteger.ts",
+  "response": "```json\n{\n  \"definitions\": [\"randomInteger\"],\n  \"references\": [\n    {\"name\": \"randomInteger\", \"source\": \"./src/randomInteger.ts\"}\n  ],\n  \"calls\": [],\n  \"type_assignments\": [],\n  \"definitions_rich\": []\n}\n```",
+  "created": "2026-08-08T20:25:03+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 8562,
+  "completion_tokens": 58
+}

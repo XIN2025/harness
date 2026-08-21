@@ -1,0 +1,130 @@
+```json
+{
+  "definitions": [
+    "dropLastWhile",
+    "purry",
+    "IterableContainer",
+    "predicate",
+    "data",
+    "index",
+    "data",
+    "item",
+    "i"
+  ],
+  "references": [
+    {"name": "dropLastWhile", "source": "./src/dropLastWhile.ts"},
+    {"name": "purry", "source": "./src/purry.ts"},
+    {"name": "IterableContainer", "source": "./src/internal/types/IterableContainer.ts"},
+    {"name": "predicate", "source": "./src/dropLastWhile.ts"},
+    {"name": "data", "source": "./src/dropLastWhile.ts"},
+    {"name": "index", "source": "./src/dropLastWhile.ts"},
+    {"name": "data", "source": "./src/dropLastWhile.ts"},
+    {"name": "item", "source": "./src/dropLastWhile.ts"},
+    {"name": "i", "source": "./src/dropLastWhile.ts"}
+  ],
+  "calls": [
+    {
+      "caller": "dropLastWhile",
+      "callee_text": "predicate",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./src/dropLastWhile.ts",
+      "line": 10
+    },
+    {
+      "caller": "dropLastWhile",
+      "callee_text": "data",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./src/dropLastWhile.ts",
+      "line": 12
+    }
+  ],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "dropLastWhile",
+      "kind": "function",
+      "parent": null,
+      "bases": ["IterableContainer"],
+      "params": [{"name": "data", "type": "IterableContainer"}],
+      "returns": "T[number][]",
+      "line": 1
+    },
+    {
+      "name": "purry",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "fn", "type": "Function"}],
+      "returns": "Function",
+      "line": 3
+    },
+    {
+      "name": "IterableContainer",
+      "kind": "interface",
+      "parent": null,
+      "bases": [],
+      "params": [],
+      "returns": null,
+      "line": 5
+    },
+    {
+      "name": "predicate",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "item", "type": "T[number]"}, {"name": "index", "type": "number"}, {"name": "data", "type": "IterableContainer"}],
+      "returns": "boolean",
+      "line": 7
+    },
+    {
+      "name": "data",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [],
+      "returns": "unknown",
+      "line": 9
+    },
+    {
+      "name": "index",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "item", "type": "T[number]"}, {"name": "data", "type": "IterableContainer"}],
+      "returns": "number",
+      "line": 11
+    },
+    {
+      "name": "data",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [],
+      "returns": "unknown",
+      "line": 13
+    },
+    {
+      "name": "item",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "data", "type": "IterableContainer"}],
+      "returns": "T[number]",
+      "line": 15
+    },
+    {
+      "name": "i",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [],
+      "returns": "number",
+      "line": 17
+    }
+  ]
+}
+```

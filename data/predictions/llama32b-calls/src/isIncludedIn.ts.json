@@ -1,0 +1,6 @@
+{"calls": [
+  {"caller": "isIncludedIn", "callee_text": "includes"},
+  {"caller": "isIncludedIn", "callee_text": "has"},
+  {"caller": "pipe", "callee_text": "includes"},
+  {"caller": "pipe", "callee_text": "has"}
+]}

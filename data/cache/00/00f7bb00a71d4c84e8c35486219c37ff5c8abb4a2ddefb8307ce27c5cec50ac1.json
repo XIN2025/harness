@@ -1,0 +1,13 @@
+{
+  "key": "00f7bb00a71d4c84e8c35486219c37ff5c8abb4a2ddefb8307ce27c5cec50ac1",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "refs-v1-7386a79c1ab2+json",
+  "file_sha": "383924399a85fb1dbafc071b0441223e8250a5d5e105d33503c34c76ea0e3a3c",
+  "relative_path": "src/findLastIndex.ts",
+  "response": "{\"callable_refs\": [{\"caller\": \"findLastIndex\", \"callee_text\": \"findLastIndexImplementation\"}]}",
+  "created": "2026-08-08T23:20:15+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1005,
+  "completion_tokens": 24
+}

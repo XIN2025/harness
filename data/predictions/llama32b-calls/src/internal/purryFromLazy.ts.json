@@ -1,0 +1,12 @@
+{"calls": [
+  {"caller": "purryFromLazy", "callee_text": "__module__"},
+  {"caller": "purryFromLazy", "callee_text": "pipe"},
+  {"caller": "purryFromLazy", "callee_text": "satisfies"},
+  {"caller": "purryFromLazy", "callee_text": "dataFirst"},
+  {"caller": "purryFromLazy", "callee_text": "lazyArgs"},
+  {"caller": "purryFromLazy", "callee_text": "pipe"},
+  {"caller": "purryFromLazy", "callee_text": "satisfies"},
+  {"caller": "purryFromLazy", "callee_text": "dataLast"},
+  {"caller": "purryFromLazy", "callee_text": "Object.assign"},
+  {"caller": "purryFromLazy", "callee_text": "lazyArgs"}
+]}

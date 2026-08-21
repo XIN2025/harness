@@ -1,0 +1,13 @@
+{
+  "key": "b9a7ddf53793367a2d0cd8f8fd17e4870b7d816dbb5fdfb01f6ebba81e047790",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "2088617adbf29c12e440220b243cb79e58a1fa80c5c6d2629b72c7e7128186af",
+  "relative_path": "src/internal/words.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"words\", \"callee_text\": \"flush\"},\n  {\"caller\": \"words\", \"callee_text\": \"flush\"},\n  {\"caller\": \"words\", \"callee_text\": \"flush\"},\n  {\"caller\": \"words\", \"callee_text\": \"flush\"},\n  {\"caller\": \"words\", \"callee_text\": \"flush\"},\n  {\"caller\": \"words\", \"callee_text\": \"flush\"},\n  {\"caller\": \"words\", \"callee_text\": \"flush\"},\n  {\"caller\": \"words\", \"callee_text\": \"flush\"},\n  {\"caller\": \"words\", \"callee_text\": \"flush\"},\n  {\"caller\": \"words\", \"callee_text\": \"flush\"},\n  {\"caller\": \"words\", \"callee_text\": \"flush\"}\n]}",
+  "created": "2026-08-08T23:01:29+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1116,
+  "completion_tokens": 160
+}

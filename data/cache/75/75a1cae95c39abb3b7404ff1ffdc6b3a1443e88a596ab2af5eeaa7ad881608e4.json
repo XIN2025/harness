@@ -1,0 +1,13 @@
+{
+  "key": "75a1cae95c39abb3b7404ff1ffdc6b3a1443e88a596ab2af5eeaa7ad881608e4",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "refs-v1-7386a79c1ab2+json",
+  "file_sha": "6335375ec43ab5ffc4d9124d9b970a54c8058b707dd3d4f3178535d2f50a3490",
+  "relative_path": "src/sum.ts",
+  "response": "{\"callable_refs\": [\n  {\"caller\": \"sum\", \"callee_text\": \"sumImplementation\"},\n  {\"caller\": \"sum\", \"callee_text\": \"sum\"}\n]}",
+  "created": "2026-08-08T23:28:35+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1092,
+  "completion_tokens": 36
+}

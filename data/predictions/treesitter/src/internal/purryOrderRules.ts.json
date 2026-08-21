@@ -1,0 +1,151 @@
+{
+  "relative_path": "src/internal/purryOrderRules.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "purryOrderRules",
+      "callee_text": "orderRuleComparer",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 80
+    },
+    {
+      "caller": "purryOrderRules",
+      "callee_text": "func",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 81
+    },
+    {
+      "caller": "purryOrderRules",
+      "callee_text": "orderRuleComparer",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 89
+    },
+    {
+      "caller": "purryOrderRules",
+      "callee_text": "func",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 90
+    },
+    {
+      "caller": "purryOrderRulesWithArgument",
+      "callee_text": "isOrderRule",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 108
+    },
+    {
+      "caller": "purryOrderRulesWithArgument",
+      "callee_text": "purryOrderRules",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 118
+    },
+    {
+      "caller": "purryOrderRulesWithArgument",
+      "callee_text": "func",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 118
+    },
+    {
+      "caller": "orderRuleComparer",
+      "callee_text": "orderRuleComparer",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 135
+    },
+    {
+      "caller": "orderRuleComparer",
+      "callee_text": "projector",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 138
+    },
+    {
+      "caller": "orderRuleComparer",
+      "callee_text": "projector",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 139
+    },
+    {
+      "caller": "orderRuleComparer",
+      "callee_text": "comparator",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 141
+    },
+    {
+      "caller": "orderRuleComparer",
+      "callee_text": "comparator",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 145
+    },
+    {
+      "caller": "orderRuleComparer",
+      "callee_text": "nextComparer",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 152
+    },
+    {
+      "caller": "isOrderRule",
+      "callee_text": "isProjection",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 157
+    },
+    {
+      "caller": "isOrderRule",
+      "callee_text": "isArray",
+      "kind": "static",
+      "receiver": "Array",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 161
+    },
+    {
+      "caller": "isOrderRule",
+      "callee_text": "isProjection",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 168
+    }
+  ],
+  "callable_refs": []
+}

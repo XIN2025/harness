@@ -1,0 +1,1 @@
+{"calls": [], "callable_refs": [{"caller": "pullObject", "callee_text": "pullObjectImplementation"}, {"caller": "pullObject", "callee_text": "keyExtractor"}, {"caller": "pullObject", "callee_text": "valueExtractor"}]}

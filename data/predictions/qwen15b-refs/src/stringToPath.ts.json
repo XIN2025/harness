@@ -1,0 +1,9 @@
+{
+  "calls": [],
+  "callable_refs": [
+    {
+      "caller": "stringToPath",
+      "callee_text": "stringToPathImpl"
+    }
+  ]
+}

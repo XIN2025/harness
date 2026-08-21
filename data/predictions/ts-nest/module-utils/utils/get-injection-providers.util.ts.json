@@ -1,0 +1,115 @@
+{
+  "relative_path": "module-utils/utils/get-injection-providers.util.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "isOptionalFactoryDependency",
+      "callee_text": "isUndefined",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../../utils/shared.utils",
+      "line": 17
+    },
+    {
+      "caller": "isOptionalFactoryDependency",
+      "callee_text": "isUndefined",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../../utils/shared.utils",
+      "line": 18
+    },
+    {
+      "caller": "mapInjectToTokens",
+      "callee_text": "isOptionalFactoryDependency",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 24
+    },
+    {
+      "caller": "getInjectionProviders",
+      "callee_text": "map",
+      "kind": "method",
+      "receiver": "tokens!",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 37
+    },
+    {
+      "caller": "getInjectionProviders",
+      "callee_text": "filter",
+      "kind": "method",
+      "receiver": "(providers ?? [])",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 39
+    },
+    {
+      "caller": "getInjectionProviders",
+      "callee_text": "includes",
+      "kind": "method",
+      "receiver": "result",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 41
+    },
+    {
+      "caller": "getInjectionProviders",
+      "callee_text": "includes",
+      "kind": "method",
+      "receiver": "search",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 42
+    },
+    {
+      "caller": "getInjectionProviders",
+      "callee_text": "includes",
+      "kind": "method",
+      "receiver": "search",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 42
+    },
+    {
+      "caller": "getInjectionProviders",
+      "callee_text": "push",
+      "kind": "method",
+      "receiver": "result",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 44
+    },
+    {
+      "caller": "getInjectionProviders",
+      "callee_text": "map",
+      "kind": "method",
+      "receiver": "match\n      .filter(p => (p as any)?.inject)\n      .flatMap(p => (p as FactoryProvider).inject!)",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 46
+    },
+    {
+      "caller": "getInjectionProviders",
+      "callee_text": "flatMap",
+      "kind": "method",
+      "receiver": "match\n      .filter(p => (p as any)?.inject)",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 46
+    },
+    {
+      "caller": "getInjectionProviders",
+      "callee_text": "filter",
+      "kind": "method",
+      "receiver": "match",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 46
+    }
+  ],
+  "callable_refs": []
+}

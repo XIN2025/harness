@@ -1,0 +1,13 @@
+{
+  "key": "d00860294e8f4e75b9045778eeab41630cda9f12162b735d40c754a9adbe1b27",
+  "model": "harness-qwen15b",
+  "prompt_version": "ours-v1-5c74cf9a927a",
+  "file_sha": "ef69523594bdbd8dd9d5c3daebd418856db2fe91d4fcc16283c5522824078097",
+  "relative_path": "src/toTitleCase.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"toTitleCase\",\n    \"words\",\n    \"OptionalOptionsWithDefaults\",\n    \"IsEqual\",\n    \"IsLiteral\",\n    \"Join\",\n    \"Words\",\n    \"DEFAULT_PRESERVE_CONSECUTIVE_UPPERCASE\",\n    \"TitleCaseOptions\",\n    \"TitleCaseOptionsWithDefaults\",\n    \"TitleCase\",\n    \"TitleCasedArray\",\n    \"XMLHttpRequest\"\n  ],\n  \"references\": [\n    {\n      \"name\": \"type-fest\",\n      \"source\": \"node_modules/type-fest/index.d.ts\",\n      \"alias\": null\n    },\n    {\n      \"name\": \"./internal/types/OptionalOptionsWithDefaults\",\n      \"source\": \"src/toTitleCase.ts\",\n      \"alias\": null\n    },\n    {\n      \"name\": \"./internal/words\",\n      \"source\": \"src/toTitleCase.ts\",\n      \"alias\": null\n    }\n  ],\n  \"calls\": [\n    {\n      \"caller\": \"__module__\",\n      \"callee_text\": \"toTitleCaseImplementation\",\n      \"kind\": \"method\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": \"src/toTitleCase.ts\",\n      \"line\": 10\n    }\n  ],\n  \"type_assignments\": [\n    {\n      \"scope\": \"__global__\",\n      \"var\": \"XMLHttpRequest\",\n      \"type\": \"function\",\n      \"type_module\": null,\n      \"from_call\": false\n    }\n  ],\n  \"definitions_rich\": [\n    {\n      \"name\": \"toTitleCase\",\n      \"kind\": \"function\",\n      \"parent\": \"__global__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"data\",\n          \"type\": \"string\"\n        },\n        {\n          \"name\": \"options\",\n          \"type\": \"TitleCaseOptions\"\n        }\n      ],\n      \"returns\": \"TitleCase<string, TitleCaseOptions>\"\n    },\n    {\n      \"name\": \"words\",\n      \"kind\": \"function\",\n      \"parent\": \"__global__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"data\",\n          \"type\": \"string\"\n        }\n      ],\n      \"returns\": \"Words<string>\"\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:50:41+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1863,
+  "completion_tokens": 483
+}

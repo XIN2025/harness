@@ -1,0 +1,8 @@
+{
+  "calls": [],
+  "callable_refs": [
+    {"caller": "takeFirstBy", "callee_text": "takeFirstByImplementation"},
+    {"caller": "takeFirstByImplementation", "callee_text": "compareFn"},
+    {"caller": "takeFirstByImplementation", "callee_text": "n"}
+  ]
+}

@@ -1,0 +1,6 @@
+{"calls": [
+  {"caller": "floor", "callee_text": "purry"},
+  {"caller": "floor", "callee_text": "withPrecision"},
+  {"caller": "floor", "callee_text": "Math.floor"},
+  {"caller": "floor", "callee_text": "precisionOf"}
+]}

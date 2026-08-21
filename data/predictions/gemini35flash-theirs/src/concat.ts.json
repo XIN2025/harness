@@ -1,0 +1,64 @@
+{
+  "definitions": [
+    "concat",
+    "concatImplementation"
+  ],
+  "references": [
+    {
+      "name": "IterableContainer",
+      "source": "./internal/types/IterableContainer",
+      "alias": null
+    },
+    {
+      "name": "purry",
+      "source": "./purry",
+      "alias": null
+    }
+  ],
+  "calls": [
+    {
+      "caller": "concat",
+      "callee_text": "purry",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./purry",
+      "line": 47
+    }
+  ],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "concat",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "args",
+          "type": "readonly unknown[]"
+        }
+      ],
+      "returns": "unknown",
+      "line": 46
+    },
+    {
+      "name": "concatImplementation",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "arr1",
+          "type": "T1"
+        },
+        {
+          "name": "arr2",
+          "type": "T2"
+        }
+      ],
+      "returns": "[...T1, ...T2]",
+      "line": 50
+    }
+  ]
+}

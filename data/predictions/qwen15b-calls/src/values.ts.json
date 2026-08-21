@@ -1,0 +1,4 @@
+{"calls": [
+  {"caller": "values", "callee_text": "Object.values"},
+  {"caller": "values", "callee_text": "purry"}
+]}

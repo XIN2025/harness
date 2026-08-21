@@ -1,0 +1,13 @@
+{
+  "key": "a61b8736113837d2159ce13c2508a5dbdb25117a5481a44975222c6d760c6be1",
+  "model": "harness-qwen15b",
+  "prompt_version": "ours-v1-5c74cf9a927a",
+  "file_sha": "0627c01458c40feb01d342a5841846268ed9752f2c63d8bfc1d8c4c446afa517",
+  "relative_path": "src/flatMap.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    {\n      \"name\": \"flatMap\",\n      \"kind\": \"function\"\n    },\n    {\n      \"name\": \"LazyEvaluator\",\n      \"kind\": \"type_alias\"\n    }\n  ],\n  \"references\": [],\n  \"calls\": [],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"flatMap\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"data\",\n          \"type\": \"readonly T[]\"\n        },\n        {\n          \"name\": \"callbackfn\",\n          \"type\": \"(input: T, index: number, data: readonly T[]) => readonly U[] | U\"\n        }\n      ],\n      \"returns\": \"U[]\"\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:34:53+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1105,
+  "completion_tokens": 181
+}

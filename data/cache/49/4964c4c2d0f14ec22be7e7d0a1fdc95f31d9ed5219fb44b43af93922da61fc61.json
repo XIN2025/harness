@@ -1,0 +1,13 @@
+{
+  "key": "4964c4c2d0f14ec22be7e7d0a1fdc95f31d9ed5219fb44b43af93922da61fc61",
+  "model": "harness-qwen15b",
+  "prompt_version": "refs-v1-7386a79c1ab2+json",
+  "file_sha": "59890bbbe28762e2f42ad2344de58deda440fad7f9c5520fd3d947abf3cd162c",
+  "relative_path": "src/swapIndices.ts",
+  "response": "{\"calls\": [], \"callable_refs\": [{\"caller\": \"swapIndices\", \"callee_text\": \"swapIndicesImplementation\"}, {\"caller\": \"swapIndicesImplementation\", \"callee_text\": \"swapArray\"}]}",
+  "created": "2026-08-08T22:30:32+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1950,
+  "completion_tokens": 42
+}

@@ -1,0 +1,13 @@
+{
+  "key": "b56a666190644402a1da0a65791b0c03578c542bb422141846d201ee01efbad2",
+  "model": "harness-qwen15b",
+  "prompt_version": "ours-v1-5c74cf9a927a",
+  "file_sha": "e5a9c8abf6191c6292f80144f4afb58bb85b34b084029bfbf33531436802d069",
+  "relative_path": "src/product.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"Product\",\n    \"product\"\n  ],\n  \"references\": [],\n  \"calls\": [\n    {\n      \"caller\": \"__module__\",\n      \"callee_text\": \"product\",\n      \"kind\": \"method\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": \"src/product.ts\",\n      \"line\": 1\n    },\n    {\n      \"caller\": \"__module__\",\n      \"callee_text\": \"product\",\n      \"kind\": \"method\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": \"src/product.ts\",\n      \"line\": 2\n    }\n  ],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"Product\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [],\n      \"returns\": {\n        \"scope\": null,\n        \"var\": \"product\",\n        \"type\": \"number | bigint\",\n        \"type_module\": null,\n        \"from_call\": false\n      },\n      \"line\": 1\n    },\n    {\n      \"name\": \"product\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"data\",\n          \"type\": \"IterableContainer<bigint> | IterableContainer<number>\"\n        }\n      ],\n      \"returns\": {\n        \"scope\": null,\n        \"var\": \"product\",\n        \"type\": \"number | bigint\",\n        \"type_module\": null,\n        \"from_call\": false\n      },\n      \"line\": 1\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:41:03+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1028,
+  "completion_tokens": 368
+}

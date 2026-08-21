@@ -1,0 +1,6 @@
+{"calls": [
+  {"caller": "piped", "callee_text": "pipe"},
+  {"caller": "piped", "callee_text": "map"},
+  {"caller": "piped", "callee_text": "prop"},
+  {"caller": "piped", "callee_text": "add"}
+]}

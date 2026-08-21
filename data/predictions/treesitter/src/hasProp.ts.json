@@ -1,0 +1,25 @@
+{
+  "relative_path": "src/hasProp.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "hasProp",
+      "callee_text": "purry",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./purry",
+      "line": 86
+    },
+    {
+      "caller": "hasPropImplementation",
+      "callee_text": "hasOwn",
+      "kind": "static",
+      "receiver": "Object",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 93
+    }
+  ],
+  "callable_refs": []
+}

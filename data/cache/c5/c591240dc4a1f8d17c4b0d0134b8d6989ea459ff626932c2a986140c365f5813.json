@@ -1,0 +1,13 @@
+{
+  "key": "c591240dc4a1f8d17c4b0d0134b8d6989ea459ff626932c2a986140c365f5813",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "refs-strict-v1-ca2cfcfbecef+json",
+  "file_sha": "662c763ede812036fe84f36492e5a631b53506898a8a7fe8b2115b936e1aa247",
+  "relative_path": "src/take.ts",
+  "response": "{\"calls\": [], \"callable_refs\": [{\"caller\": \"take\", \"callee_text\": \"lazyImplementation\"}, {\"caller\": \"take\", \"callee_text\": \"takeImplementation\"}]}",
+  "created": "2026-08-09T06:08:29+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1069,
+  "completion_tokens": 38
+}

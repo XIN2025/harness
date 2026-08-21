@@ -1,0 +1,38 @@
+{
+  "arm": "ts-tus",
+  "split": "dev",
+  "cut": "calls_only",
+  "validity": {
+    "total": 7,
+    "raw_valid": 7,
+    "parseable": 7,
+    "schema_valid": 7
+  },
+  "counts": {
+    "tp": 162,
+    "fp": 0,
+    "fn": 0,
+    "unscored": 36,
+    "files": 7
+  },
+  "metrics": {
+    "precision": {
+      "point": 1.0,
+      "low": 1.0,
+      "high": 1.0,
+      "method": "percentile"
+    },
+    "recall": {
+      "point": 1.0,
+      "low": 1.0,
+      "high": 1.0,
+      "method": "percentile"
+    },
+    "f1": {
+      "point": 1.0,
+      "low": 1.0,
+      "high": 1.0,
+      "method": "percentile"
+    }
+  }
+}

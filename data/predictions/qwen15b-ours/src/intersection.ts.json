@@ -1,0 +1,18 @@
+```json
+{
+  "definitions": [
+    {
+      "name": "intersection",
+      "kind": "function"
+    },
+    {
+      "name": "lazyImplementation",
+      "kind": "function"
+    }
+  ],
+  "references": [],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": []
+}
+```

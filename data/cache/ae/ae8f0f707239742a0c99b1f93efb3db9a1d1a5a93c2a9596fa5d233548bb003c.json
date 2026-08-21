@@ -1,0 +1,13 @@
+{
+  "key": "ae8f0f707239742a0c99b1f93efb3db9a1d1a5a93c2a9596fa5d233548bb003c",
+  "model": "harness-qwen15b",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "9b395a3550f12b8aa98c52253b743655e709e4b02485f2006b7816ce73d419ab",
+  "relative_path": "src/toKebabCase.ts",
+  "response": "```json\n{\n  \"definitions\": [\"toKebabCase\"],\n  \"references\": [\n    {\"name\": \"type-fest\", \"source\": \"./node_modules/type-fest/dist/index.d.ts\"},\n    {\"name\": \"internal/words\", \"source\": \"./src/internal/words.ts\"},\n    {\"name\": \"purry\", \"source\": \"./src/purry.ts\"}\n  ],\n  \"calls\": [\n    {\"caller\": \"__module__\", \"callee_text\": \"toKebabCase\", \"kind\": \"free\",\n     \"receiver\": null, \"receiver_type_hint\": null, \"callee_file_hint\": \"external\", \"line\": 1}\n  ],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\"name\": \"toKebabCase\", \"kind\": \"function\", \"parent\": null, \"bases\": [], \"params\": [], \"returns\": \"KebabCase<S>\", \"line\": 2}\n  ]\n}\n```",
+  "created": "2026-08-08T20:28:41+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 9010,
+  "completion_tokens": 205
+}

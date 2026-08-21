@@ -1,0 +1,16 @@
+{
+  "relative_path": "src/length.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "length",
+      "callee_text": "purry",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./purry",
+      "line": 31
+    }
+  ],
+  "callable_refs": []
+}

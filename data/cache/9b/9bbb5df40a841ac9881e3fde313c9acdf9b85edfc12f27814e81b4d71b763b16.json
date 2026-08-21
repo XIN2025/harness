@@ -1,0 +1,13 @@
+{
+  "key": "9bbb5df40a841ac9881e3fde313c9acdf9b85edfc12f27814e81b4d71b763b16",
+  "model": "harness-qwen15b",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "5f0da02b37ae76c403ad1575ea5524a5106e98628fd687d924f7a61638c7c031",
+  "relative_path": "src/groupByProp.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"groupByProp\", \"callee_text\": \"purry\"},\n  {\"caller\": \"groupByPropImplementation\", \"callee_text\": \"filter\"},\n  {\"caller\": \"groupByPropImplementation\", \"callee_text\": \"isFinite\"},\n  {\"caller\": \"groupByPropImplementation\", \"callee_text\": \"sort\"},\n  {\"caller\": \"groupByPropImplementation\", \"callee_text\": \"reduce\"},\n  {\"caller\": \"groupByPropImplementation\", \"callee_text\": \"isNaN\"},\n  {\"caller\": \"groupByPropImplementation\", \"callee_text\": \"Error\"},\n  {\"caller\": \"groupByPropImplementation\", \"callee_text\": \"format\"},\n  {\"caller\": \"groupByPropImplementation\", \"callee_text\": \"round\"},\n  {\"caller\": \"groupByPropImplementation\", \"callee_text\": \"precisionOf\"}\n]}",
+  "created": "2026-08-08T22:17:03+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 3069,
+  "completion_tokens": 168
+}

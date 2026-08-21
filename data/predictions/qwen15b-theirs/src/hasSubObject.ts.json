@@ -1,0 +1,107 @@
+```json
+{
+  "definitions": [
+    "hasSubObject",
+    "HasSubObjectGuard",
+    "HasSubObjectObjectValue",
+    "HasSubObjectData",
+    "HasSubObjectSubObject",
+    "isDeepEqual",
+    "purry"
+  ],
+  "references": [
+    {"name": "hasSubObject", "source": "./src/hasSubObject.ts"},
+    {"name": "HasSubObjectGuard", "source": "./src/hasSubObject.ts"},
+    {"name": "HasSubObjectObjectValue", "source": "./src/hasSubObject.ts"},
+    {"name": "HasSubObjectData", "source": "./src/hasSubObject.ts"},
+    {"name": "HasSubObjectSubObject", "source": "./src/hasSubObject.ts"},
+    {"name": "isDeepEqual", "source": "./src/isDeepEqual.ts"},
+    {"name": "purry", "source": "./src/purry.ts"}
+  ],
+  "calls": [
+    {
+      "caller": "hasSubObject",
+      "callee_text": "hasSubObjectImplementation",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./src/hasSubObject.ts",
+      "line": 1
+    }
+  ],
+  "type_assignments": [
+    {"scope": "module", "var": "hasSubObject", "type": "function", "type_module": "src"},
+    {"scope": "module", "var": "HasSubObjectGuard", "type": "function", "type_module": "src"},
+    {"scope": "module", "var": "HasSubObjectObjectValue", "type": "function", "type_module": "src"},
+    {"scope": "module", "var": "HasSubObjectData", "type": "function", "type_module": "src"},
+    {"scope": "module", "var": "HasSubObjectSubObject", "type": "function", "type_module": "src"},
+    {"scope": "module", "var": "isDeepEqual", "type": "function", "type_module": "src"},
+    {"scope": "module", "var": "purry", "type": "function", "type_module": "src"}
+  ],
+  "definitions_rich": [
+    {
+      "name": "hasSubObject",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "data", "type": "Record<PropertyKey, unknown>"}, {"name": "subObject", "type": "HasSubObjectSubObject<S, T>"}],
+      "returns": "HasSubObjectGuard<T, S>",
+      "line": 1
+    },
+    {
+      "name": "HasSubObjectGuard",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "data", "type": "Record<PropertyKey, unknown>"}, {"name": "subObject", "type": "HasSubObjectSubObject<S, T>"}],
+      "returns": "HasSubObjectGuard<T, S>",
+      "line": 1
+    },
+    {
+      "name": "HasSubObjectObjectValue",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "data", "type": "Record<PropertyKey, unknown>"}, {"name": "subObject", "type": "HasSubObjectSubObject<S, T>"}],
+      "returns": "HasSubObjectGuard<T, S>",
+      "line": 1
+    },
+    {
+      "name": "HasSubObjectData",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "data", "type": "Record<PropertyKey, unknown>"}, {"name": "subObject", "type": "HasSubObjectSubObject<S, T>"}],
+      "returns": "HasSubObjectGuard<T, S>",
+      "line": 1
+    },
+    {
+      "name": "HasSubObjectSubObject",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "subObject", "type": "Record<PropertyKey, unknown>"}, {"name": "data", "type": "HasSubObjectData<T, S>"}],
+      "returns": "HasSubObjectGuard<T, S>",
+      "line": 1
+    },
+    {
+      "name": "isDeepEqual",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "a", "type": "unknown"}, {"name": "b", "type": "unknown"}],
+      "returns": "boolean",
+      "line": 1
+    },
+    {
+      "name": "purry",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "fn", "type": "Function"}, {"name": "args", "type": "unknown[]"}],
+      "returns": "unknown",
+      "line": 1
+    }
+  ]
+}
+```

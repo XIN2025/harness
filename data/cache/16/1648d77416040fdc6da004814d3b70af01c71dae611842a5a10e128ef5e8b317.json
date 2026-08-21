@@ -1,0 +1,13 @@
+{
+  "key": "1648d77416040fdc6da004814d3b70af01c71dae611842a5a10e128ef5e8b317",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "refs-strict-v1-ca2cfcfbecef+json",
+  "file_sha": "103267e4538b85b4342e9d0b782cdb7a1905d765d4d9a5e6ece2149e08b28e9e",
+  "relative_path": "src/dropLast.ts",
+  "response": "{\"calls\": [], \"callable_refs\": [{\"caller\": \"dropLast\", \"callee_text\": \"dropLastImplementation\"}]}",
+  "created": "2026-08-09T05:59:55+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 964,
+  "completion_tokens": 26
+}

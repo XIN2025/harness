@@ -1,0 +1,13 @@
+{
+  "key": "5e12d37804834506b9dadf7978ec5d3103dde42ad66bc4ae93cb833885f590f3",
+  "model": "harness-qwen15b",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "ef69523594bdbd8dd9d5c3daebd418856db2fe91d4fcc16283c5522824078097",
+  "relative_path": "src/toTitleCase.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"toTitleCase\",\n    \"words\",\n    \"OptionalOptionsWithDefaults\",\n    \"Words\",\n    \"IsEqual\",\n    \"IsLiteral\",\n    \"Join\",\n    \"Lowercase\",\n    \"DEFAULT_PRESERVE_CONSECUTIVE_UPPERCASE\",\n    \"TitleCaseOptions\",\n    \"TitleCaseOptionsWithDefaults\",\n    \"TitleCase\",\n    \"TitleCasedArray\",\n    \"toTitleCaseImplementation\"\n  ],\n  \"references\": [\n    {\"name\": \"type-fest\", \"source\": \"./node_modules/type-fest\"},\n    {\"name\": \"@mui/material\", \"source\": \"./node_modules/@mui/material\"}\n  ],\n  \"calls\": [],\n  \"type_assignments\": [],\n  \"definitions_rich\": []\n}\n```",
+  "created": "2026-08-08T20:28:46+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 9606,
+  "completion_tokens": 163
+}

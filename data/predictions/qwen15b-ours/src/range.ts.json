@@ -1,0 +1,1589 @@
+```json
+{
+  "definitions": [
+    "range",
+    "purry"
+  ],
+  "references": [],
+  "calls": [
+    {
+      "caller": "__module__",
+      "callee_text": "range",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "src/range.ts",
+      "line": 1
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "range",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "src/range.ts",
+      "line": 2
+    }
+  ],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        },
+        {
+          "name": "endOrOptions",
+          "type": "number | RangeOptions"
+        }
+      ],
+      "returns": "number[]",
+      "line": 1
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "endOrOptions",
+          "type": "number | RangeOptions"
+        }
+      ],
+      "returns": "number[]",
+      "line": 2
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 3
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 4
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 5
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 6
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 7
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 8
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 9
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 10
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 11
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 12
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 13
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 14
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 15
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 16
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 17
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 18
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 19
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 20
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 21
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 22
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 23
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 24
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 25
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 26
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 27
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 28
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 29
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 30
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 31
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 32
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 33
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 34
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 35
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 36
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 37
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 38
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 39
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 40
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 41
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 42
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 43
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 44
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 45
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 46
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 47
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 48
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 49
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 50
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 51
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 52
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 53
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 54
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 55
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 56
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 57
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 58
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 59
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 60
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 61
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 62
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 63
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 64
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 65
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 66
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 67
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 68
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 69
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 70
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 71
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 72
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 73
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 74
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 75
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 76
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 77
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 78
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 79
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 80
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 81
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 82
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 83
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 84
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 85
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 86
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 87
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 88
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 89
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 90
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 91
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 92
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 93
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 94
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 95
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 96
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 97
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 98
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 99
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 100
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 101
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 102
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 103
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 104
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 105
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 106
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 107
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 108
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 109
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 110
+    },
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "start",
+          "type": "number"
+        }
+      ],
+      "returns": "number[]",
+      "line": 111
+    },
+    {
+     

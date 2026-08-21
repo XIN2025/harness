@@ -1,0 +1,13 @@
+{
+  "key": "0609a40a729efc0ed7637167dcbc56bec8dd2d4bb1f6d68ed47338b558c2eb66",
+  "model": "harness-qwen15b",
+  "prompt_version": "ours-v1-5c74cf9a927a",
+  "file_sha": "f3d0ec095f51681fe6d2b6a4a8ad5a427bf1141566a212818734352401a621c8",
+  "relative_path": "src/round.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"round\",\n    \"withPrecision\",\n    \"purry\"\n  ],\n  \"references\": [],\n  \"calls\": [\n    {\n      \"caller\": \"__module__\",\n      \"callee_text\": \"round\",\n      \"kind\": \"method\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": \"src/round.ts\",\n      \"line\": 1\n    },\n    {\n      \"caller\": \"__module__\",\n      \"callee_text\": \"withPrecision\",\n      \"kind\": \"method\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": \"src/round.ts\",\n      \"line\": 2\n    },\n    {\n      \"caller\": \"__module__\",\n      \"callee_text\": \"purry\",\n      \"kind\": \"method\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": \"src/round.ts\",\n      \"line\": 3\n    }\n  ],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"round\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"value\",\n          \"type\": \"number\"\n        },\n        {\n          \"name\": \"precision\",\n          \"type\": \"number\"\n        }\n      ],\n      \"returns\": {\n        \"type\": \"number\"\n      },\n      \"line\": 1\n    },\n    {\n      \"name\": \"withPrecision\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"fn\",\n          \"type\": \"function\"\n        }\n      ],\n      \"returns\": {\n        \"type\": \"function\"\n      },\n      \"line\": 2\n    },\n    {\n      \"name\": \"purry\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"fn\",\n          \"type\": \"function\"\n        }\n      ],\n      \"returns\": {\n        \"type\": \"function\"\n      },\n      \"line\": 3\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:43:39+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 775,
+  "completion_tokens": 489
+}

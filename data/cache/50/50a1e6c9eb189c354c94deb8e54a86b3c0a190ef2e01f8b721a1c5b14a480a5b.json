@@ -1,0 +1,13 @@
+{
+  "key": "50a1e6c9eb189c354c94deb8e54a86b3c0a190ef2e01f8b721a1c5b14a480a5b",
+  "model": "harness-qwen15b",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "3bc0f57b69d88322a3f3b914bddb02b6af2830607c73b11fe7bd0fc315722307",
+  "relative_path": "src/splitWhen.ts",
+  "response": "```json\n{\n  \"definitions\": [\"splitWhen\", \"purry\"],\n  \"references\": [\n    {\"name\": \"splitWhen\", \"source\": \"./src/splitWhen.ts\"},\n    {\"name\": \"purry\", \"source\": \"./src/purry.ts\"}\n  ],\n  \"calls\": [],\n  \"type_assignments\": [],\n  \"definitions_rich\": []\n}\n```",
+  "created": "2026-08-08T20:27:11+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 8403,
+  "completion_tokens": 80
+}

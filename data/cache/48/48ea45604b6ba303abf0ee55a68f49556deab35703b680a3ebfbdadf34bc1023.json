@@ -1,0 +1,13 @@
+{
+  "key": "48ea45604b6ba303abf0ee55a68f49556deab35703b680a3ebfbdadf34bc1023",
+  "model": "harness-qwen15b",
+  "prompt_version": "refs-v1-7386a79c1ab2+json",
+  "file_sha": "65fda71d34456bd7e0b482ae6844a00103e4cbef2357ce26d4628a7d85000319",
+  "relative_path": "src/piped.ts",
+  "response": "{\"calls\": [], \"callable_refs\": [{\"caller\": \"piped\", \"callee_text\": \"pipe\"}, {\"caller\": \"pipe\", \"callee_text\": \"identity\"}]}",
+  "created": "2026-08-08T22:28:51+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 2550,
+  "completion_tokens": 37
+}

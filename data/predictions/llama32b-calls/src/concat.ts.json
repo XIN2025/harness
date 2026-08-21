@@ -1,0 +1,12 @@
+{"calls": [
+  {"caller": "concat", "callee_text": "purry"},
+  {"caller": "concat", "callee_text": "concatImplementation"},
+  {"caller": "concatImplementation", "callee_text": "Array.prototype.concat"},
+  {"caller": "concatImplementation", "callee_text": "Array.prototype.push"},
+  {"caller": "concatImplementation", "callee_text": "Array.prototype.concat"},
+  {"caller": "concatImplementation", "callee_text": "Array.prototype.push"},
+  {"caller": "concatImplementation", "callee_text": "Array.prototype.concat"},
+  {"caller": "concatImplementation", "callee_text": "Array.prototype.push"},
+  {"caller": "concatImplementation", "callee_text": "Array.prototype.concat"},
+  {"caller": "concatImplementation", "callee_text": "Array.prototype.push"}
+]}

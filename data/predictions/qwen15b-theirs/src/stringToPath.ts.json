@@ -1,0 +1,11 @@
+```json
+{
+  "definitions": ["stringToPath"],
+  "references": [
+    {"name": "stringToPath", "source": "./src/stringToPath.ts"}
+  ],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": []
+}
+```

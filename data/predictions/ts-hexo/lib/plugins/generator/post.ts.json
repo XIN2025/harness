@@ -1,0 +1,43 @@
+{
+  "relative_path": "lib/plugins/generator/post.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "postGenerator",
+      "callee_text": "toArray",
+      "kind": "method",
+      "receiver": "locals.posts.sort('-date')",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 12
+    },
+    {
+      "caller": "postGenerator",
+      "callee_text": "sort",
+      "kind": "method",
+      "receiver": "locals.posts",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 12
+    },
+    {
+      "caller": "postGenerator",
+      "callee_text": "map",
+      "kind": "method",
+      "receiver": "posts",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 15
+    },
+    {
+      "caller": "postGenerator",
+      "callee_text": "unshift",
+      "kind": "method",
+      "receiver": "layouts",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 29
+    }
+  ],
+  "callable_refs": []
+}

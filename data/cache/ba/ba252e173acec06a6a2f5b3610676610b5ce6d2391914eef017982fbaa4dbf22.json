@@ -1,0 +1,13 @@
+{
+  "key": "ba252e173acec06a6a2f5b3610676610b5ce6d2391914eef017982fbaa4dbf22",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "refs-strict-v1-ca2cfcfbecef+json",
+  "file_sha": "bcb75d76351156b7d96f6c439606a936a13a8caebd4480053526c9cf83475424",
+  "relative_path": "src/takeFirstBy.ts",
+  "response": "{\"calls\": [], \"callable_refs\": [{\"caller\": \"takeFirstBy\", \"callee_text\": \"takeFirstByImplementation\"}]}",
+  "created": "2026-08-09T06:08:34+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1364,
+  "completion_tokens": 28
+}

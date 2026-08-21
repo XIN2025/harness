@@ -1,0 +1,5 @@
+{"calls": [
+  {"caller": "drop", "callee_text": "purry"},
+  {"caller": "dropImplementation", "callee_text": "slice"},
+  {"caller": "lazyImplementation", "callee_text": "next"}
+]}

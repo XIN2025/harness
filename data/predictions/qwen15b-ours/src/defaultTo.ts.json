@@ -1,0 +1,49 @@
+```json
+{
+  "definitions": [
+    {
+      "name": "defaultTo",
+      "kind": "function"
+    },
+    {
+      "name": "fallbackOf",
+      "kind": "function"
+    }
+  ],
+  "references": [],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "defaultTo",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "T"
+        },
+        {
+          "name": "fallback",
+          "type": "FallbackOf<T>"
+        }
+      ],
+      "returns": "NonNullable<T> | Fallback"
+    },
+    {
+      "name": "defaultTo",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fallback",
+          "type": "FallbackOf<T>"
+        }
+      ],
+      "returns": "(data: T) => NonNullable<T> | Fallback"
+    }
+  ]
+}
+```

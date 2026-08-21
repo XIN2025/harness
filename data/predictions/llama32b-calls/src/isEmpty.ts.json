@@ -1,0 +1,8 @@
+{"calls": [
+  {"caller": "isEmpty", "callee_text": "__module__"},
+  {"caller": "isEmpty", "callee_text": "Object.keys"},
+  {"caller": "isEmpty", "callee_text": "Object.keys"},
+  {"caller": "isEmpty", "callee_text": "Array.isArray"},
+  {"caller": "isEmpty", "callee_text": "Array.isArray"},
+  {"caller": "isEmpty", "callee_text": "data === undefined"}
+]}

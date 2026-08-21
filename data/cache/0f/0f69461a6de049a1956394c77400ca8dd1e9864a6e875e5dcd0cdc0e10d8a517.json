@@ -1,0 +1,13 @@
+{
+  "key": "0f69461a6de049a1956394c77400ca8dd1e9864a6e875e5dcd0cdc0e10d8a517",
+  "model": "harness-qwen15b",
+  "prompt_version": "ours-v1-5c74cf9a927a",
+  "file_sha": "f97b07502cf9e290cde1c373b52d66279b3bc836a4d75fe5abccb5795c350026",
+  "relative_path": "src/sortedIndex.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"sortedIndex\",\n    \"purry\",\n    \"binarySearchCutoffIndex\"\n  ],\n  \"references\": [],\n  \"calls\": [],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"sortedIndex\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"data\",\n          \"type\": \"readonly T[]\"\n        },\n        {\n          \"name\": \"item\",\n          \"type\": \"T\"\n        }\n      ],\n      \"returns\": \"number\",\n      \"line\": 1\n    },\n    {\n      \"name\": \"sortedIndex\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"item\",\n          \"type\": \"T\"\n        }\n      ],\n      \"returns\": \"number\",\n      \"line\": 1\n    },\n    {\n      \"name\": \"sortedIndexImplementation\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"array\",\n          \"type\": \"readonly T[]\"\n        },\n        {\n          \"name\": \"item\",\n          \"type\": \"T\"\n        }\n      ],\n      \"returns\": \"number\",\n      \"line\": 1\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:44:25+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 798,
+  "completion_tokens": 312
+}

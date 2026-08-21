@@ -1,0 +1,12 @@
+```json
+{
+  "definitions": ["merge", "Merge"],
+  "references": [
+    {"name": "merge", "source": "./src/merge.ts"},
+    {"name": "Merge", "source": "./src/merge.ts"}
+  ],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": []
+}
+```

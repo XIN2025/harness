@@ -1,0 +1,1488 @@
+```json
+{
+  "definitions": [
+    "takeLastWhile",
+    "purry",
+    "IterableContainer",
+    "purryImplementation"
+  ],
+  "references": [],
+  "calls": [
+    {
+      "caller": "__module__",
+      "callee_text": "takeLastWhile",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "src/takeLastWhile.ts",
+      "line": 1
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "takeLastWhile",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "src/takeLastWhile.ts",
+      "line": 2
+    }
+  ],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "IterableContainer"
+        },
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => item is S"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 1
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "IterableContainer"
+        },
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "T[number][]"
+        }
+      ],
+      "line": 2
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => item is S"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 3
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "T[number][]"
+        }
+      ],
+      "line": 4
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => item is S"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 5
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 6
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 7
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 8
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 9
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 10
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 11
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 12
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 13
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 14
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 15
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 16
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 17
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 18
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 19
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 20
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 21
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 22
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 23
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 24
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 25
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 26
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 27
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 28
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 29
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 30
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 31
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 32
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 33
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 34
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 35
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 36
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 37
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 38
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 39
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 40
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 41
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 42
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 43
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 44
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 45
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 46
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 47
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 48
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 49
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 50
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 51
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 52
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 53
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 54
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 55
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 56
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 57
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 58
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 59
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 60
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 61
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 62
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 63
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 64
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 65
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 66
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 67
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 68
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 69
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 70
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 71
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 72
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 73
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 74
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 75
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 76
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 77
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 78
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 79
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "S[]"
+        }
+      ],
+      "line": 80
+    },
+    {
+      "name": "takeLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "predicate",
+          "type

@@ -1,0 +1,13 @@
+{
+  "key": "58039b88ddb5039caaa6fcf2330c46002bd65fd851030bd1fd196cde64e03e12",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "refs-v1-7386a79c1ab2+json",
+  "file_sha": "d73685e307e0d64cf57d8a941a9965578bcabddb978f2965f94a61fb8c19bda5",
+  "relative_path": "src/nthBy.ts",
+  "response": "{\"callable_refs\": [\n  {\"caller\": \"nthBy\", \"callee_text\": \"nthByImplementation\"},\n  {\"caller\": \"nthByImplementation\", \"callee_text\": \"quickSelect\"},\n  {\"caller\": \"nthByImplementation\", \"callee_text\": \"CompareFunction\"}\n]}",
+  "created": "2026-08-08T23:24:26+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1213,
+  "completion_tokens": 58
+}

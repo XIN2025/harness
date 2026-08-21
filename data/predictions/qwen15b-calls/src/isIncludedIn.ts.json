@@ -1,0 +1,4 @@
+{"calls": [
+  {"caller": "isIncludedIn", "callee_text": "Array.prototype.includes"},
+  {"caller": "isIncludedIn", "callee_text": "Set.prototype.has"}
+]}

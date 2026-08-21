@@ -1,0 +1,13 @@
+{
+  "key": "56112a1323342ecb9a58ee23a99bcaab9b2a3089e9c3fddf5d568b39ba3c0ceb",
+  "model": "harness-qwen15b",
+  "prompt_version": "refs-v1-7386a79c1ab2+json",
+  "file_sha": "9e551c3662e1955fa97e9fbecf18bbe86fce21526fba42d5d811df49ebe01180",
+  "relative_path": "src/internal/binarySearchCutoffIndex.ts",
+  "response": "{\n  \"calls\": [],\n  \"callable_refs\": [\n    {\"caller\": \"binarySearchCutoffIndex\", \"callee_text\": \"predicate\"}\n  ]\n}",
+  "created": "2026-08-08T22:26:47+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 666,
+  "completion_tokens": 34
+}

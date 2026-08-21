@@ -1,0 +1,4 @@
+{"calls": [
+  {"caller": "only", "callee_text": "purry"},
+  {"caller": "onlyImplementation", "callee_text": "length"}
+]}

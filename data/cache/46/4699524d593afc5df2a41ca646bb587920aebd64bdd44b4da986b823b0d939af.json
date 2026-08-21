@@ -1,0 +1,13 @@
+{
+  "key": "4699524d593afc5df2a41ca646bb587920aebd64bdd44b4da986b823b0d939af",
+  "model": "harness-llama32b",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "be519e078dea29bc1410d9f629eb7c2629f1e21a0c3e7b2ee1e9e2158e50ebdf",
+  "relative_path": "src/intersection.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"intersection\", \"callee_text\": \"__module__\"},\n  {\"caller\": \"intersection\", \"callee_text\": \"purryFromLazy\"},\n  {\"caller\": \"intersection\", \"callee_text\": \"lazyImplementation\"},\n  {\"caller\": \"intersection\", \"callee_text\": \"Map\"},\n  {\"caller\": \"intersection\", \"callee_text\": \"for\"},\n  {\"caller\": \"intersection\", \"callee_text\": \"other\"},\n  {\"caller\": \"intersection\", \"callee_text\": \"remaining\"},\n  {\"caller\": \"intersection\", \"callee_text\": \"value\"},\n  {\"caller\": \"intersection\", \"callee_text\": \"copies\"},\n  {\"caller\": \"intersection\", \"callee_text\": \"SKIP_ITEM\"},\n  {\"caller\": \"intersection\", \"callee_text\": \"lazyEmptyEvaluator\"},\n  {\"caller\": \"intersection\", \"callee_text\": \"hasNext\"},\n  {\"caller\": \"intersection\", \"callee_text\": \"next\"},\n  {\"caller\": \"intersection\", \"callee_text\": \"done\"},\n  {\"caller\": \"intersection\", \"callee_text\": \"format\"},\n  {\"caller\": \"intersection\", \"callee_text\": \"round\"},\n  {\"caller\": \"intersection\", \"callee_text\": \"precisionOf\"}\n]}",
+  "created": "2026-08-08T22:44:03+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1193,
+  "completion_tokens": 254
+}

@@ -1,0 +1,13 @@
+{
+  "key": "a714d81f70eff570205120d2ca35050fd73a8ebcbe65674d2989e970e2f24dce",
+  "model": "harness-qwen15b",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "c0cb203f156052f700038dd0eef746a0b6000792aae6d7891763d64f4c7ae2d3",
+  "relative_path": "src/divide.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"divide\", \"callee_text\": \"purry\"},\n  {\"caller\": \"divideImplementation\", \"callee_text\": \"number\"}\n]}",
+  "created": "2026-08-08T22:15:03+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 762,
+  "completion_tokens": 36
+}

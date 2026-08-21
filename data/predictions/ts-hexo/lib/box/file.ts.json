@@ -1,0 +1,43 @@
+{
+  "relative_path": "lib/box/file.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "File.read",
+      "callee_text": "readFile",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-fs",
+      "line": 44
+    },
+    {
+      "caller": "File.readSync",
+      "callee_text": "readFileSync",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-fs",
+      "line": 48
+    },
+    {
+      "caller": "File.stat",
+      "callee_text": "stat",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-fs",
+      "line": 52
+    },
+    {
+      "caller": "File.statSync",
+      "callee_text": "statSync",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-fs",
+      "line": 56
+    }
+  ],
+  "callable_refs": []
+}

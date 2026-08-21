@@ -1,0 +1,34 @@
+{
+  "relative_path": "src/mapValues.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "mapValues",
+      "callee_text": "purry",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./purry",
+      "line": 59
+    },
+    {
+      "caller": "mapValuesImplementation",
+      "callee_text": "entries",
+      "kind": "static",
+      "receiver": "Object",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 68
+    },
+    {
+      "caller": "mapValuesImplementation",
+      "callee_text": "valueMapper",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 69
+    }
+  ],
+  "callable_refs": []
+}

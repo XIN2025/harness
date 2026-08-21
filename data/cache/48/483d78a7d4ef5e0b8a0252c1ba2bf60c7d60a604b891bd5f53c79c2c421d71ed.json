@@ -1,0 +1,13 @@
+{
+  "key": "483d78a7d4ef5e0b8a0252c1ba2bf60c7d60a604b891bd5f53c79c2c421d71ed",
+  "model": "harness-qwen15b",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "1f15bc55b132dd53f04540ac10c9def5bad94590cfa20bb02a34264fdea77d47",
+  "relative_path": "src/pipe.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"pipe\",\n    \"prepareLazyFunction\",\n    \"isIterable\"\n  ],\n  \"references\": [\n    {\"name\": \"pipe\", \"source\": \"./src/pipe.ts\"},\n    {\"name\": \"prepareLazyFunction\", \"source\": \"./src/pipe.ts\"},\n    {\"name\": \"isIterable\", \"source\": \"./src/pipe.ts\"}\n  ],\n  \"calls\": [],\n  \"type_assignments\": [\n    {\"scope\": \"module\", \"var\": \"pipe\", \"type\": \"function\", \"type_module\": \"src\"},\n    {\"scope\": \"module\", \"var\": \"prepareLazyFunction\", \"type\": \"function\", \"type_module\": \"src\"},\n    {\"scope\": \"module\", \"var\": \"isIterable\", \"type\": \"function\", \"type_module\": \"src\"}\n  ],\n  \"definitions_rich\": [\n    {\"name\": \"pipe\", \"kind\": \"function\", \"parent\": null, \"bases\": [], \"params\": [{\"name\": \"data\", \"type\": null}], \"returns\": null, \"line\": 1},\n    {\"name\": \"prepareLazyFunction\", \"kind\": \"function\", \"parent\": null, \"bases\": [], \"params\": [{\"name\": \"lazy\", \"type\": null}, {\"name\": \"lazyArgs\", \"type\": null}], \"returns\": null, \"line\": 2},\n    {\"name\": \"isIterable\", \"kind\": \"function\", \"parent\": null, \"bases\": [], \"params\": [{\"name\": \"something\", \"type\": null}], \"returns\": null, \"line\": 3}\n  ]\n}\n```",
+  "created": "2026-08-08T20:24:24+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 11629,
+  "completion_tokens": 347
+}

@@ -1,0 +1,97 @@
+{
+  "relative_path": "src/sample.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "sample",
+      "callee_text": "purry",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./purry",
+      "line": 168
+    },
+    {
+      "caller": "sampleImplementation",
+      "callee_text": "min",
+      "kind": "static",
+      "receiver": "Math",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 201
+    },
+    {
+      "caller": "sampleImplementation",
+      "callee_text": "Set",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 203
+    },
+    {
+      "caller": "sampleImplementation",
+      "callee_text": "floor",
+      "kind": "static",
+      "receiver": "Math",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 205
+    },
+    {
+      "caller": "sampleImplementation",
+      "callee_text": "random",
+      "kind": "static",
+      "receiver": "Math",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 205
+    },
+    {
+      "caller": "sampleImplementation",
+      "callee_text": "add",
+      "kind": "method",
+      "receiver": "sampleIndices",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 206
+    },
+    {
+      "caller": "sampleImplementation",
+      "callee_text": "map",
+      "kind": "method",
+      "receiver": "[...sampleIndices]\n      .sort((a, b) => a - b)",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 210
+    },
+    {
+      "caller": "sampleImplementation",
+      "callee_text": "sort",
+      "kind": "method",
+      "receiver": "[...sampleIndices]",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 210
+    },
+    {
+      "caller": "sampleImplementation",
+      "callee_text": "filter",
+      "kind": "method",
+      "receiver": "data",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 215
+    },
+    {
+      "caller": "sampleImplementation",
+      "callee_text": "has",
+      "kind": "method",
+      "receiver": "sampleIndices",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 215
+    }
+  ],
+  "callable_refs": []
+}

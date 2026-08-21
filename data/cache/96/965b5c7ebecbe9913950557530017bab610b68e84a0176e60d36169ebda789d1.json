@@ -1,0 +1,13 @@
+{
+  "key": "965b5c7ebecbe9913950557530017bab610b68e84a0176e60d36169ebda789d1",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "d62623c67d20039235ca704fa5ccbde090fcd7a2d2a320bfbef3d42a5e7154d6",
+  "relative_path": "src/prop.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"prop\", \"callee_text\": \"implementation\"},\n  {\"caller\": \"propImplementation\", \"callee_text\": \"output\"},\n  {\"caller\": \"propImplementation\", \"callee_text\": \"data\"},\n  {\"caller\": \"propImplementation\", \"callee_text\": \"key\"},\n  {\"caller\": \"propImplementation\", \"callee_text\": \"keys\"},\n  {\"caller\": \"propImplementation\", \"callee_text\": \"undefined\"},\n  {\"caller\": \"propImplementation\", \"callee_text\": \"output\"},\n  {\"caller\": \"propImplementation\", \"callee_text\": \"data\"},\n  {\"caller\": \"propImplementation\", \"callee_text\": \"key\"},\n  {\"caller\": \"propImplementation\", \"callee_text\": \"keys\"}\n]}",
+  "created": "2026-08-08T23:08:06+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 5430,
+  "completion_tokens": 155
+}

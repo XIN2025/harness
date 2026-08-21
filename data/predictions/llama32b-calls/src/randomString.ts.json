@@ -1,0 +1,11 @@
+{"calls": [
+  {"caller": "randomString", "callee_text": "purry"},
+  {"caller": "randomStringImplementation", "callee_text": "Math"},
+  {"caller": "randomStringImplementation", "callee_text": "floor"},
+  {"caller": "randomStringImplementation", "callee_text": "ALPHABET.length"},
+  {"caller": "randomStringImplementation", "callee_text": "ALPHABET"},
+  {"caller": "randomStringImplementation", "callee_text": "Math.random"},
+  {"caller": "randomStringImplementation", "callee_text": "join"},
+  {"caller": "randomStringImplementation", "callee_text": "push"},
+  {"caller": "randomStringImplementation", "callee_text": "for"}
+]}

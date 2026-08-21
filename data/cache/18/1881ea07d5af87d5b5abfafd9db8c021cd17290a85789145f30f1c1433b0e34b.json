@@ -1,0 +1,13 @@
+{
+  "key": "1881ea07d5af87d5b5abfafd9db8c021cd17290a85789145f30f1c1433b0e34b",
+  "model": "harness-llama32b",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "383924399a85fb1dbafc071b0441223e8250a5d5e105d33503c34c76ea0e3a3c",
+  "relative_path": "src/findLastIndex.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"findLastIndex\", \"callee_text\": \"purry\"},\n  {\"caller\": \"findLastIndexImplementation\", \"callee_text\": \"find\"},\n  {\"caller\": \"findLastIndexImplementation\", \"callee_text\": \"forEach\"},\n  {\"caller\": \"findLastIndexImplementation\", \"callee_text\": \"length\"},\n  {\"caller\": \"findLastIndexImplementation\", \"callee_text\": \"index\"},\n  {\"caller\": \"findLastIndexImplementation\", \"callee_text\": \"data\"},\n  {\"caller\": \"findLastIndexImplementation\", \"callee_text\": \"predicate\"}\n]}",
+  "created": "2026-08-08T22:37:25+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1091,
+  "completion_tokens": 125
+}

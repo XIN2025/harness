@@ -1,0 +1,12 @@
+```json
+{
+  "definitions": ["invert", "invertImplementation"],
+  "references": [
+    {"name": "invert", "source": "./src/invert.ts"},
+    {"name": "invertImplementation", "source": "./src/invert.ts"}
+  ],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": []
+}
+```

@@ -1,0 +1,108 @@
+```json
+{
+  "definitions": [
+    "mapKeys",
+    "MaybePartial",
+    "CouldBeEmpty",
+    "BoundedPartial",
+    "purry"
+  ],
+  "references": [],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "MappedKeys",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "T",
+          "type": "object"
+        },
+        {
+          "name": "Key",
+          "type": "property key"
+        }
+      ],
+      "returns": {
+        "type": "object"
+      },
+      "line": 1
+    },
+    {
+      "name": "MaybePartial",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "T",
+          "type": "object"
+        },
+        {
+          "name": "Key",
+          "type": "property key"
+        },
+        {
+          "name": "Output",
+          "type": "any"
+        }
+      ],
+      "returns": {
+        "type": "any"
+      },
+      "line": 1
+    },
+    {
+      "name": "CouldBeEmpty",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "T",
+          "type": "object"
+        }
+      ],
+      "returns": {
+        "type": "boolean"
+      },
+      "line": 1
+    },
+    {
+      "name": "BoundedPartial",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "Key",
+          "type": "property key"
+        }
+      ],
+      "returns": {
+        "type": "any"
+      },
+      "line": 1
+    },
+    {
+      "name": "purry",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "function"
+        }
+      ],
+      "returns": {
+        "type": "any"
+      },
+      "line": 1
+    }
+  ]
+}
+```

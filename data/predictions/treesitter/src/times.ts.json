@@ -1,0 +1,52 @@
+{
+  "relative_path": "src/times.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "times",
+      "callee_text": "purry",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./purry",
+      "line": 78
+    },
+    {
+      "caller": "timesImplementation",
+      "callee_text": "isInteger",
+      "kind": "static",
+      "receiver": "Number",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 90
+    },
+    {
+      "caller": "timesImplementation",
+      "callee_text": "floor",
+      "kind": "static",
+      "receiver": "Math",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 90
+    },
+    {
+      "caller": "timesImplementation",
+      "callee_text": "Array",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 93
+    },
+    {
+      "caller": "timesImplementation",
+      "callee_text": "fn",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 96
+    }
+  ],
+  "callable_refs": []
+}

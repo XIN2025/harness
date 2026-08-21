@@ -1,0 +1,13 @@
+{
+  "key": "d2bb9aef6fe92861389b95680a69456da45caa3cc5e949563a4c85930f934cf4",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "refs-strict-v1-ca2cfcfbecef+json",
+  "file_sha": "be519e078dea29bc1410d9f629eb7c2629f1e21a0c3e7b2ee1e9e2158e50ebdf",
+  "relative_path": "src/intersection.ts",
+  "response": "{\"calls\": [], \"callable_refs\": [{\"caller\": \"intersection\", \"callee_text\": \"lazyImplementation\"}, {\"caller\": \"intersection\", \"callee_text\": \"purryFromLazy\"}, {\"caller\": \"intersection\", \"callee_text\": \"lazyEmptyEvaluator\"}, {\"caller\": \"intersection\", \"callee_text\": \"SKIP_ITEM\"}]}",
+  "created": "2026-08-09T06:02:36+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1289,
+  "completion_tokens": 69
+}

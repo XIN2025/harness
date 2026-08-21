@@ -1,0 +1,13 @@
+{
+  "key": "5303097832ca1e4118b9a05e7170924fabfff370ff12ef902f70f16542e271ed",
+  "model": "harness-qwen15b",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "3c4ff73103d1171a167cf341b2bd4a519978fe96611f0be82a01ddf4488f99ef",
+  "relative_path": "src/capitalize.ts",
+  "response": "```json\n{\n  \"definitions\": [\"capitalize\", \"purry\"],\n  \"references\": [\n    {\"name\": \"capitalize\", \"source\": \"./src/capitalize.ts\"},\n    {\"name\": \"purry\", \"source\": \"./src/purry.ts\"}\n  ],\n  \"calls\": [],\n  \"type_assignments\": [],\n  \"definitions_rich\": []\n}\n```",
+  "created": "2026-08-08T20:16:35+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 8734,
+  "completion_tokens": 78
+}

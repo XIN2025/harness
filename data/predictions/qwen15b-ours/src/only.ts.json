@@ -1,0 +1,80 @@
+```json
+{
+  "definitions": [
+    "IterableContainer",
+    "purry",
+    "Only",
+    "only"
+  ],
+  "references": [],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "IterableContainer",
+      "kind": "interface",
+      "parent": null,
+      "bases": [],
+      "params": [],
+      "returns": null,
+      "line": 1
+    },
+    {
+      "name": "purry",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "Function"
+        }
+      ],
+      "returns": "unknown",
+      "line": 10
+    },
+    {
+      "name": "Only",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "IterableContainer"
+        }
+      ],
+      "returns": "unknown",
+      "line": 18
+    },
+    {
+      "name": "only",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "IterableContainer"
+        }
+      ],
+      "returns": "unknown",
+      "line": 26
+    },
+    {
+      "name": "onlyImplementation",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "readonly T[]"
+        }
+      ],
+      "returns": "T | undefined",
+      "line": 34
+    }
+  ]
+}
+```

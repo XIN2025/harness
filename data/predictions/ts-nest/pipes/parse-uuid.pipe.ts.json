@@ -1,0 +1,79 @@
+{
+  "relative_path": "pipes/parse-uuid.pipe.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "__module__",
+      "callee_text": "Injectable",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../decorators/core/injectable.decorator",
+      "line": 47
+    },
+    {
+      "caller": "ParseUUIDPipe.constructor",
+      "callee_text": "Optional",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../decorators/core/optional.decorator",
+      "line": 59
+    },
+    {
+      "caller": "ParseUUIDPipe.transform",
+      "callee_text": "isNil",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../utils/shared.utils",
+      "line": 74
+    },
+    {
+      "caller": "ParseUUIDPipe.transform",
+      "callee_text": "isUUID",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 77
+    },
+    {
+      "caller": "ParseUUIDPipe.transform",
+      "callee_text": "exceptionFactory",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 78
+    },
+    {
+      "caller": "ParseUUIDPipe.isUUID",
+      "callee_text": "isString",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../utils/shared.utils",
+      "line": 88
+    },
+    {
+      "caller": "ParseUUIDPipe.isUUID",
+      "callee_text": "exceptionFactory",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 89
+    },
+    {
+      "caller": "ParseUUIDPipe.isUUID",
+      "callee_text": "test",
+      "kind": "method",
+      "receiver": "pattern",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 92
+    }
+  ],
+  "callable_refs": []
+}

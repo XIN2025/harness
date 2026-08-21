@@ -1,0 +1,13 @@
+{
+  "key": "40349a2b20e1887bad2e19f9dbbd8164ac660c78c52eebc110ff907aa53486b6",
+  "model": "harness-qwen15b",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "5536c462e40c6ab9e0e1c07c947889ca26b896b99d232aa269ed929f75e28b10",
+  "relative_path": "src/countBy.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"countBy\", \"callee_text\": \"purry\"},\n  {\"caller\": \"countByImplementation\", \"callee_text\": \"forEach\"},\n  {\"caller\": \"countByImplementation\", \"callee_text\": \"categorizationFn\"},\n  {\"caller\": \"countByImplementation\", \"callee_text\": \"get\"},\n  {\"caller\": \"countByImplementation\", \"callee_text\": \"set\"}\n]}",
+  "created": "2026-08-08T22:14:43+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1031,
+  "completion_tokens": 89
+}

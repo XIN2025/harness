@@ -1,0 +1,5 @@
+{"callable_refs": [
+  {"caller": "times", "callee_text": "timesImplementation"},
+  {"caller": "timesImplementation", "callee_text": "Math.floor"},
+  {"caller": "timesImplementation", "callee_text": "Number.isInteger"}
+]}

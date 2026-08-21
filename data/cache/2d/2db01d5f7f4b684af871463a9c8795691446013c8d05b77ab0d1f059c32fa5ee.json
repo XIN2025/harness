@@ -1,0 +1,13 @@
+{
+  "key": "2db01d5f7f4b684af871463a9c8795691446013c8d05b77ab0d1f059c32fa5ee",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "refs-strict-v1-ca2cfcfbecef+json",
+  "file_sha": "78abc81dd0a0401a76bb96d4fda26bdbcf236cab026e630834cb42548a5eb2e5",
+  "relative_path": "src/ceil.ts",
+  "response": "{\"calls\": [], \"callable_refs\": [{\"caller\": \"ceil\", \"callee_text\": \"withPrecision(Math.ceil, ...)\"}, {\"caller\": \"ceil\", \"callee_text\": \"purry\"}]}",
+  "created": "2026-08-09T05:42:21+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 964,
+  "completion_tokens": 43
+}

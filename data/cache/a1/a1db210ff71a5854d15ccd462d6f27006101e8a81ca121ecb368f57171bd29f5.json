@@ -1,0 +1,13 @@
+{
+  "key": "a1db210ff71a5854d15ccd462d6f27006101e8a81ca121ecb368f57171bd29f5",
+  "model": "harness-qwen15b",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "0fcaa31bd2a34bf850409c3e65142f4b6a0ed535ecba87acedebd8983989a78c",
+  "relative_path": "src/purry.ts",
+  "response": "```json\n{\n  \"definitions\": [\"purry\", \"strictFunction\"],\n  \"references\": [\n    {\"name\": \"purr\", \"source\": \"./src/purry.ts\"},\n    {\"name\": \"strictFunction\", \"source\": \"./src/internal/types/StrictFunction\"}\n  ],\n  \"calls\": [],\n  \"type_assignments\": [],\n  \"definitions_rich\": []\n}\n```",
+  "created": "2026-08-08T20:24:59+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 8604,
+  "completion_tokens": 81
+}

@@ -1,0 +1,137 @@
+```json
+{
+  "definitions": [
+    "evolve",
+    "evolveImplementation"
+  ],
+  "references": [
+    {
+      "name": "IterableContainer",
+      "source": "./internal/types/IterableContainer",
+      "alias": null
+    },
+    {
+      "name": "purry",
+      "source": "./purry",
+      "alias": null
+    }
+  ],
+  "calls": [
+    {
+      "caller": "evolve",
+      "callee_text": "purry",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./purry",
+      "line": 79
+    },
+    {
+      "caller": "evolve",
+      "callee_text": "evolveImplementation",
+      "kind": "hook",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 79
+    },
+    {
+      "caller": "evolveImplementation",
+      "callee_text": "entries",
+      "kind": "static",
+      "receiver": "Object",
+      "receiver_type_hint": "Object",
+      "callee_file_hint": "external",
+      "line": 88
+    },
+    {
+      "caller": "evolveImplementation",
+      "callee_text": "value",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 92
+    },
+    {
+      "caller": "evolveImplementation",
+      "callee_text": "evolveImplementation",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 93
+    }
+  ],
+  "type_assignments": [
+    {
+      "scope": "evolveImplementation",
+      "var": "out",
+      "type": null,
+      "type_module": null,
+      "from_call": null
+    }
+  ],
+  "definitions_rich": [
+    {
+      "name": "GenericEvolver",
+      "kind": "type_alias",
+      "parent": null,
+      "bases": [],
+      "params": [],
+      "returns": null,
+      "line": 7
+    },
+    {
+      "name": "Evolver",
+      "kind": "type_alias",
+      "parent": null,
+      "bases": [],
+      "params": [],
+      "returns": null,
+      "line": 22
+    },
+    {
+      "name": "Evolved",
+      "kind": "type_alias",
+      "parent": null,
+      "bases": [],
+      "params": [],
+      "returns": null,
+      "line": 40
+    },
+    {
+      "name": "evolve",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "args",
+          "type": "unknown[]"
+        }
+      ],
+      "returns": "unknown",
+      "line": 78
+    },
+    {
+      "name": "evolveImplementation",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "unknown"
+        },
+        {
+          "name": "evolver",
+          "type": "GenericEvolver"
+        }
+      ],
+      "returns": "unknown",
+      "line": 81
+    }
+  ]
+}
+```

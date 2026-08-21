@@ -1,0 +1,13 @@
+{"calls": [
+  {"caller": "stringToPath", "callee_text": "exec"},
+  {"caller": "stringToPath", "callee_text": "push"},
+  {"caller": "stringToPath", "callee_text": "push"},
+  {"caller": "stringToPath", "callee_text": "push"},
+  {"caller": "stringToPath", "callee_text": "push"},
+  {"caller": "stringToPath", "callee_text": "push"},
+  {"caller": "stringToPath", "callee_text": "push"},
+  {"caller": "stringToPath", "callee_text": "exec"},
+  {"caller": "stringToPath", "callee_text": "exec"},
+  {"caller": "stringToPath", "callee_text": "exec"},
+  {"caller": "stringToPath", "callee_text": "exec"}
+]}

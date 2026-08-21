@@ -1,0 +1,43 @@
+{
+  "relative_path": "src/flatMap.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "flatMap",
+      "callee_text": "purry",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./purry",
+      "line": 55
+    },
+    {
+      "caller": "flatMapImplementation",
+      "callee_text": "flatMap",
+      "kind": "method",
+      "receiver": "data",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 61
+    },
+    {
+      "caller": "lazyImplementation",
+      "callee_text": "callbackfn",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 73
+    },
+    {
+      "caller": "lazyImplementation",
+      "callee_text": "isArray",
+      "kind": "static",
+      "receiver": "Array",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 74
+    }
+  ],
+  "callable_refs": []
+}

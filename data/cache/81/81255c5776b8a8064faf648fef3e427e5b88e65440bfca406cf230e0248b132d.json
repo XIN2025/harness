@@ -1,0 +1,13 @@
+{
+  "key": "81255c5776b8a8064faf648fef3e427e5b88e65440bfca406cf230e0248b132d",
+  "model": "harness-qwen15b",
+  "prompt_version": "ours-v1-5c74cf9a927a",
+  "file_sha": "26f8d9f51eb99635435316672c699f43d854d59f3edd71ff7be1e16894a484cb",
+  "relative_path": "src/reduce.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    {\n      \"name\": \"reduce\",\n      \"kind\": \"function\"\n    },\n    {\n      \"name\": \"purry\",\n      \"kind\": \"function\"\n    }\n  ],\n  \"references\": [],\n  \"calls\": [],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"reduce\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [\"Array\"],\n      \"params\": [\n        {\n          \"name\": \"data\",\n          \"type\": \"readonly T[]\"\n        },\n        {\n          \"name\": \"callbackfn\",\n          \"type\": \"(previousValue: U, currentValue: T, currentIndex: number, data: readonly T[]) => U\"\n        },\n        {\n          \"name\": \"initialValue\",\n          \"type\": \"U\"\n        }\n      ],\n      \"returns\": \"U\"\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:43:31+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1038,
+  "completion_tokens": 201
+}

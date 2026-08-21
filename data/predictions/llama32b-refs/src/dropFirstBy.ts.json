@@ -1,0 +1,6 @@
+{"callable_refs": [
+  {"caller": "dropFirstBy", "callee_text": "dropFirstByImplementation"},
+  {"caller": "dropFirstBy", "callee_text": "heapify"},
+  {"caller": "dropFirstBy", "callee_text": "heapMaybeInsert"},
+  {"caller": "dropFirstBy", "callee_text": "compareFn"}
+]}

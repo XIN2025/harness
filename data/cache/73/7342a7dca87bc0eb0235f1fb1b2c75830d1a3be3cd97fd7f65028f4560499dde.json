@@ -1,0 +1,13 @@
+{
+  "key": "7342a7dca87bc0eb0235f1fb1b2c75830d1a3be3cd97fd7f65028f4560499dde",
+  "model": "harness-qwen15b",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "2088617adbf29c12e440220b243cb79e58a1fa80c5c6d2629b72c7e7128186af",
+  "relative_path": "src/internal/words.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"words\", \"callee_text\": \"data\"},\n  {\"caller\": \"words\", \"callee_text\": \"WHITESPACE\"},\n  {\"caller\": \"words\", \"callee_text\": \"WORD_SEPARATORS\"},\n  {\"caller\": \"words\", \"callee_text\": \"results\"},\n  {\"caller\": \"words\", \"callee_text\": \"word\"},\n  {\"caller\": \"words\", \"callee_text\": \"flush\"},\n  {\"caller\": \"words\", \"callee_text\": \"character\"},\n  {\"caller\": \"words\", \"callee_text\": \"WORD_SEPARATORS.has\"},\n  {\"caller\": \"words\", \"callee_text\": \"/[a-z]$/u.test(word) && /[A-Z]/u.test(character)\"},\n  {\"caller\": \"words\", \"callee_text\": \"flush\"},\n  {\"caller\": \"words\", \"callee_text\": \"/[A-Z][A-Z]$/u.test(word) && /[a-z]/u.test(character)\"},\n  {\"caller\": \"words\", \"callee_text\": \"flush\"},\n  {\"caller\": \"words\", \"callee_text\": \"/\\b[a-zA-Z0-9]+\\b/g\"}\n]}",
+  "created": "2026-08-08T22:17:46+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1149,
+  "completion_tokens": 242
+}

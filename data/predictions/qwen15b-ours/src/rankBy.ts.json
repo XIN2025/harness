@@ -1,0 +1,90 @@
+```json
+{
+  "definitions": [
+    "rankBy",
+    "purryOrderRulesWithArgument",
+    "type OrderRule",
+    "CompareFunction",
+    "NonEmptyArray"
+  ],
+  "references": [],
+  "calls": [
+    {
+      "caller": "__module__",
+      "callee_text": "rankBy",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "src/rankBy.ts",
+      "line": 1
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "rankBy",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "src/rankBy.ts",
+      "line": 2
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "rankBy",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "src/rankBy.ts",
+      "line": 3
+    }
+  ],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "rankBy",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "readonly T[]"
+        },
+        {
+          "name": "item",
+          "type": "T"
+        }
+      ],
+      "returns": "number",
+      "line": 1
+    },
+    {
+      "name": "rankBy",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "item",
+          "type": "T"
+        }
+      ],
+      "returns": "number",
+      "line": 2
+    },
+    {
+      "name": "rankBy",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "item",
+          "type": "T"
+        }
+      ],
+      "returns": "(data: readonly T[]) => number",
+      "line": 3
+    }
+  ]
+}
+```

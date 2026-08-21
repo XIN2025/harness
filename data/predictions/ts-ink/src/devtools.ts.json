@@ -1,0 +1,169 @@
+{
+  "relative_path": "src/devtools.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "isDevToolsReachable",
+      "callee_text": "Promise",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 13
+    },
+    {
+      "caller": "isDevToolsReachable",
+      "callee_text": "WebSocket",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "ws",
+      "line": 14
+    },
+    {
+      "caller": "isDevToolsReachable",
+      "callee_text": "setTimeout",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 16
+    },
+    {
+      "caller": "isDevToolsReachable",
+      "callee_text": "terminate",
+      "kind": "method",
+      "receiver": "socket",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 17
+    },
+    {
+      "caller": "isDevToolsReachable",
+      "callee_text": "resolve",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 18
+    },
+    {
+      "caller": "isDevToolsReachable",
+      "callee_text": "unref",
+      "kind": "method",
+      "receiver": "timeout",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 21
+    },
+    {
+      "caller": "isDevToolsReachable",
+      "callee_text": "on",
+      "kind": "method",
+      "receiver": "socket",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 23
+    },
+    {
+      "caller": "isDevToolsReachable",
+      "callee_text": "clearTimeout",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 24
+    },
+    {
+      "caller": "isDevToolsReachable",
+      "callee_text": "terminate",
+      "kind": "method",
+      "receiver": "socket",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 25
+    },
+    {
+      "caller": "isDevToolsReachable",
+      "callee_text": "resolve",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 26
+    },
+    {
+      "caller": "isDevToolsReachable",
+      "callee_text": "on",
+      "kind": "method",
+      "receiver": "socket",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 29
+    },
+    {
+      "caller": "isDevToolsReachable",
+      "callee_text": "clearTimeout",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 30
+    },
+    {
+      "caller": "isDevToolsReachable",
+      "callee_text": "terminate",
+      "kind": "method",
+      "receiver": "socket",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 31
+    },
+    {
+      "caller": "isDevToolsReachable",
+      "callee_text": "resolve",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 32
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "isDevToolsReachable",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 36
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "initialize",
+      "kind": "method",
+      "receiver": "(devtools as any)",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 38
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "connectToDevTools",
+      "kind": "method",
+      "receiver": "(devtools as any)",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 40
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "warn",
+      "kind": "method",
+      "receiver": "console",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 42
+    }
+  ],
+  "callable_refs": []
+}

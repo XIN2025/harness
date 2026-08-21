@@ -1,0 +1,61 @@
+{
+  "relative_path": "src/stringToPath.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "stringToPath",
+      "callee_text": "exec",
+      "kind": "method",
+      "receiver": "pathSegmentRe",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 119
+    },
+    {
+      "caller": "stringToPath",
+      "callee_text": "push",
+      "kind": "method",
+      "receiver": "result",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 123
+    },
+    {
+      "caller": "stringToPath",
+      "callee_text": "stringToPath",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 123
+    },
+    {
+      "caller": "stringToPath",
+      "callee_text": "push",
+      "kind": "method",
+      "receiver": "result",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 127
+    },
+    {
+      "caller": "stringToPath",
+      "callee_text": "test",
+      "kind": "static",
+      "receiver": "NON_NEGATIVE_INTEGER_RE",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 133
+    },
+    {
+      "caller": "stringToPath",
+      "callee_text": "Number",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 134
+    }
+  ],
+  "callable_refs": []
+}

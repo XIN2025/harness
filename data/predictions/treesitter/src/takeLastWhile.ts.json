@@ -1,0 +1,34 @@
+{
+  "relative_path": "src/takeLastWhile.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "takeLastWhile",
+      "callee_text": "purry",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./purry",
+      "line": 46
+    },
+    {
+      "caller": "takeLastWhileImplementation",
+      "callee_text": "predicate",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 54
+    },
+    {
+      "caller": "takeLastWhileImplementation",
+      "callee_text": "slice",
+      "kind": "method",
+      "receiver": "data",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 55
+    }
+  ],
+  "callable_refs": []
+}

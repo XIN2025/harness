@@ -1,0 +1,8 @@
+{
+  "calls": [],
+  "callable_refs": [
+    {"caller": "difference", "callee_text": "lazyImplementation"},
+    {"caller": "lazyImplementation", "callee_text": "remaining"},
+    {"caller": "lazyImplementation", "callee_text": "copies"}
+  ]
+}

@@ -1,0 +1,4 @@
+{"calls": [
+  {"caller": "split", "callee_text": "String.prototype.split"},
+  {"caller": "split", "callee_text": "split"}
+]}

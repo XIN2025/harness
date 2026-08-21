@@ -1,0 +1,61 @@
+{
+  "relative_path": "lib/plugins/helper/link_to.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "linkToHelper",
+      "callee_text": "replace",
+      "kind": "method",
+      "receiver": "path",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 27
+    },
+    {
+      "caller": "linkToHelper",
+      "callee_text": "assign",
+      "kind": "static",
+      "receiver": "Object",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 29
+    },
+    {
+      "caller": "linkToHelper",
+      "callee_text": "call",
+      "kind": "method",
+      "receiver": "url_for",
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-util",
+      "line": 30
+    },
+    {
+      "caller": "linkToHelper",
+      "callee_text": "isArray",
+      "kind": "static",
+      "receiver": "Array",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 40
+    },
+    {
+      "caller": "linkToHelper",
+      "callee_text": "join",
+      "kind": "method",
+      "receiver": "attrs.class",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 41
+    },
+    {
+      "caller": "linkToHelper",
+      "callee_text": "htmlTag",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-util",
+      "line": 44
+    }
+  ],
+  "callable_refs": []
+}

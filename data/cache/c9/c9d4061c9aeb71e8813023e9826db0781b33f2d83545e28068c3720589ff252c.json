@@ -1,0 +1,13 @@
+{
+  "key": "c9d4061c9aeb71e8813023e9826db0781b33f2d83545e28068c3720589ff252c",
+  "model": "harness-qwen15b",
+  "prompt_version": "refs-v1-7386a79c1ab2+json",
+  "file_sha": "86c0d829f15ed379f0d1067772f3ab4bf8be4b42ae64abfee6b2dea326eace86",
+  "relative_path": "src/internal/quickSelect.ts",
+  "response": "{\n  \"calls\": [],\n  \"callable_refs\": [\n    {\"caller\": \"quickSelect\", \"callee_text\": \"partition\"},\n    {\"caller\": \"quickSelectImplementation\", \"callee_text\": \"compareFn\"},\n    {\"caller\": \"quickSelectImplementation\", \"callee_text\": \"pivotIndex\"},\n    {\"caller\": \"quickSelectImplementation\", \"callee_text\": \"swapInPlace\"}\n  ]\n}",
+  "created": "2026-08-08T22:26:59+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 995,
+  "completion_tokens": 83
+}

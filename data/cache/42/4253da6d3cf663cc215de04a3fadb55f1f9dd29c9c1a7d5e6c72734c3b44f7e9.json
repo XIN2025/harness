@@ -1,0 +1,13 @@
+{
+  "key": "4253da6d3cf663cc215de04a3fadb55f1f9dd29c9c1a7d5e6c72734c3b44f7e9",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "refs-v1-7386a79c1ab2+json",
+  "file_sha": "7b09cbc083fdb6ae73fe013b645624ab8c37d26b367ed64567d6f1cdbdab279e",
+  "relative_path": "src/dropLastWhile.ts",
+  "response": "{\"calls\": [], \"callable_refs\": [{\"caller\": \"dropLastWhile\", \"callee_text\": \"dropLastWhileImplementation\"}, {\"caller\": \"dropLastWhile\", \"callee_text\": \"predicate\"}, {\"caller\": \"dropLastWhile\", \"callee_text\": \"data\"}]}",
+  "created": "2026-08-08T23:19:30+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 870,
+  "completion_tokens": 58
+}

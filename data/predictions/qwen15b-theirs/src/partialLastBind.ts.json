@@ -1,0 +1,39 @@
+```json
+{
+  "definitions": [
+    "PartialLastBind",
+    "TupleSuffix",
+    "RemoveSuffix",
+    "PartialLastBindError"
+  ],
+  "references": [
+    {"name": "internal/types/IterableContainer", "source": "./internal/types/IterableContainer"},
+    {"name": "internal/types/RemedaTypeError", "source": "./internal/types/RemedaTypeError"},
+    {"name": "internal/types/StrictFunction", "source": "./internal/types/StrictFunction"},
+    {"name": "internal/types/TupleSplits", "source": "./internal/types/TupleSplits"}
+  ],
+  "calls": [
+    {
+      "caller": "partialLastBind",
+      "callee_text": "parseInt",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "...",
+      "line": 1
+    }
+  ],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "PartialLastBind",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "func", "type": "StrictFunction"}, {"name": "partial", "type": "TupleSuffix<Parameters<F>>"}],
+      "returns": "(...rest: RemovedSuffix extends IterableContainer ? RemovedSuffix : never) => ReturnType<F>",
+      "line": 1
+    }
+  ]
+}
+```

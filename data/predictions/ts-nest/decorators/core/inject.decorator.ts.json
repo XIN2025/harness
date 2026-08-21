@@ -1,0 +1,70 @@
+{
+  "relative_path": "decorators/core/inject.decorator.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "Inject",
+      "callee_text": "getMetadata",
+      "kind": "static",
+      "receiver": "Reflect",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 44
+    },
+    {
+      "caller": "Inject",
+      "callee_text": "getMetadata",
+      "kind": "static",
+      "receiver": "Reflect",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 47
+    },
+    {
+      "caller": "Inject",
+      "callee_text": "isUndefined",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../../utils/shared.utils",
+      "line": 50
+    },
+    {
+      "caller": "Inject",
+      "callee_text": "getMetadata",
+      "kind": "static",
+      "receiver": "Reflect",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 52
+    },
+    {
+      "caller": "Inject",
+      "callee_text": "defineMetadata",
+      "kind": "static",
+      "receiver": "Reflect",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 55
+    },
+    {
+      "caller": "Inject",
+      "callee_text": "getMetadata",
+      "kind": "static",
+      "receiver": "Reflect",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 59
+    },
+    {
+      "caller": "Inject",
+      "callee_text": "defineMetadata",
+      "kind": "static",
+      "receiver": "Reflect",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 62
+    }
+  ],
+  "callable_refs": []
+}

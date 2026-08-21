@@ -1,0 +1,61 @@
+```json
+{
+  "definitions": [
+    "clone",
+    "isPlainObject"
+  ],
+  "references": [],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "clone",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "T"
+        }
+      ],
+      "returns": {
+        "type": "T"
+      },
+      "line": 1
+    },
+    {
+      "name": "clone",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "unknown[]"
+        }
+      ],
+      "returns": {
+        "type": "unknown[]"
+      },
+      "line": 1
+    },
+    {
+      "name": "clone",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "unknown[]"
+        }
+      ],
+      "returns": {
+        "type": "unknown[]"
+      },
+      "line": 1
+    }
+  ]
+}
+```

@@ -1,0 +1,40 @@
+```json
+{
+  "definitions": [
+    {
+      "name": "dropLast",
+      "kind": "function"
+    },
+    {
+      "name": "dropLastImplementation",
+      "kind": "function"
+    }
+  ],
+  "references": [],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "dropLast",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "array",
+          "type": "IterableContainer"
+        },
+        {
+          "name": "n",
+          "type": "number"
+        }
+      ],
+      "returns": [
+        {
+          "type": "T[number][]"
+        }
+      ]
+    }
+  ]
+}
+```

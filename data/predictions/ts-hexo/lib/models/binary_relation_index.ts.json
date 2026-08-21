@@ -1,0 +1,367 @@
+{
+  "relative_path": "lib/models/binary_relation_index.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "__module__",
+      "callee_text": "Map",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 10
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "Map",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 11
+    },
+    {
+      "caller": "BinaryRelationIndex.load",
+      "callee_text": "clear",
+      "kind": "this",
+      "receiver": "this.keyIndex",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 25
+    },
+    {
+      "caller": "BinaryRelationIndex.load",
+      "callee_text": "clear",
+      "kind": "this",
+      "receiver": "this.valueIndex",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 26
+    },
+    {
+      "caller": "BinaryRelationIndex.load",
+      "callee_text": "model",
+      "kind": "this",
+      "receiver": "this.ctx",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 27
+    },
+    {
+      "caller": "BinaryRelationIndex.load",
+      "callee_text": "saveHook",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 29
+    },
+    {
+      "caller": "BinaryRelationIndex.saveHook",
+      "callee_text": "has",
+      "kind": "this",
+      "receiver": "this.keyIndex",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 38
+    },
+    {
+      "caller": "BinaryRelationIndex.saveHook",
+      "callee_text": "set",
+      "kind": "this",
+      "receiver": "this.keyIndex",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 39
+    },
+    {
+      "caller": "BinaryRelationIndex.saveHook",
+      "callee_text": "Set",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 39
+    },
+    {
+      "caller": "BinaryRelationIndex.saveHook",
+      "callee_text": "add",
+      "kind": "this",
+      "receiver": "this.keyIndex.get(key)",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 41
+    },
+    {
+      "caller": "BinaryRelationIndex.saveHook",
+      "callee_text": "get",
+      "kind": "this",
+      "receiver": "this.keyIndex",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 41
+    },
+    {
+      "caller": "BinaryRelationIndex.saveHook",
+      "callee_text": "has",
+      "kind": "this",
+      "receiver": "this.valueIndex",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 43
+    },
+    {
+      "caller": "BinaryRelationIndex.saveHook",
+      "callee_text": "set",
+      "kind": "this",
+      "receiver": "this.valueIndex",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 44
+    },
+    {
+      "caller": "BinaryRelationIndex.saveHook",
+      "callee_text": "Set",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 44
+    },
+    {
+      "caller": "BinaryRelationIndex.saveHook",
+      "callee_text": "add",
+      "kind": "this",
+      "receiver": "this.valueIndex.get(value)",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 46
+    },
+    {
+      "caller": "BinaryRelationIndex.saveHook",
+      "callee_text": "get",
+      "kind": "this",
+      "receiver": "this.valueIndex",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 46
+    },
+    {
+      "caller": "BinaryRelationIndex.removeHook",
+      "callee_text": "delete",
+      "kind": "this",
+      "receiver": "this.keyIndex.get(key)",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 53
+    },
+    {
+      "caller": "BinaryRelationIndex.removeHook",
+      "callee_text": "get",
+      "kind": "this",
+      "receiver": "this.keyIndex",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 53
+    },
+    {
+      "caller": "BinaryRelationIndex.removeHook",
+      "callee_text": "get",
+      "kind": "this",
+      "receiver": "this.keyIndex",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 54
+    },
+    {
+      "caller": "BinaryRelationIndex.removeHook",
+      "callee_text": "delete",
+      "kind": "this",
+      "receiver": "this.keyIndex",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 55
+    },
+    {
+      "caller": "BinaryRelationIndex.removeHook",
+      "callee_text": "delete",
+      "kind": "this",
+      "receiver": "this.valueIndex.get(value)",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 57
+    },
+    {
+      "caller": "BinaryRelationIndex.removeHook",
+      "callee_text": "get",
+      "kind": "this",
+      "receiver": "this.valueIndex",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 57
+    },
+    {
+      "caller": "BinaryRelationIndex.removeHook",
+      "callee_text": "get",
+      "kind": "this",
+      "receiver": "this.valueIndex",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 58
+    },
+    {
+      "caller": "BinaryRelationIndex.removeHook",
+      "callee_text": "delete",
+      "kind": "this",
+      "receiver": "this.valueIndex",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 59
+    },
+    {
+      "caller": "BinaryRelationIndex.findById",
+      "callee_text": "findById",
+      "kind": "this",
+      "receiver": "this.ctx.model(this.schemaName)",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 64
+    },
+    {
+      "caller": "BinaryRelationIndex.findById",
+      "callee_text": "model",
+      "kind": "this",
+      "receiver": "this.ctx",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 64
+    },
+    {
+      "caller": "BinaryRelationIndex.find",
+      "callee_text": "get",
+      "kind": "this",
+      "receiver": "this.keyIndex",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 74
+    },
+    {
+      "caller": "BinaryRelationIndex.find",
+      "callee_text": "filter",
+      "kind": "method",
+      "receiver": "Array.from(ids)\n        .map(_id => this.findById(_id))",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 76
+    },
+    {
+      "caller": "BinaryRelationIndex.find",
+      "callee_text": "map",
+      "kind": "method",
+      "receiver": "Array.from(ids)",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 76
+    },
+    {
+      "caller": "BinaryRelationIndex.find",
+      "callee_text": "from",
+      "kind": "static",
+      "receiver": "Array",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 76
+    },
+    {
+      "caller": "BinaryRelationIndex.find",
+      "callee_text": "findById",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 77
+    },
+    {
+      "caller": "BinaryRelationIndex.find",
+      "callee_text": "get",
+      "kind": "this",
+      "receiver": "this.keyIndex",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 82
+    },
+    {
+      "caller": "BinaryRelationIndex.find",
+      "callee_text": "map",
+      "kind": "method",
+      "receiver": "Array.from(ids)",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 84
+    },
+    {
+      "caller": "BinaryRelationIndex.find",
+      "callee_text": "from",
+      "kind": "static",
+      "receiver": "Array",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 84
+    },
+    {
+      "caller": "BinaryRelationIndex.find",
+      "callee_text": "findById",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 84
+    },
+    {
+      "caller": "BinaryRelationIndex.find",
+      "callee_text": "get",
+      "kind": "this",
+      "receiver": "this.valueIndex",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 88
+    },
+    {
+      "caller": "BinaryRelationIndex.find",
+      "callee_text": "map",
+      "kind": "method",
+      "receiver": "Array.from(ids)",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 90
+    },
+    {
+      "caller": "BinaryRelationIndex.find",
+      "callee_text": "from",
+      "kind": "static",
+      "receiver": "Array",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 90
+    },
+    {
+      "caller": "BinaryRelationIndex.find",
+      "callee_text": "findById",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 90
+    },
+    {
+      "caller": "BinaryRelationIndex.findOne",
+      "callee_text": "find",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 97
+    }
+  ],
+  "callable_refs": []
+}

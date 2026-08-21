@@ -1,0 +1,13 @@
+{
+  "calls": [],
+  "callable_refs": [
+    {
+      "caller": "toKebabCase",
+      "callee_text": "words"
+    },
+    {
+      "caller": "toKebabCase",
+      "callee_text": "join"
+    }
+  ]
+}

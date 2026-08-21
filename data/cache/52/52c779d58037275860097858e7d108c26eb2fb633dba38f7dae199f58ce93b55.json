@@ -1,0 +1,13 @@
+{
+  "key": "52c779d58037275860097858e7d108c26eb2fb633dba38f7dae199f58ce93b55",
+  "model": "harness-llama32b",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "6dfcf1256f8bce158862d4f3d51878fad821c1c88b91f0e90c4b1a4b9dfff713",
+  "relative_path": "src/fromKeys.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"fromKeys\", \"callee_text\": \"purry\"},\n  {\"caller\": \"fromKeysImplementation\", \"callee_text\": \"entries\"},\n  {\"caller\": \"fromKeysImplementation\", \"callee_text\": \"for\"},\n  {\"caller\": \"fromKeysImplementation\", \"callee_text\": \"mapper\"},\n  {\"caller\": \"fromKeysImplementation\", \"callee_text\": \"key\"},\n  {\"caller\": \"fromKeysImplementation\", \"callee_text\": \"index\"},\n  {\"caller\": \"fromKeysImplementation\", \"callee_text\": \"data\"},\n  {\"caller\": \"fromKeysImplementation\", \"callee_text\": \"result\"},\n  {\"caller\": \"fromKeysImplementation\", \"callee_text\": \"Partial\"}\n]}",
+  "created": "2026-08-08T22:38:30+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1600,
+  "completion_tokens": 151
+}

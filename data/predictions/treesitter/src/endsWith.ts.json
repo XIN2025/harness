@@ -1,0 +1,25 @@
+{
+  "relative_path": "src/endsWith.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "endsWith",
+      "callee_text": "purry",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./purry",
+      "line": 50
+    },
+    {
+      "caller": "endsWithImplementation",
+      "callee_text": "endsWith",
+      "kind": "method",
+      "receiver": "data",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 54
+    }
+  ],
+  "callable_refs": []
+}

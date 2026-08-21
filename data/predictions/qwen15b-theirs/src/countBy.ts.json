@@ -1,0 +1,46 @@
+```json
+{
+  "definitions": [
+    "countBy",
+    "countByImplementation",
+    "toLowerCase"
+  ],
+  "references": [
+    {"name": "countBy", "source": "./src/countBy.ts"},
+    {"name": "countByImplementation", "source": "./src/countBy.ts"},
+    {"name": "toLowerCase", "source": "./src/countBy.ts"}
+  ],
+  "calls": [
+    {
+      "caller": "countBy",
+      "callee_text": "toLowerCase",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./src/countBy.ts",
+      "line": 10
+    }
+  ],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "countBy",
+      "kind": "function",
+      "parent": null,
+      "bases": ["BoundedPartial<Record<PropertyKey, number>>"],
+      "params": [{"name": "data", "type": "readonly T[]"}, {"name": "categorizationFn", "type": "(value: T, index: number, data: readonly T[]) => PropertyKey | undefined"}],
+      "returns": "BoundedPartial<Record<PropertyKey, number>>",
+      "line": 1
+    },
+    {
+      "name": "countByImplementation",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "data", "type": "readonly T[]"}, {"name": "categorizationFn", "type": "(value: T, index: number, data: readonly T[]) => PropertyKey | undefined"}],
+      "returns": "BoundedPartial<Record<PropertyKey, number>>",
+      "line": 20
+    }
+  ]
+}
+```

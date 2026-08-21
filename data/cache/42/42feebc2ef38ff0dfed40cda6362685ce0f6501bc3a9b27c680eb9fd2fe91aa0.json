@@ -1,0 +1,13 @@
+{
+  "key": "42feebc2ef38ff0dfed40cda6362685ce0f6501bc3a9b27c680eb9fd2fe91aa0",
+  "model": "harness-qwen15b",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "6335375ec43ab5ffc4d9124d9b970a54c8058b707dd3d4f3178535d2f50a3490",
+  "relative_path": "src/sum.ts",
+  "response": "```json\n{\n  \"definitions\": [\"sum\"],\n  \"references\": [\n    {\"name\": \"sum\", \"source\": \"./src/sum.ts\"}\n  ],\n  \"calls\": [\n    {\"caller\": \"sum\", \"callee_text\": \"sumImplementation\", \"kind\": \"free\",\n     \"receiver\": null, \"receiver_type_hint\": null, \"callee_file_hint\": \"./src/sum.ts\", \"line\": 25}\n  ],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\"name\": \"sum\", \"kind\": \"function\", \"parent\": null, \"bases\": [], \"params\": [{\"name\": \"data\", \"type\": \"IterableContainer<bigint> | IterableContainer<number>\"}, {\"name\": \"data\", \"type\": \"IterableContainer<bigint> | IterableContainer<number>\"}], \"returns\": \"Sum<T>\", \"line\": 1}\n  ]\n}\n```",
+  "created": "2026-08-08T20:27:20+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 8779,
+  "completion_tokens": 192
+}

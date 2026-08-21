@@ -1,0 +1,52 @@
+{
+  "relative_path": "src/partition.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "partition",
+      "callee_text": "purry",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./purry",
+      "line": 63
+    },
+    {
+      "caller": "partitionImplementation",
+      "callee_text": "entries",
+      "kind": "method",
+      "receiver": "data",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 71
+    },
+    {
+      "caller": "partitionImplementation",
+      "callee_text": "predicate",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 72
+    },
+    {
+      "caller": "partitionImplementation",
+      "callee_text": "push",
+      "kind": "method",
+      "receiver": "ret[0]",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 73
+    },
+    {
+      "caller": "partitionImplementation",
+      "callee_text": "push",
+      "kind": "method",
+      "receiver": "ret[1]",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 75
+    }
+  ],
+  "callable_refs": []
+}

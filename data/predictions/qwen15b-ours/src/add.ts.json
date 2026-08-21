@@ -1,0 +1,28 @@
+```json
+{
+  "definitions": [
+    {
+      "name": "add",
+      "kind": "function"
+    },
+    {
+      "name": "addImplementation",
+      "kind": "function"
+    }
+  ],
+  "references": [],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "add",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [],
+      "returns": null,
+      "line": 1
+    }
+  ]
+}
+```

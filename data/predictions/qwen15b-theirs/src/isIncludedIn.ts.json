@@ -1,0 +1,11 @@
+```json
+{
+  "definitions": ["isIncludedIn"],
+  "references": [
+    {"name": "isIncludedIn", "source": "./src/isIncludedIn.ts"}
+  ],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": []
+}
+```

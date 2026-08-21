@@ -1,0 +1,15 @@
+{"calls": [
+  {"caller": "sliceString", "callee_text": "slice"},
+  {"caller": "sliceString", "callee_text": "toString"},
+  {"caller": "sliceString", "callee_text": "slice"},
+  {"caller": "sliceString", "callee_text": "slice"},
+  {"caller": "sliceString", "callee_text": "slice"},
+  {"caller": "sliceString", "callee_text": "slice"},
+  {"caller": "sliceString", "callee_text": "slice"},
+  {"caller": "sliceString", "callee_text": "slice"},
+  {"caller": "sliceString", "callee_text": "slice"},
+  {"caller": "sliceString", "callee_text": "slice"},
+  {"caller": "sliceString", "callee_text": "slice"},
+  {"caller": "sliceString", "callee_text": "slice"},
+  {"caller": "sliceString", "callee_text": "slice"}
+]}

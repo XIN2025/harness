@@ -1,0 +1,61 @@
+{
+  "relative_path": "src/swapIndices.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "swapIndices",
+      "callee_text": "purry",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./purry",
+      "line": 148
+    },
+    {
+      "caller": "swapIndicesImplementation",
+      "callee_text": "join",
+      "kind": "method",
+      "receiver": "swapArray([...data], index1, index2)",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 158
+    },
+    {
+      "caller": "swapIndicesImplementation",
+      "callee_text": "swapArray",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 158
+    },
+    {
+      "caller": "swapIndicesImplementation",
+      "callee_text": "swapArray",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 159
+    },
+    {
+      "caller": "swapArray",
+      "callee_text": "isNaN",
+      "kind": "static",
+      "receiver": "Number",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 168
+    },
+    {
+      "caller": "swapArray",
+      "callee_text": "isNaN",
+      "kind": "static",
+      "receiver": "Number",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 168
+    }
+  ],
+  "callable_refs": []
+}

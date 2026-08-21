@@ -1,0 +1,123 @@
+```json
+{
+  "definitions": [
+    "Zipped",
+    "zip",
+    "purry",
+    "LazyEvaluator",
+    "IterableContainer",
+    "LazyEvaluator",
+    "type_assignments",
+    "definitions_rich"
+  ],
+  "references": [],
+  "calls": [
+    {
+      "caller": "__module__",
+      "callee_text": "zip",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "src/zip.ts",
+      "line": 1
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "zip",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "src/zip.ts",
+      "line": 2
+    }
+  ],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "Zipped",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [],
+      "returns": null,
+      "line": 1
+    },
+    {
+      "name": "zip",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "first",
+          "type": "IterableContainer"
+        },
+        {
+          "name": "second",
+          "type": "IterableContainer"
+        }
+      ],
+      "returns": {
+        "type": "Zipped<Left, Right>",
+        "type_module": "__module__",
+        "from_call": true
+      },
+      "line": 1
+    },
+    {
+      "name": "purry",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "Function"
+        }
+      ],
+      "returns": {
+        "type": "LazyEvaluator<ReturnType<T>, Parameters<T>>",
+        "type_module": "__module__",
+        "from_call": true
+      },
+      "line": 1
+    },
+    {
+      "name": "LazyEvaluator",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "value",
+          "type": "unknown"
+        }
+      ],
+      "returns": {
+        "type": "LazyEvaluator<ReturnType<T>, Parameters<T>>",
+        "type_module": "__module__",
+        "from_call": true
+      },
+      "line": 1
+    },
+    {
+      "name": "IterableContainer",
+      "kind": "constant",
+      "parent": "__module__",
+      "bases": [],
+      "params": [],
+      "returns": null,
+      "line": 1
+    },
+    {
+      "name": "LazyEvaluator",
+      "kind": "constant",
+      "parent": "__module__",
+      "bases": [],
+      "params": [],
+      "returns": null,
+      "line": 1
+    }
+  ]
+}
+```

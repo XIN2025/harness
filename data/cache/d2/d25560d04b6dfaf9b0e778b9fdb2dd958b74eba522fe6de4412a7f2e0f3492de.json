@@ -1,0 +1,13 @@
+{
+  "key": "d25560d04b6dfaf9b0e778b9fdb2dd958b74eba522fe6de4412a7f2e0f3492de",
+  "model": "harness-qwen15b",
+  "prompt_version": "ours-v1-5c74cf9a927a",
+  "file_sha": "bcb75d76351156b7d96f6c439606a936a13a8caebd4480053526c9cf83475424",
+  "relative_path": "src/takeFirstBy.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"takeFirstBy\",\n    \"heapify\",\n    \"heapMaybeInsert\",\n    \"purryOrderRulesWithArgument\",\n    \"type OrderRule\",\n    \"CompareFunction\",\n    \"NonEmptyArray\"\n  ],\n  \"references\": [],\n  \"calls\": [\n    {\n      \"caller\": \"__module__\",\n      \"callee_text\": \"takeFirstByImplementation\",\n      \"kind\": \"method\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": \"src/takeFirstBy.ts\",\n      \"line\": 1\n    }\n  ],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"takeFirstBy\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"data\",\n          \"type\": \"readonly T[]\"\n        },\n        {\n          \"name\": \"n\",\n          \"type\": \"number\"\n        }\n      ],\n      \"returns\": \"T[]\",\n      \"line\": 1\n    },\n    {\n      \"name\": \"takeFirstBy\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"n\",\n          \"type\": \"number\"\n        }\n      ],\n      \"returns\": \"T[]\",\n      \"line\": 1\n    },\n    {\n      \"name\": \"takeFirstByImplementation\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"data\",\n          \"type\": \"readonly T[]\"\n        },\n        {\n          \"name\": \"compareFn\",\n          \"type\": \"CompareFunction<T>\"\n        },\n        {\n          \"name\": \"n\",\n          \"type\": \"number\"\n        }\n      ],\n      \"returns\": \"T[]\",\n      \"line\": 1\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:47:13+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1124,
+  "completion_tokens": 431
+}

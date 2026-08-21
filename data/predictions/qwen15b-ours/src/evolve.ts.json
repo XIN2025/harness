@@ -1,0 +1,85 @@
+```json
+{
+  "definitions": [
+    "GenericEvolver",
+    "Evolver",
+    "Evolved",
+    "evolve",
+    "evolveImplementation"
+  ],
+  "references": [],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "GenericEvolver",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [],
+      "returns": null,
+      "line": 1
+    },
+    {
+      "name": "Evolver",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "T",
+          "type": "object"
+        }
+      ],
+      "returns": null,
+      "line": 10
+    },
+    {
+      "name": "Evolved",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "T",
+          "type": "object"
+        },
+        {
+          "name": "E",
+          "type": "Evolver<T>"
+        }
+      ],
+      "returns": null,
+      "line": 19
+    },
+    {
+      "name": "evolve",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "T extends object, E extends Evolver<T>",
+          "type": "unknown"
+        }
+      ],
+      "returns": "unknown",
+      "line": 28
+    },
+    {
+      "name": "evolveImplementation",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "data: unknown, evolver: GenericEvolver",
+          "type": "unknown"
+        }
+      ],
+      "returns": "unknown",
+      "line": 45
+    }
+  ]
+}
+```

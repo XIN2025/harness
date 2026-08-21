@@ -1,0 +1,25 @@
+{
+  "relative_path": "src/take.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "take",
+      "callee_text": "purry",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./purry",
+      "line": 51
+    },
+    {
+      "caller": "takeImplementation",
+      "callee_text": "slice",
+      "kind": "method",
+      "receiver": "array",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 57
+    }
+  ],
+  "callable_refs": []
+}

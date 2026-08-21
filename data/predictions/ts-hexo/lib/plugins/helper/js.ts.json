@@ -1,0 +1,79 @@
+{
+  "relative_path": "lib/plugins/helper/js.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "jsHelper",
+      "callee_text": "forEach",
+      "kind": "method",
+      "receiver": "args.flat(Infinity)",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 11
+    },
+    {
+      "caller": "jsHelper",
+      "callee_text": "flat",
+      "kind": "method",
+      "receiver": "args",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 11
+    },
+    {
+      "caller": "jsHelper",
+      "callee_text": "endsWith",
+      "kind": "method",
+      "receiver": "path",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 14
+    },
+    {
+      "caller": "jsHelper",
+      "callee_text": "call",
+      "kind": "method",
+      "receiver": "url_for",
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-util",
+      "line": 17
+    },
+    {
+      "caller": "jsHelper",
+      "callee_text": "call",
+      "kind": "method",
+      "receiver": "url_for",
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-util",
+      "line": 21
+    },
+    {
+      "caller": "jsHelper",
+      "callee_text": "endsWith",
+      "kind": "method",
+      "receiver": "newItem.src",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 22
+    },
+    {
+      "caller": "jsHelper",
+      "callee_text": "htmlTag",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-util",
+      "line": 23
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "moize",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "moize",
+      "line": 29
+    }
+  ],
+  "callable_refs": []
+}

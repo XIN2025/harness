@@ -1,0 +1,51 @@
+```json
+{
+  "definitions": [
+    "splitWhen",
+    "purry"
+  ],
+  "references": [],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "splitWhen",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "readonly T[]"
+        },
+        {
+          "name": "predicate",
+          "type": "(item: T, index: number, data: readonly T[]) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "[T[], T[]]"
+        }
+      ]
+    },
+    {
+      "name": "purry",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "unknown"
+        }
+      ],
+      "returns": [
+        {
+          "type": "unknown"
+        }
+      ]
+    }
+  ]
+}
+```

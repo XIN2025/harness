@@ -1,0 +1,13 @@
+{
+  "key": "51759a50fd9945f9ebd0898f61cb91f3765098549768e05c222397cfd567a4eb",
+  "model": "harness-qwen15b",
+  "prompt_version": "ours-v1-5c74cf9a927a",
+  "file_sha": "be519e078dea29bc1410d9f629eb7c2629f1e21a0c3e7b2ee1e9e2158e50ebdf",
+  "relative_path": "src/intersection.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    {\n      \"name\": \"intersection\",\n      \"kind\": \"function\"\n    },\n    {\n      \"name\": \"lazyImplementation\",\n      \"kind\": \"function\"\n    }\n  ],\n  \"references\": [],\n  \"calls\": [],\n  \"type_assignments\": [],\n  \"definitions_rich\": []\n}\n```",
+  "created": "2026-08-08T20:37:19+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1049,
+  "completion_tokens": 75
+}

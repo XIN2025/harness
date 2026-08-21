@@ -1,0 +1,43 @@
+{
+  "relative_path": "src/setPath.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "setPath",
+      "callee_text": "purry",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./purry",
+      "line": 84
+    },
+    {
+      "caller": "setPathImplementation",
+      "callee_text": "isArray",
+      "kind": "static",
+      "receiver": "Array",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 97
+    },
+    {
+      "caller": "setPathImplementation",
+      "callee_text": "setPathImplementation",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 100
+    },
+    {
+      "caller": "setPathImplementation",
+      "callee_text": "setPathImplementation",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 115
+    }
+  ],
+  "callable_refs": []
+}

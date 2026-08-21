@@ -1,0 +1,13 @@
+{
+  "key": "8fda27e9f571e4da5dda17273ace6076d1201b7a9d4ed855e1a96b2f811ac938",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "a436427ed54a69e9310b5855a5332d59f9e4af01677b5e645d2bf68237b7047b",
+  "relative_path": "src/mapValues.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"mapValues\", \"callee_text\": \"purry\"},\n  {\"caller\": \"mapValuesImplementation\", \"callee_text\": \"Object.entries\"},\n  {\"caller\": \"mapValuesImplementation\", \"callee_text\": \"for\"},\n  {\"caller\": \"mapValuesImplementation\", \"callee_text\": \"of\"},\n  {\"caller\": \"mapValuesImplementation\", \"callee_text\": \"Object.entries\"},\n  {\"caller\": \"mapValuesImplementation\", \"callee_text\": \"forEach\"},\n  {\"caller\": \"mapValuesImplementation\", \"callee_text\": \"out[key] = mappedValue\"},\n  {\"caller\": \"mapValuesImplementation\", \"callee_text\": \"mapValuesImplementation\"}\n]}",
+  "created": "2026-08-08T23:04:03+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1057,
+  "completion_tokens": 143
+}

@@ -1,0 +1,4 @@
+{"callable_refs": [
+  {"caller": "groupByProp", "callee_text": "prop"},
+  {"caller": "groupByPropImplementation", "callee_text": "item?.[prop]"}
+]}

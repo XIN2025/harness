@@ -1,0 +1,13 @@
+{
+  "key": "ad40bf3c72d6eaebf6a72083fb08113bd77d381bfd6b8ef61ffeb144e1d348ee",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "4e86542f46208f217177928fc6443fde8214f3d5e8bd7c21432999baed773e53",
+  "relative_path": "src/partition.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"partition\", \"callee_text\": \"purry\"},\n  {\"caller\": \"partitionImplementation\", \"callee_text\": \"entries\"},\n  {\"caller\": \"partitionImplementation\", \"callee_text\": \"data\"},\n  {\"caller\": \"partitionImplementation\", \"callee_text\": \"predicate\"},\n  {\"caller\": \"partitionImplementation\", \"callee_text\": \"index\"},\n  {\"caller\": \"partitionImplementation\", \"callee_text\": \"data\"},\n  {\"caller\": \"partitionImplementation\", \"callee_text\": \"entries\"},\n  {\"caller\": \"partitionImplementation\", \"callee_text\": \"for\"}\n]}",
+  "created": "2026-08-08T23:06:22+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1206,
+  "completion_tokens": 127
+}

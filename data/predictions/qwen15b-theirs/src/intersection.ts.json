@@ -1,0 +1,116 @@
+```json
+{
+  "definitions": [
+    "intersection",
+    "purryFromLazy",
+    "type",
+    "lazyEvaluator",
+    "SKIP_ITEM",
+    "lazyEmptyEvaluator"
+  ],
+  "references": [
+    {"name": "intersection", "source": "./src/intersection.ts"},
+    {"name": "purryFromLazy", "source": "./src/internal/purryFromLazy.ts"},
+    {"name": "type", "source": "./src/internal/types/LazyEvaluator.ts"},
+    {"name": "lazyEvaluator", "source": "./src/internal/utilityEvaluators.ts"},
+    {"name": "SKIP_ITEM", "source": "./src/internal/utilityEvaluators.ts"},
+    {"name": "lazyEmptyEvaluator", "source": "./src/internal/utilityEvaluators.ts"}
+  ],
+  "calls": [
+    {
+      "caller": "intersection",
+      "callee_text": "intersection",
+      "kind": "method",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "data", "type": "readonly T[]"}, {"name": "other", "type": "readonly S[]"}],
+      "returns": "(S & T)[]",
+      "line": 1
+    },
+    {
+      "caller": "intersection",
+      "callee_text": "intersection",
+      "kind": "method",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "other", "type": "readonly S[]"}],
+      "returns": "<T>(data: readonly T[]) => (S & T)[]",
+      "line": 1
+    },
+    {
+      "caller": "intersection",
+      "callee_text": "intersection",
+      "kind": "method",
+      "parent": null,
+      "bases": [],
+      "params": ["...args: readonly unknown[]"],
+      "returns": "unknown",
+      "line": 1
+    }
+  ],
+  "type_assignments": [
+    {"scope": "module", "var": "intersection", "type": "function", "type_module": "./src/intersection.ts"},
+    {"scope": "module", "var": "purryFromLazy", "type": "function", "type_module": "./src/internal/purryFromLazy.ts"},
+    {"scope": "module", "var": "type", "type": "interface", "type_module": "./src/internal/types/LazyEvaluator.ts"},
+    {"scope": "module", "var": "lazyEvaluator", "type": "function", "type_module": "./src/internal/utilityEvaluators.ts"},
+    {"scope": "module", "var": "SKIP_ITEM", "type": "const", "type_module": "./src/internal/utilityEvaluators.ts"},
+    {"scope": "module", "var": "lazyEmptyEvaluator", "type": "function", "type_module": "./src/internal/utilityEvaluators.ts"}
+  ],
+  "definitions_rich": [
+    {
+      "name": "intersection",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "data", "type": "readonly T[]"}, {"name": "other", "type": "readonly S[]"}],
+      "returns": "(S & T)[]",
+      "line": 1
+    },
+    {
+      "name": "purryFromLazy",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "other", "type": "readonly S[]"}],
+      "returns": "<T>(data: readonly T[]) => (S & T)[]",
+      "line": 1
+    },
+    {
+      "name": "type",
+      "kind": "interface",
+      "parent": null,
+      "bases": [],
+      "params": [],
+      "returns": null,
+      "line": 3
+    },
+    {
+      "name": "lazyEvaluator",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "other", "type": "readonly S[]"}],
+      "returns": "LazyEvaluator<T, S & T>",
+      "line": 1
+    },
+    {
+      "name": "SKIP_ITEM",
+      "kind": "const",
+      "parent": null,
+      "bases": [],
+      "params": [],
+      "returns": "const",
+      "line": 3
+    },
+    {
+      "name": "lazyEmptyEvaluator",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [],
+      "returns": "LazyEvaluator<unknown, unknown>",
+      "line": 1
+    }
+  ]
+}
+```

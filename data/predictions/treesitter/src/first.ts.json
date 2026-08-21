@@ -1,0 +1,25 @@
+{
+  "relative_path": "src/first.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "first",
+      "callee_text": "purry",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./purry",
+      "line": 50
+    },
+    {
+      "caller": "first",
+      "callee_text": "toSingle",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./internal/toSingle",
+      "line": 50
+    }
+  ],
+  "callable_refs": []
+}

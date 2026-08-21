@@ -1,0 +1,15 @@
+{"calls": [
+  {"caller": "isDeepEqual", "callee_text": "purry"},
+  {"caller": "isDeepEqualImplementation", "callee_text": "entries"},
+  {"caller": "isDeepEqualImplementation", "callee_text": "get"},
+  {"caller": "isDeepEqualImplementation", "callee_text": "has"},
+  {"caller": "isDeepEqualImplementation", "callee_text": "get"},
+  {"caller": "isDeepEqualImplementation", "callee_text": "entries"},
+  {"caller": "isDeepEqualSets", "callee_text": "splice"},
+  {"caller": "isDeepEqualSets", "callee_text": "includes"},
+  {"caller": "isDeepEqualMaps", "callee_text": "get"},
+  {"caller": "isDeepEqualArrays", "callee_text": "entries"},
+  {"caller": "isDeepEqualImplementation", "callee_text": "getTime"},
+  {"caller": "isComparablePrototype", "callee_text": "getPrototypeOf"},
+  {"caller": "isDeepEqualImplementation", "callee_text": "getPrototypeOf"}
+]}

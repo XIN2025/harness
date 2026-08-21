@@ -1,0 +1,13 @@
+{
+  "key": "ef215a0959c2e2e0d3b548f043ca39de411fb8f3a4a5583aa24d70a1381ed690",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "refs-strict-v1-ca2cfcfbecef+json",
+  "file_sha": "32f120b5ff86b42f44d0b05b06488f376ea1df9eb43a70576c45df1931b09c44",
+  "relative_path": "src/dropWhile.ts",
+  "response": "{\"calls\": [], \"callable_refs\": [{\"caller\": \"dropWhile\", \"callee_text\": \"dropWhileImplementation\"}, {\"caller\": \"dropWhile\", \"callee_text\": \"purry\"}, {\"caller\": \"dropWhile\", \"callee_text\": \"dropWhile\"}]}",
+  "created": "2026-08-09T06:00:11+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1003,
+  "completion_tokens": 56
+}

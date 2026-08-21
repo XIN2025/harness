@@ -1,0 +1,10 @@
+{"calls": [
+  {"caller": "isPlainObject", "callee_text": "__module__"},
+  {"caller": "isPlainObject", "callee_text": "typeof"},
+  {"caller": "isPlainObject", "callee_text": "data"},
+  {"caller": "isPlainObject", "callee_text": "getPrototypeOf"},
+  {"caller": "isPlainObject", "callee_text": "Object"},
+  {"caller": "isPlainObject", "callee_text": "typeof"},
+  {"caller": "isPlainObject", "callee_text": "data"},
+  {"caller": "isPlainObject", "callee_text": "__module__"}
+]}

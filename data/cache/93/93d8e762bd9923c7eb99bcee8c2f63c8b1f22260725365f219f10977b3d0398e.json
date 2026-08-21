@@ -1,0 +1,13 @@
+{
+  "key": "93d8e762bd9923c7eb99bcee8c2f63c8b1f22260725365f219f10977b3d0398e",
+  "model": "harness-qwen15b",
+  "prompt_version": "refs-v1-7386a79c1ab2+json",
+  "file_sha": "1f15bc55b132dd53f04540ac10c9def5bad94590cfa20bb02a34264fdea77d47",
+  "relative_path": "src/pipe.ts",
+  "response": "{\"calls\": [], \"callable_refs\": [{\"caller\": \"pipe\", \"callee_text\": \"prepareLazyFunction\"}, {\"caller\": \"pipe\", \"callee_text\": \"processItem\"}, {\"caller\": \"pipe\", \"callee_text\": \"lazyResult.next\"}]}",
+  "created": "2026-08-08T22:28:47+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 3932,
+  "completion_tokens": 54
+}

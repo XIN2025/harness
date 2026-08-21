@@ -1,0 +1,13 @@
+{
+  "key": "c79a540d82a6ad1e27583cfee0e6774486325d28a6426f24a6d5daa4e25c09a2",
+  "model": "harness-qwen15b",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "0f5ebe146a8ce7f262bdad9a9576b2d6b925c628c292e142177b640d25d1f64c",
+  "relative_path": "src/isIncludedIn.ts",
+  "response": "```json\n{\n  \"definitions\": [\"isIncludedIn\"],\n  \"references\": [\n    {\"name\": \"isIncludedIn\", \"source\": \"./src/isIncludedIn.ts\"}\n  ],\n  \"calls\": [],\n  \"type_assignments\": [],\n  \"definitions_rich\": []\n}\n```",
+  "created": "2026-08-08T20:22:17+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 9750,
+  "completion_tokens": 61
+}

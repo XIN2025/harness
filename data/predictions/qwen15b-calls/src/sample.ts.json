@@ -1,0 +1,10 @@
+{"calls": [
+  {"caller": "sample", "callee_text": "purry"},
+  {"caller": "sampleImplementation", "callee_text": "Math.random"},
+  {"caller": "sampleImplementation", "callee_text": "Math.floor"},
+  {"caller": "sampleImplementation", "callee_text": "Array.prototype.slice"},
+  {"caller": "sampleImplementation", "callee_text": "Set.prototype.add"},
+  {"caller": "sampleImplementation", "callee_text": "Array.prototype.sort"},
+  {"caller": "sampleImplementation", "callee_text": "Array.prototype.map"},
+  {"caller": "sampleImplementation", "callee_text": "Array.prototype.filter"}
+]}

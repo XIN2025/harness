@@ -1,0 +1,13 @@
+{
+  "key": "04b5b8290262afd22bd5483c0b951dcbbe9f9815d5394d36aab23596e8a4854c",
+  "model": "harness-qwen15b",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "be519e078dea29bc1410d9f629eb7c2629f1e21a0c3e7b2ee1e9e2158e50ebdf",
+  "relative_path": "src/intersection.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"intersection\", \"callee_text\": \"lazyImplementation\"},\n  {\"caller\": \"lazyImplementation\", \"callee_text\": \"remaining\"},\n  {\"caller\": \"lazyImplementation\", \"callee_text\": \"get\"},\n  {\"caller\": \"lazyImplementation\", \"callee_text\": \"delete\"},\n  {\"caller\": \"lazyImplementation\", \"callee_text\": \"set\"},\n  {\"caller\": \"intersection\", \"callee_text\": \"next\"},\n  {\"caller\": \"intersection\", \"callee_text\": \"done\"}\n]}",
+  "created": "2026-08-08T22:17:50+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1182,
+  "completion_tokens": 109
+}

@@ -1,0 +1,11 @@
+{
+  "key": "cb19ad0475e294f17efe1111a7f9d24f2399cde395e19dbf41de07de32e22885",
+  "model": "gemini-2.5-flash",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "e59a5d47057e85033680a642a067bd2937f0966940092f4049482986dc041588",
+  "relative_path": "src/defaultTo.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"defaultTo\",\n    \"defaultToImplementation\"\n  ],\n  \"references\": [\n    {\n      \"name\": \"purry\",\n      \"source\": \"./purry\",\n      \"alias\": null\n    },\n    {\n      \"name\": \"RemedaTypeError\",\n      \"source\": \"./internal/types/RemedaTypeError\",\n      \"alias\": null\n    }\n  ],\n  \"calls\": [\n    {\n      \"caller\": \"defaultTo\",\n      \"callee_text\": \"purry\",\n      \"kind\": \"free\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": \"./purry\",\n      \"line\": 49\n    },\n    {\n      \"caller\": \"defaultTo\",\n      \"callee_text\": \"defaultToImplementation\",\n      \"kind\": \"hook\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": null,\n      \"line\": 49\n    }\n  ],\n  \"type_assignments\": [\n    {\n      \"scope\": \"module\",\n      \"var\": \"defaultToImplementation\",\n      \"type\": null,\n      \"type_module\": null,\n      \"from_call\": null\n    }\n  ],\n  \"definitions_rich\": [\n    {\n      \"name\": \"FallbackOf\",\n      \"kind\": \"type_alias\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [],\n      \"returns\": null,\n      \"line\": 6\n    },\n    {\n      \"name\": \"defaultTo\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"args\",\n          \"type\": \"readonly unknown[]\"\n        }\n      ],\n      \"returns\": \"unknown\",\n      \"line\": 48\n    },\n    {\n      \"name\": \"defaultToImplementation\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"data\",\n          \"type\": \"T\"\n        },\n        {\n          \"name\": \"fallback\",\n          \"type\": \"Fallback\"\n        }\n      ],\n      \"returns\": null,\n      \"line\": 52\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T17:09:50+00:00",
+  "finish_reason": "stop",
+  "served_by": ""
+}

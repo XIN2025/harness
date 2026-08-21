@@ -1,0 +1,13 @@
+{
+  "key": "a731b199c4dfb4f9b05646377038cde9936aef9e035f1c0f0b0adb53bcafc42d",
+  "model": "harness-qwen15b",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "7e98f0acc415cae52d9f451e6034da44904d61582649328e0f244a80cf40e980",
+  "relative_path": "src/isDeepEqual.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"isDeepEqual\",\n    \"purry\"\n  ],\n  \"references\": [\n    {\"name\": \"isDeepEqual\", \"source\": \"./src/isDeepEqual.ts\"},\n    {\"name\": \"purry\", \"source\": \"./src/purry.ts\"}\n  ],\n  \"calls\": [],\n  \"type_assignments\": [],\n  \"definitions_rich\": []\n}\n```",
+  "created": "2026-08-08T20:22:09+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 9974,
+  "completion_tokens": 87
+}

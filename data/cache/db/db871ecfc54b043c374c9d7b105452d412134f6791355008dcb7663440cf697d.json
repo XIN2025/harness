@@ -1,0 +1,13 @@
+{
+  "key": "db871ecfc54b043c374c9d7b105452d412134f6791355008dcb7663440cf697d",
+  "model": "harness-qwen15b",
+  "prompt_version": "refs-v1-7386a79c1ab2+json",
+  "file_sha": "89bfa962dc86544b014b67fa0e542c0e7c34e5569b80ae3e6f5aa90af791fec4",
+  "relative_path": "src/internal/withPrecision.ts",
+  "response": "{\"calls\": [], \"callable_refs\": [{\"caller\": \"withPrecision\", \"callee_text\": \"roundingFn\"}, {\"caller\": \"withPrecision\", \"callee_text\": \"value\"}, {\"caller\": \"withPrecision\", \"callee_text\": \"precision\"}]}",
+  "created": "2026-08-08T22:27:03+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 747,
+  "completion_tokens": 54
+}

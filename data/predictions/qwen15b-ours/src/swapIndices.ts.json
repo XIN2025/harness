@@ -1,0 +1,108 @@
+```json
+{
+  "definitions": [
+    "swapIndices",
+    "SwapArrayInternal",
+    "SwapString",
+    "SwapArray",
+    "SwappedIndices"
+  ],
+  "references": [],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "swapIndices",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "IterableContainer | string"
+        },
+        {
+          "name": "index1",
+          "type": "number"
+        },
+        {
+          "name": "index2",
+          "type": "number"
+        }
+      ],
+      "returns": "SwappedIndices<IterableContainer | string, number, number>"
+    },
+    {
+      "name": "swapArrayInternal",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "IterableContainer"
+        },
+        {
+          "name": "index1",
+          "type": "number"
+        },
+        {
+          "name": "index2",
+          "type": "number"
+        },
+        {
+          "name": "position",
+          "type": "readonly unknown[]"
+        },
+        {
+          "name": "original",
+          "type": "IterableContainer"
+        }
+      ],
+      "returns": "unknown[]"
+    },
+    {
+      "name": "swapArray",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "IterableContainer | string"
+        },
+        {
+          "name": "index1",
+          "type": "number"
+        },
+        {
+          "name": "index2",
+          "type": "number"
+        }
+      ],
+      "returns": "unknown[]"
+    },
+    {
+      "name": "swapIndicesImplementation",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "IterableContainer | string"
+        },
+        {
+          "name": "index1",
+          "type": "number"
+        },
+        {
+          "name": "index2",
+          "type": "number"
+        }
+      ],
+      "returns": "unknown[]"
+    }
+  ]
+}
+```

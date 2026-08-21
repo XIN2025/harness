@@ -1,0 +1,10 @@
+{"calls": [
+  {"caller": "product", "callee_text": "purry"},
+  {"caller": "productImplementation", "callee_text": "typeof"},
+  {"caller": "productImplementation", "callee_text": "out"},
+  {"caller": "productImplementation", "callee_text": "data[0]"},
+  {"caller": "productImplementation", "callee_text": "value"},
+  {"caller": "productImplementation", "callee_text": "*="},
+  {"caller": "productImplementation", "callee_text": "out"},
+  {"caller": "productImplementation", "__module__": "src/product.ts"}
+]}

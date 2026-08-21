@@ -1,0 +1,13 @@
+{
+  "key": "cd68238795d31797109d0e6984a0a9d3b80006478f51cdc34089a3bd4ef0c499",
+  "model": "harness-qwen15b",
+  "prompt_version": "ours-v1-5c74cf9a927a",
+  "file_sha": "902fd581b378cf637ef1e48b907c4ceda148b509d226d017ece64ed62682ff56",
+  "relative_path": "src/invert.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"invert\",\n    \"Inverted\"\n  ],\n  \"references\": [],\n  \"calls\": [],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"invert\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [],\n      \"returns\": {\n        \"scope\": \"global\",\n        \"var\": \"invert\",\n        \"type\": \"Inverted<T>\",\n        \"type_module\": null,\n        \"from_call\": false\n      },\n      \"line\": 10\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:37:23+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 699,
+  "completion_tokens": 137
+}

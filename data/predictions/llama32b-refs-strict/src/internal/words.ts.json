@@ -1,0 +1,1 @@
+{"calls": [], "callable_refs": [{"caller": "words", "callee_text": "flush"}, {"caller": "words", "callee_text": "slice"}, {"caller": "words", "callee_text": "sort"}, {"caller": "words", "callee_text": "map"}, {"caller": "words", "callee_text": "test"}]}

@@ -1,0 +1,27 @@
+```json
+{
+  "definitions": ["takeLastWhile", "purry", "IterableContainer", "purryImplementation"],
+  "references": [
+    {"name": "takeLastWhile", "source": "./src/takeLastWhile.ts"},
+    {"name": "purry", "source": "./src/purry.ts"},
+    {"name": "IterableContainer", "source": "./src/internal/types/IterableContainer.ts"},
+    {"name": "purryImplementation", "source": "./src/purry.ts"}
+  ],
+  "calls": [
+    {
+      "caller": "takeLastWhile",
+      "callee_text": "pipe",
+      "kind": "hook",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 1
+    }
+  ],
+  "type_assignments": [],
+  "definitions_rich": [
+    {"name": "takeLastWhile", "kind": "function", "parent": null, "bases": [], "params": [{"name": "data", "type": "IterableContainer"}, {"name": "predicate", "type": "(item: T[number], index: number, data: T) => boolean"}], "returns": "T[number][]", "line": 1},
+    {"name": "purry", "kind": "function", "parent": null, "bases": [], "params": [{"name": "fn", "type": "(...args: unknown[]) => unknown"}], "returns": "(...args: unknown[]) => unknown", "line": 2}
+  ]
+}
+```

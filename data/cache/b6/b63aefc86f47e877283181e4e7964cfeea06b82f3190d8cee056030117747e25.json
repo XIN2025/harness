@@ -1,0 +1,13 @@
+{
+  "key": "b63aefc86f47e877283181e4e7964cfeea06b82f3190d8cee056030117747e25",
+  "model": "harness-llama32b",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "81b1e8438c284ebad6364f1d149ffb2d545def691e224e388aa77a7a13e59cdb",
+  "relative_path": "src/groupBy.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"groupBy\", \"__module__\": \"src/groupBy.ts\"},\n  {\"caller\": \"groupByImplementation\", \"callee_text\": \"Object.create\"},\n  {\"caller\": \"groupByImplementation\", \"callee_text\": \"Object.setPrototypeOf\"},\n  {\"caller\": \"groupByImplementation\", \"callee_text\": \"for\"},\n  {\"caller\": \"groupByImplementation\", \"callee_text\": \"data\"},\n  {\"caller\": \"groupByImplementation\", \"callee_text\": \"index\"},\n  {\"caller\": \"groupByImplementation\", \"callee_text\": \"item\"},\n  {\"caller\": \"groupByImplementation\", \"callee_text\": \"callbackfn\"},\n  {\"caller\": \"groupByImplementation\", \"callee_text\": \"key\"},\n  {\"caller\": \"groupByImplementation\", \"callee_text\": \"output\"},\n  {\"caller\": \"groupByImplementation\", \"callee_text\": \"items\"},\n  {\"caller\": \"groupByImplementation\", \"callee_text\": \"push\"},\n  {\"caller\": \"groupByImplementation\", \"callee_text\": \"Object.create\"},\n  {\"caller\": \"groupByImplementation\", \"callee_text\": \"Object.setPrototypeOf\"}\n]}",
+  "created": "2026-08-08T22:39:17+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1895,
+  "completion_tokens": 223
+}

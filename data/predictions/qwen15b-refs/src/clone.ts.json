@@ -1,0 +1,7 @@
+{
+  "calls": [],
+  "callable_refs": [
+    {"caller": "clone", "callee_text": "deepCloneObject"},
+    {"caller": "clone", "callee_text": "deepCloneArray"}
+  ]
+}

@@ -1,0 +1,12 @@
+{"calls": [
+  {"caller": "groupByProp", "callee_text": "purry"},
+  {"caller": "groupByPropImplementation", "callee_text": "filter"},
+  {"caller": "groupByPropImplementation", "callee_text": "isFinite"},
+  {"caller": "groupByPropImplementation", "callee_text": "sort"},
+  {"caller": "groupByPropImplementation", "callee_text": "reduce"},
+  {"caller": "groupByPropImplementation", "callee_text": "isNaN"},
+  {"caller": "groupByPropImplementation", "callee_text": "Error"},
+  {"caller": "groupByPropImplementation", "callee_text": "format"},
+  {"caller": "groupByPropImplementation", "callee_text": "round"},
+  {"caller": "groupByPropImplementation", "callee_text": "precisionOf"}
+]}

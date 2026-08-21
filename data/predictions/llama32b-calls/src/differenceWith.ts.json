@@ -1,0 +1,4 @@
+{"calls": [
+  {"caller": "differenceWith", "callee_text": "purryFromLazy"},
+  {"caller": "differenceWith", "callee_text": "lazyImplementation"}
+]}

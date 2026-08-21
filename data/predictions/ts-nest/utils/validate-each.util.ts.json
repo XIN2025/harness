@@ -1,0 +1,43 @@
+{
+  "relative_path": "utils/validate-each.util.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "InvalidDecoratorItemException.constructor",
+      "callee_text": "super",
+      "kind": "super",
+      "receiver": "super",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 6
+    },
+    {
+      "caller": "validateEach",
+      "callee_text": "some",
+      "kind": "method",
+      "receiver": "arr",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 26
+    },
+    {
+      "caller": "validateEach",
+      "callee_text": "predicate",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 26
+    },
+    {
+      "caller": "validateEach",
+      "callee_text": "InvalidDecoratorItemException",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 28
+    }
+  ],
+  "callable_refs": []
+}

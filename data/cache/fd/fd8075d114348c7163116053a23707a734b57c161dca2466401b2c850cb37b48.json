@@ -1,0 +1,13 @@
+{
+  "key": "fd8075d114348c7163116053a23707a734b57c161dca2466401b2c850cb37b48",
+  "model": "harness-qwen15b",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "072cf96695319baa69730ece1e6c254c937416003ab0817bdaf043a39e8fda8d",
+  "relative_path": "src/range.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"range\", \"callee_text\": \"purry\"},\n  {\"caller\": \"rangeImplementation\", \"callee_text\": \"Math.round\"},\n  {\"caller\": \"rangeImplementation\", \"callee_text\": \"Math.abs\"},\n  {\"caller\": \"rangeImplementation\", \"callee_text\": \"Math.ceil\"}\n]}",
+  "created": "2026-08-08T22:21:23+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1369,
+  "completion_tokens": 69
+}

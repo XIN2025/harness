@@ -1,0 +1,10 @@
+{
+  "key": "5931495077f5d3c196ce5158180bd527df96df02e76a526831d57860e6799c95",
+  "model": "gemini-3.5-flash",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "a40ece21f136eb23109c51514a89c70ebef347bf2d72b34f358915bcfb274617",
+  "relative_path": "src/add.ts",
+  "response": "{\n  \"definitions\": [\n    \"add\",\n    \"addImplementation\"\n  ],\n  \"references\": [\n    {\n      \"name\": \"purry\",\n      \"source\": \"./purry\",\n      \"alias\": null\n    }\n  ],\n  \"calls\": [\n    {\n      \"caller\": \"add\",\n      \"callee_text\": \"purry\",\n      \"kind\": \"free\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": \"./purry\",\n      \"line\": 35\n    }\n  ],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"add\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"args\",\n          \"type\": \"readonly unknown[]\"\n        }\n      ],\n      \"returns\": \"unknown\",\n      \"line\": 34\n    },\n    {\n      \"name\": \"addImplementation\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"value\",\n          \"type\": \"number\"\n        },\n        {\n          \"name\": \"addend\",\n          \"type\": \"number\"\n        }\n      ],\n      \"returns\": \"number\",\n      \"line\": 40\n    }\n  ]\n}",
+  "created": "2026-08-08T16:18:18+00:00",
+  "finish_reason": "stop"
+}

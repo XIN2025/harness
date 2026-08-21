@@ -1,0 +1,13 @@
+{
+  "key": "c7ee91d52cd1e11cb9044cf66af9403e474915e617e2c32c48229bbd5123af04",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "53b08953331d51e0d305d10d952180ef26473377287ead8bed4b1d8387063c8b",
+  "relative_path": "src/takeLast.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"takeLast\", \"callee_text\": \"purry\"},\n  {\"caller\": \"takeLast\", \"callee_text\": \"takeLastImplementation\"},\n  {\"caller\": \"takeLastImplementation\", \"callee_text\": \"slice\"},\n  {\"caller\": \"takeLastImplementation\", \"callee_text\": \"Math\"},\n  {\"caller\": \"takeLastImplementation\", \"callee_text\": \"max\"},\n  {\"caller\": \"takeLastImplementation\", \"callee_text\": \"array.length\"},\n  {\"caller\": \"takeLastImplementation\", \"callee_text\": \"array\"},\n  {\"caller\": \"takeLastImplementation\", \"callee_text\": \"n\"},\n  {\"caller\": \"takeLastImplementation\", \"callee_text\": \"0\"},\n  {\"caller\": \"takeLastImplementation\", \"callee_text\": \"array.length\"},\n  {\"caller\": \"takeLastImplementation\", \"callee_text\": \"array\"},\n  {\"caller\": \"takeLastImplementation\", \"callee_text\": \"n\"},\n  {\"caller\": \"takeLastImplementation\", \"callee_text\": \"0\"},\n  {\"caller\": \"takeLastImplementation\", \"callee_text\": \"array.length\"},\n  {\"caller\": \"takeLastImplementation\", \"callee_text\": \"array\"},\n  {\"caller\": \"takeLastImplementation\", \"callee_text\": \"n\"},\n  {\"caller\": \"takeLastImplementation\", \"callee_text\": \"0\"},\n  {\"caller\": \"takeLastImplementation\", \"callee_text\": \"array.length\"},\n  {\"caller\": \"takeLastImplementation\", \"callee_text\": \"array\"},\n  {\"caller\": \"takeLastImplementation\", \"callee_text\": \"n\"},\n  {\"caller\": \"takeLastImplementation\", \"callee_text\": \"0\"}\n]}",
+  "created": "2026-08-08T23:14:34+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 861,
+  "completion_tokens": 347
+}

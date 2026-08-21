@@ -1,0 +1,13 @@
+{
+  "key": "d2e3f82325120f0254071b3a3e45ba993a682692803000ba3b461dc38e9cfcb1",
+  "model": "harness-qwen15b",
+  "prompt_version": "ours-v1-5c74cf9a927a",
+  "file_sha": "73b328010f636bd43b1d94099d3446278cca26be5e7ce692fbdbf0ebef3b0f75",
+  "relative_path": "src/median.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    {\n      \"name\": \"Median\",\n      \"kind\": \"function\"\n    },\n    {\n      \"name\": \"median\",\n      \"kind\": \"function\"\n    }\n  ],\n  \"references\": [],\n  \"calls\": [],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"IterableContainer\",\n      \"kind\": \"interface\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [],\n      \"returns\": null,\n      \"line\": 1\n    },\n    {\n      \"name\": \"purry\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [],\n      \"returns\": null,\n      \"line\": 3\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:39:05+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 976,
+  "completion_tokens": 172
+}

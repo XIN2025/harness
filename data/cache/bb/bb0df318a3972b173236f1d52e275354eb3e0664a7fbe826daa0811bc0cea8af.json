@@ -1,0 +1,13 @@
+{
+  "key": "bb0df318a3972b173236f1d52e275354eb3e0664a7fbe826daa0811bc0cea8af",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "refs-v1-7386a79c1ab2+json",
+  "file_sha": "bce8be3102532c25ede791c13241f0d251554f9eb82039e333fd1e8cdb3379b2",
+  "relative_path": "src/clone.ts",
+  "response": "{\"callable_refs\": [\n  {\"caller\": \"clone\", \"callee_text\": \"cloneImplementation\"},\n  {\"caller\": \"cloneImplementation\", \"callee_text\": \"structuredClone\"},\n  {\"caller\": \"cloneImplementation\", \"callee_text\": \"deepCloneObject\"},\n  {\"caller\": \"cloneImplementation\", \"callee_text\": \"deepCloneArray\"}\n]}",
+  "created": "2026-08-08T23:18:11+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1317,
+  "completion_tokens": 72
+}

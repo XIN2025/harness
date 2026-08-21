@@ -1,0 +1,13 @@
+{
+  "key": "8d9d1876e07c77b31edcb613355b6924b1aec340775451f51b1e8f55c1fe1732",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "refs-v1-7386a79c1ab2+json",
+  "file_sha": "c0cb203f156052f700038dd0eef746a0b6000792aae6d7891763d64f4c7ae2d3",
+  "relative_path": "src/divide.ts",
+  "response": "{\"calls\": [], \"callable_refs\": [{\"caller\": \"divide\", \"callee_text\": \"divideImplementation\"}, {\"caller\": \"divide\", \"callee_text\": \"divide\"}]}",
+  "created": "2026-08-08T23:19:03+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 684,
+  "completion_tokens": 37
+}

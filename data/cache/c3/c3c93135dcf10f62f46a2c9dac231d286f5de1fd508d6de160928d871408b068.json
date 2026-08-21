@@ -1,0 +1,13 @@
+{
+  "key": "c3c93135dcf10f62f46a2c9dac231d286f5de1fd508d6de160928d871408b068",
+  "model": "harness-qwen15b",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "8e84cf51923b49c97f8229a5414602cbd70043c9bb9c2e35eb00a24896f335f8",
+  "relative_path": "src/pick.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"pick\", \"callee_text\": \"purry\"},\n  {\"caller\": \"pickImplementation\", \"callee_text\": \"PickFromArray\"}\n]}",
+  "created": "2026-08-08T22:20:02+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1981,
+  "completion_tokens": 37
+}

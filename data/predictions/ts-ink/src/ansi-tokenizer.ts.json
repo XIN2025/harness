@@ -1,0 +1,601 @@
+{
+  "relative_path": "src/ansi-tokenizer.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "isCsiParameterCharacter",
+      "callee_text": "codePointAt",
+      "kind": "method",
+      "receiver": "character",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 63
+    },
+    {
+      "caller": "isCsiIntermediateCharacter",
+      "callee_text": "codePointAt",
+      "kind": "method",
+      "receiver": "character",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 69
+    },
+    {
+      "caller": "isCsiFinalCharacter",
+      "callee_text": "codePointAt",
+      "kind": "method",
+      "receiver": "character",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 75
+    },
+    {
+      "caller": "isEscapeIntermediateCharacter",
+      "callee_text": "codePointAt",
+      "kind": "method",
+      "receiver": "character",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 81
+    },
+    {
+      "caller": "isEscapeFinalCharacter",
+      "callee_text": "codePointAt",
+      "kind": "method",
+      "receiver": "character",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 87
+    },
+    {
+      "caller": "isC1ControlCharacter",
+      "callee_text": "codePointAt",
+      "kind": "method",
+      "receiver": "character",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 93
+    },
+    {
+      "caller": "readCsiSequence",
+      "callee_text": "isCsiParameterCharacter",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 118
+    },
+    {
+      "caller": "readCsiSequence",
+      "callee_text": "slice",
+      "kind": "method",
+      "receiver": "text",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 125
+    },
+    {
+      "caller": "readCsiSequence",
+      "callee_text": "isCsiIntermediateCharacter",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 131
+    },
+    {
+      "caller": "readCsiSequence",
+      "callee_text": "slice",
+      "kind": "method",
+      "receiver": "text",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 138
+    },
+    {
+      "caller": "readCsiSequence",
+      "callee_text": "isCsiFinalCharacter",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 141
+    },
+    {
+      "caller": "readEscapeSequence",
+      "callee_text": "isEscapeIntermediateCharacter",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 202
+    },
+    {
+      "caller": "readEscapeSequence",
+      "callee_text": "slice",
+      "kind": "method",
+      "receiver": "text",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 209
+    },
+    {
+      "caller": "readEscapeSequence",
+      "callee_text": "isEscapeFinalCharacter",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 212
+    },
+    {
+      "caller": "hasAnsiControlCharacters",
+      "callee_text": "includes",
+      "kind": "method",
+      "receiver": "text",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 295
+    },
+    {
+      "caller": "hasAnsiControlCharacters",
+      "callee_text": "isC1ControlCharacter",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 300
+    },
+    {
+      "caller": "malformedFromIndex",
+      "callee_text": "push",
+      "kind": "method",
+      "receiver": "tokens",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 315
+    },
+    {
+      "caller": "malformedFromIndex",
+      "callee_text": "slice",
+      "kind": "method",
+      "receiver": "text",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 315
+    },
+    {
+      "caller": "malformedFromIndex",
+      "callee_text": "push",
+      "kind": "method",
+      "receiver": "tokens",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 319
+    },
+    {
+      "caller": "malformedFromIndex",
+      "callee_text": "slice",
+      "kind": "method",
+      "receiver": "text",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 319
+    },
+    {
+      "caller": "tokenizeAnsi",
+      "callee_text": "hasAnsiControlCharacters",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 325
+    },
+    {
+      "caller": "tokenizeAnsi",
+      "callee_text": "malformedFromIndex",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 343
+    },
+    {
+      "caller": "tokenizeAnsi",
+      "callee_text": "readCsiSequence",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 347
+    },
+    {
+      "caller": "tokenizeAnsi",
+      "callee_text": "malformedFromIndex",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 350
+    },
+    {
+      "caller": "tokenizeAnsi",
+      "callee_text": "push",
+      "kind": "method",
+      "receiver": "tokens",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 354
+    },
+    {
+      "caller": "tokenizeAnsi",
+      "callee_text": "slice",
+      "kind": "method",
+      "receiver": "text",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 354
+    },
+    {
+      "caller": "tokenizeAnsi",
+      "callee_text": "push",
+      "kind": "method",
+      "receiver": "tokens",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 357
+    },
+    {
+      "caller": "tokenizeAnsi",
+      "callee_text": "slice",
+      "kind": "method",
+      "receiver": "text",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 359
+    },
+    {
+      "caller": "tokenizeAnsi",
+      "callee_text": "getControlStringFromEscapeIntroducer",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 370
+    },
+    {
+      "caller": "tokenizeAnsi",
+      "callee_text": "findControlStringTerminatorIndex",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 373
+    },
+    {
+      "caller": "tokenizeAnsi",
+      "callee_text": "malformedFromIndex",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 380
+    },
+    {
+      "caller": "tokenizeAnsi",
+      "callee_text": "push",
+      "kind": "method",
+      "receiver": "tokens",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 384
+    },
+    {
+      "caller": "tokenizeAnsi",
+      "callee_text": "slice",
+      "kind": "method",
+      "receiver": "text",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 384
+    },
+    {
+      "caller": "tokenizeAnsi",
+      "callee_text": "push",
+      "kind": "method",
+      "receiver": "tokens",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 387
+    },
+    {
+      "caller": "tokenizeAnsi",
+      "callee_text": "slice",
+      "kind": "method",
+      "receiver": "text",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 389
+    },
+    {
+      "caller": "tokenizeAnsi",
+      "callee_text": "readEscapeSequence",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 396
+    },
+    {
+      "caller": "tokenizeAnsi",
+      "callee_text": "isEscapeIntermediateCharacter",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 400
+    },
+    {
+      "caller": "tokenizeAnsi",
+      "callee_text": "malformedFromIndex",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 401
+    },
+    {
+      "caller": "tokenizeAnsi",
+      "callee_text": "push",
+      "kind": "method",
+      "receiver": "tokens",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 405
+    },
+    {
+      "caller": "tokenizeAnsi",
+      "callee_text": "slice",
+      "kind": "method",
+      "receiver": "text",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 405
+    },
+    {
+      "caller": "tokenizeAnsi",
+      "callee_text": "push",
+      "kind": "method",
+      "receiver": "tokens",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 415
+    },
+    {
+      "caller": "tokenizeAnsi",
+      "callee_text": "slice",
+      "kind": "method",
+      "receiver": "text",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 415
+    },
+    {
+      "caller": "tokenizeAnsi",
+      "callee_text": "push",
+      "kind": "method",
+      "receiver": "tokens",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 418
+    },
+    {
+      "caller": "tokenizeAnsi",
+      "callee_text": "slice",
+      "kind": "method",
+      "receiver": "text",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 420
+    },
+    {
+      "caller": "tokenizeAnsi",
+      "callee_text": "readCsiSequence",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 430
+    },
+    {
+      "caller": "tokenizeAnsi",
+      "callee_text": "malformedFromIndex",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 433
+    },
+    {
+      "caller": "tokenizeAnsi",
+      "callee_text": "push",
+      "kind": "method",
+      "receiver": "tokens",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 437
+    },
+    {
+      "caller": "tokenizeAnsi",
+      "callee_text": "slice",
+      "kind": "method",
+      "receiver": "text",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 437
+    },
+    {
+      "caller": "tokenizeAnsi",
+      "callee_text": "push",
+      "kind": "method",
+      "receiver": "tokens",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 440
+    },
+    {
+      "caller": "tokenizeAnsi",
+      "callee_text": "slice",
+      "kind": "method",
+      "receiver": "text",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 442
+    },
+    {
+      "caller": "tokenizeAnsi",
+      "callee_text": "getControlStringFromC1Introducer",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 452
+    },
+    {
+      "caller": "tokenizeAnsi",
+      "callee_text": "findControlStringTerminatorIndex",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 455
+    },
+    {
+      "caller": "tokenizeAnsi",
+      "callee_text": "malformedFromIndex",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 462
+    },
+    {
+      "caller": "tokenizeAnsi",
+      "callee_text": "push",
+      "kind": "method",
+      "receiver": "tokens",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 466
+    },
+    {
+      "caller": "tokenizeAnsi",
+      "callee_text": "slice",
+      "kind": "method",
+      "receiver": "text",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 466
+    },
+    {
+      "caller": "tokenizeAnsi",
+      "callee_text": "push",
+      "kind": "method",
+      "receiver": "tokens",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 469
+    },
+    {
+      "caller": "tokenizeAnsi",
+      "callee_text": "slice",
+      "kind": "method",
+      "receiver": "text",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 471
+    },
+    {
+      "caller": "tokenizeAnsi",
+      "callee_text": "push",
+      "kind": "method",
+      "receiver": "tokens",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 480
+    },
+    {
+      "caller": "tokenizeAnsi",
+      "callee_text": "slice",
+      "kind": "method",
+      "receiver": "text",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 480
+    },
+    {
+      "caller": "tokenizeAnsi",
+      "callee_text": "push",
+      "kind": "method",
+      "receiver": "tokens",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 483
+    },
+    {
+      "caller": "tokenizeAnsi",
+      "callee_text": "isC1ControlCharacter",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 490
+    },
+    {
+      "caller": "tokenizeAnsi",
+      "callee_text": "push",
+      "kind": "method",
+      "receiver": "tokens",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 492
+    },
+    {
+      "caller": "tokenizeAnsi",
+      "callee_text": "slice",
+      "kind": "method",
+      "receiver": "text",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 492
+    },
+    {
+      "caller": "tokenizeAnsi",
+      "callee_text": "push",
+      "kind": "method",
+      "receiver": "tokens",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 495
+    },
+    {
+      "caller": "tokenizeAnsi",
+      "callee_text": "push",
+      "kind": "method",
+      "receiver": "tokens",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 505
+    },
+    {
+      "caller": "tokenizeAnsi",
+      "callee_text": "slice",
+      "kind": "method",
+      "receiver": "text",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 505
+    }
+  ],
+  "callable_refs": []
+}

@@ -1,0 +1,13 @@
+{
+  "key": "7e77f98b443def4ca2d0ea9c6efc69668a55e277ce2911138afe6c43e8e1254e",
+  "model": "harness-qwen15b",
+  "prompt_version": "refs-v1-7386a79c1ab2+json",
+  "file_sha": "148faa0e5fc3967f9a36f5bff2b8e664ed445afa6beae5fd61d006a003746582",
+  "relative_path": "src/floor.ts",
+  "response": "{\n  \"calls\": [],\n  \"callable_refs\": [\n    {\"caller\": \"floor\", \"callee_text\": \"withPrecision\"},\n    {\"caller\": \"floor\", \"callee_text\": \"Math.floor\"}\n  ]\n}",
+  "created": "2026-08-08T22:26:06+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 828,
+  "completion_tokens": 46
+}

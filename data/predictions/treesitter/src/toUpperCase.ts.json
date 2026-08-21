@@ -1,0 +1,25 @@
+{
+  "relative_path": "src/toUpperCase.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "toUpperCase",
+      "callee_text": "purry",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./purry",
+      "line": 53
+    },
+    {
+      "caller": "toUpperCaseImplementation",
+      "callee_text": "toUpperCase",
+      "kind": "method",
+      "receiver": "data",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 58
+    }
+  ],
+  "callable_refs": []
+}

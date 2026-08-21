@@ -1,0 +1,47 @@
+```json
+{
+  "definitions": [
+    "swapIndices",
+    "swapIndicesImplementation"
+  ],
+  "references": [
+    {"name": "swapIndices", "source": "./src/swapIndices.ts"},
+    {"name": "swapIndicesImplementation", "source": "./src/swapIndices.ts"}
+  ],
+  "calls": [
+    {
+      "caller": "swapIndices",
+      "callee_text": "swapArray",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./src/swapIndices.ts",
+      "line": 10
+    }
+  ],
+  "type_assignments": [
+    {"scope": "module", "var": "swapIndices", "type": "function", "type_module": "src"},
+    {"scope": "module", "var": "swapIndicesImplementation", "type": "function", "type_module": "src"}
+  ],
+  "definitions_rich": [
+    {
+      "name": "swapIndices",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "data", "type": "IterableContainer | string"}, {"name": "index1", "type": "number"}, {"name": "index2", "type": "number"}],
+      "returns": "unknown",
+      "line": 1
+    },
+    {
+      "name": "swapIndicesImplementation",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "data", "type": "IterableContainer | string"}, {"name": "index1", "type": "number"}, {"name": "index2", "type": "number"}],
+      "returns": "unknown",
+      "line": 30
+    }
+  ]
+}
+```

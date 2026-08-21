@@ -1,0 +1,6 @@
+{"calls": [
+  {"caller": "isEmpty", "callee_text": "IterableContainer"},
+  {"caller": "isEmpty", "callee_text": "Record"},
+  {"caller": "isEmpty", "callee_text": "string"},
+  {"caller": "isEmpty", "callee_text": "undefined"}
+]}

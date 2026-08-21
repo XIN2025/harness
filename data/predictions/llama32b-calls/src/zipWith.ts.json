@@ -1,0 +1,14 @@
+{"calls": [
+  {"caller": "zipWith", "callee_text": "lazyDataLastImpl"},
+  {"caller": "zipWithImplementation", "callee_text": "map"},
+  {"caller": "zipWithImplementation", "callee_text": "fn"},
+  {"caller": "zipWithImplementation", "callee_text": "index"},
+  {"caller": "zipWithImplementation", "callee_text": "datum"},
+  {"caller": "lazyDataLastImpl", "callee_text": "next"},
+  {"caller": "lazyDataLastImpl", "callee_text": "hasNext"},
+  {"caller": "lazyDataLastImpl", "callee_text": "done"},
+  {"caller": "zipWithImplementation", "callee_text": "map"},
+  {"caller": "zipWithImplementation", "callee_text": "fn"},
+  {"caller": "zipWithImplementation", "callee_text": "index"},
+  {"caller": "zipWithImplementation", "callee_text": "datum"}
+]}

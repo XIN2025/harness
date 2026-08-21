@@ -1,0 +1,13 @@
+{
+  "key": "c14edddb451004b9b0918a9b414346e43e461feb0b5a9cf6b1e91d9627ffe6e1",
+  "model": "harness-qwen15b",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "35158cd641e179c161aacc02d91cb72a59570ff02776862f469db0cece272d55",
+  "relative_path": "src/meanBy.ts",
+  "response": "```json\n{\n  \"definitions\": [\"meanBy\"],\n  \"references\": [\n    {\"name\": \"purry\", \"source\": \"./purry\"},\n    {\"name\": \"Box\", \"source\": \"@mui/material\"}\n  ],\n  \"calls\": [\n    {\"caller\": \"meanBy\", \"callee_text\": \"pipe\", \"kind\": \"hook\",\n     \"receiver\": null, \"receiver_type_hint\": null, \"callee_file_hint\": \"external\", \"line\": 2},\n    {\"caller\": \"meanBy\", \"callee_text\": \"meanByImplementation\", \"kind\": \"free\",\n     \"receiver\": null, \"receiver_type_hint\": null, \"callee_file_hint\": \"...\", \"line\": 1}\n  ],\n  \"type_assignments\": [\n    {\"scope\": \"module\", \"var\": \"purry\", \"type\": \"Function\", \"type_module\": \"./purry\"}\n  ],\n  \"definitions_rich\": [\n    {\"name\": \"meanBy\", \"kind\": \"function\", \"parent\": null, \"bases\": [], \"params\": [{\"name\": \"fn\", \"type\": \"Function\"}], \"returns\": \"number\", \"line\": 1}\n  ]\n}\n```",
+  "created": "2026-08-08T20:23:01+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 8425,
+  "completion_tokens": 252
+}

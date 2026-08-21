@@ -1,0 +1,13 @@
+{
+  "key": "ce5e87e5ca5437c74b2e62340f93f15daaf74fd8aba85795822eb6db32b8e494",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "refs-v1-7386a79c1ab2+json",
+  "file_sha": "2088617adbf29c12e440220b243cb79e58a1fa80c5c6d2629b72c7e7128186af",
+  "relative_path": "src/internal/words.ts",
+  "response": "{\"calls\": [], \"callable_refs\": [{\"caller\": \"words\", \"callee_text\": \"flush\"}, {\"caller\": \"words\", \"callee_text\": \"slice\"}, {\"caller\": \"words\", \"callee_text\": \"sort\"}, {\"caller\": \"words\", \"callee_text\": \"map\"}, {\"caller\": \"words\", \"callee_text\": \"test\"}, {\"caller\": \"words\", \"callee_text\": \"has\"}, {\"caller\": \"words\", \"callee_text\": \"includes\"}, {\"caller\": \"words\", \"callee_text\": \"every\"}, {\"caller\": \"words\", \"callee_text\": \"some\"}, {\"caller\": \"words\", \"callee_text\": \"length\"}, {\"caller\": \"words\", \"callee_text\": \"push\"}, {\"caller\": \"words\", \"callee_text\": \"includes\"}]}",
+  "created": "2026-08-08T23:22:40+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1030,
+  "completion_tokens": 166
+}

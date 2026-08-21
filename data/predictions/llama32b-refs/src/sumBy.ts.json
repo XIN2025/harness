@@ -1,0 +1,5 @@
+{"callable_refs": [
+  {"caller": "sumBy", "callee_text": "sumByImplementation"},
+  {"caller": "sumByImplementation", "callee_text": "iter.next"},
+  {"caller": "sumByImplementation", "callee_text": "callbackfn"}
+]}

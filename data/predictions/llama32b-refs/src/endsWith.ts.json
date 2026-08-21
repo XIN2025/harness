@@ -1,0 +1,1 @@
+{"calls": [], "callable_refs": [{"caller": "endsWith", "callee_text": "endsWithImplementation"}, {"caller": "endsWith", "callee_text": "sliceString"}, {"caller": "endsWith", "callee_text": "defaultCompare"}, {"caller": "endsWith", "callee_text": "identity"}]}

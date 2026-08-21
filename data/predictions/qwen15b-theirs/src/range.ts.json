@@ -1,0 +1,132 @@
+```json
+{
+  "definitions": [
+    "range",
+    "DEFAULT_STEP",
+    "SNAP_TOLERANCE",
+    "RangeOptions",
+    "purry",
+    "DEFAULT_STEP",
+    "endOrOptions",
+    "step",
+    "start",
+    "end",
+    "length",
+    "raw",
+    "rounded",
+    "Math.round",
+    "Math.abs",
+    "Math.ceil",
+    " ceilingWithSnap"
+  ],
+  "references": [
+    {"name": "range", "source": "./src/range.ts"},
+    {"name": "DEFAULT_STEP", "source": "./src/range.ts"},
+    {"name": "SNAP_TOLERANCE", "source": "./src/range.ts"},
+    {"name": "RangeOptions", "source": "./src/range.ts"},
+    {"name": "purry", "source": "./src/purry.ts"},
+    {"name": "DEFAULT_STEP", "source": "./src/range.ts"},
+    {"name": "endOrOptions", "source": "./src/range.ts"},
+    {"name": "step", "source": "./src/range.ts"},
+    {"name": "start", "source": "./src/range.ts"},
+    {"name": "end", "source": "./src/range.ts"},
+    {"name": "length", "source": "./src/range.ts"},
+    {"name": "raw", "source": "./src/range.ts"},
+    {"name": "rounded", "source": "./src/range.ts"},
+    {"name": "Math.round", "source": "./node_modules/@types/node/index.d.ts"},
+    {"name": "Math.abs", "source": "./node_modules/@types/node/index.d.ts"},
+    {"name": "Math.ceil", "source": "./node_modules/@types/node/index.d.ts"},
+    {"name": " ceilingWithSnap", "source": "./src/range.ts"}
+  ],
+  "calls": [
+    {
+      "caller": "range",
+      "callee_text": "DEFAULT_STEP",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./src/range.ts",
+      "line": 1
+    },
+    {
+      "caller": "range",
+      "callee_text": "SNAP_TOLERANCE",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./src/range.ts",
+      "line": 2
+    },
+    {
+      "caller": "range",
+      "callee_text": "DEFAULT_STEP",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./src/range.ts",
+      "line": 3
+    },
+    {
+      "caller": "range",
+      "callee_text": "step",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./src/range.ts",
+      "line": 4
+    },
+    {
+      "caller": "range",
+      "callee_text": "start",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./src/range.ts",
+      "line": 5
+    },
+    {
+      "caller": "range",
+      "callee_text": "end",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./src/range.ts",
+      "line": 6
+    }
+  ],
+  "type_assignments": [
+    {"scope": "module", "var": "range", "type": "function", "type_module": "./src/range.ts"},
+    {"scope": "module", "var": "DEFAULT_STEP", "type": "number", "type_module": "./src/range.ts"},
+    {"scope": "module", "var": "SNAP_TOLERANCE", "type": "number", "type_module": "./src/range.ts"}
+  ],
+  "definitions_rich": [
+    {
+      "name": "range",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "start", "type": "number"}],
+      "returns": "number[]",
+      "line": 1
+    },
+    {
+      "name": "DEFAULT_STEP",
+      "kind": "constant",
+      "parent": null,
+      "bases": [],
+      "params": [],
+      "returns": "number",
+      "line": 2
+    },
+    {
+      "name": "SNAP_TOLERANCE",
+      "kind": "constant",
+      "parent": null,
+      "bases": [],
+      "params": [],
+      "returns": "number",
+      "line": 3
+    }
+  ]
+}
+```

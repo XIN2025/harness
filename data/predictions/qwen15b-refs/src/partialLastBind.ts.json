@@ -1,0 +1,1 @@
+{"calls": [], "callable_refs": [{"caller": "partialLastBind", "callee_text": "JSON.stringify"}, {"caller": "pipe", "callee_text": "JSON.stringify"}]}

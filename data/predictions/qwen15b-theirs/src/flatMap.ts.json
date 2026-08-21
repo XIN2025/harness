@@ -1,0 +1,21 @@
+```json
+{
+  "definitions": [
+    "flatMap",
+    "pipe",
+    "lazyImplementation"
+  ],
+  "references": [
+    {"name": "flatMap", "source": "./src/flatMap.ts"},
+    {"name": "pipe", "source": "./src/flatMap.ts"},
+    {"name": "lazyImplementation", "source": "./src/flatMap.ts"}
+  ],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": [
+    {"name": "flatMap", "kind": "function", "parent": null, "bases": [], "params": [{"name": "data", "type": "readonly T[]"}, {"name": "callbackfn", "type": "(input: T, index: number, data: readonly T[]) => readonly U[] | U"}], "returns": "U[]"},
+    {"name": "pipe", "kind": "function", "parent": null, "bases": [], "params": [{"name": "data", "type": "readonly T[]"}, {"name": "callbackfn", "type": "(input: T, index: number, data: readonly T[]) => readonly U[] | U"}], "returns": "U[]"},
+    {"name": "lazyImplementation", "kind": "function", "parent": null, "bases": [], "params": [{"name": "callbackfn", "type": "(input: T, index: number, data: readonly T[]) => K | readonly K[]"}], "returns": "LazyEvaluator<T, K>"}
+  ]
+}
+```

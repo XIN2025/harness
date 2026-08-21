@@ -1,0 +1,13 @@
+{
+  "key": "65509c9c2da972fc27aa50317b971d903f931ae9a85479b03574a566cf2f4b05",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "refs-strict-v1-ca2cfcfbecef+json",
+  "file_sha": "3c4ff73103d1171a167cf341b2bd4a519978fe96611f0be82a01ddf4488f99ef",
+  "relative_path": "src/capitalize.ts",
+  "response": "{\"calls\": [], \"callable_refs\": [{\"caller\": \"capitalize\", \"callee_text\": \"capitalizeImplementation\"}]}",
+  "created": "2026-08-09T05:42:16+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1231,
+  "completion_tokens": 24
+}

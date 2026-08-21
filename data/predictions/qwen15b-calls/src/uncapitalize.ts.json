@@ -1,0 +1,4 @@
+{"calls": [
+  {"caller": "uncapitalize", "callee_text": "purry"},
+  {"caller": "uncapitalizeImplementation", "callee_text": "String.prototype.toLowerCase"}
+]}

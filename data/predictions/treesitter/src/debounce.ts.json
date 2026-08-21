@@ -1,0 +1,160 @@
+{
+  "relative_path": "src/debounce.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "debounce",
+      "callee_text": "Error",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 123
+    },
+    {
+      "caller": "debounce",
+      "callee_text": "toString",
+      "kind": "method",
+      "receiver": "maxWaitMs",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 124
+    },
+    {
+      "caller": "debounce",
+      "callee_text": "toString",
+      "kind": "method",
+      "receiver": "waitMs",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 124
+    },
+    {
+      "caller": "debounce",
+      "callee_text": "clearTimeout",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 152
+    },
+    {
+      "caller": "debounce",
+      "callee_text": "Error",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 159
+    },
+    {
+      "caller": "debounce",
+      "callee_text": "func",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 174
+    },
+    {
+      "caller": "debounce",
+      "callee_text": "clearTimeout",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 187
+    },
+    {
+      "caller": "debounce",
+      "callee_text": "handleInvoke",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 193
+    },
+    {
+      "caller": "debounce",
+      "callee_text": "setTimeout",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 205
+    },
+    {
+      "caller": "debounce",
+      "callee_text": "handleDebouncedCall",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 216
+    },
+    {
+      "caller": "debounce",
+      "callee_text": "func",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 223
+    },
+    {
+      "caller": "debounce",
+      "callee_text": "handleDebouncedCall",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 232
+    },
+    {
+      "caller": "debounce",
+      "callee_text": "clearTimeout",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 239
+    },
+    {
+      "caller": "debounce",
+      "callee_text": "setTimeout",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 242
+    },
+    {
+      "caller": "debounce",
+      "callee_text": "clearTimeout",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 262
+    },
+    {
+      "caller": "debounce",
+      "callee_text": "clearTimeout",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 268
+    },
+    {
+      "caller": "debounce",
+      "callee_text": "handleCoolDownEnd",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 276
+    }
+  ],
+  "callable_refs": []
+}

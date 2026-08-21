@@ -1,0 +1,13 @@
+{
+  "key": "f363084d2916257eb71fb739eca6b6395f2d2e14eae0a57e8b2c7a1c6eabfb73",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "5ad35fb348f291d04557027dc4c39358fd3957b7cebad193c9c0d27057e60c15",
+  "relative_path": "src/omit.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"omit\", \"callee_text\": \"__module__\"},\n  {\"caller\": \"omitImplementation\", \"callee_text\": \"hasAtLeast\"},\n  {\"caller\": \"omitImplementation\", \"callee_text\": \"keys\"},\n  {\"caller\": \"omitImplementation\", \"callee_text\": \"data\"},\n  {\"caller\": \"omitImplementation\", \"callee_text\": \"filter\"},\n  {\"caller\": \"omitImplementation\", \"callee_text\": \"isFinite\"},\n  {\"caller\": \"omitImplementation\", \"callee_text\": \"sort\"},\n  {\"caller\": \"omitImplementation\", \"callee_text\": \"reduce\"},\n  {\"caller\": \"omitImplementation\", \"callee_text\": \"isNaN\"},\n  {\"caller\": \"omitImplementation\", \"callee_text\": \"Error\"},\n  {\"caller\": \"omitImplementation\", \"callee_text\": \"format\"},\n  {\"caller\": \"omitImplementation\", \"callee_text\": \"round\"},\n  {\"caller\": \"omitImplementation\", \"callee_text\": \"precisionOf\"}\n]}",
+  "created": "2026-08-08T23:05:22+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 2100,
+  "completion_tokens": 205
+}

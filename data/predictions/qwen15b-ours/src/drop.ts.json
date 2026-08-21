@@ -1,0 +1,76 @@
+```json
+{
+  "definitions": [
+    "drop",
+    "DropFixedTuple"
+  ],
+  "references": [],
+  "calls": [
+    {
+      "caller": "__module__",
+      "callee_text": "drop",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "src/drop.ts",
+      "line": 1
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "drop",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "src/drop.ts",
+      "line": 2
+    }
+  ],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "Drop",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "array",
+          "type": "IterableContainer"
+        },
+        {
+          "name": "n",
+          "type": "number"
+        }
+      ],
+      "returns": "Drop<T, N>"
+    },
+    {
+      "name": "DropFixedTuple",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "T",
+          "type": "IterableContainer"
+        },
+        {
+          "name": "N",
+          "type": "number"
+        },
+        {
+          "name": "IncludePrefixes",
+          "type": "boolean",
+          "default": false
+        },
+        {
+          "name": "Dropped",
+          "type": "unknown[]",
+          "default": []
+        }
+      ],
+      "returns": "T[number][]"
+    }
+  ]
+}
+```

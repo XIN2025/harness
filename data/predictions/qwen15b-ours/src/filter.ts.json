@@ -1,0 +1,158 @@
+```json
+{
+  "definitions": [
+    "filter",
+    "NonRefinedFilteredArray",
+    "Writable",
+    "FilteredArray",
+    "IterableContainer",
+    "LazyEvaluator",
+    "SKIP_ITEM",
+    "purry",
+    "type-fest",
+    "internal/types/FilteredArray",
+    "internal/types/IterableContainer",
+    "internal/types/LazyEvaluator",
+    "internal/utilityEvaluators"
+  ],
+  "references": [
+    {
+      "name": "filter",
+      "source": "src/filter.ts",
+      "alias": null
+    },
+    {
+      "name": "NonRefinedFilteredArray",
+      "source": "src/filter.ts",
+      "alias": null
+    },
+    {
+      "name": "Writable",
+      "source": "src/filter.ts",
+      "alias": null
+    },
+    {
+      "name": "FilteredArray",
+      "source": "src/filter.ts",
+      "alias": null
+    },
+    {
+      "name": "IterableContainer",
+      "source": "src/filter.ts",
+      "alias": null
+    },
+    {
+      "name": "LazyEvaluator",
+      "source": "src/filter.ts",
+      "alias": null
+    },
+    {
+      "name": "SKIP_ITEM",
+      "source": "src/filter.ts",
+      "alias": null
+    },
+    {
+      "name": "purry",
+      "source": "src/filter.ts",
+      "alias": null
+    },
+    {
+      "name": "type-fest",
+      "source": "src/filter.ts",
+      "alias": null
+    },
+    {
+      "name": "internal/types/FilteredArray",
+      "source": "src/filter.ts",
+      "alias": null
+    },
+    {
+      "name": "internal/types/IterableContainer",
+      "source": "src/filter.ts",
+      "alias": null
+    },
+    {
+      "name": "internal/types/LazyEvaluator",
+      "source": "src/filter.ts",
+      "alias": null
+    },
+    {
+      "name": "internal/utilityEvaluators",
+      "source": "src/filter.ts",
+      "alias": null
+    }
+  ],
+  "calls": [
+    {
+      "caller": "__module__",
+      "callee_text": "filter",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "src/filter.ts",
+      "line": 1
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "filter",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "src/filter.ts",
+      "line": 2
+    }
+  ],
+  "type_assignments": [
+    {
+      "scope": "__module__",
+      "var": "filter",
+      "type": "function",
+      "type_module": null,
+      "from_call": false
+    },
+    {
+      "scope": "__module__",
+      "var": "NonRefinedFilteredArray",
+      "type": "function",
+      "type_module": null,
+      "from_call": false
+    }
+  ],
+  "definitions_rich": [
+    {
+      "name": "filter",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "IterableContainer"
+        },
+        {
+          "name": "predicate",
+          "type": "(value: T, index: number, data: T) => value is Condition"
+        }
+      ],
+      "returns": "FilteredArray<T, Condition>"
+    },
+    {
+      "name": "NonRefinedFilteredArray",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "IterableContainer"
+        },
+        {
+          "name": "predicate",
+          "type": "(value: T, index: number, data: T) => IsItemIncluded"
+        }
+      ],
+      "returns": "NonRefinedFilteredArray<T, IsItemIncluded>"
+    }
+  ]
+}
+```

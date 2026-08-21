@@ -1,0 +1,13 @@
+{
+  "key": "0ba73da98597345d2f6e3e3a9637086b62660f07cde1ca892f0e0efc33f82ecc",
+  "model": "harness-qwen15b",
+  "prompt_version": "ours-v1-5c74cf9a927a",
+  "file_sha": "e15967fe87fd22ea338b1bea050b2f037caac0c638d016da73d9e3d0b0fab554",
+  "relative_path": "src/set.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    {\n      \"name\": \"set\",\n      \"kind\": \"function\"\n    },\n    {\n      \"name\": \"addProp\",\n      \"kind\": \"function\"\n    },\n    {\n      \"name\": \"pipe\",\n      \"kind\": \"function\"\n    }\n  ],\n  \"references\": [],\n  \"calls\": [\n    {\n      \"caller\": \"__module__\",\n      \"callee_text\": \"set\",\n      \"kind\": \"method\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": \"src/set.ts\",\n      \"line\": 1\n    },\n    {\n      \"caller\": \"__module__\",\n      \"callee_text\": \"pipe\",\n      \"kind\": \"method\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": \"src/set.ts\",\n      \"line\": 2\n    }\n  ],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"UpsertProp\",\n      \"kind\": \"interface\"\n    },\n    {\n      \"name\": \"addProp\",\n      \"kind\": \"function\"\n    },\n    {\n      \"name\": \"pipe\",\n      \"kind\": \"function\"\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:43:56+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 744,
+  "completion_tokens": 272
+}

@@ -1,0 +1,1 @@
+{"callable_refs": [{"caller": "countBy", "callee_text": "categorizationFn"}, {"caller": "countByImplementation", "callee_text": "PropertyKey"}]}

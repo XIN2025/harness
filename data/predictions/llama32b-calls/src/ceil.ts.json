@@ -1,0 +1,5 @@
+{"calls": [
+  {"caller": "ceil", "callee_text": "withPrecision"},
+  {"caller": "ceil", "callee_text": "Math.ceil"},
+  {"caller": "ceil", "callee_text": "purry"}
+]}

@@ -1,0 +1,13 @@
+{
+  "key": "30a7535555c682badfb36747363c6e5bb56bc621a416634fe8c1c6cc39f6b028",
+  "model": "harness-qwen15b",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "4392703e7d4196cb731d8653d4978a5f3e92938e0868620b8348fb43d61822e6",
+  "relative_path": "src/debounce.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"debounce\", \"callee_text\": \"setTimeout\"},\n  {\"caller\": \"debounce\", \"callee_text\": \"clearTimeout\"},\n  {\"caller\": \"debounce\", \"callee_text\": \"handleInvoke\"},\n  {\"caller\": \"debounce\", \"callee_text\": \"handleCoolDownEnd\"},\n  {\"caller\": \"debounce\", \"callee_text\": \"handleDebouncedCall\"},\n  {\"caller\": \"debounce\", \"callee_text\": \"setTimeout\"},\n  {\"caller\": \"debounce\", \"callee_text\": \"clearTimeout\"},\n  {\"caller\": \"debounce\", \"callee_text\": \"handleCoolDownEnd\"},\n  {\"caller\": \"debounce\", \"callee_text\": \"handleDebouncedCall\"}\n]}",
+  "created": "2026-08-08T22:14:48+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 3368,
+  "completion_tokens": 158
+}

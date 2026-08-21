@@ -1,0 +1,13 @@
+{
+  "key": "f2f240f88c1c65874961d914d858a9dd370785ac35ed3014ed6b7547e3cc377f",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "b5b040887b1668ac8e8f6bd838a9b321913e1b0e1777f398ca4522b6b61c91b6",
+  "relative_path": "src/sort.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"sort\", \"callee_text\": \"purry\"},\n  {\"caller\": \"sortImplementation\", \"callee_text\": \"sort\"},\n  {\"caller\": \"sortImplementation\", \"callee_text\": \"cmp\"},\n  {\"caller\": \"sortImplementation\", \"callee_text\": \"items\"},\n  {\"caller\": \"sortImplementation\", \"callee_text\": \"ret\"},\n  {\"caller\": \"sortImplementation\", \"callee_text\": \"ret.sort\"},\n  {\"caller\": \"sortImplementation\", \"callee_text\": \"cmp\"},\n  {\"caller\": \"sortImplementation\", \"callee_text\": \"items\"},\n  {\"caller\": \"sortImplementation\", \"callee_text\": \"ret\"},\n  {\"caller\": \"sortImplementation\", \"callee_text\": \"as\"}\n]}",
+  "created": "2026-08-08T23:11:06+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 910,
+  "completion_tokens": 157
+}

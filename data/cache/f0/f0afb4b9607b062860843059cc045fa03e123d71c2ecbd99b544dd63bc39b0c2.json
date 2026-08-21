@@ -1,0 +1,13 @@
+{
+  "key": "f0afb4b9607b062860843059cc045fa03e123d71c2ecbd99b544dd63bc39b0c2",
+  "model": "harness-qwen15b",
+  "prompt_version": "refs-v1-7386a79c1ab2+json",
+  "file_sha": "bba2f69bf022da542f0e21043df8e88ac6f0ad11dbde6c57bd7dd5b980537788",
+  "relative_path": "src/join.ts",
+  "response": "{\n  \"calls\": [],\n  \"callable_refs\": [\n    {\"caller\": \"join\", \"callee_text\": \"joinImplementation\"},\n    {\"caller\": \"joinImplementation\", \"callee_text\": \"glue\"}\n  ]\n}",
+  "created": "2026-08-08T22:27:35+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 897,
+  "completion_tokens": 47
+}

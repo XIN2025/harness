@@ -1,0 +1,4 @@
+{"calls": [
+  {"caller": "forEach", "callee_text": "Array.prototype.forEach"},
+  {"caller": "forEachImplementation", "callee_text": "callbackfn"}
+]}

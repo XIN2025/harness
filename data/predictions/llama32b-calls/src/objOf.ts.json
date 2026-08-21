@@ -1,0 +1,4 @@
+{"calls": [
+  {"caller": "objOf", "callee_text": "purry"},
+  {"caller": "objOfImplementation", "callee_text": "Object.assign"}
+]}

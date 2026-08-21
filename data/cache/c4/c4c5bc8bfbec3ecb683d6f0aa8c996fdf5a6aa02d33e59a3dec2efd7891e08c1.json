@@ -1,0 +1,13 @@
+{
+  "key": "c4c5bc8bfbec3ecb683d6f0aa8c996fdf5a6aa02d33e59a3dec2efd7891e08c1",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "refs-strict-v1-ca2cfcfbecef+json",
+  "file_sha": "29ec3ae67ae4776fb7c08b4367985531ba05076c12c17173c71d893c9456cc23",
+  "relative_path": "src/stringToPath.ts",
+  "response": "{\"callable_refs\": [{\"caller\": \"stringToPath\", \"callee_text\": \"stringToPathImpl\"}]}",
+  "created": "2026-08-09T06:08:00+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 2206,
+  "completion_tokens": 24
+}

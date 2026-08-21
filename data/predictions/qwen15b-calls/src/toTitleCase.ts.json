@@ -1,0 +1,9 @@
+{"calls": [
+  {"caller": "toTitleCase", "callee_text": "words"},
+  {"caller": "toTitleCase", "callee_text": "LOWER_CASE_CHARACTER_RE.test"},
+  {"caller": "toTitleCase", "callee_text": "data.toLowerCase"},
+  {"caller": "toTitleCaseImplementation", "callee_text": "words"},
+  {"caller": "toTitleCaseImplementation", "callee_text": "LOWER_CASE_CHARACTER_RE.test"},
+  {"caller": "toTitleCaseImplementation", "callee_text": "data.toLowerCase"},
+  {"caller": "toTitleCaseImplementation", "callee_text": "preserveConsecutiveUppercase"}
+]}

@@ -1,0 +1,83 @@
+```json
+{
+  "definitions": [
+    "capitalize",
+    "capitalizeImplementation"
+  ],
+  "references": [
+    {
+      "name": "purry",
+      "source": "./purry",
+      "alias": null
+    }
+  ],
+  "calls": [
+    {
+      "caller": "capitalize",
+      "callee_text": "purry",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./purry",
+      "line": 43
+    },
+    {
+      "caller": "capitalizeImplementation",
+      "callee_text": "toUpperCase",
+      "kind": "method",
+      "receiver": "data[0]",
+      "receiver_type_hint": "string",
+      "callee_file_hint": "external",
+      "line": 47
+    },
+    {
+      "caller": "capitalizeImplementation",
+      "callee_text": "slice",
+      "kind": "method",
+      "receiver": "data",
+      "receiver_type_hint": "string",
+      "callee_file_hint": "external",
+      "line": 47
+    }
+  ],
+  "type_assignments": [
+    {
+      "scope": "module",
+      "var": "capitalizeImplementation",
+      "type": null,
+      "type_module": null,
+      "from_call": null
+    }
+  ],
+  "definitions_rich": [
+    {
+      "name": "capitalize",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "args",
+          "type": "readonly unknown[]"
+        }
+      ],
+      "returns": "unknown",
+      "line": 42
+    },
+    {
+      "name": "capitalizeImplementation",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "T"
+        }
+      ],
+      "returns": "Capitalize<T>",
+      "line": 46
+    }
+  ]
+}
+```

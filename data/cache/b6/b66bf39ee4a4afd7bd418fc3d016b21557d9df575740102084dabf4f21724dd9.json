@@ -1,0 +1,13 @@
+{
+  "key": "b66bf39ee4a4afd7bd418fc3d016b21557d9df575740102084dabf4f21724dd9",
+  "model": "harness-llama32b",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "86c0d829f15ed379f0d1067772f3ab4bf8be4b42ae64abfee6b2dea326eace86",
+  "relative_path": "src/internal/quickSelect.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"quickSelect\", \"callee_text\": \"quickSelectImplementation\"},\n  {\"caller\": \"quickSelect\", \"callee_text\": \"partition\"},\n  {\"caller\": \"quickSelectImplementation\", \"callee_text\": \"swapInPlace\"},\n  {\"caller\": \"quickSelectImplementation\", \"callee_text\": \"compareFn\"},\n  {\"caller\": \"quickSelectImplementation\", \"callee_text\": \"swapInPlace\"},\n  {\"caller\": \"quickSelectImplementation\", \"callee_text\": \"partition\"}\n]}",
+  "created": "2026-08-08T22:43:15+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1093,
+  "completion_tokens": 107
+}

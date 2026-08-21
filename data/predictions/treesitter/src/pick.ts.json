@@ -1,0 +1,16 @@
+{
+  "relative_path": "src/pick.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "pick",
+      "callee_text": "purry",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./purry",
+      "line": 115
+    }
+  ],
+  "callable_refs": []
+}

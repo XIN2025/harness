@@ -1,0 +1,394 @@
+{
+  "relative_path": "lib/hexo/router.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "RouteStream.constructor",
+      "callee_text": "super",
+      "kind": "super",
+      "receiver": "super",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 17
+    },
+    {
+      "caller": "RouteStream._toBuffer",
+      "callee_text": "stringify",
+      "kind": "static",
+      "receiver": "JSON",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 30
+    },
+    {
+      "caller": "RouteStream._toBuffer",
+      "callee_text": "from",
+      "kind": "static",
+      "receiver": "Buffer",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 33
+    },
+    {
+      "caller": "RouteStream._read",
+      "callee_text": "_toBuffer",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 42
+    },
+    {
+      "caller": "RouteStream._read",
+      "callee_text": "push",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 44
+    },
+    {
+      "caller": "RouteStream._read",
+      "callee_text": "push",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 46
+    },
+    {
+      "caller": "RouteStream._read",
+      "callee_text": "catch",
+      "kind": "method",
+      "receiver": "data().then(data => {\n      if (data instanceof Stream && (data as Stream.Readable).readable) {\n        data.on('data', d => {\n          this.push(d);\n        });\n\n        data.on('end', () => {\n          this.push(null);\n        });\n\n        data.on('error', err => {\n          this.emit('error', err);\n        });\n      } else {\n        const bufferData = this._toBuffer(data);\n        if (bufferData) {\n          this.push(bufferData);\n        }\n        this.push(null);\n      }\n    })",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 54
+    },
+    {
+      "caller": "RouteStream._read",
+      "callee_text": "then",
+      "kind": "method",
+      "receiver": "data()",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 54
+    },
+    {
+      "caller": "RouteStream._read",
+      "callee_text": "data",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 54
+    },
+    {
+      "caller": "RouteStream._read",
+      "callee_text": "on",
+      "kind": "method",
+      "receiver": "data",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 56
+    },
+    {
+      "caller": "RouteStream._read",
+      "callee_text": "push",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 57
+    },
+    {
+      "caller": "RouteStream._read",
+      "callee_text": "on",
+      "kind": "method",
+      "receiver": "data",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 60
+    },
+    {
+      "caller": "RouteStream._read",
+      "callee_text": "push",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 61
+    },
+    {
+      "caller": "RouteStream._read",
+      "callee_text": "on",
+      "kind": "method",
+      "receiver": "data",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 64
+    },
+    {
+      "caller": "RouteStream._read",
+      "callee_text": "emit",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 65
+    },
+    {
+      "caller": "RouteStream._read",
+      "callee_text": "_toBuffer",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 68
+    },
+    {
+      "caller": "RouteStream._read",
+      "callee_text": "push",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 70
+    },
+    {
+      "caller": "RouteStream._read",
+      "callee_text": "push",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 72
+    },
+    {
+      "caller": "RouteStream._read",
+      "callee_text": "emit",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 75
+    },
+    {
+      "caller": "RouteStream._read",
+      "callee_text": "push",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 76
+    },
+    {
+      "caller": "_format",
+      "callee_text": "TypeError",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 83
+    },
+    {
+      "caller": "_format",
+      "callee_text": "replace",
+      "kind": "method",
+      "receiver": "path\n    .replace(/^\\/+/, '') // Remove prefixed slashes\n    .replace(/\\\\/g, '/')",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 85
+    },
+    {
+      "caller": "_format",
+      "callee_text": "replace",
+      "kind": "method",
+      "receiver": "path\n    .replace(/^\\/+/, '')",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 85
+    },
+    {
+      "caller": "_format",
+      "callee_text": "replace",
+      "kind": "method",
+      "receiver": "path",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 85
+    },
+    {
+      "caller": "_format",
+      "callee_text": "endsWith",
+      "kind": "method",
+      "receiver": "path",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 91
+    },
+    {
+      "caller": "Router.constructor",
+      "callee_text": "super",
+      "kind": "super",
+      "receiver": "super",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 104
+    },
+    {
+      "caller": "Router.list",
+      "callee_text": "filter",
+      "kind": "method",
+      "receiver": "Object.keys(routes)",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 111
+    },
+    {
+      "caller": "Router.list",
+      "callee_text": "keys",
+      "kind": "static",
+      "receiver": "Object",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 111
+    },
+    {
+      "caller": "Router.format",
+      "callee_text": "_format",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 115
+    },
+    {
+      "caller": "Router.get",
+      "callee_text": "TypeError",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 119
+    },
+    {
+      "caller": "Router.get",
+      "callee_text": "format",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 121
+    },
+    {
+      "caller": "Router.get",
+      "callee_text": "RouteStream",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 124
+    },
+    {
+      "caller": "Router.isModified",
+      "callee_text": "TypeError",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 128
+    },
+    {
+      "caller": "Router.isModified",
+      "callee_text": "format",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 130
+    },
+    {
+      "caller": "Router.set",
+      "callee_text": "TypeError",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 135
+    },
+    {
+      "caller": "Router.set",
+      "callee_text": "TypeError",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 136
+    },
+    {
+      "caller": "Router.set",
+      "callee_text": "promisify",
+      "kind": "static",
+      "receiver": "Promise",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 151
+    },
+    {
+      "caller": "Router.set",
+      "callee_text": "method",
+      "kind": "static",
+      "receiver": "Promise",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 153
+    },
+    {
+      "caller": "Router.set",
+      "callee_text": "format",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 157
+    },
+    {
+      "caller": "Router.set",
+      "callee_text": "emit",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 164
+    },
+    {
+      "caller": "Router.remove",
+      "callee_text": "TypeError",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 170
+    },
+    {
+      "caller": "Router.remove",
+      "callee_text": "format",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 171
+    },
+    {
+      "caller": "Router.remove",
+      "callee_text": "emit",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 174
+    }
+  ],
+  "callable_refs": []
+}

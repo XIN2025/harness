@@ -1,0 +1,13 @@
+{
+  "key": "77aef4ea705bec24d7edfe88c4292ebd76a6628abf4c73b1f1694140a36e9108",
+  "model": "harness-qwen15b",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "9e551c3662e1955fa97e9fbecf18bbe86fce21526fba42d5d811df49ebe01180",
+  "relative_path": "src/internal/binarySearchCutoffIndex.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"binarySearchCutoffIndex\", \"callee_text\": \"array\"},\n  {\"caller\": \"binarySearchCutoffIndex\", \"callee_text\": \"predicate\"},\n  {\"caller\": \"binarySearchCutoffIndex\", \"callee_text\": \"lowIndex\"},\n  {\"caller\": \"binarySearchCutoffIndex\", \"callee_text\": \"highIndex\"},\n  {\"caller\": \"binarySearchCutoffIndex\", \"callee_text\": \"pivotIndex\"},\n  {\"caller\": \"binarySearchCutoffIndex\", \"callee_text\": \"pivot\"}\n]}",
+  "created": "2026-08-08T22:17:22+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 753,
+  "completion_tokens": 117
+}

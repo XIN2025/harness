@@ -1,0 +1,11 @@
+```json
+{
+  "definitions": ["mapValues"],
+  "references": [
+    {"name": "mapValues", "source": "./src/mapValues.ts"}
+  ],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": []
+}
+```

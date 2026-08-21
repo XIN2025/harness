@@ -1,0 +1,12 @@
+```json
+{
+  "definitions": ["sort", "sortImplementation"],
+  "references": [
+    {"name": "sort", "source": "./src/sort.ts"},
+    {"name": "sortImplementation", "source": "./src/sort.ts"}
+  ],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": []
+}
+```

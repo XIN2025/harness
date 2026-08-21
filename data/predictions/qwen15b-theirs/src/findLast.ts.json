@@ -1,0 +1,12 @@
+```json
+{
+  "definitions": ["findLast", "purry"],
+  "references": [
+    {"name": "findLast", "source": "./src/findLast.ts"},
+    {"name": "purry", "source": "./src/purry.ts"}
+  ],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": []
+}
+```

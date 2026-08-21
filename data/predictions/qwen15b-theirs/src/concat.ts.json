@@ -1,0 +1,12 @@
+```json
+{
+  "definitions": ["concat", "purry"],
+  "references": [
+    {"name": "concat", "source": "./src/concat.ts"},
+    {"name": "purry", "source": "./src/purry.ts"}
+  ],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": []
+}
+```

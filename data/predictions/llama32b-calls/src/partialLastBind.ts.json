@@ -1,0 +1,12 @@
+{"calls": [
+  {"caller": "partialLastBind", "callee_text": "JSON.stringify"},
+  {"caller": "partialLastBind", "callee_text": "pipe"},
+  {"caller": "partialLastBind", "callee_text": "RemedaTypeError"},
+  {"caller": "partialLastBind", "callee_text": "PartialLastBindError"},
+  {"caller": "partialLastBind", "callee_text": "StrictFunction"},
+  {"caller": "partialLastBind", "callee_text": "TupleSplits"},
+  {"caller": "partialLastBind", "callee_text": "TupleSuffix"},
+  {"caller": "partialLastBind", "callee_text": "RemoveSuffix"},
+  {"caller": "partialLastBind", "callee_text": "Parameters"},
+  {"caller": "partialLastBind", "callee_text": "ReturnType"}
+]}

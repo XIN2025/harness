@@ -1,0 +1,13 @@
+{
+  "key": "bff2bbb2033d866833ff3175b706680b40daa0bb40236bc63f5883e6d82368f2",
+  "model": "harness-qwen15b",
+  "prompt_version": "ours-v1-5c74cf9a927a",
+  "file_sha": "a56b5293865f5f3f65101424842349e72631f917289ea22998f4427acd035c73",
+  "relative_path": "src/pullObject.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"pullObject\",\n    \"pullObjectImplementation\"\n  ],\n  \"references\": [],\n  \"calls\": [],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"pullObject\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"data\",\n          \"type\": \"IterableContainer\"\n        },\n        {\n          \"name\": \"keyExtractor\",\n          \"type\": \"(item: T[number], index: number, data: T) => K\"\n        },\n        {\n          \"name\": \"valueExtractor\",\n          \"type\": \"(item: T[number], index: number, data: T) => V\"\n        }\n      ],\n      \"returns\": {\n        \"type\": \"BoundedPartial<Record<K, V>>\"\n      }\n    },\n    {\n      \"name\": \"pullObjectImplementation\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"data\",\n          \"type\": \"IterableContainer\"\n        },\n        {\n          \"name\": \"keyExtractor\",\n          \"type\": \"(item: T[number], index: number, data: T) => K\"\n        },\n        {\n          \"name\": \"valueExtractor\",\n          \"type\": \"(item: T[number], index: number, data: T) => V\"\n        }\n      ],\n      \"returns\": {\n        \"type\": \"Partial<Record<K, V>>\"\n      }\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:41:20+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1270,
+  "completion_tokens": 342
+}

@@ -1,0 +1,115 @@
+{
+  "relative_path": "lib/plugins/helper/feed_tag.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "feedFn",
+      "callee_text": "replace",
+      "kind": "method",
+      "receiver": "str",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 6
+    },
+    {
+      "caller": "makeFeedTag",
+      "callee_text": "TypeError",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 19
+    },
+    {
+      "caller": "makeFeedTag",
+      "callee_text": "feedFn",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 21
+    },
+    {
+      "caller": "makeFeedTag",
+      "callee_text": "includes",
+      "kind": "method",
+      "receiver": "path",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 24
+    },
+    {
+      "caller": "makeFeedTag",
+      "callee_text": "includes",
+      "kind": "method",
+      "receiver": "path",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 25
+    },
+    {
+      "caller": "makeFeedTag",
+      "callee_text": "call",
+      "kind": "method",
+      "receiver": "url_for",
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-util",
+      "line": 30
+    },
+    {
+      "caller": "makeFeedTag",
+      "callee_text": "call",
+      "kind": "method",
+      "receiver": "url_for",
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-util",
+      "line": 36
+    },
+    {
+      "caller": "makeFeedTag",
+      "callee_text": "feedFn",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 36
+    },
+    {
+      "caller": "makeFeedTag",
+      "callee_text": "call",
+      "kind": "method",
+      "receiver": "url_for",
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-util",
+      "line": 41
+    },
+    {
+      "caller": "makeFeedTag",
+      "callee_text": "feedFn",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 41
+    },
+    {
+      "caller": "feedTagHelper",
+      "callee_text": "deep",
+      "kind": "method",
+      "receiver": "moize",
+      "receiver_type_hint": null,
+      "callee_file_hint": "moize",
+      "line": 52
+    },
+    {
+      "caller": "feedTagHelper",
+      "callee_text": "bind",
+      "kind": "method",
+      "receiver": "makeFeedTag",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 52
+    }
+  ],
+  "callable_refs": []
+}

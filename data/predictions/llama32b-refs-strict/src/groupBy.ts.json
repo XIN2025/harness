@@ -1,0 +1,4 @@
+{"callable_refs": [
+  {"caller": "groupBy", "callee_text": "purry"},
+  {"caller": "groupBy", "callee_text": "groupByImplementation"}
+]}

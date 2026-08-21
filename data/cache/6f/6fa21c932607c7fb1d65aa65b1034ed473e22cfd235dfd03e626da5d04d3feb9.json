@@ -1,0 +1,13 @@
+{
+  "key": "6fa21c932607c7fb1d65aa65b1034ed473e22cfd235dfd03e626da5d04d3feb9",
+  "model": "harness-qwen15b",
+  "prompt_version": "refs-strict-v1-ca2cfcfbecef+json",
+  "file_sha": "2088617adbf29c12e440220b243cb79e58a1fa80c5c6d2629b72c7e7128186af",
+  "relative_path": "src/internal/words.ts",
+  "response": "{\"calls\": [], \"callable_refs\": [{\"caller\": \"words\", \"callee_text\": \"words\"}]}",
+  "created": "2026-08-09T05:46:23+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1244,
+  "completion_tokens": 23
+}

@@ -1,0 +1,109 @@
+```json
+{
+  "definitions": [
+    "dropLastWhile",
+    "purry",
+    "IterableContainer",
+    "type",
+    "factory"
+  ],
+  "references": [],
+  "calls": [
+    {
+      "caller": "__module__",
+      "callee_text": "dropLastWhile",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "src/dropLastWhile.ts",
+      "line": 1
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "purry",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "src/dropLastWhile.ts",
+      "line": 2
+    }
+  ],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "dropLastWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "IterableContainer"
+        },
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "T[number][]"
+        }
+      ],
+      "line": 1
+    },
+    {
+      "name": "purry",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(...args: unknown[]) => unknown"
+        }
+      ],
+      "returns": [
+        {
+          "type": "unknown"
+        }
+      ],
+      "line": 2
+    },
+    {
+      "name": "IterableContainer",
+      "kind": "interface",
+      "parent": "__module__",
+      "bases": [],
+      "params": [],
+      "returns": []
+    },
+    {
+      "name": "type",
+      "kind": "constant",
+      "parent": "__module__",
+      "bases": [],
+      "params": [],
+      "returns": [
+        {
+          "type": "unknown"
+        }
+      ],
+      "line": 3
+    },
+    {
+      "name": "factory",
+      "kind": "constant",
+      "parent": "__module__",
+      "bases": [],
+      "params": [],
+      "returns": [
+        {
+          "type": "unknown"
+        }
+      ],
+      "line": 4
+    }
+  ]
+}
+```

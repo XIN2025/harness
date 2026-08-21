@@ -1,0 +1,13 @@
+{
+  "key": "a5867b358469770dc86cc781daa313e1310be9bf740bf6e15ac787d31565c38f",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "refs-strict-v1-ca2cfcfbecef+json",
+  "file_sha": "58adb932c593ca4f02ef9e1062a00e5406fe6781d9578cef22feb5f648693219",
+  "relative_path": "src/internal/purryOrderRules.ts",
+  "response": "{\"callable_refs\": [{\"caller\": \"purryOrderRulesWithArgument\", \"callee_text\": \"orderRuleComparer\"}]}",
+  "created": "2026-08-09T06:02:13+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 2109,
+  "completion_tokens": 26
+}

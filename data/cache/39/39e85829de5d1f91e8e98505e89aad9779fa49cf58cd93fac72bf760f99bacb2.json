@@ -1,0 +1,13 @@
+{
+  "key": "39e85829de5d1f91e8e98505e89aad9779fa49cf58cd93fac72bf760f99bacb2",
+  "model": "harness-llama32b",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "a40ece21f136eb23109c51514a89c70ebef347bf2d72b34f358915bcfb274617",
+  "relative_path": "src/add.ts",
+  "response": "{\n  \"definitions\": [\"add\"],\n  \"references\": [\n    {\"name\": \"purry\", \"source\": \"./purry\"},\n    {\"name\": \"*\", \"source\": \"./utils\"}\n  ],\n  \"calls\": [\n    {\"caller\": \"add\", \"callee_text\": \"addImplementation\", \"kind\": \"free\",\n     \"receiver\": null, \"receiver_type_hint\": null, \"callee_file_hint\": \"src/add.ts\", \"line\": 1}\n  ],\n  \"type_assignments\": [\n    {\"scope\": \"module\", \"var\": \"add\", \"type\": \"(value: bigint) => bigint | number\", \"type_module\": \"src\"}\n  ],\n  \"definitions_rich\": [\n    {\"name\": \"add\", \"kind\": \"function\", \"parent\": null, \"bases\": [],\n     \"params\": [{\"name\": \"value\", \"type\": \"bigint\"}, {\"name\": \"addend\", \"type\": \"bigint\"}],\n     \"returns\": \"(value: bigint) => bigint | number\", \"line\": 1}\n  ]\n}",
+  "created": "2026-08-08T21:05:05+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 8380,
+  "completion_tokens": 223
+}

@@ -1,0 +1,10 @@
+{
+  "calls": [],
+  "callable_refs": [
+    {"caller": "isDeepEqual", "callee_text": "isDeepEqualImplementation"},
+    {"caller": "isDeepEqual", "callee_text": "isComparablePrototype"},
+    {"caller": "isDeepEqual", "callee_text": "isDeepEqualArrays"},
+    {"caller": "isDeepEqual", "callee_text": "isDeepEqualMaps"},
+    {"caller": "isDeepEqual", "callee_text": "isDeepEqualSets"}
+  ]
+}

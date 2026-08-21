@@ -1,0 +1,13 @@
+{
+  "key": "570a9877691c8e9e38703591da32f424a4f74b50318428a1e0ea52420c1d6397",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "refs-v1-7386a79c1ab2+json",
+  "file_sha": "5ad35fb348f291d04557027dc4c39358fd3957b7cebad193c9c0d27057e60c15",
+  "relative_path": "src/omit.ts",
+  "response": "{\"callable_refs\": [{\"caller\": \"omit\", \"callee_text\": \"omitImplementation\"}]}",
+  "created": "2026-08-08T23:24:37+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 2014,
+  "completion_tokens": 20
+}

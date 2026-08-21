@@ -1,0 +1,13 @@
+{
+  "key": "e4fa999fd8f05668b1215ff3a4b7744be347845af7f45641b83af73b37b4fc2b",
+  "model": "harness-qwen15b",
+  "prompt_version": "refs-v1-7386a79c1ab2+json",
+  "file_sha": "29ec3ae67ae4776fb7c08b4367985531ba05076c12c17173c71d893c9456cc23",
+  "relative_path": "src/stringToPath.ts",
+  "response": "{\n  \"calls\": [],\n  \"callable_refs\": [\n    {\n      \"caller\": \"stringToPath\",\n      \"callee_text\": \"stringToPathImpl\"\n    }\n  ]\n}",
+  "created": "2026-08-08T22:30:21+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 2028,
+  "completion_tokens": 40
+}

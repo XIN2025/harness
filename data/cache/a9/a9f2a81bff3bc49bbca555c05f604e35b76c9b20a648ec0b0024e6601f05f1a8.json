@@ -1,0 +1,13 @@
+{
+  "key": "a9f2a81bff3bc49bbca555c05f604e35b76c9b20a648ec0b0024e6601f05f1a8",
+  "model": "harness-qwen15b",
+  "prompt_version": "refs-strict-v1-ca2cfcfbecef+json",
+  "file_sha": "750ed29b2f7ca1b824afe39411bc8f299d4f38ca7b8a48556ed06a4a47e613cc",
+  "relative_path": "src/differenceWith.ts",
+  "response": "{\"calls\": [], \"callable_refs\": [{\"caller\": \"differenceWith\", \"callee_text\": \"lazyImplementation\"}]}",
+  "created": "2026-08-09T05:44:30+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1062,
+  "completion_tokens": 25
+}

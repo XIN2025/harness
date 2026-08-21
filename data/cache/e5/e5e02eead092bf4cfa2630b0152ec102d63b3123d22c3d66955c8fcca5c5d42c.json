@@ -1,0 +1,13 @@
+{
+  "key": "e5e02eead092bf4cfa2630b0152ec102d63b3123d22c3d66955c8fcca5c5d42c",
+  "model": "harness-qwen15b",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "6335375ec43ab5ffc4d9124d9b970a54c8058b707dd3d4f3178535d2f50a3490",
+  "relative_path": "src/sum.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"sum\", \"callee_text\": \"purry\"},\n  {\"caller\": \"sumImplementation\", \"callee_text\": \"typeof\"},\n  {\"caller\": \"sumImplementation\", \"callee_text\": \"for...of\"},\n  {\"caller\": \"sumImplementation\", \"callee_text\": \"value\"}\n]}",
+  "created": "2026-08-08T22:23:15+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1169,
+  "completion_tokens": 68
+}

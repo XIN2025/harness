@@ -1,0 +1,10 @@
+{"calls": [
+  {"caller": "take", "callee_text": "purry"},
+  {"caller": "take", "callee_text": "lazyImplementation"},
+  {"caller": "takeImplementation", "callee_text": "slice"},
+  {"caller": "takeImplementation", "callee_text": "array"},
+  {"caller": "takeImplementation", "callee_text": "n"},
+  {"caller": "lazyImplementation", "callee_text": "value"},
+  {"caller": "lazyImplementation", "callee_text": "remaining"},
+  {"caller": "lazyImplementation", "callee_text": "n"}
+]}

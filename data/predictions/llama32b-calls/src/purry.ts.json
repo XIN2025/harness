@@ -1,0 +1,15 @@
+{"calls": [
+  {"caller": "purry", "callee_text": "fn"},
+  {"caller": "purry", "callee_text": "args"},
+  {"caller": "purry", "callee_text": "lazy"},
+  {"caller": "purry", "callee_text": "fn"},
+  {"caller": "purry", "callee_text": "args"},
+  {"caller": "purry", "callee_text": "lazy"},
+  {"caller": "purry", "callee_text": "fn"},
+  {"caller": "purry", "callee_text": "args"},
+  {"caller": "purry", "callee_text": "lazy"},
+  {"caller": "purry", "callee_text": "fn"},
+  {"caller": "purry", "callee_text": "args"},
+  {"caller": "purry", "callee_text": "lazy"},
+  {"caller": "__module__", "callee_text": "Error"}
+]}

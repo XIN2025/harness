@@ -1,0 +1,13 @@
+{
+  "key": "caf85d20365ca30c5ca13e952a6b0566357ef3ef0df383e30f500876e4efd794",
+  "model": "harness-qwen15b",
+  "prompt_version": "ours-v1-5c74cf9a927a",
+  "file_sha": "153d60c5d841f9babe9545799cc9ec576718e0437e4adbab9acd642fe1e577f1",
+  "relative_path": "src/uniqueBy.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"uniqueBy\",\n    \"lazyImplementation\"\n  ],\n  \"references\": [],\n  \"calls\": [],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"uniqueBy\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"data\",\n          \"type\": \"IterableContainer\"\n        },\n        {\n          \"name\": \"keyFunction\",\n          \"type\": \"(item: T[number], index: number, data: T) => unknown\"\n        }\n      ],\n      \"returns\": \"Deduped<T>\"\n    },\n    {\n      \"name\": \"lazyImplementation\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"keyFunction\",\n          \"type\": \"(item: T, index: number, data: readonly T[]) => unknown\"\n        }\n      ],\n      \"returns\": \"LazyEvaluator<T>\"\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:51:01+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 992,
+  "completion_tokens": 233
+}

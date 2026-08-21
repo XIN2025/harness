@@ -1,0 +1,12 @@
+```json
+{
+  "definitions": ["sortedIndexWith", "binarySearchCutoffIndex"],
+  "references": [
+    {"name": "purry", "source": "./purry"},
+    {"name": "binarySearchCutoffIndex", "source": "./internal/binarySearchCutoffIndex"}
+  ],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": []
+}
+```

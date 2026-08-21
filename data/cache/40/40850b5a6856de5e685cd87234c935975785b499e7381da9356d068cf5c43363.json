@@ -1,0 +1,13 @@
+{
+  "key": "40850b5a6856de5e685cd87234c935975785b499e7381da9356d068cf5c43363",
+  "model": "harness-qwen15b",
+  "prompt_version": "ours-v1-5c74cf9a927a",
+  "file_sha": "0c2d09882888e50f7207d8d63467f6a3bfeea976f303bce09d5b2f313a2ab706",
+  "relative_path": "src/unique.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"unique\",\n    \"lazyImplementation\"\n  ],\n  \"references\": [],\n  \"calls\": [],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"unique\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [],\n      \"returns\": {\n        \"scope\": \"global\",\n        \"var\": \"unique\",\n        \"type\": \"Deduped<T>\",\n        \"type_module\": \"./internal/types/Deduped\",\n        \"from_call\": false\n      },\n      \"line\": 10\n    },\n    {\n      \"name\": \"lazyImplementation\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [],\n      \"returns\": {\n        \"scope\": \"global\",\n        \"var\": \"lazyImplementation\",\n        \"type\": \"LazyEvaluator<T>\",\n        \"type_module\": \"./internal/types/LazyEvaluator\",\n        \"from_call\": false\n      },\n      \"line\": 28\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:50:55+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 710,
+  "completion_tokens": 236
+}

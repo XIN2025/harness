@@ -1,0 +1,13 @@
+{
+  "key": "8d48320cd3bc4388495c226f3ec0e8272d4e420b270142161a02caf320f3596c",
+  "model": "harness-qwen15b",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "59890bbbe28762e2f42ad2344de58deda440fad7f9c5520fd3d947abf3cd162c",
+  "relative_path": "src/swapIndices.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"swapIndices\",\n    \"swapIndicesImplementation\"\n  ],\n  \"references\": [\n    {\"name\": \"swapIndices\", \"source\": \"./src/swapIndices.ts\"},\n    {\"name\": \"swapIndicesImplementation\", \"source\": \"./src/swapIndices.ts\"}\n  ],\n  \"calls\": [\n    {\n      \"caller\": \"swapIndices\",\n      \"callee_text\": \"swapArray\",\n      \"kind\": \"method\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": \"./src/swapIndices.ts\",\n      \"line\": 10\n    }\n  ],\n  \"type_assignments\": [\n    {\"scope\": \"module\", \"var\": \"swapIndices\", \"type\": \"function\", \"type_module\": \"src\"},\n    {\"scope\": \"module\", \"var\": \"swapIndicesImplementation\", \"type\": \"function\", \"type_module\": \"src\"}\n  ],\n  \"definitions_rich\": [\n    {\n      \"name\": \"swapIndices\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [{\"name\": \"data\", \"type\": \"IterableContainer | string\"}, {\"name\": \"index1\", \"type\": \"number\"}, {\"name\": \"index2\", \"type\": \"number\"}],\n      \"returns\": \"unknown\",\n      \"line\": 1\n    },\n    {\n      \"name\": \"swapIndicesImplementation\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [{\"name\": \"data\", \"type\": \"IterableContainer | string\"}, {\"name\": \"index1\", \"type\": \"number\"}, {\"name\": \"index2\", \"type\": \"number\"}],\n      \"returns\": \"unknown\",\n      \"line\": 30\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:27:43+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 9647,
+  "completion_tokens": 394
+}

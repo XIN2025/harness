@@ -1,0 +1,13 @@
+{
+  "key": "ff1821630ccd6f701a96cf713967da2553676a3388089963740da96592f7ea8e",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "103267e4538b85b4342e9d0b782cdb7a1905d765d4d9a5e6ece2149e08b28e9e",
+  "relative_path": "src/dropLast.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"dropLast\", \"callee_text\": \"purry\"},\n  {\"caller\": \"dropLast\", \"callee_text\": \"dropLastImplementation\"},\n  {\"caller\": \"dropLastImplementation\", \"callee_text\": \"slice\"},\n  {\"caller\": \"dropLastImplementation\", \"callee_text\": \"Math\"},\n  {\"caller\": \"dropLastImplementation\", \"callee_text\": \"max\"},\n  {\"caller\": \"dropLastImplementation\", \"callee_text\": \"length\"},\n  {\"caller\": \"dropLastImplementation\", \"callee_text\": \"array\"},\n  {\"caller\": \"dropLastImplementation\", \"callee_text\": \"n\"},\n  {\"caller\": \"dropLastImplementation\", \"callee_text\": \"Math\"}\n]}",
+  "created": "2026-08-08T22:52:34+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 868,
+  "completion_tokens": 151
+}

@@ -1,0 +1,88 @@
+```json
+{
+  "definitions": [
+    "lazyDataLastImpl",
+    "IterableContainer",
+    "LazyEvaluator",
+    "ZippingFunction"
+  ],
+  "references": [],
+  "calls": [
+    {
+      "caller": "__module__",
+      "callee_text": "zipWith",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "src/zipWith.ts",
+      "line": 1
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "lazyDataLastImpl",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "src/zipWith.ts",
+      "line": 2
+    }
+  ],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "lazyDataLastImpl",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [],
+      "returns": null,
+      "line": 1
+    },
+    {
+      "name": "IterableContainer",
+      "kind": "interface",
+      "parent": "__module__",
+      "bases": [],
+      "params": [],
+      "returns": null,
+      "line": 2
+    },
+    {
+      "name": "LazyEvaluator",
+      "kind": "interface",
+      "parent": "__module__",
+      "bases": [],
+      "params": [],
+      "returns": null,
+      "line": 3
+    },
+    {
+      "name": "ZippingFunction",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "T1",
+          "type": "IterableContainer",
+          "optional": true,
+          "default": "IterableContainer"
+        },
+        {
+          "name": "T2",
+          "type": "IterableContainer",
+          "optional": true,
+          "default": "IterableContainer"
+        },
+        {
+          "name": "Value",
+          "type": "unknown",
+          "optional": true
+        }
+      ],
+      "returns": null,
+      "line": 4
+    }
+  ]
+}
+```

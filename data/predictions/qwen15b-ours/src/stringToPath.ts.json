@@ -1,0 +1,41 @@
+```json
+{
+  "definitions": [
+    "stringToPath",
+    "IsNumericLiteral",
+    "IsStringLiteral"
+  ],
+  "references": [],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "stringToPath",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [],
+      "returns": ["StringToPath"],
+      "line": 1
+    },
+    {
+      "name": "IsNumericLiteral",
+      "kind": "type_alias",
+      "parent": "__module__",
+      "bases": [],
+      "params": [],
+      "returns": ["boolean"],
+      "line": 2
+    },
+    {
+      "name": "IsStringLiteral",
+      "kind": "type_alias",
+      "parent": "__module__",
+      "bases": [],
+      "params": [],
+      "returns": ["boolean"],
+      "line": 3
+    }
+  ]
+}
+```

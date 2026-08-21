@@ -1,0 +1,13 @@
+{
+  "key": "d093764631ea9e4a9252815af8bbdcdfae236a4d4b9f168de648ddc67a2b3d44",
+  "model": "harness-qwen15b",
+  "prompt_version": "refs-v1-7386a79c1ab2+json",
+  "file_sha": "611680dfae8659b8d1d80dc3447cb2f2dfc6fe1c568116d2f32b257557e77258",
+  "relative_path": "src/keys.ts",
+  "response": "{\"calls\": [], \"callable_refs\": [{\"caller\": \"keys\", \"callee_text\": \"Object.keys\"}]}",
+  "created": "2026-08-08T22:27:38+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1138,
+  "completion_tokens": 24
+}

@@ -1,0 +1,16 @@
+{
+  "relative_path": "src/defaultTo.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "defaultTo",
+      "callee_text": "purry",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./purry",
+      "line": 62
+    }
+  ],
+  "callable_refs": []
+}

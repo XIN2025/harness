@@ -1,0 +1,34 @@
+{
+  "relative_path": "src/filter.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "filter",
+      "callee_text": "purry",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./purry",
+      "line": 101
+    },
+    {
+      "caller": "filterImplementation",
+      "callee_text": "filter",
+      "kind": "method",
+      "receiver": "data",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 107
+    },
+    {
+      "caller": "lazyImplementation",
+      "callee_text": "predicate",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 114
+    }
+  ],
+  "callable_refs": []
+}

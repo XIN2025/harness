@@ -1,0 +1,60 @@
+```json
+{
+  "definitions": [
+    {
+      "name": "BuiltInReturnType",
+      "kind": "type_alias"
+    },
+    {
+      "name": "SplitBase",
+      "kind": "interface"
+    }
+  ],
+  "references": [],
+  "calls": [
+    {
+      "caller": "__module__",
+      "callee_text": "split",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "src/split.ts",
+      "line": 10
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "split",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "src/split.ts",
+      "line": 24
+    }
+  ],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "Split",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": ["SplitBase"],
+      "params": [
+        {
+          "name": "data",
+          "kind": "param"
+        },
+        {
+          "name": "separator",
+          "kind": "param"
+        },
+        {
+          "name": "limit",
+          "kind": "param"
+        }
+      ],
+      "returns": "SplitBase<S, Separator, N>",
+      "line": 10
+    }
+  ]
+}
+```

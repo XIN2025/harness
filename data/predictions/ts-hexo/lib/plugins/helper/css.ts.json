@@ -1,0 +1,79 @@
+{
+  "relative_path": "lib/plugins/helper/css.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "cssHelper",
+      "callee_text": "forEach",
+      "kind": "method",
+      "receiver": "args.flat(Infinity)",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 11
+    },
+    {
+      "caller": "cssHelper",
+      "callee_text": "flat",
+      "kind": "method",
+      "receiver": "args",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 11
+    },
+    {
+      "caller": "cssHelper",
+      "callee_text": "endsWith",
+      "kind": "method",
+      "receiver": "path",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 14
+    },
+    {
+      "caller": "cssHelper",
+      "callee_text": "call",
+      "kind": "method",
+      "receiver": "url_for",
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-util",
+      "line": 17
+    },
+    {
+      "caller": "cssHelper",
+      "callee_text": "call",
+      "kind": "method",
+      "receiver": "url_for",
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-util",
+      "line": 24
+    },
+    {
+      "caller": "cssHelper",
+      "callee_text": "endsWith",
+      "kind": "method",
+      "receiver": "newItem.href",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 25
+    },
+    {
+      "caller": "cssHelper",
+      "callee_text": "htmlTag",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-util",
+      "line": 26
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "moize",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "moize",
+      "line": 32
+    }
+  ],
+  "callable_refs": []
+}

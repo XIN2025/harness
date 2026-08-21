@@ -1,0 +1,12 @@
+```json
+{
+  "definitions": ["findIndex", "purry"],
+  "references": [
+    {"name": "findIndex", "source": "./src/findIndex.ts"},
+    {"name": "purry", "source": "./src/purry.ts"}
+  ],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": []
+}
+```

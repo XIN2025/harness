@@ -1,0 +1,8 @@
+{
+  "calls": [],
+  "callable_refs": [
+    {"caller": "sort", "callee_text": "sortImplementation"},
+    {"caller": "sortImplementation", "callee_text": "defaultCompare"},
+    {"caller": "sortImplementation", "callee_text": "identity"}
+  ]
+}

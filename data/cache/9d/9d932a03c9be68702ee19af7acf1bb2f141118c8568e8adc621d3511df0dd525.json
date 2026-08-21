@@ -1,0 +1,13 @@
+{
+  "key": "9d932a03c9be68702ee19af7acf1bb2f141118c8568e8adc621d3511df0dd525",
+  "model": "harness-qwen15b",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "b5b040887b1668ac8e8f6bd838a9b321913e1b0e1777f398ca4522b6b61c91b6",
+  "relative_path": "src/sort.ts",
+  "response": "```json\n{\n  \"definitions\": [\"sort\", \"sortImplementation\"],\n  \"references\": [\n    {\"name\": \"sort\", \"source\": \"./src/sort.ts\"},\n    {\"name\": \"sortImplementation\", \"source\": \"./src/sort.ts\"}\n  ],\n  \"calls\": [],\n  \"type_assignments\": [],\n  \"definitions_rich\": []\n}\n```",
+  "created": "2026-08-08T20:26:18+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 8509,
+  "completion_tokens": 77
+}

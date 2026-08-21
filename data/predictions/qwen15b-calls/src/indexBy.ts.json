@@ -1,0 +1,4 @@
+{"calls": [
+  {"caller": "indexBy", "callee_text": "purry"},
+  {"caller": "indexByImplementation", "callee_text": "entries"}
+]}

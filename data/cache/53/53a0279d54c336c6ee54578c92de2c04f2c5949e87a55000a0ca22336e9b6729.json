@@ -1,0 +1,13 @@
+{
+  "key": "53a0279d54c336c6ee54578c92de2c04f2c5949e87a55000a0ca22336e9b6729",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "refs-v1-7386a79c1ab2+json",
+  "file_sha": "7061b28b56dfd28c2f5efb1486fc29de6c96382e12558c64d2b4a6119c19b2d0",
+  "relative_path": "src/randomInteger.ts",
+  "response": "{\"calls\": [], \"callable_refs\": [{\"caller\": \"randomInteger\", \"callee_text\": \"fromCeiled\"}, {\"caller\": \"randomInteger\", \"callee_text\": \"toFloored\"}, {\"caller\": \"randomInteger\", \"callee_text\": \"Math.random\"}, {\"caller\": \"randomInteger\", \"callee_text\": \"Math.floor\"}, {\"caller\": \"randomInteger\", \"callee_text\": \"Math.ceil\"}]}",
+  "created": "2026-08-08T23:26:15+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 873,
+  "completion_tokens": 87
+}

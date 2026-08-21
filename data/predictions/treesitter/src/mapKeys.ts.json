@@ -1,0 +1,34 @@
+{
+  "relative_path": "src/mapKeys.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "mapKeys",
+      "callee_text": "purry",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./purry",
+      "line": 90
+    },
+    {
+      "caller": "mapKeysImplementation",
+      "callee_text": "entries",
+      "kind": "static",
+      "receiver": "Object",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 99
+    },
+    {
+      "caller": "mapKeysImplementation",
+      "callee_text": "keyMapper",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 100
+    }
+  ],
+  "callable_refs": []
+}

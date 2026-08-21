@@ -1,0 +1,12 @@
+{"calls": [
+  {"caller": "funnel", "callee_text": "voidReducer"},
+  {"caller": "funnel", "callee_text": "reduce"},
+  {"caller": "funnel", "callee_text": "isNaN"},
+  {"caller": "funnel", "callee_text": "format"},
+  {"caller": "funnel", "callee_text": "round"},
+  {"caller": "funnel", "callee_text": "setTimeout"},
+  {"caller": "funnel", "callee_text": "clearTimeout"},
+  {"caller": "funnel", "callee_text": "invoke"},
+  {"caller": "funnel", "callee_text": "handleIntervalEnd"},
+  {"caller": "funnel", "callee_text": "handleBurstEnd"}
+]}

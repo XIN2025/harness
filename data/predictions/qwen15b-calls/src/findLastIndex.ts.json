@@ -1,0 +1,4 @@
+{"calls": [
+  {"caller": "findLastIndex", "callee_text": "purry"},
+  {"caller": "findLastIndexImplementation", "callee_text": "Array.prototype.findLastIndex"}
+]}

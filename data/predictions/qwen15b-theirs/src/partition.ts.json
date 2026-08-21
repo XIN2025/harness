@@ -1,0 +1,12 @@
+```json
+{
+  "definitions": ["partition", "purry"],
+  "references": [
+    {"name": "purry", "source": "./purry"},
+    {"name": "partitionImplementation", "source": "./partition.ts"}
+  ],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": []
+}
+```

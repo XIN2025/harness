@@ -1,0 +1,36 @@
+```json
+{
+  "definitions": [
+    {
+      "name": "findIndex",
+      "kind": "function"
+    },
+    {
+      "name": "purry",
+      "kind": "function"
+    }
+  ],
+  "references": [],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "findIndex",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "readonly T[]"
+        },
+        {
+          "name": "predicate",
+          "type": "(value: T, index: number, obj: readonly T[]) => boolean"
+        }
+      ],
+      "returns": "number"
+    }
+  ]
+}
+```

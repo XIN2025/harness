@@ -1,0 +1,13 @@
+{
+  "key": "7553cb6dbc3dadb4a06abbb1509c14e803ffd02e3185445175bbc8f62a377733",
+  "model": "harness-llama32b",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "148faa0e5fc3967f9a36f5bff2b8e664ed445afa6beae5fd61d006a003746582",
+  "relative_path": "src/floor.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"floor\", \"callee_text\": \"purry\"},\n  {\"caller\": \"floor\", \"callee_text\": \"withPrecision\"},\n  {\"caller\": \"floor\", \"callee_text\": \"Math.floor\"},\n  {\"caller\": \"floor\", \"callee_text\": \"precision\"}\n]}",
+  "created": "2026-08-08T22:37:54+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 868,
+  "completion_tokens": 66
+}

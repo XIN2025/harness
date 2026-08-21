@@ -1,0 +1,22 @@
+```json
+{
+  "definitions": ["sortedLastIndex", "purry", "binarySearchCutoffIndex"],
+  "references": [
+    {"name": "sortedLastIndex", "source": "./src/sortedLastIndex.ts"},
+    {"name": "purry", "source": "./src/purry.ts"},
+    {"name": "binarySearchCutoffIndex", "source": "./src/internal/binarySearchCutoffIndex.ts"}
+  ],
+  "calls": [
+    {"caller": "sortedLastIndex", "callee_text": "sortedLastIndexImplementation", "kind": "free",
+     "receiver": null, "receiver_type_hint": null, "callee_file_hint": "...", "line": 1},
+    {"caller": "sortedLastIndex", "callee_text": "binarySearchCutoffIndex", "kind": "method",
+     "receiver": "array", "receiver_type_hint": null, "callee_file_hint": "./src/internal/binarySearchCutoffIndex.ts", "line": 2}
+  ],
+  "type_assignments": [],
+  "definitions_rich": [
+    {"name": "sortedLastIndex", "kind": "function", "parent": null, "bases": [], "params": [{"name": "data", "type": "readonly T[]"}, {"name": "item", "type": "T"}], "returns": "number", "line": 1},
+    {"name": "purry", "kind": "function", "parent": null, "bases": [], "params": [{"name": "fn", "type": "Function"}], "returns": "Function", "line": 2},
+    {"name": "binarySearchCutoffIndex", "kind": "function", "parent": null, "bases": [], "params": [{"name": "array", "type": "readonly T[]"}, {"name": "predicate", "type": "(T) => boolean"}], "returns": "number", "line": 3}
+  ]
+}
+```

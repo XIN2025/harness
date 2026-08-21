@@ -1,0 +1,13 @@
+{
+  "key": "a0d648e0af06fed155a98e58ba67f7dbf6f565c5a2e7c0dafc305eb93c7f2a77",
+  "model": "harness-qwen15b",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "1fc8de33753b26e4a4d9da863b75195dc89c157083c2425c009e7968a9320922",
+  "relative_path": "src/length.ts",
+  "response": "```json\n{\n  \"definitions\": [\"length\", \"purry\"],\n  \"references\": [\n    {\"name\": \"purry\", \"source\": \"./purry\"},\n    {\"name\": \"lengthImplementation\", \"source\": \"./length.ts\"}\n  ],\n  \"calls\": [],\n  \"type_assignments\": [],\n  \"definitions_rich\": []\n}\n```",
+  "created": "2026-08-08T20:22:41+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 8249,
+  "completion_tokens": 74
+}

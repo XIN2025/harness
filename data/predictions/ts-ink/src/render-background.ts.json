@@ -1,0 +1,52 @@
+{
+  "relative_path": "src/render-background.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "renderBackground",
+      "callee_text": "getComputedWidth",
+      "kind": "method",
+      "receiver": "node.yogaNode!",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 15
+    },
+    {
+      "caller": "renderBackground",
+      "callee_text": "getComputedHeight",
+      "kind": "method",
+      "receiver": "node.yogaNode!",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 16
+    },
+    {
+      "caller": "renderBackground",
+      "callee_text": "colorize",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./colorize.js",
+      "line": 36
+    },
+    {
+      "caller": "renderBackground",
+      "callee_text": "repeat",
+      "kind": "method",
+      "receiver": "' '",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 37
+    },
+    {
+      "caller": "renderBackground",
+      "callee_text": "write",
+      "kind": "method",
+      "receiver": "output",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 43
+    }
+  ],
+  "callable_refs": []
+}

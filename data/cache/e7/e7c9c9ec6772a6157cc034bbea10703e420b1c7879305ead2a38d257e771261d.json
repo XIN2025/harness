@@ -1,0 +1,13 @@
+{
+  "key": "e7c9c9ec6772a6157cc034bbea10703e420b1c7879305ead2a38d257e771261d",
+  "model": "harness-qwen15b",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "68a9aeeb59ef8a8dc0d4e4d5761bb0f7528c15f172e5807d7e4fd2c57d305c7a",
+  "relative_path": "src/sortedLastIndex.ts",
+  "response": "```json\n{\n  \"definitions\": [\"sortedLastIndex\", \"purry\", \"binarySearchCutoffIndex\"],\n  \"references\": [\n    {\"name\": \"sortedLastIndex\", \"source\": \"./src/sortedLastIndex.ts\"},\n    {\"name\": \"purry\", \"source\": \"./src/purry.ts\"},\n    {\"name\": \"binarySearchCutoffIndex\", \"source\": \"./src/internal/binarySearchCutoffIndex.ts\"}\n  ],\n  \"calls\": [\n    {\"caller\": \"sortedLastIndex\", \"callee_text\": \"sortedLastIndexImplementation\", \"kind\": \"free\",\n     \"receiver\": null, \"receiver_type_hint\": null, \"callee_file_hint\": \"...\", \"line\": 1},\n    {\"caller\": \"sortedLastIndex\", \"callee_text\": \"binarySearchCutoffIndex\", \"kind\": \"method\",\n     \"receiver\": \"array\", \"receiver_type_hint\": null, \"callee_file_hint\": \"./src/internal/binarySearchCutoffIndex.ts\", \"line\": 2}\n  ],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\"name\": \"sortedLastIndex\", \"kind\": \"function\", \"parent\": null, \"bases\": [], \"params\": [{\"name\": \"data\", \"type\": \"readonly T[]\"}, {\"name\": \"item\", \"type\": \"T\"}], \"returns\": \"number\", \"line\": 1},\n    {\"name\": \"purry\", \"kind\": \"function\", \"parent\": null, \"bases\": [], \"params\": [{\"name\": \"fn\", \"type\": \"Function\"}], \"returns\": \"Function\", \"line\": 2},\n    {\"name\": \"binarySearchCutoffIndex\", \"kind\": \"function\", \"parent\": null, \"bases\": [], \"params\": [{\"name\": \"array\", \"type\": \"readonly T[]\"}, {\"name\": \"predicate\", \"type\": \"(T) => boolean\"}], \"returns\": \"number\", \"line\": 3}\n  ]\n}\n```",
+  "created": "2026-08-08T20:26:50+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 8601,
+  "completion_tokens": 420
+}

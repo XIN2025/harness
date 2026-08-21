@@ -1,0 +1,69 @@
+```json
+{
+  "definitions": [
+    {
+      "name": "divide",
+      "kind": "function"
+    },
+    {
+      "name": "purry",
+      "kind": "function"
+    }
+  ],
+  "references": [],
+  "calls": [
+    {
+      "caller": "__module__",
+      "callee_text": "divide",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "src/divide.ts",
+      "line": 1
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "reduce",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "src/divide.ts",
+      "line": 2
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "map",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "src/divide.ts",
+      "line": 3
+    }
+  ],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "divide",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "value",
+          "kind": "param"
+        },
+        {
+          "name": "divisor",
+          "kind": "param"
+        }
+      ],
+      "returns": {
+        "type": "number",
+        "type_module": null,
+        "from_call": false
+      },
+      "line": 1
+    }
+  ]
+}
+```

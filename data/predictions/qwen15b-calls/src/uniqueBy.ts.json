@@ -1,0 +1,5 @@
+{"calls": [
+  {"caller": "uniqueBy", "callee_text": "lazyImplementation"},
+  {"caller": "lazyImplementation", "callee_text": "set.add"},
+  {"caller": "lazyImplementation", "callee_text": "brandedKeyFunction"}
+]}

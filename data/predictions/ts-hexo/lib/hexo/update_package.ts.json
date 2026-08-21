@@ -1,0 +1,106 @@
+{
+  "relative_path": "lib/hexo/update_package.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "__module__",
+      "callee_text": "join",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "path",
+      "line": 7
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "then",
+      "kind": "method",
+      "receiver": "readPkg(pkgPath)",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 9
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "readPkg",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 9
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "debug",
+      "kind": "method",
+      "receiver": "ctx.log",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 18
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "writeFile",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-fs",
+      "line": 19
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "stringify",
+      "kind": "static",
+      "receiver": "JSON",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 19
+    },
+    {
+      "caller": "readPkg",
+      "callee_text": "then",
+      "kind": "method",
+      "receiver": "exists(path)",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 24
+    },
+    {
+      "caller": "readPkg",
+      "callee_text": "exists",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-fs",
+      "line": 24
+    },
+    {
+      "caller": "readPkg",
+      "callee_text": "then",
+      "kind": "method",
+      "receiver": "readFile(path)",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 27
+    },
+    {
+      "caller": "readPkg",
+      "callee_text": "readFile",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-fs",
+      "line": 27
+    },
+    {
+      "caller": "readPkg",
+      "callee_text": "parse",
+      "kind": "static",
+      "receiver": "JSON",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 28
+    }
+  ],
+  "callable_refs": []
+}

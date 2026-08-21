@@ -1,0 +1,13 @@
+{
+  "key": "c16475aac6df4c36cd04cee0955230c194821fbad5abce081cbec8b7787a7b38",
+  "model": "harness-qwen15b",
+  "prompt_version": "ours-v1-5c74cf9a927a",
+  "file_sha": "39a6e4c9e37b1123a72eb3d0507724c218f6bd0ee1571c775c89c41300005e52",
+  "relative_path": "src/findIndex.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    {\n      \"name\": \"findIndex\",\n      \"kind\": \"function\"\n    },\n    {\n      \"name\": \"purry\",\n      \"kind\": \"function\"\n    }\n  ],\n  \"references\": [],\n  \"calls\": [],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"findIndex\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"data\",\n          \"type\": \"readonly T[]\"\n        },\n        {\n          \"name\": \"predicate\",\n          \"type\": \"(value: T, index: number, obj: readonly T[]) => boolean\"\n        }\n      ],\n      \"returns\": \"number\"\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:34:27+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 833,
+  "completion_tokens": 176
+}

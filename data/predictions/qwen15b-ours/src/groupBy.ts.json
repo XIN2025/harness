@@ -1,0 +1,47 @@
+```json
+{
+  "definitions": [
+    "groupBy",
+    "groupByImplementation"
+  ],
+  "references": [],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "groupBy",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "readonly T[]"
+        },
+        {
+          "name": "callbackfn",
+          "type": "(value: T, index: number, data: readonly T[]) => Key | undefined"
+        }
+      ],
+      "returns": "BoundedPartial<Record<Key, NonEmptyArray<T>>>"
+    },
+    {
+      "name": "groupByImplementation",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "readonly T[]"
+        },
+        {
+          "name": "callbackfn",
+          "type": "(value: T, index: number, data: readonly T[]) => Key | undefined"
+        }
+      ],
+      "returns": "BoundedPartial<Record<Key, NonEmptyArray<T>>>"
+    }
+  ]
+}
+```

@@ -1,0 +1,232 @@
+{
+  "relative_path": "lib/extend/injector.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "Injector.constructor",
+      "callee_text": "Cache",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-util",
+      "line": 28
+    },
+    {
+      "caller": "Injector.get",
+      "callee_text": "from",
+      "kind": "static",
+      "receiver": "Array",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 36
+    },
+    {
+      "caller": "Injector.getText",
+      "callee_text": "get",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 40
+    },
+    {
+      "caller": "Injector.getText",
+      "callee_text": "join",
+      "kind": "method",
+      "receiver": "arr",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 42
+    },
+    {
+      "caller": "Injector.getSize",
+      "callee_text": "apply",
+      "kind": "this",
+      "receiver": "this.cache",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 46
+    },
+    {
+      "caller": "Injector.getSize",
+      "callee_text": "keys",
+      "kind": "static",
+      "receiver": "Object",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 46
+    },
+    {
+      "caller": "Injector.register",
+      "callee_text": "TypeError",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 50
+    },
+    {
+      "caller": "Injector.register",
+      "callee_text": "value",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 51
+    },
+    {
+      "caller": "Injector.register",
+      "callee_text": "Set",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 54
+    },
+    {
+      "caller": "Injector.register",
+      "callee_text": "add",
+      "kind": "method",
+      "receiver": "valueSet",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 55
+    },
+    {
+      "caller": "Injector._injector",
+      "callee_text": "includes",
+      "kind": "method",
+      "receiver": "input",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 73
+    },
+    {
+      "caller": "Injector._injector",
+      "callee_text": "apply",
+      "kind": "this",
+      "receiver": "this.cache",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 75
+    },
+    {
+      "caller": "Injector._injector",
+      "callee_text": "getText",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 76
+    },
+    {
+      "caller": "Injector._injector",
+      "callee_text": "getText",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 76
+    },
+    {
+      "caller": "Injector._injector",
+      "callee_text": "getText",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 76
+    },
+    {
+      "caller": "Injector._injector",
+      "callee_text": "replace",
+      "kind": "method",
+      "receiver": "input",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 85
+    },
+    {
+      "caller": "Injector.exec",
+      "callee_text": "_getPageType",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 90
+    },
+    {
+      "caller": "Injector.exec",
+      "callee_text": "getSize",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 92
+    },
+    {
+      "caller": "Injector.exec",
+      "callee_text": "_injector",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 94
+    },
+    {
+      "caller": "Injector.exec",
+      "callee_text": "getSize",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 97
+    },
+    {
+      "caller": "Injector.exec",
+      "callee_text": "_injector",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 99
+    },
+    {
+      "caller": "Injector.exec",
+      "callee_text": "getSize",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 102
+    },
+    {
+      "caller": "Injector.exec",
+      "callee_text": "_injector",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 104
+    },
+    {
+      "caller": "Injector.exec",
+      "callee_text": "getSize",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 107
+    },
+    {
+      "caller": "Injector.exec",
+      "callee_text": "_injector",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 109
+    }
+  ],
+  "callable_refs": []
+}

@@ -1,0 +1,13 @@
+{
+  "key": "982bc9f619bc09169771587dd2beceeaf8ff26390b5db30c6a2329708694cad2",
+  "model": "harness-qwen15b",
+  "prompt_version": "refs-v1-7386a79c1ab2+json",
+  "file_sha": "5ad35fb348f291d04557027dc4c39358fd3957b7cebad193c9c0d27057e60c15",
+  "relative_path": "src/omit.ts",
+  "response": "{\n  \"calls\": [],\n  \"callable_refs\": [\n    {\n      \"caller\": \"omit\",\n      \"callee_text\": \"omitImplementation\"\n    }\n  ]\n}",
+  "created": "2026-08-08T22:28:18+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 2008,
+  "completion_tokens": 36
+}

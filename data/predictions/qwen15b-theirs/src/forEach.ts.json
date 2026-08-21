@@ -1,0 +1,11 @@
+```json
+{
+  "definitions": ["forEach"],
+  "references": [
+    {"name": "forEach", "source": "./src/forEach.ts"}
+  ],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": []
+}
+```

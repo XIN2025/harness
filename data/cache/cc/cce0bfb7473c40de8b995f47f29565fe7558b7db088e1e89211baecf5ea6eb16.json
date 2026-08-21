@@ -1,0 +1,13 @@
+{
+  "key": "cce0bfb7473c40de8b995f47f29565fe7558b7db088e1e89211baecf5ea6eb16",
+  "model": "harness-qwen15b",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "35158cd641e179c161aacc02d91cb72a59570ff02776862f469db0cece272d55",
+  "relative_path": "src/meanBy.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"meanBy\", \"callee_text\": \"purry\"},\n  {\"caller\": \"meanByImplementation\", \"callee_text\": \"array.length\"},\n  {\"caller\": \"meanByImplementation\", \"callee_text\": \"sum\"},\n  {\"caller\": \"meanByImplementation\", \"callee_text\": \"fn(item, index, array)\"},\n  {\"caller\": \"meanByImplementation\", \"callee_text\": \"array.entries\"}\n]}",
+  "created": "2026-08-08T22:19:21+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 815,
+  "completion_tokens": 93
+}

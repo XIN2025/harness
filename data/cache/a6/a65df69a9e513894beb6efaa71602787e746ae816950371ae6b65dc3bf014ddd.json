@@ -1,0 +1,13 @@
+{
+  "key": "a65df69a9e513894beb6efaa71602787e746ae816950371ae6b65dc3bf014ddd",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "39294110c2d89cbe5a94fd4752b0d6fc590d11f5386beae1d94a3d020023d14f",
+  "relative_path": "src/randomString.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"randomString\", \"callee_text\": \"purry\"},\n  {\"caller\": \"randomStringImplementation\", \"callee_text\": \"Math\"},\n  {\"caller\": \"randomStringImplementation\", \"callee_text\": \"floor\"},\n  {\"caller\": \"randomStringImplementation\", \"callee_text\": \"ALPHABET.length\"},\n  {\"caller\": \"randomStringImplementation\", \"callee_text\": \"ALPHABET\"},\n  {\"caller\": \"randomStringImplementation\", \"callee_text\": \"Math.random\"},\n  {\"caller\": \"randomStringImplementation\", \"callee_text\": \"join\"},\n  {\"caller\": \"randomStringImplementation\", \"callee_text\": \"push\"},\n  {\"caller\": \"randomStringImplementation\", \"callee_text\": \"for\"}\n]}",
+  "created": "2026-08-08T23:09:10+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 858,
+  "completion_tokens": 159
+}

@@ -1,0 +1,13 @@
+{
+  "key": "97151dab38b8b921d21b210dd899bca8692d3a86ea0b22276dffa286590ad0be",
+  "model": "harness-qwen15b",
+  "prompt_version": "ours-v1-5c74cf9a927a",
+  "file_sha": "afcc96daefa55f4d53e1a7cb0c9b8f785b917365068cb745a0b78518a909bb48",
+  "relative_path": "src/uncapitalize.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    {\n      \"name\": \"uncapitalize\",\n      \"kind\": \"function\"\n    },\n    {\n      \"name\": \"Uncapitalize\",\n      \"kind\": \"utility-type\"\n    }\n  ],\n  \"references\": [],\n  \"calls\": [],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"uncapitalize\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [],\n      \"returns\": {\n        \"type\": \"Uncapitalize<T>\",\n        \"type_module\": null,\n        \"from_call\": false\n      },\n      \"line\": 10\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:50:50+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1014,
+  "completion_tokens": 158
+}

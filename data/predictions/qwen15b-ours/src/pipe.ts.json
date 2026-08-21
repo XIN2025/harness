@@ -1,0 +1,146 @@
+```json
+{
+  "definitions": [
+    {
+      "name": "LazyDefinition",
+      "kind": "interface"
+    },
+    {
+      "name": "LazyEvaluator",
+      "kind": "interface"
+    },
+    {
+      "name": "LazyResult",
+      "kind": "interface"
+    },
+    {
+      "name": "SKIP_ITEM",
+      "kind": "const"
+    },
+    {
+      "name": "lazy",
+      "kind": "function"
+    },
+    {
+      "name": "lazyArgs",
+      "kind": "function"
+    },
+    {
+      "name": "map",
+      "kind": "function"
+    },
+    {
+      "name": "filter",
+      "kind": "function"
+    },
+    {
+      "name": "take",
+      "kind": "function"
+    },
+    {
+      "name": "drop",
+      "kind": "function"
+    },
+    {
+      "name": "forEach",
+      "kind": "function"
+    },
+    {
+      "name": "prop",
+      "kind": "function"
+    },
+    {
+      "name": "groupByProp",
+      "kind": "function"
+    },
+    {
+      "name": "length",
+      "kind": "function"
+    },
+    {
+      "name": "validate",
+      "kind": "function"
+    },
+    {
+      "name": "split",
+      "kind": "function"
+    },
+    {
+      "name": "unique",
+      "kind": "function"
+    },
+    {
+      "name": "toLowerCase",
+      "kind": "function"
+    },
+    {
+      "name": "normalize",
+      "kind": "function"
+    },
+    {
+      "name": "prepareLazyFunction",
+      "kind": "function"
+    },
+    {
+      "name": "isIterable",
+      "kind": "function"
+    }
+  ],
+  "references": [
+    {
+      "name": "LazyDefinition",
+      "source": "./internal/types/LazyDefinition.ts",
+      "alias": null
+    },
+    {
+      "name": "LazyEvaluator",
+      "source": "./internal/types/LazyEvaluator.ts",
+      "alias": null
+    },
+    {
+      "name": "LazyResult",
+      "source": "./internal/types/LazyResult.ts",
+      "alias": null
+    }
+  ],
+  "calls": [
+    {
+      "caller": "__module__",
+      "callee_text": "pipe",
+      "kind": "method",
+      "receiver": "__module__",
+      "receiver_type_hint": null,
+      "callee_file_hint": "./pipe.ts",
+      "line": 1
+    }
+  ],
+  "type_assignments": [
+    {
+      "scope": "__global__",
+      "var": "pipe",
+      "type": "function",
+      "type_module": "./pipe.ts",
+      "from_call": false
+    }
+  ],
+  "definitions_rich": [
+    {
+      "name": "pipe",
+      "kind": "function",
+      "parent": "__global__",
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "unknown"
+        },
+        {
+          "name": "functions",
+          "type": "readonly (LazyFunction | ((value: any) => unknown))[]"
+        }
+      ],
+      "returns": "any"
+    }
+  ]
+}
+```

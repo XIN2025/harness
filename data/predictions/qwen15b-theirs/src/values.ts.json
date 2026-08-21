@@ -1,0 +1,12 @@
+```json
+{
+  "definitions": ["values"],
+  "references": [
+    {"name": "importedName1", "source": "./src/values.ts"},
+    {"name": "importedName2", "source": "./src/internal/types/EnumerableStringKeyedValueOf"}
+  ],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": []
+}
+```

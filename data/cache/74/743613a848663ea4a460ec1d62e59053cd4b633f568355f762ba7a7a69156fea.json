@@ -1,0 +1,13 @@
+{
+  "key": "743613a848663ea4a460ec1d62e59053cd4b633f568355f762ba7a7a69156fea",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "refs-strict-v1-ca2cfcfbecef+json",
+  "file_sha": "813d721b6bed7fb64e5f0de2c8fde8ca1895f2ef0913b056d78b149c8e242554",
+  "relative_path": "src/rankBy.ts",
+  "response": "{\"callable_refs\": [{\"caller\": \"rankBy\", \"callee_text\": \"rankByImplementation\"}]}",
+  "created": "2026-08-09T06:06:26+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1418,
+  "completion_tokens": 22
+}

@@ -1,0 +1,61 @@
+{
+  "relative_path": "src/dropFirstBy.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "dropFirstBy",
+      "callee_text": "purryOrderRulesWithArgument",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./internal/purryOrderRules",
+      "line": 52
+    },
+    {
+      "caller": "dropFirstByImplementation",
+      "callee_text": "slice",
+      "kind": "method",
+      "receiver": "data",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 68
+    },
+    {
+      "caller": "dropFirstByImplementation",
+      "callee_text": "heapify",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./internal/heap",
+      "line": 69
+    },
+    {
+      "caller": "dropFirstByImplementation",
+      "callee_text": "slice",
+      "kind": "method",
+      "receiver": "data",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 73
+    },
+    {
+      "caller": "dropFirstByImplementation",
+      "callee_text": "heapMaybeInsert",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./internal/heap",
+      "line": 75
+    },
+    {
+      "caller": "dropFirstByImplementation",
+      "callee_text": "push",
+      "kind": "method",
+      "receiver": "out",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 76
+    }
+  ],
+  "callable_refs": []
+}

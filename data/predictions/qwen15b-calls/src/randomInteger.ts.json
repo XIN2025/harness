@@ -1,0 +1,5 @@
+{"calls": [
+  {"caller": "randomInteger", "callee_text": "Math.ceil"},
+  {"caller": "randomInteger", "callee_text": "Math.floor"},
+  {"caller": "randomInteger", "callee_text": "Math.random"}
+]}

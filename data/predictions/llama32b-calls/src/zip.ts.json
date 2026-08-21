@@ -1,0 +1,9 @@
+{"calls": [
+  {"caller": "zip", "callee_text": "purry"},
+  {"caller": "zipImplementation", "callee_text": "map"},
+  {"caller": "zipImplementation", "callee_text": "filter"},
+  {"caller": "zipImplementation", "__module__": "src/zip.ts", "callee_text": "IterableContainer"},
+  {"caller": "lazyImplementation", "callee_text": "hasNext"},
+  {"caller": "lazyImplementation", "callee_text": "next"},
+  {"caller": "lazyImplementation", "callee_text": "done"}
+]}

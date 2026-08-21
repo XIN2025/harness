@@ -1,0 +1,61 @@
+{
+  "relative_path": "decorators/core/use-interceptors.decorator.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "UseInterceptors",
+      "callee_text": "isFunction",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../../utils/shared.utils",
+      "line": 40
+    },
+    {
+      "caller": "UseInterceptors",
+      "callee_text": "isFunction",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../../utils/shared.utils",
+      "line": 40
+    },
+    {
+      "caller": "UseInterceptors",
+      "callee_text": "validateEach",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../../utils/validate-each.util",
+      "line": 43
+    },
+    {
+      "caller": "UseInterceptors",
+      "callee_text": "extendArrayMetadata",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../../utils/extend-metadata.util",
+      "line": 50
+    },
+    {
+      "caller": "UseInterceptors",
+      "callee_text": "validateEach",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../../utils/validate-each.util",
+      "line": 57
+    },
+    {
+      "caller": "UseInterceptors",
+      "callee_text": "extendArrayMetadata",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../../utils/extend-metadata.util",
+      "line": 64
+    }
+  ],
+  "callable_refs": []
+}

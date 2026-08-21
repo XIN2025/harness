@@ -1,0 +1,13 @@
+{
+  "key": "dff8c756ab97aba08cd68d43bede361aeb11f5a3544ce09b376ded09f37133de",
+  "model": "harness-qwen15b",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "3a6473cc51ade6e5c787e5ab09a4cccbeeed67e742a1d1772d413aa5a78befc8",
+  "relative_path": "src/findLast.ts",
+  "response": "```json\n{\n  \"definitions\": [\"findLast\", \"purry\"],\n  \"references\": [\n    {\"name\": \"findLast\", \"source\": \"./src/findLast.ts\"},\n    {\"name\": \"purry\", \"source\": \"./src/purry.ts\"}\n  ],\n  \"calls\": [],\n  \"type_assignments\": [],\n  \"definitions_rich\": []\n}\n```",
+  "created": "2026-08-08T20:18:50+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 8994,
+  "completion_tokens": 79
+}

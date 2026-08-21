@@ -1,0 +1,13 @@
+{
+  "key": "b7ddb65d6f6e56989241f7f02d3926f8ddf64bbe79f5b368c1a90a08aaa9f3af",
+  "model": "harness-qwen15b",
+  "prompt_version": "ours-v1-5c74cf9a927a",
+  "file_sha": "148faa0e5fc3967f9a36f5bff2b8e664ed445afa6beae5fd61d006a003746582",
+  "relative_path": "src/floor.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"floor\",\n    \"withPrecision\",\n    \"purry\"\n  ],\n  \"references\": [],\n  \"calls\": [\n    {\n      \"caller\": \"__module__\",\n      \"callee_text\": \"Math.floor\",\n      \"kind\": \"free\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": null,\n      \"line\": 1\n    }\n  ],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"floor\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"value\",\n          \"type\": \"number\"\n        },\n        {\n          \"name\": \"precision\",\n          \"type\": \"number\"\n        }\n      ],\n      \"returns\": {\n        \"type\": \"number\"\n      },\n      \"line\": 1\n    },\n    {\n      \"name\": \"withPrecision\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"fn\",\n          \"type\": \"function\"\n        }\n      ],\n      \"returns\": {\n        \"type\": \"number\"\n      },\n      \"line\": 1\n    },\n    {\n      \"name\": \"purry\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"fn\",\n          \"type\": \"function\"\n        }\n      ],\n      \"returns\": {\n        \"type\": \"number\"\n      },\n      \"line\": 1\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:35:00+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 782,
+  "completion_tokens": 364
+}

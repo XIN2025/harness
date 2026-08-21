@@ -1,0 +1,11 @@
+```json
+{
+  "definitions": ["hasAtLeast"],
+  "references": [
+    {"name": "hasAtLeast", "source": "./src/hasAtLeast.ts"}
+  ],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": []
+}
+```

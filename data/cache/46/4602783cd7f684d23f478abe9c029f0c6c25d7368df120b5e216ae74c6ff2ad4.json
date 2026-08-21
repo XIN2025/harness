@@ -1,0 +1,13 @@
+{
+  "key": "4602783cd7f684d23f478abe9c029f0c6c25d7368df120b5e216ae74c6ff2ad4",
+  "model": "harness-qwen15b",
+  "prompt_version": "ours-v1-5c74cf9a927a",
+  "file_sha": "bba2f69bf022da542f0e21043df8e88ac6f0ad11dbde6c57bd7dd5b980537788",
+  "relative_path": "src/join.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"Join\",\n    \"purry\",\n    \"type-fest\",\n    \"JoinableItem\",\n    \"join\",\n    \"glue\"\n  ],\n  \"references\": [],\n  \"calls\": [\n    {\n      \"caller\": \"__module__\",\n      \"callee_text\": \"join\",\n      \"kind\": \"method\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": \"src/join.ts\",\n      \"line\": 1\n    },\n    {\n      \"caller\": \"__module__\",\n      \"callee_text\": \"join\",\n      \"kind\": \"method\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": \"src/join.ts\",\n      \"line\": 2\n    }\n  ],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"Join\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [],\n      \"returns\": null,\n      \"line\": 1\n    },\n    {\n      \"name\": \"purry\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [],\n      \"returns\": null,\n      \"line\": 2\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:37:57+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 851,
+  "completion_tokens": 291
+}

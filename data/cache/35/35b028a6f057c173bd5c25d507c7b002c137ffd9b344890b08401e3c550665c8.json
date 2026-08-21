@@ -1,0 +1,13 @@
+{
+  "key": "35b028a6f057c173bd5c25d507c7b002c137ffd9b344890b08401e3c550665c8",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "59890bbbe28762e2f42ad2344de58deda440fad7f9c5520fd3d947abf3cd162c",
+  "relative_path": "src/swapIndices.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"swapIndices\", \"callee_text\": \"purry\"},\n  {\"caller\": \"swapIndicesImplementation\", \"callee_text\": \"join\"},\n  {\"caller\": \"swapArray\", \"callee_text\": \"concat\"},\n  {\"caller\": \"swapArray\", \"callee_text\": \"slice\"},\n  {\"caller\": \"swapArray\", \"callee_text\": \"NaN\"},\n  {\"caller\": \"swapArray\", \"callee_text\": \"isNaN\"},\n  {\"caller\": \"swapArray\", \"callee_text\": \"length\"},\n  {\"caller\": \"swapArray\", \"callee_text\": \"push\"},\n  {\"caller\": \"swapArray\", \"callee_text\": \"pop\"},\n  {\"caller\": \"swapArray\", \"callee_text\": \"indexOf\"},\n  {\"caller\": \"swapArray\", \"callee_text\": \"includes\"},\n  {\"caller\": \"swapArray\", \"callee_text\": \"toString\"}\n]}",
+  "created": "2026-08-08T23:13:28+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 2046,
+  "completion_tokens": 188
+}

@@ -1,0 +1,13 @@
+{
+  "key": "c0dc4ec83dac85e5a50ab3f5d15b5a41d229e4ec35b50dbc08701eafd1addd98",
+  "model": "harness-qwen15b",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "a40ece21f136eb23109c51514a89c70ebef347bf2d72b34f358915bcfb274617",
+  "relative_path": "src/add.ts",
+  "response": "```json\n{\n  \"definitions\": [\"add\", \"addImplementation\"],\n  \"references\": [\n    {\"name\": \"add\", \"source\": \"./src/add.ts\"},\n    {\"name\": \"addImplementation\", \"source\": \"./src/add.ts\"}\n  ],\n  \"calls\": [\n    {\"caller\": \"add\", \"callee_text\": \"addImplementation\", \"kind\": \"free\",\n     \"receiver\": null, \"receiver_type_hint\": null, \"callee_file_hint\": \"./src/add.ts\", \"line\": 15}\n  ],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\"name\": \"add\", \"kind\": \"function\", \"parent\": null, \"bases\": [], \"params\": [{\"name\":\"value\",\"type\":\"number\"},{\"name\":\"addend\",\"type\":\"number\"}], \"returns\": \"number\", \"line\": 1},\n    {\"name\": \"addImplementation\", \"kind\": \"function\", \"parent\": null, \"bases\": [], \"params\": [{\"name\":\"value\",\"type\":\"number\"},{\"name\":\"addend\",\"type\":\"number\"}], \"returns\": \"number\", \"line\": 2}\n  ]\n}\n```",
+  "created": "2026-08-08T20:16:31+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 8379,
+  "completion_tokens": 243
+}

@@ -1,0 +1,30 @@
+`
+    Line 165: `coolDownTimeoutId = undefined;`
+    Line 166: `clearTimeout(timeoutId);`
+    Yes, line 166.
+
+    Let's check `handleInvoke()` in `handleCoolDownEnd`:
+    Line 172: `handleInvoke();`
+    Yes, line 172.
+
+    Let's check `setTimeout` in `handleDebouncedCall`:
+    Line 176: `const handleDebouncedCall = (args: Parameters<F>): void => {`
+    ...
+    Line 184: `maxWaitTimeoutId = setTimeout(handleInvoke, maxWaitMs);`
+    Yes, line 184.
+
+    Let's check `handleDebouncedCall(args)` in `call`:
+    Line 189: `call: (...args) => {`
+    ...
+    Line 195: `handleDebouncedCall(args);`
+    Yes, line 195.
+
+    Let's check `func(...args)` in `call`:
+    Line 202: `result = func(...args);`
+    Yes, line 202.
+
+    Let's check `handleDebouncedCall(args)` in `call` (second one):
+    Line 210: `handleDebouncedCall(args);`
+    Yes, line 210.
+
+    Let's check

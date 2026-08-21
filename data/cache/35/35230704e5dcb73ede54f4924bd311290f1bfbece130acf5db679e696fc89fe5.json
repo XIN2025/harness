@@ -1,0 +1,13 @@
+{
+  "key": "35230704e5dcb73ede54f4924bd311290f1bfbece130acf5db679e696fc89fe5",
+  "model": "harness-qwen15b",
+  "prompt_version": "refs-v1-7386a79c1ab2+json",
+  "file_sha": "b7d2300155642471c1e50273792670c26a717dccf0fcc0b2584735289ccb8d62",
+  "relative_path": "src/times.ts",
+  "response": "{\n  \"calls\": [],\n  \"callable_refs\": [\n    {\"caller\": \"times\", \"callee_text\": \"timesImplementation\"},\n    {\"caller\": \"timesImplementation\", \"callee_text\": \"fn\"}\n  ]\n}",
+  "created": "2026-08-08T22:30:58+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1250,
+  "completion_tokens": 46
+}

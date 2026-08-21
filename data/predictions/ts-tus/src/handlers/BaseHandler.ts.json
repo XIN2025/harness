@@ -1,0 +1,529 @@
+{
+  "relative_path": "src/handlers/BaseHandler.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "BaseHandler.constructor",
+      "callee_text": "super",
+      "kind": "super",
+      "receiver": "super",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 19
+    },
+    {
+      "caller": "BaseHandler.constructor",
+      "callee_text": "Error",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 21
+    },
+    {
+      "caller": "BaseHandler.write",
+      "callee_text": "Response",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 30
+    },
+    {
+      "caller": "BaseHandler.write",
+      "callee_text": "set",
+      "kind": "method",
+      "receiver": "res.headers",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 32
+    },
+    {
+      "caller": "BaseHandler.write",
+      "callee_text": "toString",
+      "kind": "method",
+      "receiver": "Buffer.byteLength(responseBody, 'utf8')",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 34
+    },
+    {
+      "caller": "BaseHandler.write",
+      "callee_text": "byteLength",
+      "kind": "static",
+      "receiver": "Buffer",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 34
+    },
+    {
+      "caller": "BaseHandler.generateUrl",
+      "callee_text": "extractHostAndProto",
+      "kind": "static",
+      "receiver": "BaseHandler",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 45
+    },
+    {
+      "caller": "BaseHandler.generateUrl",
+      "callee_text": "generateUrl",
+      "kind": "this",
+      "receiver": "this.options",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 50
+    },
+    {
+      "caller": "BaseHandler.generateUrl",
+      "callee_text": "extractHostAndProto",
+      "kind": "static",
+      "receiver": "BaseHandler",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 63
+    },
+    {
+      "caller": "BaseHandler.getFileIdFromRequest",
+      "callee_text": "exec",
+      "kind": "method",
+      "receiver": "reExtractFileID",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 72
+    },
+    {
+      "caller": "BaseHandler.getFileIdFromRequest",
+      "callee_text": "getFileIdFromRequest",
+      "kind": "this",
+      "receiver": "this.options",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 74
+    },
+    {
+      "caller": "BaseHandler.getFileIdFromRequest",
+      "callee_text": "decodeURIComponent",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 79
+    },
+    {
+      "caller": "BaseHandler.getFileIdFromRequest",
+      "callee_text": "getFileIdFromRequest",
+      "kind": "this",
+      "receiver": "this.options",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 85
+    },
+    {
+      "caller": "BaseHandler.getFileIdFromRequest",
+      "callee_text": "includes",
+      "kind": "this",
+      "receiver": "this.options.path",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 89
+    },
+    {
+      "caller": "BaseHandler.getFileIdFromRequest",
+      "callee_text": "includes",
+      "kind": "method",
+      "receiver": "id",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 90
+    },
+    {
+      "caller": "BaseHandler.getFileIdFromRequest",
+      "callee_text": "includes",
+      "kind": "method",
+      "receiver": "id",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 91
+    },
+    {
+      "caller": "BaseHandler.getFileIdFromRequest",
+      "callee_text": "includes",
+      "kind": "method",
+      "receiver": "id",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 92
+    },
+    {
+      "caller": "BaseHandler.extractHostAndProto",
+      "callee_text": "get",
+      "kind": "method",
+      "receiver": "headers",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 105
+    },
+    {
+      "caller": "BaseHandler.extractHostAndProto",
+      "callee_text": "exec",
+      "kind": "method",
+      "receiver": "reForwardedHost",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 107
+    },
+    {
+      "caller": "BaseHandler.extractHostAndProto",
+      "callee_text": "exec",
+      "kind": "method",
+      "receiver": "reForwardedProto",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 108
+    },
+    {
+      "caller": "BaseHandler.extractHostAndProto",
+      "callee_text": "get",
+      "kind": "method",
+      "receiver": "headers",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 111
+    },
+    {
+      "caller": "BaseHandler.extractHostAndProto",
+      "callee_text": "get",
+      "kind": "method",
+      "receiver": "headers",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 112
+    },
+    {
+      "caller": "BaseHandler.extractHostAndProto",
+      "callee_text": "includes",
+      "kind": "method",
+      "receiver": "['http', 'https']",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 115
+    },
+    {
+      "caller": "BaseHandler.extractHostAndProto",
+      "callee_text": "get",
+      "kind": "method",
+      "receiver": "headers",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 122
+    },
+    {
+      "caller": "BaseHandler.getLocker",
+      "callee_text": "locker",
+      "kind": "this",
+      "receiver": "this.options",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 130
+    },
+    {
+      "caller": "BaseHandler.acquireLock",
+      "callee_text": "getLocker",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 136
+    },
+    {
+      "caller": "BaseHandler.acquireLock",
+      "callee_text": "newLock",
+      "kind": "method",
+      "receiver": "locker",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 138
+    },
+    {
+      "caller": "BaseHandler.acquireLock",
+      "callee_text": "lock",
+      "kind": "method",
+      "receiver": "lock",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 140
+    },
+    {
+      "caller": "BaseHandler.acquireLock",
+      "callee_text": "cancel",
+      "kind": "method",
+      "receiver": "context",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 141
+    },
+    {
+      "caller": "BaseHandler.writeToStore",
+      "callee_text": "Promise",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 154
+    },
+    {
+      "caller": "BaseHandler.writeToStore",
+      "callee_text": "reject",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 157
+    },
+    {
+      "caller": "BaseHandler.writeToStore",
+      "callee_text": "PassThrough",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "node:stream",
+      "line": 163
+    },
+    {
+      "caller": "BaseHandler.writeToStore",
+      "callee_text": "fromWeb",
+      "kind": "static",
+      "receiver": "Readable",
+      "receiver_type_hint": null,
+      "callee_file_hint": "node:stream",
+      "line": 164
+    },
+    {
+      "caller": "BaseHandler.writeToStore",
+      "callee_text": "from",
+      "kind": "static",
+      "receiver": "Readable",
+      "receiver_type_hint": null,
+      "callee_file_hint": "node:stream",
+      "line": 164
+    },
+    {
+      "caller": "BaseHandler.writeToStore",
+      "callee_text": "on",
+      "kind": "method",
+      "receiver": "nodeStream",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 168
+    },
+    {
+      "caller": "BaseHandler.writeToStore",
+      "callee_text": "unpipe",
+      "kind": "method",
+      "receiver": "nodeStream",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 174
+    },
+    {
+      "caller": "BaseHandler.writeToStore",
+      "callee_text": "end",
+      "kind": "method",
+      "receiver": "proxy",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 177
+    },
+    {
+      "caller": "BaseHandler.writeToStore",
+      "callee_text": "addEventListener",
+      "kind": "method",
+      "receiver": "context.signal",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 180
+    },
+    {
+      "caller": "BaseHandler.writeToStore",
+      "callee_text": "on",
+      "kind": "method",
+      "receiver": "proxy",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 182
+    },
+    {
+      "caller": "BaseHandler.writeToStore",
+      "callee_text": "unpipe",
+      "kind": "method",
+      "receiver": "nodeStream",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 183
+    },
+    {
+      "caller": "BaseHandler.writeToStore",
+      "callee_text": "reject",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 184
+    },
+    {
+      "caller": "BaseHandler.writeToStore",
+      "callee_text": "throttle",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "lodash.throttle",
+      "line": 187
+    },
+    {
+      "caller": "BaseHandler.writeToStore",
+      "callee_text": "emit",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 189
+    },
+    {
+      "caller": "BaseHandler.writeToStore",
+      "callee_text": "on",
+      "kind": "method",
+      "receiver": "proxy",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 196
+    },
+    {
+      "caller": "BaseHandler.writeToStore",
+      "callee_text": "postReceive",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 198
+    },
+    {
+      "caller": "BaseHandler.writeToStore",
+      "callee_text": "finally",
+      "kind": "method",
+      "receiver": "stream\n        .pipeline(\n          nodeStream.pipe(proxy),\n          new StreamLimiter(maxFileSize),\n          async (stream) => {\n            return this.store.write(stream as StreamLimiter, upload.id, upload.offset)\n          }\n        )\n        .then(resolve)\n        .catch(reject)",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 204
+    },
+    {
+      "caller": "BaseHandler.writeToStore",
+      "callee_text": "catch",
+      "kind": "method",
+      "receiver": "stream\n        .pipeline(\n          nodeStream.pipe(proxy),\n          new StreamLimiter(maxFileSize),\n          async (stream) => {\n            return this.store.write(stream as StreamLimiter, upload.id, upload.offset)\n          }\n        )\n        .then(resolve)",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 204
+    },
+    {
+      "caller": "BaseHandler.writeToStore",
+      "callee_text": "then",
+      "kind": "method",
+      "receiver": "stream\n        .pipeline(\n          nodeStream.pipe(proxy),\n          new StreamLimiter(maxFileSize),\n          async (stream) => {\n            return this.store.write(stream as StreamLimiter, upload.id, upload.offset)\n          }\n        )",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 204
+    },
+    {
+      "caller": "BaseHandler.writeToStore",
+      "callee_text": "pipeline",
+      "kind": "method",
+      "receiver": "stream",
+      "receiver_type_hint": null,
+      "callee_file_hint": "node:stream/promises",
+      "line": 204
+    },
+    {
+      "caller": "BaseHandler.writeToStore",
+      "callee_text": "pipe",
+      "kind": "method",
+      "receiver": "nodeStream",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 206
+    },
+    {
+      "caller": "BaseHandler.writeToStore",
+      "callee_text": "StreamLimiter",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "@tus/utils",
+      "line": 207
+    },
+    {
+      "caller": "BaseHandler.writeToStore",
+      "callee_text": "write",
+      "kind": "this",
+      "receiver": "this.store",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 209
+    },
+    {
+      "caller": "BaseHandler.writeToStore",
+      "callee_text": "removeEventListener",
+      "kind": "method",
+      "receiver": "context.signal",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 215
+    },
+    {
+      "caller": "BaseHandler.getConfiguredMaxSize",
+      "callee_text": "maxSize",
+      "kind": "this",
+      "receiver": "this.options",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 222
+    },
+    {
+      "caller": "BaseHandler.calculateMaxBodySize",
+      "callee_text": "getConfiguredMaxSize",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 234
+    },
+    {
+      "caller": "BaseHandler.calculateMaxBodySize",
+      "callee_text": "parseInt",
+      "kind": "static",
+      "receiver": "Number",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 237
+    },
+    {
+      "caller": "BaseHandler.calculateMaxBodySize",
+      "callee_text": "get",
+      "kind": "method",
+      "receiver": "req.headers",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 237
+    },
+    {
+      "caller": "BaseHandler.calculateMaxBodySize",
+      "callee_text": "get",
+      "kind": "method",
+      "receiver": "req.headers",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 240
+    }
+  ],
+  "callable_refs": []
+}

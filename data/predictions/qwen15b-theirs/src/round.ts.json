@@ -1,0 +1,12 @@
+```json
+{
+  "definitions": ["round"],
+  "references": [
+    {"name": "withPrecision", "source": "./internal/withPrecision"},
+    {"name": "purry", "source": "./purry"}
+  ],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": []
+}
+```

@@ -1,0 +1,16 @@
+{
+  "relative_path": "src/set.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "set",
+      "callee_text": "purry",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./purry",
+      "line": 47
+    }
+  ],
+  "callable_refs": []
+}

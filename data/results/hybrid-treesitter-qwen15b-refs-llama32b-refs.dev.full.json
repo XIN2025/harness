@@ -1,0 +1,80 @@
+{
+  "arm": "hybrid(treesitter+qwen15b-refs & llama32b-refs)",
+  "split": "dev",
+  "cut": "full",
+  "validity": {
+    "total": 112,
+    "raw_valid": 112,
+    "parseable": 112,
+    "schema_valid": 112
+  },
+  "counts": {
+    "tp": 410,
+    "fp": 17,
+    "fn": 44,
+    "unscored": 58,
+    "files": 112
+  },
+  "metrics": {
+    "precision": {
+      "point": 0.9601873536299765,
+      "low": 0.9149815042857498,
+      "high": 0.9789225363370005,
+      "method": "BCa"
+    },
+    "recall": {
+      "point": 0.9030837004405287,
+      "low": 0.8739998596960823,
+      "high": 0.9296034225859945,
+      "method": "BCa"
+    },
+    "f1": {
+      "point": 0.9307604994324631,
+      "low": 0.9084251696964032,
+      "high": 0.9474308538384615,
+      "method": "BCa"
+    }
+  },
+  "base": {
+    "arm": "treesitter",
+    "split": "dev",
+    "cut": "full",
+    "validity": {
+      "total": 112,
+      "raw_valid": 112,
+      "parseable": 112,
+      "schema_valid": 112
+    },
+    "counts": {
+      "tp": 330,
+      "fp": 0,
+      "fn": 124,
+      "unscored": 58,
+      "files": 112
+    },
+    "metrics": {
+      "precision": {
+        "point": 1.0,
+        "low": 1.0,
+        "high": 1.0,
+        "method": "percentile"
+      },
+      "recall": {
+        "point": 0.7268722466960352,
+        "low": 0.6913875598086124,
+        "high": 0.7655101326012594,
+        "method": "BCa"
+      },
+      "f1": {
+        "point": 0.8418367346938775,
+        "low": 0.8175388967468176,
+        "high": 0.8671914910501883,
+        "method": "BCa"
+      }
+    }
+  },
+  "additions": [
+    "qwen15b-refs",
+    "llama32b-refs"
+  ]
+}

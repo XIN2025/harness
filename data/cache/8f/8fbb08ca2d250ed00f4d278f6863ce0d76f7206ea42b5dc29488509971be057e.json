@@ -1,0 +1,13 @@
+{
+  "key": "8fbb08ca2d250ed00f4d278f6863ce0d76f7206ea42b5dc29488509971be057e",
+  "model": "harness-qwen15b",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "c6c2df6c4952f0dbf536ce43a2ddefeb2e8d8bea734ae2b77ea7b458226afedc",
+  "relative_path": "src/sortedIndexWith.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"sortedIndexWith\", \"callee_text\": \"purry\"},\n  {\"caller\": \"binarySearchCutoffIndex\", \"callee_text\": \"filter\"},\n  {\"caller\": \"binarySearchCutoffIndex\", \"callee_text\": \"isFinite\"},\n  {\"caller\": \"binarySearchCutoffIndex\", \"callee_text\": \"sort\"},\n  {\"caller\": \"binarySearchCutoffIndex\", \"callee_text\": \"reduce\"},\n  {\"caller\": \"binarySearchCutoffIndex\", \"callee_text\": \"isNaN\"},\n  {\"caller\": \"binarySearchCutoffIndex\", \"callee_text\": \"Error\"},\n  {\"caller\": \"binarySearchCutoffIndex\", \"callee_text\": \"format\"},\n  {\"caller\": \"binarySearchCutoffIndex\", \"callee_text\": \"round\"},\n  {\"caller\": \"binarySearchCutoffIndex\", \"callee_text\": \"precisionOf\"}\n]}",
+  "created": "2026-08-08T22:22:10+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1409,
+  "completion_tokens": 187
+}

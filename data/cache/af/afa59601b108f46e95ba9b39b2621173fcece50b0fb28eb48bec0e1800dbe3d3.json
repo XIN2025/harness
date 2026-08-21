@@ -1,0 +1,13 @@
+{
+  "key": "afa59601b108f46e95ba9b39b2621173fcece50b0fb28eb48bec0e1800dbe3d3",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "44de67873e4e7b13f8ace48c521d487cc8808a4cad425fe6604217f54dd9f4fa",
+  "relative_path": "src/pathOr.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"pathOr\", \"callee_text\": \"purry\"},\n  {\"caller\": \"pathOrImplementation\", \"callee_text\": \"getOwnPropertyDescriptor\"},\n  {\"caller\": \"pathOrImplementation\", \"callee_text\": \"hasOwnProperty\"},\n  {\"caller\": \"pathOrImplementation\", \"callee_text\": \"getPrototypeOf\"},\n  {\"caller\": \"pathOrImplementation\", \"callee_text\": \"toString\"},\n  {\"caller\": \"pathOrImplementation\", \"callee_text\": \"hasOwnProperty\"},\n  {\"caller\": \"pathOrImplementation\", \"callee_text\": \"getOwnPropertyDescriptor\"},\n  {\"caller\": \"pathOrImplementation\", \"callee_text\": \"hasOwnProperty\"},\n  {\"caller\": \"pathOrImplementation\", \"callee_text\": \"__lookupGetter\"},\n  {\"caller\": \"pathOrImplementation\", \"callee_text\": \"toString\"},\n  {\"caller\": \"pathOrImplementation\", \"callee_text\": \"hasOwnProperty\"},\n  {\"caller\": \"pathOrImplementation\", \"callee_text\": \"getPrototypeOf\"},\n  {\"caller\": \"pathOrImplementation\", \"callee_text\": \"__lookupGetter\"}\n]}",
+  "created": "2026-08-08T23:06:45+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 2222,
+  "completion_tokens": 226
+}

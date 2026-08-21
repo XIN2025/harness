@@ -1,0 +1,8 @@
+{"calls": [
+  {"caller": "values", "callee_text": "purry"},
+  {"caller": "Object.values", "callee_text": "values"},
+  {"caller": "values", "callee_text": "args[0]"},
+  {"caller": "values", "callee_text": "args[1]"},
+  {"caller": "values", "callee_text": "args[2]"},
+  {"caller": "Object.values", "callee_text": "values"}
+]}

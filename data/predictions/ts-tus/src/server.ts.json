@@ -1,0 +1,646 @@
+{
+  "relative_path": "src/server.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "__module__",
+      "callee_text": "debug",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "debug",
+      "line": 55
+    },
+    {
+      "caller": "Server.constructor",
+      "callee_text": "super",
+      "kind": "super",
+      "receiver": "super",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 64
+    },
+    {
+      "caller": "Server.constructor",
+      "callee_text": "Error",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 67
+    },
+    {
+      "caller": "Server.constructor",
+      "callee_text": "Error",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 71
+    },
+    {
+      "caller": "Server.constructor",
+      "callee_text": "Error",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 75
+    },
+    {
+      "caller": "Server.constructor",
+      "callee_text": "MemoryLocker",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./lockers/index.js",
+      "line": 79
+    },
+    {
+      "caller": "Server.constructor",
+      "callee_text": "GetHandler",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./handlers/GetHandler.js",
+      "line": 95
+    },
+    {
+      "caller": "Server.constructor",
+      "callee_text": "HeadHandler",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./handlers/HeadHandler.js",
+      "line": 97
+    },
+    {
+      "caller": "Server.constructor",
+      "callee_text": "OptionsHandler",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./handlers/OptionsHandler.js",
+      "line": 98
+    },
+    {
+      "caller": "Server.constructor",
+      "callee_text": "PatchHandler",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./handlers/PatchHandler.js",
+      "line": 99
+    },
+    {
+      "caller": "Server.constructor",
+      "callee_text": "PostHandler",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./handlers/PostHandler.js",
+      "line": 100
+    },
+    {
+      "caller": "Server.constructor",
+      "callee_text": "DeleteHandler",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./handlers/DeleteHandler.js",
+      "line": 101
+    },
+    {
+      "caller": "Server.constructor",
+      "callee_text": "on",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 110
+    },
+    {
+      "caller": "Server.constructor",
+      "callee_text": "removeListener",
+      "kind": "this",
+      "receiver": "this.datastore",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 111
+    },
+    {
+      "caller": "Server.constructor",
+      "callee_text": "removeListener",
+      "kind": "this",
+      "receiver": "this.handlers[method]",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 113
+    },
+    {
+      "caller": "Server.constructor",
+      "callee_text": "on",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 118
+    },
+    {
+      "caller": "Server.constructor",
+      "callee_text": "on",
+      "kind": "this",
+      "receiver": "this.datastore",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 119
+    },
+    {
+      "caller": "Server.constructor",
+      "callee_text": "on",
+      "kind": "this",
+      "receiver": "this.handlers[method]",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 121
+    },
+    {
+      "caller": "Server.get",
+      "callee_text": "registerPath",
+      "kind": "this",
+      "receiver": "this.handlers.GET",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 127
+    },
+    {
+      "caller": "Server.handle",
+      "callee_text": "NodeRequest",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "srvx/node",
+      "line": 131
+    },
+    {
+      "caller": "Server.handle",
+      "callee_text": "handler",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 132
+    },
+    {
+      "caller": "Server.handle",
+      "callee_text": "sendNodeResponse",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "srvx/node",
+      "line": 133
+    },
+    {
+      "caller": "Server.handleWeb",
+      "callee_text": "handler",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 137
+    },
+    {
+      "caller": "Server.handler",
+      "callee_text": "createContext",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 141
+    },
+    {
+      "caller": "Server.handler",
+      "callee_text": "Headers",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 142
+    },
+    {
+      "caller": "Server.handler",
+      "callee_text": "once",
+      "kind": "method",
+      "receiver": "node.req",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 152
+    },
+    {
+      "caller": "Server.handler",
+      "callee_text": "abort",
+      "kind": "method",
+      "receiver": "context",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 153
+    },
+    {
+      "caller": "Server.handler",
+      "callee_text": "onResponseError",
+      "kind": "this",
+      "receiver": "this.options",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 166
+    },
+    {
+      "caller": "Server.handler",
+      "callee_text": "write",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 173
+    },
+    {
+      "caller": "Server.handler",
+      "callee_text": "catch",
+      "kind": "method",
+      "receiver": "handler.send(req, context, headers)",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 178
+    },
+    {
+      "caller": "Server.handler",
+      "callee_text": "send",
+      "kind": "method",
+      "receiver": "handler",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 178
+    },
+    {
+      "caller": "Server.handler",
+      "callee_text": "abort",
+      "kind": "method",
+      "receiver": "context",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 179
+    },
+    {
+      "caller": "Server.handler",
+      "callee_text": "set",
+      "kind": "method",
+      "receiver": "headers",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 186
+    },
+    {
+      "caller": "Server.handler",
+      "callee_text": "get",
+      "kind": "method",
+      "receiver": "req.headers",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 188
+    },
+    {
+      "caller": "Server.handler",
+      "callee_text": "write",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 189
+    },
+    {
+      "caller": "Server.handler",
+      "callee_text": "entries",
+      "kind": "method",
+      "receiver": "req.headers",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 194
+    },
+    {
+      "caller": "Server.handler",
+      "callee_text": "toLowerCase",
+      "kind": "method",
+      "receiver": "name",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 204
+    },
+    {
+      "caller": "Server.handler",
+      "callee_text": "validateHeader",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./validators/HeaderValidator.js",
+      "line": 208
+    },
+    {
+      "caller": "Server.handler",
+      "callee_text": "log",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 209
+    },
+    {
+      "caller": "Server.handler",
+      "callee_text": "push",
+      "kind": "method",
+      "receiver": "invalid_headers",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 210
+    },
+    {
+      "caller": "Server.handler",
+      "callee_text": "write",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 215
+    },
+    {
+      "caller": "Server.handler",
+      "callee_text": "join",
+      "kind": "method",
+      "receiver": "invalid_headers",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 215
+    },
+    {
+      "caller": "Server.handler",
+      "callee_text": "getCorsOrigin",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 219
+    },
+    {
+      "caller": "Server.handler",
+      "callee_text": "get",
+      "kind": "method",
+      "receiver": "req.headers",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 219
+    },
+    {
+      "caller": "Server.handler",
+      "callee_text": "set",
+      "kind": "method",
+      "receiver": "headers",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 221
+    },
+    {
+      "caller": "Server.handler",
+      "callee_text": "set",
+      "kind": "method",
+      "receiver": "headers",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 223
+    },
+    {
+      "caller": "Server.handler",
+      "callee_text": "join",
+      "kind": "method",
+      "receiver": "[...HEADERS, this.options.exposedHeaders]",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 226
+    },
+    {
+      "caller": "Server.handler",
+      "callee_text": "set",
+      "kind": "method",
+      "receiver": "headers",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 231
+    },
+    {
+      "caller": "Server.handler",
+      "callee_text": "catch",
+      "kind": "method",
+      "receiver": "handler.send(req, context, headers)",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 237
+    },
+    {
+      "caller": "Server.handler",
+      "callee_text": "send",
+      "kind": "method",
+      "receiver": "handler",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 237
+    },
+    {
+      "caller": "Server.handler",
+      "callee_text": "set",
+      "kind": "method",
+      "receiver": "resp.headers",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 242
+    },
+    {
+      "caller": "Server.handler",
+      "callee_text": "write",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 249
+    },
+    {
+      "caller": "Server.getCorsOrigin",
+      "callee_text": "allowedOrigins",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 256
+    },
+    {
+      "caller": "Server.getCorsOrigin",
+      "callee_text": "some",
+      "kind": "method",
+      "receiver": "allowedOrigins",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 267
+    },
+    {
+      "caller": "Server.write",
+      "callee_text": "set",
+      "kind": "method",
+      "receiver": "headers",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 278
+    },
+    {
+      "caller": "Server.write",
+      "callee_text": "String",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 278
+    },
+    {
+      "caller": "Server.write",
+      "callee_text": "byteLength",
+      "kind": "static",
+      "receiver": "Buffer",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 278
+    },
+    {
+      "caller": "Server.write",
+      "callee_text": "set",
+      "kind": "method",
+      "receiver": "headers",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 287
+    },
+    {
+      "caller": "Server.write",
+      "callee_text": "Response",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 290
+    },
+    {
+      "caller": "Server.listen",
+      "callee_text": "listen",
+      "kind": "method",
+      "receiver": "http.createServer(this.handle.bind(this))",
+      "receiver_type_hint": null,
+      "callee_file_hint": "node:http",
+      "line": 295
+    },
+    {
+      "caller": "Server.listen",
+      "callee_text": "createServer",
+      "kind": "method",
+      "receiver": "http",
+      "receiver_type_hint": null,
+      "callee_file_hint": "node:http",
+      "line": 295
+    },
+    {
+      "caller": "Server.listen",
+      "callee_text": "bind",
+      "kind": "this",
+      "receiver": "this.handle",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 295
+    },
+    {
+      "caller": "Server.cleanUpExpiredUploads",
+      "callee_text": "hasExtension",
+      "kind": "this",
+      "receiver": "this.datastore",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 299
+    },
+    {
+      "caller": "Server.cleanUpExpiredUploads",
+      "callee_text": "deleteExpired",
+      "kind": "this",
+      "receiver": "this.datastore",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 303
+    },
+    {
+      "caller": "Server.createContext",
+      "callee_text": "AbortController",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 311
+    },
+    {
+      "caller": "Server.createContext",
+      "callee_text": "AbortController",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 312
+    },
+    {
+      "caller": "Server.createContext",
+      "callee_text": "setTimeout",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 315
+    },
+    {
+      "caller": "Server.createContext",
+      "callee_text": "abort",
+      "kind": "method",
+      "receiver": "requestAbortController",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 316
+    },
+    {
+      "caller": "Server.createContext",
+      "callee_text": "addEventListener",
+      "kind": "method",
+      "receiver": "abortWithDelayController.signal",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 319
+    },
+    {
+      "caller": "Server.createContext",
+      "callee_text": "abort",
+      "kind": "method",
+      "receiver": "requestAbortController",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 328
+    },
+    {
+      "caller": "Server.createContext",
+      "callee_text": "abort",
+      "kind": "method",
+      "receiver": "abortWithDelayController",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 334
+    }
+  ],
+  "callable_refs": []
+}

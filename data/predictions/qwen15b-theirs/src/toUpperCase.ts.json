@@ -1,0 +1,11 @@
+```json
+{
+  "definitions": ["toUpperCase"],
+  "references": [
+    {"name": "toUpperCase", "source": "./src/toUpperCase.ts"}
+  ],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": []
+}
+```

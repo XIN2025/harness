@@ -1,0 +1,59 @@
+{
+  "definitions": [
+    "divide",
+    "divideImplementation"
+  ],
+  "references": [
+    {
+      "name": "purry",
+      "source": "./purry",
+      "alias": null
+    }
+  ],
+  "calls": [
+    {
+      "caller": "divide",
+      "callee_text": "purry",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./purry",
+      "line": 35
+    }
+  ],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "divide",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "args",
+          "type": "readonly unknown[]"
+        }
+      ],
+      "returns": "unknown",
+      "line": 34
+    },
+    {
+      "name": "divideImplementation",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "value",
+          "type": "number"
+        },
+        {
+          "name": "divisor",
+          "type": "number"
+        }
+      ],
+      "returns": "number",
+      "line": 41
+    }
+  ]
+}

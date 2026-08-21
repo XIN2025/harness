@@ -1,0 +1,13 @@
+{
+  "key": "c7d8e38c2c9890e8cb4fee1fb3fe06b664699d71aec8f1e14da9b562dfb7096d",
+  "model": "harness-llama32b",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "1b72616051eac1c3c6e25ca98670de6d7345b60d2425f38dbbe6d15552baa4d2",
+  "relative_path": "src/hasSubObject.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"hasSubObject\", \"callee_text\": \"purry\"},\n  {\"caller\": \"hasSubObjectImplementation\", \"callee_text\": \"Object.entries\"},\n  {\"caller\": \"hasSubObjectImplementation\", \"callee_text\": \"Object.hasOwn\"},\n  {\"caller\": \"hasSubObjectImplementation\", \"callee_text\": \"isDeepEqual\"}\n]}",
+  "created": "2026-08-08T22:40:05+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1616,
+  "completion_tokens": 79
+}

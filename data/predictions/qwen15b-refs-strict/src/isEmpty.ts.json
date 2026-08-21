@@ -1,0 +1,1 @@
+{"calls": [], "callable_refs": [{"caller": "isEmpty", "callee_text": "isEmptyish"}, {"caller": "isEmpty", "callee_text": "hasAtLeast"}, {"caller": "isEmpty", "callee_text": "isStrictEqual"}, {"caller": "isEmpty", "callee_text": "isNullish"}, {"caller": "isEmpty", "callee_text": "isTruthy"}]}

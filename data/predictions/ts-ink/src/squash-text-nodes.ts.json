@@ -1,0 +1,34 @@
+{
+  "relative_path": "src/squash-text-nodes.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "squashTextNodes",
+      "callee_text": "squashTextNodes",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 29
+    },
+    {
+      "caller": "squashTextNodes",
+      "callee_text": "internal_transform",
+      "kind": "method",
+      "receiver": "childNode",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 38
+    },
+    {
+      "caller": "squashTextNodes",
+      "callee_text": "sanitizeAnsi",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./sanitize-ansi.js",
+      "line": 45
+    }
+  ],
+  "callable_refs": []
+}

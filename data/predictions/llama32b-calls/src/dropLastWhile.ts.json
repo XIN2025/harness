@@ -1,0 +1,21 @@
+{"calls": [
+  {"caller": "dropLastWhile", "callee_text": "purry"},
+  {"caller": "dropLastWhileImplementation", "callee_text": "slice"},
+  {"caller": "dropLastWhileImplementation", "callee_text": "data.length"},
+  {"caller": "dropLastWhileImplementation", "callee_text": "i"},
+  {"caller": "dropLastWhileImplementation", "callee_text": "predicate"},
+  {"caller": "dropLastWhileImplementation", "callee_text": "index"},
+  {"caller": "dropLastWhileImplementation", "callee_text": "data"},
+  {"caller": "dropLastWhileImplementation", "callee_text": "i"},
+  {"caller": "dropLastWhileImplementation", "callee_text": "predicate"},
+  {"caller": "dropLastWhileImplementation", "callee_text": "index"},
+  {"caller": "dropLastWhileImplementation", "callee_text": "data"},
+  {"caller": "dropLastWhileImplementation", "callee_text": "i"},
+  {"caller": "dropLastWhileImplementation", "callee_text": "predicate"},
+  {"caller": "dropLastWhileImplementation", "callee_text": "index"},
+  {"caller": "dropLastWhileImplementation", "callee_text": "data"},
+  {"caller": "dropLastWhileImplementation", "callee_text": "i"},
+  {"caller": "dropLastWhileImplementation", "callee_text": "predicate"},
+  {"caller": "dropLastWhileImplementation", "callee_text": "index"},
+  {"caller": "dropLastWhileImplementation", "callee_text": "data"}
+]}

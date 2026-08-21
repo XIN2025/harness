@@ -1,0 +1,187 @@
+{
+  "relative_path": "lib/plugins/console/config.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "configConsole",
+      "callee_text": "log",
+      "kind": "method",
+      "receiver": "console",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 17
+    },
+    {
+      "caller": "configConsole",
+      "callee_text": "resolve",
+      "kind": "static",
+      "receiver": "Promise",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 18
+    },
+    {
+      "caller": "configConsole",
+      "callee_text": "getProperty",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 22
+    },
+    {
+      "caller": "configConsole",
+      "callee_text": "log",
+      "kind": "method",
+      "receiver": "console",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 23
+    },
+    {
+      "caller": "configConsole",
+      "callee_text": "resolve",
+      "kind": "static",
+      "receiver": "Promise",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 24
+    },
+    {
+      "caller": "configConsole",
+      "callee_text": "extname",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "path",
+      "line": 28
+    },
+    {
+      "caller": "configConsole",
+      "callee_text": "then",
+      "kind": "method",
+      "receiver": "exists(configPath).then(exist => {\n    if (!exist) return {};\n    return this.render.render({path: configPath});\n  })",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 30
+    },
+    {
+      "caller": "configConsole",
+      "callee_text": "then",
+      "kind": "method",
+      "receiver": "exists(configPath)",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 30
+    },
+    {
+      "caller": "configConsole",
+      "callee_text": "exists",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-fs",
+      "line": 30
+    },
+    {
+      "caller": "configConsole",
+      "callee_text": "render",
+      "kind": "this",
+      "receiver": "this.render",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 32
+    },
+    {
+      "caller": "configConsole",
+      "callee_text": "setProperty",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 36
+    },
+    {
+      "caller": "configConsole",
+      "callee_text": "castValue",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 36
+    },
+    {
+      "caller": "configConsole",
+      "callee_text": "stringify",
+      "kind": "static",
+      "receiver": "JSON",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 38
+    },
+    {
+      "caller": "configConsole",
+      "callee_text": "dump",
+      "kind": "method",
+      "receiver": "yaml",
+      "receiver_type_hint": null,
+      "callee_file_hint": "js-yaml",
+      "line": 38
+    },
+    {
+      "caller": "configConsole",
+      "callee_text": "writeFile",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-fs",
+      "line": 40
+    },
+    {
+      "caller": "getProperty",
+      "callee_text": "split",
+      "kind": "method",
+      "receiver": "key",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 45
+    },
+    {
+      "caller": "setProperty",
+      "callee_text": "split",
+      "kind": "method",
+      "receiver": "key",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 56
+    },
+    {
+      "caller": "setProperty",
+      "callee_text": "pop",
+      "kind": "method",
+      "receiver": "split",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 58
+    },
+    {
+      "caller": "castValue",
+      "callee_text": "Number",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 84
+    },
+    {
+      "caller": "castValue",
+      "callee_text": "isNaN",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 85
+    }
+  ],
+  "callable_refs": []
+}

@@ -1,0 +1,13 @@
+{
+  "key": "b0b75f03a64cafe24f1cbb30eb7bf978cc5634a72fdf76a49e1fd1dc4d44ad3a",
+  "model": "harness-qwen15b",
+  "prompt_version": "refs-strict-v1-ca2cfcfbecef+json",
+  "file_sha": "be519e078dea29bc1410d9f629eb7c2629f1e21a0c3e7b2ee1e9e2158e50ebdf",
+  "relative_path": "src/intersection.ts",
+  "response": "{\"calls\": [], \"callable_refs\": [{\"caller\": \"intersection\", \"callee_text\": \"lazyImplementation\"}, {\"caller\": \"intersection\", \"callee_text\": \"lazyEmptyEvaluator\"}]}",
+  "created": "2026-08-09T05:46:27+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1277,
+  "completion_tokens": 39
+}

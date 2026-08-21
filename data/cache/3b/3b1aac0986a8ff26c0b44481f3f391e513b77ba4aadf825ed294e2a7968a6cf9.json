@@ -1,0 +1,13 @@
+{
+  "key": "3b1aac0986a8ff26c0b44481f3f391e513b77ba4aadf825ed294e2a7968a6cf9",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "383924399a85fb1dbafc071b0441223e8250a5d5e105d33503c34c76ea0e3a3c",
+  "relative_path": "src/findLastIndex.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"findLastIndex\", \"callee_text\": \"purry\"},\n  {\"caller\": \"findLastIndexImplementation\", \"callee_text\": \"for\"},\n  {\"caller\": \"findLastIndexImplementation\", \"callee_text\": \"predicate\"},\n  {\"caller\": \"findLastIndexImplementation\", \"callee_text\": \"data\"},\n  {\"caller\": \"findLastIndexImplementation\", \"callee_text\": \"i\"},\n  {\"caller\": \"findLastIndexImplementation\", \"callee_text\": \"return\"}\n]}",
+  "created": "2026-08-08T22:54:14+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1091,
+  "completion_tokens": 109
+}

@@ -1,0 +1,88 @@
+{
+  "relative_path": "lib/extend/console.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "Console.get",
+      "callee_text": "toLowerCase",
+      "kind": "method",
+      "receiver": "name",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 56
+    },
+    {
+      "caller": "Console.register",
+      "callee_text": "TypeError",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 76
+    },
+    {
+      "caller": "Console.register",
+      "callee_text": "TypeError",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 90
+    },
+    {
+      "caller": "Console.register",
+      "callee_text": "TypeError",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 99
+    },
+    {
+      "caller": "Console.register",
+      "callee_text": "promisify",
+      "kind": "static",
+      "receiver": "Promise",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 105
+    },
+    {
+      "caller": "Console.register",
+      "callee_text": "method",
+      "kind": "static",
+      "receiver": "Promise",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 107
+    },
+    {
+      "caller": "Console.register",
+      "callee_text": "toLowerCase",
+      "kind": "method",
+      "receiver": "name",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 111
+    },
+    {
+      "caller": "Console.register",
+      "callee_text": "abbrev",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "abbrev",
+      "line": 115
+    },
+    {
+      "caller": "Console.register",
+      "callee_text": "keys",
+      "kind": "static",
+      "receiver": "Object",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 115
+    }
+  ],
+  "callable_refs": []
+}

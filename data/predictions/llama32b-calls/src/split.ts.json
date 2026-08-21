@@ -1,0 +1,7 @@
+{"calls": [
+  {"caller": "split", "callee_text": "String.prototype.split"},
+  {"caller": "split", "callee_text": "pipe"},
+  {"caller": "split", "callee_text": "dataFirst"},
+  {"caller": "split", "callee_text": "dataLast"},
+  {"caller": "split", "callee_text": "split"}
+]}

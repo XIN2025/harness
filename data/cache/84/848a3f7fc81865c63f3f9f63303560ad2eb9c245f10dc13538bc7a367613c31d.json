@@ -1,0 +1,13 @@
+{
+  "key": "848a3f7fc81865c63f3f9f63303560ad2eb9c245f10dc13538bc7a367613c31d",
+  "model": "harness-qwen15b",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "5ad35fb348f291d04557027dc4c39358fd3957b7cebad193c9c0d27057e60c15",
+  "relative_path": "src/omit.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"omit\", \"callee_text\": \"purry\"},\n  {\"caller\": \"omitImplementation\", \"callee_text\": \"hasAtLeast\"},\n  {\"caller\": \"omitImplementation\", \"callee_text\": \"keys\"},\n  {\"caller\": \"omitImplementation\", \"callee_text\": \"data\"},\n  {\"caller\": \"omitImplementation\", \"callee_text\": \"keys\"},\n  {\"caller\": \"omitImplementation\", \"callee_text\": \"data\"},\n  {\"caller\": \"omitImplementation\", \"callee_text\": \"keys\"},\n  {\"caller\": \"omitImplementation\", \"callee_text\": \"data\"}\n]}",
+  "created": "2026-08-08T22:19:40+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 2095,
+  "completion_tokens": 128
+}

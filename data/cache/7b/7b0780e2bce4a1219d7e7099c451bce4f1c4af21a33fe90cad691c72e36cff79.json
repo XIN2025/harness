@@ -1,0 +1,13 @@
+{
+  "key": "7b0780e2bce4a1219d7e7099c451bce4f1c4af21a33fe90cad691c72e36cff79",
+  "model": "harness-qwen15b",
+  "prompt_version": "ours-v1-5c74cf9a927a",
+  "file_sha": "fecd72658f4c7524672f71a01897bb83174ae4d8a5102f7ea8c8d22d94e678e5",
+  "relative_path": "src/sortBy.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"sortBy\",\n    \"firstBy\",\n    \"takeFirstBy\",\n    \"dropFirstBy\",\n    \"nthBy\",\n    \"rankBy\"\n  ],\n  \"references\": [],\n  \"calls\": [],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"sortBy\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"data\",\n          \"type\": \"IterableContainer\"\n        },\n        {\n          \"name\": \"sortRules\",\n          \"type\": \"NonEmptyArray<OrderRule<T[number]>>\"\n        }\n      ],\n      \"returns\": \"ReorderedArray<T>\",\n      \"line\": 1\n    },\n    {\n      \"name\": \"sortBy\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"array\",\n          \"type\": \"IterableContainer\"\n        },\n        {\n          \"name\": \"sortRules\",\n          \"type\": \"NonEmptyArray<OrderRule<T[number]>>\"\n        }\n      ],\n      \"returns\": \"ReorderedArray<T>\",\n      \"line\": 1\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:44:19+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1485,
+  "completion_tokens": 271
+}

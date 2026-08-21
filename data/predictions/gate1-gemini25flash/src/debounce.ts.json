@@ -1,0 +1,93 @@
+```json
+{
+  "definitions": [
+    "debounce"
+  ],
+  "references": [
+    {
+      "name": "StrictFunction",
+      "source": "./internal/types/StrictFunction",
+      "alias": null
+    }
+  ],
+  "calls": [
+    {
+      "caller": "debounce",
+      "callee_text": "Error",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 49
+    },
+    {
+      "caller": "debounce",
+      "callee_text": "toString",
+      "kind": "method",
+      "receiver": "maxWaitMs",
+      "receiver_type_hint": "Number",
+      "callee_file_hint": "external",
+      "line": 49
+    },
+    {
+      "caller": "debounce",
+      "callee_text": "toString",
+      "kind": "method",
+      "receiver": "waitMs",
+      "receiver_type_hint": "Number",
+      "callee_file_hint": "external",
+      "line": 49
+    },
+    {
+      "caller": "debounce",
+      "callee_text": "clearTimeout",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 70
+    },
+    {
+      "caller": "debounce",
+      "callee_text": "Error",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 79
+    },
+    {
+      "caller": "debounce",
+      "callee_text": "func",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 86
+    },
+    {
+      "caller": "debounce",
+      "callee_text": "clearTimeout",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 100
+    },
+    {
+      "caller": "debounce",
+      "callee_text": "handleInvoke",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 105
+    },
+    {
+      "caller": "debounce",
+      "callee_text": "setTimeout",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line

@@ -1,0 +1,1 @@
+{"calls": [], "callable_refs": [{"caller": "piped", "callee_text": "pipe"}, {"caller": "pipe", "callee_text": "identity"}]}

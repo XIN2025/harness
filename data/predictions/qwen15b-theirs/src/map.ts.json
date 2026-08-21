@@ -1,0 +1,21 @@
+```json
+{
+  "definitions": [
+    "map",
+    "mapImplementation",
+    "lazyImplementation"
+  ],
+  "references": [
+    {"name": "map", "source": "./src/map.ts"},
+    {"name": "mapImplementation", "source": "./src/map.ts"},
+    {"name": "lazyImplementation", "source": "./src/map.ts"}
+  ],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": [
+    {"name": "map", "kind": "function", "parent": null, "bases": [], "params": [{"name": "data", "type": "IterableContainer"}, {"name": "callbackfn", "type": "(value: T[number], index: number, data: readonly T[]) => U"}], "returns": "Mapped<T, U>", "line": 1},
+    {"name": "mapImplementation", "kind": "function", "parent": null, "bases": [], "params": [{"name": "data", "type": "readonly T[]"}, {"name": "callbackfn", "type": "(value: T[number], index: number, data: readonly T[]) => U"}], "returns": "Mapped<T, U>", "line": 10},
+    {"name": "lazyImplementation", "kind": "function", "parent": null, "bases": [], "params": [{"name": "callbackfn", "type": "(value: T[number], index: number, data: readonly T[]) => U"}], "returns": "LazyEvaluator<T, U>", "line": 19}
+  ]
+}
+```

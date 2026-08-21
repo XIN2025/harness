@@ -1,0 +1,77 @@
+```json
+{
+  "definitions": [
+    "purry",
+    "lazyDataLastImpl",
+    "StrictFunction",
+    "LazyEvaluator"
+  ],
+  "references": [],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "purry",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "StrictFunction"
+        },
+        {
+          "name": "args",
+          "type": "readonly unknown[]"
+        },
+        {
+          "name": "lazy",
+          "type": "LazyEvaluator | undefined"
+        }
+      ],
+      "returns": "unknown",
+      "line": 1
+    },
+    {
+      "name": "lazyDataLastImpl",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "StrictFunction"
+        },
+        {
+          "name": "args",
+          "type": "readonly unknown[]"
+        },
+        {
+          "name": "lazy",
+          "type": "LazyEvaluator | undefined"
+        }
+      ],
+      "returns": "(array: T[]) => number",
+      "line": 10
+    },
+    {
+      "name": "StrictFunction",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [],
+      "returns": "unknown",
+      "line": 23
+    },
+    {
+      "name": "LazyEvaluator",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [],
+      "returns": "unknown",
+      "line": 28
+    }
+  ]
+}
+```

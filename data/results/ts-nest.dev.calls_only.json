@@ -1,0 +1,38 @@
+{
+  "arm": "ts-nest",
+  "split": "dev",
+  "cut": "calls_only",
+  "validity": {
+    "total": 43,
+    "raw_valid": 43,
+    "parseable": 43,
+    "schema_valid": 43
+  },
+  "counts": {
+    "tp": 271,
+    "fp": 0,
+    "fn": 0,
+    "unscored": 43,
+    "files": 43
+  },
+  "metrics": {
+    "precision": {
+      "point": 1.0,
+      "low": 1.0,
+      "high": 1.0,
+      "method": "percentile"
+    },
+    "recall": {
+      "point": 1.0,
+      "low": 1.0,
+      "high": 1.0,
+      "method": "percentile"
+    },
+    "f1": {
+      "point": 1.0,
+      "low": 1.0,
+      "high": 1.0,
+      "method": "percentile"
+    }
+  }
+}

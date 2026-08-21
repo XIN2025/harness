@@ -1,0 +1,1 @@
+{"callable_refs": [{"caller": "drop", "callee_text": "dropImplementation"}, {"caller": "drop", "callee_text": "lazyImplementation"}]}

@@ -1,0 +1,13 @@
+{
+  "key": "922a2d7ee0507706ce12439deddf96a93c448da34f0ad51bbe436bee8ba25957",
+  "model": "harness-qwen15b",
+  "prompt_version": "ours-v1-5c74cf9a927a",
+  "file_sha": "c0cb203f156052f700038dd0eef746a0b6000792aae6d7891763d64f4c7ae2d3",
+  "relative_path": "src/divide.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    {\n      \"name\": \"divide\",\n      \"kind\": \"function\"\n    },\n    {\n      \"name\": \"purry\",\n      \"kind\": \"function\"\n    }\n  ],\n  \"references\": [],\n  \"calls\": [\n    {\n      \"caller\": \"__module__\",\n      \"callee_text\": \"divide\",\n      \"kind\": \"method\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": \"src/divide.ts\",\n      \"line\": 1\n    },\n    {\n      \"caller\": \"__module__\",\n      \"callee_text\": \"reduce\",\n      \"kind\": \"method\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": \"src/divide.ts\",\n      \"line\": 2\n    },\n    {\n      \"caller\": \"__module__\",\n      \"callee_text\": \"map\",\n      \"kind\": \"method\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": \"src/divide.ts\",\n      \"line\": 3\n    }\n  ],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"divide\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"value\",\n          \"kind\": \"param\"\n        },\n        {\n          \"name\": \"divisor\",\n          \"kind\": \"param\"\n        }\n      ],\n      \"returns\": {\n        \"type\": \"number\",\n        \"type_module\": null,\n        \"from_call\": false\n      },\n      \"line\": 1\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:32:01+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 629,
+  "completion_tokens": 369
+}

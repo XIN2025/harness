@@ -1,0 +1,66 @@
+```json
+{
+  "definitions": [
+    "pick",
+    "pipe",
+    "purr"
+  ],
+  "references": [
+    {"name": "type-fest", "source": "./node_modules/type-fest"},
+    {"name": "@mui/material", "source": "./node_modules/@mui/material"}
+  ],
+  "calls": [
+    {
+      "caller": "pick",
+      "callee_text": "pipe",
+      "kind": "hook",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 1
+    },
+    {
+      "caller": "pick",
+      "callee_text": "purr",
+      "kind": "hook",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 2
+    }
+  ],
+  "type_assignments": [
+    {"scope": "module", "var": "pipe", "type": "Function", "type_module": "./node_modules/type-fest"},
+    {"scope": "module", "var": "purr", "type": "Function", "type_module": "./node_modules/type-fest"}
+  ],
+  "definitions_rich": [
+    {
+      "name": "pick",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "keys", "type": "readonly KeysOfUnion<T>[]"}],
+      "returns": "PickFromArray<T, Keys>",
+      "line": 1
+    },
+    {
+      "name": "pipe",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "data", "type": "T"}, {"name": "keys", "type": "readonly KeysOfUnion<T>[]"}],
+      "returns": "PickFromArray<T, Keys>",
+      "line": 2
+    },
+    {
+      "name": "purr",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "data", "type": "T"}, {"name": "keys", "type": "readonly KeysOfUnion<T>[]"}],
+      "returns": "PickFromArray<T, Keys>",
+      "line": 3
+    }
+  ]
+}
+```

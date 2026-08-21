@@ -1,0 +1,7 @@
+{
+  "calls": [],
+  "callable_refs": [
+    {"caller": "floor", "callee_text": "withPrecision"},
+    {"caller": "floor", "callee_text": "Math.floor"}
+  ]
+}

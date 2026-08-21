@@ -1,0 +1,13 @@
+{
+  "key": "cbf0fa38290bf258b8d4c03d99fdd6598251c2d7a3fcf675ded1d6d76106eb5e",
+  "model": "harness-qwen15b",
+  "prompt_version": "refs-strict-v1-ca2cfcfbecef+json",
+  "file_sha": "58adb932c593ca4f02ef9e1062a00e5406fe6781d9578cef22feb5f648693219",
+  "relative_path": "src/internal/purryOrderRules.ts",
+  "response": "{\n  \"calls\": [],\n  \"callable_refs\": [\n    {\n      \"caller\": \"purryOrderRules\",\n      \"callee_text\": \"orderRuleComparer\"\n    },\n    {\n      \"caller\": \"purryOrderRulesWithArgument\",\n      \"callee_text\": \"orderRuleComparer\"\n    }\n  ]\n}",
+  "created": "2026-08-09T05:46:13+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 2099,
+  "completion_tokens": 66
+}

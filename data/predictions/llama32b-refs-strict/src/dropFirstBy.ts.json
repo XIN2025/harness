@@ -1,0 +1,6 @@
+{"callable_refs": [
+  {"caller": "dropFirstBy", "callee_text": "dropFirstByImplementation"},
+  {"caller": "dropFirstBy", "callee_text": "purryOrderRulesWithArgument"},
+  {"caller": "dropFirstByImplementation", "callee_text": "heapify"},
+  {"caller": "dropFirstByImplementation", "callee_text": "heapMaybeInsert"}
+]}

@@ -1,0 +1,13 @@
+{
+  "key": "f1d979ebf7a24a0fa364b05aeeca82c17458a3e34febf64217fb9f594535da0d",
+  "model": "harness-qwen15b",
+  "prompt_version": "ours-v1-5c74cf9a927a",
+  "file_sha": "7a5d018c4c93a58167f972cb6ce4333a6355f3925795c629265b2391b13c28e6",
+  "relative_path": "src/partialLastBind.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"PartialLastBindError\",\n    \"TupleSuffix\",\n    \"RemoveSuffix\",\n    \"StrictFunction\",\n    \"TupleSplits\"\n  ],\n  \"references\": [],\n  \"calls\": [],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"partialLastBind\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"func\",\n          \"type\": \"StrictFunction\"\n        },\n        {\n          \"name\": \"partial\",\n          \"type\": \"TupleSuffix<Parameters<F>>\"\n        }\n      ],\n      \"returns\": \"ReturnType<F>\"\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:39:55+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1132,
+  "completion_tokens": 158
+}

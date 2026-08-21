@@ -1,0 +1,107 @@
+```json
+{
+  "definitions": [
+    "hasAtLeast",
+    "ArrayRequiredPrefix",
+    "IsNumericLiteral",
+    "IterableContainer",
+    "purry",
+    "type-fest",
+    "internal/types/IterableContainer",
+    "internal/types/ArrayRequiredPrefix"
+  ],
+  "references": [],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "hasAtLeast",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "IterableContainer | T"
+        },
+        {
+          "name": "minimum",
+          "type": "IsNumericLiteral<N> extends true ? N : never"
+        }
+      ],
+      "returns": "data is ArrayRequiredPrefix<T, N>"
+    },
+    {
+      "name": "ArrayRequiredPrefix",
+      "kind": "interface",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "T",
+          "type": "IterableContainer"
+        },
+        {
+          "name": "N",
+          "type": "number"
+        }
+      ],
+      "returns": "data is ArrayRequiredPrefix<T, N>"
+    },
+    {
+      "name": "IsNumericLiteral",
+      "kind": "interface",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "N",
+          "type": "number"
+        }
+      ],
+      "returns": "true | false"
+    },
+    {
+      "name": "IterableContainer",
+      "kind": "interface",
+      "parent": "__module__",
+      "bases": [],
+      "params": []
+    },
+    {
+      "name": "purry",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "Function"
+        }
+      ],
+      "returns": "Function"
+    },
+    {
+      "name": "type-fest",
+      "kind": "namespace",
+      "parent": "__module__",
+      "bases": [],
+      "params": []
+    },
+    {
+      "name": "internal/types/IterableContainer",
+      "kind": "interface",
+      "parent": "__module__",
+      "bases": [],
+      "params": []
+    },
+    {
+      "name": "internal/types/ArrayRequiredPrefix",
+      "kind": "interface",
+      "parent": "__module__",
+      "bases": [],
+      "params": []
+    }
+  ]
+}
+```

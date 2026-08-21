@@ -1,0 +1,340 @@
+{
+  "relative_path": "module-utils/configurable-module.builder.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "__module__",
+      "callee_text": "Logger",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../services/logger.service",
+      "line": 68
+    },
+    {
+      "caller": "ConfigurableModuleBuilder.setExtras",
+      "callee_text": "ConfigurableModuleBuilder",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 109
+    },
+    {
+      "caller": "ConfigurableModuleBuilder.setClassMethodName",
+      "callee_text": "ConfigurableModuleBuilder",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 132
+    },
+    {
+      "caller": "ConfigurableModuleBuilder.setFactoryMethodName",
+      "callee_text": "ConfigurableModuleBuilder",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 156
+    },
+    {
+      "caller": "ConfigurableModuleBuilder.build",
+      "callee_text": "constructInjectionTokenString",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 180
+    },
+    {
+      "caller": "ConfigurableModuleBuilder.build",
+      "callee_text": "generateOptionsInjectionToken",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./utils",
+      "line": 181
+    },
+    {
+      "caller": "ConfigurableModuleBuilder.build",
+      "callee_text": "createConfigurableModuleCls",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 186
+    },
+    {
+      "caller": "ConfigurableModuleBuilder.build",
+      "callee_text": "createTypeProxy",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 188
+    },
+    {
+      "caller": "ConfigurableModuleBuilder.build",
+      "callee_text": "createTypeProxy",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 189
+    },
+    {
+      "caller": "ConfigurableModuleBuilder.constructInjectionTokenString",
+      "callee_text": "toUpperCase",
+      "kind": "this",
+      "receiver": "this.options\n      .moduleName!.trim()\n      .split(/(?=[A-Z])/)\n      .join('_')",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 194
+    },
+    {
+      "caller": "ConfigurableModuleBuilder.constructInjectionTokenString",
+      "callee_text": "join",
+      "kind": "this",
+      "receiver": "this.options\n      .moduleName!.trim()\n      .split(/(?=[A-Z])/)",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 194
+    },
+    {
+      "caller": "ConfigurableModuleBuilder.constructInjectionTokenString",
+      "callee_text": "split",
+      "kind": "this",
+      "receiver": "this.options\n      .moduleName!.trim()",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 194
+    },
+    {
+      "caller": "ConfigurableModuleBuilder.constructInjectionTokenString",
+      "callee_text": "trim",
+      "kind": "this",
+      "receiver": "this.options\n      .moduleName!",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 194
+    },
+    {
+      "caller": "ConfigurableModuleBuilder.createConfigurableModuleCls",
+      "callee_text": "omitExtras",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 218
+    },
+    {
+      "caller": "ConfigurableModuleBuilder.createConfigurableModuleCls",
+      "callee_text": "push",
+      "kind": "method",
+      "receiver": "providers",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 222
+    },
+    {
+      "caller": "ConfigurableModuleBuilder.createConfigurableModuleCls",
+      "callee_text": "randomStringGenerator",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../utils/random-string-generator.util",
+      "line": 224
+    },
+    {
+      "caller": "ConfigurableModuleBuilder.createConfigurableModuleCls",
+      "callee_text": "transformModuleDefinition",
+      "kind": "method",
+      "receiver": "self",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 227
+    },
+    {
+      "caller": "ConfigurableModuleBuilder.createConfigurableModuleCls",
+      "callee_text": "createAsyncProviders",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 243
+    },
+    {
+      "caller": "ConfigurableModuleBuilder.createConfigurableModuleCls",
+      "callee_text": "push",
+      "kind": "method",
+      "receiver": "providers",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 245
+    },
+    {
+      "caller": "ConfigurableModuleBuilder.createConfigurableModuleCls",
+      "callee_text": "randomStringGenerator",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../utils/random-string-generator.util",
+      "line": 247
+    },
+    {
+      "caller": "ConfigurableModuleBuilder.createConfigurableModuleCls",
+      "callee_text": "transformModuleDefinition",
+      "kind": "method",
+      "receiver": "self",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 250
+    },
+    {
+      "caller": "ConfigurableModuleBuilder.createConfigurableModuleCls",
+      "callee_text": "extractExtrasFromAsyncOptions",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 258
+    },
+    {
+      "caller": "ConfigurableModuleBuilder.createConfigurableModuleCls",
+      "callee_text": "keys",
+      "kind": "static",
+      "receiver": "Object",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 271
+    },
+    {
+      "caller": "ConfigurableModuleBuilder.createConfigurableModuleCls",
+      "callee_text": "forEach",
+      "kind": "method",
+      "receiver": "Object.keys(input as object)\n          .filter(key => !extrasKeys.includes(key))",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 273
+    },
+    {
+      "caller": "ConfigurableModuleBuilder.createConfigurableModuleCls",
+      "callee_text": "filter",
+      "kind": "method",
+      "receiver": "Object.keys(input as object)",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 273
+    },
+    {
+      "caller": "ConfigurableModuleBuilder.createConfigurableModuleCls",
+      "callee_text": "keys",
+      "kind": "static",
+      "receiver": "Object",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 273
+    },
+    {
+      "caller": "ConfigurableModuleBuilder.createConfigurableModuleCls",
+      "callee_text": "includes",
+      "kind": "method",
+      "receiver": "extrasKeys",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 274
+    },
+    {
+      "caller": "ConfigurableModuleBuilder.createConfigurableModuleCls",
+      "callee_text": "forEach",
+      "kind": "method",
+      "receiver": "Object.keys(input as object)\n          .filter(key => !ASYNC_OPTIONS_METADATA_KEYS.includes(key as any))",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 291
+    },
+    {
+      "caller": "ConfigurableModuleBuilder.createConfigurableModuleCls",
+      "callee_text": "filter",
+      "kind": "method",
+      "receiver": "Object.keys(input as object)",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 291
+    },
+    {
+      "caller": "ConfigurableModuleBuilder.createConfigurableModuleCls",
+      "callee_text": "keys",
+      "kind": "static",
+      "receiver": "Object",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 291
+    },
+    {
+      "caller": "ConfigurableModuleBuilder.createConfigurableModuleCls",
+      "callee_text": "includes",
+      "kind": "static",
+      "receiver": "ASYNC_OPTIONS_METADATA_KEYS",
+      "receiver_type_hint": null,
+      "callee_file_hint": "./constants",
+      "line": 292
+    },
+    {
+      "caller": "ConfigurableModuleBuilder.createConfigurableModuleCls",
+      "callee_text": "createAsyncOptionsProvider",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 307
+    },
+    {
+      "caller": "ConfigurableModuleBuilder.createConfigurableModuleCls",
+      "callee_text": "getInjectionProviders",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./utils",
+      "line": 308
+    },
+    {
+      "caller": "ConfigurableModuleBuilder.createConfigurableModuleCls",
+      "callee_text": "createAsyncOptionsProvider",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 314
+    },
+    {
+      "caller": "ConfigurableModuleBuilder.createConfigurableModuleCls",
+      "callee_text": "createAsyncOptionsProvider",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 317
+    },
+    {
+      "caller": "ConfigurableModuleBuilder.createTypeProxy",
+      "callee_text": "Proxy",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 360
+    },
+    {
+      "caller": "ConfigurableModuleBuilder.createTypeProxy",
+      "callee_text": "Error",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 364
+    }
+  ],
+  "callable_refs": []
+}

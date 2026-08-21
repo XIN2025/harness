@@ -1,0 +1,12 @@
+```json
+{
+  "definitions": ["set", "setImplementation"],
+  "references": [
+    {"name": "set", "source": "./src/set.ts"},
+    {"name": "setImplementation", "source": "./src/set.ts"}
+  ],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": []
+}
+```

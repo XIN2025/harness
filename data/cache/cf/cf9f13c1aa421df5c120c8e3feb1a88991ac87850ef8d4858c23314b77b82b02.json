@@ -1,0 +1,13 @@
+{
+  "key": "cf9f13c1aa421df5c120c8e3feb1a88991ac87850ef8d4858c23314b77b82b02",
+  "model": "harness-qwen15b",
+  "prompt_version": "ours-v1-5c74cf9a927a",
+  "file_sha": "7e3ae89c322adb419d4a078d5e6f8f9ccbf52a3ca027529e0cc88a4d3c9c9989",
+  "relative_path": "src/internal/purryFromLazy.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    {\n      \"name\": \"purryFromLazy\",\n      \"kind\": \"function\"\n    },\n    {\n      \"name\": \"lazy\",\n      \"kind\": \"function\"\n    }\n  ],\n  \"references\": [],\n  \"calls\": [\n    {\n      \"caller\": \"__module__\",\n      \"callee_text\": \"pipe\",\n      \"kind\": \"method\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": \"src/internal/purryFromLazy.ts\",\n      \"line\": 1\n    },\n    {\n      \"caller\": \"__module__\",\n      \"callee_text\": \"pipe\",\n      \"kind\": \"method\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": \"src/internal/purryFromLazy.ts\",\n      \"line\": 2\n    }\n  ],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"purryFromLazy\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [],\n      \"returns\": null,\n      \"line\": 1\n    },\n    {\n      \"name\": \"lazy\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [],\n      \"returns\": null,\n      \"line\": 2\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:36:49+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 741,
+  "completion_tokens": 304
+}

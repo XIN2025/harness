@@ -1,0 +1,25 @@
+{
+  "relative_path": "src/reduce.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "reduce",
+      "callee_text": "purry",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./purry",
+      "line": 72
+    },
+    {
+      "caller": "reduceImplementation",
+      "callee_text": "reduce",
+      "kind": "method",
+      "receiver": "data",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 86
+    }
+  ],
+  "callable_refs": []
+}

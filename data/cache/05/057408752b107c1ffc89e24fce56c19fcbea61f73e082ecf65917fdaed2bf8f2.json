@@ -1,0 +1,13 @@
+{
+  "key": "057408752b107c1ffc89e24fce56c19fcbea61f73e082ecf65917fdaed2bf8f2",
+  "model": "harness-llama32b",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "89bfa962dc86544b014b67fa0e542c0e7c34e5569b80ae3e6f5aa90af791fec4",
+  "relative_path": "src/internal/withPrecision.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"withPrecision\", \"callee_text\": \"Number.parseInt\"},\n  {\"caller\": \"withPrecision\", \"callee_text\": \"toString\"},\n  {\"caller\": \"withPrecision\", \"callee_text\": \"split\"},\n  {\"caller\": \"withPrecision\", \"callee_text\": \"e\"},\n  {\"caller\": \"withPrecision\", \"callee_text\": \"toString\"},\n  {\"caller\": \"withPrecision\", \"callee_text\": \"Number.parseFloat\"}\n]}",
+  "created": "2026-08-08T22:43:25+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 837,
+  "completion_tokens": 99
+}

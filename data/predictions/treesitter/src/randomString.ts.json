@@ -1,0 +1,52 @@
+{
+  "relative_path": "src/randomString.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "randomString",
+      "callee_text": "purry",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./purry",
+      "line": 40
+    },
+    {
+      "caller": "randomStringImplementation",
+      "callee_text": "floor",
+      "kind": "static",
+      "receiver": "Math",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 46
+    },
+    {
+      "caller": "randomStringImplementation",
+      "callee_text": "random",
+      "kind": "static",
+      "receiver": "Math",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 46
+    },
+    {
+      "caller": "randomStringImplementation",
+      "callee_text": "push",
+      "kind": "method",
+      "receiver": "out",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 47
+    },
+    {
+      "caller": "randomStringImplementation",
+      "callee_text": "join",
+      "kind": "method",
+      "receiver": "out",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 49
+    }
+  ],
+  "callable_refs": []
+}

@@ -1,0 +1,38 @@
+{
+  "arm": "qwen15b-ours",
+  "split": "dev",
+  "cut": "full",
+  "validity": {
+    "total": 112,
+    "raw_valid": 0,
+    "parseable": 106,
+    "schema_valid": 106
+  },
+  "counts": {
+    "tp": 0,
+    "fp": 1,
+    "fn": 454,
+    "unscored": 57,
+    "files": 112
+  },
+  "metrics": {
+    "precision": {
+      "point": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "method": "percentile"
+    },
+    "recall": {
+      "point": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "method": "percentile"
+    },
+    "f1": {
+      "point": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "method": "percentile"
+    }
+  }
+}

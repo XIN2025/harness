@@ -1,0 +1,13 @@
+{
+  "key": "8e25baf13cad172573a106a48ff2d5e36a8d2d68a48d72ae8a118c8bc2d5e342",
+  "model": "harness-qwen15b",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "39294110c2d89cbe5a94fd4752b0d6fc590d11f5386beae1d94a3d020023d14f",
+  "relative_path": "src/randomString.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"randomString\", \"callee_text\": \"ALPHABET\"},\n  {\"caller\": \"randomStringImplementation\", \"callee_text\": \"Math.random\"},\n  {\"caller\": \"randomStringImplementation\", \"callee_text\": \"Math.floor\"},\n  {\"caller\": \"randomStringImplementation\", \"callee_text\": \"ALPHABET.length\"},\n  {\"caller\": \"randomStringImplementation\", \"callee_text\": \"out.push\"},\n  {\"caller\": \"randomStringImplementation\", \"callee_text\": \"out.join\"}\n]}",
+  "created": "2026-08-08T22:21:19+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 855,
+  "completion_tokens": 112
+}

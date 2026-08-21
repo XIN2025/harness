@@ -1,0 +1,59 @@
+```json
+{
+  "definitions": [
+    "pullObject",
+    "pullObjectImplementation"
+  ],
+  "references": [],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "pullObject",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "IterableContainer"
+        },
+        {
+          "name": "keyExtractor",
+          "type": "(item: T[number], index: number, data: T) => K"
+        },
+        {
+          "name": "valueExtractor",
+          "type": "(item: T[number], index: number, data: T) => V"
+        }
+      ],
+      "returns": {
+        "type": "BoundedPartial<Record<K, V>>"
+      }
+    },
+    {
+      "name": "pullObjectImplementation",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "IterableContainer"
+        },
+        {
+          "name": "keyExtractor",
+          "type": "(item: T[number], index: number, data: T) => K"
+        },
+        {
+          "name": "valueExtractor",
+          "type": "(item: T[number], index: number, data: T) => V"
+        }
+      ],
+      "returns": {
+        "type": "Partial<Record<K, V>>"
+      }
+    }
+  ]
+}
+```

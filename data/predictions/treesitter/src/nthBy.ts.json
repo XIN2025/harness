@@ -1,0 +1,25 @@
+{
+  "relative_path": "src/nthBy.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "nthBy",
+      "callee_text": "purryOrderRulesWithArgument",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./internal/purryOrderRules",
+      "line": 53
+    },
+    {
+      "caller": "nthByImplementation",
+      "callee_text": "quickSelect",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./internal/quickSelect",
+      "line": 61
+    }
+  ],
+  "callable_refs": []
+}

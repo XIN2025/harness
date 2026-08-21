@@ -1,0 +1,11 @@
+```json
+{
+  "definitions": ["words"],
+  "references": [
+    {"name": "words", "source": "./src/internal/words.ts"}
+  ],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": []
+}
+```

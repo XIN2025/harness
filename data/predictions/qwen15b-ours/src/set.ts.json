@@ -1,0 +1,54 @@
+```json
+{
+  "definitions": [
+    {
+      "name": "set",
+      "kind": "function"
+    },
+    {
+      "name": "addProp",
+      "kind": "function"
+    },
+    {
+      "name": "pipe",
+      "kind": "function"
+    }
+  ],
+  "references": [],
+  "calls": [
+    {
+      "caller": "__module__",
+      "callee_text": "set",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "src/set.ts",
+      "line": 1
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "pipe",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "src/set.ts",
+      "line": 2
+    }
+  ],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "UpsertProp",
+      "kind": "interface"
+    },
+    {
+      "name": "addProp",
+      "kind": "function"
+    },
+    {
+      "name": "pipe",
+      "kind": "function"
+    }
+  ]
+}
+```

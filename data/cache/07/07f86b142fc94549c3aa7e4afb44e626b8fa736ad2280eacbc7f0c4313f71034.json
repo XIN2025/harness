@@ -1,0 +1,13 @@
+{
+  "key": "07f86b142fc94549c3aa7e4afb44e626b8fa736ad2280eacbc7f0c4313f71034",
+  "model": "harness-llama32b",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "90177693fd890d54e8a171f69eedb19bc0e4460c2fc745195cff5274fcba097d",
+  "relative_path": "src/hasProp.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"hasProp\", \"callee_text\": \"purry\"},\n  {\"caller\": \"hasPropImplementation\", \"callee_text\": \"Object.hasOwn\"}\n]}",
+  "created": "2026-08-08T22:39:55+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1336,
+  "completion_tokens": 41
+}

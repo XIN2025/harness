@@ -1,0 +1,22 @@
+```json
+{
+  "definitions": ["median", "numberComparator", "medianImplementation"],
+  "references": [
+    {"name": "median", "source": "./src/median.ts"},
+    {"name": "numberComparator", "source": "./src/median.ts"},
+    {"name": "medianImplementation", "source": "./src/median.ts"}
+  ],
+  "calls": [
+    {"caller": "median", "callee_text": "medianImplementation", "kind": "free",
+     "receiver": null, "receiver_type_hint": null, "callee_file_hint": "./src/median.ts", "line": 15},
+    {"caller": "median", "callee_text": "medianImplementation", "kind": "free",
+     "receiver": null, "receiver_type_hint": null, "callee_file_hint": "./src/median.ts", "line": 20}
+  ],
+  "type_assignments": [],
+  "definitions_rich": [
+    {"name": "median", "kind": "function", "parent": null, "bases": [], "params": [], "returns": "Median<T>", "line": 1},
+    {"name": "numberComparator", "kind": "function", "parent": null, "bases": [], "params": [], "returns": "number", "line": 3},
+    {"name": "medianImplementation", "kind": "function", "parent": null, "bases": [], "params": [{"name":"data","type":"T"}], "returns": "Median<T>", "line": 15}
+  ]
+}
+```

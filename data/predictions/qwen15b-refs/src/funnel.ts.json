@@ -1,0 +1,9 @@
+{
+  "calls": [],
+  "callable_refs": [
+    {"caller": "funnel", "callee_text": "call"},
+    {"caller": "funnel", "callee_text": "cancel"},
+    {"caller": "funnel", "callee_text": "flush"},
+    {"caller": "funnel", "callee_text": "isIdle"}
+  ]
+}

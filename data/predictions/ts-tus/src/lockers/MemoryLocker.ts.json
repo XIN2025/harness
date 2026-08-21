@@ -1,0 +1,259 @@
+{
+  "relative_path": "src/lockers/MemoryLocker.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "__module__",
+      "callee_text": "Map",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 34
+    },
+    {
+      "caller": "MemoryLocker.newLock",
+      "callee_text": "MemoryLock",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 41
+    },
+    {
+      "caller": "MemoryLock.lock",
+      "callee_text": "AbortController",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 53
+    },
+    {
+      "caller": "MemoryLock.lock",
+      "callee_text": "abort",
+      "kind": "method",
+      "receiver": "abortController",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 55
+    },
+    {
+      "caller": "MemoryLock.lock",
+      "callee_text": "addEventListener",
+      "kind": "method",
+      "receiver": "stopSignal",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 57
+    },
+    {
+      "caller": "MemoryLock.lock",
+      "callee_text": "race",
+      "kind": "static",
+      "receiver": "Promise",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 60
+    },
+    {
+      "caller": "MemoryLock.lock",
+      "callee_text": "waitTimeout",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 61
+    },
+    {
+      "caller": "MemoryLock.lock",
+      "callee_text": "acquireLock",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 62
+    },
+    {
+      "caller": "MemoryLock.lock",
+      "callee_text": "removeEventListener",
+      "kind": "method",
+      "receiver": "stopSignal",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 69
+    },
+    {
+      "caller": "MemoryLock.lock",
+      "callee_text": "abort",
+      "kind": "method",
+      "receiver": "abortController",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 70
+    },
+    {
+      "caller": "MemoryLock.acquireLock",
+      "callee_text": "get",
+      "kind": "this",
+      "receiver": "this.locker.locks",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 79
+    },
+    {
+      "caller": "MemoryLock.acquireLock",
+      "callee_text": "set",
+      "kind": "this",
+      "receiver": "this.locker.locks",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 89
+    },
+    {
+      "caller": "MemoryLock.acquireLock",
+      "callee_text": "requestRelease",
+      "kind": "method",
+      "receiver": "lock",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 93
+    },
+    {
+      "caller": "MemoryLock.acquireLock",
+      "callee_text": "Promise",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 95
+    },
+    {
+      "caller": "MemoryLock.acquireLock",
+      "callee_text": "setImmediate",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 100
+    },
+    {
+      "caller": "MemoryLock.acquireLock",
+      "callee_text": "catch",
+      "kind": "this",
+      "receiver": "this.acquireLock(id, requestRelease, signal).then(resolve)",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 101
+    },
+    {
+      "caller": "MemoryLock.acquireLock",
+      "callee_text": "then",
+      "kind": "this",
+      "receiver": "this.acquireLock(id, requestRelease, signal)",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 101
+    },
+    {
+      "caller": "MemoryLock.acquireLock",
+      "callee_text": "acquireLock",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 101
+    },
+    {
+      "caller": "MemoryLock.unlock",
+      "callee_text": "get",
+      "kind": "this",
+      "receiver": "this.locker.locks",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 107
+    },
+    {
+      "caller": "MemoryLock.unlock",
+      "callee_text": "Error",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 109
+    },
+    {
+      "caller": "MemoryLock.unlock",
+      "callee_text": "delete",
+      "kind": "this",
+      "receiver": "this.locker.locks",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 112
+    },
+    {
+      "caller": "MemoryLock.waitTimeout",
+      "callee_text": "Promise",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 116
+    },
+    {
+      "caller": "MemoryLock.waitTimeout",
+      "callee_text": "setTimeout",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 117
+    },
+    {
+      "caller": "MemoryLock.waitTimeout",
+      "callee_text": "resolve",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 118
+    },
+    {
+      "caller": "MemoryLock.waitTimeout",
+      "callee_text": "clearTimeout",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 122
+    },
+    {
+      "caller": "MemoryLock.waitTimeout",
+      "callee_text": "removeEventListener",
+      "kind": "method",
+      "receiver": "signal",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 123
+    },
+    {
+      "caller": "MemoryLock.waitTimeout",
+      "callee_text": "resolve",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 124
+    },
+    {
+      "caller": "MemoryLock.waitTimeout",
+      "callee_text": "addEventListener",
+      "kind": "method",
+      "receiver": "signal",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 126
+    }
+  ],
+  "callable_refs": []
+}

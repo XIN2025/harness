@@ -1,0 +1,11 @@
+```json
+{
+  "definitions": ["keys"],
+  "references": [
+    {"name": "keys", "source": "./src/keys.ts"}
+  ],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": []
+}
+```

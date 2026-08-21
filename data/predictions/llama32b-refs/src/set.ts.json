@@ -1,0 +1,1 @@
+{"callable_refs": [{"caller": "set", "callee_text": "setImplementation"}, {"caller": "setImplementation", "callee_text": "defaultCompare"}, {"caller": "setImplementation", "callee_text": "identity"}]}

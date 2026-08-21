@@ -1,0 +1,13 @@
+{
+  "key": "f02fa42d1edf05ba538a5c1b65b3c397870822d0a43fcf2711af7a799b9dda4c",
+  "model": "harness-qwen15b",
+  "prompt_version": "refs-v1-7386a79c1ab2+json",
+  "file_sha": "47a74f0a70b6494dd3cbf092b5ff3e34a0d9c696c9957631fa36c7c4458d75ab",
+  "relative_path": "src/mapKeys.ts",
+  "response": "{\n  \"calls\": [],\n  \"callable_refs\": [\n    {\"caller\": \"mapKeys\", \"callee_text\": \"mapKeysImplementation\"},\n    {\"caller\": \"mapKeysImplementation\", \"callee_text\": \"keyMapper\"}\n  ]\n}",
+  "created": "2026-08-08T22:27:52+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1230,
+  "completion_tokens": 50
+}

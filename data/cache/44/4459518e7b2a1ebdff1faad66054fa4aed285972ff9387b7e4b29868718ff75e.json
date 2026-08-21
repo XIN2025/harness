@@ -1,0 +1,13 @@
+{
+  "key": "4459518e7b2a1ebdff1faad66054fa4aed285972ff9387b7e4b29868718ff75e",
+  "model": "harness-qwen15b",
+  "prompt_version": "ours-v1-5c74cf9a927a",
+  "file_sha": "338296079ba09bc18b676384852c8d2a4eedf7116f407ae1d670a235631a6eb1",
+  "relative_path": "src/evolve.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"GenericEvolver\",\n    \"Evolver\",\n    \"Evolved\",\n    \"evolve\",\n    \"evolveImplementation\"\n  ],\n  \"references\": [],\n  \"calls\": [],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"GenericEvolver\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [],\n      \"returns\": null,\n      \"line\": 1\n    },\n    {\n      \"name\": \"Evolver\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"T\",\n          \"type\": \"object\"\n        }\n      ],\n      \"returns\": null,\n      \"line\": 10\n    },\n    {\n      \"name\": \"Evolved\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"T\",\n          \"type\": \"object\"\n        },\n        {\n          \"name\": \"E\",\n          \"type\": \"Evolver<T>\"\n        }\n      ],\n      \"returns\": null,\n      \"line\": 19\n    },\n    {\n      \"name\": \"evolve\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"T extends object, E extends Evolver<T>\",\n          \"type\": \"unknown\"\n        }\n      ],\n      \"returns\": \"unknown\",\n      \"line\": 28\n    },\n    {\n      \"name\": \"evolveImplementation\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"data: unknown, evolver: GenericEvolver\",\n          \"type\": \"unknown\"\n        }\n      ],\n      \"returns\": \"unknown\",\n      \"line\": 45\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:34:10+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1537,
+  "completion_tokens": 432
+}

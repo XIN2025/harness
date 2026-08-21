@@ -1,0 +1,259 @@
+{
+  "relative_path": "lib/plugins/helper/tagcloud.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "tagcloudHelper",
+      "callee_text": "call",
+      "kind": "method",
+      "receiver": "Object.prototype.hasOwnProperty",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 25
+    },
+    {
+      "caller": "tagcloudHelper",
+      "callee_text": "TypeError",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 50
+    },
+    {
+      "caller": "tagcloudHelper",
+      "callee_text": "TypeError",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 51
+    },
+    {
+      "caller": "tagcloudHelper",
+      "callee_text": "Color",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-util",
+      "line": 53
+    },
+    {
+      "caller": "tagcloudHelper",
+      "callee_text": "Color",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-util",
+      "line": 54
+    },
+    {
+      "caller": "tagcloudHelper",
+      "callee_text": "random",
+      "kind": "method",
+      "receiver": "tags",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 59
+    },
+    {
+      "caller": "tagcloudHelper",
+      "callee_text": "sort",
+      "kind": "method",
+      "receiver": "tags",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 61
+    },
+    {
+      "caller": "tagcloudHelper",
+      "callee_text": "limit",
+      "kind": "method",
+      "receiver": "tags",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 66
+    },
+    {
+      "caller": "tagcloudHelper",
+      "callee_text": "forEach",
+      "kind": "method",
+      "receiver": "tags.sort('length')",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 71
+    },
+    {
+      "caller": "tagcloudHelper",
+      "callee_text": "sort",
+      "kind": "method",
+      "receiver": "tags",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 71
+    },
+    {
+      "caller": "tagcloudHelper",
+      "callee_text": "includes",
+      "kind": "method",
+      "receiver": "sizes",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 73
+    },
+    {
+      "caller": "tagcloudHelper",
+      "callee_text": "push",
+      "kind": "method",
+      "receiver": "sizes",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 75
+    },
+    {
+      "caller": "tagcloudHelper",
+      "callee_text": "forEach",
+      "kind": "method",
+      "receiver": "tags",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 80
+    },
+    {
+      "caller": "tagcloudHelper",
+      "callee_text": "indexOf",
+      "kind": "method",
+      "receiver": "sizes",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 81
+    },
+    {
+      "caller": "tagcloudHelper",
+      "callee_text": "parseFloat",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 83
+    },
+    {
+      "caller": "tagcloudHelper",
+      "callee_text": "toFixed",
+      "kind": "method",
+      "receiver": "size",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 83
+    },
+    {
+      "caller": "tagcloudHelper",
+      "callee_text": "round",
+      "kind": "static",
+      "receiver": "Math",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 84
+    },
+    {
+      "caller": "tagcloudHelper",
+      "callee_text": "mix",
+      "kind": "method",
+      "receiver": "startColor",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 87
+    },
+    {
+      "caller": "tagcloudHelper",
+      "callee_text": "toString",
+      "kind": "method",
+      "receiver": "midColor",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 88
+    },
+    {
+      "caller": "tagcloudHelper",
+      "callee_text": "push",
+      "kind": "method",
+      "receiver": "result",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 91
+    },
+    {
+      "caller": "tagcloudHelper",
+      "callee_text": "call",
+      "kind": "method",
+      "receiver": "url_for",
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-util",
+      "line": 92
+    },
+    {
+      "caller": "tagcloudHelper",
+      "callee_text": "transform",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 92
+    },
+    {
+      "caller": "tagcloudHelper",
+      "callee_text": "join",
+      "kind": "method",
+      "receiver": "result",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 96
+    },
+    {
+      "caller": "tagcloudHelperFactory",
+      "callee_text": "call",
+      "kind": "method",
+      "receiver": "Object.prototype.hasOwnProperty",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 101
+    },
+    {
+      "caller": "tagcloudHelperFactory",
+      "callee_text": "toArray",
+      "kind": "method",
+      "receiver": "tags",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 107
+    },
+    {
+      "caller": "tagcloudHelperFactory",
+      "callee_text": "call",
+      "kind": "method",
+      "receiver": "moize(tagcloudHelper.bind(this), {\n    maxSize: 5,\n    isDeepEqual: true,\n    transformArgs\n  })",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 110
+    },
+    {
+      "caller": "tagcloudHelperFactory",
+      "callee_text": "moize",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "moize",
+      "line": 110
+    },
+    {
+      "caller": "tagcloudHelperFactory",
+      "callee_text": "bind",
+      "kind": "method",
+      "receiver": "tagcloudHelper",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 110
+    }
+  ],
+  "callable_refs": []
+}

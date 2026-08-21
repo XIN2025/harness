@@ -1,0 +1,4 @@
+{"calls": [
+  {"caller": "sortedLastIndexBy", "callee_text": "purry"},
+  {"caller": "sortedLastIndexByImplementation", "callee_text": "binarySearchCutoffIndex"}
+]}

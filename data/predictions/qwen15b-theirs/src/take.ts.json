@@ -1,0 +1,21 @@
+```json
+{
+  "definitions": [
+    "take",
+    "takeImplementation",
+    "lazyImplementation"
+  ],
+  "references": [
+    {"name": "take", "source": "./src/take.ts"},
+    {"name": "takeImplementation", "source": "./src/take.ts"},
+    {"name": "lazyImplementation", "source": "./src/take.ts"}
+  ],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": [
+    {"name": "take", "kind": "function", "parent": null, "bases": [], "params": [{"name": "array", "type": "IterableContainer"}, {"name": "n", "type": "number"}], "returns": "T[number][]", "line": 1},
+    {"name": "takeImplementation", "kind": "function", "parent": null, "bases": [], "params": [{"name": "array", "type": "IterableContainer"}, {"name": "n", "type": "number"}], "returns": "T[number][]", "line": 10},
+    {"name": "lazyImplementation", "kind": "function", "parent": null, "bases": [], "params": [{"name": "n", "type": "number"}], "returns": "LazyEvaluator<T>", "line": 23}
+  ]
+}
+```

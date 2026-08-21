@@ -1,0 +1,13 @@
+{
+  "key": "6ee69148bb8d05c427733b6e2680fbab5224e2b6e06baf32950cbf8c3347d742",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "e5a9c8abf6191c6292f80144f4afb58bb85b34b084029bfbf33531436802d069",
+  "relative_path": "src/product.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"product\", \"callee_text\": \"purry\"},\n  {\"caller\": \"productImplementation\", \"callee_text\": \"typeof\"},\n  {\"caller\": \"productImplementation\", \"callee_text\": \"out\"},\n  {\"caller\": \"productImplementation\", \"callee_text\": \"data[0]\"},\n  {\"caller\": \"productImplementation\", \"callee_text\": \"value\"},\n  {\"caller\": \"productImplementation\", \"callee_text\": \"*=\"},\n  {\"caller\": \"productImplementation\", \"callee_text\": \"out\"},\n  {\"caller\": \"productImplementation\", \"__module__\": \"src/product.ts\"}\n]}",
+  "created": "2026-08-08T23:07:39+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1170,
+  "completion_tokens": 131
+}

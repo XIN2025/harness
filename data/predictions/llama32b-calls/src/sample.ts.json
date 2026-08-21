@@ -1,0 +1,12 @@
+{"calls": [
+  {"caller": "sample", "callee_text": "purry"},
+  {"caller": "sampleImplementation", "callee_text": "filter"},
+  {"caller": "sampleImplementation", "callee_text": "has"},
+  {"caller": "sampleImplementation", "callee_text": "map"},
+  {"caller": "sampleImplementation", "callee_text": "sort"},
+  {"caller": "sampleImplementation", "callee_text": "reduce"},
+  {"caller": "sampleImplementation", "callee_text": "isNaN"},
+  {"caller": "sampleImplementation", "callee_text": "format"},
+  {"caller": "sampleImplementation", "callee_text": "round"},
+  {"caller": "sampleImplementation", "callee_text": "precisionOf"}
+]}

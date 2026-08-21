@@ -1,0 +1,13 @@
+{
+  "key": "7b54a06ab66f91f10a11e3a5f060b9c02d859aba9c81322d285dfeff8686cecb",
+  "model": "harness-qwen15b",
+  "prompt_version": "ours-v1-5c74cf9a927a",
+  "file_sha": "3c8bfd5405faabff54a47a6aa9fd1dba3ab1cb644c8d9814066c80b8916a9c49",
+  "relative_path": "src/isEmpty.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"isEmpty\",\n    \"isEmptyish\",\n    \"hasAtLeast\",\n    \"isStrictEqual\",\n    \"isNullish\",\n    \"isTruthy\"\n  ],\n  \"references\": [],\n  \"calls\": [\n    {\n      \"caller\": \"__module__\",\n      \"callee_text\": \"isEmpty\",\n      \"kind\": \"method\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": \"src/isEmpty.ts\",\n      \"line\": 1\n    },\n    {\n      \"caller\": \"__module__\",\n      \"callee_text\": \"isEmpty\",\n      \"kind\": \"method\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": \"src/isEmpty.ts\",\n      \"line\": 2\n    }\n  ],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"isEmpty\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [],\n      \"returns\": {\n        \"scope\": null,\n        \"var\": null,\n        \"type\": \"boolean\",\n        \"type_module\": null,\n        \"from_call\": false\n      },\n      \"line\": 1\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:37:39+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 848,
+  "completion_tokens": 275
+}

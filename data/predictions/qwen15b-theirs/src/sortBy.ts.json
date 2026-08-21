@@ -1,0 +1,59 @@
+```json
+{
+  "definitions": [
+    "sortBy",
+    "prop",
+    "purryOrderRules",
+    "type",
+    "IterableContainer",
+    "NonEmptyArray",
+    "ReorderedArray"
+  ],
+  "references": [
+    {"name": "sortBy", "source": "./src/sortBy.ts"},
+    {"name": "prop", "source": "./src/sortBy.ts"},
+    {"name": "purryOrderRules", "source": "./src/internal/purryOrderRules.ts"},
+    {"name": "type", "source": "./src/internal/types/Type.ts"},
+    {"name": "IterableContainer", "source": "./src/internal/types/IterableContainer.ts"},
+    {"name": "NonEmptyArray", "source": "./src/internal/types/NonEmptyArray.ts"},
+    {"name": "ReorderedArray", "source": "./src/internal/types/ReorderedArray.ts"}
+  ],
+  "calls": [
+    {
+      "caller": "sortBy",
+      "callee_text": "prop('a')",
+      "kind": "method",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "a", "type": null}],
+      "returns": null,
+      "line": 1
+    }
+  ],
+  "type_assignments": [
+    {"scope": "module", "var": "sortBy", "type": "function", "type_module": "./src/sortBy.ts"},
+    {"scope": "module", "var": "prop", "type": "function", "type_module": "./src/sortBy.ts"},
+    {"scope": "module", "var": "purryOrderRules", "type": "function", "type_module": "./src/internal/purryOrderRules.ts"}
+  ],
+  "definitions_rich": [
+    {
+      "name": "sortBy",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "data", "type": "IterableContainer"}],
+      "returns": "ReorderedArray<IterableContainer>",
+      "line": 1
+    },
+    {
+      "name": "prop",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "key", "type": "string"}],
+      "returns": "any",
+      "line": 2
+    }
+  ]
+}
+```

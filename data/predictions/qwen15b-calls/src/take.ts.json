@@ -1,0 +1,4 @@
+{"calls": [
+  {"caller": "take", "callee_text": "purry"},
+  {"caller": "takeImplementation", "callee_text": "slice"}
+]}

@@ -1,0 +1,13 @@
+{
+  "key": "b0d4443c2b198b59e6c75e24e6c54ddac96e552cbd24e425cba18de55f8e42c3",
+  "model": "harness-qwen15b",
+  "prompt_version": "ours-v1-5c74cf9a927a",
+  "file_sha": "e51653f72ff630ab4a58c8a96ed9d95d3b3fa7b22e88b6aa710ab0bdde984276",
+  "relative_path": "src/split.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    {\n      \"name\": \"BuiltInReturnType\",\n      \"kind\": \"type_alias\"\n    },\n    {\n      \"name\": \"SplitBase\",\n      \"kind\": \"interface\"\n    }\n  ],\n  \"references\": [],\n  \"calls\": [\n    {\n      \"caller\": \"__module__\",\n      \"callee_text\": \"split\",\n      \"kind\": \"method\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": \"src/split.ts\",\n      \"line\": 10\n    },\n    {\n      \"caller\": \"__module__\",\n      \"callee_text\": \"split\",\n      \"kind\": \"method\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": \"src/split.ts\",\n      \"line\": 24\n    }\n  ],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"Split\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [\"SplitBase\"],\n      \"params\": [\n        {\n          \"name\": \"data\",\n          \"kind\": \"param\"\n        },\n        {\n          \"name\": \"separator\",\n          \"kind\": \"param\"\n        },\n        {\n          \"name\": \"limit\",\n          \"kind\": \"param\"\n        }\n      ],\n      \"returns\": \"SplitBase<S, Separator, N>\",\n      \"line\": 10\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:46:22+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1368,
+  "completion_tokens": 320
+}

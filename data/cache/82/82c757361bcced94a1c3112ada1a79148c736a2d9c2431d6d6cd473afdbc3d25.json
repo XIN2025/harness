@@ -1,0 +1,13 @@
+{
+  "key": "82c757361bcced94a1c3112ada1a79148c736a2d9c2431d6d6cd473afdbc3d25",
+  "model": "harness-qwen15b",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "c59582fe2c11fdf31393cff4fbd74fd6e67eddab651e5a636141425462824bea",
+  "relative_path": "src/funnel.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"funnel\", \"callee_text\": \"call\"},\n  {\"caller\": \"funnel\", \"callee_text\": \"cancel\"},\n  {\"caller\": \"funnel\", \"callee_text\": \"flush\"},\n  {\"caller\": \"funnel\", \"callee_text\": \"isIdle\"}\n]}",
+  "created": "2026-08-08T22:16:53+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 3336,
+  "completion_tokens": 67
+}

@@ -1,0 +1,16 @@
+{
+  "relative_path": "src/isPlainObject.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "isPlainObject",
+      "callee_text": "getPrototypeOf",
+      "kind": "static",
+      "receiver": "Object",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 36
+    }
+  ],
+  "callable_refs": []
+}

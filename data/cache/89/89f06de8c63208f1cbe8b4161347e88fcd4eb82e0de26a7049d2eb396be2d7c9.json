@@ -1,0 +1,13 @@
+{
+  "key": "89f06de8c63208f1cbe8b4161347e88fcd4eb82e0de26a7049d2eb396be2d7c9",
+  "model": "harness-qwen15b",
+  "prompt_version": "ours-v1-5c74cf9a927a",
+  "file_sha": "29ec3ae67ae4776fb7c08b4367985531ba05076c12c17173c71d893c9456cc23",
+  "relative_path": "src/stringToPath.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"stringToPath\",\n    \"IsNumericLiteral\",\n    \"IsStringLiteral\"\n  ],\n  \"references\": [],\n  \"calls\": [],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"stringToPath\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [],\n      \"returns\": [\"StringToPath\"],\n      \"line\": 1\n    },\n    {\n      \"name\": \"IsNumericLiteral\",\n      \"kind\": \"type_alias\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [],\n      \"returns\": [\"boolean\"],\n      \"line\": 2\n    },\n    {\n      \"name\": \"IsStringLiteral\",\n      \"kind\": \"type_alias\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [],\n      \"returns\": [\"boolean\"],\n      \"line\": 3\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:46:33+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1982,
+  "completion_tokens": 218
+}

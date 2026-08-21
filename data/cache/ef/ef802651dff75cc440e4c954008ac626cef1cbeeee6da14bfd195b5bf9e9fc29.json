@@ -1,0 +1,13 @@
+{
+  "key": "ef802651dff75cc440e4c954008ac626cef1cbeeee6da14bfd195b5bf9e9fc29",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "refs-strict-v1-ca2cfcfbecef+json",
+  "file_sha": "89bfa962dc86544b014b67fa0e542c0e7c34e5569b80ae3e6f5aa90af791fec4",
+  "relative_path": "src/internal/withPrecision.ts",
+  "response": "{\"calls\": [], \"callable_refs\": [{\"caller\": \"withPrecision\", \"callee_text\": \"shiftDecimalPoint\"}]}",
+  "created": "2026-08-09T06:02:23+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 933,
+  "completion_tokens": 26
+}

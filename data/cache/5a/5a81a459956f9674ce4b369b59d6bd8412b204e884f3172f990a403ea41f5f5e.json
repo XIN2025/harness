@@ -1,0 +1,10 @@
+{
+  "key": "5a81a459956f9674ce4b369b59d6bd8412b204e884f3172f990a403ea41f5f5e",
+  "model": "gemini-3.5-flash",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "78abc81dd0a0401a76bb96d4fda26bdbcf236cab026e630834cb42548a5eb2e5",
+  "relative_path": "src/ceil.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"ceil\"\n  ],\n  \"references\": [\n    {\n      \"name\": \"withPrecision\",\n      \"source\": \"./internal/withPrecision\",\n      \"alias\": null\n    },\n    {\n      \"name\": \"purry\",\n      \"source\": \"./purry\",\n      \"alias\": null\n    }\n  ],\n  \"calls\": [\n    {\n      \"caller\": \"ceil\",\n      \"callee_text\": \"purry\",\n      \"kind\": \"free\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": \"./purry\",\n      \"line\": 43\n    },\n    {\n      \"caller\": \"ceil\",\n      \"callee_text\": \"withPrecision\",\n      \"kind\": \"free\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": \"./internal/withPrecision\",\n      \"line\": 43\n    }\n  ],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"ceil\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"args\",\n          \"type\": \"readonly unknown[]\"\n        }\n      ],\n      \"returns\": \"unknown\",\n      \"line\": 42\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T16:18:42+00:00",
+  "finish_reason": "stop"
+}

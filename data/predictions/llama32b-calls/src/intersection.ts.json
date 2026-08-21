@@ -1,0 +1,19 @@
+{"calls": [
+  {"caller": "intersection", "callee_text": "__module__"},
+  {"caller": "intersection", "callee_text": "purryFromLazy"},
+  {"caller": "intersection", "callee_text": "lazyImplementation"},
+  {"caller": "intersection", "callee_text": "Map"},
+  {"caller": "intersection", "callee_text": "remaining.set"},
+  {"caller": "intersection", "callee_text": "other.length"},
+  {"caller": "intersection", "callee_text": "for"},
+  {"caller": "intersection", "callee_text": "value of"},
+  {"caller": "intersection", "callee_text": "remaining.get"},
+  {"caller": "intersection", "callee_text": "copies === undefined"},
+  {"caller": "intersection", "callee_text": "copies === 0"},
+  {"caller": "intersection", "callee_text": "return SKIP_ITEM"},
+  {"caller": "intersection", "callee_text": "if copies === 1"},
+  {"caller": "intersection", "callee_text": "remaining.delete"},
+  {"caller": "intersection", "callee_text": "else remaining.set"},
+  {"caller": "intersection", "callee_text": "value as S & T"},
+  {"caller": "intersection", "callee_text": "done: remaining.size === 0"}
+]}

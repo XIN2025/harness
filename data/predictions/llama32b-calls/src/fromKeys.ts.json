@@ -1,0 +1,11 @@
+{"calls": [
+  {"caller": "fromKeys", "callee_text": "purry"},
+  {"caller": "fromKeysImplementation", "callee_text": "entries"},
+  {"caller": "fromKeysImplementation", "callee_text": "for"},
+  {"caller": "fromKeysImplementation", "callee_text": "mapper"},
+  {"caller": "fromKeysImplementation", "callee_text": "key"},
+  {"caller": "fromKeysImplementation", "callee_text": "index"},
+  {"caller": "fromKeysImplementation", "callee_text": "data"},
+  {"caller": "fromKeysImplementation", "callee_text": "result"},
+  {"caller": "fromKeysImplementation", "callee_text": "Partial"}
+]}

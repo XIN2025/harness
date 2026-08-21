@@ -1,0 +1,13 @@
+{
+  "key": "65d6c47a6f5011ec62d10c91c1e54ced36481db062e080a9b9441710d067b61e",
+  "model": "harness-llama32b",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "be3323e0ad630e95e76340cd0f695dbb36ce391ebebf652da11334e99e46c4b3",
+  "relative_path": "src/difference.ts",
+  "response": "{\n  \"definitions\": [\"difference\", \"purryFromLazy\", \"lazyIdentityEvaluator\"],\n  \"references\": [\n    {\"name\": \"purryFromLazy\", \"source\": \"./internal/purryFromLazy\"},\n    {\"name\": \"LazyEvaluator\", \"source\": \"./internal/types/LazyEvaluator\"},\n    {\"name\": \"SKIP_ITEM\", \"source\": \"./internal/utilityEvaluators\"}\n  ],\n  \"calls\": [],\n  \"type_assignments\": [\n    {\"scope\": \"module\", \"var\": \"difference\", \"type\": \"function\", \"type_module\": \"src/difference.ts\"}\n  ],\n  \"definitions_rich\": [\n    {\"name\": \"difference\", \"kind\": \"function\", \"parent\": null, \"bases\": [], \"params\": [], \"returns\": null, \"line\": 1},\n    {\"name\": \"purryFromLazy\", \"kind\": \"function\", \"parent\": null, \"bases\": [], \"params\": [], \"returns\": null, \"line\": 2},\n    {\"name\": \"lazyIdentityEvaluator\", \"kind\": \"function\", \"parent\": null, \"bases\": [], \"params\": [], \"returns\": null, \"line\": 3}\n  ]\n}",
+  "created": "2026-08-08T21:16:53+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 8698,
+  "completion_tokens": 252
+}

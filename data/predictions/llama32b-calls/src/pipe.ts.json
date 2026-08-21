@@ -1,0 +1,11 @@
+{"calls": [
+  {"caller": "pipe", "callee_text": "prepareLazyFunction"},
+  {"caller": "pipe", "callee_text": "prepareLazyFunction"},
+  {"caller": "pipe", "callee_text": "processItem"},
+  {"caller": "pipe", "callee_text": "processItem"},
+  {"caller": "pipe", "callee_text": "processItem"},
+  {"caller": "pipe", "callee_text": "processItem"},
+  {"caller": "pipe", "callee_text": "prepareLazyFunction"},
+  {"caller": "pipe", "callee_text": "prepareLazyFunction"},
+  {"caller": "pipe", "callee_text": "isIterable"}
+]}

@@ -1,0 +1,13 @@
+{
+  "key": "a191a31da00bbf0c3642f61ac649e84981b555463c52481135ef54a0e1e66587",
+  "model": "harness-llama32b",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "7b09cbc083fdb6ae73fe013b645624ab8c37d26b367ed64567d6f1cdbdab279e",
+  "relative_path": "src/dropLastWhile.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"dropLastWhile\", \"callee_text\": \"purry\"},\n  {\"caller\": \"dropLastWhileImplementation\", \"callee_text\": \"slice\"},\n  {\"caller\": \"dropLastWhileImplementation\", \"callee_text\": \"data.length\"},\n  {\"caller\": \"dropLastWhileImplementation\", \"callee_text\": \"i\"},\n  {\"caller\": \"dropLastWhileImplementation\", \"callee_text\": \"predicate\"},\n  {\"caller\": \"dropLastWhileImplementation\", \"callee_text\": \"index\"},\n  {\"caller\": \"dropLastWhileImplementation\", \"callee_text\": \"data\"},\n  {\"caller\": \"dropLastWhileImplementation\", \"callee_text\": \"i\"},\n  {\"caller\": \"dropLastWhileImplementation\", \"callee_text\": \"return\"},\n  {\"caller\": \"dropLastWhileImplementation\", \"callee_text\": \"data\"},\n  {\"caller\": \"dropLastWhileImplementation\", \"callee_text\": \"slice\"},\n  {\"caller\": \"dropLastWhileImplementation\", \"callee_text\": \"0\"},\n  {\"caller\": \"dropLastWhileImplementation\", \"callee_text\": \"i\"},\n  {\"caller\": \"dropLastWhileImplementation\", \"callee_text\": \"data\"},\n  {\"caller\": \"dropLastWhileImplementation\", \"callee_text\": \"return\"}\n]}",
+  "created": "2026-08-08T22:35:53+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 956,
+  "completion_tokens": 262
+}

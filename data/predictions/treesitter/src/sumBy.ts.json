@@ -1,0 +1,52 @@
+{
+  "relative_path": "src/sumBy.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "sumBy",
+      "callee_text": "purry",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./purry",
+      "line": 84
+    },
+    {
+      "caller": "sumByImplementation",
+      "callee_text": "entries",
+      "kind": "method",
+      "receiver": "array",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 91
+    },
+    {
+      "caller": "sumByImplementation",
+      "callee_text": "next",
+      "kind": "method",
+      "receiver": "iter",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 93
+    },
+    {
+      "caller": "sumByImplementation",
+      "callee_text": "callbackfn",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 101
+    },
+    {
+      "caller": "sumByImplementation",
+      "callee_text": "callbackfn",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 103
+    }
+  ],
+  "callable_refs": []
+}

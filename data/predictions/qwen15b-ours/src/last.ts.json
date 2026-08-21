@@ -1,0 +1,91 @@
+```json
+{
+  "definitions": [
+    "last",
+    "LastArrayElement",
+    "IterableContainer",
+    "purry",
+    "type-fest",
+    "internal/types/IterableContainer",
+    "__module__"
+  ],
+  "references": [],
+  "calls": [
+    {
+      "caller": "__module__.last",
+      "callee_text": "last",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "src/last.ts",
+      "line": 1
+    },
+    {
+      "caller": "__module__.last",
+      "callee_text": "last",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "src/last.ts",
+      "line": 2
+    }
+  ],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "last",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [],
+      "returns": null,
+      "line": 1
+    },
+    {
+      "name": "LastArrayElement",
+      "kind": "type_alias",
+      "parent": "__module__",
+      "bases": [],
+      "params": [],
+      "returns": null,
+      "line": 2
+    },
+    {
+      "name": "IterableContainer",
+      "kind": "interface",
+      "parent": "__module__",
+      "bases": [],
+      "params": [],
+      "returns": null,
+      "line": 3
+    },
+    {
+      "name": "purry",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [],
+      "returns": null,
+      "line": 4
+    },
+    {
+      "name": "type-fest",
+      "kind": "constant",
+      "parent": "__module__",
+      "bases": [],
+      "params": [],
+      "returns": null,
+      "line": 5
+    },
+    {
+      "name": "internal/types/IterableContainer",
+      "kind": "interface",
+      "parent": "__module__",
+      "bases": [],
+      "params": [],
+      "returns": null,
+      "line": 6
+    }
+  ]
+}
+```

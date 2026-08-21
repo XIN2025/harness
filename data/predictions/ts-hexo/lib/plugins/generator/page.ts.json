@@ -1,0 +1,25 @@
+{
+  "relative_path": "lib/plugins/generator/page.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "pageGenerator",
+      "callee_text": "map",
+      "kind": "method",
+      "receiver": "locals.pages",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 12
+    },
+    {
+      "caller": "pageGenerator",
+      "callee_text": "unshift",
+      "kind": "method",
+      "receiver": "layouts",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 23
+    }
+  ],
+  "callable_refs": []
+}

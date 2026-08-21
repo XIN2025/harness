@@ -1,0 +1,13 @@
+{
+  "key": "7010cebf5455f6285df97706f28397fbe7db67be1eb524c3cc8ffbab41d956a2",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "refs-v1-7386a79c1ab2+json",
+  "file_sha": "dca4844f1391cb5f3ee13fbe61836923ce01c5e06469614207bf8ca610f980aa",
+  "relative_path": "src/when.ts",
+  "response": "{\"callable_refs\": [{\"caller\": \"when\", \"callee_text\": \"whenImplementation\"}]}",
+  "created": "2026-08-08T23:30:31+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1907,
+  "completion_tokens": 20
+}

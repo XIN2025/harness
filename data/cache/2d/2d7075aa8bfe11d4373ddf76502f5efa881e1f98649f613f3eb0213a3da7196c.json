@@ -1,0 +1,13 @@
+{
+  "key": "2d7075aa8bfe11d4373ddf76502f5efa881e1f98649f613f3eb0213a3da7196c",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "refs-v1-7386a79c1ab2+json",
+  "file_sha": "3bc0f57b69d88322a3f3b914bddb02b6af2830607c73b11fe7bd0fc315722307",
+  "relative_path": "src/splitWhen.ts",
+  "response": "{\"callable_refs\": [{\"caller\": \"splitWhen\", \"callee_text\": \"splitWhenImplementation\"}, {\"caller\": \"splitWhen\", \"callee_text\": \"predicate\"}]}",
+  "created": "2026-08-08T23:28:24+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 718,
+  "completion_tokens": 36
+}

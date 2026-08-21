@@ -1,0 +1,74 @@
+```json
+{
+  "definitions": [
+    "BoundedPartial",
+    "purry",
+    "indexBy",
+    "indexByImplementation"
+  ],
+  "references": [],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "BoundedPartial",
+      "kind": "interface",
+      "parent": null,
+      "bases": [],
+      "params": [],
+      "returns": null,
+      "line": 1
+    },
+    {
+      "name": "purry",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "Function"
+        }
+      ],
+      "returns": "unknown",
+      "line": 1
+    },
+    {
+      "name": "indexBy",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "readonly T[]"
+        },
+        {
+          "name": "mapper",
+          "type": "(item: T, index: number, data: readonly T[]) => K"
+        }
+      ],
+      "returns": "BoundedPartial<Record<K, T>>",
+      "line": 1
+    },
+    {
+      "name": "indexByImplementation",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "readonly T[]"
+        },
+        {
+          "name": "mapper",
+          "type": "(item: T, index: number, data: readonly T[]) => K"
+        }
+      ],
+      "returns": "BoundedPartial<Record<K, T>>",
+      "line": 1
+    }
+  ]
+}
+```

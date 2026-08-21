@@ -1,0 +1,13 @@
+{
+  "key": "2e563e75ecd4434f6e1b2b0b9daf310f3dda20a6c7c94b93d4f2a9d44bd33767",
+  "model": "harness-qwen15b",
+  "prompt_version": "refs-strict-v1-ca2cfcfbecef+json",
+  "file_sha": "dc59bf0d237410cf0e1aff16da87d6f78f66580f9f03f85322c465c093cba13c",
+  "relative_path": "src/concat.ts",
+  "response": "{\"calls\": [], \"callable_refs\": [{\"caller\": \"concat\", \"callee_text\": \"concatImplementation\"}]}",
+  "created": "2026-08-09T05:40:31+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 982,
+  "completion_tokens": 24
+}

@@ -1,0 +1,13 @@
+{
+  "key": "d27bab3f7d10913bd1fa8a5e03c1879acae54f932361b0c57a565b9b3e896a97",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "refs-strict-v1-ca2cfcfbecef+json",
+  "file_sha": "8e84cf51923b49c97f8229a5414602cbd70043c9bb9c2e35eb00a24896f335f8",
+  "relative_path": "src/pick.ts",
+  "response": "{\"callable_refs\": [{\"caller\": \"pick\", \"callee_text\": \"pickImplementation\"}]}",
+  "created": "2026-08-09T06:04:55+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 2086,
+  "completion_tokens": 20
+}

@@ -1,0 +1,13 @@
+{
+  "key": "08f49cac46a570c50bbd29ca1a5a75c4e2c88126227c60d9b1c3ca470bd7baf3",
+  "model": "harness-qwen15b",
+  "prompt_version": "refs-v1-7386a79c1ab2+json",
+  "file_sha": "dca4844f1391cb5f3ee13fbe61836923ce01c5e06469614207bf8ca610f980aa",
+  "relative_path": "src/when.ts",
+  "response": "{\n  \"calls\": [],\n  \"callable_refs\": [\n    {\n      \"caller\": \"when\",\n      \"callee_text\": \"whenImplementation\"\n    },\n    {\n      \"caller\": \"when\",\n      \"callee_text\": \"whenImplementation\"\n    }\n  ]\n}",
+  "created": "2026-08-08T22:31:28+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1902,
+  "completion_tokens": 56
+}

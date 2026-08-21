@@ -1,0 +1,68 @@
+```json
+{
+  "definitions": [
+    "swapProps",
+    "SwappedProps"
+  ],
+  "references": [],
+  "calls": [
+    {
+      "caller": "__module__",
+      "callee_text": "swapProps",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "src/swapProps.ts",
+      "line": 1
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "swapProps",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "src/swapProps.ts",
+      "line": 2
+    }
+  ],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "swapProps",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "T"
+        },
+        {
+          "name": "key1",
+          "type": "K1"
+        },
+        {
+          "name": "key2",
+          "type": "K2"
+        }
+      ],
+      "returns": "SwappedProps<T, K1, K2>",
+      "line": 1
+    },
+    {
+      "name": "SwappedProps",
+      "kind": "interface",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "T",
+          "type": "object"
+        }
+      ],
+      "returns": "Record<PropertyKey, unknown>",
+      "line": 1
+    }
+  ]
+}
+```

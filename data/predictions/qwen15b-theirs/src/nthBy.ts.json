@@ -1,0 +1,90 @@
+```json
+{
+  "definitions": [
+    "nthBy",
+    "quickSelect",
+    "identity",
+    "CompareFunction",
+    "IterableContainer",
+    "NonEmptyArray"
+  ],
+  "references": [
+    {"name": "nthBy", "source": "./src/nthBy.ts"},
+    {"name": "quickSelect", "source": "./src/nthBy.ts"},
+    {"name": "identity", "source": "./src/nthBy.ts"},
+    {"name": "CompareFunction", "source": "./src/nthBy.ts"},
+    {"name": "IterableContainer", "source": "./src/nthBy.ts"},
+    {"name": "NonEmptyArray", "source": "./src/nthBy.ts"}
+  ],
+  "calls": [
+    {
+      "caller": "nthBy",
+      "callee_text": "nthByImplementation",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./src/nthBy.ts",
+      "line": 1
+    }
+  ],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "nthBy",
+      "kind": "function",
+      "parent": null,
+      "bases": ["quickSelect", "identity"],
+      "params": [{"name": "data", "type": "readonly T[]"}, {"name": "compareFn", "type": "CompareFunction<T>"},
+                 {"name": "index", "type": "number"}],
+      "returns": "T | undefined",
+      "line": 1
+    },
+    {
+      "name": "quickSelect",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "data", "type": "readonly T[]"}, {"name": "index", "type": "number"},
+                 {"name": "compareFn", "type": "CompareFunction<T>"}],
+      "returns": "T",
+      "line": 1
+    },
+    {
+      "name": "identity",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [],
+      "returns": "T",
+      "line": 1
+    },
+    {
+      "name": "CompareFunction",
+      "kind": "interface",
+      "parent": null,
+      "bases": [],
+      "params": [],
+      "returns": "number",
+      "line": 1
+    },
+    {
+      "name": "IterableContainer",
+      "kind": "interface",
+      "parent": null,
+      "bases": [],
+      "params": [],
+      "returns": "T",
+      "line": 1
+    },
+    {
+      "name": "NonEmptyArray",
+      "kind": "interface",
+      "parent": null,
+      "bases": [],
+      "params": [],
+      "returns": "T",
+      "line": 1
+    }
+  ]
+}
+```

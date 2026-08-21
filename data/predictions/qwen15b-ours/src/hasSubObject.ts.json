@@ -1,0 +1,53 @@
+```json
+{
+  "definitions": [
+    "hasSubObject",
+    "HasSubObjectGuard",
+    "HasSubObjectObjectValue",
+    "HasSubObjectData",
+    "HasSubObjectSubObject",
+    "hasSubObjectImplementation"
+  ],
+  "references": [],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "hasSubObject",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "T"
+        },
+        {
+          "name": "subObject",
+          "type": "S"
+        }
+      ],
+      "returns": {
+        "type": "HasSubObjectGuard<T, S>"
+      },
+      "line": 1
+    },
+    {
+      "name": "hasSubObject",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "subObject",
+          "type": "S"
+        }
+      ],
+      "returns": {
+        "type": "HasSubObjectGuard<T, S>"
+      },
+      "line": 1
+    }
+  ]
+}
+```

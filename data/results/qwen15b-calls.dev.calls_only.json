@@ -1,0 +1,38 @@
+{
+  "arm": "qwen15b-calls",
+  "split": "dev",
+  "cut": "calls_only",
+  "validity": {
+    "total": 112,
+    "raw_valid": 108,
+    "parseable": 108,
+    "schema_valid": 108
+  },
+  "counts": {
+    "tp": 172,
+    "fp": 184,
+    "fn": 159,
+    "unscored": 35,
+    "files": 112
+  },
+  "metrics": {
+    "precision": {
+      "point": 0.48314606741573035,
+      "low": 0.40695483270099886,
+      "high": 0.5530440189887873,
+      "method": "BCa"
+    },
+    "recall": {
+      "point": 0.5196374622356495,
+      "low": 0.4123989218328841,
+      "high": 0.6057473536074452,
+      "method": "BCa"
+    },
+    "f1": {
+      "point": 0.5007278020378457,
+      "low": 0.4266304347826087,
+      "high": 0.5656565656565656,
+      "method": "BCa"
+    }
+  }
+}

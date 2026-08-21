@@ -1,0 +1,13 @@
+{
+  "key": "22401f515e632915546a1fdae1166691ed914b85ef85102dc33f7b4167916420",
+  "model": "harness-qwen15b",
+  "prompt_version": "ours-v1-5c74cf9a927a",
+  "file_sha": "5aefa9f87740e4e6be5daec9148097f1beb94244e73bfb833eb42d6420c272f4",
+  "relative_path": "src/sliceString.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    {\n      \"name\": \"sliceString\",\n      \"kind\": \"function\"\n    }\n  ],\n  \"references\": [],\n  \"calls\": [],\n  \"type_assignments\": [],\n  \"definitions_rich\": []\n}\n```",
+  "created": "2026-08-08T20:44:06+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 800,
+  "completion_tokens": 57
+}

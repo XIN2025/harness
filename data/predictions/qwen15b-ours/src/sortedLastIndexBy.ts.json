@@ -1,0 +1,69 @@
+```json
+{
+  "definitions": [
+    "sortedLastIndexBy",
+    "purry",
+    "binarySearchCutoffIndex"
+  ],
+  "references": [],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "sortedLastIndexBy",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "readonly T[]"
+        },
+        {
+          "name": "item",
+          "type": "T"
+        },
+        {
+          "name": "valueFunction",
+          "type": "(item: T, index?: number | undefined, data: readonly T[]) => NonNullable<unknown>"
+        }
+      ],
+      "returns": "number"
+    },
+    {
+      "name": "purry",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "(arg1: any, arg2: any, ...args: any[]) => any"
+        },
+        {
+          "name": "arity",
+          "type": "number"
+        }
+      ],
+      "returns": "(...args: any[]) => any"
+    },
+    {
+      "name": "binarySearchCutoffIndex",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "array",
+          "type": "readonly T[]"
+        },
+        {
+          "name": "predicate",
+          "type": "(pivot: T, index?: number | undefined, array: readonly T[]) => boolean"
+        }
+      ],
+      "returns": "number"
+    }
+  ]
+}
+```

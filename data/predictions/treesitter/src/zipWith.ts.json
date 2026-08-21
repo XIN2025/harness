@@ -1,0 +1,79 @@
+{
+  "relative_path": "src/zipWith.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "zipWith",
+      "callee_text": "zipWithImplementation",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 80
+    },
+    {
+      "caller": "zipWith",
+      "callee_text": "lazyDataLastImpl",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./internal/lazyDataLastImpl",
+      "line": 85
+    },
+    {
+      "caller": "zipWith",
+      "callee_text": "zipWithImplementation",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 96
+    },
+    {
+      "caller": "zipWithImplementation",
+      "callee_text": "map",
+      "kind": "method",
+      "receiver": "first",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 106
+    },
+    {
+      "caller": "zipWithImplementation",
+      "callee_text": "fn",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 106
+    },
+    {
+      "caller": "zipWithImplementation",
+      "callee_text": "map",
+      "kind": "method",
+      "receiver": "second",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 107
+    },
+    {
+      "caller": "zipWithImplementation",
+      "callee_text": "fn",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 107
+    },
+    {
+      "caller": "lazyImplementation",
+      "callee_text": "fn",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 116
+    }
+  ],
+  "callable_refs": []
+}

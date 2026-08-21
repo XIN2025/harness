@@ -1,0 +1,47 @@
+```json
+{
+  "definitions": [
+    "times",
+    "identity"
+  ],
+  "references": [
+    {"name": "identity", "source": "./src/times.ts"},
+    {"name": "timesImplementation", "source": "./src/times.ts"}
+  ],
+  "calls": [
+    {
+      "caller": "times",
+      "callee_text": "identity",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./src/times.ts",
+      "line": 10
+    }
+  ],
+  "type_assignments": [
+    {"scope": "module", "var": "times", "type": "function", "type_module": "src/times.ts"},
+    {"scope": "module", "var": "identity", "type": "function", "type_module": "src/times.ts"}
+  ],
+  "definitions_rich": [
+    {
+      "name": "times",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "count", "type": "number"}],
+      "returns": "T[]",
+      "line": 1
+    },
+    {
+      "name": "identity",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [],
+      "returns": "T",
+      "line": 2
+    }
+  ]
+}
+```

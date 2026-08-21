@@ -1,0 +1,20 @@
+{"file": "src/components/ErrorBoundary.tsx", "line": 32, "bucket": "jsx_component", "caller": "ErrorBoundary.render", "callee_text": "ErrorOverview", "source_line": "return <ErrorOverview error={this.state.error} />;"}
+{"file": "src/components/ErrorOverview.tsx", "line": 44, "bucket": "jsx_component", "caller": "ErrorOverview", "callee_text": "Box", "source_line": "<Box flexDirection=\"column\" padding={1}>"}
+{"file": "src/components/ErrorOverview.tsx", "line": 45, "bucket": "jsx_component", "caller": "ErrorOverview", "callee_text": "Box", "source_line": "<Box>"}
+{"file": "src/components/ErrorOverview.tsx", "line": 46, "bucket": "jsx_component", "caller": "ErrorOverview", "callee_text": "Text", "source_line": "<Text backgroundColor=\"red\" color=\"white\">"}
+{"file": "src/components/ErrorOverview.tsx", "line": 51, "bucket": "jsx_component", "caller": "ErrorOverview", "callee_text": "Text", "source_line": "<Text> {error.message}</Text>"}
+{"file": "src/components/ErrorOverview.tsx", "line": 55, "bucket": "jsx_component", "caller": "ErrorOverview", "callee_text": "Box", "source_line": "<Box marginTop={1}>"}
+{"file": "src/components/ErrorOverview.tsx", "line": 56, "bucket": "jsx_component", "caller": "ErrorOverview", "callee_text": "Text", "source_line": "<Text dimColor>"}
+{"file": "src/components/ErrorOverview.tsx", "line": 63, "bucket": "jsx_component", "caller": "ErrorOverview", "callee_text": "Box", "source_line": "<Box marginTop={1} flexDirection=\"column\">"}
+{"file": "src/components/ErrorOverview.tsx", "line": 65, "bucket": "jsx_component", "caller": "ErrorOverview", "callee_text": "Box", "source_line": "<Box key={line}>"}
+{"file": "src/components/ErrorOverview.tsx", "line": 66, "bucket": "jsx_component", "caller": "ErrorOverview", "callee_text": "Box", "source_line": "<Box width={lineWidth + 1}>"}
+{"file": "src/components/ErrorOverview.tsx", "line": 67, "bucket": "jsx_component", "caller": "ErrorOverview", "callee_text": "Text", "source_line": "<Text"}
+{"file": "src/components/ErrorOverview.tsx", "line": 81, "bucket": "jsx_component", "caller": "ErrorOverview", "callee_text": "Text", "source_line": "<Text"}
+{"file": "src/components/ErrorOverview.tsx", "line": 94, "bucket": "jsx_component", "caller": "ErrorOverview", "callee_text": "Box", "source_line": "<Box marginTop={1} flexDirection=\"column\">"}
+{"file": "src/components/ErrorOverview.tsx", "line": 109, "bucket": "jsx_component", "caller": "ErrorOverview", "callee_text": "Box", "source_line": "<Box key={key}>"}
+{"file": "src/components/ErrorOverview.tsx", "line": 110, "bucket": "jsx_component", "caller": "ErrorOverview", "callee_text": "Text", "source_line": "<Text dimColor>- </Text>"}
+{"file": "src/components/ErrorOverview.tsx", "line": 111, "bucket": "jsx_component", "caller": "ErrorOverview", "callee_text": "Text", "source_line": "<Text dimColor bold>"}
+{"file": "src/components/ErrorOverview.tsx", "line": 120, "bucket": "jsx_component", "caller": "ErrorOverview", "callee_text": "Box", "source_line": "<Box key={key}>"}
+{"file": "src/components/ErrorOverview.tsx", "line": 121, "bucket": "jsx_component", "caller": "ErrorOverview", "callee_text": "Text", "source_line": "<Text dimColor>- </Text>"}
+{"file": "src/components/ErrorOverview.tsx", "line": 122, "bucket": "jsx_component", "caller": "ErrorOverview", "callee_text": "Text", "source_line": "<Text dimColor bold>"}
+{"file": "src/components/ErrorOverview.tsx", "line": 125, "bucket": "jsx_component", "caller": "ErrorOverview", "callee_text": "Text", "source_line": "<Text"}

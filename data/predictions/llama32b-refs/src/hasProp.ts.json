@@ -1,0 +1,4 @@
+{"callable_refs": [
+  {"caller": "hasProp", "callee_text": "hasPropImplementation"},
+  {"caller": "hasPropImplementation", "callee_text": "Object.hasOwn"}
+]}

@@ -1,0 +1,6 @@
+{"calls": [
+  {"caller": "range", "callee_text": "purry"},
+  {"caller": "rangeImplementation", "callee_text": "Math.round"},
+  {"caller": "rangeImplementation", "callee_text": "Math.abs"},
+  {"caller": "rangeImplementation", "callee_text": "Math.ceil"}
+]}

@@ -1,0 +1,24 @@
+```json
+{
+  "definitions": [
+    "prop",
+    "NonPropertyKey",
+    "KeysOfUnion",
+    "ArrayAt",
+    "PropDeep",
+    "Prop",
+    "pipe",
+    "NoInfer"
+  ],
+  "references": [
+    {
+      "name": "prop",
+      "source": "./src/prop.ts",
+      "alias": null
+    }
+  ],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": []
+}
+```

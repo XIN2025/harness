@@ -1,0 +1,61 @@
+{
+  "relative_path": "src/hooks/use-cursor.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "useCursor",
+      "callee_text": "useContext",
+      "kind": "hook",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "react",
+      "line": 13
+    },
+    {
+      "caller": "useCursor",
+      "callee_text": "useRef",
+      "kind": "hook",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "react",
+      "line": 14
+    },
+    {
+      "caller": "useCursor",
+      "callee_text": "useCallback",
+      "kind": "hook",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "react",
+      "line": 16
+    },
+    {
+      "caller": "useCursor",
+      "callee_text": "useInsertionEffect",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "react",
+      "line": 27
+    },
+    {
+      "caller": "useCursor",
+      "callee_text": "setCursorPosition",
+      "kind": "method",
+      "receiver": "context",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 28
+    },
+    {
+      "caller": "useCursor",
+      "callee_text": "setCursorPosition",
+      "kind": "method",
+      "receiver": "context",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 30
+    }
+  ],
+  "callable_refs": []
+}

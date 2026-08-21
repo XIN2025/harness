@@ -1,0 +1,1 @@
+{"calls": [], "callable_refs": [{"caller": "countBy", "callee_text": "countByImplementation"}, {"caller": "countBy", "callee_text": "categorizationFn"}]}

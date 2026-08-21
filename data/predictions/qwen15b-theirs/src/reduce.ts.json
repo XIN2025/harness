@@ -1,0 +1,12 @@
+```json
+{
+  "definitions": ["reduce", "purry"],
+  "references": [
+    {"name": "reduce", "source": "./src/reduce.ts"},
+    {"name": "purry", "source": "./src/purry.ts"}
+  ],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": []
+}
+```

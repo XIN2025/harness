@@ -1,0 +1,97 @@
+{
+  "relative_path": "src/components/Text.tsx",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "Text",
+      "callee_text": "useContext",
+      "kind": "hook",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "react",
+      "line": 85
+    },
+    {
+      "caller": "Text",
+      "callee_text": "useContext",
+      "kind": "hook",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "react",
+      "line": 86
+    },
+    {
+      "caller": "Text",
+      "callee_text": "dim",
+      "kind": "method",
+      "receiver": "chalk",
+      "receiver_type_hint": null,
+      "callee_file_hint": "chalk",
+      "line": 96
+    },
+    {
+      "caller": "Text",
+      "callee_text": "colorize",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../colorize.js",
+      "line": 100
+    },
+    {
+      "caller": "Text",
+      "callee_text": "colorize",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../colorize.js",
+      "line": 107
+    },
+    {
+      "caller": "Text",
+      "callee_text": "bold",
+      "kind": "method",
+      "receiver": "chalk",
+      "receiver_type_hint": null,
+      "callee_file_hint": "chalk",
+      "line": 111
+    },
+    {
+      "caller": "Text",
+      "callee_text": "italic",
+      "kind": "method",
+      "receiver": "chalk",
+      "receiver_type_hint": null,
+      "callee_file_hint": "chalk",
+      "line": 115
+    },
+    {
+      "caller": "Text",
+      "callee_text": "underline",
+      "kind": "method",
+      "receiver": "chalk",
+      "receiver_type_hint": null,
+      "callee_file_hint": "chalk",
+      "line": 119
+    },
+    {
+      "caller": "Text",
+      "callee_text": "strikethrough",
+      "kind": "method",
+      "receiver": "chalk",
+      "receiver_type_hint": null,
+      "callee_file_hint": "chalk",
+      "line": 123
+    },
+    {
+      "caller": "Text",
+      "callee_text": "inverse",
+      "kind": "method",
+      "receiver": "chalk",
+      "receiver_type_hint": null,
+      "callee_file_hint": "chalk",
+      "line": 127
+    }
+  ],
+  "callable_refs": []
+}

@@ -1,0 +1,6 @@
+{"calls": [
+  {"caller": "fromKeys", "callee_text": "purr"},
+  {"caller": "fromKeysImplementation", "callee_text": "entries"},
+  {"caller": "fromKeysImplementation", "callee_text": "map"},
+  {"caller": "fromKeysImplementation", "callee_text": "reduce"}
+]}

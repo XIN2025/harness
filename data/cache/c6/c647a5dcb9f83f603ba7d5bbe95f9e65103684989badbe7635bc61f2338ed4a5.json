@@ -1,0 +1,13 @@
+{
+  "key": "c647a5dcb9f83f603ba7d5bbe95f9e65103684989badbe7635bc61f2338ed4a5",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "f97b07502cf9e290cde1c373b52d66279b3bc836a4d75fe5abccb5795c350026",
+  "relative_path": "src/sortedIndex.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"sortedIndex\", \"callee_text\": \"purry\"},\n  {\"caller\": \"sortedIndexImplementation\", \"callee_text\": \"binarySearchCutoffIndex\"},\n  {\"caller\": \"sortedIndexImplementation\", \"callee_text\": \"pivot < \"},\n  {\"caller\": \"sortedIndexImplementation\", \"callee_text\": \"item\"}\n]}",
+  "created": "2026-08-08T23:11:21+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 942,
+  "completion_tokens": 76
+}

@@ -1,0 +1,4 @@
+{"calls": [
+  {"caller": "findLast", "callee_text": "purry"},
+  {"caller": "findLastImplementation", "callee_text": "Array.prototype.findLast"}
+]}

@@ -1,0 +1,13 @@
+{
+  "key": "051b7e48acc1f39e79b22a6529f834018d9d6847a6eb6db4bebcfe54f95cdd97",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "35158cd641e179c161aacc02d91cb72a59570ff02776862f469db0cece272d55",
+  "relative_path": "src/meanBy.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"meanBy\", \"callee_text\": \"purry\"},\n  {\"caller\": \"meanByImplementation\", \"callee_text\": \"entries\"},\n  {\"caller\": \"meanByImplementation\", \"callee_text\": \"for\"},\n  {\"caller\": \"meanByImplementation\", \"callee_text\": \"fn\"},\n  {\"caller\": \"meanByImplementation\", \"callee_text\": \"item\"},\n  {\"caller\": \"meanByImplementation\", \"callee_text\": \"index\"},\n  {\"caller\": \"meanByImplementation\", \"callee_text\": \"array\"},\n  {\"caller\": \"meanByImplementation\", \"callee_text\": \"sum\"},\n  {\"caller\": \"meanByImplementation\", \"callee_text\": \"array.length\"},\n  {\"caller\": \"meanByImplementation\", \"callee_text\": \"return\"}\n]}",
+  "created": "2026-08-08T23:04:17+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 826,
+  "completion_tokens": 167
+}

@@ -1,0 +1,15 @@
+```json
+{
+  "definitions": [
+    "groupBy",
+    "groupByImplementation"
+  ],
+  "references": [
+    {"name": "groupBy", "source": "./src/groupBy.ts"},
+    {"name": "groupByImplementation", "source": "./src/groupBy.ts"}
+  ],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": []
+}
+```

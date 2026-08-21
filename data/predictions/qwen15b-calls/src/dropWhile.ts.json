@@ -1,0 +1,4 @@
+{"calls": [
+  {"caller": "dropWhile", "callee_text": "purry"},
+  {"caller": "dropWhileImplementation", "callee_text": "entries"}
+]}

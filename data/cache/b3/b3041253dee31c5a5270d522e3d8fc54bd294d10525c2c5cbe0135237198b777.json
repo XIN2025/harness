@@ -1,0 +1,13 @@
+{
+  "key": "b3041253dee31c5a5270d522e3d8fc54bd294d10525c2c5cbe0135237198b777",
+  "model": "harness-qwen15b",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "8e84cf51923b49c97f8229a5414602cbd70043c9bb9c2e35eb00a24896f335f8",
+  "relative_path": "src/pick.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"pick\",\n    \"pipe\",\n    \"purr\"\n  ],\n  \"references\": [\n    {\"name\": \"type-fest\", \"source\": \"./node_modules/type-fest\"},\n    {\"name\": \"@mui/material\", \"source\": \"./node_modules/@mui/material\"}\n  ],\n  \"calls\": [\n    {\n      \"caller\": \"pick\",\n      \"callee_text\": \"pipe\",\n      \"kind\": \"hook\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": \"external\",\n      \"line\": 1\n    },\n    {\n      \"caller\": \"pick\",\n      \"callee_text\": \"purr\",\n      \"kind\": \"hook\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": \"external\",\n      \"line\": 2\n    }\n  ],\n  \"type_assignments\": [\n    {\"scope\": \"module\", \"var\": \"pipe\", \"type\": \"Function\", \"type_module\": \"./node_modules/type-fest\"},\n    {\"scope\": \"module\", \"var\": \"purr\", \"type\": \"Function\", \"type_module\": \"./node_modules/type-fest\"}\n  ],\n  \"definitions_rich\": [\n    {\n      \"name\": \"pick\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [{\"name\": \"keys\", \"type\": \"readonly KeysOfUnion<T>[]\"}],\n      \"returns\": \"PickFromArray<T, Keys>\",\n      \"line\": 1\n    },\n    {\n      \"name\": \"pipe\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [{\"name\": \"data\", \"type\": \"T\"}, {\"name\": \"keys\", \"type\": \"readonly KeysOfUnion<T>[]\"}],\n      \"returns\": \"PickFromArray<T, Keys>\",\n      \"line\": 2\n    },\n    {\n      \"name\": \"purr\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [{\"name\": \"data\", \"type\": \"T\"}, {\"name\": \"keys\", \"type\": \"readonly KeysOfUnion<T>[]\"}],\n      \"returns\": \"PickFromArray<T, Keys>\",\n      \"line\": 3\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:24:16+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 9591,
+  "completion_tokens": 502
+}

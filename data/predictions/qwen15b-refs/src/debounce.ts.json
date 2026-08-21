@@ -1,0 +1,12 @@
+{
+  "calls": [],
+  "callable_refs": [
+    {"caller": "debounce", "callee_text": "handleInvoke"},
+    {"caller": "debounce", "callee_text": "handleCoolDownEnd"},
+    {"caller": "debounce", "callee_text": "handleDebouncedCall"},
+    {"caller": "debounce", "callee_text": "coolDownTimeoutId"},
+    {"caller": "debounce", "callee_text": "maxWaitTimeoutId"},
+    {"caller": "debounce", "callee_text": "latestCallArgs"},
+    {"caller": "debounce", "callee_text": "result"}
+  ]
+}

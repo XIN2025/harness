@@ -1,0 +1,13 @@
+{
+  "key": "7ca3a9fb8f8f48c1041103e55e24c3b0df75fa6cdc0543dd6852cb657434397b",
+  "model": "harness-qwen15b",
+  "prompt_version": "refs-v1-7386a79c1ab2+json",
+  "file_sha": "338296079ba09bc18b676384852c8d2a4eedf7116f407ae1d670a235631a6eb1",
+  "relative_path": "src/evolve.ts",
+  "response": "{\n  \"calls\": [],\n  \"callable_refs\": [\n    {\"caller\": \"evolve\", \"callee_text\": \"evolveImplementation\"},\n    {\"caller\": \"evolveImplementation\", \"callee_text\": \"data\"},\n    {\"caller\": \"evolveImplementation\", \"callee_text\": \"evolver\"},\n    {\"caller\": \"evolveImplementation\", \"callee_text\": \"out[key]\"},\n    {\"caller\": \"evolveImplementation\", \"callee_text\": \"typeof value === 'function'\"},\n    {\"caller\": \"evolveImplementation\", \"callee_text\": \"value(out[key])\"},\n    {\"caller\": \"evolveImplementation\", \"callee_text\": \"evolveImplementation(out[key], value)\"},\n    {\"caller\": \"evolveImplementation\", \"callee_text\": \"out\"}\n  ]\n}",
+  "created": "2026-08-08T22:25:40+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1583,
+  "completion_tokens": 162
+}

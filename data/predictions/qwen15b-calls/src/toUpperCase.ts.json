@@ -1,0 +1,4 @@
+{"calls": [
+  {"caller": "toUpperCase", "callee_text": "purry"},
+  {"caller": "toUpperCaseImplementation", "callee_text": "toUpperCase"}
+]}

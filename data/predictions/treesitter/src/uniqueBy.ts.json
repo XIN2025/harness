@@ -1,0 +1,52 @@
+{
+  "relative_path": "src/uniqueBy.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "uniqueBy",
+      "callee_text": "purryFromLazy",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./internal/purryFromLazy",
+      "line": 52
+    },
+    {
+      "caller": "lazyImplementation",
+      "callee_text": "Set",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 61
+    },
+    {
+      "caller": "lazyImplementation",
+      "callee_text": "brandedKeyFunction",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 63
+    },
+    {
+      "caller": "lazyImplementation",
+      "callee_text": "has",
+      "kind": "method",
+      "receiver": "set",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 64
+    },
+    {
+      "caller": "lazyImplementation",
+      "callee_text": "add",
+      "kind": "method",
+      "receiver": "set",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 68
+    }
+  ],
+  "callable_refs": []
+}

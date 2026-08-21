@@ -1,0 +1,13 @@
+{
+  "key": "30607c67e869f9a8bbff9486b77405a959cafc9cde4418b2742f0b30d56cfdc4",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "662c763ede812036fe84f36492e5a631b53506898a8a7fe8b2115b936e1aa247",
+  "relative_path": "src/take.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"take\", \"callee_text\": \"purry\"},\n  {\"caller\": \"take\", \"callee_text\": \"lazyImplementation\"},\n  {\"caller\": \"takeImplementation\", \"callee_text\": \"slice\"},\n  {\"caller\": \"takeImplementation\", \"callee_text\": \"array\"},\n  {\"caller\": \"takeImplementation\", \"callee_text\": \"n\"},\n  {\"caller\": \"lazyImplementation\", \"callee_text\": \"value\"},\n  {\"caller\": \"lazyImplementation\", \"callee_text\": \"remaining\"},\n  {\"caller\": \"lazyImplementation\", \"callee_text\": \"n\"}\n]}",
+  "created": "2026-08-08T23:13:49+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 973,
+  "completion_tokens": 126
+}

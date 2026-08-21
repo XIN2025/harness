@@ -1,0 +1,13 @@
+{
+  "key": "ad697091dfdef2c9c973a4b253c6218c2f196aea90a76cdf16f35009e187d8b1",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "refs-v1-7386a79c1ab2+json",
+  "file_sha": "ee62c2433ee2c3c8dc3c4a1f35715611dea9656efbd46e3155d21299a8275f80",
+  "relative_path": "src/swapProps.ts",
+  "response": "{\"callable_refs\": [{\"caller\": \"swapProps\", \"callee_text\": \"swapPropsImplementation\"}, {\"caller\": \"swapPropsImplementation\", \"callee_text\": \"defaultCompare\"}, {\"caller\": \"swapPropsImplementation\", \"callee_text\": \"identity\"}]}",
+  "created": "2026-08-08T23:28:55+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 877,
+  "completion_tokens": 53
+}

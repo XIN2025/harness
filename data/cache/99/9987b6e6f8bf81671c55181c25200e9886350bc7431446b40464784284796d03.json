@@ -1,0 +1,13 @@
+{
+  "key": "9987b6e6f8bf81671c55181c25200e9886350bc7431446b40464784284796d03",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "153d60c5d841f9babe9545799cc9ec576718e0437e4adbab9acd642fe1e577f1",
+  "relative_path": "src/uniqueBy.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"uniqueBy\", \"callee_text\": \"purryFromLazy\"},\n  {\"caller\": \"uniqueBy\", \"callee_text\": \"lazyImplementation\"},\n  {\"caller\": \"lazyImplementation\", \"callee_text\": \"brandedKeyFunction\"},\n  {\"caller\": \"lazyImplementation\", \"callee_text\": \"set\"},\n  {\"caller\": \"lazyImplementation\", \"callee_text\": \"SKIP_ITEM\"},\n  {\"caller\": \"uniqueBy\", \"callee_text\": \"purryFromLazy\"},\n  {\"caller\": \"uniqueBy\", \"callee_text\": \"__module__\"}\n]}",
+  "created": "2026-08-08T23:16:44+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1134,
+  "completion_tokens": 124
+}

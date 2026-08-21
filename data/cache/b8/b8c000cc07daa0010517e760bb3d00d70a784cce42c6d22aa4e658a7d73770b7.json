@@ -1,0 +1,13 @@
+{
+  "key": "b8c000cc07daa0010517e760bb3d00d70a784cce42c6d22aa4e658a7d73770b7",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "refs-v1-7386a79c1ab2+json",
+  "file_sha": "072cf96695319baa69730ece1e6c254c937416003ab0817bdaf043a39e8fda8d",
+  "relative_path": "src/range.ts",
+  "response": "{\"callable_refs\": [\n  {\"caller\": \"range\", \"callee_text\": \"rangeImplementation\"},\n  {\"caller\": \"range\", \"callee_text\": \"purry\"},\n  {\"caller\": \"range\", \"callee_text\": \"rangeImplementation\"},\n  {\"caller\": \"ceilingWithSnap\", \"callee_text\": \"Math.ceil\"}\n]}",
+  "created": "2026-08-08T23:26:42+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1293,
+  "completion_tokens": 70
+}

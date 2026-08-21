@@ -1,0 +1,31 @@
+```json
+{
+  "definitions": [
+    "Debouncer",
+    "DebounceOptions"
+  ],
+  "references": [],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "F",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [],
+      "returns": null,
+      "line": 1
+    },
+    {
+      "name": "IsNullable",
+      "kind": "boolean",
+      "parent": null,
+      "bases": [],
+      "params": [],
+      "returns": null,
+      "line": 2
+    }
+  ]
+}
+```

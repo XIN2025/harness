@@ -1,0 +1,439 @@
+{
+  "relative_path": "src/handlers/PostHandler.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "__module__",
+      "callee_text": "debug",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "debug",
+      "line": 17
+    },
+    {
+      "caller": "PostHandler.constructor",
+      "callee_text": "Error",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 25
+    },
+    {
+      "caller": "PostHandler.constructor",
+      "callee_text": "super",
+      "kind": "super",
+      "receiver": "super",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 32
+    },
+    {
+      "caller": "PostHandler.send",
+      "callee_text": "Headers",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 38
+    },
+    {
+      "caller": "PostHandler.send",
+      "callee_text": "get",
+      "kind": "method",
+      "receiver": "req.headers",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 39
+    },
+    {
+      "caller": "PostHandler.send",
+      "callee_text": "hasExtension",
+      "kind": "this",
+      "receiver": "this.store",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 39
+    },
+    {
+      "caller": "PostHandler.send",
+      "callee_text": "get",
+      "kind": "method",
+      "receiver": "req.headers",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 43
+    },
+    {
+      "caller": "PostHandler.send",
+      "callee_text": "get",
+      "kind": "method",
+      "receiver": "req.headers",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 44
+    },
+    {
+      "caller": "PostHandler.send",
+      "callee_text": "get",
+      "kind": "method",
+      "receiver": "req.headers",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 45
+    },
+    {
+      "caller": "PostHandler.send",
+      "callee_text": "hasExtension",
+      "kind": "this",
+      "receiver": "this.store",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 49
+    },
+    {
+      "caller": "PostHandler.send",
+      "callee_text": "parse",
+      "kind": "static",
+      "receiver": "Metadata",
+      "receiver_type_hint": null,
+      "callee_file_hint": "@tus/utils",
+      "line": 61
+    },
+    {
+      "caller": "PostHandler.send",
+      "callee_text": "namingFunction",
+      "kind": "this",
+      "receiver": "this.options",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 69
+    },
+    {
+      "caller": "PostHandler.send",
+      "callee_text": "log",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 71
+    },
+    {
+      "caller": "PostHandler.send",
+      "callee_text": "getConfiguredMaxSize",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 75
+    },
+    {
+      "caller": "PostHandler.send",
+      "callee_text": "parseInt",
+      "kind": "static",
+      "receiver": "Number",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 80
+    },
+    {
+      "caller": "PostHandler.send",
+      "callee_text": "onIncomingRequest",
+      "kind": "this",
+      "receiver": "this.options",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 86
+    },
+    {
+      "caller": "PostHandler.send",
+      "callee_text": "Upload",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "@tus/utils",
+      "line": 89
+    },
+    {
+      "caller": "PostHandler.send",
+      "callee_text": "parseInt",
+      "kind": "static",
+      "receiver": "Number",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 91
+    },
+    {
+      "caller": "PostHandler.send",
+      "callee_text": "onUploadCreate",
+      "kind": "this",
+      "receiver": "this.options",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 98
+    },
+    {
+      "caller": "PostHandler.send",
+      "callee_text": "log",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 103
+    },
+    {
+      "caller": "PostHandler.send",
+      "callee_text": "acquireLock",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 108
+    },
+    {
+      "caller": "PostHandler.send",
+      "callee_text": "fromEntries",
+      "kind": "static",
+      "receiver": "Object",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 116
+    },
+    {
+      "caller": "PostHandler.send",
+      "callee_text": "entries",
+      "kind": "method",
+      "receiver": "headers",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 116
+    },
+    {
+      "caller": "PostHandler.send",
+      "callee_text": "create",
+      "kind": "this",
+      "receiver": "this.store",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 121
+    },
+    {
+      "caller": "PostHandler.send",
+      "callee_text": "generateUrl",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 122
+    },
+    {
+      "caller": "PostHandler.send",
+      "callee_text": "emit",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 124
+    },
+    {
+      "caller": "PostHandler.send",
+      "callee_text": "validateHeader",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../validators/HeaderValidator.js",
+      "line": 129
+    },
+    {
+      "caller": "PostHandler.send",
+      "callee_text": "get",
+      "kind": "method",
+      "receiver": "req.headers",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 129
+    },
+    {
+      "caller": "PostHandler.send",
+      "callee_text": "calculateMaxBodySize",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 130
+    },
+    {
+      "caller": "PostHandler.send",
+      "callee_text": "writeToStore",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 131
+    },
+    {
+      "caller": "PostHandler.send",
+      "callee_text": "toString",
+      "kind": "method",
+      "receiver": "newOffset",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 133
+    },
+    {
+      "caller": "PostHandler.send",
+      "callee_text": "parseInt",
+      "kind": "static",
+      "receiver": "Number",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 134
+    },
+    {
+      "caller": "PostHandler.send",
+      "callee_text": "abort",
+      "kind": "method",
+      "receiver": "context",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 138
+    },
+    {
+      "caller": "PostHandler.send",
+      "callee_text": "unlock",
+      "kind": "method",
+      "receiver": "lock",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 141
+    },
+    {
+      "caller": "PostHandler.send",
+      "callee_text": "onUploadFinish",
+      "kind": "this",
+      "receiver": "this.options",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 146
+    },
+    {
+      "caller": "PostHandler.send",
+      "callee_text": "assign",
+      "kind": "static",
+      "receiver": "Object",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 150
+    },
+    {
+      "caller": "PostHandler.send",
+      "callee_text": "log",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 152
+    },
+    {
+      "caller": "PostHandler.send",
+      "callee_text": "hasExtension",
+      "kind": "this",
+      "receiver": "this.store",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 160
+    },
+    {
+      "caller": "PostHandler.send",
+      "callee_text": "getExpiration",
+      "kind": "this",
+      "receiver": "this.store",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 161
+    },
+    {
+      "caller": "PostHandler.send",
+      "callee_text": "getUpload",
+      "kind": "this",
+      "receiver": "this.store",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 164
+    },
+    {
+      "caller": "PostHandler.send",
+      "callee_text": "parseInt",
+      "kind": "static",
+      "receiver": "Number",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 166
+    },
+    {
+      "caller": "PostHandler.send",
+      "callee_text": "Date",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 167
+    },
+    {
+      "caller": "PostHandler.send",
+      "callee_text": "toUTCString",
+      "kind": "method",
+      "receiver": "new Date(\n          creation.getTime() + this.store.getExpiration()\n        )",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 169
+    },
+    {
+      "caller": "PostHandler.send",
+      "callee_text": "Date",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 169
+    },
+    {
+      "caller": "PostHandler.send",
+      "callee_text": "getTime",
+      "kind": "method",
+      "receiver": "creation",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 170
+    },
+    {
+      "caller": "PostHandler.send",
+      "callee_text": "getExpiration",
+      "kind": "this",
+      "receiver": "this.store",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 170
+    },
+    {
+      "caller": "PostHandler.send",
+      "callee_text": "write",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 183
+    },
+    {
+      "caller": "PostHandler.send",
+      "callee_text": "emit",
+      "kind": "this",
+      "receiver": "this",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 190
+    }
+  ],
+  "callable_refs": []
+}

@@ -1,0 +1,13 @@
+{
+  "key": "ecb809aea9ec7df619457a427d17b20601e74e0d12d0181cf51ec7e2c1ca8615",
+  "model": "harness-qwen15b",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "750ed29b2f7ca1b824afe39411bc8f299d4f38ca7b8a48556ed06a4a47e613cc",
+  "relative_path": "src/differenceWith.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"differenceWith\",\n    \"purryFromLazy\",\n    \"lazyImplementation\",\n    \"SKIP_ITEM\"\n  ],\n  \"references\": [\n    {\"name\": \"differenceWith\", \"source\": \"./src/differenceWith.ts\"},\n    {\"name\": \"purryFromLazy\", \"source\": \"./src/internal/purryFromLazy.ts\"},\n    {\"name\": \"lazyImplementation\", \"source\": \"./src/internal/purryFromLazy.ts\"},\n    {\"name\": \"SKIP_ITEM\", \"source\": \"./src/internal/utilityEvaluators.ts\"}\n  ],\n  \"calls\": [\n    {\n      \"caller\": \"differenceWith\",\n      \"callee_text\": \"purryFromLazy\",\n      \"kind\": \"free\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": \"./src/internal/purryFromLazy.ts\",\n      \"line\": 1\n    }\n  ],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\"name\": \"differenceWith\", \"kind\": \"function\", \"parent\": null, \"bases\": [], \"params\": [{\"name\": \"data\", \"type\": \"readonly T[]\"}, {\"name\": \"other\", \"type\": \"readonly Other[]\"}, {\"name\": \"isEqual\", \"type\": \"IsEqual<T, Other>\"}], \"returns\": \"T[]\", \"line\": 1},\n    {\"name\": \"purryFromLazy\", \"kind\": \"function\", \"parent\": null, \"bases\": [], \"params\": [{\"name\": \"lazyFn\", \"type\": \"LazyEvaluator<T>\"}], \"returns\": \"LazyEvaluator<T>\", \"line\": 2},\n    {\"name\": \"lazyImplementation\", \"kind\": \"function\", \"parent\": null, \"bases\": [], \"params\": [{\"name\": \"other\", \"type\": \"readonly Other[]\"}, {\"name\": \"isEqual\", \"type\": \"IsEqual<T, Other>\"}], \"returns\": \"LazyEvaluator<T>\", \"line\": 3},\n    {\"name\": \"SKIP_ITEM\", \"kind\": \"constant\", \"parent\": null, \"bases\": [], \"params\": [], \"returns\": null, \"line\": 4}\n  ]\n}\n```",
+  "created": "2026-08-08T20:17:24+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 8577,
+  "completion_tokens": 466
+}

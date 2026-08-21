@@ -1,0 +1,34 @@
+{
+  "relative_path": "src/dropLast.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "dropLast",
+      "callee_text": "purry",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./purry",
+      "line": 47
+    },
+    {
+      "caller": "dropLastImplementation",
+      "callee_text": "slice",
+      "kind": "method",
+      "receiver": "array",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 54
+    },
+    {
+      "caller": "dropLastImplementation",
+      "callee_text": "max",
+      "kind": "static",
+      "receiver": "Math",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 54
+    }
+  ],
+  "callable_refs": []
+}

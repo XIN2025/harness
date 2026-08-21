@@ -1,0 +1,92 @@
+```json
+{
+  "definitions": [
+    "OmitFromArray",
+    "OmitBounded",
+    "OmitUnbounded",
+    "FixEmpty",
+    "Bounded",
+    "omit"
+  ],
+  "references": [
+    {"name": "type-fest", "source": "./node_modules/type-fest/dist/index.d.ts"},
+    {"name": "hasAtLeast", "source": "./src/hasAtLeast.ts"},
+    {"name": "IsNever", "source": "./src/internal/types/IsNever.ts"},
+    {"name": "KeysOfUnion", "source": "./src/internal/types/KeysOfUnion.ts"},
+    {"name": "PartitionByUnion", "source": "./src/internal/types/PartitionByUnion.ts"},
+    {"name": "SimplifiedWritable", "source": "./src/internal/types/SimplifiedWritable.ts"},
+    {"name": "TupleParts", "source": "./src/internal/types/TupleParts.ts"},
+    {"name": "purry", "source": "./src/purry.ts"}
+  ],
+  "calls": [
+    {
+      "caller": "omit",
+      "callee_text": "pipe",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 1
+    }
+  ],
+  "type_assignments": [
+    {"scope": "module", "var": "omit", "type": "function", "type_module": "./src/omit.ts"}
+  ],
+  "definitions_rich": [
+    {
+      "name": "OmitFromArray",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "T", "type": "object"}, {"name": "Keys", "type": "readonly (keyof T)[]"}],
+      "returns": "OmitFromArray<T, Keys>",
+      "line": 1
+    },
+    {
+      "name": "OmitBounded",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "T", "type": "object"}, {"name": "Keys", "type": "readonly (keyof T)[]"}],
+      "returns": "OmitBounded<T, Keys>",
+      "line": 1
+    },
+    {
+      "name": "OmitUnbounded",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "T", "type": "object"}, {"name": "Keys", "type": "readonly (keyof T)[]"}],
+      "returns": "OmitUnbounded<T, Keys>",
+      "line": 1
+    },
+    {
+      "name": "FixEmpty",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "T", "type": "object"}],
+      "returns": "FixEmpty<T>",
+      "line": 1
+    },
+    {
+      "name": "Bounded",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "T", "type": "unknown"}],
+      "returns": "Bounded<T>",
+      "line": 1
+    },
+    {
+      "name": "omit",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [{"name": "data", "type": "T"}, {"name": "keys", "type": "readonly (keyof T)[]"}],
+      "returns": "OmitFromArray<T, Keys>",
+      "line": 1
+    }
+  ]
+}
+```

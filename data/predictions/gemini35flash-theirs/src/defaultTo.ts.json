@@ -1,0 +1,76 @@
+```json
+{
+  "definitions": [
+    "FallbackOf",
+    "defaultTo",
+    "defaultToImplementation"
+  ],
+  "references": [
+    {
+      "name": "purry",
+      "source": "./purry",
+      "alias": null
+    },
+    {
+      "name": "RemedaTypeError",
+      "source": "./internal/types/RemedaTypeError",
+      "alias": null
+    }
+  ],
+  "calls": [
+    {
+      "caller": "defaultTo",
+      "callee_text": "purry",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./purry",
+      "line": 58
+    }
+  ],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "FallbackOf",
+      "kind": "type_alias",
+      "parent": null,
+      "bases": [],
+      "params": [],
+      "returns": null,
+      "line": 5
+    },
+    {
+      "name": "defaultTo",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "args",
+          "type": "readonly unknown[]"
+        }
+      ],
+      "returns": "unknown",
+      "line": 57
+    },
+    {
+      "name": "defaultToImplementation",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "T"
+        },
+        {
+          "name": "fallback",
+          "type": "Fallback"
+        }
+      ],
+      "returns": "NonNullable",
+      "line": 61
+    }
+  ]
+}
+```

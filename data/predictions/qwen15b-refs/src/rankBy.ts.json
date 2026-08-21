@@ -1,0 +1,13 @@
+{
+  "calls": [],
+  "callable_refs": [
+    {
+      "caller": "rankBy",
+      "callee_text": "rankByImplementation"
+    },
+    {
+      "caller": "rankBy",
+      "callee_text": "compareFn"
+    }
+  ]
+}

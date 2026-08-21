@@ -1,0 +1,11 @@
+{
+  "key": "81f2c4784a2cd7ff01485f3fe970c46fdccd86e884491dbf9fdf4d8d3306a695",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "a40ece21f136eb23109c51514a89c70ebef347bf2d72b34f358915bcfb274617",
+  "relative_path": "src/add.ts",
+  "response": "{\n  \"definitions\": [\"add\", \"addImplementation\"],\n  \"references\": [\n    {\"name\": \"purry\", \"source\": \"./purry\", \"alias\": null}\n  ],\n  \"calls\": [\n    {\"caller\": \"add\", \"callee_text\": \"purry\", \"kind\": \"free\", \"receiver\": null, \"receiver_type_hint\": null, \"callee_file_hint\": \"./purry\", \"line\": 31}\n  ],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\"name\": \"add\", \"kind\": \"function\", \"parent\": null, \"bases\": [], \"params\": [{\"name\": \"args\", \"type\": \"readonly unknown[]\"}], \"returns\": \"unknown\", \"line\": 30},\n    {\"name\": \"addImplementation\", \"kind\": \"function\", \"parent\": null, \"bases\": [], \"params\": [{\"name\": \"value\", \"type\": \"number\"}, {\"name\": \"addend\", \"type\": \"number\"}], \"returns\": \"number\", \"line\": 35}\n  ]\n}",
+  "created": "2026-08-08T16:46:21+00:00",
+  "finish_reason": "stop",
+  "served_by": "Nvidia"
+}

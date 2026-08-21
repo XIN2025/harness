@@ -1,0 +1,76 @@
+```json
+{
+  "definitions": [
+    "dropWhile",
+    "dropWhileImplementation"
+  ],
+  "references": [],
+  "calls": [
+    {
+      "caller": "__module__",
+      "callee_text": "dropWhile",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "src/dropWhile.ts",
+      "line": 1
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "dropWhileImplementation",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "src/dropWhile.ts",
+      "line": 20
+    }
+  ],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "dropWhile",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "IterableContainer"
+        },
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "T[number][]"
+        }
+      ],
+      "line": 1
+    },
+    {
+      "name": "dropWhileImplementation",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "IterableContainer"
+        },
+        {
+          "name": "predicate",
+          "type": "(item: T[number], index: number, data: T) => boolean"
+        }
+      ],
+      "returns": [
+        {
+          "type": "T[number][]"
+        }
+      ],
+      "line": 20
+    }
+  ]
+}
+```

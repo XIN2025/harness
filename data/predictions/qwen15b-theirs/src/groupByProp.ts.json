@@ -1,0 +1,416 @@
+```json
+{
+  "definitions": [
+    "groupByProp",
+    "AllUnionFields",
+    "ConditionalKeys",
+    "EmptyObject",
+    "IsNever",
+    "Simplify",
+    "ArrayRequiredPrefix",
+    "BoundedPartial",
+    "FilteredArray",
+    "IterableContainer",
+    "TupleParts",
+    "purry",
+    "GroupByPropRaw",
+    "GroupableProps",
+    "AllPropValues",
+    "FixEmptyObject",
+    "EnsureValuesAreNonEmpty",
+    "PossiblyEmptyArrayKeys",
+    "IsNonEmptyArray",
+    "CoercedNonEmptyValues",
+    "groupByPropImplementation"
+  ],
+  "references": [
+    {"name": "groupByProp", "source": "./src/groupByProp.ts"},
+    {"name": "AllUnionFields", "source": "./src/groupByProp.ts"},
+    {"name": "ConditionalKeys", "source": "./src/groupByProp.ts"},
+    {"name": "EmptyObject", "source": "./src/groupByProp.ts"},
+    {"name": "IsNever", "source": "./src/groupByProp.ts"},
+    {"name": "Simplify", "source": "./src/groupByProp.ts"},
+    {"name": "ArrayRequiredPrefix", "source": "./src/groupByProp.ts"},
+    {"name": "BoundedPartial", "source": "./src/groupByProp.ts"},
+    {"name": "FilteredArray", "source": "./src/groupByProp.ts"},
+    {"name": "IterableContainer", "source": "./src/groupByProp.ts"},
+    {"name": "TupleParts", "source": "./src/groupByProp.ts"},
+    {"name": "purry", "source": "./src/purry.ts"},
+    {"name": "GroupByPropRaw", "source": "./src/groupByProp.ts"},
+    {"name": "GroupableProps", "source": "./src/groupByProp.ts"},
+    {"name": "AllPropValues", "source": "./src/groupByProp.ts"},
+    {"name": "FixEmptyObject", "source": "./src/groupByProp.ts"},
+    {"name": "EnsureValuesAreNonEmpty", "source": "./src/groupByProp.ts"},
+    {"name": "PossiblyEmptyArrayKeys", "source": "./src/groupByProp.ts"},
+    {"name": "IsNonEmptyArray", "source": "./src/groupByProp.ts"},
+    {"name": "CoercedNonEmptyValues", "source": "./src/groupByProp.ts"},
+    {"name": "groupByPropImplementation", "source": "./src/groupByProp.ts"}
+  ],
+  "calls": [
+    {
+      "caller": "groupByProp",
+      "callee_text": "ArrayRequiredPrefix",
+      "kind": "method",
+      "receiver": "T[number]",
+      "receiver_type_hint": null,
+      "callee_file_hint": "internal/types/ArrayRequiredPrefix.ts",
+      "line": 1
+    },
+    {
+      "caller": "groupByProp",
+      "callee_text": "BoundedPartial",
+      "kind": "method",
+      "receiver": "T[number][]",
+      "receiver_type_hint": null,
+      "callee_file_hint": "internal/types/BoundedPartial.ts",
+      "line": 1
+    },
+    {
+      "caller": "groupByProp",
+      "callee_text": "CoercedNonEmptyValues",
+      "kind": "method",
+      "receiver": "T[number][]",
+      "receiver_type_hint": null,
+      "callee_file_hint": "internal/types/CoercedNonEmptyValues.ts",
+      "line": 1
+    },
+    {
+      "caller": "groupByProp",
+      "callee_text": "EnsureValuesAreNonEmpty",
+      "kind": "method",
+      "receiver": "T[number][]",
+      "receiver_type_hint": null,
+      "callee_file_hint": "internal/types/EnsureValuesAreNonEmpty.ts",
+      "line": 1
+    },
+    {
+      "caller": "groupByProp",
+      "callee_text": "FixEmptyObject",
+      "kind": "method",
+      "receiver": "T[number][]",
+      "receiver_type_hint": null,
+      "callee_file_hint": "internal/types/FixEmptyObject.ts",
+      "line": 1
+    },
+    {
+      "caller": "groupByProp",
+      "callee_text": "IsNonEmptyArray",
+      "kind": "method",
+      "receiver": "T[number][]",
+      "receiver_type_hint": null,
+      "callee_file_hint": "internal/types/IsNonEmptyArray.ts",
+      "line": 1
+    },
+    {
+      "caller": "groupByProp",
+      "callee_text": "IsNonEmptyFixedTuple",
+      "kind": "method",
+      "receiver": "T[number][]",
+      "receiver_type_hint": null,
+      "callee_file_hint": "internal/types/IsNonEmptyFixedTuple.ts",
+      "line": 1
+    },
+    {
+      "caller": "groupByProp",
+      "callee_text": "PossiblyEmptyArrayKeys",
+      "kind": "method",
+      "receiver": "T[number][]",
+      "receiver_type_hint": null,
+      "callee_file_hint": "internal/types/PossiblyEmptyArrayKeys.ts",
+      "line": 1
+    },
+    {
+      "caller": "groupByProp",
+      "callee_text": "Simplify",
+      "kind": "method",
+      "receiver": "T[number][]",
+      "receiver_type_hint": null,
+      "callee_file_hint": "internal/types/Simplify.ts",
+      "line": 1
+    },
+    {
+      "caller": "groupByProp",
+      "callee_text": "TupleParts",
+      "kind": "method",
+      "receiver": "T[number][]",
+      "receiver_type_hint": null,
+      "callee_file_hint": "internal/types/TupleParts.ts",
+      "line": 1
+    },
+    {
+      "caller": "groupByProp",
+      "callee_text": "ArrayRequiredPrefix",
+      "kind": "method",
+      "receiver": "T[number]",
+      "receiver_type_hint": null,
+      "callee_file_hint": "internal/types/ArrayRequiredPrefix.ts",
+      "line": 1
+    },
+    {
+      "caller": "groupByProp",
+      "callee_text": "BoundedPartial",
+      "kind": "method",
+      "receiver": "T[number][]",
+      "receiver_type_hint": null,
+      "callee_file_hint": "internal/types/BoundedPartial.ts",
+      "line": 1
+    },
+    {
+      "caller": "groupByProp",
+      "callee_text": "CoercedNonEmptyValues",
+      "kind": "method",
+      "receiver": "T[number][]",
+      "receiver_type_hint": null,
+      "callee_file_hint": "internal/types/CoercedNonEmptyValues.ts",
+      "line": 1
+    },
+    {
+      "caller": "groupByProp",
+      "callee_text": "EnsureValuesAreNonEmpty",
+      "kind": "method",
+      "receiver": "T[number][]",
+      "receiver_type_hint": null,
+      "callee_file_hint": "internal/types/EnsureValuesAreNonEmpty.ts",
+      "line": 1
+    },
+    {
+      "caller": "groupByProp",
+      "callee_text": "FixEmptyObject",
+      "kind": "method",
+      "receiver": "T[number][]",
+      "receiver_type_hint": null,
+      "callee_file_hint": "internal/types/FixEmptyObject.ts",
+      "line": 1
+    },
+    {
+      "caller": "groupByProp",
+      "callee_text": "IsNonEmptyArray",
+      "kind": "method",
+      "receiver": "T[number][]",
+      "receiver_type_hint": null,
+      "callee_file_hint": "internal/types/IsNonEmptyArray.ts",
+      "line": 1
+    },
+    {
+      "caller": "groupByProp",
+      "callee_text": "IsNonEmptyFixedTuple",
+      "kind": "method",
+      "receiver": "T[number][]",
+      "receiver_type_hint": null,
+      "callee_file_hint": "internal/types/IsNonEmptyFixedTuple.ts",
+      "line": 1
+    },
+    {
+      "caller": "groupByProp",
+      "callee_text": "PossiblyEmptyArrayKeys",
+      "kind": "method",
+      "receiver": "T[number][]",
+      "receiver_type_hint": null,
+      "callee_file_hint": "internal/types/PossiblyEmptyArrayKeys.ts",
+      "line": 1
+    },
+    {
+      "caller": "groupByProp",
+      "callee_text": "Simplify",
+      "kind": "method",
+      "receiver": "T[number][]",
+      "receiver_type_hint": null,
+      "callee_file_hint": "internal/types/Simplify.ts",
+      "line": 1
+    },
+    {
+      "caller": "groupByProp",
+      "callee_text": "TupleParts",
+      "kind": "method",
+      "receiver": "T[number][]",
+      "receiver_type_hint": null,
+      "callee_file_hint": "internal/types/TupleParts.ts",
+      "line": 1
+    }
+  ],
+  "type_assignments": [
+    {
+      "scope": "module",
+      "var": "groupByProp",
+      "type": "function",
+      "type_module": "./src/groupByProp.ts"
+    },
+    {
+      "scope": "module",
+      "var": "AllUnionFields",
+      "type": "type-fest/AllUnionFields",
+      "type_module": "./node_modules/type-fest/dist/index.d.ts"
+    },
+    {
+      "scope": "module",
+      "var": "ConditionalKeys",
+      "type": "type-fest/ConditionalKeys",
+      "type_module": "./node_modules/type-fest/dist/index.d.ts"
+    },
+    {
+      "scope": "module",
+      "var": "EmptyObject",
+      "type": "type-fest/EmptyObject",
+      "type_module": "./node_modules/type-fest/dist/index.d.ts"
+    },
+    {
+      "scope": "module",
+      "var": "IsNever",
+      "type": "type-fest/IsNever",
+      "type_module": "./node_modules/type-fest/dist/index.d.ts"
+    },
+    {
+      "scope": "module",
+      "var": "Simplify",
+      "type": "type-fest/Simplify",
+      "type_module": "./node_modules/type-fest/dist/index.d.ts"
+    },
+    {
+      "scope": "module",
+      "var": "ArrayRequiredPrefix",
+      "type": "internal/types/ArrayRequiredPrefix",
+      "type_module": "./src/internal/types/ArrayRequiredPrefix.ts"
+    },
+    {
+      "scope": "module",
+      "var": "BoundedPartial",
+      "type": "internal/types/BoundedPartial",
+      "type_module": "./src/internal/types/BoundedPartial.ts"
+    },
+    {
+      "scope": "module",
+      "var": "FilteredArray",
+      "type": "internal/types/FilteredArray",
+      "type_module": "./src/internal/types/FilteredArray.ts"
+    },
+    {
+      "scope": "module",
+      "var": "IterableContainer",
+      "type": "internal/types/IterableContainer",
+      "type_module": "./src/internal/types/IterableContainer.ts"
+    },
+    {
+      "scope": "module",
+      "var": "TupleParts",
+      "type": "internal/types/TupleParts",
+      "type_module": "./src/internal/types/TupleParts.ts"
+    },
+    {
+      "scope": "module",
+      "var": "purry",
+      "type": "purry/purry",
+      "type_module": "./node_modules/purry/dist/index.d.ts"
+    }
+  ],
+  "definitions_rich": [
+    {
+      "name": "groupByProp",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [],
+      "returns": null,
+      "line": 1
+    },
+    {
+      "name": "AllUnionFields",
+      "kind": "type-fest/AllUnionFields",
+      "parent": null,
+      "bases": [],
+      "params": [],
+      "returns": null,
+      "line": 3
+    },
+    {
+      "name": "ConditionalKeys",
+      "kind": "type-fest/ConditionalKeys",
+      "parent": null,
+      "bases": [],
+      "params": [],
+      "returns": null,
+      "line": 5
+    },
+    {
+      "name": "EmptyObject",
+      "kind": "type-fest/EmptyObject",
+      "parent": null,
+      "bases": [],
+      "params": [],
+      "returns": null,
+      "line": 7
+    },
+    {
+      "name": "IsNever",
+      "kind": "type-fest/IsNever",
+      "parent": null,
+      "bases": [],
+      "params": [],
+      "returns": null,
+      "line": 9
+    },
+    {
+      "name": "Simplify",
+      "kind": "type-fest/Simplify",
+      "parent": null,
+      "bases": [],
+      "params": [],
+      "returns": null,
+      "line": 11
+    },
+    {
+      "name": "ArrayRequiredPrefix",
+      "kind": "internal/types/ArrayRequiredPrefix",
+      "parent": null,
+      "bases": [],
+      "params": [],
+      "returns": null,
+      "line": 13
+    },
+    {
+      "name": "BoundedPartial",
+      "kind": "internal/types/BoundedPartial",
+      "parent": null,
+      "bases": [],
+      "params": [],
+      "returns": null,
+      "line": 15
+    },
+    {
+      "name": "FilteredArray",
+      "kind": "internal/types/FilteredArray",
+      "parent": null,
+      "bases": [],
+      "params": [],
+      "returns": null,
+      "line": 17
+    },
+    {
+      "name": "IterableContainer",
+      "kind": "internal/types/IterableContainer",
+      "parent": null,
+      "bases": [],
+      "params": [],
+      "returns": null,
+      "line": 19
+    },
+    {
+      "name": "TupleParts",
+      "kind": "internal/types/TupleParts",
+      "parent": null,
+      "bases": [],
+      "params": [],
+      "returns": null,
+      "line": 21
+    },
+    {
+      "name": "purry",
+      "kind": "purry/purry",
+      "parent": null,
+      "bases": [],
+      "params": [],
+      "returns": null,
+      "line": 23
+    }
+  ]
+}
+```

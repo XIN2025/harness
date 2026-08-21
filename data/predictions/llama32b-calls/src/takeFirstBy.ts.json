@@ -1,0 +1,16 @@
+{"calls": [
+  {"caller": "takeFirstBy", "callee_text": "__module__"},
+  {"caller": "takeFirstBy", "callee_text": "purryOrderRulesWithArgument"},
+  {"caller": "takeFirstByImplementation", "callee_text": "slice"},
+  {"caller": "takeFirstByImplementation", "callee_text": "filter"},
+  {"caller": "takeFirstByImplementation", "callee_text": "sort"},
+  {"caller": "takeFirstByImplementation", "callee_text": "reduce"},
+  {"caller": "takeFirstByImplementation", "callee_text": "heapify"},
+  {"caller": "takeFirstByImplementation", "callee_text": "compareFn"},
+  {"caller": "takeFirstByImplementation", "callee_text": "slice"},
+  {"caller": "takeFirstByImplementation", "callee_text": "filter"},
+  {"caller": "takeFirstByImplementation", "callee_text": "sort"},
+  {"caller": "takeFirstByImplementation", "callee_text": "reduce"},
+  {"caller": "takeFirstByImplementation", "callee_text": "heapMaybeInsert"},
+  {"caller": "takeFirstByImplementation", "callee_text": "compareFn"}
+]}

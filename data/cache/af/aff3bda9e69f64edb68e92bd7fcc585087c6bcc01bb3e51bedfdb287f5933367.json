@@ -1,0 +1,13 @@
+{
+  "key": "aff3bda9e69f64edb68e92bd7fcc585087c6bcc01bb3e51bedfdb287f5933367",
+  "model": "harness-qwen15b",
+  "prompt_version": "refs-v1-7386a79c1ab2+json",
+  "file_sha": "54473bf270fed786995f78e7d4b4200c16f5dadeffc8a208f9d668264f58a3cc",
+  "relative_path": "src/zipWith.ts",
+  "response": "{\n  \"calls\": [],\n  \"callable_refs\": [\n    {\n      \"caller\": \"zipWith\",\n      \"callee_text\": \"lazyDataLastImpl\"\n    },\n    {\n      \"caller\": \"zipWith\",\n      \"callee_text\": \"zipWithImplementation\"\n    }\n  ]\n}",
+  "created": "2026-08-08T22:31:35+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1404,
+  "completion_tokens": 61
+}

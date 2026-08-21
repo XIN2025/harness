@@ -1,0 +1,5 @@
+{"callable_refs": [
+  {"caller": "sortedIndexBy", "callee_text": "valueFunction"},
+  {"caller": "sortedIndexByImplementation", "callee_text": "valueFunction"},
+  {"caller": "binarySearchCutoffIndex", "callee_text": "pivot"}
+]}

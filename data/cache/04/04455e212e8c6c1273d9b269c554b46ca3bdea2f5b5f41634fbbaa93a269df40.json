@@ -1,0 +1,13 @@
+{
+  "key": "04455e212e8c6c1273d9b269c554b46ca3bdea2f5b5f41634fbbaa93a269df40",
+  "model": "harness-qwen15b",
+  "prompt_version": "ours-v1-5c74cf9a927a",
+  "file_sha": "32f120b5ff86b42f44d0b05b06488f376ea1df9eb43a70576c45df1931b09c44",
+  "relative_path": "src/dropWhile.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"dropWhile\",\n    \"dropWhileImplementation\"\n  ],\n  \"references\": [],\n  \"calls\": [\n    {\n      \"caller\": \"__module__\",\n      \"callee_text\": \"dropWhile\",\n      \"kind\": \"method\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": \"src/dropWhile.ts\",\n      \"line\": 1\n    },\n    {\n      \"caller\": \"__module__\",\n      \"callee_text\": \"dropWhileImplementation\",\n      \"kind\": \"method\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": \"src/dropWhile.ts\",\n      \"line\": 20\n    }\n  ],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"dropWhile\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"data\",\n          \"type\": \"IterableContainer\"\n        },\n        {\n          \"name\": \"predicate\",\n          \"type\": \"(item: T[number], index: number, data: T) => boolean\"\n        }\n      ],\n      \"returns\": [\n        {\n          \"type\": \"T[number][]\"\n        }\n      ],\n      \"line\": 1\n    },\n    {\n      \"name\": \"dropWhileImplementation\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"data\",\n          \"type\": \"IterableContainer\"\n        },\n        {\n          \"name\": \"predicate\",\n          \"type\": \"(item: T[number], index: number, data: T) => boolean\"\n        }\n      ],\n      \"returns\": [\n        {\n          \"type\": \"T[number][]\"\n        }\n      ],\n      \"line\": 20\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:33:57+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 769,
+  "completion_tokens": 415
+}

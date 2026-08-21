@@ -1,0 +1,118 @@
+```json
+{
+  "definitions": [
+    {
+      "name": "nthBy",
+      "kind": "function"
+    },
+    {
+      "name": "quickSelect",
+      "kind": "function"
+    },
+    {
+      "name": "identity",
+      "kind": "function"
+    },
+    {
+      "name": "CompareFunction",
+      "kind": "type_alias"
+    },
+    {
+      "name": "IterableContainer",
+      "kind": "type_alias"
+    },
+    {
+      "name": "NonEmptyArray",
+      "kind": "type_alias"
+    }
+  ],
+  "references": [
+    {
+      "name": "purryOrderRulesWithArgument",
+      "source": "./internal/purryOrderRules.ts",
+      "alias": null
+    },
+    {
+      "name": "quickSelect",
+      "source": "./internal/quickSelect.ts",
+      "alias": null
+    }
+  ],
+  "calls": [
+    {
+      "caller": "__module__",
+      "callee_text": "nthBy",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./nthBy.ts",
+      "line": 1
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "nthBy",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./nthBy.ts",
+      "line": 2
+    }
+  ],
+  "type_assignments": [
+    {
+      "scope": "__module__",
+      "var": "nthBy",
+      "type": "function",
+      "type_module": null,
+      "from_call": false
+    },
+    {
+      "scope": "__module__",
+      "var": "quickSelect",
+      "type": "function",
+      "type_module": null,
+      "from_call": false
+    }
+  ],
+  "definitions_rich": [
+    {
+      "name": "nthBy",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "readonly T[]"
+        },
+        {
+          "name": "index",
+          "type": "number"
+        }
+      ],
+      "returns": "T | undefined"
+    },
+    {
+      "name": "quickSelect",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "readonly T[]"
+        },
+        {
+          "name": "compareFn",
+          "type": "CompareFunction<T>"
+        },
+        {
+          "name": "index",
+          "type": "number"
+        }
+      ],
+      "returns": "T | undefined"
+    }
+  ]
+}
+```

@@ -1,0 +1,11 @@
+{
+  "key": "c56200fbccb858ecf777db3c5da5aa9b891bb36fcea82fd24b00cdd8000dd62b",
+  "model": "gemini-2.5-flash",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "20196f149238c6b0ea7b78a28c95b57dfd64a7427eae66197fcdf419d52f4559",
+  "relative_path": "src/endsWith.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"endsWith\",\n    \"endsWithImplementation\"\n  ],\n  \"references\": [\n    {\n      \"name\": \"purry\",\n      \"source\": \"./purry\",\n      \"alias\": null\n    }\n  ],\n  \"calls\": [\n    {\n      \"caller\": \"endsWith\",\n      \"callee_text\": \"purry\",\n      \"kind\": \"free\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": \"./purry\",\n      \"line\": 40\n    },\n    {\n      \"caller\": \"endsWith\",\n      \"callee_text\": \"endsWithImplementation\",\n      \"kind\": \"hook\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": null,\n      \"line\": 40\n    },\n    {\n      \"caller\": \"endsWithImplementation\",\n      \"callee_text\": \"endsWith\",\n      \"kind\": \"method\",\n      \"receiver\": \"data\",\n      \"receiver_type_hint\": \"string\",\n      \"callee_file_hint\": \"external\",\n      \"line\": 44\n    }\n  ],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"endsWith\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"args\",\n          \"type\": \"readonly unknown[]\"\n        }\n      ],\n      \"returns\": \"unknown\",\n      \"line\": 39\n    },\n    {\n      \"name\": \"endsWithImplementation\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"data\",\n          \"type\": \"string\"\n        },\n        {\n          \"name\": \"suffix\",\n          \"type\": \"string\"\n        }\n      ],\n      \"returns\": \"boolean\",\n      \"line\": 43\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T17:12:32+00:00",
+  "finish_reason": "stop",
+  "served_by": ""
+}

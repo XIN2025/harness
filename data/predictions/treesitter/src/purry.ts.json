@@ -1,0 +1,34 @@
+{
+  "relative_path": "src/purry.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "purry",
+      "callee_text": "fn",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 57
+    },
+    {
+      "caller": "purry",
+      "callee_text": "lazyDataLastImpl",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./internal/lazyDataLastImpl",
+      "line": 61
+    },
+    {
+      "caller": "purry",
+      "callee_text": "Error",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 64
+    }
+  ],
+  "callable_refs": []
+}

@@ -1,0 +1,13 @@
+{
+  "key": "cc22b15412554db811a162e27eaa0736733f4167890131f6db90a7169d29cfa0",
+  "model": "harness-qwen15b",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "5536c462e40c6ab9e0e1c07c947889ca26b896b99d232aa269ed929f75e28b10",
+  "relative_path": "src/countBy.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"countBy\",\n    \"countByImplementation\",\n    \"toLowerCase\"\n  ],\n  \"references\": [\n    {\"name\": \"countBy\", \"source\": \"./src/countBy.ts\"},\n    {\"name\": \"countByImplementation\", \"source\": \"./src/countBy.ts\"},\n    {\"name\": \"toLowerCase\", \"source\": \"./src/countBy.ts\"}\n  ],\n  \"calls\": [\n    {\n      \"caller\": \"countBy\",\n      \"callee_text\": \"toLowerCase\",\n      \"kind\": \"free\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": \"./src/countBy.ts\",\n      \"line\": 10\n    }\n  ],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"countBy\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [\"BoundedPartial<Record<PropertyKey, number>>\"],\n      \"params\": [{\"name\": \"data\", \"type\": \"readonly T[]\"}, {\"name\": \"categorizationFn\", \"type\": \"(value: T, index: number, data: readonly T[]) => PropertyKey | undefined\"}],\n      \"returns\": \"BoundedPartial<Record<PropertyKey, number>>\",\n      \"line\": 1\n    },\n    {\n      \"name\": \"countByImplementation\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [{\"name\": \"data\", \"type\": \"readonly T[]\"}, {\"name\": \"categorizationFn\", \"type\": \"(value: T, index: number, data: readonly T[]) => PropertyKey | undefined\"}],\n      \"returns\": \"BoundedPartial<Record<PropertyKey, number>>\",\n      \"line\": 20\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:16:56+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 8641,
+  "completion_tokens": 397
+}

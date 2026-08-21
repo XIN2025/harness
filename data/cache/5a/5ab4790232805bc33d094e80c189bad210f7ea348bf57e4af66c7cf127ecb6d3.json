@@ -1,0 +1,13 @@
+{
+  "key": "5ab4790232805bc33d094e80c189bad210f7ea348bf57e4af66c7cf127ecb6d3",
+  "model": "harness-llama32b",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "5536c462e40c6ab9e0e1c07c947889ca26b896b99d232aa269ed929f75e28b10",
+  "relative_path": "src/countBy.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"countBy\", \"callee_text\": \"purry\"},\n  {\"caller\": \"countBy\", \"callee_text\": \"countByImplementation\"},\n  {\"caller\": \"countByImplementation\", \"callee_text\": \"entries\"},\n  {\"caller\": \"countByImplementation\", \"callee_text\": \"for\"},\n  {\"caller\": \"countByImplementation\", \"callee_text\": \"get\"},\n  {\"caller\": \"countByImplementation\", \"callee_text\": \"set\"},\n  {\"caller\": \"countByImplementation\", \"callee_text\": \"out\"},\n  {\"caller\": \"countByImplementation\", \"callee_text\": \"categorizationFn\"},\n  {\"caller\": \"countByImplementation\", \"callee_text\": \"category\"},\n  {\"caller\": \"countByImplementation\", \"callee_text\": \"index\"},\n  {\"caller\": \"countByImplementation\", \"callee_text\": \"data\"},\n  {\"caller\": \"countByImplementation\", \"callee_text\": \"get\"},\n  {\"caller\": \"countByImplementation\", \"callee_text\": \"undefined\"},\n  {\"caller\": \"countByImplementation\", \"callee_text\": \"out\"},\n  {\"caller\": \"countByImplementation\", \"callee_text\": \"entries\"},\n  {\"caller\": \"countByImplementation\", \"callee_text\": \"for\"},\n  {\"caller\": \"countByImplementation\", \"callee_text\": \"get\"},\n  {\"caller\": \"countByImplementation\", \"callee_text\": \"set\"},\n  {\"caller\": \"countByImplementation\", \"callee_text\": \"out\"},\n  {\"caller\": \"countByImplementation\", \"callee_text\": \"categorizationFn\"},\n  {\"caller\": \"countByImplementation\", \"callee_text\": \"category\"},\n  {\"caller\": \"countByImplementation\", \"callee_text\": \"index\"},\n  {\"caller\": \"countByImplementation\", \"callee_text\": \"data\"},\n  {\"caller\": \"countByImplementation\", \"callee_text\": \"get\"},\n  {\"caller\": \"countByImplementation\", \"callee_text\": \"undefined\"},\n  {\"caller\": \"countByImplementation\", \"callee_text\": \"out\"},\n  {\"caller\": \"countByImplementation\", \"callee_text\": \"Object.fromEntries\"},\n  {\"caller\": \"countByImplementation\", \"callee_text\": \"entries\"},\n  {\"caller\": \"countByImplementation\", \"callee_text\": \"for\"},\n  {\"caller\": \"countByImplementation\", \"callee_text\": \"get\"},\n  {\"caller\": \"countByImplementation\", \"callee_text\": \"set\"},\n  {\"caller\": \"countByImplementation\", \"callee_text\": \"out\"}\n]}",
+  "created": "2026-08-08T22:33:35+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1042,
+  "completion_tokens": 527
+}

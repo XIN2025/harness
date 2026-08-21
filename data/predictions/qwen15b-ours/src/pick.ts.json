@@ -1,0 +1,331 @@
+```json
+{
+  "definitions": [
+    "pick",
+    "PickFromArray",
+    "PickBoundedFromArray",
+    "PickUnbounded",
+    "IsNever",
+    "KeysOfUnion",
+    "Writable",
+    "IsBounded",
+    "IsBoundedRecord",
+    "PartitionByUnion",
+    "TupleParts",
+    "purry"
+  ],
+  "references": [
+    {
+      "name": "type-fest",
+      "source": "node_modules/type-fest/index.d.ts",
+      "alias": null
+    },
+    {
+      "name": "./internal/types/IsBounded",
+      "source": "src/internal/types/IsBounded.ts",
+      "alias": null
+    },
+    {
+      "name": "./internal/types/IsBoundedRecord",
+      "source": "src/internal/types/IsBoundedRecord.ts",
+      "alias": null
+    },
+    {
+      "name": "./internal/types/PartitionByUnion",
+      "source": "src/internal/types/PartitionByUnion.ts",
+      "alias": null
+    },
+    {
+      "name": "./internal/types/TupleParts",
+      "source": "src/internal/types/TupleParts.ts",
+      "alias": null
+    },
+    {
+      "name": "./purry",
+      "source": "src/purry.ts",
+      "alias": null
+    }
+  ],
+  "calls": [
+    {
+      "caller": "__module__",
+      "callee_text": "pick",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "src/pick.ts",
+      "line": 1
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "pick",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "src/pick.ts",
+      "line": 2
+    }
+  ],
+  "type_assignments": [
+    {
+      "scope": "__module__",
+      "var": "pick",
+      "type": "function",
+      "type_module": null,
+      "from_call": false
+    },
+    {
+      "scope": "__module__",
+      "var": "PickFromArray",
+      "type": "function",
+      "type_module": null,
+      "from_call": false
+    },
+    {
+      "scope": "__module__",
+      "var": "PickBoundedFromArray",
+      "type": "function",
+      "type_module": null,
+      "from_call": false
+    },
+    {
+      "scope": "__module__",
+      "var": "PickUnbounded",
+      "type": "function",
+      "type_module": null,
+      "from_call": false
+    },
+    {
+      "scope": "__module__",
+      "var": "IsNever",
+      "type": "function",
+      "type_module": null,
+      "from_call": false
+    },
+    {
+      "scope": "__module__",
+      "var": "KeysOfUnion",
+      "type": "function",
+      "type_module": null,
+      "from_call": false
+    },
+    {
+      "scope": "__module__",
+      "var": "Writable",
+      "type": "function",
+      "type_module": null,
+      "from_call": false
+    },
+    {
+      "scope": "__module__",
+      "var": "IsBounded",
+      "type": "function",
+      "type_module": null,
+      "from_call": false
+    },
+    {
+      "scope": "__module__",
+      "var": "IsBoundedRecord",
+      "type": "function",
+      "type_module": null,
+      "from_call": false
+    },
+    {
+      "scope": "__module__",
+      "var": "PartitionByUnion",
+      "type": "function",
+      "type_module": null,
+      "from_call": false
+    },
+    {
+      "scope": "__module__",
+      "var": "TupleParts",
+      "type": "function",
+      "type_module": null,
+      "from_call": false
+    }
+  ],
+  "definitions_rich": [
+    {
+      "name": "pick",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "keys",
+          "type": "readonly (keyof T)[]"
+        }
+      ],
+      "returns": "PickFromArray<T, Keys>",
+      "line": 1
+    },
+    {
+      "name": "PickFromArray",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "T",
+          "type": "object"
+        },
+        {
+          "name": "Keys",
+          "type": "readonly KeysOfUnion<T>[]"
+        }
+      ],
+      "returns": "PickFromArray<T, Keys>",
+      "line": 2
+    },
+    {
+      "name": "PickBoundedFromArray",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "T",
+          "type": "object"
+        },
+        {
+          "name": "Keys",
+          "type": "readonly KeysOfUnion<T>[]"
+        }
+      ],
+      "returns": "PickBoundedFromArray<T, Keys>",
+      "line": 3
+    },
+    {
+      "name": "PickUnbounded",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "T",
+          "type": "object"
+        },
+        {
+          "name": "Keys",
+          "type": "keyof T"
+        }
+      ],
+      "returns": "PickUnbounded<T, Keys>",
+      "line": 4
+    },
+    {
+      "name": "IsNever",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "T",
+          "type": "unknown"
+        }
+      ],
+      "returns": "boolean",
+      "line": 5
+    },
+    {
+      "name": "KeysOfUnion",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "T",
+          "type": "unknown"
+        }
+      ],
+      "returns": "keyof T",
+      "line": 6
+    },
+    {
+      "name": "Writable",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "T",
+          "type": "unknown"
+        }
+      ],
+      "returns": "unknown",
+      "line": 7
+    },
+    {
+      "name": "IsBounded",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "T",
+          "type": "keyof T"
+        }
+      ],
+      "returns": "boolean",
+      "line": 8
+    },
+    {
+      "name": "IsBoundedRecord",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "T",
+          "type": "unknown"
+        }
+      ],
+      "returns": "boolean",
+      "line": 9
+    },
+    {
+      "name": "PartitionByUnion",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "T",
+          "type": "unknown"
+        }
+      ],
+      "returns": "unknown",
+      "line": 10
+    },
+    {
+      "name": "TupleParts",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "T",
+          "type": "unknown"
+        }
+      ],
+      "returns": "unknown",
+      "line": 11
+    },
+    {
+      "name": "purry",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "fn",
+          "type": "unknown"
+        }
+      ],
+      "returns": "unknown",
+      "line": 12
+    }
+  ]
+}
+```

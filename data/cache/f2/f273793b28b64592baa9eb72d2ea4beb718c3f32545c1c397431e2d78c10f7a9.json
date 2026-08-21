@@ -1,0 +1,13 @@
+{
+  "key": "f273793b28b64592baa9eb72d2ea4beb718c3f32545c1c397431e2d78c10f7a9",
+  "model": "harness-qwen15b",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "78abc81dd0a0401a76bb96d4fda26bdbcf236cab026e630834cb42548a5eb2e5",
+  "relative_path": "src/ceil.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"ceil\", \"callee_text\": \"withPrecision\"},\n  {\"caller\": \"ceil\", \"callee_text\": \"Math.ceil\"}\n]}",
+  "created": "2026-08-08T22:13:45+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 915,
+  "completion_tokens": 36
+}

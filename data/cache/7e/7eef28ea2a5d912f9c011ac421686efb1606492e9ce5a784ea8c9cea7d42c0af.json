@@ -1,0 +1,13 @@
+{
+  "key": "7eef28ea2a5d912f9c011ac421686efb1606492e9ce5a784ea8c9cea7d42c0af",
+  "model": "harness-qwen15b",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "c8df1e430f20827f530687299733030199d555daa932847ad404e1a99b85eaf0",
+  "relative_path": "src/last.ts",
+  "response": "```json\n{\n  \"definitions\": [\"last\"],\n  \"references\": [\n    {\"name\": \"type-fest\", \"source\": \"./node_modules/type-fest/dist/index.d.ts\"},\n    {\"name\": \"internal/types/IterableContainer\", \"source\": \"./src/internal/types/IterableContainer.ts\"},\n    {\"name\": \"purry\", \"source\": \"./src/purry.ts\"}\n  ],\n  \"calls\": [\n    {\n      \"caller\": \"last\",\n      \"callee_text\": \"at\",\n      \"kind\": \"method\",\n      \"receiver\": \"array\",\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": \"external\",\n      \"line\": 1\n    }\n  ],\n  \"type_assignments\": [\n    {\"scope\": \"module\", \"var\": \"last\", \"type\": \"function\", \"type_module\": \"./src/last.ts\"}\n  ],\n  \"definitions_rich\": [\n    {\n      \"name\": \"last\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [{\"name\": \"data\", \"type\": \"IterableContainer\"}],\n      \"returns\": \"Last<T>\",\n      \"line\": 1\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:22:37+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 8397,
+  "completion_tokens": 257
+}

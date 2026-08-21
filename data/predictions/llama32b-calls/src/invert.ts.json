@@ -1,0 +1,6 @@
+{"calls": [
+  {"caller": "invert", "callee_text": "purry"},
+  {"caller": "invert", "callee_text": "invertImplementation"},
+  {"caller": "invertImplementation", "callee_text": "Object.entries"},
+  {"caller": "invertImplementation", "callee_text": "for"}
+  ]}

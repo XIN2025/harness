@@ -1,0 +1,5 @@
+{"calls": [
+  {"caller": "filter", "callee_text": "Array.prototype.filter"},
+  {"caller": "filterImplementation", "callee_text": "filter"},
+  {"caller": "lazyImplementation", "callee_text": "filter"}
+]}

@@ -1,0 +1,13 @@
+{
+  "key": "2926995f00ec214ef394866a62f72a1c7c4ab74ed1389955dd35ad90da67e27a",
+  "model": "harness-qwen15b",
+  "prompt_version": "theirs-v6-091f3f6a7bbf",
+  "file_sha": "fecd72658f4c7524672f71a01897bb83174ae4d8a5102f7ea8c8d22d94e678e5",
+  "relative_path": "src/sortBy.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"sortBy\",\n    \"prop\",\n    \"purryOrderRules\",\n    \"type\",\n    \"IterableContainer\",\n    \"NonEmptyArray\",\n    \"ReorderedArray\"\n  ],\n  \"references\": [\n    {\"name\": \"sortBy\", \"source\": \"./src/sortBy.ts\"},\n    {\"name\": \"prop\", \"source\": \"./src/sortBy.ts\"},\n    {\"name\": \"purryOrderRules\", \"source\": \"./src/internal/purryOrderRules.ts\"},\n    {\"name\": \"type\", \"source\": \"./src/internal/types/Type.ts\"},\n    {\"name\": \"IterableContainer\", \"source\": \"./src/internal/types/IterableContainer.ts\"},\n    {\"name\": \"NonEmptyArray\", \"source\": \"./src/internal/types/NonEmptyArray.ts\"},\n    {\"name\": \"ReorderedArray\", \"source\": \"./src/internal/types/ReorderedArray.ts\"}\n  ],\n  \"calls\": [\n    {\n      \"caller\": \"sortBy\",\n      \"callee_text\": \"prop('a')\",\n      \"kind\": \"method\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [{\"name\": \"a\", \"type\": null}],\n      \"returns\": null,\n      \"line\": 1\n    }\n  ],\n  \"type_assignments\": [\n    {\"scope\": \"module\", \"var\": \"sortBy\", \"type\": \"function\", \"type_module\": \"./src/sortBy.ts\"},\n    {\"scope\": \"module\", \"var\": \"prop\", \"type\": \"function\", \"type_module\": \"./src/sortBy.ts\"},\n    {\"scope\": \"module\", \"var\": \"purryOrderRules\", \"type\": \"function\", \"type_module\": \"./src/internal/purryOrderRules.ts\"}\n  ],\n  \"definitions_rich\": [\n    {\n      \"name\": \"sortBy\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [{\"name\": \"data\", \"type\": \"IterableContainer\"}],\n      \"returns\": \"ReorderedArray<IterableContainer>\",\n      \"line\": 1\n    },\n    {\n      \"name\": \"prop\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [{\"name\": \"key\", \"type\": \"string\"}],\n      \"returns\": \"any\",\n      \"line\": 2\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:26:26+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 9228,
+  "completion_tokens": 509
+}

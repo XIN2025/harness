@@ -1,0 +1,13 @@
+{
+  "key": "fe078a06b89e9365b4e0b7735ef4c6bc8804458b17239fa69776d830810d2a6f",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "6335375ec43ab5ffc4d9124d9b970a54c8058b707dd3d4f3178535d2f50a3490",
+  "relative_path": "src/sum.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"sum\", \"callee_text\": \"purry\"},\n  {\"caller\": \"sumImplementation\", \"callee_text\": \"typeof\"},\n  {\"caller\": \"sumImplementation\", \"callee_text\": \"data[0]\"},\n  {\"caller\": \"sumImplementation\", \"callee_text\": \"typeof\"},\n  {\"caller\": \"sumImplementation\", \"callee_text\": \"value\"},\n  {\"caller\": \"sumImplementation\", \"callee_text\": \"+=\"},\n  {\"caller\": \"sumImplementation\", \"callee_text\": \"out\"},\n  {\"caller\": \"sumImplementation\", \"callee_text\": \"for\"}\n]}",
+  "created": "2026-08-08T23:12:53+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1178,
+  "completion_tokens": 130
+}

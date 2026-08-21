@@ -1,0 +1,7 @@
+{
+  "calls": [],
+  "callable_refs": [
+    {"caller": "omitBy", "callee_text": "omitByImplementation"},
+    {"caller": "omitByImplementation", "callee_text": "predicate"}
+  ]
+}

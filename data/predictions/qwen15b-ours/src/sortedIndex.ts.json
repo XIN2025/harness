@@ -1,0 +1,64 @@
+```json
+{
+  "definitions": [
+    "sortedIndex",
+    "purry",
+    "binarySearchCutoffIndex"
+  ],
+  "references": [],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "sortedIndex",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "readonly T[]"
+        },
+        {
+          "name": "item",
+          "type": "T"
+        }
+      ],
+      "returns": "number",
+      "line": 1
+    },
+    {
+      "name": "sortedIndex",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "item",
+          "type": "T"
+        }
+      ],
+      "returns": "number",
+      "line": 1
+    },
+    {
+      "name": "sortedIndexImplementation",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "array",
+          "type": "readonly T[]"
+        },
+        {
+          "name": "item",
+          "type": "T"
+        }
+      ],
+      "returns": "number",
+      "line": 1
+    }
+  ]
+}
+```

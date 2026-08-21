@@ -1,0 +1,52 @@
+{
+  "relative_path": "decorators/core/injectable.decorator.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "Injectable",
+      "callee_text": "defineMetadata",
+      "kind": "static",
+      "receiver": "Reflect",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 45
+    },
+    {
+      "caller": "Injectable",
+      "callee_text": "defineMetadata",
+      "kind": "static",
+      "receiver": "Reflect",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 46
+    },
+    {
+      "caller": "mixin",
+      "callee_text": "defineProperty",
+      "kind": "static",
+      "receiver": "Object",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 54
+    },
+    {
+      "caller": "mixin",
+      "callee_text": "uid",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "uid",
+      "line": 55
+    },
+    {
+      "caller": "mixin",
+      "callee_text": "Injectable",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 57
+    }
+  ],
+  "callable_refs": []
+}

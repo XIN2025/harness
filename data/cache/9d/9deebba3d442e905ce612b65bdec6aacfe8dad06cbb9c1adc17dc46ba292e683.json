@@ -1,0 +1,13 @@
+{
+  "key": "9deebba3d442e905ce612b65bdec6aacfe8dad06cbb9c1adc17dc46ba292e683",
+  "model": "harness-llama32b",
+  "prompt_version": "calls-v1-5049d88a1297+json",
+  "file_sha": "338296079ba09bc18b676384852c8d2a4eedf7116f407ae1d670a235631a6eb1",
+  "relative_path": "src/evolve.ts",
+  "response": "{\"calls\": [\n  {\"caller\": \"evolve\", \"callee_text\": \"__module__\"},\n  {\"caller\": \"evolve\", \"callee_text\": \"purry\"},\n  {\"caller\": \"evolveImplementation\", \"callee_text\": \"Object.entries\"},\n  {\"caller\": \"evolveImplementation\", \"callee_text\": \"in\"},\n  {\"caller\": \"evolveImplementation\", \"callee_text\": \"out\"},\n  {\"caller\": \"evolveImplementation\", \"callee_text\": \"typeof\"},\n  {\"caller\": \"evolveImplementation\", \"callee_text\": \"data\"},\n  {\"caller\": \"evolveImplementation\", \"callee_text\": \"Object.assign\"},\n  {\"caller\": \"evolveImplementation\", \"callee_text\": \"for\"},\n  {\"caller\": \"evolveImplementation\", \"callee_text\": \"key\"},\n  {\"caller\": \"evolveImplementation\", \"callee_text\": \"out[key]\"},\n  {\"caller\": \"evolveImplementation\", \"callee_text\": \"typeof\"},\n  {\"caller\": \"evolveImplementation\", \"callee_text\": \"value\"},\n  {\"caller\": \"evolveImplementation\", \"callee_text\": \"function\"},\n  {\"caller\": \"evolveImplementation\", \"callee_text\": \"out[key]\"},\n  {\"caller\": \"evolveImplementation\", \"callee_text\": \"typeof\"},\n  {\"caller\": \"evolveImplementation\", \"callee_text\": \"value\"},\n  {\"caller\": \"evolveImplementation\", \"callee_text\": \"evolveImplementation\"},\n  {\"caller\": \"evolveImplementation\", \"callee_text\": \"out[key]\"},\n  {\"caller\": \"evolveImplementation\", \"callee_text\": \"typeof\"},\n  {\"caller\": \"evolveImplementation\", \"callee_text\": \"value\"},\n  {\"caller\": \"evolveImplementation\", \"callee_text\": \"function\"},\n  {\"caller\": \"evolveImplementation\", \"callee_text\": \"out[key]\"},\n  {\"caller\": \"evolveImplementation\", \"callee_text\": \"typeof\"},\n  {\"caller\": \"evolveImplementation\", \"callee_text\": \"value\"},\n  {\"caller\": \"evolveImplementation\", \"callee_text\": \"function\"}\n]}",
+  "created": "2026-08-08T22:36:52+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1657,
+  "completion_tokens": 434
+}

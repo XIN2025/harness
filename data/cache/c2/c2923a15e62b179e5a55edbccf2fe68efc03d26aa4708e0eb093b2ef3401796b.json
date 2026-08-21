@@ -1,0 +1,13 @@
+{
+  "key": "c2923a15e62b179e5a55edbccf2fe68efc03d26aa4708e0eb093b2ef3401796b",
+  "model": "harness-qwen15b",
+  "prompt_version": "ours-v1-5c74cf9a927a",
+  "file_sha": "618597e2ebce7e307cdb48dada9d21201c6dd690f13b2682764688d443e70a4d",
+  "relative_path": "src/sortedIndexBy.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"sortedIndexBy\",\n    \"purry\",\n    \"binarySearchCutoffIndex\"\n  ],\n  \"references\": [],\n  \"calls\": [],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"sortedIndexBy\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"data\",\n          \"type\": \"readonly T[]\"\n        },\n        {\n          \"name\": \"item\",\n          \"type\": \"T\"\n        },\n        {\n          \"name\": \"valueFunction\",\n          \"type\": \"(item: T, index?: number | undefined, data: readonly T[]) => NonNullable<unknown>\"\n        }\n      ],\n      \"returns\": \"number\"\n    },\n    {\n      \"name\": \"purry\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"fn\",\n          \"type\": \"(arg1: unknown, arg2: unknown, ...args: unknown[]) => unknown\"\n        },\n        {\n          \"name\": \"arity\",\n          \"type\": \"number\"\n        }\n      ],\n      \"returns\": \"unknown\"\n    },\n    {\n      \"name\": \"binarySearchCutoffIndex\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"data\",\n          \"type\": \"readonly T[]\"\n        },\n        {\n          \"name\": \"compareFn\",\n          \"type\": \"(a: T, b: T) => number\"\n        }\n      ],\n      \"returns\": \"number\"\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:44:32+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1335,
+  "completion_tokens": 377
+}

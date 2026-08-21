@@ -1,0 +1,1 @@
+{"calls": [], "callable_refs": [{"caller": "reduce", "callee_text": "reduceImplementation"}, {"caller": "reduceImplementation", "callee_text": "callbackfn"}]}

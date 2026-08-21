@@ -1,0 +1,38 @@
+{
+  "arm": "ts-hexo",
+  "split": "dev",
+  "cut": "full",
+  "validity": {
+    "total": 53,
+    "raw_valid": 53,
+    "parseable": 53,
+    "schema_valid": 53
+  },
+  "counts": {
+    "tp": 549,
+    "fp": 0,
+    "fn": 16,
+    "unscored": 381,
+    "files": 53
+  },
+  "metrics": {
+    "precision": {
+      "point": 1.0,
+      "low": 1.0,
+      "high": 1.0,
+      "method": "percentile"
+    },
+    "recall": {
+      "point": 0.9716814159292035,
+      "low": 0.9539107824551158,
+      "high": 0.9841758760499659,
+      "method": "BCa"
+    },
+    "f1": {
+      "point": 0.9856373429084381,
+      "low": 0.9764147268607976,
+      "high": 0.9920259865027541,
+      "method": "BCa"
+    }
+  }
+}

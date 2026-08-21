@@ -1,0 +1,4 @@
+{"calls": [
+  {"caller": "hasProp", "callee_text": "purry"},
+  {"caller": "hasPropImplementation", "callee_text": "Object.hasOwn"}
+]}

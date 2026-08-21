@@ -1,0 +1,196 @@
+{
+  "relative_path": "lib/plugins/generator/asset.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "process",
+      "callee_text": "map",
+      "kind": "method",
+      "receiver": "Promise.filter(ctx.model(name).toArray(), (asset: Document<AssetSchema>) => exists(asset.source).tap(exist => {\n    if (!exist) return asset.remove();\n  }))",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 22
+    },
+    {
+      "caller": "process",
+      "callee_text": "filter",
+      "kind": "static",
+      "receiver": "Promise",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 22
+    },
+    {
+      "caller": "process",
+      "callee_text": "toArray",
+      "kind": "method",
+      "receiver": "ctx.model(name)",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 22
+    },
+    {
+      "caller": "process",
+      "callee_text": "model",
+      "kind": "method",
+      "receiver": "ctx",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 22
+    },
+    {
+      "caller": "process",
+      "callee_text": "tap",
+      "kind": "method",
+      "receiver": "exists(asset.source)",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 22
+    },
+    {
+      "caller": "process",
+      "callee_text": "exists",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-fs",
+      "line": 22
+    },
+    {
+      "caller": "process",
+      "callee_text": "remove",
+      "kind": "method",
+      "receiver": "asset",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 23
+    },
+    {
+      "caller": "process",
+      "callee_text": "isRenderable",
+      "kind": "method",
+      "receiver": "ctx.render",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 31
+    },
+    {
+      "caller": "process",
+      "callee_text": "substring",
+      "kind": "method",
+      "receiver": "path",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 33
+    },
+    {
+      "caller": "process",
+      "callee_text": "extname",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "path",
+      "line": 33
+    },
+    {
+      "caller": "process",
+      "callee_text": "getOutput",
+      "kind": "method",
+      "receiver": "ctx.render",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 35
+    },
+    {
+      "caller": "process",
+      "callee_text": "catch",
+      "kind": "method",
+      "receiver": "ctx.render.render({\n        path: source,\n        toString: true\n      })",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 37
+    },
+    {
+      "caller": "process",
+      "callee_text": "render",
+      "kind": "method",
+      "receiver": "ctx.render",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 37
+    },
+    {
+      "caller": "process",
+      "callee_text": "error",
+      "kind": "method",
+      "receiver": "ctx.log",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 41
+    },
+    {
+      "caller": "process",
+      "callee_text": "magenta",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "picocolors",
+      "line": 41
+    },
+    {
+      "caller": "process",
+      "callee_text": "createReadStream",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "hexo-fs",
+      "line": 44
+    },
+    {
+      "caller": "assetGenerator",
+      "callee_text": "then",
+      "kind": "method",
+      "receiver": "Promise.all([\n    process('Asset', this),\n    process('PostAsset', this)\n  ])",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 52
+    },
+    {
+      "caller": "assetGenerator",
+      "callee_text": "all",
+      "kind": "static",
+      "receiver": "Promise",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 52
+    },
+    {
+      "caller": "assetGenerator",
+      "callee_text": "process",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 53
+    },
+    {
+      "caller": "assetGenerator",
+      "callee_text": "process",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 54
+    },
+    {
+      "caller": "assetGenerator",
+      "callee_text": "concat",
+      "kind": "method",
+      "receiver": "[]",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 55
+    }
+  ],
+  "callable_refs": []
+}

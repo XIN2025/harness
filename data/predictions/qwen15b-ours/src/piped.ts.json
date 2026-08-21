@@ -1,0 +1,47 @@
+```json
+{
+  "definitions": [
+    "piped",
+    "pipe"
+  ],
+  "references": [],
+  "calls": [],
+  "type_assignments": [],
+  "definitions_rich": [
+    {
+      "name": "piped",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "functions",
+          "type": "readonly ((input: unknown) => unknown)[]"
+        }
+      ],
+      "returns": {
+        "type": "unknown",
+        "type_module": null
+      },
+      "line": 107
+    },
+    {
+      "name": "pipe",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "value",
+          "type": "unknown"
+        }
+      ],
+      "returns": {
+        "type": "unknown",
+        "type_module": null
+      },
+      "line": 107
+    }
+  ]
+}
+```

@@ -1,0 +1,13 @@
+{
+  "key": "6b4b500f0f47392a6b01cd407ccc873f4b53d86f0ae472a26d92261f8fb43c04",
+  "model": "harness-llama32b-r1",
+  "prompt_version": "refs-v1-7386a79c1ab2+json",
+  "file_sha": "20196f149238c6b0ea7b78a28c95b57dfd64a7427eae66197fcdf419d52f4559",
+  "relative_path": "src/endsWith.ts",
+  "response": "{\"calls\": [], \"callable_refs\": [{\"caller\": \"endsWith\", \"callee_text\": \"endsWithImplementation\"}, {\"caller\": \"endsWith\", \"callee_text\": \"sliceString\"}, {\"caller\": \"endsWith\", \"callee_text\": \"defaultCompare\"}, {\"caller\": \"endsWith\", \"callee_text\": \"identity\"}]}",
+  "created": "2026-08-08T23:19:45+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 868,
+  "completion_tokens": 65
+}

@@ -1,0 +1,13 @@
+{
+  "key": "7846bf6ac451078422b7d739e01a89492d8f7dc06409b070e0f9ad31f8eeb944",
+  "model": "harness-qwen15b",
+  "prompt_version": "ours-v1-5c74cf9a927a",
+  "file_sha": "9e551c3662e1955fa97e9fbecf18bbe86fce21526fba42d5d811df49ebe01180",
+  "relative_path": "src/internal/binarySearchCutoffIndex.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"binarySearchCutoffIndex\"\n  ],\n  \"references\": [],\n  \"calls\": [\n    {\n      \"caller\": \"__module__\",\n      \"callee_text\": \"binarySearchCutoffIndex\",\n      \"kind\": \"function\",\n      \"receiver\": null,\n      \"receiver_type_hint\": null,\n      \"callee_file_hint\": \"src/internal/binarySearchCutoffIndex.ts\",\n      \"line\": 1\n    }\n  ],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"binarySearchCutoffIndex\",\n      \"kind\": \"function\",\n      \"parent\": null,\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"array\",\n          \"type\": \"readonly T[]\"\n        },\n        {\n          \"name\": \"predicate\",\n          \"type\": \"(value: T, index: number, data: readonly T[]) => boolean\"\n        }\n      ],\n      \"returns\": {\n        \"type\": \"number\"\n      },\n      \"line\": 1\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:36:43+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 620,
+  "completion_tokens": 232
+}

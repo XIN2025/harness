@@ -1,0 +1,13 @@
+{
+  "key": "3f9afbad0f32ebf112adc0eeaa021ca6da1204029d1a1fff3bd2b744b97d0916",
+  "model": "harness-qwen15b",
+  "prompt_version": "refs-v1-7386a79c1ab2+json",
+  "file_sha": "8e84cf51923b49c97f8229a5414602cbd70043c9bb9c2e35eb00a24896f335f8",
+  "relative_path": "src/pick.ts",
+  "response": "{\"calls\": [], \"callable_refs\": [{\"caller\": \"pick\", \"callee_text\": \"pickImplementation\"}, {\"caller\": \"pickImplementation\", \"callee_text\": \"object\"}, {\"caller\": \"pickImplementation\", \"callee_text\": \"keys\"}]}",
+  "created": "2026-08-08T22:28:42+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1894,
+  "completion_tokens": 52
+}

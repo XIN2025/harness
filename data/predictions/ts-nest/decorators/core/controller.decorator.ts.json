@@ -1,0 +1,106 @@
+{
+  "relative_path": "decorators/core/controller.decorator.ts",
+  "definitions": [],
+  "calls": [
+    {
+      "caller": "Controller",
+      "callee_text": "isUndefined",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../../utils/shared.utils",
+      "line": 156
+    },
+    {
+      "caller": "Controller",
+      "callee_text": "isString",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "../../utils/shared.utils",
+      "line": 160
+    },
+    {
+      "caller": "Controller",
+      "callee_text": "isArray",
+      "kind": "static",
+      "receiver": "Array",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 160
+    },
+    {
+      "caller": "Controller",
+      "callee_text": "isArray",
+      "kind": "static",
+      "receiver": "Array",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 166
+    },
+    {
+      "caller": "Controller",
+      "callee_text": "from",
+      "kind": "static",
+      "receiver": "Array",
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 167
+    },
+    {
+      "caller": "Controller",
+      "callee_text": "Set",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 167
+    },
+    {
+      "caller": "Controller",
+      "callee_text": "defineMetadata",
+      "kind": "static",
+      "receiver": "Reflect",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 172
+    },
+    {
+      "caller": "Controller",
+      "callee_text": "defineMetadata",
+      "kind": "static",
+      "receiver": "Reflect",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 173
+    },
+    {
+      "caller": "Controller",
+      "callee_text": "defineMetadata",
+      "kind": "static",
+      "receiver": "Reflect",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 174
+    },
+    {
+      "caller": "Controller",
+      "callee_text": "defineMetadata",
+      "kind": "static",
+      "receiver": "Reflect",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 175
+    },
+    {
+      "caller": "Controller",
+      "callee_text": "defineMetadata",
+      "kind": "static",
+      "receiver": "Reflect",
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 176
+    }
+  ],
+  "callable_refs": []
+}

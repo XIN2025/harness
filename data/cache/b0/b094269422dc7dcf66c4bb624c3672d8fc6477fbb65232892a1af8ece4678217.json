@@ -1,0 +1,13 @@
+{
+  "key": "b094269422dc7dcf66c4bb624c3672d8fc6477fbb65232892a1af8ece4678217",
+  "model": "harness-qwen15b",
+  "prompt_version": "refs-v1-7386a79c1ab2+json",
+  "file_sha": "ee62c2433ee2c3c8dc3c4a1f35715611dea9656efbd46e3155d21299a8275f80",
+  "relative_path": "src/swapProps.ts",
+  "response": "{\"calls\": [], \"callable_refs\": [{\"caller\": \"swapProps\", \"callee_text\": \"swapPropsImplementation\"}, {\"caller\": \"swapPropsImplementation\", \"callee_text\": \"obj\"}]}",
+  "created": "2026-08-08T22:30:35+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 865,
+  "completion_tokens": 41
+}

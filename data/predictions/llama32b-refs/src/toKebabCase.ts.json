@@ -1,0 +1,1 @@
+{"callable_refs": [{"caller": "toKebabCase", "callee_text": "words"}, {"caller": "toKebabCaseImplementation", "callee_text": "toLowerCase"}]}

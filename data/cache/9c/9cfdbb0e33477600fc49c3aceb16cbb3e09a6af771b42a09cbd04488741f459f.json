@@ -1,0 +1,13 @@
+{
+  "key": "9cfdbb0e33477600fc49c3aceb16cbb3e09a6af771b42a09cbd04488741f459f",
+  "model": "harness-qwen15b",
+  "prompt_version": "ours-v1-5c74cf9a927a",
+  "file_sha": "90177693fd890d54e8a171f69eedb19bc0e4460c2fc745195cff5274fcba097d",
+  "relative_path": "src/hasProp.ts",
+  "response": "```json\n{\n  \"definitions\": [\n    \"hasProp\",\n    \"HasProp\"\n  ],\n  \"references\": [],\n  \"calls\": [],\n  \"type_assignments\": [],\n  \"definitions_rich\": [\n    {\n      \"name\": \"hasProp\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"data\",\n          \"type\": \"T\"\n        },\n        {\n          \"name\": \"key\",\n          \"type\": \"Key extends KeysOfUnion<T> ? Key : never\"\n        }\n      ],\n      \"returns\": \"data is HasProp<T, Key>\"\n    },\n    {\n      \"name\": \"HasProp\",\n      \"kind\": \"function\",\n      \"parent\": \"__module__\",\n      \"bases\": [],\n      \"params\": [\n        {\n          \"name\": \"T\",\n          \"type\": \"object\"\n        }\n      ],\n      \"returns\": \"boolean\"\n    }\n  ]\n}\n```",
+  "created": "2026-08-08T20:36:25+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1192,
+  "completion_tokens": 212
+}

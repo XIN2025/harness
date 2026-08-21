@@ -1,0 +1,4 @@
+{"callable_refs": [
+  {"caller": "funnel", "callee_text": "handleBurstEnd"},
+  {"caller": "funnel", "callee_text": "handleIntervalEnd"}
+]}

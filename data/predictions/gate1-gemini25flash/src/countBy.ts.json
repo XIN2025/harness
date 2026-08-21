@@ -1,0 +1,146 @@
+```json
+{
+  "definitions": [
+    "countBy",
+    "countByImplementation"
+  ],
+  "references": [
+    {
+      "name": "BoundedPartial",
+      "source": "./internal/types/BoundedPartial",
+      "alias": null
+    },
+    {
+      "name": "purry",
+      "source": "./purry",
+      "alias": null
+    }
+  ],
+  "calls": [
+    {
+      "caller": "countBy",
+      "callee_text": "purry",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./purry",
+      "line": 39
+    },
+    {
+      "caller": "countBy",
+      "callee_text": "countByImplementation",
+      "kind": "hook",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 39
+    },
+    {
+      "caller": "countByImplementation",
+      "callee_text": "Map",
+      "kind": "new",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "external",
+      "line": 47
+    },
+    {
+      "caller": "countByImplementation",
+      "callee_text": "entries",
+      "kind": "method",
+      "receiver": "data",
+      "receiver_type_hint": "Array",
+      "callee_file_hint": "external",
+      "line": 49
+    },
+    {
+      "caller": "countByImplementation",
+      "callee_text": "categorizationFn",
+      "kind": "free",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": null,
+      "line": 50
+    },
+    {
+      "caller": "countByImplementation",
+      "callee_text": "get",
+      "kind": "method",
+      "receiver": "out",
+      "receiver_type_hint": "Map",
+      "callee_file_hint": "external",
+      "line": 52
+    },
+    {
+      "caller": "countByImplementation",
+      "callee_text": "set",
+      "kind": "method",
+      "receiver": "out",
+      "receiver_type_hint": "Map",
+      "callee_file_hint": "external",
+      "line": 54
+    },
+    {
+      "caller": "countByImplementation",
+      "callee_text": "set",
+      "kind": "method",
+      "receiver": "out",
+      "receiver_type_hint": "Map",
+      "callee_file_hint": "external",
+      "line": 56
+    },
+    {
+      "caller": "countByImplementation",
+      "callee_text": "fromEntries",
+      "kind": "static",
+      "receiver": "Object",
+      "receiver_type_hint": "Object",
+      "callee_file_hint": "external",
+      "line": 61
+    }
+  ],
+  "type_assignments": [
+    {
+      "scope": "countByImplementation",
+      "var": "out",
+      "type": "Map",
+      "type_module": "external",
+      "from_call": "Map"
+    }
+  ],
+  "definitions_rich": [
+    {
+      "name": "countBy",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "args",
+          "type": "readonly unknown[]"
+        }
+      ],
+      "returns": "unknown",
+      "line": 38
+    },
+    {
+      "name": "countByImplementation",
+      "kind": "function",
+      "parent": null,
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "readonly T[]"
+        },
+        {
+          "name": "categorizationFn",
+          "type": null
+        }
+      ],
+      "returns": "BoundedPartial",
+      "line": 42
+    }
+  ]
+}
+```

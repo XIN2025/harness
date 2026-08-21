@@ -1,0 +1,155 @@
+```json
+{
+  "definitions": [
+    {
+      "name": "map",
+      "kind": "function"
+    },
+    {
+      "name": "LazyEvaluator",
+      "kind": "type_alias"
+    },
+    {
+      "name": "Mapped",
+      "kind": "type_alias"
+    },
+    {
+      "name": "purry",
+      "kind": "function"
+    },
+    {
+      "name": "IterableContainer",
+      "kind": "type_alias"
+    },
+    {
+      "name": "LazyEvaluator",
+      "kind": "type_alias"
+    },
+    {
+      "name": "Mapped",
+      "kind": "type_alias"
+    }
+  ],
+  "references": [
+    {
+      "name": "internal/types/IterableContainer",
+      "source": "./internal/types/IterableContainer.ts",
+      "alias": null
+    },
+    {
+      "name": "internal/types/LazyEvaluator",
+      "source": "./internal/types/LazyEvaluator.ts",
+      "alias": null
+    },
+    {
+      "name": "internal/types/Mapped",
+      "source": "./internal/types/Mapped.ts",
+      "alias": null
+    }
+  ],
+  "calls": [
+    {
+      "caller": "__module__",
+      "callee_text": "map",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./src/map.ts",
+      "line": 1
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "map",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./src/map.ts",
+      "line": 2
+    },
+    {
+      "caller": "__module__",
+      "callee_text": "map",
+      "kind": "method",
+      "receiver": null,
+      "receiver_type_hint": null,
+      "callee_file_hint": "./src/map.ts",
+      "line": 3
+    }
+  ],
+  "type_assignments": [
+    {
+      "scope": "__module__",
+      "var": "map",
+      "type": "function",
+      "type_module": null,
+      "from_call": false
+    },
+    {
+      "scope": "__module__",
+      "var": "LazyEvaluator",
+      "type": "type_alias",
+      "type_module": null,
+      "from_call": false
+    },
+    {
+      "scope": "__module__",
+      "var": "Mapped",
+      "type": "type_alias",
+      "type_module": null,
+      "from_call": false
+    }
+  ],
+  "definitions_rich": [
+    {
+      "name": "map",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "readonly T[]"
+        },
+        {
+          "name": "callbackfn",
+          "type": "(value: T, index: number, data: readonly T[]) => U"
+        }
+      ],
+      "returns": "U[]",
+      "line": 1
+    },
+    {
+      "name": "LazyEvaluator",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "callbackfn",
+          "type": "(value: T, index: number, data: readonly T[]) => U"
+        }
+      ],
+      "returns": "LazyEvaluator<T, U>",
+      "line": 2
+    },
+    {
+      "name": "Mapped",
+      "kind": "function",
+      "parent": "__module__",
+      "bases": [],
+      "params": [
+        {
+          "name": "data",
+          "type": "readonly T[]"
+        },
+        {
+          "name": "callbackfn",
+          "type": "(value: T, index: number, data: readonly T[]) => U"
+        }
+      ],
+      "returns": "Mapped<T, U>",
+      "line": 3
+    }
+  ]
+}
+```

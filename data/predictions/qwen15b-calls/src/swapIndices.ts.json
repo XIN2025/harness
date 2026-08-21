@@ -1,0 +1,12 @@
+{"calls": [
+  {"caller": "swapIndices", "callee_text": "swapIndicesImplementation"},
+  {"caller": "swapIndicesImplementation", "callee_text": "swapArray"},
+  {"caller": "swapIndicesImplementation", "callee_text": "data"},
+  {"caller": "swapIndicesImplementation", "callee_text": "index1"},
+  {"caller": "swapIndicesImplementation", "callee_text": "index2"},
+  {"caller": "swapIndicesImplementation", "callee_text": "result"},
+  {"caller": "swapIndicesImplementation", "callee_text": "positiveIndexA"},
+  {"caller": "swapIndicesImplementation", "callee_text": "positiveIndexB"},
+  {"caller": "swapIndicesImplementation", "callee_text": "data[positiveIndexA]"},
+  {"caller": "swapIndicesImplementation", "callee_text": "data[positiveIndexB]"}
+]}

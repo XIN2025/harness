@@ -1,0 +1,10 @@
+{"calls": [
+  {"caller": "dropFirstBy", "callee_text": "purryOrderRulesWithArgument"},
+  {"caller": "dropFirstByImplementation", "callee_text": "slice"},
+  {"caller": "dropFirstByImplementation", "callee_text": "filter"},
+  {"caller": "dropFirstByImplementation", "callee_text": "sort"},
+  {"caller": "dropFirstByImplementation", "callee_text": "reduce"},
+  {"caller": "dropFirstByImplementation", "callee_text": "heapify"},
+  {"caller": "dropFirstByImplementation", "callee_text": "heapMaybeInsert"},
+  {"caller": "dropFirstByImplementation", "callee_text": "push"}
+]}

@@ -1,0 +1,13 @@
+{
+  "key": "2a38ae6ede9533b13d362d9c7a9d2ad98434f64c0e0d281cdfeda1873b4c4737",
+  "model": "harness-qwen15b",
+  "prompt_version": "refs-strict-v1-ca2cfcfbecef+json",
+  "file_sha": "4e86542f46208f217177928fc6443fde8214f3d5e8bd7c21432999baed773e53",
+  "relative_path": "src/partition.ts",
+  "response": "{\"calls\": [], \"callable_refs\": [{\"caller\": \"partition\", \"callee_text\": \"partitionImplementation\"}, {\"caller\": \"partitionImplementation\", \"callee_text\": \"predicate\"}]}",
+  "created": "2026-08-09T05:47:45+00:00",
+  "finish_reason": "stop",
+  "served_by": "",
+  "prompt_tokens": 1290,
+  "completion_tokens": 38
+}

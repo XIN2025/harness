@@ -1,0 +1,5 @@
+{"calls": [
+  {"caller": "takeFirstBy", "callee_text": "purryOrderRulesWithArgument"},
+  {"caller": "takeFirstByImplementation", "callee_text": "heapify"},
+  {"caller": "takeFirstByImplementation", "callee_text": "heapMaybeInsert"}
+]}
