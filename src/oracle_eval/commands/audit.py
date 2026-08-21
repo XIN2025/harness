@@ -89,7 +89,10 @@ def blindspots(
     from oracle_eval.arms.treesitter import Bucket, extract_file
 
     wanted = {name.strip() for name in only.split(",") if name.strip()}
-    repos = sorted(p for p in repos_root.iterdir() if p.is_dir())
+    # A missing directory is the ordinary case in a fresh checkout, not an
+    # exception: the corpus repos live in the sibling tree. Route it into the
+    # message below rather than letting iterdir raise a traceback at a reader.
+    repos = sorted(p for p in repos_root.iterdir() if p.is_dir()) if repos_root.is_dir() else []
     if wanted:
         repos = [p for p in repos if p.name in wanted]
     if not repos:

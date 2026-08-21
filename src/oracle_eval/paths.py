@@ -9,7 +9,6 @@ DEFAULT_REPO = Path("../slm/repos/remeda/packages/remeda")
 
 PREDICTIONS_ROOT = Path("data/predictions")
 RESULTS_ROOT = Path("data/results")
-RENDER_ROOT = Path("data/render")
 
 TEST_SUFFIXES = (".test.ts", ".test-d.ts", ".spec.ts", ".test.tsx")
 TEST_DIRS = ("test/", "tests/", "__tests__/")
@@ -22,7 +21,3 @@ def posix(relative_path: str) -> str:
 def is_test_file(relative_path: str) -> bool:
     path = posix(relative_path)
     return path.endswith(TEST_SUFFIXES) or any(directory in path for directory in TEST_DIRS)
-
-
-def flat_name(relative_path: str) -> str:
-    return posix(relative_path).replace("/", "__")

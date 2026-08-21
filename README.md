@@ -100,7 +100,7 @@ $P -m oracle_eval.cli score selfcheck                          # must print exac
 $P -m oracle_eval.cli score run treesitter --cut calls_only    # the floor: 99.8%
 $P -m oracle_eval.cli hybrid run treesitter qwen15b-refs llama32b-refs --require-agreement
 $P -m oracle_eval.cli oracle blindspots                        # what the oracle cannot see
-$P -m oracle_eval.cli export demo                              # rebuild the dashboard's data
+$P -m oracle_eval.cli export demo                              # rebuild the dashboard's data (needs the sibling tree)
 cd web && pnpm install && pnpm dev
 ```
 
@@ -188,7 +188,7 @@ format and build, plus a check that no em or en dash reaches the rendered site. 
 
 ```
 src/oracle_eval/
-  cli.py            mounts eight command groups, does no work
+  cli.py            mounts seven command groups, does no work
   paths.py          frozen default locations. Imports nothing from the package
   console.py        the one Console; stdout hardened at the entry point
   loading.py        THE corpus + oracle loader, both integrity checks live here
@@ -199,7 +199,6 @@ src/oracle_eval/
   arms/             prompts, the immutable response cache, providers, tree-sitter
   predict/          fence-strip parsing and the answer schema
   score/            matching, cuts, metrics with bootstrap CIs, ensemble, hybrid
-  render/           the static per-file graph inspector
   export/           the demo's one JSON, and the frozen list of rows it may show
 tests/              74 tests, on the scoring path and the frozen rules, nothing else
 tools/              corpus extraction, the SCIP cross-check, the local model definitions

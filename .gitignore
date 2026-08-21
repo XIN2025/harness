@@ -12,12 +12,12 @@ build/
 .env.local
 .env.*.local
 
+# The scip index is a one-off cross-validation and is 14 MB. The tsmorph
+# oracles, the stored responses and the scored results ship, because
+# "Run it yourself" is a claim this repository has to be able to keep.
 data/oracle/**/*.scip
-data/oracle/**/*.jsonl
+data/oracle/**/index.jsonl
 data/oracle/adjudication.md
-data/cache/
-data/predictions/
-data/results/
 data/*.log
 data/render/
 data/bundle/
