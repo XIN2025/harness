@@ -30,7 +30,9 @@ residue. Nothing was rescued after the fact.
 down before any model ran; the third, "the naive parser wins", is the one that fired, and the
 reframe onto the residue was already on paper when it did. Round 2's ensemble was **dropped by its
 own kill switch** at 82.8% pairwise error overlap against a threshold of 80% fixed before the
-number existed. The 38-file test split and the held-out repository have never been scored.
+number existed. The 38-file test split and the held-out repository have never been scored. None of
+the registered model arms has a response for any test file, and the immutable cache contains zero
+matching test-file entries, so spending that split still requires one frozen generation pass first.
 
 ---
 
@@ -67,6 +69,15 @@ same edge lifts addition precision to 82%.
 higher-order functions, so 27% of its edges are type-dependent against hexo's 3%. The 84.2 to 93.1
 result may be a fact about functional TypeScript rather than about TypeScript.
 
+### The reporting audit is now visible
+
+The preregistered primary figures above remain pooled micro metrics. Every scored row now also
+publishes macro F1, defined as the mean per-file F1 over files with a non-empty oracle or prediction,
+and worst-case precision with every cut-excluded prediction charged as a false positive. For the
+Round 1 agreement hybrid, macro F1 is **93.1% [89.8 to 94.9]**; worst-case precision is
+**84.5% [79.6 to 88.2]** after charging all 58 unscored predictions. These are disclosures beside
+the primary metric, not replacement endpoints selected after seeing the results.
+
 ---
 
 ## Setup
@@ -84,14 +95,15 @@ model, or a checkout of the repository the corpus was drawn from.
 
 **What this repository does not carry.** The `ts-morph` extractor that builds ground truth, and the
 two prompt templates, live in the sibling project this harness was split out of. Rebuilding the
-oracle from source and running an arm against a live model both need that tree; scoring does not,
-because every response is stored and re-scored from disk. Commands that need it say so and stop
-rather than failing halfway.
+oracle from source and running an arm against a live model both need that tree; scoring the reported
+dev results does not, because every dev response used by those results is stored and re-scored from
+disk. Commands that need the sibling tree say so and stop rather than failing halfway.
 
 ## Run it yourself
 
-Nothing below calls a model. Every arm's raw responses are on disk and every score is re-derived
-from them, because LLM APIs are not deterministic even at temperature 0.
+Nothing below calls a model. Every raw response used by the reported dev results is on disk and every
+score is re-derived from it, because LLM APIs are not deterministic even at temperature 0. This does
+not include the untouched test split; its registered model responses do not exist yet.
 
 ```bash
 P=./.venv/Scripts/python.exe
@@ -144,10 +156,13 @@ so a hand-edited manifest is refused. The rule and the frozen manifest are both 
 
 ## How far the oracle is trusted
 
-**Hand-adjudicated: 22/22 correct**, each row checked against its quoted source line. With n=22 and
-no errors that supports **precision ≥86% at 95% confidence** (rule of three). Not "100%": the sample
-needs to reach ~60 edges to claim ≥95%, and that is the highest-value hour left in the project.
-`harness oracle adjudicate --files ...` emits the blank sheet.
+**Hand-adjudicated: 60/60 correct**, each row checked against its quoted source line without
+consulting arm predictions or test scores. The deterministic SHA-256 sample is drawn from 534
+eligible non-test remeda edges and excludes all 38 frozen test files. With n=60 and no errors, the
+rule-of-three lower bound is **precision ≥95% at 95% confidence** for that sampled population. This
+is not a claim of 100% precision, and it does not establish recall. `harness oracle
+adjudication-status --minimum 60` verifies the completed sheet and fails closed on N or incomplete
+rows.
 
 **Cross-validated against `scip-typescript`**, third-party and compiler-accurate:
 
@@ -177,12 +192,15 @@ scored until the walk is widened or those files are excluded and the count publi
 ./.venv/Scripts/python.exe -m ruff check .
 ./.venv/Scripts/python.exe -m ruff format --check .
 ./.venv/Scripts/python.exe -m mypy --strict          # src, tests and tools
+./.venv/Scripts/python.exe -m oracle_eval.cli oracle adjudication-status --minimum 60
 ./.venv/Scripts/python.exe -m pytest -q              # 74 passed
+pnpm --dir web verify                                # emits web/out/index.html
 ```
 
-All four run in CI on every push and pull request, together with the web app's typecheck, lint,
-format and build, plus a check that no em or en dash reaches the rendered site. The point is that
-"lint, format and types are clean" stops being a claim in a handoff document.
+These run in CI on every push and pull request, together with a check that the adjudication gate is
+still complete, the web build emitted the evidence-only static export, and no em or en dash reaches
+the rendered site. The point is that "lint, format and types are clean" stops being a claim in a
+handoff document.
 
 ## Layout
 

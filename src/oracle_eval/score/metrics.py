@@ -60,7 +60,22 @@ def _f1(tp: Counts, fp: Counts, fn: Counts, axis: int = -1) -> Counts:
     return _safe_divide(2 * t, 2 * t + f + m)
 
 
-_STATISTICS = {"precision": _precision, "recall": _recall, "f1": _f1}
+def _macro_f1(tp: Counts, fp: Counts, fn: Counts, axis: int = -1) -> Counts:
+    denominator = (2 * tp) + fp + fn
+    per_file = _safe_divide(2 * tp, denominator)
+    eligible = denominator > 0
+    return _safe_divide(
+        np.asarray(per_file, dtype=float).sum(axis=axis),
+        np.asarray(eligible, dtype=float).sum(axis=axis),
+    )
+
+
+_STATISTICS = {
+    "precision": _precision,
+    "recall": _recall,
+    "f1": _f1,
+    "macro_f1": _macro_f1,
+}
 
 
 def _interval(
@@ -107,6 +122,8 @@ class ArmScore:
     precision: Interval
     recall: Interval
     f1: Interval
+    macro_f1: Interval
+    precision_unscored_as_fp: Interval
 
     @property
     def tp(self) -> int:
@@ -132,6 +149,10 @@ class ArmScore:
     def n_files(self) -> int:
         return len(self.files)
 
+    @property
+    def macro_f1_files(self) -> int:
+        return sum(1 for score in self.files if (2 * score.tp) + score.fp + score.fn > 0)
+
     def render(self) -> str:
         return f"P {self.precision.render()}   R {self.recall.render()}   F1 {self.f1.render()}"
 
@@ -156,6 +177,7 @@ def aggregate(
     tp = np.array([f.tp for f in scores], dtype=float)
     fp = np.array([f.fp for f in scores], dtype=float)
     fn = np.array([f.fn for f in scores], dtype=float)
+    unscored = np.array([len(f.unscored) for f in scores], dtype=float)
 
     def interval(name: str) -> Interval:
         return _interval(
@@ -167,4 +189,14 @@ def aggregate(
         precision=interval("precision"),
         recall=interval("recall"),
         f1=interval("f1"),
+        macro_f1=interval("macro_f1"),
+        precision_unscored_as_fp=_interval(
+            "precision",
+            tp,
+            fp + unscored,
+            fn,
+            n_resamples=n_resamples,
+            confidence=confidence,
+            seed=seed,
+        ),
     )

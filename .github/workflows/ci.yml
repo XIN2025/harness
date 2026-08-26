@@ -32,6 +32,9 @@ jobs:
       - name: mypy --strict
         run: mypy --strict
 
+      - name: oracle adjudication gate
+        run: python -m oracle_eval.cli oracle adjudication-status --minimum 60
+
       - name: pytest
         run: pytest -q
 
@@ -67,6 +70,9 @@ jobs:
 
       - name: build
         run: pnpm build
+
+      - name: static export exists
+        run: test -f out/index.html
 
       - name: no em or en dashes in rendered output
         run: |

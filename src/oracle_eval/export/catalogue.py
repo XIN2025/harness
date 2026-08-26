@@ -136,19 +136,22 @@ HEADROOM: tuple[HeadroomRow, ...] = (
         "Three edges of room. Running the hybrid here would measure its error rate, "
         "not its benefit.",
     ),
+    HeadroomRow(
+        "ts-nest.dev.full",
+        "nest",
+        "decorator-heavy framework core",
+        "Fourteen edges of room across 43 files. The parser still reaches 95% of the "
+        "full oracle without a model.",
+    ),
+    HeadroomRow(
+        "ts-tus.dev.full",
+        "tus-node-server",
+        "HTTP upload server",
+        "Ten edges of room across seven files. The parser reaches 94% of the full oracle.",
+    ),
 )
 
-UNSCOREABLE: tuple[dict[str, str], ...] = (
-    {
-        "repo": "nest",
-        "reason": "Corpus drifted from its frozen manifest. Unscoreable on the "
-        "full cut without re-freezing or an explicit --allow-drift.",
-    },
-    {
-        "repo": "tus-node-server",
-        "reason": "Corpus drifted from its frozen manifest. Same fault, same fix.",
-    },
-)
+UNSCOREABLE: tuple[dict[str, str], ...] = ()
 
 OVERLAPS: tuple[Row, ...] = (
     Row("ensemble-2of2.dev.calls_only.overlap", "calls arms · Round 1", short="calls · R1"),

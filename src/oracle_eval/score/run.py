@@ -57,6 +57,10 @@ class ArmReport:
             f"{self.arm}  ·  {self.split}  ·  cut={self.cut.value}\n"
             f"  validity   {self.validity.render()}\n"
             f"  accuracy   {self.score.render()}\n"
+            f"  sensitivity P(unscored=FP) "
+            f"{self.score.precision_unscored_as_fp.render()}\n"
+            f"  macro      F1 {self.score.macro_f1.render()} "
+            f"over {self.score.macro_f1_files} non-empty files\n"
             f"  counts     {self.score.render_counts()}"
         )
 
@@ -90,6 +94,26 @@ class ArmReport:
                     ("recall", self.score.recall),
                     ("f1", self.score.f1),
                 )
+            },
+            "macro": {
+                "definition": "mean_per_file_f1_over_nonempty_files",
+                "eligible_files": self.score.macro_f1_files,
+                "f1": {
+                    "point": self.score.macro_f1.point,
+                    "low": self.score.macro_f1.low,
+                    "high": self.score.macro_f1.high,
+                    "method": self.score.macro_f1.method,
+                },
+            },
+            "sensitivity": {
+                "definition": "unscored_predictions_counted_as_false_positives",
+                "charged_unscored": self.score.unscored,
+                "precision": {
+                    "point": self.score.precision_unscored_as_fp.point,
+                    "low": self.score.precision_unscored_as_fp.low,
+                    "high": self.score.precision_unscored_as_fp.high,
+                    "method": self.score.precision_unscored_as_fp.method,
+                },
             },
         }
 
