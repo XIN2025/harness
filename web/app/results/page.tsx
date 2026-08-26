@@ -197,7 +197,10 @@ export default function ResultsPage() {
             >
               explorer
             </Link>
-            .
+            . Primary precision, recall and F1 are micro-averaged as
+            preregistered. Macro F1 is the mean per-file F1 over non-empty
+            files. The sensitivity column charges every cut-excluded prediction
+            as a false positive, the deliberately worst-case endpoint.
           </>
         }
       >

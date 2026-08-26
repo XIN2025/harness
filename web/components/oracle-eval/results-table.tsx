@@ -49,6 +49,16 @@ export function ResultsTable({
                 </div>
               ))}
               <div className="contents">
+                <dt className="text-muted-foreground">Macro F1</dt>
+                <dd className="text-right">{withInterval(row.macro.f1)}</dd>
+              </div>
+              <div className="contents">
+                <dt className="text-muted-foreground">P, unscored=FP</dt>
+                <dd className="text-right">
+                  {withInterval(row.sensitivity.precision)}
+                </dd>
+              </div>
+              <div className="contents">
                 <dt className="text-muted-foreground">tp · fp · fn</dt>
                 <dd className="text-right">{counts(row)}</dd>
               </div>
@@ -69,6 +79,10 @@ export function ResultsTable({
                   {label}
                 </TableHead>
               ))}
+              <TableHead className="text-right">Macro F1</TableHead>
+              <TableHead className="text-right whitespace-nowrap">
+                P, unscored=FP
+              </TableHead>
               <TableHead className="text-right whitespace-nowrap">
                 tp · fp · fn
               </TableHead>
@@ -91,6 +105,12 @@ export function ResultsTable({
                     {withInterval(row.metrics[key])}
                   </TableCell>
                 ))}
+                <TableCell className="py-3 text-right align-top font-mono text-[11px] whitespace-nowrap tabular">
+                  {withInterval(row.macro.f1)}
+                </TableCell>
+                <TableCell className="py-3 text-right align-top font-mono text-[11px] whitespace-nowrap tabular">
+                  {withInterval(row.sensitivity.precision)}
+                </TableCell>
                 <TableCell className="py-3 text-right align-top font-mono text-[11px] whitespace-nowrap tabular">
                   {counts(row)}
                 </TableCell>

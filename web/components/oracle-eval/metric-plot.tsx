@@ -79,6 +79,18 @@ function Detail({ row }: { row: ResultRow }) {
             </div>
           ))}
           <div className="contents">
+            <dt className="text-background/60">Macro F1</dt>
+            <dd className="text-right whitespace-nowrap">
+              {withInterval(row.macro.f1)}
+            </dd>
+          </div>
+          <div className="contents">
+            <dt className="text-background/60">P, unscored=FP</dt>
+            <dd className="text-right whitespace-nowrap">
+              {withInterval(row.sensitivity.precision)}
+            </dd>
+          </div>
+          <div className="contents">
             <dt className="text-background/60">Right</dt>
             <dd className="text-right">{counts.tp}</dd>
           </div>

@@ -40,7 +40,7 @@ export function PipelineDiagram({
     { title: "ts-morph", lines: ["compiler API"] },
     {
       title: "oracle",
-      lines: [`${oracleEdges} edges`, "22/22 checked"],
+      lines: [`${oracleEdges} edges`, "60/60 checked"],
     },
   ];
 
