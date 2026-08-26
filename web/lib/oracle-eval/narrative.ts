@@ -101,7 +101,7 @@ export const DECISIONS: readonly Decision[] = [
     title: "Micro-averaged F1 on function-to-function call edges",
     intent:
       "Four defensible denominators existed; choosing the most conservative in advance is the only way a headline is not simply a choice of denominator.",
-    body: "It is also the source of two open metric gaps, both stated on the limits page rather than left to be found.",
+    body: "The preregistered headline remains micro-averaged. Macro F1 and the worst-case unscored sensitivity are now published beside it, so the denominator choice is visible without changing the headline after seeing the result.",
   },
   {
     id: "D-5",
@@ -216,9 +216,11 @@ export const FAILURES: readonly Failure[] = [
   },
   {
     id: "F-17",
-    title: "Two of the extra corpora drifted from their frozen manifests",
-    body: "They are currently unscoreable without re-freezing, and they are named as such on the headroom table rather than quietly dropped from it.",
-    lesson: "Freezing is not a one-time act.",
+    title:
+      "Two frozen corpora looked drifted because the wrong package roots were checked",
+    body: "Nest and tus are monorepos. Checking their repository roots made every package-relative path appear missing; checking packages/common and packages/server respectively verifies both manifests and makes both full-cut headroom runs scoreable.",
+    lesson:
+      "The checkout path is part of an evidence claim, not incidental command plumbing.",
   },
 ];
 
@@ -234,20 +236,20 @@ export const LIMITS: readonly Note[] = [
     body: "Not only the prompts: the output schema, a caller-alias rule, the normalisation, the cut definitions, the parser arm and the oracle adjudication were all shaped by that one repository. Any number the instrument produces on it is a number produced by a tool it shaped.",
   },
   {
-    title: "The headline may sit inside oracle noise",
-    body: "Oracle precision rests on a hand-checked sample, and the hybrid figure is not cleanly separated from that bound. Adjudicating more rows is the highest-value work remaining, and it is reading rather than engineering.",
+    title: "The oracle precision bound is scoped, not universal",
+    body: "A deterministic 60-edge sample from the non-test Remeda oracle was adjudicated 60/60 correct, giving a zero-error rule-of-three lower bound of 95.0%. That closes the preregistered precision gate for this sample; it does not establish oracle recall, test-split accuracy, or cross-repository generalisation.",
   },
   {
     title: "The weighting is a convention, not a justified choice",
     body: "A spurious edge and a missed edge do not cost the same downstream, and F1 weights them equally here because that is the convention, not because the trade-off was argued.",
   },
   {
-    title: "Every figure is micro-averaged",
-    body: "Counts are pooled across files, so a file with forty edges counts forty times a file with one. No per-file mean exists yet.",
+    title: "The headline remains micro-averaged",
+    body: "Counts are pooled across files, so a file with forty edges counts forty times a file with one. Macro F1 is now reported beside every row as the mean per-file F1 over non-empty files; it is a sensitivity view, not a post-hoc replacement headline.",
   },
   {
-    title: "Unscored predictions are an unaudited escape hatch",
-    body: "Precision is computed after removing predictions the cut excluded, and what it would be if those counted as errors has never been published. The named fix is a risk-coverage curve.",
+    title: "The cut still determines which predictions enter the headline",
+    body: "Every row now publishes the worst-case endpoint where all cut-excluded predictions count as false positives. That closes the hidden escape hatch, but a full risk-coverage curve would still show the trade-off between the two endpoints more completely.",
   },
   {
     title: "And the deepest one: this measures reproduction, not usefulness",
@@ -272,20 +274,9 @@ export const QUALIFIED: readonly string[] = [
 
 export const NEXT: readonly Note[] = [
   {
-    title: "Adjudicate a larger sample of oracle rows",
-    body: "Everything else is downstream of the oracle being trustworthy, and the current headline is not cleanly separated from the oracle's own error bound. Roughly an hour of reading.",
-  },
-  {
-    title: "Publish the headroom table as a scope claim",
-    body: "Already measured, costs nothing, and turns the study's largest weakness into a stated limit. It is on the results page.",
-  },
-  {
-    title: "Add the unscored-sensitivity analysis and a macro-averaged figure",
-    body: "Pure code, no new model runs, and it closes two of the four metric gaps.",
-  },
-  {
-    title: "Spend the held-back test split, once",
-    body: "It does not test cross-repository generalisation, since nothing currently can, but it answers a different real question: did three rounds of prompt iteration overfit the split they were tuned on?",
+    title:
+      "Generate every registered arm's frozen test response, then spend the split once",
+    body: "The 38 test files have no matching prediction or response-cache artefacts on disk. Scoring a partial set would waste the one-shot holdout. Once all registered arms are complete, the split can answer whether three rounds of prompt iteration overfit dev; it still will not test cross-repository generalisation.",
   },
   {
     title: "Run a second extractor as an arm inside the harness",

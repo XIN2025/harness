@@ -11,6 +11,18 @@ export type Metrics = {
   readonly f1: Interval;
 };
 
+export type MacroMetrics = {
+  readonly definition: string;
+  readonly eligible_files: number;
+  readonly f1: Interval;
+};
+
+export type Sensitivity = {
+  readonly definition: string;
+  readonly charged_unscored: number;
+  readonly precision: Interval;
+};
+
 export type MetricName = keyof Metrics;
 
 export type Validity = {
@@ -39,6 +51,8 @@ export type ResultRow = {
   readonly validity: Validity;
   readonly counts: Counts;
   readonly metrics: Metrics;
+  readonly macro: MacroMetrics;
+  readonly sensitivity: Sensitivity;
   readonly base?: Omit<ResultRow, "label" | "short" | "note" | "source">;
   readonly additions?: readonly string[];
 };
