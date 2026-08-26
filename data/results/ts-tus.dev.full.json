@@ -1,7 +1,7 @@
 {
   "arm": "ts-tus",
   "split": "dev",
-  "cut": "calls_only",
+  "cut": "full",
   "validity": {
     "total": 7,
     "raw_valid": 7,
@@ -11,7 +11,7 @@
   "counts": {
     "tp": 162,
     "fp": 0,
-    "fn": 0,
+    "fn": 10,
     "unscored": 36,
     "files": 7
   },
@@ -23,26 +23,26 @@
       "method": "percentile"
     },
     "recall": {
-      "point": 1.0,
-      "low": 1.0,
-      "high": 1.0,
-      "method": "percentile"
+      "point": 0.9418604651162791,
+      "low": 0.8944444444444444,
+      "high": 0.971830985915493,
+      "method": "BCa"
     },
     "f1": {
-      "point": 1.0,
-      "low": 1.0,
-      "high": 1.0,
-      "method": "percentile"
+      "point": 0.9700598802395209,
+      "low": 0.9442815249266863,
+      "high": 0.9858356940509916,
+      "method": "BCa"
     }
   },
   "macro": {
     "definition": "mean_per_file_f1_over_nonempty_files",
     "eligible_files": 7,
     "f1": {
-      "point": 1.0,
-      "low": 1.0,
-      "high": 1.0,
-      "method": "percentile"
+      "point": 0.9757558212614393,
+      "low": 0.9475655430711611,
+      "high": 0.9915215870272049,
+      "method": "BCa"
     }
   },
   "sensitivity": {

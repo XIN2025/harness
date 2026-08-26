@@ -5,7 +5,7 @@ P 13.9% [6.4% to 23.4%]   R 3.0% [1.5% to 5.3%]   F1 5.0% [2.5% to 8.5%]
 
 `-` missed by the arm (in the oracle, not predicted)
 `+` spurious (predicted, not in the oracle)
-`~` unscored — this cut excludes the class, so it counts against neither side
+`~` unscored, this cut excludes the class, so it counts against neither side
 
 ## src/isDeepEqual.ts  (tp 0, fp 0, fn 17, unscored 0)
   - isDeepEqual -> purry

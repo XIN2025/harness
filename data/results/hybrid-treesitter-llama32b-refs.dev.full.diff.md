@@ -5,7 +5,7 @@ P 75.4% [69.8% to 80.5%]   R 92.7% [90.0% to 95.0%]   F1 83.2% [79.6% to 86.3%]
 
 `-` missed by the arm (in the oracle, not predicted)
 `+` spurious (predicted, not in the oracle)
-`~` unscored — this cut excludes the class, so it counts against neither side
+`~` unscored, this cut excludes the class, so it counts against neither side
 
 ## src/randomString.ts  (tp 4, fp 9, fn 0, unscored 2)
   + randomString -> ALPHABET

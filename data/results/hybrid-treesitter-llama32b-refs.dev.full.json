@@ -35,6 +35,26 @@
       "method": "BCa"
     }
   },
+  "macro": {
+    "definition": "mean_per_file_f1_over_nonempty_files",
+    "eligible_files": 112,
+    "f1": {
+      "point": 0.8232160345121977,
+      "low": 0.7825278884135478,
+      "high": 0.8554022473169165,
+      "method": "BCa"
+    }
+  },
+  "sensitivity": {
+    "definition": "unscored_predictions_counted_as_false_positives",
+    "charged_unscored": 58,
+    "precision": {
+      "point": 0.6834415584415584,
+      "low": 0.6284913059514344,
+      "high": 0.7317073170731707,
+      "method": "BCa"
+    }
+  },
   "base": {
     "arm": "treesitter",
     "split": "dev",
@@ -69,6 +89,26 @@
         "point": 0.8418367346938775,
         "low": 0.8175388967468176,
         "high": 0.8671914910501883,
+        "method": "BCa"
+      }
+    },
+    "macro": {
+      "definition": "mean_per_file_f1_over_nonempty_files",
+      "eligible_files": 110,
+      "f1": {
+        "point": 0.8179627114212095,
+        "low": 0.7949546733811215,
+        "high": 0.8412574293794434,
+        "method": "BCa"
+      }
+    },
+    "sensitivity": {
+      "definition": "unscored_predictions_counted_as_false_positives",
+      "charged_unscored": 58,
+      "precision": {
+        "point": 0.8505154639175257,
+        "low": 0.8049972124782101,
+        "high": 0.8907103825136612,
         "method": "BCa"
       }
     }

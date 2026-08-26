@@ -5,7 +5,7 @@ P 100.0% [100.0% to 100.0%] (percentile)   R 97.2% [95.4% to 98.4%]   F1 98.6% [
 
 `-` missed by the arm (in the oracle, not predicted)
 `+` spurious (predicted, not in the oracle)
-`~` unscored — this cut excludes the class, so it counts against neither side
+`~` unscored, this cut excludes the class, so it counts against neither side
 
 ## lib/extend/renderer.ts  (tp 8, fp 0, fn 2, unscored 5)
   - getOutput -> renderer

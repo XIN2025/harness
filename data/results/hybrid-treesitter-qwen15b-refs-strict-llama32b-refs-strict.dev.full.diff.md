@@ -5,7 +5,7 @@ P 96.2% [91.5% to 98.2%]   R 88.8% [85.8% to 91.6%]   F1 92.3% [89.9% to 94.3%]
 
 `-` missed by the arm (in the oracle, not predicted)
 `+` spurious (predicted, not in the oracle)
-`~` unscored — this cut excludes the class, so it counts against neither side
+`~` unscored, this cut excludes the class, so it counts against neither side
 
 ## src/isEmpty.ts  (tp 0, fp 5, fn 0, unscored 2)
   + isEmpty -> hasAtLeast

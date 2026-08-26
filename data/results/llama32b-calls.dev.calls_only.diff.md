@@ -5,7 +5,7 @@ P 36.7% [31.4% to 41.8%]   R 63.1% [53.8% to 71.1%]   F1 46.4% [41.0% to 51.4%]
 
 `-` missed by the arm (in the oracle, not predicted)
 `+` spurious (predicted, not in the oracle)
-`~` unscored — this cut excludes the class, so it counts against neither side
+`~` unscored, this cut excludes the class, so it counts against neither side
 
 ## src/intersection.ts  (tp 1, fp 14, fn 4, unscored 1)
   - lazyImplementation -> Map

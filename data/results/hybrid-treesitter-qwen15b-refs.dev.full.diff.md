@@ -5,7 +5,7 @@ P 79.8% [75.4% to 83.3%]   R 92.1% [89.1% to 94.6%]   F1 85.5% [82.8% to 87.8%]
 
 `-` missed by the arm (in the oracle, not predicted)
 `+` spurious (predicted, not in the oracle)
-`~` unscored — this cut excludes the class, so it counts against neither side
+`~` unscored, this cut excludes the class, so it counts against neither side
 
 ## src/internal/purryOrderRules.ts  (tp 10, fp 3, fn 3, unscored 1)
   - orderRuleComparer -> primaryRule

@@ -5,7 +5,7 @@ P 100.0% [100.0% to 100.0%] (percentile)   R 100.0% [100.0% to 100.0%] (percenti
 
 `-` missed by the arm (in the oracle, not predicted)
 `+` spurious (predicted, not in the oracle)
-`~` unscored — this cut excludes the class, so it counts against neither side
+`~` unscored, this cut excludes the class, so it counts against neither side
 
 ## lib/box/file.ts  (tp 0, fp 0, fn 0, unscored 4)
   ~ read -> readFile

@@ -5,7 +5,7 @@ P 100.0% [100.0% to 100.0%] (percentile)   R 98.8% [97.3% to 99.6%]   F1 99.4% [
 
 `-` missed by the arm (in the oracle, not predicted)
 `+` spurious (predicted, not in the oracle)
-`~` unscored — this cut excludes the class, so it counts against neither side
+`~` unscored, this cut excludes the class, so it counts against neither side
 
 ## src/dom.ts  (tp 34, fp 0, fn 1, unscored 2)
   - addLayoutListener -> listener

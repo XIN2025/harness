@@ -34,5 +34,25 @@
       "high": 0.9982293518094556,
       "method": "BCa"
     }
+  },
+  "macro": {
+    "definition": "mean_per_file_f1_over_nonempty_files",
+    "eligible_files": 25,
+    "f1": {
+      "point": 0.9950292092375768,
+      "low": 0.9790696462838498,
+      "high": 0.999245283018868,
+      "method": "BCa"
+    }
+  },
+  "sensitivity": {
+    "definition": "unscored_predictions_counted_as_false_positives",
+    "charged_unscored": 83,
+    "precision": {
+      "point": 0.7484848484848485,
+      "low": 0.6332046332046332,
+      "high": 0.8465385308106442,
+      "method": "BCa"
+    }
   }
 }

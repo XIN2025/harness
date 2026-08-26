@@ -35,6 +35,26 @@
       "method": "BCa"
     }
   },
+  "macro": {
+    "definition": "mean_per_file_f1_over_nonempty_files",
+    "eligible_files": 111,
+    "f1": {
+      "point": 0.5448201448201448,
+      "low": 0.47241917435375724,
+      "high": 0.6153827400928902,
+      "method": "BCa"
+    }
+  },
+  "sensitivity": {
+    "definition": "unscored_predictions_counted_as_false_positives",
+    "charged_unscored": 24,
+    "precision": {
+      "point": 0.6732673267326733,
+      "low": 0.5916730524164378,
+      "high": 0.7446808510638298,
+      "method": "BCa"
+    }
+  },
   "arms": [
     "qwen15b-calls",
     "llama32b-calls"

@@ -5,7 +5,7 @@ P 100.0% [100.0% to 100.0%] (percentile)   R 72.7% [69.1% to 76.6%]   F1 84.2% [
 
 `-` missed by the arm (in the oracle, not predicted)
 `+` spurious (predicted, not in the oracle)
-`~` unscored — this cut excludes the class, so it counts against neither side
+`~` unscored, this cut excludes the class, so it counts against neither side
 
 ## src/pipe.ts  (tp 13, fp 0, fn 4, unscored 1)
   - pipe -> lazyOp
