@@ -34,6 +34,16 @@ number existed. The 38-file test split and the held-out repository have never be
 the registered model arms has a response for any test file, and the immutable cache contains zero
 matching test-file entries, so spending that split still requires one frozen generation pass first.
 
+### Test split rule (fixed 2026-09-27, before any test response exists)
+
+- **Arms:** tree-sitter; qwen2.5-coder 1.5B and llama3.2 3B with the frozen `calls` and `refs`
+  prompts (JSON mode, temperature 0, 4096 max tokens, the dev-round Ollama tags); and the `refs`
+  agreement hybrid. Nothing else is scored on test.
+- **Verdict:** the hybrid's improvement *replicates* only if its test 95% CI on the `full` cut lies
+  entirely above tree-sitter's. If the intervals overlap, the result is *no measured change*.
+- **Always reported:** every arm's test F1 beside its dev F1, and the dev→test gap, whatever it is.
+- The split is generated and scored once. No arm is re-run after seeing a test number.
+
 ---
 
 ## The headline numbers

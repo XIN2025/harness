@@ -17,7 +17,6 @@ build/
 # "Run it yourself" is a claim this repository has to be able to keep.
 data/oracle/**/*.scip
 data/oracle/**/index.jsonl
-data/oracle/adjudication.md
 data/*.log
 data/render/
 data/bundle/
